@@ -11938,5 +11938,311 @@ author: "David Haass",reviewer: "Ashlee Zareczny",readTime: "12 min read",featur
     "exploring-your-medigap-options-beyond-medicare-plan-f-and-plan-g",
     "10-questions-to-ask-before-buying-a-medicare-supplement-plan"
   ]
-}
+},
+  {
+    "slug": "strategies-for-choosing-medicare-part-d-plan",
+    "seo": {
+      "focusKeyword": "strategies for choosing Medicare Part D prescription drug plans",
+      "title": "Top 5 Strategies for Choosing a Medicare Part D Plan",
+      "description": "Discover the top 5 strategies for choosing a Medicare Part D prescription drug plan. Learn how to compare costs, formularies, and coverage to save money.",
+      "canonical": "https://www.medicarefaq.com/blog/strategies-for-choosing-medicare-part-d-plan/",
+      "ogImage": "/images/generated/medicare-part-d-plan.png"
+    },
+    "title": "Top 5 Strategies for Choosing a Medicare Part D Prescription Drug Plan",
+    "category": "Medicare Part D",
+    "categoryColor": "#7C3AED",
+    "date": "August 19, 2026",
+    "author": "David Haass",
+    "reviewer": "Ashlee Zareczny",
+    "readTime": "12 min read",
+    "featured": false,
+    "image": "/images/generated/medicare-part-d-plan.png",
+    "imageAlt": "Older adult reviewing Medicare Part D prescription drug plan options and medication costs",
+    "excerpt": "A low Part D premium can hide expensive deductibles, copays, and pharmacy costs. Use these five strategies to compare plans around your prescriptions, budget, and coverage needs.",
+    "answerBlock": "Choose a Medicare Part D plan by comparing each plan's total estimated annual cost for your exact medications, not its premium alone. Check the deductible, drug formulary tiers, preferred pharmacies, IRMAA surcharge, and Extra Help eligibility before enrolling or renewing coverage.",
+    "tableOfContents": [
+      {
+        "id": "part-d-basics",
+        "title": "Start With 2026 Part D Cost Benchmarks"
+      },
+      {
+        "id": "total-annual-cost",
+        "title": "Strategy 1: Compare Total Annual Cost"
+      },
+      {
+        "id": "formulary-networks",
+        "title": "Strategy 2: Check Formularies and Pharmacies"
+      },
+      {
+        "id": "irmaa",
+        "title": "Strategy 3: Account for IRMAA"
+      },
+      {
+        "id": "extra-help",
+        "title": "Strategy 4: Check for Extra Help"
+      },
+      {
+        "id": "avoid-penalty",
+        "title": "Strategy 5: Preserve Creditable Coverage"
+      },
+      {
+        "id": "decision-checklist",
+        "title": "Your Part D Decision Checklist"
+      },
+      {
+        "id": "faqs",
+        "title": "Frequently Asked Questions"
+      }
+    ],
+    "keyTakeaways": [
+      "The 2026 maximum Part D deductible is $615, and the annual out-of-pocket cap is $2,100.",
+      "The right plan is the one with the lowest estimated total annual cost for your medications and pharmacy choices, not necessarily the lowest premium.",
+      "Higher-income beneficiaries may pay a Part D IRMAA surcharge of $14.50 to $91.00 per month in addition to their plan premium."
+    ],
+    "sections": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Start With 2026 Medicare Part D Cost Benchmarks",
+        "id": "part-d-basics"
+      },
+      {
+        "type": "paragraph",
+        "content": "Choosing a Medicare Part D prescription drug plan is easier when you start with the costs that apply across the market. In 2026, the average Part D premium is $34.50 per month, the maximum deductible is $615, and the annual Part D out-of-pocket cap is $2,100. Those numbers give you a baseline, but they do not tell you what a particular plan will cost for your medications."
+      },
+      {
+        "type": "paragraph",
+        "content": "Your personal total depends on the drugs you take, the plan's deductible, each drug's formulary tier, your pharmacy, and any income-related surcharge. The five strategies below turn those moving pieces into a practical decision process. For a broader overview of current costs, see [Medicare costs in 2026](/new-to-medicare/costs/)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Strategy 1: Compare Total Annual Cost, Not Just the Premium",
+        "id": "total-annual-cost"
+      },
+      {
+        "type": "paragraph",
+        "content": "A plan's monthly premium is visible, but it is not the whole price. Add the premium, deductible, copays, and coinsurance for your prescriptions across the year before deciding. A plan with a low premium can become expensive when your medications have high cost-sharing."
+      },
+      {
+        "type": "table",
+        "title": "Why total annual cost matters",
+        "headers": [
+          "Example",
+          "Monthly premium",
+          "Monthly drug cost",
+          "Estimated annual total"
+        ],
+        "rows": [
+          [
+            "Plan A",
+            "$0",
+            "$300",
+            "$3,600"
+          ],
+          [
+            "Plan B",
+            "$42",
+            "$77",
+            "$1,428"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "In this illustration, Plan B has a higher premium but a lower estimated annual total because its drug cost-sharing is more favorable. Use [Medicare Plan Finder](https://www.medicare.gov/plan-compare/) to enter your exact medications, doses, and preferred pharmacies. Then compare the total estimated yearly cost instead of sorting by premium alone."
+      },
+      {
+        "type": "paragraph",
+        "content": "If you want a starting list of plan options to compare, our guide to the [best Medicare Part D plans](/faqs/top-5-medicare-prescription-drug-plans/) explains the differences among common plan designs. It should support, not replace, a personalized cost comparison."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Strategy 2: Check Formularies and Preferred Pharmacy Networks",
+        "id": "formulary-networks"
+      },
+      {
+        "type": "paragraph",
+        "content": "Every Part D plan has a formulary, which is its list of covered drugs. The formulary places drugs in cost tiers, and the tier often matters more than the advertised premium. A medication can be inexpensive under one plan and costly under another because it sits in a different tier or carries different utilization rules."
+      },
+      {
+        "type": "paragraph",
+        "content": "Review each medication by name, dosage, and frequency. Confirm that it is covered, identify its tier, and note whether the plan requires prior authorization, step therapy, or quantity limits. Our explanation of a [Medicare Part D formulary](/faqs/what-is-a-medicare-part-d-formulary/) can help you interpret those terms before you compare plans."
+      },
+      {
+        "type": "paragraph",
+        "content": "Next, check the pharmacy network. Many plans have preferred pharmacies where cost-sharing is lower. If your usual pharmacy is not preferred, you may pay more for every refill. Compare your local pharmacies and any mail-order option using the same drug list before making a final choice."
+      },
+      {
+        "type": "eddie-pro-tip",
+        "content": "Do not rely on last year's plan materials. Save a current medication list with the drug name, dosage, and refill frequency, then run it through Plan Finder with your actual ZIP code and preferred pharmacies. One changed tier or pharmacy status can alter your annual cost substantially."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Strategy 3: Include IRMAA in Your Part D Budget",
+        "id": "irmaa"
+      },
+      {
+        "type": "paragraph",
+        "content": "Most people pay their plan premium only. Higher-income beneficiaries may also pay a Part D Income-Related Monthly Adjustment Amount, or IRMAA, billed separately by Social Security. For 2026, Part D IRMAA ranges from $14.50 to $91.00 per month, based on income reported on your 2024 tax return. The first surcharge tier begins above $109,000 for an individual filer or above $218,000 for joint filers."
+      },
+      {
+        "type": "table",
+        "title": "2026 Part D IRMAA surcharges for individual filers",
+        "headers": [
+          "2024 individual MAGI",
+          "Monthly Part D IRMAA surcharge"
+        ],
+        "rows": [
+          [
+            "Up to $109,000",
+            "$0"
+          ],
+          [
+            "$109,001 to $136,999",
+            "$14.50"
+          ],
+          [
+            "$137,000 to $170,999",
+            "$37.50"
+          ],
+          [
+            "$171,000 to $204,999",
+            "$60.40"
+          ],
+          [
+            "$205,000 to $499,999",
+            "$83.30"
+          ],
+          [
+            "$500,000 and above",
+            "$91.00"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "Because IRMAA is separate from a plan's advertised premium, include it in your annual budget. If your income has fallen because of a qualifying life event, review the current [IRMAA guidance](/faqs/irmaa/) before assuming the surcharge is final."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Strategy 4: Check Whether Extra Help Changes Your Best Option",
+        "id": "extra-help"
+      },
+      {
+        "type": "paragraph",
+        "content": "Extra Help, also called the Low-Income Subsidy, can reduce Part D premiums, deductibles, and prescription cost-sharing for eligible beneficiaries. Before you spend time comparing standard plan costs, check whether you may qualify. Assistance can change which plans are most affordable and can create additional enrollment flexibility."
+      },
+      {
+        "type": "paragraph",
+        "content": "The current reference document includes 2025 Extra Help benchmarks, but eligibility values are updated periodically. Use the [Medicare Extra Help program guide](/faqs/medicare-extra-help-program/) and the [Social Security Administration's Medicare resources](https://www.ssa.gov/medicare) to confirm the current rules before applying."
+      },
+      {
+        "type": "paragraph",
+        "content": "If you need help paying other Medicare costs, a [Medicare Savings Program](/faqs/medicare-savings-programs/) may also be worth reviewing. It is a separate program from Extra Help, so do not assume an answer for one program automatically answers the other."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Strategy 5: Avoid a Late Enrollment Penalty by Preserving Creditable Coverage",
+        "id": "avoid-penalty"
+      },
+      {
+        "type": "paragraph",
+        "content": "Part D's late enrollment penalty can increase your premium when you go without qualifying prescription coverage after you are eligible. Protect yourself by enrolling when appropriate or keeping documentation that shows your employer, union, retiree, or other drug coverage is creditable for Part D purposes."
+      },
+      {
+        "type": "paragraph",
+        "content": "For 2026, the Part D penalty calculation uses a national base beneficiary premium of $38.99. The number of uncovered months affects the penalty, and the rules depend on your coverage history. Review the [Medicare Part D late enrollment penalty](/faqs/medicare-part-d-late-enrollment-penalty/) guide before deciding to delay enrollment."
+      },
+      {
+        "type": "callout",
+        "calloutType": "warning",
+        "calloutTitle": "Do not confuse Part B and Part D coverage rules",
+        "calloutText": "Active employer coverage, COBRA, retiree coverage, and other benefits can have different implications for Part B and Part D. Verify your prescription coverage's creditable status in writing and keep the notice with your Medicare records."
+      },
+      {
+        "type": "zip-cta",
+        "headline": "Compare Medicare Part D Plans for Your Prescriptions",
+        "subtext": "Answer a few questions to explore plan options available in your area.",
+        "buttonLabel": "Compare Plans"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Your Part D Decision Checklist",
+        "id": "decision-checklist"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "List every medication, dosage, and refill frequency.",
+          "Enter the list into Medicare Plan Finder with your ZIP code and preferred pharmacies.",
+          "Compare total estimated annual cost, including premium, deductible, and drug cost-sharing.",
+          "Check formulary tier, coverage rules, and preferred pharmacy status for every medication.",
+          "Add any IRMAA surcharge to your budget and check whether Extra Help or a Medicare Savings Program may apply.",
+          "Save proof of any creditable prescription coverage before you change or delay Part D enrollment."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "The best Part D plan is not a universal recommendation. It is the plan that covers your medications at the lowest estimated annual cost while fitting your pharmacy and budget preferences. Review your plan every year because formularies, pharmacy networks, premiums, and deductibles can change."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently Asked Questions About Choosing a Part D Plan",
+        "id": "faqs"
+      },
+      {
+        "type": "faq",
+        "faqs": [
+          {
+            "question": "How do I choose the best Medicare Part D drug plan for my medications?",
+            "answer": "Use Medicare Plan Finder to enter your exact medications, doses, and preferred pharmacies. Compare each plan's total estimated annual cost, including premium, deductible, copays, and coinsurance, instead of choosing based on premium alone."
+          },
+          {
+            "question": "What is the maximum Medicare Part D deductible for 2026?",
+            "answer": "The maximum allowable Part D deductible for 2026 is $615. Some plans offer a lower or zero deductible, although their premiums or drug cost-sharing may be higher."
+          },
+          {
+            "question": "What is the 2026 Part D out-of-pocket cap?",
+            "answer": "The 2026 Part D annual out-of-pocket cap is $2,100. The cap is an important protection for people with high prescription costs, but you should still compare how each plan covers your medications before you reach it."
+          },
+          {
+            "question": "Why should I compare total annual cost instead of the monthly premium?",
+            "answer": "Your premium is only one cost. A lower-premium plan can have a high deductible, higher drug tiers, or less favorable pharmacy pricing. Total estimated annual cost captures those factors together."
+          },
+          {
+            "question": "What is a Part D formulary?",
+            "answer": "A Part D formulary is the plan's list of covered drugs. It assigns drugs to cost tiers and may include coverage rules such as prior authorization, step therapy, or quantity limits."
+          },
+          {
+            "question": "How does IRMAA affect my Part D cost?",
+            "answer": "If your income exceeds the applicable threshold, Social Security adds a monthly Part D IRMAA surcharge to your plan premium. In 2026, the surcharge ranges from $14.50 to $91.00 per month."
+          },
+          {
+            "question": "Can Extra Help lower my Part D costs?",
+            "answer": "Yes. Extra Help can reduce Part D premiums, deductibles, and prescription cost-sharing for eligible beneficiaries. Confirm current eligibility rules through Social Security or a qualified counselor before selecting a standard plan based on full-price costs."
+          },
+          {
+            "question": "Where can I get free help choosing a Medicare Part D plan?",
+            "answer": "A State Health Insurance Assistance Program, or SHIP, can provide free, unbiased Medicare counseling. You can also use Medicare Plan Finder to compare plan costs using your own drug list and pharmacy choices."
+          }
+        ]
+      }
+    ],
+    "relatedSlugs": [
+      "top-5-medicare-prescription-drug-plans",
+      "what-is-a-medicare-part-d-formulary",
+      "medicare-extra-help-program",
+      "medicare-part-d-late-enrollment-penalty",
+      "medicare-part-d-enrollment-deadlines",
+      "how-is-medicare-part-d-changing-in-2026"
+    ]
+  }
 ];

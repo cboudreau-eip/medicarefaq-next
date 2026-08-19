@@ -212,3 +212,4 @@
 - [x] Publish the complete revised AARP Plan G versus Plan F comparison article with verified evidence, FAQs, and schema
 - [x] Fact-check /faqs/reduce-medicare-premiums against MedicareReferenceData26.txt and document corrections
 - [x] Correct verified stale 2026 premium, savings, penalty, and Part D cap figures on /faqs/reduce-medicare-premiums
+- [x] Publish the Top 5 Strategies for Choosing a Medicare Part D Prescription Drug Plan blog article with verified 2026 data and FAQPage schema
