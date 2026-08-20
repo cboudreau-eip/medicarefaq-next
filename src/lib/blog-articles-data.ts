@@ -12298,7 +12298,7 @@ author: "David Haass",reviewer: "Ashlee Zareczny",readTime: "12 min read",featur
     "reviewer": "Ashlee Zareczny",
     "readTime": "12 min read",
     "featured": false,
-    "image": "/images/medicarefaq-cover.jpg",
+    "image": "/images/generated/costco-scan-medicare-partnership.png",
     "imageAlt": "Senior couple reviewing Medicare plan paperwork together at home",
     "answerBlock": "Costco and SCAN Group are partnering to offer Medicare Advantage plans in two states and a Medicare Supplement plan in a third, pending CMS approval. SCAN Health Plan will underwrite all plans; Costco provides retail brand and distribution. No Costco membership is required to enroll, per federal anti-bundling rules.",
     "keyTakeaways": [
@@ -12349,344 +12349,64 @@ author: "David Haass",reviewer: "Ashlee Zareczny",readTime: "12 min read",featur
       }
     ],
     "sections": [
-      {
-        "type": "heading",
-        "level": 2,
-        "id": "costco-enters-medicare-market",
-        "text": "Costco Enters the Medicare Market"
-      },
-      {
-        "type": "paragraph",
-        "content": "Two familiar names are joining forces to reshape how older Americans shop for health coverage. Costco Wholesale Corporation and SCAN Group have announced a partnership to offer Medicare Advantage plans, and in one state, a Medicare Supplement plan, under the Costco brand name. This partnership brings together one of America's most recognized retail brands and a long-established nonprofit health insurer to compete in a market currently led by a handful of large commercial insurers."
-      },
-      {
-        "type": "paragraph",
-        "content": "Medicare Advantage, also called Part C, is a private insurance alternative to Original Medicare. It bundles hospital coverage, medical services, and often prescription drug coverage into a single plan administered by a private insurer. Rather than the federal government paying providers directly, as it does under Original Medicare, CMS pays private insurers like SCAN a fixed monthly amount for each enrollee."
-      },
-      {
-        "type": "paragraph",
-        "content": "The Costco-SCAN Medicare Partnership is targeting three states at launch, within an existing footprint that reaches an estimated five million Medicare enrollees. Before any plan can be marketed or sold, the Centers for Medicare & Medicaid Services (CMS) must complete its annual plan approval process. For Medicare-eligible consumers, the partnership signals a new kind of option: one built on retail familiarity rather than a traditional insurance brand."
-      },
-      {
-        "type": "heading",
-        "level": 2,
-        "id": "key-facts-at-a-glance",
-        "text": "Key Facts at a Glance"
-      },
-      {
-        "type": "table",
-        "title": "Costco-SCAN Medicare Partnership at a Glance",
-        "headers": [
-          "Detail",
-          "What It Means"
-        ],
-        "rows": [
-          [
-            "Partnership",
-            "Costco Wholesale Corporation (retail brand and distribution) and SCAN Group (insurance operator and underwriter)"
-          ],
-          [
-            "Product types",
-            "Medicare Advantage plans in two states and a Medicare Supplement (Medigap) plan in one state"
-          ],
-          [
-            "Target states",
-            "Three states within SCAN's existing licensed footprint: California, Arizona, Nevada, Texas, New Mexico, and Washington"
-          ],
-          [
-            "Estimated enrollee reach",
-            "Approximately five million Medicare-eligible individuals within SCAN's licensed service areas"
-          ],
-          [
-            "Distribution channels",
-            "Costco retail locations and licensed insurance agents"
-          ],
-          [
-            "Regulatory status",
-            "Pending CMS approval; all Medicare Advantage contracts and benefit designs must be reviewed before marketing or enrollment can begin"
-          ],
-          [
-            "Federal bundling rule",
-            "CMS regulations prohibit tying Medicare plan enrollment to a Costco membership"
-          ]
-        ]
-      },
-      {
-        "type": "heading",
-        "level": 2,
-        "id": "what-are-costco-medicare-advantage-plans",
-        "text": "What Are Costco Medicare Advantage Plans?"
-      },
-      {
-        "type": "paragraph",
-        "content": "Costco Medicare Advantage plans will be underwritten and administered by SCAN Health Plan, SCAN Group's operating insurance entity. Costco's name appears on the plans to signal the value, accessibility, and brand trust that millions of older shoppers already associate with the warehouse retailer. SCAN handles the insurance mechanics, and Costco provides the brand and distribution presence."
-      },
-      {
-        "type": "paragraph",
-        "content": "Medicare Advantage works differently from Original Medicare. Under Original Medicare, the federal government pays doctors and hospitals directly for each covered service. Under Medicare Advantage, CMS instead pays private insurers like SCAN a fixed monthly amount per enrollee, and those insurers take on the responsibility of covering at least the same benefits as Parts A and B, often with extra benefits added. Understanding [Medicare Advantage extra benefits](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included/) can help you evaluate whether this type of plan fits your needs."
-      },
-      {
-        "type": "callout",
-        "calloutType": "info",
-        "calloutTitle": "Why This Matters",
-        "calloutText": "A Medicare Advantage plan replaces Original Medicare rather than supplementing it, so the insurer, not the federal government, becomes responsible for paying your medical claims."
-      },
-      {
-        "type": "heading",
-        "level": 3,
-        "id": "ma-vs-supplement",
-        "text": "Medicare Advantage vs. Medicare Supplement: Which Will Costco Offer?"
-      },
-      {
-        "type": "paragraph",
-        "content": "The Costco-SCAN partnership plans to launch Medicare Advantage plans in two states and a Medicare Supplement, or Medigap, plan in a third state. These are fundamentally different products, and the distinction matters for your coverage decisions."
-      },
-      {
-        "type": "paragraph",
-        "content": "Medicare Advantage is an all-in-one plan that replaces Original Medicare. A Medicare Supplement plan works alongside Original Medicare instead: it fills in cost-sharing gaps like deductibles and coinsurance, giving you more predictable out-of-pocket costs. For a deeper look at how the two approaches compare, see the [key questions to ask before enrolling](/faqs/medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling/)."
-      },
-      {
-        "type": "paragraph",
-        "content": "Offering both product types broadens the partnership's appeal. Medicare Advantage tends to attract enrollees who want bundled coverage with extra perks, while Medigap appeals to those who prioritize Original Medicare's open provider access: the ability to see any doctor or specialist nationwide who accepts Medicare, without referrals or network restrictions."
-      },
-      {
-        "type": "heading",
-        "level": 3,
-        "id": "coverage-benefits-included",
-        "text": "Coverage Benefits Included in the Costco-SCAN Plans"
-      },
-      {
-        "type": "paragraph",
-        "content": "The Medicare Advantage plans under this partnership are expected to include the following benefits:"
-      },
-      {
-        "type": "list",
-        "ordered": false,
-        "items": [
-          "Prescription drug coverage through Part D integration",
-          "[Vision care](/faqs/does-medicare-cover-glasses/)",
-          "Audiology services and [hearing products](/faqs/does-medicare-cover-hearing-aids/)",
-          "Medflex over-the-counter (OTC) allowances for eligible health and wellness products"
-        ]
-      },
-      {
-        "type": "paragraph",
-        "content": "These benefits go beyond what Original Medicare covers and reflect the supplemental benefit structures common among competitive Medicare Advantage plans. Medflex OTC benefits provide a quarterly or monthly allowance to spend on eligible items like vitamins, first aid supplies, and personal care products through approved retailers or catalogs. Given Costco's pharmacy and retail product range, this benefit type lines up naturally with the store's existing inventory."
-      },
-      {
-        "type": "paragraph",
-        "content": "Costco Pharmacy is known for offering low drug prices to members and non-members alike, which makes prescription drug coverage a particularly fitting piece of the plan design. Enrollees who already fill prescriptions at Costco may find the move to a Costco-branded Medicare drug plan straightforward."
-      },
-      {
-        "type": "heading",
-        "level": 2,
-        "id": "target-markets-and-regulatory-timeline",
-        "text": "Target Markets and Regulatory Timeline"
-      },
-      {
-        "type": "paragraph",
-        "content": "The Costco-SCAN Medicare Partnership is designed to launch in three states, with Medicare Advantage plans targeting two of them and a Medicare Supplement plan in the third. All three fall within SCAN's existing licensed footprint, which spans California, Arizona, Nevada, Texas, New Mexico, and Washington. That overlap is not a coincidence: SCAN already holds the provider network relationships, regulatory licenses, and state-specific compliance infrastructure those markets require."
-      },
-      {
-        "type": "paragraph",
-        "content": "[CMS requires](https://www.cms.gov/) Medicare Advantage insurers to submit plan bids and benefit designs annually through a defined contract approval cycle. That regulatory calendar, not either company's internal planning schedule, determines when the plans can actually reach consumers."
-      },
-      {
-        "type": "paragraph",
-        "content": "Once approved, eligible seniors would enroll during the Medicare Annual Enrollment Period, October 15 through December 7, for coverage beginning January 1 of the following year. The Medicare Advantage Open Enrollment Period, January 1 through March 31, offers a second window for people already in a Medicare Advantage plan to switch. Understanding these [enrollment period windows](/faqs/medicare-annual-enrollment-period/) matters for planning ahead."
-      },
-      {
-        "type": "heading",
-        "level": 3,
-        "id": "cms-approval-process",
-        "text": "CMS Approval Process: What Has to Happen Before You Can Enroll"
-      },
-      {
-        "type": "paragraph",
-        "content": "CMS is the federal regulator that must approve every Medicare Advantage plan's contract, benefit structure, and provider network before any marketing or enrollment activity can begin. No Costco-SCAN plan can be sold to a single enrollee until that approval is granted."
-      },
-      {
-        "type": "paragraph",
-        "content": "The typical approval cycle follows a predictable pattern: insurers submit bids each spring, CMS reviews and finalizes approvals over the summer, and approved plans begin marketing in the fall for the plan year starting the following January. The partnership's internal readiness is necessary, but regulatory timing is what actually sets the availability date."
-      },
-      {
-        "type": "callout",
-        "calloutType": "tip",
-        "calloutTitle": "How to Track Availability",
-        "calloutText": "Until CMS issues formal approval, the Costco-SCAN plans remain in development. Check the CMS Medicare Plan Finder at medicare.gov, and watch for official announcements from Costco and SCAN, to confirm exactly when and where enrollment opens."
-      },
-      {
-        "type": "heading",
-        "level": 2,
-        "id": "about-the-partnership",
-        "text": "About the Partnership: Costco and SCAN Group"
-      },
-      {
-        "type": "paragraph",
-        "content": "Costco Wholesale Corporation is a membership-based retailer with an established pharmacy program, in-store optical centers, and hearing aid departments, services that already sit close to Medicare Advantage benefit categories. Older adult shoppers make up a significant and loyal share of Costco's membership. Extending that trusted brand into Medicare plan distribution is a natural next step rather than a departure from Costco's core business."
-      },
-      {
-        "type": "paragraph",
-        "content": "SCAN Group is a California-based nonprofit health insurer founded in 1977. Its operating insurance entity, SCAN Health Plan, currently serves approximately 460,000 to 500,000 members across six states and 33 counties. SCAN's decades of Medicare Advantage operating experience, its provider network, and its nonprofit governance structure form the insurance backbone that makes the Costco-branded plans possible."
-      },
-      {
-        "type": "paragraph",
-        "content": "SCAN's footprint across California, Arizona, Nevada, Texas, New Mexico, and Washington is the operational foundation for the Costco-branded launch. These are not new markets SCAN would need to build from scratch. They are existing service areas where SCAN already holds contracts, network agreements, and regulatory standing."
-      },
-      {
-        "type": "heading",
-        "level": 3,
-        "id": "costco-pharmacy-foundation",
-        "text": "Costco Pharmacy as a Foundation for Medicare Plan Distribution"
-      },
-      {
-        "type": "paragraph",
-        "content": "Costco Pharmacy operates as a distinct, trusted sub-brand within Costco's retail business. It is widely known for prescription drug prices that rank among the lowest available, open to members and non-members alike. That pricing reputation lines up naturally with the drug coverage goals of the Costco-SCAN Medicare Advantage plans."
-      },
-      {
-        "type": "paragraph",
-        "content": "For many older adults, Costco is already part of a regular routine: pharmacy visits, optical exams, and hearing aid consultations often happen in the same building. That existing behavior creates a natural awareness and enrollment pathway. Seniors who already trust Costco for health-adjacent services may find it easier to take in Medicare plan information in that same environment."
-      },
-      {
-        "type": "paragraph",
-        "content": "Licensed insurance agents will serve as a parallel distribution channel alongside in-store touchpoints. That matters because Medicare enrollment is a complex financial decision, and professional guidance, not retail exposure alone, is what helps seniors make an informed choice."
-      },
-      {
-        "type": "heading",
-        "level": 2,
-        "id": "how-costco-scan-plans-compare",
-        "text": "How Costco-SCAN Plans Compare to Major Medicare Advantage Competitors"
-      },
-      {
-        "type": "paragraph",
-        "content": "The Medicare Advantage market is dominated by three commercial insurers: UnitedHealth Group (UnitedHealthcare), Humana, and CVS Health/Aetna. Together, they hold the majority of Medicare Advantage enrollment nationwide, backed by extensive provider networks, decades of CMS contracting experience, and large marketing budgets. The Costco-SCAN partnership is entering a market these incumbents have shaped for years."
-      },
-      {
-        "type": "paragraph",
-        "content": "What sets the Costco-SCAN approach apart is a combination rarely found in one partnership: retail-based distribution through a brand already trusted by older adults, SCAN's nonprofit structure, which directs financial surpluses back into member benefits rather than shareholder returns, and the potential for Costco's pharmacy pricing to translate into a more competitive drug cost structure within the plan itself."
-      },
-      {
-        "type": "paragraph",
-        "content": "That said, building provider networks, earning CMS quality ratings, and establishing brand recognition specifically as a Medicare insurer all take time. The large incumbents hold infrastructure advantages that the Costco-SCAN partnership will need to close over multiple plan years."
-      },
-      {
-        "type": "paragraph",
-        "content": "For you as a consumer, more competition is generally a good thing. Additional plan options in a given market tend to improve benefit design, sharpen premium pricing, and raise quality standards, especially in areas where one or two insurers have long dominated. Comparing [average Medicare Advantage costs](/faqs/average-cost-of-medicare-advantage/) across every plan available in your area still matters, regardless of which brand you're considering."
-      },
-      {
-        "type": "heading",
-        "level": 2,
-        "id": "federal-bundling-rule-explained",
-        "text": "What the Federal Bundling Rule Means for Costco Members"
-      },
-      {
-        "type": "paragraph",
-        "content": "One of the most common questions about the Costco-SCAN partnership is whether you need a Costco membership to enroll. The answer is no, and that is not a policy choice by the two companies. It is federal law."
-      },
-      {
-        "type": "paragraph",
-        "content": "CMS regulations include an anti-bundling rule that prevents Medicare plan sponsors from tying health plan enrollment to the purchase of any other product or service, and a Costco membership counts as exactly that kind of conditional purchase. The Costco-branded Medicare Advantage plans must be available to any Medicare-eligible person living in an approved service area. Membership status has no bearing on enrollment eligibility."
-      },
-      {
-        "type": "callout",
-        "calloutType": "info",
-        "calloutTitle": "No Membership Required",
-        "calloutText": "Federal anti-bundling rules mean a Costco card is never required to enroll in a Costco-branded Medicare plan. Any Medicare-eligible person in an approved service area can enroll, member or not."
-      },
-      {
-        "type": "paragraph",
-        "content": "This creates a genuine tension for the partnership. Costco's brand is what makes the plans attractive and marketable, but that same brand cannot legally be used as a membership conversion tool. In practice, expect the partnership to lean on Costco's retail presence for plan awareness, information, and agent referrals, generating interest without crossing the line that would tie enrollment to membership."
-      },
-      {
-        "type": "heading",
-        "level": 2,
-        "id": "who-are-these-plans-designed-for",
-        "text": "Who Are These Plans Designed For?"
-      },
-      {
-        "type": "paragraph",
-        "content": "To be eligible for a Costco-SCAN Medicare Advantage plan, you must be enrolled in both Medicare Parts A and B, be a U.S. resident, and live within the plan's approved service area. Most eligible enrollees are adults age 65 and older, though people under 65 with qualifying disabilities or end-stage renal disease who already have Parts A and B can also enroll in Medicare Advantage. If you're approaching eligibility, reviewing [when Medicare eligibility begins](/faqs/how-old-to-get-medicare/) can help you plan ahead."
-      },
-      {
-        "type": "paragraph",
-        "content": "The initial addressable population for Costco-branded plans is roughly five million Medicare enrollees within SCAN's existing licensed footprint. That is the realistic near-term market before any geographic expansion."
-      },
-      {
-        "type": "paragraph",
-        "content": "Three consumer profiles are likely to find these plans most relevant:"
-      },
-      {
-        "type": "list",
-        "ordered": false,
-        "items": [
-          "Cost-conscious seniors who already trust the Costco brand and its value-oriented reputation",
-          "People looking for bundled coverage that combines pharmacy, vision, and hearing benefits in a single plan",
-          "First-time Medicare enrollees who feel more comfortable starting the enrollment process through a familiar retail environment than by contacting an insurer they've never dealt with"
-        ]
-      },
-      {
-        "type": "eddie-pro-tip",
-        "content": "I always tell people not to choose a plan based on brand name alone, even one as trusted as Costco. Before you enroll in any Costco-SCAN plan, compare its total costs, provider network, and drug formulary against every other Medicare Advantage or Medigap plan available in your ZIP code. A new entrant to the market can absolutely be a great fit, but only if it actually matches your doctors and prescriptions."
-      },
-      {
-        "type": "zip-cta",
-        "headline": "See Every Medicare Plan Available Where You Live",
-        "subtext": "Compare Costco-SCAN plans against every other Medicare Advantage and Medicare Supplement option in your ZIP code before you decide.",
-        "buttonLabel": "Compare Plans in My Area"
-      },
-      {
-        "type": "heading",
-        "level": 2,
-        "id": "faq-costco-medicare-advantage",
-        "text": "Frequently Asked Questions About Costco Medicare Advantage Plans"
-      },
-      {
-        "type": "faq",
-        "faqs": [
-          {
-            "question": "What is the Costco-SCAN Medicare Partnership?",
-            "answer": "It's a business arrangement between Costco Wholesale Corporation and SCAN Group to offer Medicare Advantage and Medicare Supplement plans under the Costco brand name. SCAN Health Plan will underwrite and administer every plan, while Costco contributes brand recognition, retail distribution, and pharmacy infrastructure. The plans are currently pending CMS approval before they can be marketed or sold."
-          },
-          {
-            "question": "Do I need a Costco membership to enroll in a Costco Medicare Advantage plan?",
-            "answer": "No. Federal anti-bundling regulations prohibit making Medicare plan enrollment contingent on holding a Costco membership or buying any other product. Any Medicare-eligible person living in an approved service area can enroll in a Costco-SCAN plan regardless of membership status. You may see plan information in Costco stores, but membership is never a requirement to enroll."
-          },
-          {
-            "question": "What benefits will Costco Medicare Advantage plans include?",
-            "answer": "They're expected to include prescription drug coverage, vision care, audiology services, hearing products, and Medflex over-the-counter allowances for eligible health and wellness purchases. Final benefit designs still need CMS approval and may vary by state and plan type. Once plans are approved, check the plan-specific Summary of Benefits on the CMS Medicare Plan Finder at medicare.gov."
-          },
-          {
-            "question": "Which states will offer Costco Medicare Advantage plans?",
-            "answer": "The partnership plans to launch Medicare Advantage in two states and a Medicare Supplement plan in a third, all drawn from SCAN's existing licensed footprint across California, Arizona, Nevada, Texas, New Mexico, and Washington. The specific confirmed states will be disclosed once CMS approves the plans and both companies make an official announcement."
-          },
-          {
-            "question": "How does SCAN Group's nonprofit status affect the Costco Medicare plans?",
-            "answer": "SCAN Group is a nonprofit insurer, meaning financial surpluses go back into member benefits and operations rather than to shareholders. Nonprofit Medicare Advantage plans have posted competitive quality ratings in several markets, in part because incentives point toward member outcomes over profit margins. Nonprofit status doesn't exempt SCAN from any CMS requirement; every plan must meet the same federal standards regardless of ownership structure."
-          }
-        ]
-      },
-      {
-        "type": "heading",
-        "level": 2,
-        "id": "what-it-means-for-you",
-        "text": "What the Costco-SCAN Medicare Partnership Means for You"
-      },
-      {
-        "type": "paragraph",
-        "content": "The Costco-SCAN Medicare Partnership is a meaningful new entrant into a market long shaped by a small group of large commercial insurers. By pairing Costco's retail brand trust with SCAN's nonprofit operating model, the partnership brings a genuinely different value proposition: one built on familiarity, value, and a track record of prioritizing member outcomes."
-      },
-      {
-        "type": "paragraph",
-        "content": "If you're Medicare-eligible and live in one of the target states, a Costco-SCAN plan may offer an accessible enrollment experience alongside benefits you may already use, including pharmacy, vision, and hearing coverage tied to services available through Costco's existing retail infrastructure. Reviewing [Medicare costs in 2026](/medicare-plans/costs/) gives you a useful baseline for comparison."
-      },
-      {
-        "type": "paragraph",
-        "content": "Your two next steps are practical. First, monitor the CMS Medicare Plan Finder at medicare.gov for confirmed plan availability as the approval process moves forward. Second, talk with a licensed Medicare insurance agent who can compare every plan available in your area, not only the Costco-SCAN options, so your decision rests on your specific doctors, prescriptions, and budget rather than brand recognition alone."
-      },
-      {
-        "type": "paragraph",
-        "content": "As the partnership works through CMS approval, staying connected to official Costco and SCAN communications will help you be ready to evaluate these plans the moment enrollment opens."
-      }
+      { type: "heading", level: 2, text: "Costco Enters the Medicare Market", id: "costco-enters-medicare-market" },
+      { type: "paragraph", content: "Two familiar names are joining forces to reshape how older Americans shop for health coverage. Costco Wholesale Corporation and SCAN Group have announced a partnership to offer Medicare Advantage plans, and in one state, a Medicare Supplement plan, under the Costco brand name. This partnership brings together one of America's most recognized retail brands and a long-established nonprofit health insurer to compete in a market currently led by a handful of large commercial insurers." },
+      { type: "paragraph", content: "Medicare Advantage, also called Part C, is a private insurance alternative to Original Medicare. It bundles hospital coverage, medical services, and often prescription drug coverage into a single plan administered by a private insurer. Rather than the federal government paying providers directly, as it does under Original Medicare, CMS pays private insurers like SCAN a fixed monthly amount for each enrollee." },
+      { type: "paragraph", content: "The Costco-SCAN Medicare Partnership is targeting three states at launch, within an existing footprint that reaches an estimated five million Medicare enrollees. Before any plan can be marketed or sold, the Centers for Medicare & Medicaid Services (CMS) must complete its annual plan approval process. For Medicare-eligible consumers, the partnership signals a new kind of option: one built on retail familiarity rather than a traditional insurance brand." },
+      { type: "heading", level: 2, text: "Key Facts at a Glance", id: "key-facts-at-a-glance" },
+      { type: "table", title: "Costco-SCAN Medicare Partnership at a Glance", headers: ["Detail", "What It Means"], rows: [["Partnership", "Costco Wholesale Corporation (retail brand and distribution) and SCAN Group (insurance operator and underwriter)"], ["Product types", "Medicare Advantage plans in two states and a Medicare Supplement (Medigap) plan in one state"], ["Target states", "Three states within SCAN's existing licensed footprint: California, Arizona, Nevada, Texas, New Mexico, and Washington"], ["Estimated enrollee reach", "Approximately five million Medicare-eligible individuals within SCAN's licensed service areas"], ["Distribution channels", "Costco retail locations and licensed insurance agents"], ["Regulatory status", "Pending CMS approval; all Medicare Advantage contracts and benefit designs must be reviewed before marketing or enrollment can begin"], ["Federal bundling rule", "CMS regulations prohibit tying Medicare plan enrollment to a Costco membership"]] },
+      { type: "heading", level: 2, text: "What Are Costco Medicare Advantage Plans?", id: "what-are-costco-medicare-advantage-plans" },
+      { type: "paragraph", content: "Costco Medicare Advantage plans will be underwritten and administered by SCAN Health Plan, SCAN Group's operating insurance entity. Costco's name appears on the plans to signal the value, accessibility, and brand trust that millions of older shoppers already associate with the warehouse retailer. SCAN handles the insurance mechanics, and Costco provides the brand and distribution presence." },
+      { type: "paragraph", content: "Medicare Advantage works differently from Original Medicare. Under Original Medicare, the federal government pays doctors and hospitals directly for each covered service. Under Medicare Advantage, CMS instead pays private insurers like SCAN a fixed monthly amount per enrollee, and those insurers take on the responsibility of covering at least the same benefits as Parts A and B, often with extra benefits added. Understanding [Medicare Advantage extra benefits](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included/) can help you evaluate whether this type of plan fits your needs." },
+      { type: "callout", calloutType: "info", calloutTitle: "Why This Matters", calloutText: "A Medicare Advantage plan replaces Original Medicare rather than supplementing it, so the insurer, not the federal government, becomes responsible for paying your medical claims." },
+      { type: "heading", level: 3, text: "Medicare Advantage vs. Medicare Supplement: Which Will Costco Offer?", id: "ma-vs-supplement" },
+      { type: "paragraph", content: "The Costco-SCAN partnership plans to launch Medicare Advantage plans in two states and a Medicare Supplement, or Medigap, plan in a third state. These are fundamentally different products, and the distinction matters for your coverage decisions." },
+      { type: "paragraph", content: "Medicare Advantage is an all-in-one plan that replaces Original Medicare. A Medicare Supplement plan works alongside Original Medicare instead: it fills in cost-sharing gaps like deductibles and coinsurance, giving you more predictable out-of-pocket costs. For a deeper look at how the two approaches compare, see the [key questions to ask before enrolling](/faqs/medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling/)." },
+      { type: "paragraph", content: "Offering both product types broadens the partnership's appeal. Medicare Advantage tends to attract enrollees who want bundled coverage with extra perks, while Medigap appeals to those who prioritize Original Medicare's open provider access: the ability to see any doctor or specialist nationwide who accepts Medicare, without referrals or network restrictions." },
+      { type: "heading", level: 3, text: "Coverage Benefits Included in the Costco-SCAN Plans", id: "coverage-benefits-included" },
+      { type: "paragraph", content: "The Medicare Advantage plans under this partnership are expected to include the following benefits:" },
+      { type: "list", ordered: false, items: ["Prescription drug coverage through Part D integration", "[Vision care](/faqs/does-medicare-cover-glasses/)", "Audiology services and [hearing products](/faqs/does-medicare-cover-hearing-aids/)", "Medflex over-the-counter (OTC) allowances for eligible health and wellness products"] },
+      { type: "paragraph", content: "These benefits go beyond what Original Medicare covers and reflect the supplemental benefit structures common among competitive Medicare Advantage plans. Medflex OTC benefits provide a quarterly or monthly allowance to spend on eligible items like vitamins, first aid supplies, and personal care products through approved retailers or catalogs. Given Costco's pharmacy and retail product range, this benefit type lines up naturally with the store's existing inventory." },
+      { type: "paragraph", content: "Costco Pharmacy is known for offering low drug prices to members and non-members alike, which makes prescription drug coverage a particularly fitting piece of the plan design. Enrollees who already fill prescriptions at Costco may find the move to a Costco-branded Medicare drug plan straightforward." },
+      { type: "heading", level: 2, text: "Target Markets and Regulatory Timeline", id: "target-markets-and-regulatory-timeline" },
+      { type: "paragraph", content: "The Costco-SCAN Medicare Partnership is designed to launch in three states, with Medicare Advantage plans targeting two of them and a Medicare Supplement plan in the third. All three fall within SCAN's existing licensed footprint, which spans California, Arizona, Nevada, Texas, New Mexico, and Washington. That overlap is not a coincidence: SCAN already holds the provider network relationships, regulatory licenses, and state-specific compliance infrastructure those markets require." },
+      { type: "paragraph", content: "[CMS requires](https://www.cms.gov/) Medicare Advantage insurers to submit plan bids and benefit designs annually through a defined contract approval cycle. That regulatory calendar, not either company's internal planning schedule, determines when the plans can actually reach consumers." },
+      { type: "paragraph", content: "Once approved, eligible seniors would enroll during the Medicare Annual Enrollment Period, October 15 through December 7, for coverage beginning January 1 of the following year. The Medicare Advantage Open Enrollment Period, January 1 through March 31, offers a second window for people already in a Medicare Advantage plan to switch. Understanding these [enrollment period windows](/faqs/medicare-annual-enrollment-period/) matters for planning ahead." },
+      { type: "heading", level: 3, text: "CMS Approval Process: What Has to Happen Before You Can Enroll", id: "cms-approval-process" },
+      { type: "paragraph", content: "CMS is the federal regulator that must approve every Medicare Advantage plan's contract, benefit structure, and provider network before any marketing or enrollment activity can begin. No Costco-SCAN plan can be sold to a single enrollee until that approval is granted." },
+      { type: "paragraph", content: "The typical approval cycle follows a predictable pattern: insurers submit bids each spring, CMS reviews and finalizes approvals over the summer, and approved plans begin marketing in the fall for the plan year starting the following January. The partnership's internal readiness is necessary, but regulatory timing is what actually sets the availability date." },
+      { type: "callout", calloutType: "tip", calloutTitle: "How to Track Availability", calloutText: "Until CMS issues formal approval, the Costco-SCAN plans remain in development. Check the CMS Medicare Plan Finder at medicare.gov, and watch for official announcements from Costco and SCAN, to confirm exactly when and where enrollment opens." },
+      { type: "heading", level: 2, text: "About the Partnership: Costco and SCAN Group", id: "about-the-partnership" },
+      { type: "paragraph", content: "Costco Wholesale Corporation is a membership-based retailer with an established pharmacy program, in-store optical centers, and hearing aid departments, services that already sit close to Medicare Advantage benefit categories. Older adult shoppers make up a significant and loyal share of Costco's membership. Extending that trusted brand into Medicare plan distribution is a natural next step rather than a departure from Costco's core business." },
+      { type: "paragraph", content: "SCAN Group is a California-based nonprofit health insurer founded in 1977. Its operating insurance entity, SCAN Health Plan, currently serves approximately 460,000 to 500,000 members across six states and 33 counties. SCAN's decades of Medicare Advantage operating experience, its provider network, and its nonprofit governance structure form the insurance backbone that makes the Costco-branded plans possible." },
+      { type: "paragraph", content: "SCAN's footprint across California, Arizona, Nevada, Texas, New Mexico, and Washington is the operational foundation for the Costco-branded launch. These are not new markets SCAN would need to build from scratch. They are existing service areas where SCAN already holds contracts, network agreements, and regulatory standing." },
+      { type: "heading", level: 3, text: "Costco Pharmacy as a Foundation for Medicare Plan Distribution", id: "costco-pharmacy-foundation" },
+      { type: "paragraph", content: "Costco Pharmacy operates as a distinct, trusted sub-brand within Costco's retail business. It is widely known for prescription drug prices that rank among the lowest available, open to members and non-members alike. That pricing reputation lines up naturally with the drug coverage goals of the Costco-SCAN Medicare Advantage plans." },
+      { type: "paragraph", content: "For many older adults, Costco is already part of a regular routine: pharmacy visits, optical exams, and hearing aid consultations often happen in the same building. That existing behavior creates a natural awareness and enrollment pathway. Seniors who already trust Costco for health-adjacent services may find it easier to take in Medicare plan information in that same environment." },
+      { type: "paragraph", content: "Licensed insurance agents will serve as a parallel distribution channel alongside in-store touchpoints. That matters because Medicare enrollment is a complex financial decision, and professional guidance, not retail exposure alone, is what helps seniors make an informed choice." },
+      { type: "heading", level: 2, text: "How Costco-SCAN Plans Compare to Major Medicare Advantage Competitors", id: "how-costco-scan-plans-compare" },
+      { type: "paragraph", content: "The Medicare Advantage market is dominated by three commercial insurers: UnitedHealth Group (UnitedHealthcare), Humana, and CVS Health/Aetna. Together, they hold the majority of Medicare Advantage enrollment nationwide, backed by extensive provider networks, decades of CMS contracting experience, and large marketing budgets. The Costco-SCAN partnership is entering a market these incumbents have shaped for years." },
+      { type: "paragraph", content: "What sets the Costco-SCAN approach apart is a combination rarely found in one partnership: retail-based distribution through a brand already trusted by older adults, SCAN's nonprofit structure, which directs financial surpluses back into member benefits rather than shareholder returns, and the potential for Costco's pharmacy pricing to translate into a more competitive drug cost structure within the plan itself." },
+      { type: "paragraph", content: "That said, building provider networks, earning CMS quality ratings, and establishing brand recognition specifically as a Medicare insurer all take time. The large incumbents hold infrastructure advantages that the Costco-SCAN partnership will need to close over multiple plan years." },
+      { type: "paragraph", content: "For you as a consumer, more competition is generally a good thing. Additional plan options in a given market tend to improve benefit design, sharpen premium pricing, and raise quality standards, especially in areas where one or two insurers have long dominated. Comparing [average Medicare Advantage costs](/faqs/average-cost-of-medicare-advantage/) across every plan available in your area still matters, regardless of which brand you're considering." },
+      { type: "heading", level: 2, text: "What the Federal Bundling Rule Means for Costco Members", id: "federal-bundling-rule-explained" },
+      { type: "paragraph", content: "One of the most common questions about the Costco-SCAN partnership is whether you need a Costco membership to enroll. The answer is no, and that is not a policy choice by the two companies. It is federal law." },
+      { type: "paragraph", content: "CMS regulations include an anti-bundling rule that prevents Medicare plan sponsors from tying health plan enrollment to the purchase of any other product or service, and a Costco membership counts as exactly that kind of conditional purchase. The Costco-branded Medicare Advantage plans must be available to any Medicare-eligible person living in an approved service area. Membership status has no bearing on enrollment eligibility." },
+      { type: "callout", calloutType: "info", calloutTitle: "No Membership Required", calloutText: "Federal anti-bundling rules mean a Costco card is never required to enroll in a Costco-branded Medicare plan. Any Medicare-eligible person in an approved service area can enroll, member or not." },
+      { type: "paragraph", content: "This creates a genuine tension for the partnership. Costco's brand is what makes the plans attractive and marketable, but that same brand cannot legally be used as a membership conversion tool. In practice, expect the partnership to lean on Costco's retail presence for plan awareness, information, and agent referrals, generating interest without crossing the line that would tie enrollment to membership." },
+      { type: "heading", level: 2, text: "Who Are These Plans Designed For?", id: "who-are-these-plans-designed-for" },
+      { type: "paragraph", content: "To be eligible for a Costco-SCAN Medicare Advantage plan, you must be enrolled in both Medicare Parts A and B, be a U.S. resident, and live within the plan's approved service area. Most eligible enrollees are adults age 65 and older, though people under 65 with qualifying disabilities or end-stage renal disease who already have Parts A and B can also enroll in Medicare Advantage. If you're approaching eligibility, reviewing [when Medicare eligibility begins](/faqs/how-old-to-get-medicare/) can help you plan ahead." },
+      { type: "paragraph", content: "The initial addressable population for Costco-branded plans is roughly five million Medicare enrollees within SCAN's existing licensed footprint. That is the realistic near-term market before any geographic expansion." },
+      { type: "paragraph", content: "Three consumer profiles are likely to find these plans most relevant:" },
+      { type: "list", ordered: false, items: ["Cost-conscious seniors who already trust the Costco brand and its value-oriented reputation", "People looking for bundled coverage that combines pharmacy, vision, and hearing benefits in a single plan", "First-time Medicare enrollees who feel more comfortable starting the enrollment process through a familiar retail environment than by contacting an insurer they've never dealt with"] },
+      { type: "eddie-pro-tip", content: "I always tell people not to choose a plan based on brand name alone, even one as trusted as Costco. Before you enroll in any Costco-SCAN plan, compare its total costs, provider network, and drug formulary against every other Medicare Advantage or Medigap plan available in your ZIP code. A new entrant to the market can absolutely be a great fit, but only if it actually matches your doctors and prescriptions." },
+      { type: "heading", level: 2, text: "Frequently Asked Questions About Costco Medicare Advantage Plans", id: "faq-costco-medicare-advantage" },
+      { type: "faq", faqs: [{ question: "What is the Costco-SCAN Medicare Partnership?", answer: "It's a business arrangement between Costco Wholesale Corporation and SCAN Group to offer Medicare Advantage and Medicare Supplement plans under the Costco brand name. SCAN Health Plan will underwrite and administer every plan, while Costco contributes brand recognition, retail distribution, and pharmacy infrastructure. The plans are currently pending CMS approval before they can be marketed or sold." }, { question: "Do I need a Costco membership to enroll in a Costco Medicare Advantage plan?", answer: "No. Federal anti-bundling regulations prohibit making Medicare plan enrollment contingent on holding a Costco membership or buying any other product. Any Medicare-eligible person living in an approved service area can enroll in a Costco-SCAN plan regardless of membership status. You may see plan information in Costco stores, but membership is never a requirement to enroll." }, { question: "What benefits will Costco Medicare Advantage plans include?", answer: "They're expected to include prescription drug coverage, vision care, audiology services, hearing products, and Medflex over-the-counter allowances for eligible health and wellness purchases. Final benefit designs still need CMS approval and may vary by state and plan type. Once plans are approved, check the plan-specific Summary of Benefits on the CMS Medicare Plan Finder at medicare.gov." }, { question: "Which states will offer Costco Medicare Advantage plans?", answer: "The partnership plans to launch Medicare Advantage in two states and a Medicare Supplement plan in a third, all drawn from SCAN's existing licensed footprint across California, Arizona, Nevada, Texas, New Mexico, and Washington. The specific confirmed states will be disclosed once CMS approves the plans and both companies make an official announcement." }, { question: "How does SCAN Group's nonprofit status affect the Costco Medicare plans?", answer: "SCAN Group is a nonprofit insurer, meaning financial surpluses go back into member benefits and operations rather than to shareholders. Nonprofit Medicare Advantage plans have posted competitive quality ratings in several markets, in part because incentives point toward member outcomes over profit margins. Nonprofit status doesn't exempt SCAN from any CMS requirement; every plan must meet the same federal standards regardless of ownership structure." }] },
+      { type: "heading", level: 2, text: "What the Costco-SCAN Medicare Partnership Means for You", id: "what-it-means-for-you" },
+      { type: "paragraph", content: "The Costco-SCAN Medicare Partnership is a meaningful new entrant into a market long shaped by a small group of large commercial insurers. By pairing Costco's retail brand trust with SCAN's nonprofit operating model, the partnership brings a genuinely different value proposition: one built on familiarity, value, and a track record of prioritizing member outcomes." },
+      { type: "paragraph", content: "If you're Medicare-eligible and live in one of the target states, a Costco-SCAN plan may offer an accessible enrollment experience alongside benefits you may already use, including pharmacy, vision, and hearing coverage tied to services available through Costco's existing retail infrastructure. Reviewing [Medicare costs in 2026](/medicare-plans/costs/) gives you a useful baseline for comparison." },
+      { type: "paragraph", content: "Your two next steps are practical. First, monitor the CMS Medicare Plan Finder at medicare.gov for confirmed plan availability as the approval process moves forward. Second, talk with a licensed Medicare insurance agent who can compare every plan available in your area, not only the Costco-SCAN options, so your decision rests on your specific doctors, prescriptions, and budget rather than brand recognition alone." },
+      { type: "paragraph", content: "As the partnership works through CMS approval, staying connected to official Costco and SCAN communications will help you be ready to evaluate these plans the moment enrollment opens." },
     ],
     "relatedSlugs": [
       "key-questions-to-ask-when-comparing-medicare-advantage-plans",
