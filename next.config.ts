@@ -130,6 +130,8 @@ const nextConfig: NextConfig = {
       { source: "/faqs/medicare-part-d", destination: "/original-medicare/medicare-parts/medicare-part-d", permanent: true },
       { source: "/faqs/observation-vs-inpatient-why-it-can-affect-your-medicare-bill", destination: "/blog/observation-vs-inpatient-why-it-can-affect-your-medicare-bill", permanent: true },
       { source: "/faqs/medicare-and-vision-dental-and-hearing-what-are-your-options", destination: "/blog/medicare-and-vision-dental-and-hearing-what-are-your-options", permanent: true },
+      { source: "/faqs/protect-yourself-from-medicare-penalties-and-deadlines", destination: "/blog/medicare-penalty-avoidance-strategies", permanent: true },
+      { source: "/faqs/protect-yourself-from-medicare-penalties-key-tips-and-deadlines", destination: "/blog/medicare-penalty-avoidance-strategies", permanent: true },
 
       // ── Missing section redirects ──
       { source: "/caregiver-guide", destination: "/guide-to-being-a-caregiver", permanent: true },
