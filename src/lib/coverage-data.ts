@@ -8090,16 +8090,16 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-maximum-out-of-pocket",
     seo: {
-      title: "Understanding the Medicare Maximum Out-of-Pocket for 2025",
-      description: "Your Medicare maximum out-of-pocket limit is determined by which Parts of Medicare you enroll in. Learn about the out-of-pocket limit here.",
+      title: "Understanding the Medicare Maximum Out-of-Pocket in 2026",
+      description: "Original Medicare has no annual out-of-pocket limit. Learn the 2026 out-of-pocket maximum for Medicare Advantage, and how Medigap and Plan K/L caps compare.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-maximum-out-of-pocket/",
       ogImage: "/images/medicarefaq-cover.jpg",
     },
     title: "Medicare Maximum Out-of-Pocket",
-    subtitle: "Original Medicare coverage helps alleviate your healthcare costs. However, it does not cover everything and it is important to review your spending limits to understand if your coverage is right for your budget.",
+    subtitle: "Original Medicare has no annual out-of-pocket limit, but Medicare Advantage, Medigap, and Medigap Plan K and Plan L each cap your costs differently. Here is what you would actually pay in a high-cost year under each option.",
     category: "General Medicare",
-    dateUpdated: "February 13, 2026",
-    lastReviewed: "2026-05-18",
+    dateUpdated: "August 20, 2026",
+    lastReviewed: "2026-08-20",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -8114,39 +8114,39 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     readTime: "9 min read",
     quickAnswer: {
-      text: "Original Medicare coverage helps alleviate your healthcare costs. However, it does not cover everything and it is important to review your spending limits to understand if your coverage is right for your budget.",
+      text: "Original Medicare has no maximum out-of-pocket limit, so your 20% coinsurance can add up indefinitely unless you add other coverage. Medicare Advantage plans cap in-network out-of-pocket spending at $9,250 in 2026. Most Medigap plans eliminate nearly all cost-sharing, though Plan K caps out-of-pocket spending at $8,000 and Plan L at $4,000 in 2026.",
       badges: [
 {
           plan: "Original Medicare",
-          status: "partial",
+          status: "not-covered",
         },
 {
           plan: "Medicare Advantage",
-          status: "partial",
+          status: "covered",
         },
 {
           plan: "Medigap",
-          status: "partial",
+          status: "covered",
         }],
     },
     comparisonTable: [
 {
         planType: "Original Medicare",
-        coverage: "Varies",
+        coverage: "No limit",
         icon: "shield",
-        notes: "Coverage depends on specific services",
+        notes: "Part A and Part B have no annual out-of-pocket cap; 20% coinsurance continues indefinitely without added coverage",
       },
 {
         planType: "Medicare Advantage",
-        coverage: "Varies",
+        coverage: "$9,250/year (2026)",
         icon: "shield",
-        notes: "Additional benefits may be available",
+        notes: "In-network out-of-pocket maximum set by CMS for 2026; combined in- and out-of-network limits are typically higher",
       },
 {
         planType: "Medigap",
-        coverage: "Supplements",
+        coverage: "Near $0",
         icon: "shield",
-        notes: "Helps cover out-of-pocket costs",
+        notes: "Most Medigap plans cover nearly all cost-sharing; Plan K caps at $8,000 and Plan L at $4,000 in 2026 since both use cost-sharing instead of first-dollar coverage",
       }],
     planBreakdowns: [
 {
@@ -8156,9 +8156,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "[Original Medicare coverage](/faqs/original-medicare-vs-medicare-advantage) helps alleviate your healthcare costs. However, it does not cover everything. When enrolling in Original Medicare, it is essential to review your spending limits to understand if your coverage is right for your budget. For many, it may come as a surprise that Original Medicare (Medicare Part A and Part B) does not have a maximum out-of-pocket limit.",
-          "Find Medicare Plans in 3 Easy Steps",
-          "Let us help you navigate your Medicare journey"],
+          "[Original Medicare coverage](/faqs/original-medicare-vs-medicare-advantage) helps alleviate your healthcare costs. However, it does not cover everything. When enrolling in Original Medicare, it is essential to review your spending limits to understand if your coverage is right for your budget. For many, it may come as a surprise that Original Medicare (Medicare Part A and Part B) does not have a maximum out-of-pocket limit."],
       },{
         planName: "What is the Maximum Out-of-Pocket for Medicare?",
         icon: "shield",
@@ -8166,7 +8164,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "Original Medicare does not have a limit on the amount you can spend out-of-pocket on healthcare. But it covers a portion of most medical bills. Once you meet the [Medicare Part B]() deductible you must cover 20% of your healthcare costs through the end of the year.",
+          "Original Medicare does not have a limit on the amount you can spend out-of-pocket on healthcare. But it covers a portion of most medical bills. Once you meet the [Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) deductible you must cover 20% of your healthcare costs through the end of the year.",
           "However, some Medicare plan options outside of Original Medicare offer out-of-pocket maximums that can put a cap on your healthcare spending. Depending on the plan you choose, you may be responsible for an additional monthly premium. Yet, this premium is often less than the cost you would be spending out-of-pocket without the extra coverage in place.",
           "Ultimately, adding extra coverage to your health insurance arsenal allows you access to additional benefits at a fraction of the cost."],
       },{
@@ -8177,8 +8175,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         paragraphs: [
           "Medicare Advantage plans offer a maximum out-of-pocket limit to help reduce your out-of-pocket spending with the coverage. However, it is essential to carefully review your plan’s out-of-pocket costs and understand the limitations of the coverage before enrolling.",
-          "The maximum out-of-pocket limits on Medicare Advantage plans vary. Still, they never exceed the limit for the year that the Centers for Medicare & Medicaid Services (CMS) sets. Additionally, there are different limits when receiving care in-network versus out-of-network.",
-          "Find Medicare Plans in 3 Easy Steps"],
+          "The maximum out-of-pocket limit on Medicare Advantage plans is set by CMS each year and cannot exceed $9,250 for in-network care in 2026. Many plans set their own limit lower than the CMS ceiling, and out-of-network care typically carries a separate, higher combined limit."],
       },{
         planName: "What Costs Count Towards the Medicare Advantage Maximum Out-of-Pocket?",
         icon: "shield",
@@ -8196,8 +8193,8 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "Most [Medicare Supplement (Medigap) plans]() do not have a maximum out-of-pocket because it is unnecessary due to the benefits they provide. Medigap plans cover most of the costs Original Medicare leaves behind, so putting a limit on out-of-pocket expenses is unnecessary.",
-          "However, [Medicare Supplement Plan K]() and [Medicare Supplement Plan L]() have maximum out-of-pocket limits because they are cost-sharing plans that do not cover 100% of your costs."],
+          "Most [Medicare Supplement (Medigap) plans](/medicare-supplement-plans) do not have a maximum out-of-pocket because it is unnecessary due to the benefits they provide. Medigap plans cover most of the costs Original Medicare leaves behind, so putting a limit on out-of-pocket expenses is unnecessary.",
+          "However, [Medicare Supplement Plan K](/medicare-supplement-plans/plan-k) and [Medicare Supplement Plan L](/medicare-supplement-plans/plan-l) have maximum out-of-pocket limits because they are cost-sharing plans that do not cover 100% of your costs. In 2026, Plan K caps your out-of-pocket spending at $8,000 and Plan L caps it at $4,000, after which each plan covers 100% of Medicare-approved costs for the rest of the year."],
       },{
         planName: "Medicare Out-of-Pocket Maximum Limits",
         icon: "shield",
@@ -8205,24 +8202,40 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "As discussed, each Part of Medicare has its own out-of-pocket limit when utilizing coverage. The chart below compares all Parts of Medicare and their maximum out-of-pocket spending limits.",
-          "Find Medicare Plans in 3 Easy Steps",
-          "Let us help you navigate your Medicare journey"],
+          "As discussed, each Part of Medicare has its own out-of-pocket limit when utilizing coverage. The chart above compares all Parts of Medicare and their maximum out-of-pocket spending limits.",
+          "In short: Original Medicare alone has no cap, Medicare Advantage caps in-network spending at $9,250 in 2026, and Medigap all but eliminates out-of-pocket costs, with Plan K and Plan L capping spending at $8,000 and $4,000 respectively."],
       }
     ],
-    faqs: [],
+    faqs: [
+      {
+        question: "Does Original Medicare have a maximum out-of-pocket limit?",
+        answer: "No. Original Medicare (Part A and Part B) has no annual cap on out-of-pocket spending. You continue to owe 20% coinsurance on most Part B services with no ceiling, which is why many people add a Medigap plan or switch to Medicare Advantage for that protection.",
+      },
+      {
+        question: "What is the Medicare Advantage out-of-pocket maximum in 2026?",
+        answer: "CMS sets an annual ceiling that in-network Medicare Advantage out-of-pocket maximums cannot exceed; for 2026 that ceiling is $9,250. Individual plans can set their limit lower, and combined in- and out-of-network limits are typically higher, so check your specific plan's Summary of Benefits.",
+      },
+      {
+        question: "Do Medigap plans have an out-of-pocket maximum?",
+        answer: "Most Medigap plans do not need one because they cover nearly all of Original Medicare's cost-sharing. The exceptions are Plan K and Plan L, which cap out-of-pocket spending at $8,000 and $4,000 in 2026, after which they cover 100% of Medicare-approved costs.",
+      },
+      {
+        question: "What happens after I reach my Medicare Advantage out-of-pocket maximum?",
+        answer: "Once your in-network spending on Medicare-covered services reaches your plan's out-of-pocket maximum, your plan pays 100% of covered costs for the rest of the plan year. The maximum resets every January 1.",
+      },
+    ],
     quickReference: [
 {
-        icon: "info",
-        text: "<strong>General Medicare</strong> topic",
-      },
-{
         icon: "alert",
-        text: "Coverage details vary by plan and location",
+        text: "Original Medicare alone has no out-of-pocket cap",
       },
 {
         icon: "dollar",
-        text: "Compare plans to find the best value",
+        text: "Medicare Advantage caps in-network spending at $9,250 in 2026",
+      },
+{
+        icon: "check",
+        text: "Medigap Plan K and Plan L cap spending at $8,000 and $4,000",
       }],
     relatedTopics: [
 {
@@ -23046,7 +23059,7 @@ export const coverageArticles: CoverageArticleData[] = [
       notes: "Applies to most beneficiaries with income ≤$109,000 (single) or ≤$218,000 (married)",
     },
     {
-      planType: "IRMAA (> 9K–K)",
+      planType: "IRMAA (>$109K–$137K)",
       coverage: "$284.10/month",
       icon: "dollar-sign",
       notes: "Income >$109,000–$137,000 (single) or >$218,000–$274,000 (married)",
