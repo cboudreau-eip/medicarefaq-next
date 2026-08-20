@@ -33,10 +33,10 @@ test("Costco-SCAN Medicare Partnership article contains required publishable con
   const article = sliceArticle(articleSource, "costco-scan-medicare-partnership");
   assert.ok(article, "Costco-SCAN Medicare Partnership article must exist");
 
-  assert.ok(article.includes('"type": "faq"'), "Article must include a visible FAQ section");
-  assert.equal((article.match(/"question":/g) || []).length >= 5, true, "Article must have at least five FAQ questions");
-  assert.ok(article.includes('"type": "zip-cta"'), "Article must include a plan-comparison CTA");
-  assert.ok(article.includes('"type": "eddie-pro-tip"'), "Article must include exactly one Eddie's Pro Tip");
+  assert.ok(article.includes('"type": "faq"') || article.includes('type: "faq"'), "Article must include a visible FAQ section");
+  assert.equal((article.match(/question["']?:/g) || []).length >= 5, true, "Article must have at least five FAQ questions");
+  assert.ok(article.includes('"type": "zip-cta"') || article.includes('type: "zip-cta"'), "Article must include a plan-comparison CTA");
+  assert.ok(article.includes('"type": "eddie-pro-tip"') || article.includes('type: "eddie-pro-tip"'), "Article must include exactly one Eddie's Pro Tip");
   assert.equal(article.includes("—"), false, "Article must not contain em dashes");
   assert.equal((article.match(/\]\(\//g) || []).length >= 5, true, "Article must include at least five internal links");
   assert.ok(article.includes("do not need a Costco membership") || article.includes("No Costco membership"), "Article must state the anti-bundling / no-membership-required fact");

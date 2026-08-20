@@ -3,7 +3,9 @@ import fs from "node:fs";
 import test from "node:test";
 
 const file = new URL("../src/lib/coverage-data.ts", import.meta.url);
-const source = fs.readFileSync(file, "utf8");
+// Normalized to LF: git's autocrlf checks this out as CRLF on Windows, which
+// would otherwise break the literal "\n"-embedded patterns below.
+const source = fs.readFileSync(file, "utf8").replace(/\r\n/g, "\n");
 const slug = "medicare-annual-notice-of-change-letter";
 const start = source.indexOf(`  {\n    slug: "${slug}"`);
 const end = source.indexOf('  {\n    slug: "medicare-give-back-benefit",', start);
