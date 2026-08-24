@@ -5,8 +5,7 @@ import Link from "next/link";
 import { trackFooterClick, trackPhoneClick } from "@/lib/analytics";
 import { useShopperApproved } from "@/hooks/useShopperApproved";
 
-const LOGO_URL =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/medicarefaq-logo-updated_eca101e5.png";
+const LOGO_URL = "/images/medicarefaq-logo.png";
 
 const footerColumns = [
   {

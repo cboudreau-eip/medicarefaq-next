@@ -8,8 +8,7 @@ import { trackPhoneClick } from "@/lib/analytics";
 import { appendPostHogParams } from "@/lib/posthog-params";
 import { searchContent, type SearchResult } from "@/lib/search-index";
 
-const LOGO_URL =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/medicarefaq-logo-updated_eca101e5.png";
+const LOGO_URL = "/images/medicarefaq-logo.png";
 
 const TYPE_COLORS: Record<string, string> = {
   blog: "#4F46E5",

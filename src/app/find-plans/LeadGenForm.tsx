@@ -19,8 +19,7 @@ import {
 import Link from "next/link";
 import { trackCtaClick } from "@/lib/analytics";
 
-const LOGO_URL =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/medicarefaq-logo-updated_eca101e5.png";
+const LOGO_URL = "/images/medicarefaq-logo.png";
 
 const PHONE_NUMBER = "(888) 335-8996";
 
