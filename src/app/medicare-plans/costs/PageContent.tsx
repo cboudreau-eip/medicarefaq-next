@@ -15,11 +15,8 @@ import {
   Phone,
   ArrowRight,
   DollarSign,
-  Shield,
   Heart,
-  Pill,
   TrendingDown,
-  AlertTriangle,
 } from "lucide-react";
 import ZipFormModal from "@/components/ZipFormModal";
 
@@ -89,26 +86,6 @@ const savingsTips = [
     icon: TrendingDown,
   },
   {
-    title: "Check for Medicare Savings Programs",
-    desc: "If your income is below $1,715/month (single), you may qualify for QMB, SLMB, or QI programs that pay your Part B premium and sometimes deductibles and coinsurance.",
-    icon: DollarSign,
-  },
-  {
-    title: "Apply for Extra Help (Part D)",
-    desc: "If your income is below $22,590/year (single), you may qualify for Extra Help that covers Part D premiums, deductibles, and copays. This saves an average of $5,300/year.",
-    icon: Pill,
-  },
-  {
-    title: "Review Part D Plans Every Year",
-    desc: "Formularies and premiums change annually. A plan that was cheapest last year may not be this year. Use Medicare.gov's Plan Finder tool during AEP (Oct 15 – Dec 7).",
-    icon: Shield,
-  },
-  {
-    title: "Avoid the Part D Late Penalty",
-    desc: "Going 63+ days without creditable drug coverage triggers a permanent penalty of ~1% per month. Even if you don't take medications now, enroll in a low-cost Part D plan.",
-    icon: AlertTriangle,
-  },
-  {
     title: "Consider High-Deductible Plan G",
     desc: "If you're healthy, HD Plan G costs $40-80/month vs. $130-250 for regular Plan G. You'll pay a $2,950 deductible, but the premium savings often exceed the deductible risk.",
     icon: Heart,
@@ -127,10 +104,6 @@ const faqs = [
   {
     q: "Which option costs less if I'm sick?",
     a: "Medigap (especially Plan G) almost always costs less if you have significant medical needs. Your out-of-pocket is capped at ~$283/year regardless of how much care you need. With Medicare Advantage, a major illness or surgery could cost you thousands in copays up to the $9,250 max.",
-  },
-  {
-    q: "What is IRMAA and will it affect me?",
-    a: `IRMAA (Income-Related Monthly Adjustment Amount) is a surcharge on Part B and Part D premiums for higher-income beneficiaries. If your modified adjusted gross income exceeds ${MEDICARE_COSTS.irmaa.individualLevel1} (single) or ${MEDICARE_COSTS.irmaa.jointLevel1} (married), you'll pay extra per month for Part B (up to ${MEDICARE_COSTS.irmaa.maxLevel}) and Part D (up to ${MEDICARE_COSTS.irmaa.partDAdditionLevel6}).`,
   },
 ];
 
@@ -220,12 +193,12 @@ export default function PageContent() {
 
           {/* Savings Tips */}
           <h2 className="text-3xl font-bold text-slate-900 mb-3 text-center" style={{ fontFamily: "'Merriweather', serif" }}>
-            6 Ways to Lower Your Medicare Costs
+            Ways to Lower Your Costs Within Your Chosen Path
           </h2>
           <p className="text-slate-600 text-center mb-8 max-w-2xl mx-auto">
-            Smart strategies that can save you hundreds or thousands per year:
+            Once you've picked a coverage path, these two strategies matter most:
           </p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 mb-16">
+          <div className="grid md:grid-cols-2 gap-5 mb-6 max-w-3xl mx-auto">
             {savingsTips.map((tip, i) => (
               <div key={i} className="p-6 bg-white rounded-xl border border-slate-200 hover:border-teal-200 hover:shadow-md transition-all">
                 <tip.icon className="w-8 h-8 text-teal-600 mb-3" />
@@ -234,40 +207,30 @@ export default function PageContent() {
               </div>
             ))}
           </div>
-
-          {/* IRMAA Table */}
-          <h2 className="text-3xl font-bold text-slate-900 mb-6 text-center" style={{ fontFamily: "'Merriweather', serif" }}>
-            2026 IRMAA Surcharges
-          </h2>
-          <p className="text-slate-600 text-center mb-6 max-w-2xl mx-auto">
-            Higher-income beneficiaries pay more for Part B and Part D. These surcharges are based on your tax return from 2 years ago:
+          <p className="text-center text-sm text-slate-500 mb-16">
+            Looking for income-based assistance programs like Medicare Savings Programs or Extra Help?{" "}
+            <a href="/new-to-medicare/costs#savings" className="text-teal-700 font-medium hover:underline">
+              See all ways to save on Medicare costs
+            </a>.
           </p>
-          <div className="overflow-x-auto rounded-xl border border-slate-200 mb-16 max-w-3xl mx-auto">
-            <table className="w-full text-sm">
-              <thead className="bg-slate-800 text-white">
-                <tr>
-                  <th className="text-left py-3 px-4 font-semibold">Income (Single / Married)</th>
-                  <th className="py-3 px-4 font-semibold text-center">Part B Premium</th>
-                  <th className="py-3 px-4 font-semibold text-center">Part D Surcharge</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-slate-100">
-                {[
-                  [`≤ ${MEDICARE_COSTS.irmaa.individualLevel1} / ${MEDICARE_COSTS.irmaa.jointLevel1}`, MEDICARE_COSTS.partB.monthlyPremium, "$0.00"],
-                  [`${MEDICARE_COSTS.irmaa.individualLevel2} / ${MEDICARE_COSTS.irmaa.jointLevel2}`, MEDICARE_COSTS.irmaa.partBWithLevel2, MEDICARE_COSTS.irmaa.partDAdditionLevel2],
-                  [`${MEDICARE_COSTS.irmaa.individualLevel3} / ${MEDICARE_COSTS.irmaa.jointLevel3}`, MEDICARE_COSTS.irmaa.partBWithLevel3, MEDICARE_COSTS.irmaa.partDAdditionLevel3],
-                  [`${MEDICARE_COSTS.irmaa.individualLevel4} / ${MEDICARE_COSTS.irmaa.jointLevel4}`, MEDICARE_COSTS.irmaa.partBWithLevel4, MEDICARE_COSTS.irmaa.partDAdditionLevel4],
-                  [`${MEDICARE_COSTS.irmaa.individualLevel5} / ${MEDICARE_COSTS.irmaa.jointLevel5}`, MEDICARE_COSTS.irmaa.partBWithLevel5, MEDICARE_COSTS.irmaa.partDAdditionLevel5],
-                  [`${MEDICARE_COSTS.irmaa.individualLevel6} / ${MEDICARE_COSTS.irmaa.jointLevel6}`, MEDICARE_COSTS.irmaa.partBWithLevel6, MEDICARE_COSTS.irmaa.partDAdditionLevel6],
-                ].map(([income, partB, partD], i) => (
-                  <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50/50"}>
-                    <td className="py-3 px-4 text-slate-700 text-xs">{income}</td>
-                    <td className="py-3 px-4 text-slate-900 font-semibold text-center">{partB}</td>
-                    <td className="py-3 px-4 text-slate-900 font-semibold text-center">{partD}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+
+          {/* IRMAA Summary */}
+          <h2 className="text-3xl font-bold text-slate-900 mb-6 text-center" style={{ fontFamily: "'Merriweather', serif" }}>
+            IRMAA Applies to Every Path Above
+          </h2>
+          <div className="max-w-2xl mx-auto mb-16 bg-slate-50 border border-slate-200 rounded-xl p-6 text-center">
+            <p className="text-slate-700">
+              Every coverage path above assumes the standard Part B premium. If your modified adjusted gross income exceeds{" "}
+              <span className="font-semibold text-slate-900">{MEDICARE_COSTS.irmaa.individualLevel1}</span> (single) or{" "}
+              <span className="font-semibold text-slate-900">{MEDICARE_COSTS.irmaa.jointLevel1}</span> (married), you'll pay a surcharge
+              on top of every scenario shown, regardless of which path you choose.
+            </p>
+            <a
+              href="/new-to-medicare/costs#irmaa"
+              className="inline-flex items-center gap-1 mt-4 text-teal-700 font-semibold hover:underline"
+            >
+              See the full 2026 IRMAA bracket table <ArrowRight className="w-4 h-4" aria-hidden="true" />
+            </a>
           </div>
 
           {/* FAQs */}
@@ -325,9 +288,9 @@ export default function PageContent() {
               <h3 className="font-semibold text-slate-900 group-hover:text-blue-700 text-sm mb-1">Best Medicare Supplement Plans</h3>
               <p className="text-xs text-slate-500">Top-rated Medigap plans compared</p>
             </a>
-            <a href="/medicare-plans/costs" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors">
-              <h3 className="font-semibold text-slate-900 group-hover:text-blue-700 text-sm mb-1">Medicare Plan Costs</h3>
-              <p className="text-xs text-slate-500">Premiums, deductibles, and out-of-pocket costs</p>
+            <a href="/new-to-medicare/costs" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors">
+              <h3 className="font-semibold text-slate-900 group-hover:text-blue-700 text-sm mb-1">Complete Medicare Cost Guide</h3>
+              <p className="text-xs text-slate-500">Full Part A, B, D, and IRMAA cost breakdown</p>
             </a>
           </div>
         </div>

@@ -29,7 +29,6 @@ const pages = [
   { url: `${BASE_URL}/medicare-supplement-plans/medicare-supplement-plans-2026/`, priority: "0.8", changefreq: "monthly" },
   { url: `${BASE_URL}/medicare-supplement-plans/medigap-by-carrier/`, priority: "0.8", changefreq: "monthly" },
   { url: `${BASE_URL}/medicare-supplement-plans/medigap-by-state/`, priority: "0.8", changefreq: "monthly" },
-  { url: `${BASE_URL}/medicare-plans/`, priority: "0.8", changefreq: "monthly" },
   { url: `${BASE_URL}/medicare-plans/costs/`, priority: "0.8", changefreq: "monthly" },
   { url: `${BASE_URL}/medicare-plans/supplement-vs-advantage/`, priority: "0.8", changefreq: "monthly" },
   { url: `${BASE_URL}/medicare-plans/best-supplement-plans/`, priority: "0.8", changefreq: "monthly" },
