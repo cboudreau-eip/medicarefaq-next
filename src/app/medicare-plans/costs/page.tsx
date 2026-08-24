@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Medicare Costs by Plan Type: 2026 Premiums, Deductibles & Out-of-Pocket",
     description: "Understand Medicare costs for 2026 including Part A and Part B premiums, deductibles, and out-of-pocket expenses for Supplement and Advantage plans.",
-    url: "https://www.medicarefaq.com/medicare-supplement-plans/costs/",
+    url: "https://www.medicarefaq.com/medicare-plans/costs/",
     type: "website",
   },
   alternates: {
-    canonical: "https://www.medicarefaq.com/medicare-supplement-plans/costs/",
+    canonical: "https://www.medicarefaq.com/medicare-plans/costs/",
   },
 };
 
@@ -22,7 +22,7 @@ export default function Page() {
     "@type": "Article",
     "headline": "Medicare Costs by Plan Type: 2026 Premiums, Deductibles & Out-of-Pocket",
     "description": "Understand Medicare costs for 2026 including Part A and Part B premiums, deductibles, and out-of-pocket expenses for Supplement and Advantage plans.",
-    "url": "https://www.medicarefaq.com/medicare-supplement-plans/costs/",
+    "url": "https://www.medicarefaq.com/medicare-plans/costs/",
     "dateModified": "2026-06-15",
     "author": { "@type": "Organization", "name": "MedicareFAQ" },
     "publisher": {
@@ -35,8 +35,8 @@ export default function Page() {
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.medicarefaq.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Medicare Supplement Plans", "item": "https://www.medicarefaq.com/medicare-supplement-plans/" },
-        { "@type": "ListItem", "position": 3, "name": "Medicare Costs", "item": "https://www.medicarefaq.com/medicare-supplement-plans/costs/" }
+        { "@type": "ListItem", "position": 2, "name": "Medicare Plans", "item": "https://www.medicarefaq.com/medicare-plans/" },
+        { "@type": "ListItem", "position": 3, "name": "Medicare Costs", "item": "https://www.medicarefaq.com/medicare-plans/costs/" }
       ]
     }
   };
