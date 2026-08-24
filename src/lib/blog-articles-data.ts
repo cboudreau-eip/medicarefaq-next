@@ -15,8 +15,9 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "disqualifies-medicare-clear-2026",
     seo: {
-      title: "What Disqualifies You From Medicare? 2026 Guide",
-      description: "Wondering what disqualifies you from Medicare? Learn the real eligibility rules on work credits, citizenship, and enrollment timing for 2026.",
+      focusKeyword: "",
+      title: "What Disqualifies You From Medicare? Full 2026 Guide",
+      description: "Wondering what disqualifies you from Medicare? Learn the real eligibility rules on work credits, citizenship, income, and enrollment timing for 2026.",
       canonical: "https://www.medicarefaq.com/blog/disqualifies-medicare-clear-2026/",
       ogImage: "/images/generated/what-disqualifies-you-from.png",
     },
@@ -29,7 +30,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "/images/generated/what-disqualifies-you-from.png",
+    image: "/images/generated/disqualifies-medicare-clear-2026.png",
     imageAlt: "What Disqualifies You From Medicare? A Clear 2026 Guide to Eligibility",
     keyTakeaways: ["Very few people are truly disqualified from Medicare; most issues involve timing, work credits, or incomplete paperwork", "Eligibility generally requires being age 65 or older and a U.S. citizen or lawful permanent resident with five continuous years of residency", "Without 40 work credits (10 years of Medicare-taxed work), you can still enroll in Part A by paying a monthly premium", "People under 65 may qualify through disability, ESRD, or ALS diagnoses without waiting until age 65", "Pre-existing health conditions do not disqualify anyone from Medicare eligibility"],
     tableOfContents: [
@@ -80,7 +81,7 @@ export const blogArticles: BlogArticleData[] = [
       { type: "paragraph", content: "Premiums, deductibles, and copays can feel overwhelming, but understanding them separately from eligibility helps. A plan being expensive does not mean you were denied; it means the cost structure may not fit your budget, which is a comparison issue, not an eligibility one." },
       { type: "paragraph", content: "Comparing plans by total yearly cost, not just the advertised premium, gives a clearer picture. A plan with a lower premium can sometimes cost more overall once deductibles and copays are added in." },
       { type: "heading", level: 2, text: "How to Confirm Your Eligibility With Confidence", id: "confirm-eligibility-confidence" },
-      { type: "paragraph", content: "The most reliable way to confirm eligibility is directly through Social Security or Medicare.gov. You can check your <a href=\"https://www.ssa.gov/medicare\">work credit history through Social Security</a> or review your enrollment status through your official Medicare account." },
+      { type: "paragraph", content: "The most reliable way to confirm eligibility is directly through Social Security or Medicare.gov. You can check your [work credit history through Social Security](https://www.ssa.gov/medicare) or review your enrollment status through your official Medicare account." },
       { type: "paragraph", content: "For straightforward situations, self-research often answers your questions. For more complex cases, such as mixed work histories, immigration timing, or coordinating employer coverage, speaking with a licensed Medicare agent can save time and prevent costly mistakes." },
       { type: "callout", calloutType: "tip", calloutTitle: "What Good Guidance Looks Like", calloutText: "Transparent, no-pressure guidance means an agent explains your options clearly, answers questions without rushing you, and never requires an immediate decision. Reviewing your situation is about gaining clarity, not committing to anything on the spot." },
       { type: "paragraph", content: "Confirming eligibility is a low-stakes step. It simply gives you accurate information so you can plan your next move with confidence instead of guessing." },
