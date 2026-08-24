@@ -15,6 +15,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "i-medicare-coverage-fits",
     seo: {
+      focusKeyword: "",
       title: "Choosing Medicare Coverage on a Budget | MedicareFAQ",
       description: "Learn how to compare Medicare premiums, deductibles, and out-of-pocket costs to choose coverage that truly fits your budget in 2026.",
       canonical: "https://www.medicarefaq.com/blog/i-medicare-coverage-fits/",
@@ -44,7 +45,7 @@ export const blogArticles: BlogArticleData[] = [
     sections: [
       { type: "heading", level: 2, text: "The Real Cost of Medicare Isn't Just the Premium", id: "real-cost-of-medicare" },
       { type: "paragraph", content: "A $0 premium plan can end up costing more than a $150-a-month plan once you factor in copays, drug tiers, and hospital stays. This surprises a lot of people who assume the cheapest sticker price wins. Budgeting for Medicare means looking at four numbers at once: premium, deductible, coinsurance, and out-of-pocket maximum." },
-      { type: "paragraph", content: "In 2026, the standard Part B premium is <strong>$202.90</strong> per month, and that's just one piece of the puzzle. Add in Part A costs, a possible Part D plan, and any supplemental coverage, and your monthly number can shift significantly depending on how you structure your coverage." },
+      { type: "paragraph", content: "In 2026, the standard Part B premium is **$202.90 per month**, and that's just one piece of the puzzle. Add in Part A costs, a possible Part D plan, and any supplemental coverage, and your monthly number can shift significantly depending on how you structure your coverage." },
       { type: "callout", calloutType: "info", calloutTitle: "2026 Baseline Costs to Know", calloutText: "Part B premium: $202.90/month. Part B deductible: $283/year. Part A hospital deductible: $1,736 per benefit period. These figures reset every January and apply to nearly everyone on Original Medicare." },
       { type: "heading", level: 2, text: "Medicare Terms That Actually Affect Your Wallet", id: "medicare-terms-that-affect-your-wallet" },
       { type: "paragraph", content: "Medicare terminology can feel like a second language, but a handful of words drive nearly every budgeting decision you'll make. Understanding them upfront saves you from guessing later." },
@@ -66,7 +67,7 @@ export const blogArticles: BlogArticleData[] = [
       { type: "heading", level: 2, text: "How Income Affects What You Pay", id: "how-income-affects-what-you-pay" },
       { type: "paragraph", content: "Higher earners pay more for Part B and Part D through IRMAA, an income-related surcharge based on tax returns from two years prior. If your income was above certain thresholds in 2024, your 2026 premiums reflect that." },
       { type: "table", title: "2026 IRMAA Part B Monthly Premiums by Individual Income", headers: ["2024 Individual Income", "2026 Part B Premium"], rows: [["$109,000 or less", "$202.90"], ["More than $109,000 up to $137,000", "$284.10"], ["More than $137,000 up to $171,000", "$405.80"], ["More than $171,000 up to $205,000", "$527.50"], ["More than $205,000 up to $500,000", "$649.20"], ["More than $500,000", "$689.90"]], footnote: "Married couples filing jointly have separate, higher thresholds. Part D also carries an additional IRMAA surcharge ranging from $14.50 to $91.00 per month." },
-      { type: "paragraph", content: "If your income dropped since 2024 due to retirement or another qualifying life event, you may be able to request a reduction using <a href=\"https://www.ssa.gov/medicare\">Social Security's IRMAA appeal process</a>. This step is often overlooked but can meaningfully lower your monthly premium." },
+      { type: "paragraph", content: "If your income dropped since 2024 due to retirement or another qualifying life event, you may be able to request a reduction using [Social Security's IRMAA appeal process](https://www.ssa.gov/medicare). This step is often overlooked but can meaningfully lower your monthly premium." },
       { type: "heading", level: 2, text: "When to Get a Second Set of Eyes on Your Choice", id: "second-set-of-eyes" },
       { type: "paragraph", content: "Reading about Medicare and actually comparing plans against your specific doctors, prescriptions, and budget are two different tasks. Many people research for weeks and still feel unsure whether they've landed on the right plan." },
       { type: "paragraph", content: "A licensed Medicare agent can walk through your list of medications and providers, check them against specific plans in your area, and show you real cost estimates rather than general ranges. This isn't about being pushed into a decision; it's about getting a clear comparison built around your situation before you commit." },
