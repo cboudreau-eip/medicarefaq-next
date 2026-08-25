@@ -1,7 +1,22 @@
 {
   "title": "Medicare for All 2026: What It Means for Your Coverage",
+  "rawContent": "",
   "slug": "unpacking-medicare-for-all-in-the-2026-election-landscape",
+  "excerpt": "Political talk of 'Medicare for All' is heating up before the 2026 midterms, but your current Medicare coverage, costs, and provider networks remain unchanged.",
   "category": "general",
+  "author": "David Haass",
+  "reviewer": "Ashlee Zareczny",
+  "image": "/images/generated/unpacking-medicare-for-all.png",
+  "imageAlt": "",
+  "keyTakeaways": [
+    "'Medicare for All' is a proposed single-payer system still debated in Congress, not a change to current Medicare",
+    "Your Part A, Part B, Part C, and Part D benefits remain fully operational and unaffected by this political discussion",
+    "2026 costs, including the $202.90 Part B premium and $283 deductible, are what you should budget around today",
+    "No 'Medicare for All' proposal has become law, so it has no impact on your current coverage or provider access",
+    "Your Medicare Advantage or Part D plan, not political proposals, determines your doctor and prescription coverage"
+  ],
+  "seoTitle": "Medicare for All 2026: What It Means for Your Coverage",
+  "seoDescription": "Confused by 'Medicare for All' headlines in 2026? Learn how this political proposal differs from your actual Medicare coverage, costs, and benefits.",
   "sections": [
     {
       "type": "heading",
@@ -227,21 +242,13 @@
       "content": "Focus on what you can control right now: comparing your plan's costs, checking your doctors and prescriptions, and confirming your enrollment deadlines. Clear, judgment-free help is available whenever you are ready to talk through your options with a licensed agent."
     }
   ],
-  "seoTitle": "Medicare for All 2026: What It Means for Your Coverage",
-  "seoDescription": "Confused by 'Medicare for All' headlines in 2026? Learn how this political proposal differs from your actual Medicare coverage and costs.",
-  "excerpt": "Political talk of 'Medicare for All' is heating up before the 2026 midterms, but your current Medicare coverage, costs, and provider networks remain unchanged.",
-  "keyTakeaways": [
-    "'Medicare for All' is a proposed single-payer system still debated in Congress, not a change to current Medicare",
-    "Your Part A, Part B, Part C, and Part D benefits remain fully operational and unaffected by this political discussion",
-    "2026 costs, including the $202.90 Part B premium and $283 deductible, are what you should budget around today",
-    "No 'Medicare for All' proposal has become law, so it has no impact on your current coverage or provider access",
-    "Your Medicare Advantage or Part D plan, not political proposals, determines your doctor and prescription coverage"
+  "relatedSlugs": [
+    "medicare-for-all",
+    "medicare-options-georgia",
+    "5-steps-to-choosing-the-right-medicare-plan",
+    "top-5-medicare-prescription-drug-plans"
   ],
-  "image": "/images/generated/unpacking-medicare-for-all.png",
-  "relatedSlugs": [],
-  "sourceUrl": "https://www.npr.org/2026/08/25/nx-s1-5943069/medicare-for-all-is-not-medicare-for-all",
-  "pipelineId": "disc-6914eabb884497df630d3229cc37f5cb1fa3d587dd6bcbbcc39851d46da1c915",
   "id": "pipeline-unpacking-medicare-for-all-in-the-2026-election-landscape",
-  "updatedAt": "2026-08-25T16:24:21.693Z",
-  "createdAt": "2026-08-25T16:24:21.693Z"
+  "updatedAt": "2026-08-25T17:43:33.773Z",
+  "createdAt": "2026-08-25T17:43:33.773Z"
 }
