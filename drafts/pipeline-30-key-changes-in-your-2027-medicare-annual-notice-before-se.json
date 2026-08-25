@@ -1,7 +1,22 @@
 {
   "title": "Medicare Annual Notice of Change 2027 Guide",
+  "rawContent": "",
   "slug": "30-key-changes-in-your-2027-medicare-annual-notice-before-se",
+  "excerpt": "Your 2027 Medicare Annual Notice of Change arrives by September 30 and reveals key plan changes. Learn how to read it before Open Enrollment starts.",
   "category": "enrollment",
+  "author": "David Haass",
+  "reviewer": "Ashlee Zareczny",
+  "image": "/images/generated/30-key-changes-in.png",
+  "imageAlt": "",
+  "keyTakeaways": [
+    "Medicare Advantage and Part D plans must send the Annual Notice of Change (ANOC) by September 30 each year",
+    "The ANOC details 2027 changes to premiums, deductibles, drug tiers, and provider networks before they take effect January 1",
+    "The standard Part B premium for 2026 is $202.90 per month with a $283 deductible, useful for comparison",
+    "Medicare Advantage out-of-pocket caps cannot exceed $9,250 for 2026, and your plan's exact figure appears in the ANOC",
+    "Reviewing the ANOC early gives you time to compare plans before Open Enrollment ends on December 7"
+  ],
+  "seoTitle": "Medicare Annual Notice of Change 2027 Guide",
+  "seoDescription": "Learn what your Medicare Annual Notice of Change 2027 means for premiums, deductibles, and coverage before the September 30 deadline.",
   "sections": [
     {
       "type": "heading",
@@ -217,21 +232,12 @@
       "content": "If anything in your notice feels unclear, reaching out to a licensed agent for a calm, judgment-free review can bring real clarity. You set the timeline, and you keep control of the decision. Reviewing your ANOC now is simply the first step toward feeling confident about your Medicare coverage for the year ahead."
     }
   ],
-  "seoTitle": "Medicare Annual Notice of Change 2027 Guide",
-  "seoDescription": "Learn what your Medicare Annual Notice of Change 2027 means for premiums, deductibles, and coverage before the September 30 deadline.",
-  "excerpt": "Your 2027 Medicare Annual Notice of Change arrives by September 30 and reveals key plan changes. Learn how to read it before Open Enrollment starts.",
-  "keyTakeaways": [
-    "Medicare Advantage and Part D plans must send the Annual Notice of Change (ANOC) by September 30 each year",
-    "The ANOC details 2027 changes to premiums, deductibles, drug tiers, and provider networks before they take effect January 1",
-    "The standard Part B premium for 2026 is $202.90 per month with a $283 deductible, useful for comparison",
-    "Medicare Advantage out-of-pocket caps cannot exceed $9,250 for 2026, and your plan's exact figure appears in the ANOC",
-    "Reviewing the ANOC early gives you time to compare plans before Open Enrollment ends on December 7"
+  "relatedSlugs": [
+    "medicare-annual-notice-of-change-letter",
+    "medicare-part-d-enrollment-deadlines",
+    "5-steps-to-choosing-the-right-medicare-plan"
   ],
-  "image": "/images/generated/30-key-changes-in.png",
-  "relatedSlugs": [],
-  "sourceUrl": "https://finance.yahoo.com/healthcare/articles/medicare-plan-2027-changes-reach-200257426.html",
-  "pipelineId": "disc-0cc40f6bf427580d7718d210f95d8400ab0a87ca87fad70dd28308ec55852dd4",
   "id": "pipeline-30-key-changes-in-your-2027-medicare-annual-notice-before-se",
-  "updatedAt": "2026-08-25T12:26:50.360Z",
-  "createdAt": "2026-08-25T12:26:50.360Z"
+  "updatedAt": "2026-08-25T12:58:37.459Z",
+  "createdAt": "2026-08-25T12:58:37.459Z"
 }
