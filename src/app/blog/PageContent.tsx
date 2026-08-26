@@ -60,9 +60,13 @@ export default function Blog({ currentPage }: { currentPage: number }) {
   // Sort all posts by date (newest first)
   const allSorted = uniquePosts.sort(sortByDate);
 
-  // Latest 2 posts become the "Latest Articles" hero row (only on page 1)
+  // Latest 2 posts become the "Latest Articles" hero row (only on page 1).
+  // remainingPosts always excludes them, on every page -- otherwise pages
+  // after page 1 re-include the featured posts, shifting the grid and
+  // duplicating them onto page 2, and totalPages is computed from a
+  // different-length array depending on which page you're on.
   const featuredPosts = currentPage === 1 ? allSorted.slice(0, 2) : [];
-  const remainingPosts = currentPage === 1 ? allSorted.slice(2) : allSorted;
+  const remainingPosts = allSorted.slice(2);
 
   // Pagination
   const totalPages = Math.ceil(remainingPosts.length / POSTS_PER_PAGE);
