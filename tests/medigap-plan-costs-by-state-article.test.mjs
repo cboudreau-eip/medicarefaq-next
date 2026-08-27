@@ -33,13 +33,19 @@ test("Medigap plan costs by state article contains required publishable content"
   const article = sliceArticle(articleSource, "medigap-plan-costs-by-state");
   assert.ok(article, "Medigap plan costs by state article must exist");
 
-  assert.ok(article.includes('"type": "faq"'), "Article must include a visible FAQ section");
-  assert.equal((article.match(/"question":/g) || []).length >= 5, true, "Article must have at least five FAQ questions");
-  assert.ok(article.includes('"type": "zip-cta"'), "Article must include a plan-comparison CTA");
-  assert.ok(article.includes('"type": "eddie-pro-tip"'), "Article must include exactly one Eddie's Pro Tip");
+  // blog-articles-data.ts mixes two valid object-literal styles (quoted keys vs.
+  // bare keys) depending on which tool last wrote the entry, so every field check
+  // here must match both -- a style-specific check reads as a content regression
+  // when it's really just a reformat.
+  const hasType = (value) => new RegExp(`type["']?:\\s*["\`]${value}["\`]`).test(article);
+
+  assert.ok(hasType("faq"), "Article must include a visible FAQ section");
+  assert.equal((article.match(/question["']?:\s*["`]/g) || []).length >= 5, true, "Article must have at least five FAQ questions");
+  assert.ok(hasType("zip-cta"), "Article must include a plan-comparison CTA");
+  assert.ok(hasType("eddie-pro-tip"), "Article must include exactly one Eddie's Pro Tip");
   assert.equal(article.includes("—"), false, "Article must not contain em dashes");
   assert.equal((article.match(/\]\(\//g) || []).length >= 5, true, "Article must include at least five internal links");
-  assert.ok(article.includes('"type": "table"'), "Article must include the standard vs. HD-Plan G comparison table");
+  assert.ok(hasType("table"), "Article must include the standard vs. HD-Plan G comparison table");
   assert.equal(article.includes("Medicare. gov"), false, "Article must not contain the stray-space Medicare.gov artifact");
 });
 
