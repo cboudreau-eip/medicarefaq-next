@@ -12738,7 +12738,7 @@ author: "David Haass",reviewer: "Ashlee Zareczny",readTime: "12 min read",featur
     "seo": {
       "focusKeyword": "Medigap plan costs by state",
       "title": "Medigap Plan Costs by State: Highest & Lowest in 2026",
-      "description": "Medigap Plan G costs $119/mo in Kansas but $400+ in New York. See which states have the highest and lowest Medigap premiums in 2026 and why.",
+      "description": "Medigap Plan G costs "description": 19/mo in Kansas but $400+ in New York. See which states have the highest and lowest Medigap premiums in 2026 and why.",
       "canonical": "https://www.medicarefaq.com/blog/medigap-plan-costs-by-state/",
       "ogImage": "/images/medicarefaq-cover.jpg"
     },
@@ -12752,7 +12752,7 @@ author: "David Haass",reviewer: "Ashlee Zareczny",readTime: "12 min read",featur
     "reviewer": "Ashlee Zareczny",
     "readTime": "11 min read",
     "featured": false,
-    "image": "/images/medicarefaq-cover.jpg",
+    "image": "/images/generated/medigap-plan-costs-by.png",
     "imageAlt": "Map of the United States representing how Medigap Plan G premiums vary widely by state",
     "answerBlock": "Medigap Plan G costs about $119/month in Kansas versus $400+/month in New York for identical, federally standardized coverage. The gap comes from each state's rating method (community, issue-age, or attained-age), not differences in benefits. Community-rated states cost more upfront but stay stable with age; attained-age states start cheap but rise every year.",
     "keyTakeaways": [
@@ -12799,339 +12799,60 @@ author: "David Haass",reviewer: "Ashlee Zareczny",readTime: "12 min read",featur
       }
     ],
     "sections": [
-      {
-        "type": "paragraph",
-        "content": "The same Medigap Plan G can cost $119 a month in Kansas and more than $400 a month in New York, for identical coverage (as of January 2026, for a 65-year-old non-smoking female). That price gap surprises most people, and understandably so. When the benefits are exactly the same regardless of where you live, a 3x or 4x price difference feels like it should come with an explanation."
-      },
-      {
-        "type": "paragraph",
-        "content": "It does. The variation in Medigap plan costs by state comes almost entirely from state-level rating rules and regulations, not from differences in what each plan actually pays. Once you understand those rules, the pricing map starts to make sense, and you can use that knowledge to make a genuinely informed decision."
-      },
-      {
-        "type": "paragraph",
-        "content": "This article breaks down which states have the most expensive and least expensive Medigap premiums in 2026, explains why those differences exist, and gives you a practical framework for evaluating your own options with confidence."
-      },
-      {
-        "type": "heading",
-        "level": 2,
-        "text": "Why Medigap Premiums Differ So Much From State to State",
-        "id": "why-premiums-differ"
-      },
-      {
-        "type": "paragraph",
-        "content": "Medigap premiums differ so much from state to state primarily because of the rating methodology each state uses (community, issue-age, or attained-age), not because the plans cover different services. Medigap plans are federally standardized. That means Plan G in New York and Plan G in Kansas pay for the exact same services: hospital coinsurance, skilled nursing facility coinsurance, Part B excess charges, and more. The federal government sets what each lettered plan must cover. States and insurers set the price."
-      },
-      {
-        "type": "paragraph",
-        "content": "The single biggest driver of price variation is the rating methodology your state uses. There are three types:"
-      },
-      {
-        "type": "list",
-        "ordered": false,
-        "items": [
-          "Community rating: Every enrollee pays the same premium regardless of age. A 65-year-old and a 78-year-old pay the same amount.",
-          "Issue-age rating: Your premium is based on your age when you first enroll and does not automatically increase just because you get older.",
-          "Attained-age rating: Your premium starts lower but rises each year as you age, the most common method across U.S. states."
-        ]
-      },
-      {
-        "type": "paragraph",
-        "content": "According to [KFF research](https://www.kff.org/topic/medicare/), this rating structure is the primary reason why Medigap premiums vary so dramatically from state to state. As Tricia Neuman of KFF has noted, a beneficiary in New York can pay three or four times more for the same standardized plan than someone in the Midwest, driven by rating rules, state regulations, and underlying healthcare costs."
-      },
-      {
-        "type": "paragraph",
-        "content": "Secondary factors include how many insurers compete in your state, any additional state benefit mandates beyond the federal standard, and regional healthcare utilization patterns. For a broader comparison of your coverage options, see [Medigap vs. Medicare Advantage](/faqs/medigap-vs-medicare-advantage/)."
-      },
-      {
-        "type": "heading",
-        "level": 2,
-        "text": "The Most Expensive States for Medigap Coverage",
-        "id": "most-expensive-states"
-      },
-      {
-        "type": "paragraph",
-        "content": "New York and Connecticut sit at the top of the cost rankings, and have for years. Both states use community rating, which requires insurers to charge the same premium to every enrollee regardless of age. The result: Plan G premiums for a 65-year-old non-smoking female in New York exceeded $400/month as of January 2026, according to the Medicare.gov Medigap Policy Search Tool."
-      },
-      {
-        "type": "paragraph",
-        "content": "At first glance, $400/month sounds steep. But community rating comes with a meaningful trade-off: your premium does not automatically climb just because you turn 70, 75, or 80. For beneficiaries who plan to hold their plan for many years, the total lifetime cost can be more predictable, and sometimes more competitive, than it appears at the point of enrollment."
-      },
-      {
-        "type": "paragraph",
-        "content": "Other contributing factors in high-cost states include:"
-      },
-      {
-        "type": "list",
-        "ordered": false,
-        "items": [
-          "Elevated baseline healthcare costs in urban and coastal markets",
-          "Lower insurer competition, which reduces downward pricing pressure",
-          "State-mandated benefits that go beyond the federal Medigap standard"
-        ]
-      },
-      {
-        "type": "paragraph",
-        "content": "New Jersey also ranks among the higher-cost states, partly due to its own regulatory environment. For a full picture of 2026 Medicare cost benchmarks alongside Medigap premiums, [Medicare costs in 2026](/blog/medicare-costs-2026/) offers a helpful reference."
-      },
-      {
-        "type": "eddie-pro-tip",
-        "content": "If you live in a community-rated state like New York or Connecticut, request quotes from at least three to five insurers, because even within a community-rated system, insurers can apply different rate adjustment factors for tobacco use, household discounts, or organizational affiliations. Running quotes through Medicare.gov's Medigap Policy Search Tool filtered to your exact ZIP code and age will surface real price differences that a general state average will never show you."
-      },
-      {
-        "type": "heading",
-        "level": 2,
-        "text": "The Least Expensive States for Medigap Coverage",
-        "id": "least-expensive-states"
-      },
-      {
-        "type": "paragraph",
-        "content": "On the opposite end of the spectrum, states like Wisconsin and Kansas consistently rank among the cheapest for Medigap coverage. As of January 2026, average Plan G premiums for a 65-year-old non-smoking female in Kansas can fall under $120/month, a dramatic contrast to New York's $400+ range for the same profile."
-      },
-      {
-        "type": "paragraph",
-        "content": "The reason these states look so affordable at age 65 is primarily attained-age rating. Premiums start low because insurers price for a younger, healthier enrollee, then adjust upward each year as you age. This structure makes the \"cheapest Medicare Supplement plans\" label a bit misleading."
-      },
-      {
-        "type": "paragraph",
-        "content": "David Lipschutz of the Center for Medicare Advocacy has been direct about this dynamic: attained-age rating states may look inexpensive at enrollment but become increasingly burdensome as beneficiaries move into their 70s and 80s, precisely when healthcare needs are greatest."
-      },
-      {
-        "type": "paragraph",
-        "content": "The practical takeaway: low entry premiums are worth noting, but they are only one data point. Use the Medicare.gov Medigap Policy Search Tool to pull real quotes for your age, gender, and ZIP code, and project those premiums forward, not just sideways."
-      },
-      {
-        "type": "heading",
-        "level": 2,
-        "text": "How Your Age Changes the Cost Map",
-        "id": "age-changes-the-map"
-      },
-      {
-        "type": "paragraph",
-        "content": "How Medigap premiums compare across states changes as you age, because attained-age rating causes premiums in lower-cost states to rise each year while community-rated states stay more stable. The ranking of most-to-least expensive states does not stay fixed as you age. It shifts, sometimes significantly. Attained-age rating states like Florida and Texas often appear attractively priced at 65 but can see Plan G premiums roughly double by age 75 to 80, according to AHIP Medigap market analysis."
-      },
-      {
-        "type": "paragraph",
-        "content": "Community-rated states tell a different story. In those states, the premium at age 80 may be the same, or only modestly higher, than the premium at age 65. That stability has real financial value, even if the starting point feels high."
-      },
-      {
-        "type": "paragraph",
-        "content": "Consider a concrete example:"
-      },
-      {
-        "type": "list",
-        "ordered": false,
-        "items": [
-          "A Florida enrollee paying $130/month at 65 (as of January 2026, for a 65-year-old non-smoking female) may pay $220-$260/month by age 78",
-          "A New York enrollee paying $380/month at 65 (as of January 2026, for a 65-year-old non-smoking female) may pay $380-$420/month at 78"
-        ]
-      },
-      {
-        "type": "paragraph",
-        "content": "The gap narrows considerably over time. When you calculate total premiums paid over 10 or 15 years, the attained-age state that looked dramatically cheaper at enrollment often ends up costing a similar amount, or more."
-      },
-      {
-        "type": "callout",
-        "calloutType": "warning",
-        "calloutTitle": "Don't Choose Based on Age-65 Price Alone",
-        "calloutText": "A low starting premium in an attained-age state is not the same as a low lifetime cost. Ask any insurer for a rate history showing how much a policy at your age has increased over the past 5 to 10 years, not just today's quote."
-      },
-      {
-        "type": "paragraph",
-        "content": "This long-term view matters especially for beneficiaries in good health who plan to keep their Medigap coverage for decades. For help evaluating whether Medigap is the right long-term structure for your situation, see [Medicare Supplement vs. Medicare Advantage](/faqs/medigap-vs-medicare-advantage/)."
-      },
-      {
-        "type": "heading",
-        "level": 2,
-        "text": "The Three States That Play by Different Rules",
-        "id": "different-rules-states"
-      },
-      {
-        "type": "paragraph",
-        "content": "If you live in Massachusetts, Minnesota, or Wisconsin, one important point applies before anything else: these states do not follow the standard lettered Medigap plan system. They have their own benefit structures, which means national Plan G premium averages simply do not apply to you."
-      },
-      {
-        "type": "paragraph",
-        "content": "Here is a brief overview of each state's alternative:"
-      },
-      {
-        "type": "list",
-        "ordered": false,
-        "items": [
-          "Wisconsin uses the Wisconsin Basic Plan with optional riders, including the Wisconsin Preventive Benefits Rider and the Wisconsin 50% Part A Deductible Rider, that can be added for additional coverage areas.",
-          "Massachusetts offers the Massachusetts Core Plan and the Massachusetts Supplement 1 Plan (also called the Massachusetts Supplement 1A Plan), each covering a defined set of benefits under state regulation.",
-          "Minnesota has its own standardized plans, the Minnesota Basic Plan and the Minnesota Extended Basic Plan, that differ from the federal lettered plan framework."
-        ]
-      },
-      {
-        "type": "paragraph",
-        "content": "Residents of these three states need to evaluate their options through their own state's insurance commissioner resources or through the Medicare.gov comparison tool filtered specifically to their state. Applying statistics from other states will lead to incorrect conclusions. If you are newer to Medicare and want to build foundational knowledge first, [25 Medicare Q&As](/faqs/25-medicare-qas-you-should-know/) is a helpful starting point."
-      },
-      {
-        "type": "heading",
-        "level": 2,
-        "text": "High-Deductible Plan G: A Middle Path for Expensive States",
-        "id": "high-deductible-plan-g"
-      },
-      {
-        "type": "paragraph",
-        "content": "For beneficiaries in high-premium states who find standard Plan G premiums difficult to absorb, High-Deductible Plan G (HD-Plan G) offers a practical alternative. It provides the same ultimate coverage as standard Plan G, but only after you have paid the first $2,950 in Medicare cost-sharing out of pocket. That figure is the 2026 deductible threshold set by CMS, up from $2,870 in 2025."
-      },
-      {
-        "type": "paragraph",
-        "content": "HD-Plan G premiums are substantially lower than standard Plan G in most states. In a high-cost state like New York or Connecticut, this can represent meaningful monthly savings while still providing a ceiling on your worst-case annual exposure."
-      },
-      {
-        "type": "paragraph",
-        "content": "The break-even math is straightforward. The table below illustrates the comparison using example figures. Actual premiums vary by insurer, ZIP code, and individual factors, so use the Medicare.gov Medigap Policy Search Tool for real quotes in your area."
-      },
-      {
-        "type": "table",
-        "title": "Standard Plan G vs. High-Deductible Plan G (Example)",
-        "headers": [
-          "Metric",
-          "Standard Plan G",
-          "HD-Plan G"
-        ],
-        "rows": [
-          [
-            "Monthly premium (example)",
-            "$400/month (January 2026, 65-year-old non-smoking female)",
-            "$80/month (January 2026, 65-year-old non-smoking female)"
-          ],
-          [
-            "Annual premium (example)",
-            "$4,800/year",
-            "$960/year"
-          ],
-          [
-            "Annual deductible",
-            "$0",
-            "$2,950"
-          ],
-          [
-            "Annual premium savings with HD-Plan G",
-            "n/a",
-            "$3,840/year"
-          ],
-          [
-            "Break-even point",
-            "n/a",
-            "More than $2,950 in annual cost-sharing"
-          ]
-        ]
-      },
-      {
-        "type": "paragraph",
-        "content": "You would need more than $2,950 in annual cost-sharing before the standard plan becomes the better financial choice. For many healthy beneficiaries in their mid-60s, that threshold is rarely crossed in a given year."
-      },
-      {
-        "type": "paragraph",
-        "content": "The key cost-sharing figures the $2,950 deductible is protecting against include the 2026 Part A hospital deductible of $1,736 per benefit period and the Part B deductible of $283."
-      },
-      {
-        "type": "heading",
-        "level": 2,
-        "text": "How to Compare Medigap Plans in Your State Without Getting Overwhelmed",
-        "id": "how-to-compare"
-      },
-      {
-        "type": "paragraph",
-        "content": "Comparing Medigap options does not need to feel complicated. A focused three-step approach keeps the process manageable:"
-      },
-      {
-        "type": "list",
-        "ordered": true,
-        "items": [
-          "Identify your state's rating methodology. Is it community, issue-age, or attained-age? This single factor determines how your premium will behave over time, and it changes the way you should interpret any quote you receive.",
-          "Use the Medicare.gov Medigap Policy Search Tool. Enter your age, gender, tobacco status, and ZIP code to get real insurer quotes specific to your area. State averages can be misleading; your local market is what matters.",
-          "Compare total estimated cost over 10 years, not just today's monthly premium. Factor in projected annual premium increases, especially in attained-age states, to get a realistic picture of long-term affordability."
-        ]
-      },
-      {
-        "type": "paragraph",
-        "content": "Because plan benefits are identical within each letter across all insurers, the only meaningful variables are premium, insurer financial stability, and customer service reputation. You are not comparing coverage. You are comparing price and service."
-      },
-      {
-        "type": "callout",
-        "calloutType": "info",
-        "calloutTitle": "A Higher Price Never Means Better Coverage",
-        "calloutText": "Because Medigap benefits are federally standardized, a $400/month Plan G in New York and a $119/month Plan G in Kansas cover the identical set of services. There is no premium version of Plan G with extra benefits. The price difference is entirely about state rating rules, not what you get."
-      },
-      {
-        "type": "paragraph",
-        "content": "Stay current on any regulatory changes that could affect Medigap pricing or enrollment rules by reviewing [new Medicare changes for 2026](/faqs/new-medicare-changes/). And remember: a licensed Medicare counselor or your local [SHIP advisor](https://www.shiphelp.org/) can help you interpret your local quotes at no cost."
-      },
-      {
-        "type": "zip-cta",
-        "headline": "See Medigap Premiums Available in Your ZIP Code",
-        "subtext": "State averages only tell part of the story. Compare real, local Medigap quotes for your exact age, gender, and ZIP code.",
-        "buttonLabel": "Compare Plans in My Area"
-      },
-      {
-        "type": "heading",
-        "level": 2,
-        "text": "Frequently Asked Questions",
-        "id": "faqs"
-      },
-      {
-        "type": "faq",
-        "faqs": [
-          {
-            "question": "Which states have the most expensive Medigap plans in 2026?",
-            "answer": "New York and Connecticut are consistently the most expensive, with Plan G premiums for a 65-year-old non-smoking female often exceeding $400/month as of January 2026 due to community-rating laws. Massachusetts and New Jersey also rank high, though their regulated or non-standard structures make direct comparisons more complex."
-          },
-          {
-            "question": "Which states have the cheapest Medigap premiums?",
-            "answer": "States like Wisconsin and Kansas tend to have the lowest Plan G premiums, sometimes under $120/month at age 65 as of January 2026, largely because of attained-age rating and strong insurer competition. Keep in mind that those low entry premiums increase as you age, so cheapest at 65 does not always mean cheapest overall."
-          },
-          {
-            "question": "Why do Medigap premiums vary so much between states?",
-            "answer": "The primary driver is the state's rating methodology (community, issue-age, or attained-age), not differences in what the plan covers, since Medigap benefits are federally standardized. Secondary factors include local healthcare costs, the number of insurers competing in the market, and any additional state-level benefit mandates."
-          },
-          {
-            "question": "Does it make financial sense to move to a cheaper state just to lower your Medigap premium?",
-            "answer": "Relocating solely for a lower Medigap premium is rarely advisable. Moving costs, provider network changes, and differences in overall cost of living typically outweigh the premium savings. However, if you are already planning a move to a warmer or lower-cost state, comparing Medigap premiums in both locations is a smart part of your broader financial planning."
-          },
-          {
-            "question": "What is the difference between community rating and attained-age rating for Medigap?",
-            "answer": "Community rating means every enrollee pays the same premium regardless of age: higher starting costs, but more predictable long-term expenses. Attained-age rating starts lower at 65 but increases each year, which can result in significantly higher premiums by your late 70s and 80s."
-          },
-          {
-            "question": "What is the 2026 High-Deductible Plan G deductible, and is it a good option in expensive states?",
-            "answer": "The 2026 HD-Plan G deductible is $2,950, meaning you pay that amount in Medicare cost-sharing before the plan begins covering costs, up from $2,870 in 2025. In high-premium states, HD-Plan G can offer meaningful monthly savings while still providing a safety net against large medical bills."
-          },
-          {
-            "question": "Do Medigap plans cover services like dental, vision, or hearing?",
-            "answer": "Standard Medigap plans do not cover dental implants, eyeglasses, or [hearing aids](/faqs/does-medicare-cover-hearing-aids/), since these fall outside what Medicare Supplement insurance is designed to cover. If you need those services, you would need to explore separate supplemental dental or vision policies."
-          },
-          {
-            "question": "When is the best time to enroll in Medigap to get the lowest premium?",
-            "answer": "Your Medigap Open Enrollment Period begins the month you are both 65 and enrolled in Medicare Part B. During this window, insurers cannot deny coverage or charge more based on health conditions. Enrolling outside this window in most states allows medical underwriting, which can raise your premium or result in denial."
-          }
-        ]
-      },
-      {
-        "type": "heading",
-        "level": 2,
-        "text": "Making the Right Call for Your Situation",
-        "id": "making-the-right-call"
-      },
-      {
-        "type": "paragraph",
-        "content": "The central truth about Medigap pricing is straightforward: the plans are identical everywhere, so cost differences between states come down entirely to rating rules and regulations. Understanding whether your state uses community, issue-age, or attained-age pricing is the single most important step you can take before comparing quotes."
-      },
-      {
-        "type": "paragraph",
-        "content": "The cheapest plan today is not always the most affordable option over 10 or 20 years. Attained-age rating states often look attractive at 65 and become considerably more expensive by 75 or 80. A longer view leads to a smarter decision, especially when healthcare needs tend to increase with age."
-      },
-      {
-        "type": "paragraph",
-        "content": "Start with the Medicare.gov Medigap Policy Search Tool for real quotes in your area. Consider speaking with a SHIP counselor for unbiased local guidance. And if you have additional coverage considerations, such as veterans' benefits or existing retiree coverage, reviewing [Medigap vs. Advantage for veterans](/faqs/medicare-supplement-vs-medicare-advantage-for-veterans-choosing-the-right-coverage/) can help you assess all your options in context."
-      },
-      {
-        "type": "paragraph",
-        "content": "With the right information and tools in hand, choosing a Medigap plan that fits both your budget and your health needs is entirely within reach."
-      }
+      { type: "paragraph", content: "The same Medigap Plan G can cost $119 a month in Kansas and more than $400 a month in New York, for identical coverage (as of January 2026, for a 65-year-old non-smoking female). That price gap surprises most people, and understandably so. When the benefits are exactly the same regardless of where you live, a 3x or 4x price difference feels like it should come with an explanation." },
+      { type: "paragraph", content: "It does. The variation in Medigap plan costs by state comes almost entirely from state-level rating rules and regulations, not from differences in what each plan actually pays. Once you understand those rules, the pricing map starts to make sense, and you can use that knowledge to make a genuinely informed decision." },
+      { type: "paragraph", content: "This article breaks down which states have the most expensive and least expensive Medigap premiums in 2026, explains why those differences exist, and gives you a practical framework for evaluating your own options with confidence." },
+      { type: "heading", level: 2, text: "Why Medigap Premiums Differ So Much From State to State", id: "why-premiums-differ" },
+      { type: "paragraph", content: "Medigap premiums differ so much from state to state primarily because of the rating methodology each state uses (community, issue-age, or attained-age), not because the plans cover different services. Medigap plans are federally standardized. That means Plan G in New York and Plan G in Kansas pay for the exact same services: hospital coinsurance, skilled nursing facility coinsurance, Part B excess charges, and more. The federal government sets what each lettered plan must cover. States and insurers set the price." },
+      { type: "paragraph", content: "The single biggest driver of price variation is the rating methodology your state uses. There are three types:" },
+      { type: "list", ordered: false, items: ["Community rating: Every enrollee pays the same premium regardless of age. A 65-year-old and a 78-year-old pay the same amount.", "Issue-age rating: Your premium is based on your age when you first enroll and does not automatically increase just because you get older.", "Attained-age rating: Your premium starts lower but rises each year as you age, the most common method across U.S. states."] },
+      { type: "paragraph", content: "According to [KFF research](https://www.kff.org/topic/medicare/), this rating structure is the primary reason why Medigap premiums vary so dramatically from state to state. As Tricia Neuman of KFF has noted, a beneficiary in New York can pay three or four times more for the same standardized plan than someone in the Midwest, driven by rating rules, state regulations, and underlying healthcare costs." },
+      { type: "paragraph", content: "Secondary factors include how many insurers compete in your state, any additional state benefit mandates beyond the federal standard, and regional healthcare utilization patterns. For a broader comparison of your coverage options, see [Medigap vs. Medicare Advantage](/faqs/medigap-vs-medicare-advantage/)." },
+      { type: "heading", level: 2, text: "The Most Expensive States for Medigap Coverage", id: "most-expensive-states" },
+      { type: "paragraph", content: "New York and Connecticut sit at the top of the cost rankings, and have for years. Both states use community rating, which requires insurers to charge the same premium to every enrollee regardless of age. The result: Plan G premiums for a 65-year-old non-smoking female in New York exceeded $400/month as of January 2026, according to the Medicare.gov Medigap Policy Search Tool." },
+      { type: "paragraph", content: "At first glance, $400/month sounds steep. But community rating comes with a meaningful trade-off: your premium does not automatically climb just because you turn 70, 75, or 80. For beneficiaries who plan to hold their plan for many years, the total lifetime cost can be more predictable, and sometimes more competitive, than it appears at the point of enrollment." },
+      { type: "paragraph", content: "Other contributing factors in high-cost states include:" },
+      { type: "list", ordered: false, items: ["Elevated baseline healthcare costs in urban and coastal markets", "Lower insurer competition, which reduces downward pricing pressure", "State-mandated benefits that go beyond the federal Medigap standard"] },
+      { type: "paragraph", content: "New Jersey also ranks among the higher-cost states, partly due to its own regulatory environment. For a full picture of 2026 Medicare cost benchmarks alongside Medigap premiums, [Medicare costs in 2026](/blog/medicare-costs-2026/) offers a helpful reference." },
+      { type: "eddie-pro-tip", content: "If you live in a community-rated state like New York or Connecticut, request quotes from at least three to five insurers, because even within a community-rated system, insurers can apply different rate adjustment factors for tobacco use, household discounts, or organizational affiliations. Running quotes through Medicare.gov's Medigap Policy Search Tool filtered to your exact ZIP code and age will surface real price differences that a general state average will never show you." },
+      { type: "heading", level: 2, text: "The Least Expensive States for Medigap Coverage", id: "least-expensive-states" },
+      { type: "paragraph", content: "On the opposite end of the spectrum, states like Wisconsin and Kansas consistently rank among the cheapest for Medigap coverage. As of January 2026, average Plan G premiums for a 65-year-old non-smoking female in Kansas can fall under $120/month, a dramatic contrast to New York's $400+ range for the same profile." },
+      { type: "paragraph", content: "The reason these states look so affordable at age 65 is primarily attained-age rating. Premiums start low because insurers price for a younger, healthier enrollee, then adjust upward each year as you age. This structure makes the \"cheapest Medicare Supplement plans\" label a bit misleading." },
+      { type: "paragraph", content: "David Lipschutz of the Center for Medicare Advocacy has been direct about this dynamic: attained-age rating states may look inexpensive at enrollment but become increasingly burdensome as beneficiaries move into their 70s and 80s, precisely when healthcare needs are greatest." },
+      { type: "paragraph", content: "The practical takeaway: low entry premiums are worth noting, but they are only one data point. Use the Medicare.gov Medigap Policy Search Tool to pull real quotes for your age, gender, and ZIP code, and project those premiums forward, not just sideways." },
+      { type: "heading", level: 2, text: "How Your Age Changes the Cost Map", id: "age-changes-the-map" },
+      { type: "paragraph", content: "How Medigap premiums compare across states changes as you age, because attained-age rating causes premiums in lower-cost states to rise each year while community-rated states stay more stable. The ranking of most-to-least expensive states does not stay fixed as you age. It shifts, sometimes significantly. Attained-age rating states like Florida and Texas often appear attractively priced at 65 but can see Plan G premiums roughly double by age 75 to 80, according to AHIP Medigap market analysis." },
+      { type: "paragraph", content: "Community-rated states tell a different story. In those states, the premium at age 80 may be the same, or only modestly higher, than the premium at age 65. That stability has real financial value, even if the starting point feels high." },
+      { type: "paragraph", content: "Consider a concrete example:" },
+      { type: "list", ordered: false, items: ["A Florida enrollee paying $130/month at 65 (as of January 2026, for a 65-year-old non-smoking female) may pay $220-$260/month by age 78", "A New York enrollee paying $380/month at 65 (as of January 2026, for a 65-year-old non-smoking female) may pay $380-$420/month at 78"] },
+      { type: "paragraph", content: "The gap narrows considerably over time. When you calculate total premiums paid over 10 or 15 years, the attained-age state that looked dramatically cheaper at enrollment often ends up costing a similar amount, or more." },
+      { type: "callout", calloutType: "warning", calloutTitle: "Don't Choose Based on Age-65 Price Alone", calloutText: "A low starting premium in an attained-age state is not the same as a low lifetime cost. Ask any insurer for a rate history showing how much a policy at your age has increased over the past 5 to 10 years, not just today's quote." },
+      { type: "paragraph", content: "This long-term view matters especially for beneficiaries in good health who plan to keep their Medigap coverage for decades. For help evaluating whether Medigap is the right long-term structure for your situation, see [Medicare Supplement vs. Medicare Advantage](/faqs/medigap-vs-medicare-advantage/)." },
+      { type: "heading", level: 2, text: "The Three States That Play by Different Rules", id: "different-rules-states" },
+      { type: "paragraph", content: "If you live in Massachusetts, Minnesota, or Wisconsin, one important point applies before anything else: these states do not follow the standard lettered Medigap plan system. They have their own benefit structures, which means national Plan G premium averages simply do not apply to you." },
+      { type: "paragraph", content: "Here is a brief overview of each state's alternative:" },
+      { type: "list", ordered: false, items: ["Wisconsin uses the Wisconsin Basic Plan with optional riders, including the Wisconsin Preventive Benefits Rider and the Wisconsin 50% Part A Deductible Rider, that can be added for additional coverage areas.", "Massachusetts offers the Massachusetts Core Plan and the Massachusetts Supplement 1 Plan (also called the Massachusetts Supplement 1A Plan), each covering a defined set of benefits under state regulation.", "Minnesota has its own standardized plans, the Minnesota Basic Plan and the Minnesota Extended Basic Plan, that differ from the federal lettered plan framework."] },
+      { type: "paragraph", content: "Residents of these three states need to evaluate their options through their own state's insurance commissioner resources or through the Medicare.gov comparison tool filtered specifically to their state. Applying statistics from other states will lead to incorrect conclusions. If you are newer to Medicare and want to build foundational knowledge first, [25 Medicare Q&As](/faqs/25-medicare-qas-you-should-know/) is a helpful starting point." },
+      { type: "heading", level: 2, text: "High-Deductible Plan G: A Middle Path for Expensive States", id: "high-deductible-plan-g" },
+      { type: "paragraph", content: "For beneficiaries in high-premium states who find standard Plan G premiums difficult to absorb, High-Deductible Plan G (HD-Plan G) offers a practical alternative. It provides the same ultimate coverage as standard Plan G, but only after you have paid the first $2,950 in Medicare cost-sharing out of pocket. That figure is the 2026 deductible threshold set by CMS, up from $2,870 in 2025." },
+      { type: "paragraph", content: "HD-Plan G premiums are substantially lower than standard Plan G in most states. In a high-cost state like New York or Connecticut, this can represent meaningful monthly savings while still providing a ceiling on your worst-case annual exposure." },
+      { type: "paragraph", content: "The break-even math is straightforward. The table below illustrates the comparison using example figures. Actual premiums vary by insurer, ZIP code, and individual factors, so use the Medicare.gov Medigap Policy Search Tool for real quotes in your area." },
+      { type: "table", title: "Standard Plan G vs. High-Deductible Plan G (Example)", headers: ["Metric", "Standard Plan G", "HD-Plan G"], rows: [["Monthly premium (example)", "$400/month (January 2026, 65-year-old non-smoking female)", "$80/month (January 2026, 65-year-old non-smoking female)"], ["Annual premium (example)", "$4,800/year", "$960/year"], ["Annual deductible", "$0", "$2,950"], ["Annual premium savings with HD-Plan G", "n/a", "$3,840/year"], ["Break-even point", "n/a", "More than $2,950 in annual cost-sharing"]] },
+      { type: "paragraph", content: "You would need more than $2,950 in annual cost-sharing before the standard plan becomes the better financial choice. For many healthy beneficiaries in their mid-60s, that threshold is rarely crossed in a given year." },
+      { type: "paragraph", content: "The key cost-sharing figures the $2,950 deductible is protecting against include the 2026 Part A hospital deductible of $1,736 per benefit period and the Part B deductible of $283." },
+      { type: "heading", level: 2, text: "How to Compare Medigap Plans in Your State Without Getting Overwhelmed", id: "how-to-compare" },
+      { type: "paragraph", content: "Comparing Medigap options does not need to feel complicated. A focused three-step approach keeps the process manageable:" },
+      { type: "list", ordered: true, items: ["Identify your state's rating methodology. Is it community, issue-age, or attained-age? This single factor determines how your premium will behave over time, and it changes the way you should interpret any quote you receive.", "Use the Medicare.gov Medigap Policy Search Tool. Enter your age, gender, tobacco status, and ZIP code to get real insurer quotes specific to your area. State averages can be misleading; your local market is what matters.", "Compare total estimated cost over 10 years, not just today's monthly premium. Factor in projected annual premium increases, especially in attained-age states, to get a realistic picture of long-term affordability."] },
+      { type: "paragraph", content: "Because plan benefits are identical within each letter across all insurers, the only meaningful variables are premium, insurer financial stability, and customer service reputation. You are not comparing coverage. You are comparing price and service." },
+      { type: "callout", calloutType: "info", calloutTitle: "A Higher Price Never Means Better Coverage", calloutText: "Because Medigap benefits are federally standardized, a $400/month Plan G in New York and a $119/month Plan G in Kansas cover the identical set of services. There is no premium version of Plan G with extra benefits. The price difference is entirely about state rating rules, not what you get." },
+      { type: "paragraph", content: "Stay current on any regulatory changes that could affect Medigap pricing or enrollment rules by reviewing [new Medicare changes for 2026](/faqs/new-medicare-changes/). And remember: a licensed Medicare counselor or your local [SHIP advisor](https://www.shiphelp.org/) can help you interpret your local quotes at no cost." },
+      { type: "heading", level: 2, text: "Frequently Asked Questions", id: "faqs" },
+      { type: "faq", faqs: [{ question: "Which states have the most expensive Medigap plans in 2026?", answer: "New York and Connecticut are consistently the most expensive, with Plan G premiums for a 65-year-old non-smoking female often exceeding $400/month as of January 2026 due to community-rating laws. Massachusetts and New Jersey also rank high, though their regulated or non-standard structures make direct comparisons more complex." }, { question: "Which states have the cheapest Medigap premiums?", answer: "States like Wisconsin and Kansas tend to have the lowest Plan G premiums, sometimes under $120/month at age 65 as of January 2026, largely because of attained-age rating and strong insurer competition. Keep in mind that those low entry premiums increase as you age, so cheapest at 65 does not always mean cheapest overall." }, { question: "Why do Medigap premiums vary so much between states?", answer: "The primary driver is the state's rating methodology (community, issue-age, or attained-age), not differences in what the plan covers, since Medigap benefits are federally standardized. Secondary factors include local healthcare costs, the number of insurers competing in the market, and any additional state-level benefit mandates." }, { question: "Does it make financial sense to move to a cheaper state just to lower your Medigap premium?", answer: "Relocating solely for a lower Medigap premium is rarely advisable. Moving costs, provider network changes, and differences in overall cost of living typically outweigh the premium savings. However, if you are already planning a move to a warmer or lower-cost state, comparing Medigap premiums in both locations is a smart part of your broader financial planning." }, { question: "What is the difference between community rating and attained-age rating for Medigap?", answer: "Community rating means every enrollee pays the same premium regardless of age: higher starting costs, but more predictable long-term expenses. Attained-age rating starts lower at 65 but increases each year, which can result in significantly higher premiums by your late 70s and 80s." }, { question: "What is the 2026 High-Deductible Plan G deductible, and is it a good option in expensive states?", answer: "The 2026 HD-Plan G deductible is $2,950, meaning you pay that amount in Medicare cost-sharing before the plan begins covering costs, up from $2,870 in 2025. In high-premium states, HD-Plan G can offer meaningful monthly savings while still providing a safety net against large medical bills." }, { question: "Do Medigap plans cover services like dental, vision, or hearing?", answer: "Standard Medigap plans do not cover dental implants, eyeglasses, or [hearing aids](/faqs/does-medicare-cover-hearing-aids/), since these fall outside what Medicare Supplement insurance is designed to cover. If you need those services, you would need to explore separate supplemental dental or vision policies." }, { question: "When is the best time to enroll in Medigap to get the lowest premium?", answer: "Your Medigap Open Enrollment Period begins the month you are both 65 and enrolled in Medicare Part B. During this window, insurers cannot deny coverage or charge more based on health conditions. Enrolling outside this window in most states allows medical underwriting, which can raise your premium or result in denial." }] },
+      { type: "heading", level: 2, text: "Making the Right Call for Your Situation", id: "making-the-right-call" },
+      { type: "paragraph", content: "The central truth about Medigap pricing is straightforward: the plans are identical everywhere, so cost differences between states come down entirely to rating rules and regulations. Understanding whether your state uses community, issue-age, or attained-age pricing is the single most important step you can take before comparing quotes." },
+      { type: "paragraph", content: "The cheapest plan today is not always the most affordable option over 10 or 20 years. Attained-age rating states often look attractive at 65 and become considerably more expensive by 75 or 80. A longer view leads to a smarter decision, especially when healthcare needs tend to increase with age." },
+      { type: "paragraph", content: "Start with the Medicare.gov Medigap Policy Search Tool for real quotes in your area. Consider speaking with a SHIP counselor for unbiased local guidance. And if you have additional coverage considerations, such as veterans' benefits or existing retiree coverage, reviewing [Medigap vs. Advantage for veterans](/faqs/medicare-supplement-vs-medicare-advantage-for-veterans-choosing-the-right-coverage/) can help you assess all your options in context." },
+      { type: "paragraph", content: "With the right information and tools in hand, choosing a Medigap plan that fits both your budget and your health needs is entirely within reach." },
     ],
     "relatedSlugs": [
       "why-two-medigap-plan-g-policies-cost-different-amounts",
