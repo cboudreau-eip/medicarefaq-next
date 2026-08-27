@@ -149,7 +149,7 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
         <ChevronDown className="w-5 h-5 text-[#6B7280] shrink-0 transition-transform group-open:rotate-180" />
       </summary>
       <div className="px-4 pb-4 text-[#4B5563] text-[15px] leading-relaxed border-t border-[#E5E7EB]">
-        <div className="pt-3">{answer}</div>
+        <div className="pt-3">{renderParagraph(answer, 0)}</div>
       </div>
     </details>
   );
