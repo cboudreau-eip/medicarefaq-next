@@ -260,7 +260,7 @@ export default function Blog({ currentPage }: { currentPage: number }) {
                       href={pageHref(page as number)}
                       aria-label={`Page ${page}`}
                       aria-current={currentPage === page ? "page" : undefined}
-                      className={`w-9 h-9 rounded-lg text-sm font-semibold transition-all duration-150 ${
+                      className={`flex items-center justify-center w-9 h-9 rounded-lg text-sm font-semibold transition-all duration-150 ${
                         currentPage === page
                           ? "bg-[#1B2A4A] text-white border border-[#1B2A4A]"
                           : "bg-white border border-[#E5E7EB] text-[#6B7280] hover:bg-[#F5F7FA] hover:border-[#1B2A4A] hover:text-[#1B2A4A]"
