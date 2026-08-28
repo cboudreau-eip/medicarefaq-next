@@ -15,6 +15,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "medicare-advantage-worth-honest",
     seo: {
+      focusKeyword: "",
       title: "Is Medicare Advantage Worth It? 2026 Review",
       description: "Is Medicare Advantage worth it in 2026? Compare real costs, coverage rules, and network trade-offs to make an informed, confident enrollment decision.",
       canonical: "https://www.medicarefaq.com/blog/medicare-advantage-worth-honest/",
@@ -57,7 +58,7 @@ export const blogArticles: BlogArticleData[] = [
       { type: "heading", level: 3, text: "HMO, PPO, and Special Needs Plans in Simple Terms", id: "hmo-ppo-special-needs-plans" },
       { type: "paragraph", content: "An HMO, or Health Maintenance Organization plan, generally requires you to use doctors within a specific network and get referrals to see specialists. A PPO, or Preferred Provider Organization plan, gives you more flexibility to see out-of-network providers, though you will usually pay more for that flexibility." },
       { type: "list", ordered: false, items: ["HMO plans: lower costs, but you must stay in-network and often need referrals", "PPO plans: more freedom to see specialists or out-of-network doctors, usually for a higher premium", "Special Needs Plans (SNPs): designed for people with specific chronic conditions, dual eligibility for Medicare and Medicaid, or those living in institutional care settings"] },
-      { type: "callout", calloutType: "tip", calloutTitle: "", calloutText: "If you travel often or split time between two states, a PPO or a plan with a broader network may fit your lifestyle better than an HMO with tighter geographic restrictions." },
+      { type: "callout", calloutType: "tip", calloutTitle: "Note", calloutText: "If you travel often or split time between two states, a PPO or a plan with a broader network may fit your lifestyle better than an HMO with tighter geographic restrictions." },
       { type: "heading", level: 2, text: "Medicare Advantage vs Original Medicare: A Side-by-Side Look", id: "medicare-advantage-vs-original-medicare" },
       { type: "paragraph", content: "Original Medicare lets you see any provider nationwide who accepts Medicare, with no referrals required to visit a specialist. Medicare Advantage plans, by contrast, typically require you to use a defined network and may require referrals depending on the plan type. This distinction matters most if you split time between states or have specialists you want to keep seeing without extra steps." },
       { type: "paragraph", content: "With Original Medicare, many people add a [Medigap policy](/faqs/medicare-supplement-vs-medicare-advantage/) to help cover the gaps left by Part A and Part B, such as coinsurance and deductibles. Medicare Advantage plans do not work with Medigap; instead, the extra protection and added benefits are built into the plan itself, including [annual out-of-pocket maximum](/faqs/medicare-maximum-out-of-pocket/)s." },
@@ -77,7 +78,7 @@ export const blogArticles: BlogArticleData[] = [
       { type: "heading", level: 2, text: "The Risk of Choosing the Wrong Plan (and How to Avoid It)", id: "the-risk-of-choosing-the-wrong-plan" },
       { type: "paragraph", content: "One of the most common regrets people describe is picking a plan based on the lowest premium without checking the network or drug coverage first. A few months in, they discover a needed specialist is out of network or a medication costs far more than expected, and by then, their options to switch are limited." },
       { type: "paragraph", content: "Switching plans is possible, but it is tied to specific enrollment windows rather than something you can do anytime during the year. Outside of those windows, you may need to qualify for a [Special Enrollment Period](/faqs/medicare-special-enrollment-period/) based on a specific life event to make a change." },
-      { type: "callout", calloutType: "info", calloutTitle: "", calloutText: "A simple checklist before enrolling: confirm your doctors are in-network, check your prescriptions against the formulary, estimate your expected care needs for the year, and compare that total cost picture against your monthly budget." },
+      { type: "callout", calloutType: "info", calloutTitle: "Note", calloutText: "A simple checklist before enrolling: confirm your doctors are in-network, check your prescriptions against the formulary, estimate your expected care needs for the year, and compare that total cost picture against your monthly budget." },
       { type: "paragraph", content: "Taking a slower, checklist-driven approach costs you a bit of time upfront, but it meaningfully reduces the odds of an unpleasant surprise once you start using the plan. This is one area where a little patience during the comparison stage pays off later." },
       { type: "heading", level: 2, text: "Enrollment Deadlines and Penalties You Shouldn't Risk Missing", id: "enrollment-deadlines-and-penalties" },
       { type: "paragraph", content: "Your Initial Enrollment Period begins three months before the month you turn 65 and extends three months after, giving you a seven-month window to enroll. The Annual Enrollment Period runs each year from October 15 to December 7, allowing you to switch between Medicare Advantage and Original Medicare or change plans entirely." },
@@ -100,6 +101,9 @@ export const blogArticles: BlogArticleData[] = [
       { type: "paragraph", content: "Compare coverage details, network rules, and formularies rather than settling on the plan with the lowest advertised premium. When you are ready, seeking clear, licensed guidance can help confirm your comparison without any pressure to decide before you feel prepared." },
     ],
     relatedSlugs: ["medicare-advantage-vs-medicare-supplement", "cancer-treatment-denials-medicare", "medicare-advantage-prior-authorization-snf-denials"],
+    buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/19716869-is-medicare-advantage-worth-it.mp3?download=true",
+    podcastDate: "August 28th, 2026",
+    podcastDuration: "6:46",
   },
 
   {
