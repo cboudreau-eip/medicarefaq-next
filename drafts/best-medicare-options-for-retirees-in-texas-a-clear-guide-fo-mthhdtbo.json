@@ -30,7 +30,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Terms like Medigap, [Part D formulary](/faqs/what-is-a-medicare-part-d-formulary/), and [out-of-pocket maximum](/faqs/medicare-maximum-out-of-pocket/) can blur together quickly. The good news is that Medicare decisions become far more manageable once you break them into a few clear steps."
+      "content": "Terms like Medigap, **[Part D formulary](/faqs/what-is-a-medicare-part-d-formulary/)**, and **[out-of-pocket maximum](/faqs/medicare-maximum-out-of-pocket/)** can blur together quickly. The good news is that Medicare decisions become far more manageable once you break them into a few clear steps."
     },
     {
       "type": "paragraph",
@@ -40,7 +40,7 @@
       "type": "callout",
       "calloutType": "info",
       "calloutTitle": "Key Takeaways",
-      "calloutText": "There is no single \"best\" Medicare plan, only the plan that fits your doctors, prescriptions, and budget.\nMissing your [Initial Enrollment Period](/faqs/medicare-initial-enrollment-period/) can lead to permanent late penalties on Part B and Part D.\nCompare total costs, including deductibles and out-of-pocket maximums, not just the monthly premium.\nNext step: review your current doctors and medications before comparing plans available in your area."
+      "calloutText": "There is no single \"best\" Medicare plan, only the plan that fits your doctors, prescriptions, and budget.\nMissing your [Initial Enrollment Period](/faqs/medicare-initial-enrollment-period/) can lead to permanent late penalties on Part B and Part D.\nCompare total costs, including deductibles and out-of-pocket maximums, not just the monthly premium.\nLower-income retirees may qualify for Extra Help with Part D costs or a Medicare Savings Program to help with Part A and Part B expenses.\nNext step: review your current doctors and medications before comparing plans available in your area."
     },
     {
       "type": "heading",
@@ -54,11 +54,11 @@
     },
     {
       "type": "paragraph",
-      "content": "Part C, known as Medicare Advantage, is an alternative way to receive your Part A and Part B benefits through a private insurance company. Part D covers prescription drugs and can be added to Original Medicare or built into a Medicare Advantage plan."
+      "content": "Part C, known as **Medicare Advantage**, is an alternative way to receive your Part A and Part B benefits through a private insurance company. Part D covers prescription drugs and can be added to Original Medicare or built into a Medicare Advantage plan."
     },
     {
       "type": "paragraph",
-      "content": "Original Medicare, which includes Parts A and B, lets you see any doctor who accepts Medicare nationwide. [Medicare Advantage plans](/medicare-part-c/) typically use networks, which means your choice of doctors and hospitals may be more limited depending on the plan."
+      "content": "Original Medicare, which includes Parts A and B, lets you see any doctor who accepts Medicare nationwide. [Medicare Advantage plans](/medicare-part-c/) typically use networks, which means your choice of doctors and hospitals may be more limited depending on the plan. In Texas, major carriers such as UnitedHealthcare, Humana, Aetna, Blue Cross Blue Shield of Texas, and Cigna offer Medicare Advantage and Part D plans, though the specific carriers and plans available can vary from county to county."
     },
     {
       "type": "paragraph",
@@ -83,6 +83,10 @@
       "content": "Some Texans qualify for Medicare earlier due to a qualifying disability or specific health conditions. If you are moving to Texas from another state, your Medicare Part A and Part B stay the same, but you will want to review Medicare Advantage and Medigap options available in your new Texas county."
     },
     {
+      "type": "paragraph",
+      "content": "Retirees with limited income and resources should also ask about Extra Help, also called the Low-Income Subsidy, which can reduce Part D premiums, deductibles, and copays, as well as Medicare Savings Programs, which can help pay Part A and Part B premiums and other out-of-pocket costs. In Texas, these programs are administered through the Texas Health and Human Services Commission, and eligibility is based on income and resource limits."
+    },
+    {
       "type": "heading",
       "level": 2,
       "id": "comparing-medicare-plans-texas-seniors",
@@ -94,7 +98,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Medicare Advantage bundles hospital, medical, and often drug coverage into one plan, usually with a lower monthly premium but more structured networks. Plan availability in Texas varies quite a bit by location, with urban areas like Houston, Dallas, and San Antonio typically offering more Medicare Advantage plan choices than rural counties."
+      "content": "Medicare Advantage bundles hospital, medical, and often drug coverage into one plan, usually with a lower monthly premium but more structured networks. Plan availability in Texas varies quite a bit by location, with urban areas like Houston, Dallas, and San Antonio typically offering more Medicare Advantage plan choices than rural counties, from carriers such as UnitedHealthcare, Humana, Aetna, Blue Cross Blue Shield of Texas, and Cigna."
     },
     {
       "type": "paragraph",
@@ -108,11 +112,15 @@
     },
     {
       "type": "paragraph",
-      "content": "Medicare Supplement, or Medigap, plans work alongside Original Medicare to help cover costs like coinsurance and deductibles that Original Medicare does not fully pay. These plans do not include drug coverage, so you would pair a Medigap policy with a standalone Part D plan."
+      "content": "**Medicare Supplement, or Medigap**, plans work alongside Original Medicare to help cover costs like coinsurance and deductibles that Original Medicare does not fully pay. These plans do not include drug coverage, so you would pair a Medigap policy with a standalone Part D plan."
     },
     {
       "type": "paragraph",
       "content": "Medigap tends to work well for retirees who travel frequently, split time between states, or want predictable costs without worrying about provider networks. Plan letters, such as Plan G or Plan N, are standardized nationally, meaning the benefits are the same no matter which company sells them in Texas, though monthly pricing varies by insurer."
+    },
+    {
+      "type": "paragraph",
+      "content": "Texas does not currently offer Medicare SELECT plans as widely as standard Medigap policies, but where available, SELECT plans use provider networks in exchange for lower premiums. Texas also does not have an annual guaranteed-issue birthday rule like some other states, so outside of your Medigap Open Enrollment Period or a qualifying guaranteed-issue event, applying for a new Medigap policy or switching plans may involve medical underwriting. It is worth confirming current underwriting rules with the Texas Department of Insurance or a licensed agent before assuming you can switch Medigap plans without health questions."
     },
     {
       "type": "eddie-pro-tip",
@@ -132,11 +140,11 @@
     },
     {
       "type": "paragraph",
-      "content": "Medicare costs generally fall into a few categories: monthly premiums, annual deductibles, copays or coinsurance, and out-of-pocket maximums. According to [CMS.gov](https://www.cms.gov/), in 2026 the standard Part B premium is $202.90 per month, and the Part B annual deductible is $283."
+      "content": "**In 2026, the standard Part B premium is $202.90 per month, the Part A deductible is $1,736 per benefit period, and the Medicare Advantage out-of-pocket maximum is capped at $9,250.** Medicare costs generally fall into a few categories: monthly premiums, annual deductibles, copays or coinsurance, and out-of-pocket maximums. According to [CMS.gov](https://www.cms.gov/), in 2026 the standard Part B premium is $202.90 per month, and the Part B annual deductible is $283."
     },
     {
       "type": "paragraph",
-      "content": "Part A has a $1,736 deductible per benefit period in 2026 for those who do not qualify for premium-free Part A, as published by CMS.gov. Medicare Advantage plans have a maximum out-of-pocket limit, capped at $9,250 in 2026 according to CMS.gov, which protects you from unlimited costs once you hit that threshold."
+      "content": "Part A has a $1,736 deductible per benefit period in 2026 for those who do not qualify for premium-free Part A, as published by CMS.gov. Medicare Advantage plans have a maximum out-of-pocket limit, called the **out-of-pocket maximum (MOOP)**, capped at $9,250 in 2026 according to CMS.gov, which protects you from unlimited costs once you hit that threshold."
     },
     {
       "type": "table",
@@ -151,7 +159,7 @@
           "$1,736"
         ],
         [
-          "Part B Standard Premium",
+          "Part B Standard Premium (monthly)",
           "$202.90/month"
         ],
         [
@@ -159,11 +167,11 @@
           "$283"
         ],
         [
-          "Medicare Advantage Max Out-of-Pocket",
+          "Medicare Advantage Max Out-of-Pocket (MOOP)",
           "$9,250"
         ],
         [
-          "Average Part D Premium",
+          "Average Part D Premium (monthly)",
           "$34.50/month"
         ]
       ],
@@ -172,6 +180,10 @@
     {
       "type": "paragraph",
       "content": "Original Medicare by itself has no out-of-pocket maximum, which is why many retirees add a Medigap plan for predictable cost sharing. Estimating your real costs before enrolling, rather than focusing only on the premium, is the best way to avoid a surprise medical bill later. You can always verify current figures directly at [CMS.gov](https://www.cms.gov/)."
+    },
+    {
+      "type": "paragraph",
+      "content": "If these costs feel out of reach, it is worth checking whether you qualify for Extra Help, also known as the Low-Income Subsidy, which can lower your Part D drug costs, or a Medicare Savings Program, which can help cover Part A and Part B premiums and cost sharing for those who meet income and resource limits. A licensed agent or the Texas Health and Human Services Commission can help you find out if you qualify."
     },
     {
       "type": "callout",
@@ -191,7 +203,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Prescription coverage also varies significantly between plans. Each Part D plan, whether standalone or bundled into Medicare Advantage, uses its own drug list, called a formulary, which determines which medications are covered and at what cost tier."
+      "content": "Prescription coverage also varies significantly between plans. Each Part D plan, whether standalone or bundled into Medicare Advantage, uses its own drug list, called a **formulary**, which determines which medications are covered and at what cost tier."
     },
     {
       "type": "paragraph",
@@ -211,7 +223,18 @@
     },
     {
       "type": "paragraph",
-      "content": "Your Initial Enrollment Period begins three months before the month you turn 65 and continues for three months after, giving you a seven-month window. If you miss this window and do not qualify for a special enrollment situation, you may need to wait for the General Enrollment Period, which runs January 1 to March 31 each year, with coverage starting the following month."
+      "content": "Your **Initial Enrollment Period (IEP)** begins three months before the month you turn 65 and continues for three months after, giving you a seven-month window. If you miss this window and do not qualify for a special enrollment situation, you may need to wait for the General Enrollment Period, which runs January 1 to March 31 each year, with coverage starting the following month."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Initial Enrollment Period: begins 3 months before your 65th birthday month and ends 3 months after, a 7-month window total",
+        "General Enrollment Period: January 1 to March 31 each year, if you missed your Initial Enrollment Period, with coverage starting the following month",
+        "Annual Election Period: October 15 to December 7 each year, for switching Medicare Advantage or Part D plans",
+        "Part B late enrollment penalty: adds 10 percent to your premium for each 12-month period you were eligible but did not enroll, typically lasting as long as you have Part B",
+        "Part D late enrollment penalty: based on the national base beneficiary premium and accumulates the longer you go without creditable drug coverage"
+      ]
     },
     {
       "type": "paragraph",
@@ -244,7 +267,7 @@
         "A retiree managing diabetes and heart disease may value Original Medicare with a Medigap plan for predictable specialist access and cost sharing",
         "A generally healthy retiree who wants dental and vision extras may prefer a Medicare Advantage plan with a lower premium",
         "A retiree who splits time between Texas and another state during winter months may benefit from Medigap's nationwide provider access",
-        "A retiree on a fixed income may prioritize a plan with a $0 or low premium and manageable copays"
+        "A retiree on a fixed income may prioritize a plan with a $0 or low premium and manageable copays, or may want to check eligibility for Extra Help or a Medicare Savings Program"
       ]
     },
     {
@@ -267,7 +290,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Transparent, no-cost comparison support exists specifically to reduce the guesswork many retirees feel when comparing Medicare Supplement plans in Texas alongside Medicare Advantage. Look for sources that clearly explain plan availability and licensing rather than pressuring you toward a single option."
+      "content": "Transparent, no-cost comparison support exists specifically to reduce the guesswork many retirees feel when comparing Medicare Supplement plans in Texas alongside Medicare Advantage. Look for sources that clearly explain plan availability and licensing rather than pressuring you toward a single option. Texas also offers a free, unbiased counseling resource through the Health Information, Counseling and Advocacy Program (HICAP), the state's Medicare counseling program under the federal State Health Insurance Assistance Program (SHIP). Trained volunteer counselors can help you compare Medicare Advantage, Medigap, and Part D options at no cost and without any sales pressure, and you can find local contact information through the Texas Department of Insurance or CMS.gov. HICAP counselors and the Texas Health and Human Services Commission can also help you determine whether you qualify for Extra Help or a Medicare Savings Program."
     },
     {
       "type": "heading",
@@ -292,11 +315,11 @@
         },
         {
           "question": "How do I know which Medicare sources online are trustworthy?",
-          "answer": "Look for clear, plain-language explanations, licensed agents, and transparent wording about which plans are actually available in your area. Trustworthy sources will not pressure you or make guarantees about savings, and they often reference official sources like CMS.gov."
+          "answer": "Look for clear, plain-language explanations, licensed agents, and transparent wording about which plans are actually available in your area. Trustworthy sources will not pressure you or make guarantees about savings, and they often reference official sources like CMS.gov. Texas's free SHIP counseling program, known as HICAP, is another unbiased resource that does not sell insurance."
         },
         {
           "question": "What if I choose a plan and it turns out to be the wrong fit?",
-          "answer": "Medicare has an Annual Election Period each fall, from October 15 to December 7, when you can switch Medicare Advantage or Part D plans. Medigap plans can also often be changed, though underwriting may apply depending on timing."
+          "answer": "Medicare has an Annual Election Period each fall, from October 15 to December 7, when you can switch Medicare Advantage or Part D plans. Medigap plans can also often be changed, though underwriting may apply depending on timing, since Texas does not guarantee issue for Medigap switches outside your initial Open Enrollment Period or a qualifying event."
         },
         {
           "question": "What are the best Medicare options for retirees in Texas with chronic conditions?",
@@ -309,6 +332,10 @@
         {
           "question": "When is the best time to start comparing Medicare enrollment options in Texas?",
           "answer": "Most retirees benefit from starting the comparison process two to three months before turning 65 or before a major enrollment deadline. Starting early gives you time to check doctors, medications, and costs without feeling rushed."
+        },
+        {
+          "question": "What if I have a limited income and can't afford Medicare premiums or drug costs?",
+          "answer": "You may qualify for Extra Help, also called the Low-Income Subsidy, which reduces Part D premiums, deductibles, and copays, or for a Medicare Savings Program, which can help pay Part A and Part B premiums and cost sharing. Eligibility depends on your income and resources, and the Texas Health and Human Services Commission or a licensed agent can help you check whether you qualify."
         }
       ]
     },
@@ -324,7 +351,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Before deciding, take time to compare your options based on your doctors, prescriptions, and budget rather than premium alone. If you would like a no-pressure comparison, a licensed Texas Medicare agent can help you review plans available in your area and answer your questions along the way."
+      "content": "Before deciding, take time to compare your options based on your doctors, prescriptions, and budget rather than premium alone. If you would like a no-pressure comparison, a licensed Texas Medicare agent can help you review plans available in your area and answer your questions along the way. You can also reach out to Texas's free SHIP counseling program, HICAP, for unbiased, no-cost guidance, or check with the Texas Health and Human Services Commission if you think you may qualify for Extra Help or a Medicare Savings Program."
     }
   ],
   "tableOfContents": [
@@ -377,6 +404,6 @@
     "5-steps-to-choosing-the-right-medicare-plan"
   ],
   "id": "best-medicare-options-for-retirees-in-texas-a-clear-guide-fo-mthhdtbo",
-  "updatedAt": "2026-08-31T17:11:07.125Z",
-  "createdAt": "2026-08-31T17:11:07.125Z"
+  "updatedAt": "2026-08-31T17:34:50.255Z",
+  "createdAt": "2026-08-31T17:34:50.255Z"
 }
