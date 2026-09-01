@@ -11021,8 +11021,8 @@ export const coverageArticles: CoverageArticleData[] = [
   {
   slug: "does-medicare-cover-medical-alert-systems",
   seo: {
-    title: "Life Alert Cost: Is it Covered by Medicare? (2026 Guide)",
-    description: "Does Medicare cover Life Alert? Original Medicare typically doesn't, but some Medicare Advantage plans might. Discover costs and coverage options. ",
+    title: "Does Medicare Cover Life Alert? Cost & Coverage (2026)",
+    description: "Original Medicare does not cover Life Alert, but some Medicare Advantage plans do. See 2026 pricing for Life Alert and 5 cheaper alternatives plus how to check your plan's coverage.",
     canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-medical-alert-systems/",
     ogImage: "/images/medicarefaq-cover.jpg",
     focusKeyword: "life alert cost covered by medicare",
@@ -11266,6 +11266,10 @@ export const coverageArticles: CoverageArticleData[] = [
     {
       question: "Does Medicaid Cover Medical Alert Systems?",
       answer: "Medicaid may cover personal emergency response systems for qualifying low-income beneficiaries through state waiver programs. Coverage varies by state. Contact your state Medicaid office or case manager to find out if this benefit is available in your area.",
+    },
+    {
+      question: "Can You Cancel a Life Alert Contract?",
+      answer: "Life Alert requires a 3-year service agreement, and canceling before the term ends may involve an early termination fee or require written notice, depending on your agreement. If you want a medical al",
     },
   ],
   quickReference: [
