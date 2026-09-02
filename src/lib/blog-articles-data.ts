@@ -1108,7 +1108,7 @@ export const blogArticles: BlogArticleData[] = [
     slug: "roth-conversion-medicare-irmaa",
     seo: {
       title: "Roth Conversions and Medicare IRMAA: How to Avoid Higher Premiums",
-      description: "Roth conversions increase your MAGI and can trigger Medicare IRMAA surcharges. See 2026 brackets, worked examples, and a year-by-year planning strategy to convert without paying more.",
+      description: "Converting to a Roth can raise your Medicare premiums two years later. Learn how the IRMAA lookback works, see real income brackets, and plan conversions that avoid surprise surcharges.",
       canonical: "https://www.medicarefaq.com/blog/roth-conversion-medicare-irmaa/",
       ogImage: "https://images.pexels.com/photos/6693661/pexels-photo-6693661.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
     },
