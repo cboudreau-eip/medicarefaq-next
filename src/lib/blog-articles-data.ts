@@ -7125,8 +7125,8 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "understanding-cobra-and-medigap-coverage-costs-and-key-differences",
     seo: {
-      title: "Understanding COBRA and Medigap Coverage: Costs and Key Differences",
-      description: "Learn the key differences between COBRA and Medigap coverage, including costs, benefits, and which option works best for your healthcare needs.",
+      title: "COBRA vs Medigap: Which Costs Less After Losing Job Coverage?",
+      description: "Compare COBRA and Medigap costs, coverage, and enrollment deadlines side by side to choose the right option before your window closes.",
       canonical: "https://www.medicarefaq.com/blog/understanding-cobra-and-medigap-coverage-costs-and-key-differences/",
       ogImage: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg",
     },
