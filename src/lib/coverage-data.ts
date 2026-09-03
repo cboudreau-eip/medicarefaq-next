@@ -6123,126 +6123,138 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedSlugs: ["10-questions-to-ask-before-buying-a-medicare-supplement-plan", "what-is-a-medicare-supplement-plan-and-who-needs-one", "medicare-supplement-plan-f-vs-plan-g-vs-plan-n", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "does-medicare-cover-root-canals", "does-medicare-pay-for-emergency-medical-transport-from-one-hospital-to-another", "medicare-part-b-give-back-plan", "top-10-medicare-supplement-insurance-companies"],
   },
   {
-    slug: "does-medicare-cover-a-shower-transfer-bench",
-    seo: {
-      title: "Does Medicare Cover a Shower Transfer Bench?",
-      description: "Get clear, unbiased answers to your Medicare questions.",
-      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-a-shower-transfer-bench/",
-      ogImage: "/images/medicarefaq-cover.jpg",
-    },
-    title: "Does Medicare Cover a Shower Transfer Bench?",
-    subtitle: "Medicare Part B may cover the cost of a shower transfer bench if it is deemed medically necessary and prescribed by a physician.",
-    category: "General Medicare",
-    dateUpdated: "February 18, 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is the Director of Operations for MedicareFAQ. As a licensed Medicare agent in all 50 states, she is dedicated to educating those eligible for Medicare.",
-    },
-    readTime: "5 min read",
-    youtubeVideoId: "qeWQadPlBiQ",
-    youtubeVideoTitle: "Does Medicare Cover a Shower Transfer Bench?",
-    quickAnswer: {
-      text: "Medicare Part B may cover the cost of a shower transfer bench if it is deemed medically necessary and prescribed by a physician.",
-      badges: [
-{
-          plan: "Part B",
-          status: "partial",
-        },
-{
-          plan: "Medicare Advantage",
-          status: "partial",
-        },
-{
-          plan: "Medigap",
-          status: "partial",
-        }],
-    },
-    comparisonTable: [
-{
-        planType: "Original Medicare (Part B)",
-        coverage: "May Cover",
-        icon: "shield",
-        notes: "Coverage if deemed medically necessary",
-      },
-{
-        planType: "Medicare Advantage",
-        coverage: "Some Plans",
-        icon: "shield",
-        notes: "Coverage varies by plan",
-      },
-{
-        planType: "Medigap",
-        coverage: "Supplements",
-        icon: "shield",
-        notes: "Pays secondary to Original Medicare",
-      }],
-    planBreakdowns: [
-{
-        planName: "Overview",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "See Details",
-        coverageType: "partial",
-        paragraphs: [
-          "[Medicare Part B](/blog/medicare-parts-a-b-c-and-d-explained-simply) may cover the cost of a shower transfer bench if it is deemed [medically necessary](/faqs/what-does-medically-necessary-mean) and prescribed by a physician. To qualify for coverage, the bench must be prescribed as part of a plan to address a specific medical need, such as assisting with mobility and safety in the shower for individuals with certain impairments. The necessity of the bench must be clearly outlined by the prescribing doctor, who will need to documentation to support the claim. This documentation is crucial for ensuring that the item meets Medicare’s criteria for durable medical equipment (DME) coverage.",
-          "However, coverage can vary depending on the supplier and their adherence to Medicare’s guidelines. It is essential to work with a supplier who is enrolled in Medicare and understands the requirements for [DME coverage](/faqs/durable-medical-equipment). They will help ensure that the shower transfer bench is appropriately billed to Medicare, and that all paperwork is completed correctly.",
-          "Additionally, id the transfer bench is covered by Medicare, patients may need to pay certain costs out of pocket, such as [deductibles or co-insurance](/faqs/deductible-copay-coinsurance-premium), depending on their specific plan and any additional coverage they may have. It is essential to speak with both your healthcare provider and the supply company to confirm the details of coverage and any potential costs before proceeding with the purchase."],
-      }],
-    faqs: [],
-    quickReference: [
-{
-        icon: "info",
-        text: "<strong>General Medicare</strong> topic",
-      },
-{
-        icon: "alert",
-        text: "Coverage details vary by plan and location",
-      },
-{
-        icon: "dollar",
-        text: "Compare plans to find the best value",
-      }],
-    relatedTopics: [
-{
-        title: "Dental Implants",
-        description: "Learn more about dental implants",
-        slug: "does-medicare-cover-dental-implants",
-      },
-{
-        title: "Glasses",
-        description: "Learn more about glasses",
-        slug: "does-medicare-cover-glasses",
-      },
-{
-        title: "Hearing Aids",
-        description: "Learn more about hearing aids",
-        slug: "does-medicare-cover-hearing-aids",
-      },
-{
-        title: "Sleep Apnea",
-        description: "Learn more about sleep apnea",
-        slug: "does-medicare-cover-sleep-apnea",
-      }],
-    sidebarRelatedLinks: [
-      "Dental Implants",
-      "Glasses",
-      "Hearing Aids",
-      "Sleep Apnea"],
-    ctaBanner: {
-      title: "Get Expert Medicare Guidance",
-      text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
-    },
-    relatedSlugs: ["durable-medical-equipment", "medicare-coverage-for-bathroom-safety-devices", "how-medicare-handles-skilled-nursing-vs-custodial-care", "does-medicare-cover-sleep-apnea"],
+  slug: "does-medicare-cover-a-shower-transfer-bench",
+  seo: {
+    title: "Does Medicare Cover the Cost of a Shower Transfer Bench?",
+    description: "Get clear, unbiased answers to your Medicare questions from trusted experts, helping you understand your options and choose the right coverage for you.",
+    canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-a-shower-transfer-bench/",
+    ogImage: "/images/medicarefaq-cover.jpg",
   },
+  title: "Does Medicare Cover a Shower Transfer Bench?",
+  subtitle: "Medicare Part B may cover the cost of a shower transfer bench if it is deemed medically necessary and prescribed by a physician.",
+  category: "General Medicare",
+  dateUpdated: "February 18, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is the Director of Operations for MedicareFAQ. As a licensed Medicare agent in all 50 states, she is dedicated to educating those eligible for Medicare.",
+  },
+  readTime: "5 min read",
+  youtubeVideoId: "qeWQadPlBiQ",
+  youtubeVideoTitle: "Does Medicare Cover a Shower Transfer Bench?",
+  quickAnswer: {
+    text: "Medicare Part B may cover the cost of a shower transfer bench if it is deemed medically necessary and prescribed by a physician.",
+    badges: [
+      {
+        plan: "Part B",
+        status: "partial",
+      },
+      {
+        plan: "Medicare Advantage",
+        status: "partial",
+      },
+      {
+        plan: "Medigap",
+        status: "partial",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Original Medicare (Part B)",
+      coverage: "May Cover",
+      icon: "shield",
+      notes: "Coverage if deemed medically necessary",
+    },
+    {
+      planType: "Medicare Advantage",
+      coverage: "Some Plans",
+      icon: "shield",
+      notes: "Coverage varies by plan",
+    },
+    {
+      planType: "Medigap",
+      coverage: "Supplements",
+      icon: "shield",
+      notes: "Pays secondary to Original Medicare",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "Overview",
+      icon: "shield",
+      iconColor: "#1B2A4A",
+      coverageLabel: "See Details",
+      coverageType: "partial",
+      paragraphs: [
+      "[Medicare Part B](/blog/medicare-parts-a-b-c-and-d-explained-simply) may cover the cost of a shower transfer bench if it is deemed [medically necessary](/faqs/what-does-medically-necessary-mean) and prescribed by a physician. To qualify for coverage, the bench must be prescribed as part of a plan to address a specific medical need, such as assisting with mobility and safety in the shower for individuals with certain impairments. The necessity of the bench must be clearly outlined by the prescribing doctor, who will need to documentation to support the claim. This documentation is crucial for ensuring that the item meets Medicare’s criteria for durable medical equipment (DME) coverage.",
+      "However, coverage can vary depending on the supplier and their adherence to Medicare’s guidelines. It is essential to work with a supplier who is enrolled in Medicare and understands the requirements for [DME coverage](/faqs/durable-medical-equipment). They will help ensure that the shower transfer bench is appropriately billed to Medicare, and that all paperwork is completed correctly.",
+      "Additionally, id the transfer bench is covered by Medicare, patients may need to pay certain costs out of pocket, such as [deductibles or co-insurance](/faqs/deductible-copay-coinsurance-premium), depending on their specific plan and any additional coverage they may have. It is essential to speak with both your healthcare provider and the supply company to confirm the details of coverage and any potential costs before proceeding with the purchase.",
+    ],
+    },
+  ],
+  faqs: [],
+  quickReference: [
+    {
+      icon: "info",
+      text: "<strong>General Medicare</strong> topic",
+    },
+    {
+      icon: "alert",
+      text: "Coverage details vary by plan and location",
+    },
+    {
+      icon: "dollar",
+      text: "Compare plans to find the best value",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Dental Implants",
+      description: "Learn more about dental implants",
+      slug: "does-medicare-cover-dental-implants",
+    },
+    {
+      title: "Glasses",
+      description: "Learn more about glasses",
+      slug: "does-medicare-cover-glasses",
+    },
+    {
+      title: "Hearing Aids",
+      description: "Learn more about hearing aids",
+      slug: "does-medicare-cover-hearing-aids",
+    },
+    {
+      title: "Sleep Apnea",
+      description: "Learn more about sleep apnea",
+      slug: "does-medicare-cover-sleep-apnea",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "Dental Implants",
+    "Glasses",
+    "Hearing Aids",
+    "Sleep Apnea",
+  ],
+  ctaBanner: {
+    title: "Get Expert Medicare Guidance",
+    text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
+  },
+  relatedSlugs: [
+    "durable-medical-equipment",
+    "medicare-coverage-for-bathroom-safety-devices",
+    "how-medicare-handles-skilled-nursing-vs-custodial-care",
+    "does-medicare-cover-sleep-apnea",
+  ],
+},
   {
     slug: "medicare-silversneakers-program",
     seo: {
