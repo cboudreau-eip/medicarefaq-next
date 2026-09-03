@@ -22768,204 +22768,325 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedSlugs: ["medicare-coverage-for-in-home-caregivers", "durable-medical-equipment", "does-medicare-cover-bathroom-safety-devices", "how-medicare-handles-skilled-nursing-vs-custodial-care", "does-medicare-cover-medical-alert-systems", "does-medicare-cover-memory-care", "does-medicare-cover-prosthetic-devices", "medicare-coverage-for-bathroom-safety-devices"],
   },
   {
-    slug: "medicare-and-employer-coverage",
-    seo: {
-      title: "Medicare and Employer Coverage: How They Work Together (2026)",
-      description: "Learn how Medicare coordinates with employer health insurance, when to enroll, and how to avoid late enrollment penalties if you're still working at 65.",
-      canonical: "https://www.medicarefaq.com/faqs/medicare-and-employer-coverage/",
-      ogImage: "https://images.pexels.com/photos/8815834/pexels-photo-8815834.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    },
-    title: "Understanding Employer Insurance and Medicare",
-    subtitle: "If you're turning 65 while still employed, understanding how Medicare coordinates with your employer coverage is critical to avoiding gaps, penalties, and unnecessary costs.",
-    category: "Coverage Q&A",
-    dateUpdated: "April 28, 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder" as const,
-      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer" as const,
-      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare.",
-    },
-    readTime: "8 min read",
-    youtubeVideoId: "b6PT6nTp8QQ",
-    youtubeVideoTitle: "Don't Be Like Bob...",
-    quickAnswer: {
-      text: "If you have employer health insurance when you turn 65, how Medicare coordinates with your coverage depends primarily on your employer's size. With 20+ employees, your employer plan pays first and Medicare is secondary. With fewer than 20 employees, Medicare pays first. You can generally delay Part B without penalty as long as you have creditable employer coverage.",
-      badges: [
-        { plan: "Employer Primary (20+ employees)", status: "covered" as const },
-        { plan: "Medicare Primary (<20 employees)", status: "covered" as const },
-        { plan: "Part B Delay", status: "partial" as const },
-        { plan: "COBRA as Creditable", status: "not-covered" as const }],
-    },
-    comparisonTable: [
-      { planType: "Large Employer (20+)", coverage: "Employer pays first, Medicare second", icon: "check", notes: "Can delay Part B without penalty while employer coverage is active" },
-      { planType: "Small Employer (<20)", coverage: "Medicare pays first, employer second", icon: "alert", notes: "Should enroll in Part B at 65 - employer plan becomes secondary" },
-      { planType: "Retiree Coverage", coverage: "Medicare pays first", icon: "alert", notes: "Retiree plans are designed to supplement Medicare, not replace it" },
-      { planType: "COBRA", coverage: "Not creditable for Part B delay", icon: "x", notes: "COBRA does NOT protect you from late enrollment penalties" }],
-    planBreakdowns: [
-      {
-        planName: "How Employer Size Determines Coordination",
-        icon: "building",
-        iconColor: "#2563EB",
-        coverageLabel: "Key Rule",
-        coverageType: "covered" as const,
-        statusBadge: "Employer size is the deciding factor",
-        paragraphs: [
-          "The Medicare Secondary Payer (MSP) rules determine which insurance pays first when you have both Medicare and employer coverage. The primary factor is the size of your employer - specifically, whether the company has 20 or more employees.",
-          "If your employer has 20 or more employees, your employer group health plan is the primary payer and Medicare is secondary. This means your employer plan pays claims first, and Medicare may cover some remaining costs. In this scenario, you can safely delay enrolling in Part B without facing a late enrollment penalty.",
-          "If your employer has fewer than 20 employees, Medicare becomes the primary payer once you turn 65. Your employer plan pays second. In this case, you should enroll in both Part A and Part B when you first become eligible to ensure full coverage."],
-        whatItCovers: [
-          "Employer plan pays first for companies with 20+ employees",
-          "Medicare pays first for companies with fewer than 20 employees",
-          "Part A is generally premium-free and should be enrolled at 65 regardless",
-          "Special Enrollment Period available when employer coverage ends"],
-        whatItDoesntCover: [
-          "COBRA coverage does not count as active employer coverage",
-          "Self-employed coverage through the individual marketplace is not group coverage",
-          "Spouse's employer coverage follows the same 20-employee rule"],
-        costNote: "Enrolling in Part A at 65 is generally recommended even if you keep employer coverage - it's premium-free for most people and provides additional hospital coverage.",
-      },
-      {
-        planName: "Delaying Part B: When It's Safe and When It's Not",
-        icon: "clock",
-        iconColor: "#D97706",
-        coverageLabel: "Critical Decision",
-        coverageType: "partial" as const,
-        statusBadge: "Delay only with creditable employer coverage",
-        paragraphs: [
-          "You can delay Part B enrollment without penalty only if you have creditable coverage through your own or your spouse's current employer with 20 or more employees. The key word is 'current' - the coverage must be based on active employment, not retiree benefits or COBRA.",
-          "When your employer coverage ends (either through retirement or job change), you have an 8-month Special Enrollment Period (SEP) to sign up for Part B without a late enrollment penalty. This window starts the month after your employment ends or your employer coverage ends, whichever comes first.",
-          "If you miss the 8-month SEP, you'll need to wait for the General Enrollment Period (January 1 – March 31) and may face a permanent late enrollment penalty of 10% added to your Part B premium for each full 12-month period you could have had Part B but didn't."],
-        whatItCovers: [
-          "Penalty-free delay while covered by active employer plan (20+ employees)",
-          "8-month Special Enrollment Period after employer coverage ends",
-          "Spouse's employer coverage qualifies if employer has 20+ employees"],
-        whatItDoesntCover: [
-          "COBRA - does NOT count as creditable coverage for delaying Part B",
-          "Retiree health benefits - Medicare becomes primary",
-          "Individual marketplace plans - not creditable for Part B delay",
-          "VA benefits - do not protect against Part B late penalties"],
-        callout: {
-          type: "warning" as const,
-          title: "COBRA Warning",
-          text: "COBRA continuation coverage is NOT considered creditable employer coverage. If you elect COBRA instead of enrolling in Part B, you may face permanent late enrollment penalties. Enroll in Part B before your COBRA period begins.",
-        },
-        costNote: "The Part B late enrollment penalty is 10% for each full 12-month period you delayed - and it lasts for as long as you have Part B.",
-      },
-      {
-        planName: "What to do When You Retire or Lose Employer Coverage",
-        icon: "log-out",
-        iconColor: "#0D9488",
-        coverageLabel: "Action Required",
-        coverageType: "covered" as const,
-        statusBadge: "8-month Special Enrollment Period",
-        paragraphs: [
-          "When your employer coverage ends, you need to act within the 8-month Special Enrollment Period to enroll in Part B and secure supplemental coverage. This is also the time to evaluate whether a Medigap plan or Medicare Advantage plan best fits your needs.",
-          "Request a letter from your employer confirming your dates of employment and group health coverage. You'll need this documentation (CMS Form L564) when enrolling in Part B through Social Security to prove you qualify for the SEP and avoid penalties."],
-        whatItCovers: [
-          "8-month window to enroll in Part B without penalty",
-          "Medigap open enrollment begins when Part B starts (if 65+)",
-          "Guaranteed issue rights for Medigap in most situations",
-          "Part D enrollment available during SEP"],
-        whatItDoesntCover: [
-          "Coverage gaps if you delay beyond the 8-month SEP",
-          "Retroactive Part B coverage - it starts the month after enrollment",
-          "Automatic enrollment - you must actively sign up"],
-        costNote: "Contact Social Security 2–3 months before your planned retirement date to begin the Part B enrollment process.",
-      }],
-    costTable: {
-      title: "Key Medicare Costs When Transitioning from Employer Coverage (2026)",
-      headers: ["Cost Component", "Amount", "Notes"],
-      rows: [
-        { "Cost Component": "Part A Premium", "Amount": "$0 (most people)", "Notes": "Free with 40+ quarters of Medicare-taxed work" },
-        { "Cost Component": "Part B Premium", "Amount": "$202.90/month (2026)", "Notes": "Standard premium; IRMAA surcharge may apply for higher incomes" },
-        { "Cost Component": "Part B Deductible", "Amount": "$257/year", "Notes": "Annual deductible before Medicare pays its share" },
-        { "Cost Component": "Part B Late Penalty", "Amount": "10% per 12-month delay", "Notes": "Permanent addition to your monthly premium" },
-        { "Cost Component": "Medigap Plan G", "Amount": "$100–$300/month", "Notes": "Varies by age, location, and carrier" }],
-    },
-    exceptionsSection: {
-      title: "Special Situations to Watch For",
-      items: [
-        {
-          title: "Spouse's Employer Coverage",
-          text: "If your spouse is the one with employer coverage, the same 20-employee rule applies. You can delay Part B as long as your spouse's employer has 20+ employees and you're covered under their plan.",
-        },
-        {
-          title: "HSA Considerations",
-          text: "If you have a Health Savings Account through your employer, you must stop contributing to it once you enroll in any part of Medicare - including Part A. Since Part A can be retroactive up to 6 months, plan your HSA contributions carefully.",
-        },
-        {
-          title: "Federal Employees (FEHB)",
-          text: "FEHB coverage is considered creditable, and you can keep it alongside Medicare. However, once you enroll in Medicare, it typically becomes the primary payer with FEHB paying secondary.",
-        }],
-    },
-    alternativesSection: {
-      title: "Planning Your Transition from Employer Coverage to Medicare",
-      paragraphs: [
-        "The transition from employer coverage to Medicare is one of the most consequential healthcare decisions you'll make. Planning ahead - ideally 6 months before retirement - gives you time to compare options and avoid costly mistakes."],
-      checklist: {
-        title: "Transition Checklist",
-        type: "tip" as const,
-        items: [
-          "Confirm your employer's size (20+ or fewer than 20 employees)",
-          "Enroll in Part A at 65 even if you keep employer coverage (it's free)",
-          "Determine whether your employer coverage is creditable for Part B delay",
-          "Contact Social Security 2–3 months before retirement to enroll in Part B",
-          "Request Form L564 from your employer documenting your coverage dates",
-          "Compare Medigap and Medicare Advantage options during your SEP",
-          "Stop HSA contributions before Medicare enrollment begins"],
-      },
-    },
-    faqs: [
-      {
-        question: "Should I Enroll in Medicare Part a at 65 if I Have Employer Coverage?",
-        answer: "In most cases, yes. Part A is premium-free for people with 40+ quarters of work history, and it provides additional hospital coverage alongside your employer plan. The only exception is if enrolling in Part A would affect your HSA contributions - since you cannot contribute to an HSA once enrolled in any part of Medicare.",
-      },
-      {
-        question: "What Happens if I Miss the 8-month Special Enrollment Period?",
-        answer: "If you miss the SEP, you'll need to wait for the General Enrollment Period (January 1 – March 31), with coverage starting July 1. You'll also face a permanent late enrollment penalty of 10% added to your Part B premium for each full 12-month period you could have had Part B but didn't.",
-      },
-      {
-        question: "Does COBRA Count as Creditable Coverage for Delaying Part B?",
-        answer: "No. COBRA is not considered creditable employer coverage for the purpose of delaying Part B enrollment. If you elect COBRA after leaving your job, you should also enroll in Part B during your Special Enrollment Period to avoid penalties.",
-      },
-      {
-        question: "Can My Employer Force Me to Enroll in Medicare at 65?",
-        answer: "No. Your employer cannot require you to enroll in Medicare. However, if your employer has fewer than 20 employees, Medicare becomes primary at 65 and your employer plan becomes secondary - so enrolling in both Part A and Part B is strongly recommended.",
-      },
-      {
-        question: "What if My Employer Offers a Medicare Advantage Plan for Retirees?",
-        answer: "Some employers offer group Medicare Advantage plans as retiree benefits. These can be a good option, but compare them carefully with individual Medigap and MA plans available in your area. Group retiree plans may have different networks and benefits than individual plans.",
-      }],
-    quickReference: [
-      { icon: "check" as const, text: "Employer with 20+ employees: employer plan pays first, Medicare second" },
-      { icon: "alert" as const, text: "Employer with <20 employees: Medicare pays first - enroll in Part B at 65" },
-      { icon: "x" as const, text: "COBRA is NOT creditable coverage - do not rely on it to delay Part B" },
-      { icon: "info" as const, text: "8-month SEP to enroll in Part B after employer coverage ends" },
-      { icon: "dollar" as const, text: "Part B late penalty: 10% per year of delay - permanent" }],
-    relatedTopics: [
-      { title: "Transitioning to Medicare after Employer Coverage Ends", description: "Step-by-step guide for moving from employer insurance to Medicare.", slug: "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide" },
-      { title: "Working past 65 and Medicare", description: "How to navigate Medicare enrollment when you're still on the job.", slug: "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job" },
-      { title: "HSA and Medicare", description: "Learn how Health Savings Accounts work with Medicare.", slug: "hsa-and-medicare" },
-      { title: "Medicare Late Enrollment Penalties", description: "Understand the penalties for delaying Medicare enrollment.", slug: "protect-yourself-from-medicare-penalties-key-tips-and-deadlines" }],
-    sidebarRelatedLinks: [
-      "Transitioning to Medicare After Employer Coverage",
-      "Working Past 65 and Medicare",
-      "HSA and Medicare Rules",
-      "Medicare Late Enrollment Penalties",
-      "FEHB and Medicare"],
-    ctaBanner: {
-      title: "Transitioning from Employer Coverage to Medicare?",
-      text: "Our licensed Medicare agents can help you navigate the transition and find the right coverage without gaps or penalties.",
-    },
-    relatedSlugs: ["transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "when-should-you-enroll-in-medicare-if-still-working", "understanding-how-medicare-works-with-employer-health-plans", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "medicare-and-employer-coverage", "medicare-coverage-for-dermatology", "medicare-coverage-for-stem-cell-treatments", "protect-yourself-from-medicare-penalties-and-deadlines"],
+  slug: "medicare-and-employer-coverage",
+  seo: {
+    title: "Medicare & Employer Coverage at 65: Who Pays First? (2026 Guide)",
+    description: "Still working at 65? See who pays first, when to enroll in Medicare, and how to avoid gaps or penalties with employer health coverage.",
+    canonical: "https://www.medicarefaq.com/faqs/medicare-and-employer-coverage/",
+    ogImage: "https://images.pexels.com/photos/8815834/pexels-photo-8815834.jpeg?auto=compress&cs=tinysrgb&w=1200",
   },
+  title: "Understanding Employer Insurance and Medicare",
+  subtitle: "If you're turning 65 while still employed, understanding how Medicare coordinates with your employer coverage is critical to avoiding gaps, penalties, and unnecessary costs.",
+  category: "Coverage Q&A",
+  dateUpdated: "April 28, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare.",
+  },
+  readTime: "8 min read",
+  youtubeVideoId: "b6PT6nTp8QQ",
+  youtubeVideoTitle: "Don't Be Like Bob...",
+  quickAnswer: {
+    text: "If you have employer health insurance at 65, coordination with Medicare depends mainly on your employer's size. With 20+ employees, your employer plan pays first and Medicare is secondary. With fewer than 20 employees, Medicare pays first, so you typically need to enroll in Medicare right away. As long as your employer coverage is creditable, you can generally delay Part B without penalty until that coverage or your employment ends.",
+    badges: [
+      {
+        plan: "Employer Primary (20+ employees)",
+        status: "covered",
+      },
+      {
+        plan: "Medicare Primary (<20 employees)",
+        status: "covered",
+      },
+      {
+        plan: "Part B Delay",
+        status: "partial",
+      },
+      {
+        plan: "COBRA as Creditable",
+        status: "not-covered",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Large Employer (20+)",
+      coverage: "Employer pays first, Medicare second",
+      icon: "check",
+      notes: "Can delay Part B without penalty while employer coverage is active",
+    },
+    {
+      planType: "Small Employer (<20)",
+      coverage: "Medicare pays first, employer second",
+      icon: "alert",
+      notes: "Should enroll in Part B at 65 - employer plan becomes secondary",
+    },
+    {
+      planType: "Retiree Coverage",
+      coverage: "Medicare pays first",
+      icon: "alert",
+      notes: "Retiree plans are designed to supplement Medicare, not replace it",
+    },
+    {
+      planType: "COBRA",
+      coverage: "Not creditable for Part B delay",
+      icon: "x",
+      notes: "COBRA does NOT protect you from late enrollment penalties",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "How Employer Size Determines Coordination",
+      icon: "building",
+      iconColor: "#2563EB",
+      coverageLabel: "Key Rule",
+      coverageType: "covered",
+      statusBadge: "Employer size is the deciding factor",
+      paragraphs: [
+      "The Medicare Secondary Payer (MSP) rules determine which insurance pays first when you have both Medicare and employer coverage. The primary factor is the size of your employer - specifically, whether the company has 20 or more employees.",
+      "If your employer has 20 or more employees, your employer group health plan is the primary payer and Medicare is secondary. This means your employer plan pays claims first, and Medicare may cover some remaining costs. In this scenario, you can safely delay enrolling in Part B without facing a late enrollment penalty.",
+      "If your employer has fewer than 20 employees, Medicare becomes the primary payer once you turn 65. Your employer plan pays second. In this case, you should enroll in both Part A and Part B when you first become eligible to ensure full coverage.",
+    ],
+      whatItCovers: [
+      "Employer plan pays first for companies with 20+ employees",
+      "Medicare pays first for companies with fewer than 20 employees",
+      "Part A is generally premium-free and should be enrolled at 65 regardless",
+      "Special Enrollment Period available when employer coverage ends",
+    ],
+      whatItDoesntCover: [
+      "COBRA coverage does not count as active employer coverage",
+      "Self-employed coverage through the individual marketplace is not group coverage",
+      "Spouse's employer coverage follows the same 20-employee rule",
+    ],
+      costNote: "Enrolling in Part A at 65 is generally recommended even if you keep employer coverage - it's premium-free for most people and provides additional hospital coverage.",
+    },
+    {
+      planName: "Delaying Part B: When It's Safe and When It's Not",
+      icon: "clock",
+      iconColor: "#D97706",
+      coverageLabel: "Critical Decision",
+      coverageType: "partial",
+      statusBadge: "Delay only with creditable employer coverage",
+      paragraphs: [
+      "You can delay Part B enrollment without penalty only if you have creditable coverage through your own or your spouse's current employer with 20 or more employees. The key word is 'current' - the coverage must be based on active employment, not retiree benefits or COBRA.",
+      "When your employer coverage ends (either through retirement or job change), you have an 8-month Special Enrollment Period (SEP) to sign up for Part B without a late enrollment penalty. This window starts the month after your employment ends or your employer coverage ends, whichever comes first.",
+      "If you miss the 8-month SEP, you'll need to wait for the General Enrollment Period (January 1 – March 31) and may face a permanent late enrollment penalty of 10% added to your Part B premium for each full 12-month period you could have had Part B but didn't.",
+    ],
+      whatItCovers: [
+      "Penalty-free delay while covered by active employer plan (20+ employees)",
+      "8-month Special Enrollment Period after employer coverage ends",
+      "Spouse's employer coverage qualifies if employer has 20+ employees",
+    ],
+      whatItDoesntCover: [
+      "COBRA - does NOT count as creditable coverage for delaying Part B",
+      "Retiree health benefits - Medicare becomes primary",
+      "Individual marketplace plans - not creditable for Part B delay",
+      "VA benefits - do not protect against Part B late penalties",
+    ],
+      callout: {
+      type: "warning",
+      title: "COBRA Warning",
+      text: "COBRA continuation coverage is NOT considered creditable employer coverage. If you elect COBRA instead of enrolling in Part B, you may face permanent late enrollment penalties. Enroll in Part B before your COBRA period begins.",
+    },
+      costNote: "The Part B late enrollment penalty is 10% for each full 12-month period you delayed - and it lasts for as long as you have Part B.",
+    },
+    {
+      planName: "What to do When You Retire or Lose Employer Coverage",
+      icon: "log-out",
+      iconColor: "#0D9488",
+      coverageLabel: "Action Required",
+      coverageType: "covered",
+      statusBadge: "8-month Special Enrollment Period",
+      paragraphs: [
+      "When your employer coverage ends, you need to act within the 8-month Special Enrollment Period to enroll in Part B and secure supplemental coverage. This is also the time to evaluate whether a Medigap plan or Medicare Advantage plan best fits your needs.",
+      "Request a letter from your employer confirming your dates of employment and group health coverage. You'll need this documentation (CMS Form L564) when enrolling in Part B through Social Security to prove you qualify for the SEP and avoid penalties.",
+    ],
+      whatItCovers: [
+      "8-month window to enroll in Part B without penalty",
+      "Medigap open enrollment begins when Part B starts (if 65+)",
+      "Guaranteed issue rights for Medigap in most situations",
+      "Part D enrollment available during SEP",
+    ],
+      whatItDoesntCover: [
+      "Coverage gaps if you delay beyond the 8-month SEP",
+      "Retroactive Part B coverage - it starts the month after enrollment",
+      "Automatic enrollment - you must actively sign up",
+    ],
+      costNote: "Contact Social Security 2–3 months before your planned retirement date to begin the Part B enrollment process.",
+    },
+  ],
+  costTable: {
+    title: "Key Medicare Costs When Transitioning from Employer Coverage (2026)",
+    headers: [
+    "Cost Component",
+    "Amount",
+    "Notes",
+  ],
+    rows: [
+      {
+        "Cost Component": "Part A Premium",
+        "Amount": "$0 (most people)",
+        "Notes": "Free with 40+ quarters of Medicare-taxed work",
+      },
+      {
+        "Cost Component": "Part B Premium",
+        "Amount": "$202.90/month (2026)",
+        "Notes": "Standard premium; IRMAA surcharge may apply for higher incomes",
+      },
+      {
+        "Cost Component": "Part B Deductible",
+        "Amount": "$257/year",
+        "Notes": "Annual deductible before Medicare pays its share",
+      },
+      {
+        "Cost Component": "Part B Late Penalty",
+        "Amount": "10% per 12-month delay",
+        "Notes": "Permanent addition to your monthly premium",
+      },
+      {
+        "Cost Component": "Medigap Plan G",
+        "Amount": "$100–$300/month",
+        "Notes": "Varies by age, location, and carrier",
+      },
+    ],
+  },
+  exceptionsSection: {
+    title: "Special Situations to Watch For",
+    items: [
+      {
+        title: "Spouse's Employer Coverage",
+        text: "If your spouse is the one with employer coverage, the same 20-employee rule applies. You can delay Part B as long as your spouse's employer has 20+ employees and you're covered under their plan.",
+      },
+      {
+        title: "HSA Considerations",
+        text: "If you have a Health Savings Account through your employer, you must stop contributing to it once you enroll in any part of Medicare - including Part A. Since Part A can be retroactive up to 6 months, plan your HSA contributions carefully.",
+      },
+      {
+        title: "Federal Employees (FEHB)",
+        text: "FEHB coverage is considered creditable, and you can keep it alongside Medicare. However, once you enroll in Medicare, it typically becomes the primary payer with FEHB paying secondary.",
+      },
+    ],
+  },
+  alternativesSection: {
+    title: "Planning Your Transition from Employer Coverage to Medicare",
+    paragraphs: [
+    "The transition from employer coverage to Medicare is one of the most consequential healthcare decisions you'll make. Planning ahead - ideally 6 months before retirement - gives you time to compare options and avoid costly mistakes.",
+  ],
+    checklist: {
+    title: "Transition Checklist",
+    items: [
+    "Confirm your employer's size (20+ or fewer than 20 employees)",
+    "Enroll in Part A at 65 even if you keep employer coverage (it's free)",
+    "Determine whether your employer coverage is creditable for Part B delay",
+    "Contact Social Security 2–3 months before retirement to enroll in Part B",
+    "Request Form L564 from your employer documenting your coverage dates",
+    "Compare Medigap and Medicare Advantage options during your SEP",
+    "Stop HSA contributions before Medicare enrollment begins",
+  ],
+    type: "tip",
+  },
+  },
+  faqs: [
+    {
+      question: "Should I Enroll in Medicare Part a at 65 if I Have Employer Coverage?",
+      answer: "In most cases, yes. Part A is premium-free for people with 40+ quarters of work history, and it provides additional hospital coverage alongside your employer plan. The only exception is if enrolling in Part A would affect your HSA contributions - since you cannot contribute to an HSA once enrolled in any part of Medicare.",
+    },
+    {
+      question: "What Happens if I Miss the 8-month Special Enrollment Period?",
+      answer: "If you miss the SEP, you'll need to wait for the General Enrollment Period (January 1 – March 31), with coverage starting July 1. You'll also face a permanent late enrollment penalty of 10% added to your Part B premium for each full 12-month period you could have had Part B but didn't.",
+    },
+    {
+      question: "Does COBRA Count as Creditable Coverage for Delaying Part B?",
+      answer: "No. COBRA is not considered creditable employer coverage for the purpose of delaying Part B enrollment. If you elect COBRA after leaving your job, you should also enroll in Part B during your Special Enrollment Period to avoid penalties.",
+    },
+    {
+      question: "Can My Employer Force Me to Enroll in Medicare at 65?",
+      answer: "No. Your employer cannot require you to enroll in Medicare. However, if your employer has fewer than 20 employees, Medicare becomes primary at 65 and your employer plan becomes secondary - so enrolling in both Part A and Part B is strongly recommended.",
+    },
+    {
+      question: "What if My Employer Offers a Medicare Advantage Plan for Retirees?",
+      answer: "Some employers offer group Medicare Advantage plans as retiree benefits. These can be a good option, but compare them carefully with individual Medigap and MA plans available in your area. Group retiree plans may have different networks and benefits than individual plans.",
+    },
+    {
+      question: "Do the Same Rules Apply if My Employer Coverage Comes From My Spouse's Job?",
+      answer: "If your employer coverage comes through a spouse's job rather than your own, the same size-based rules generally apply based on the size of the spouse's employer. If the spouse's employer has 20 or mo",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "check",
+      text: "Employer with 20+ employees: employer plan pays first, Medicare second",
+    },
+    {
+      icon: "alert",
+      text: "Employer with <20 employees: Medicare pays first - enroll in Part B at 65",
+    },
+    {
+      icon: "x",
+      text: "COBRA is NOT creditable coverage - do not rely on it to delay Part B",
+    },
+    {
+      icon: "info",
+      text: "8-month SEP to enroll in Part B after employer coverage ends",
+    },
+    {
+      icon: "dollar",
+      text: "Part B late penalty: 10% per year of delay - permanent",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Transitioning to Medicare after Employer Coverage Ends",
+      description: "Step-by-step guide for moving from employer insurance to Medicare.",
+      slug: "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide",
+    },
+    {
+      title: "Working past 65 and Medicare",
+      description: "How to navigate Medicare enrollment when you're still on the job.",
+      slug: "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job",
+    },
+    {
+      title: "HSA and Medicare",
+      description: "Learn how Health Savings Accounts work with Medicare.",
+      slug: "hsa-and-medicare",
+    },
+    {
+      title: "Medicare Late Enrollment Penalties",
+      description: "Understand the penalties for delaying Medicare enrollment.",
+      slug: "protect-yourself-from-medicare-penalties-key-tips-and-deadlines",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "Transitioning to Medicare After Employer Coverage",
+    "Working Past 65 and Medicare",
+    "HSA and Medicare Rules",
+    "Medicare Late Enrollment Penalties",
+    "FEHB and Medicare",
+  ],
+  ctaBanner: {
+    title: "Transitioning from Employer Coverage to Medicare?",
+    text: "Our licensed Medicare agents can help you navigate the transition and find the right coverage without gaps or penalties.",
+  },
+  relatedSlugs: [
+    "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide",
+    "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job",
+    "when-should-you-enroll-in-medicare-if-still-working",
+    "understanding-how-medicare-works-with-employer-health-plans",
+    "does-medicare-cover-second-opinions-and-when-should-you-get-one",
+    "medicare-and-employer-coverage",
+    "medicare-coverage-for-dermatology",
+    "medicare-coverage-for-stem-cell-treatments",
+    "protect-yourself-from-medicare-penalties-and-deadlines",
+  ],
+},
   {
     slug: "hsa-and-medicare",
     seo: {
