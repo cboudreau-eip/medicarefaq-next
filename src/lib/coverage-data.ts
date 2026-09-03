@@ -25472,7 +25472,7 @@ export const coverageArticles: CoverageArticleData[] = [
   slug: "irmaa",
   seo: {
     title: "IRMAA: What is IRMAA in Medicare? 2026 Brackets & How to Appeal | MedicareFAQ",
-    description: "IRMAA is the Income-Related Monthly Adjustment Amount added to Medicare Part B and Part D premiums for higher-income beneficiaries. See 2026 brackets, surcharges, and how to appeal.",
+    description: "IRMAA is the Income-Related Monthly Adjustment Amount added to Medicare Part B and Part D premiums for higher earners. See 2026 brackets and appeals.",
     canonical: "https://www.medicarefaq.com/faqs/irmaa/",
     ogImage: "/images/medicarefaq-cover.jpg",
   },
