@@ -227,7 +227,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       focusKeyword: "scope of appointment",
       title: "Medicare Scope of Appointment: What It Is & Why It Matters",
       description:
-        "Learn how the Medicare Scope of Appointment works, when it's required, and how to use this form to protect yourself when meeting with agents in 2026.",
+        "Confused about why an agent asked you to sign a Scope of Appointment form? Learn what it means, when it's required, and how it protects you.",
       canonical: "https://www.medicarefaq.com/faqs/scope-of-appointment/",
       ogImage:
         "/images/medicarefaq-cover.jpg",
