@@ -3750,6 +3750,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: "full-retirement-age",
       seo: {
+      focusKeyword: "",
         title: "Full Retirement Age: What it Means for Medicare and Social Security",
         description: "Your full retirement age (FRA) affects when you can claim full Social Security benefits -- and it interacts with Medicare enrollment in important ways. Here",
         canonical: "https://www.medicarefaq.com/blog/full-retirement-age/",
@@ -3764,7 +3765,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: "Ashlee Zareczny",
       readTime: "8 min read",
       featured: false,
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/cms-images/1777386024582-v4urac.jpg",
+      image: "/images/generated/full-retirement-age.png",
     imageAlt: "retirement, social security and medicare",
       keyTakeaways: ["Full Retirement Age (FRA) is when you can claim 100% of your Social Security benefit; it ranges from 66 to 67 depending on your birth year", "Your FRA does not change your Medicare eligibility at age 65, but it affects how much Social Security income you'll receive", "Claiming Social Security before your FRA results in permanently reduced benefits, while delaying past FRA increases your benefit by 8% per year", "Coordinating your Medicare enrollment with your Social Security claiming strategy can help maximize your retirement income and avoid costly penalties"],
       tableOfContents: [
@@ -3776,148 +3777,37 @@ export const blogArticles: BlogArticleData[] = [
         { id: "coordinating-enrollment", title: "Coordinating Your Medicare and Social Security Strategy" },
         { id: "common-mistakes", title: "Common Mistakes to Avoid" }],
       sections: [
-        {
-          type: "paragraph",
-          content: "If you're approaching 65 and thinking about Medicare, you\'ve probably heard the term Full Retirement Age (FRA) mentioned alongside Social Security. While these two programs are separate, they\'re deeply connected in the minds of retirees because your FRA determines when you can claim your full Social Security benefit. Understanding your FRA is crucial to making informed decisions about when to enroll in Medicare and when to start taking Social Security benefits. The choices you make now can affect your financial security for decades to come.",
-        },
-        {
-          type: "heading",
-          level: 2,
-          text: "What Is Full Retirement Age?",
-          id: "what-is-full-retirement-age",
-        },
-        {
-          type: "paragraph",
-          content: "Full Retirement Age is the age at which the Social Security Administration says you've reached full eligibility to claim your complete Social Security benefit. It\'s not the same as Medicare eligibility (which starts at 65) and it\'s not a magic number where you suddenly become old. Instead, it\'s a government-defined threshold that determines your Social Security benefit amount.",
-        },
-        {
-          type: "paragraph",
-          content: "Think of it this way: if you were born in a certain year, the government has decided that you'll need to wait until a specific age to receive 100% of the Social Security benefit you\'ve earned through your work history. This age was set based on life expectancy calculations at the time the program was created, and it has been adjusted over decades. If you claim before your FRA, your monthly benefit will be permanently reduced. If you delay claiming past your FRA, your benefit will increase by approximately 8% for each year you wait, up until age 70.",
-        },
-        {
-          type: "heading",
-          level: 2,
-          text: "Your Full Retirement Age by Birth Year",
-          id: "fra-by-birth-year",
-        },
-        {
-          type: "paragraph",
-          content: "Your Full Retirement Age depends on when you were born. The Social Security Administration has gradually increased FRA from 65 to 67 over the past two decades to account for longer life expectancies. If you were born before 1938, this section doesn't apply to you, as you\'ve likely already reached your FRA. For everyone else, here\'s the breakdown:",
-        },
-        {
-          type: "table",
-          headers: ["Birth Year", "Full Retirement Age"],
-          rows: [["1943-1954", "66"], ["1955", "66 and 2 months"], ["1956", "66 and 4 months"], ["1957", "66 and 6 months"], ["1958", "66 and 8 months"], ["1959", "66 and 10 months"], ["1960 and later", "67"]],
-        },
-        {
-          type: "paragraph",
-          content: "If your birth date falls between the years listed, your FRA is somewhere in the middle of those ranges. For example, if you were born in 1957, your FRA is 66 and 6 months. You can visit the Social Security Administration website or call 1-800-772-1213 to confirm your exact FRA if you're unsure.",
-        },
-        {
-          type: "heading",
-          level: 2,
-          text: "How Full Retirement Age Affects Social Security Benefits",
-          id: "fra-and-social-security",
-        },
-        {
-          type: "paragraph",
-          content: "Your FRA is the pivotal point for Social Security benefit calculations. Here's how your claiming age affects your monthly benefit amount:",
-        },
-        {
-          type: "paragraph",
-          content: "If you claim at age 62 (the earliest possible age), your benefit will be reduced by approximately 30% compared to what you'd receive at your FRA. This reduction is permanent and will follow you for the rest of your life. For example, if your full retirement age benefit would be $2,000 per month, claiming at 62 would give you roughly $1,400 per month instead, forever.",
-        },
-        {
-          type: "paragraph",
-          content: "If you wait and claim at your FRA, you receive 100% of your earned benefit. This is neither reduced nor increased. If you delay claiming past your FRA, your benefit grows by approximately 8% each year. If your FRA is 67 and you delay until age 70, your monthly benefit could be about 24% higher than your FRA amount. Using the example above, that $2,000 per month at FRA could become $2,480 per month at age 70.",
-        },
-        {
-          type: "paragraph",
-          content: "The decision about when to claim is deeply personal and should account for your health, family longevity history, current financial needs, and overall retirement plan. Many people benefit from consulting with a financial advisor before making this decision.",
-        },
-        {
-          type: "heading",
-          level: 2,
-          text: "Full Retirement Age and Medicare Enrollment",
-          id: "medicare-and-fra",
-        },
-        {
-          type: "paragraph",
-          content: "Here's something important to understand: your Medicare eligibility at age 65 is completely separate from your FRA. You become eligible for Medicare on your 65th birthday, regardless of when your FRA falls. Whether your FRA is 66, 67, or somewhere in between, you should enroll in Medicare during your [Initial Enrollment Period](/medicare-enrollment/initial-enrollment-period), which begins three months before your 65th birthday and ends three months after.",
-        },
-        {
-          type: "callout",
-          calloutType: "warning",
-          calloutTitle: "Don't Miss Your Medicare Enrollment Deadline",
-          calloutText: "If you don't enroll in Medicare Part B and Part D during your Initial Enrollment Period, you may face permanent late enrollment penalties. For Part B, this penalty equals 10% of the monthly premium ($18.50 in 2026) for each year you delayed enrollment.",
-        },
-        {
-          type: "paragraph",
-          content: "Many people mistakenly believe they should wait to enroll in Medicare until they reach their FRA. This is incorrect and can be costly. You should enroll in Medicare at 65, regardless of your plans for Social Security. The only exception is if you're still working and covered by an employer group health plan with 20 or more employees, in which case you may be able to delay Part B enrollment without [late enrollment penalties](/medicare-enrollment/late-penalties).",
-        },
-        {
-          type: "paragraph",
-          content: "In 2026, [Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) has a standard monthly premium of $202.90 per month, though it varies based on income. Part B also has an annual deductible of $283. Part A (hospital insurance) generally has no premium if you've worked long enough, but it carries a $1,736 deductible for hospital stays in 2026. [Part D](/original-medicare/medicare-parts/medicare-part-d) (prescription drug coverage) premiums vary by plan, but enrolling during your Initial Enrollment Period helps you avoid late enrollment penalties.",
-        },
-        {
-          type: "heading",
-          level: 2,
-          text: "Claiming Strategies: Early, Full, or Delayed",
-          id: "claiming-strategy",
-        },
-        {
-          type: "paragraph",
-          content: "Once you understand your FRA, you can think strategically about when to claim Social Security. There's no one-size-fits-all answer, but here are some common scenarios that people consider:",
-        },
-        {
-          type: "paragraph",
-          content: "The Early Claim Strategy suits people who want to start drawing benefits as soon as possible, even if it means a smaller monthly payment. You might choose this if you have health concerns, a family history of shorter lifespans, or immediate financial needs. Remember that you can claim as early as age 62. This strategy only makes sense if you believe you won't live long enough to benefit from the higher amounts you\'d receive by delaying.",
-        },
-        {
-          type: "paragraph",
-          content: "The Full Retirement Age Strategy means claiming right at your FRA. This is a balanced approach that gives you your full benefit without the reductions of early claiming or the uncertainty of waiting longer. Many people choose this path because it feels natural and offers reasonable income without requiring them to wait past traditional retirement age.",
-        },
-        {
-          type: "paragraph",
-          content: "The Delayed Claiming Strategy involves waiting past your FRA to claim, ideally until age 70. This approach maximizes your monthly benefit and works well if you're healthy, have a family history of longevity, and don\'t urgently need the income. This strategy can also benefit married couples, where the higher-earning spouse delays claiming to provide larger survivor benefits for the spouse who lives longer.",
-        },
-        {
-          type: "heading",
-          level: 2,
-          text: "Coordinating Your Medicare and Social Security Strategy",
-          id: "coordinating-enrollment",
-        },
-        {
-          type: "paragraph",
-          content: "The key to successful retirement planning is understanding how Medicare and Social Security work together. Here's a practical timeline to keep in mind:",
-        },
-        {
-          type: "list",
-          ordered: true,
-          items: ["Three months before your 65th birthday: Review your Medicare options and gather important documents like your Social Security number, proof of citizenship, and information about any current health coverage.", "One to two months before your 65th birthday: Enroll in Medicare Part A and Part B during your Initial Enrollment Period. You can enroll online at Medicare.gov, by phone at 1-800-MEDICARE, or in person at your local Social Security office.", "Around your 65th birthday: Review Part D (prescription drug) plans and enroll in a plan that covers your current medications. You have 63 days from when Part B coverage begins to enroll in Part D without penalty.", "Before age 62 (or whenever you're ready): Start thinking about your Social Security claiming strategy. If you\'re married, discuss this with your spouse, as spousal and survivor benefits may affect your decisions.", "At your chosen claiming age: Apply for Social Security benefits through Social Security.gov, by phone at 1-800-772-1213, or in person at your local Social Security office."],
-        },
-        {
-          type: "callout",
-          calloutType: "tip",
-          calloutTitle: "Use the Social Security Benefit Estimator",
-          calloutText: "The Social Security Administration offers a free Benefit Estimator tool on their website. You can see estimates of your benefits at different claiming ages, which helps you compare your options before making a final decision.",
-        },
-        {
-          type: "heading",
-          level: 2,
-          text: "Common Mistakes to Avoid",
-          id: "common-mistakes",
-        },
-        {
-          type: "paragraph",
-          content: "Many people approaching retirement make decisions about Medicare and Social Security without realizing the long-term consequences. Here are the most common mistakes we see:",
-        },
-        {
-          type: "list",
-          ordered: false,
-          items: ["Missing your Medicare Initial Enrollment Period deadlines: This is the costliest mistake. Late enrollment penalties can add hundreds of dollars to your premiums annually for the rest of your life.", "Assuming your FRA is when you should retire: Just because you reach your FRA doesn't mean you must stop working or claim Social Security. Many people continue working while delaying Social Security benefits.", "Claiming Social Security without understanding the reduction: If you claim before your FRA, your benefit is permanently reduced. Some people claim early out of habit rather than necessity and deeply regret it later.", "Ignoring spousal and survivor benefits: If you\'re married, your spouse may be eligible for benefits based on your work record. Your claiming strategy affects their future benefits too.", "Not reviewing prescription drug coverage annually: Even if you enrolled in Part D, your plan may change each year. The lowest-cost plan for you might be different in 2027 than it was in 2026, so review your coverage every October during Open Enrollment."],
-        }
-      ],
+      { type: "paragraph", content: "If you're approaching 65 and thinking about Medicare, you've probably heard the term Full Retirement Age (FRA) mentioned alongside Social Security. While these two programs are separate, they're deeply connected in the minds of retirees because your FRA determines when you can claim your full Social Security benefit. Understanding your FRA is crucial to making informed decisions about when to enroll in Medicare and when to start taking Social Security benefits. The choices you make now can affect your financial security for decades to come." },
+      { type: "heading", level: 2, text: "What Is Full Retirement Age?", id: "what-is-full-retirement-age" },
+      { type: "paragraph", content: "Full Retirement Age is the age at which the Social Security Administration says you've reached full eligibility to claim your complete Social Security benefit. It's not the same as Medicare eligibility (which starts at 65) and it's not a magic number where you suddenly become old. Instead, it's a government-defined threshold that determines your Social Security benefit amount." },
+      { type: "paragraph", content: "Think of it this way: if you were born in a certain year, the government has decided that you'll need to wait until a specific age to receive 100% of the Social Security benefit you've earned through your work history. This age was set based on life expectancy calculations at the time the program was created, and it has been adjusted over decades. If you claim before your FRA, your monthly benefit will be permanently reduced. If you delay claiming past your FRA, your benefit will increase by approximately 8% for each year you wait, up until age 70." },
+      { type: "heading", level: 2, text: "Your Full Retirement Age by Birth Year", id: "fra-by-birth-year" },
+      { type: "paragraph", content: "Your Full Retirement Age depends on when you were born. The Social Security Administration has gradually increased FRA from 65 to 67 over the past two decades to account for longer life expectancies. If you were born before 1938, this section doesn't apply to you, as you've likely already reached your FRA. For everyone else, here's the breakdown:" },
+      { type: "table", title: "", headers: ["Birth Year", "Full Retirement Age"], rows: [["1943-1954", "66"], ["1955", "66 and 2 months"], ["1956", "66 and 4 months"], ["1957", "66 and 6 months"], ["1958", "66 and 8 months"], ["1959", "66 and 10 months"], ["1960 and later", "67"]] },
+      { type: "paragraph", content: "If your birth date falls between the years listed, your FRA is somewhere in the middle of those ranges. For example, if you were born in 1957, your FRA is 66 and 6 months. You can visit the Social Security Administration website or call 1-800-772-1213 to confirm your exact FRA if you're unsure." },
+      { type: "heading", level: 2, text: "How Full Retirement Age Affects Social Security Benefits", id: "fra-and-social-security" },
+      { type: "paragraph", content: "Your FRA is the pivotal point for Social Security benefit calculations. Here's how your claiming age affects your monthly benefit amount:" },
+      { type: "paragraph", content: "If you claim at age 62 (the earliest possible age), your benefit will be reduced by approximately 30% compared to what you'd receive at your FRA. This reduction is permanent and will follow you for the rest of your life. For example, if your full retirement age benefit would be $2,000 per month, claiming at 62 would give you roughly $1,400 per month instead, forever." },
+      { type: "paragraph", content: "If you wait and claim at your FRA, you receive 100% of your earned benefit. This is neither reduced nor increased. If you delay claiming past your FRA, your benefit grows by approximately 8% each year. If your FRA is 67 and you delay until age 70, your monthly benefit could be about 24% higher than your FRA amount. Using the example above, that $2,000 per month at FRA could become $2,480 per month at age 70." },
+      { type: "paragraph", content: "The decision about when to claim is deeply personal and should account for your health, family longevity history, current financial needs, and overall retirement plan. Many people benefit from consulting with a financial advisor before making this decision." },
+      { type: "heading", level: 2, text: "Full Retirement Age and Medicare Enrollment", id: "medicare-and-fra" },
+      { type: "paragraph", content: "Here's something important to understand: your Medicare eligibility at age 65 is completely separate from your FRA. You become eligible for Medicare on your 65th birthday, regardless of when your FRA falls. Whether your FRA is 66, 67, or somewhere in between, you should enroll in Medicare during your [Initial Enrollment Period](/medicare-enrollment/initial-enrollment-period), which begins three months before your 65th birthday and ends three months after." },
+      { type: "callout", calloutType: "warning", calloutTitle: "Don't Miss Your Medicare Enrollment Deadline", calloutText: "If you don't enroll in Medicare Part B and Part D during your Initial Enrollment Period, you may face permanent late enrollment penalties. For Part B, this penalty equals 10% of the monthly premium ($18.50 in 2026) for each year you delayed enrollment." },
+      { type: "paragraph", content: "Many people mistakenly believe they should wait to enroll in Medicare until they reach their FRA. This is incorrect and can be costly. You should enroll in Medicare at 65, regardless of your plans for Social Security. The only exception is if you're still working and covered by an employer group health plan with 20 or more employees, in which case you may be able to delay Part B enrollment without [late enrollment penalties](/medicare-enrollment/late-penalties)." },
+      { type: "paragraph", content: "In 2026, [Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) has a standard monthly premium of $202.90 per month, though it varies based on income. Part B also has an annual deductible of $283. Part A (hospital insurance) generally has no premium if you've worked long enough, but it carries a $1,736 deductible for hospital stays in 2026. [Part D](/original-medicare/medicare-parts/medicare-part-d) (prescription drug coverage) premiums vary by plan, but enrolling during your Initial Enrollment Period helps you avoid late enrollment penalties." },
+      { type: "heading", level: 2, text: "Claiming Strategies: Early, Full, or Delayed", id: "claiming-strategy" },
+      { type: "paragraph", content: "Once you understand your FRA, you can think strategically about when to claim Social Security. There's no one-size-fits-all answer, but here are some common scenarios that people consider:" },
+      { type: "paragraph", content: "The Early Claim Strategy suits people who want to start drawing benefits as soon as possible, even if it means a smaller monthly payment. You might choose this if you have health concerns, a family history of shorter lifespans, or immediate financial needs. Remember that you can claim as early as age 62. This strategy only makes sense if you believe you won't live long enough to benefit from the higher amounts you'd receive by delaying." },
+      { type: "paragraph", content: "The Full Retirement Age Strategy means claiming right at your FRA. This is a balanced approach that gives you your full benefit without the reductions of early claiming or the uncertainty of waiting longer. Many people choose this path because it feels natural and offers reasonable income without requiring them to wait past traditional retirement age." },
+      { type: "paragraph", content: "The Delayed Claiming Strategy involves waiting past your FRA to claim, ideally until age 70. This approach maximizes your monthly benefit and works well if you're healthy, have a family history of longevity, and don't urgently need the income. This strategy can also benefit married couples, where the higher-earning spouse delays claiming to provide larger survivor benefits for the spouse who lives longer." },
+      { type: "heading", level: 2, text: "Coordinating Your Medicare and Social Security Strategy", id: "coordinating-enrollment" },
+      { type: "paragraph", content: "The key to successful retirement planning is understanding how Medicare and Social Security work together. Here's a practical timeline to keep in mind:" },
+      { type: "list", ordered: true, items: ["Three months before your 65th birthday: Review your Medicare options and gather important documents like your Social Security number, proof of citizenship, and information about any current health coverage.", "One to two months before your 65th birthday: Enroll in Medicare Part A and Part B during your Initial Enrollment Period. You can enroll online at Medicare.gov, by phone at 1-800-MEDICARE, or in person at your local Social Security office.", "Around your 65th birthday: Review Part D (prescription drug) plans and enroll in a plan that covers your current medications. You have 63 days from when Part B coverage begins to enroll in Part D without penalty.", "Before age 62 (or whenever you're ready): Start thinking about your Social Security claiming strategy. If you're married, discuss this with your spouse, as spousal and survivor benefits may affect your decisions.", "At your chosen claiming age: Apply for Social Security benefits through Social Security.gov, by phone at 1-800-772-1213, or in person at your local Social Security office."] },
+      { type: "callout", calloutType: "tip", calloutTitle: "Use the Social Security Benefit Estimator", calloutText: "The Social Security Administration offers a free Benefit Estimator tool on their website. You can see estimates of your benefits at different claiming ages, which helps you compare your options before making a final decision." },
+      { type: "heading", level: 2, text: "Common Mistakes to Avoid", id: "common-mistakes" },
+      { type: "paragraph", content: "Many people approaching retirement make decisions about Medicare and Social Security without realizing the long-term consequences. Here are the most common mistakes we see:" },
+      { type: "list", ordered: false, items: ["Missing your Medicare Initial Enrollment Period deadlines: This is the costliest mistake. Late enrollment penalties can add hundreds of dollars to your premiums annually for the rest of your life.", "Assuming your FRA is when you should retire: Just because you reach your FRA doesn't mean you must stop working or claim Social Security. Many people continue working while delaying Social Security benefits.", "Claiming Social Security without understanding the reduction: If you claim before your FRA, your benefit is permanently reduced. Some people claim early out of habit rather than necessity and deeply regret it later.", "Ignoring spousal and survivor benefits: If you're married, your spouse may be eligible for benefits based on your work record. Your claiming strategy affects their future benefits too.", "Not reviewing prescription drug coverage annually: Even if you enrolled in Part D, your plan may change each year. The lowest-cost plan for you might be different in 2027 than it was in 2026, so review your coverage every October during Open Enrollment."] },
+    ],
       faqs: [
         { question: "Can I Change My Mind after I Claim Social Security?", answer: "Social Security allows you to withdraw your application within the first 12 months after claiming, but only once. If you withdraw, you must repay all benefits received and must wait until your FRA to claim again. After 12 months, you cannot withdraw your application. Another option is to suspend benefits at your FRA and let them grow until age 70, which increases your benefit by about 8% per year. Consult with a financial advisor before making changes to your Social Security claim." },
         { question: "What if I'm not sure of my exact Full Retirement Age?", answer: "You can find your exact FRA by visiting ssa.gov/benefits/retirement/reachingfra.html, calling Social Security at 1-800-772-1213, or creating a my Social Security account on their website. You can also visit your local Social Security office in person. It\'s important to know your exact FRA, including the months, because your benefit amount depends on your precise claiming date." },
