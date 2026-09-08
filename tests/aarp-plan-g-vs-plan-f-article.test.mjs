@@ -32,9 +32,16 @@ function sliceArticle(source, slug) {
 test("AARP Plan G versus Plan F article includes decision safeguards and structured FAQ content", () => {
   const article = sliceArticle(articleSource, "aarp-plan-g-vs-plan-f");
   assert.ok(article, "AARP Plan G versus Plan F article must exist");
-  assert.ok(article.includes('"type": "faq"'), "Article must include a FAQ section");
-  assert.equal((article.match(/"question":/g) || []).length >= 10, true, "Article must have at least ten FAQs");
-  assert.equal((article.match(/"type": "zip-cta"/g) || []).length, 2, "Article must have two single-action CTAs");
+
+  // blog-articles-data.ts mixes quoted-key and bare-key object styles depending
+  // on which tool last wrote the entry, so every field check here must match
+  // both -- a style-specific check reads as a content regression when it's
+  // really just a reformat.
+  const hasType = (value) => new RegExp(`type["']?:\\s*["\`]${value}["\`]`).test(article);
+
+  assert.ok(hasType("faq"), "Article must include a FAQ section");
+  assert.equal((article.match(/question["']?:\s*["`]/g) || []).length >= 10, true, "Article must have at least ten FAQs");
+  assert.equal((article.match(/type["']?:\s*["`]zip-cta["`]/g) || []).length, 2, "Article must have two single-action CTAs");
   assert.equal(article.includes("—"), false, "Article must not contain em dashes");
   assert.equal((article.match(/\]\(\//g) || []).length >= 5, true, "Article must include at least five internal links");
   assert.ok(article.includes("Do not cancel your current coverage"), "Article must include replacement-policy safety guidance");
