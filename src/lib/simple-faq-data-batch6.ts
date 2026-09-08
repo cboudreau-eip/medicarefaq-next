@@ -239,7 +239,7 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
     readTime: '6 min',
     sections: [],
     richSections: [
-      { type: 'paragraph', content: 'When you choose a [Medicare Advantage plan](/faqs/what-is-medicare-advantage/), one of the first decisions you face is whether to enroll in an HMO or a PPO. Both plan types cover all Original Medicare benefits and often include extras like prescription drugs, dental, and vision. The key difference is how you access care and what you pay when you do.' },
+      { type: 'paragraph', content: 'When you choose a [Medicare Advantage plan](/medicare-part-c/medicare-advantage-plans/), one of the first decisions you face is whether to enroll in an HMO or a PPO. Both plan types cover all Original Medicare benefits and often include extras like prescription drugs, dental, and vision. The key difference is how you access care and what you pay when you do.' },
       { type: 'heading', level: 2, text: 'What Is a Medicare HMO?', id: 'hmo' },
       { type: 'paragraph', content: 'A Health Maintenance Organization (HMO) plan requires you to use a specific network of doctors, hospitals, and other providers. You typically must choose a primary care physician (PCP) who coordinates your care and provides referrals to see specialists. Care received outside the network is generally not covered, except in emergencies.' },
       { type: 'heading', level: 2, text: 'What Is a Medicare PPO?', id: 'ppo' },
