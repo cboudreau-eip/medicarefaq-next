@@ -12,7 +12,7 @@ export const miamiAgentsArticle: BlogArticleData = {
     title: "Find a Medicare Agent in Miami, FL (2026 Guide)",
     description: "Compare Medicare plans in Miami-Dade. 46 Advantage plans, 40 with $0 premiums, and brokers who know local networks.",
     canonical: "https://www.medicarefaq.com/blog/medicare-agents-miami-fl/",
-    ogImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/miami-medicare-agents-hero-FbQCRBDG3KpdvmDMJ7WZRM.png",
+    ogImage: "/images/medicarefaq-cover.jpg",
   },
   title: "Find a Medicare Agent in Miami: Your 2026 Local Guide",
   excerpt:
@@ -24,7 +24,7 @@ export const miamiAgentsArticle: BlogArticleData = {
   reviewer: "Ashlee Zareczny",
   readTime: "11 min read",
   featured: false,
-  image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/miami-medicare-agents-hero-H8PeNgN42MVhnhoNyR5RRr.webp",
+  image: "/images/medicarefaq-cover.jpg",
   imageAlt: "Find a Medicare Agent in Miami FL 2026 Guide",
   keyTakeaways: [
     "Miami-Dade County has 46 Medicare Advantage plans available in 2026, with 40 offering $0 monthly premiums and 70% rated 4 stars or higher by CMS",

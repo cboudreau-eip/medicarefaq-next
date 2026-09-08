@@ -6,7 +6,7 @@ export const priorAuthSNFDenialsArticle: BlogArticleData = {
     title: "Medicare Advantage SNF Denials: OIG",
     description: "OIG finds 95% of Medicare Advantage prior authorization denials for Skilled Nursing Facility admission appeals succeed, signaling widespread inappropriate denials.",
     canonical: "https://www.medicarefaq.com/blog/medicare-advantage-prior-authorization-snf-denials/",
-    ogImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/medicare-advantage-prior-authorization-snf-denials-hero-WJkBC5Ugm7a7MdFhwJvW5g.png",
+    ogImage: "/images/medicarefaq-cover.jpg",
     focusKeyword: "Medicare Advantage Prior Authorization",
   },
   title: "Medicare Advantage SNF Denials: OIG Finds 95% of Prior Authorization Appeals Succeed",
@@ -21,7 +21,7 @@ export const priorAuthSNFDenialsArticle: BlogArticleData = {
   buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/19520929-95-of-medicare-advantage-nursing-facility-denials-get-overturned.mp3?download=true",
   podcastDate: "July 20, 2026",
   podcastDuration: "14 min",
-  image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/medicare-advantage-prior-authorization-snf-denials-hero-WJkBC5Ugm7a7MdFhwJvW5g.png",
+  image: "/images/medicarefaq-cover.jpg",
   imageAlt: "Elderly patient in wheelchair at skilled nursing facility with healthcare worker reviewing paperwork",
   keyTakeaways: [
     "95% Overturn Rate: When beneficiaries or providers appeal SNF prior authorization denials by MA plans, 95% are overturned in favor of the enrollee.",

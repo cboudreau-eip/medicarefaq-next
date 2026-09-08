@@ -403,7 +403,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
       title: 'Medigap Pricing Methods Explained: Community-Rated vs Issue-Age vs Attained-Age (2026)',
       description: 'Learn the three Medigap pricing methods - community-rated, issue-age-rated, and attained-age-rated - and how each affects your Medicare Supplement premiums over time.',
       canonical: 'https://www.medicarefaq.com/faqs/medicare-supplement-plans-medigap-pricing-methods/',
-      ogImage: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/types-of-medigap-pricing-methods_5f48728d.jpg',
+      ogImage: '/images/medicarefaq-cover.jpg',
     },
     title: 'Medicare Supplement Plans (Medigap) Pricing Methods Explained',
     summary: 'Not all Medigap premiums are calculated the same way. Understanding the three pricing methods - community-rated, issue-age-rated, and attained-age-rated - can save you thousands of dollars over the life of your policy.',
