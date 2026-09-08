@@ -110,7 +110,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     readTime: '3 min',
     sections: [],
     richSections: [
-      { type: 'paragraph', content: '[Original Medicare](/faqs/what-is-medicare) (Parts A and B) does not cover gym memberships or fitness programs. These are considered non-medical benefits that fall outside Original Medicare\'s scope. If a gym membership is important to you, your best option is a [Medicare Advantage plan](/faqs/what-is-medicare-advantage) that includes a fitness benefit.' },
+      { type: 'paragraph', content: '[Original Medicare](/faqs/what-is-medicare) (Parts A and B) does not cover gym memberships or fitness programs. These are considered non-medical benefits that fall outside Original Medicare\'s scope. If a gym membership is important to you, your best option is a [Medicare Advantage plan](/medicare-part-c/medicare-advantage-plans/) that includes a fitness benefit.' },
       { type: 'heading', level: 2, text: 'Which Plans Include Gym Benefits?', id: 'which-plans-include-gym' },
       { type: 'paragraph', content: 'Many Medicare Advantage plans offer fitness benefits as a supplemental perk. The three most common programs are:' },
       { type: 'table', title: 'Common Medicare Fitness Programs', headers: ['Program', 'What It Includes'], rows: [
@@ -222,7 +222,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     readTime: '7 min',
     sections: [],
     richSections: [
-      { type: 'paragraph', content: 'An OTC benefit card is a prepaid card loaded by your [Medicare Advantage plan](/faqs/what-is-medicare-advantage) with a set dollar amount each month or quarter. You can use it to purchase approved over-the-counter health products at participating retailers, either in-store or through an online catalog. Original Medicare (Parts A and B) does not include this benefit, so it is only available to people enrolled in a Medicare Advantage plan.' },
+      { type: 'paragraph', content: 'An OTC benefit card is a prepaid card loaded by your [Medicare Advantage plan](/medicare-part-c/medicare-advantage-plans/) with a set dollar amount each month or quarter. You can use it to purchase approved over-the-counter health products at participating retailers, either in-store or through an online catalog. Original Medicare (Parts A and B) does not include this benefit, so it is only available to people enrolled in a Medicare Advantage plan.' },
       { type: 'paragraph', content: 'In 2026, the OTC benefit landscape has shifted. Fewer plans are offering OTC allowances compared to 2025, and CMS policy changes have separated OTC credits from healthy food and utility credits for the first time. Below, we break down how much plans are offering, what you can buy, what changed, and how to make the most of your benefit.' },
 
       { type: 'heading', level: 2, text: 'How Much Is the OTC Benefit in 2026?', id: 'otc-allowances-2026' },
@@ -508,7 +508,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       },
       {
         type: 'paragraph',
-        content: 'The **Individual Coverage HRA (ICHRA)**, available since January 1, 2020, is the primary mechanism through which employers of any size can reimburse active employees for Medicare premiums tax-free. Under ICHRA rules, Medicare Parts A, B, C ([Medicare Advantage](/faqs/what-is-medicare-advantage)), and D premiums all qualify as reimbursable expenses. The employer sets a monthly dollar allowance, and the employee submits documentation of their Medicare premium payments to receive tax-free reimbursement.',
+        content: 'The **Individual Coverage HRA (ICHRA)**, available since January 1, 2020, is the primary mechanism through which employers of any size can reimburse active employees for Medicare premiums tax-free. Under ICHRA rules, Medicare Parts A, B, C ([Medicare Advantage](/medicare-part-c/medicare-advantage-plans/)), and D premiums all qualify as reimbursable expenses. The employer sets a monthly dollar allowance, and the employee submits documentation of their Medicare premium payments to receive tax-free reimbursement.',
       },
       {
         type: 'paragraph',
@@ -518,7 +518,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         type: 'callout',
         calloutType: 'tip',
         calloutTitle: 'ICHRA and Medicare Advantage',
-        calloutText: 'If you are enrolled in a [Medicare Advantage plan](/faqs/what-is-medicare-advantage), your ICHRA can reimburse both your Part B premium ($202.90/month in 2026) and your MA plan premium. This makes ICHRA particularly valuable for employees who want the additional benefits of Medicare Advantage, such as dental, vision, and hearing coverage.',
+        calloutText: 'If you are enrolled in a [Medicare Advantage plan](/medicare-part-c/medicare-advantage-plans/), your ICHRA can reimburse both your Part B premium ($202.90/month in 2026) and your MA plan premium. This makes ICHRA particularly valuable for employees who want the additional benefits of Medicare Advantage, such as dental, vision, and hearing coverage.',
       },
       {
         type: 'heading',
@@ -532,7 +532,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       },
       {
         type: 'paragraph',
-        content: 'Under a Section 105 plan, the employer adopts a written plan document specifying which expenses are reimbursable, the eligible class of employees, and the reimbursement limits. Medicare Part A, Part B, Part D, [Medicare Advantage](/faqs/what-is-medicare-advantage) premiums, and [Medigap premiums](/faqs/medigap-vs-medicare-advantage) all qualify as eligible expenses. Reimbursements are tax-deductible for the employer and tax-free for the employee.',
+        content: 'Under a Section 105 plan, the employer adopts a written plan document specifying which expenses are reimbursable, the eligible class of employees, and the reimbursement limits. Medicare Part A, Part B, Part D, [Medicare Advantage](/medicare-part-c/medicare-advantage-plans/) premiums, and [Medigap premiums](/faqs/medigap-vs-medicare-advantage) all qualify as eligible expenses. Reimbursements are tax-deductible for the employer and tax-free for the employee.',
       },
       {
         type: 'paragraph',
@@ -594,7 +594,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         ordered: false,
         items: [
           '**Retiree HRA:** The employer funds an account that reimburses Medicare premiums and other qualified medical expenses tax-free',
-          '**Employer-sponsored Medicare Advantage plan:** Some large employers contract with an insurer to offer a group [Medicare Advantage plan](/faqs/what-is-medicare-advantage) to retirees',
+          '**Employer-sponsored Medicare Advantage plan:** Some large employers contract with an insurer to offer a group [Medicare Advantage plan](/medicare-part-c/medicare-advantage-plans/) to retirees',
           '**Medicare Part B premium reimbursement:** Some pension plans include a flat monthly reimbursement for Part B premiums as part of the retirement benefit',
           '**Medigap group plan:** Some employers offer group [Medigap coverage](/faqs/medigap-vs-medicare-advantage) to retirees at lower rates than individual policies',
         ],
@@ -1199,7 +1199,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       },
       {
         type: 'paragraph',
-        content: 'If you have a [Medicare Supplement (Medigap) plan](/faqs/medicare-supplement-plans), your plan will typically cover the 20% Part B coinsurance, significantly reducing your out-of-pocket costs for therapy sessions. [Medicare Advantage plans](/faqs/what-is-medicare-advantage) may have different cost-sharing structures, such as a per-visit copay instead of 20% coinsurance.',
+        content: 'If you have a [Medicare Supplement (Medigap) plan](/faqs/medicare-supplement-plans), your plan will typically cover the 20% Part B coinsurance, significantly reducing your out-of-pocket costs for therapy sessions. [Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans/) may have different cost-sharing structures, such as a per-visit copay instead of 20% coinsurance.',
       },
       {
         type: 'heading',
