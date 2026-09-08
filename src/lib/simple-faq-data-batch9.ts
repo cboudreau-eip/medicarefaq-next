@@ -421,7 +421,7 @@ export const simpleFAQBatch9: SimpleFAQArticleData[] = [
       { type: 'paragraph', content: 'Once eligible, disabled Medicare beneficiaries receive the same coverage options as those 65 and older:' },
       { type: 'list', ordered: false, items: [
         '**Original Medicare (Parts A and B):** Hospital insurance and medical insurance with standard deductibles and coinsurance',
-        '**Medicare Advantage (Part C):** Private plan alternatives that bundle Parts A, B, and often D with additional benefits. See our guide on [Medicare Advantage plans](/faqs/what-is-medicare-advantage/)',
+        '**Medicare Advantage (Part C):** Private plan alternatives that bundle Parts A, B, and often D with additional benefits. See our guide on [Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans/)',
         '**Medicare Part D:** Prescription drug coverage available through standalone plans or Medicare Advantage plans with drug coverage',
         '**Medicare Supplement (Medigap):** Supplemental insurance that covers out-of-pocket costs from Original Medicare',
       ]},
@@ -651,7 +651,7 @@ export const simpleFAQBatch9: SimpleFAQArticleData[] = [
       { type: 'list', ordered: true, items: [
         '**Keep Original Medicare (Parts A and B):** You can stay with traditional fee-for-service Medicare. Consider adding a [Medicare Supplement plan](/faqs/medicare-advantage-vs-medicare-supplement/) to help cover out-of-pocket costs.',
         '**Add Part D:** If you stay with Original Medicare, you will likely want a standalone [Part D prescription drug plan](/faqs/medicare-part-d-prescription-drug-coverage/) to avoid the [Part D late enrollment penalty](/faqs/medicare-part-d-late-enrollment-penalty/).',
-        '**Switch to Medicare Advantage:** You can enroll in a [Medicare Advantage plan](/faqs/what-is-medicare-advantage/) that bundles Part A, B, and usually Part D into one plan.',
+        '**Switch to Medicare Advantage:** You can enroll in a [Medicare Advantage plan](/medicare-part-c/medicare-advantage-plans/) that bundles Part A, B, and usually Part D into one plan.',
         '**Medigap enrollment:** You have a one-time [Medigap Open Enrollment Period](/faqs/medicare-supplement-open-enrollment/) that lasts 6 months starting when your Part B begins. During this window, insurers cannot deny you coverage or charge more due to health conditions.',
       ]},
       { type: 'callout', calloutType: 'warning', calloutTitle: 'Under-65 Medigap Access Varies by State', calloutText: 'Federal law only guarantees Medigap access for people 65 and older. If you are under 65 and receiving Medicare through disability, your access to Medigap plans depends on your state\'s laws. Some states require insurers to sell Medigap to disabled beneficiaries; others do not. Contact a licensed agent to check your state\'s rules.' },
