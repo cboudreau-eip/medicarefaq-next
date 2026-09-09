@@ -1785,7 +1785,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         faqs: [
           {
             question: 'Is Plan F the best Medicare Supplement plan?',
-            answer: 'Medicare Supplement Plan F provides the most comprehensive coverage available, covering 100% of Medicare-approved costs. However, it is only available to those who enrolled in Original Medicare before January 1, 2020. For new enrollees, Plan G is the most comprehensive option.',
+            answer: 'Medicare Supplement Plan F provides the most comprehensive coverage available, covering 100% of Medicare-approved costs. However, it is [only available to those who enrolled in Original Medicare before January 1, 2020](https://www.medicare.gov/). For new enrollees, Plan G is the most comprehensive option.',
           },
           {
             question: 'What is the most popular Medicare Supplement plan in 2026?',
