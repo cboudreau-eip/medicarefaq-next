@@ -1821,7 +1821,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "Which Medicare Advantage plans cover dental implants in 2026?",
-        answer: "Coverage varies by insurer and ZIP code. Many Medicare Advantage plans offer basic preventive dental at no extra cost, while some comprehensive dental riders cover major restorative work including implants. Plans that cover implants typically impose annual maximums (often $1,000–$3,000) and may require prior authorization. Contact a licensed Medicare agent or use Medicare’s Plan Finder tool at medicare.gov to compare plans available in your area.",
+        answer: "Coverage varies by insurer and ZIP code. Many Medicare Advantage plans offer basic preventive dental at no extra cost, while some comprehensive dental riders cover major restorative work including implants. Plans that cover implants typically impose annual maximums (often $1,000–$3,000) and may require prior authorization. Contact a licensed Medicare agent or use Medicare’s Plan Finder tool at [medicare.gov](https://www.medicare.gov/) to compare plans available in your area.",
       },
       {
         question: "How much do dental implants cost without insurance?",
@@ -3133,7 +3133,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "The six-month prognosis is an estimate, not a guarantee. Many hospice patients live longer than six months. If you are still alive after six months, you can continue receiving hospice care as long as the hospice medical director recertifies that you remain terminally ill. There is no maximum time limit on Medicare hospice benefits.",
           "Hospice coverage is organized into benefit periods. The first two benefit periods are 90 days each. After that, you receive an unlimited number of 60-day benefit periods. At the start of each new benefit period, the hospice medical director must recertify your terminal prognosis.",
           "Common terminal diagnoses that qualify for hospice include advanced cancer, end-stage heart failure, end-stage COPD, end-stage renal disease (when dialysis is declined), advanced dementia or Alzheimer's disease, end-stage liver disease, ALS (Lou Gehrig's disease), and advanced HIV/AIDS. However, any terminal illness qualifies. There is no list of approved diagnoses.",
-          "To find a [Medicare-approved hospice provider](/faqs/medicare-coverage-for-skilled-nursing-facilities) in your area, visit Medicare.gov's Care Compare tool or call 1-800-MEDICARE (1-800-633-4227). Your doctor can also provide referrals to local hospice programs."
+          "To find a [Medicare-approved hospice provider](/faqs/medicare-coverage-for-skilled-nursing-facilities) in your area, visit [Medicare.gov](https://www.medicare.gov/)'s Care Compare tool or call 1-800-MEDICARE (1-800-633-4227). Your doctor can also provide referrals to local hospice programs."
         ],
         callout: {
           type: "info",
@@ -3799,7 +3799,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         paragraphs: [
           "Medicare Part B provides extensive coverage for outpatient COPD treatment. This includes visits to your primary care physician and pulmonologist (lung specialist), diagnostic testing, pulmonary rehabilitation, oxygen therapy, and preventive screenings. You pay 20% coinsurance after meeting the annual [Part B deductible](/faqs/medicare-part-b-deductible) ($283 in 2026).",
-          "**Pulmonologist visits:** Medicare Part B covers visits to a pulmonologist (lung specialist) when referred by your doctor or when medically necessary. If your pulmonologist accepts [Medicare assignment](/faqs/what-is-medicare-assignment), you pay 20% of the Medicare-approved amount. Finding a pulmonologist who accepts Medicare is straightforward: use the Medicare.gov Physician Compare tool or call 1-800-MEDICARE.",
+          "**Pulmonologist visits:** Medicare Part B covers visits to a pulmonologist (lung specialist) when referred by your doctor or when medically necessary. If your pulmonologist accepts [Medicare assignment](/faqs/what-is-medicare-assignment), you pay 20% of the Medicare-approved amount. Finding a pulmonologist who accepts Medicare is straightforward: use the [Medicare.gov](https://www.medicare.gov/) Physician Compare tool or call 1-800-MEDICARE.",
           "**Diagnostic tests:** Medicare covers spirometry (breathing tests), chest X-rays, CT scans, arterial blood gas tests, pulse oximetry, and other tests used to diagnose and monitor COPD. These are covered under Part B with standard 20% coinsurance.",
           "**Pulmonary rehabilitation:** Medicare Part B covers pulmonary rehabilitation programs for COPD patients. These programs include supervised exercise, breathing techniques, education about managing your condition, and psychological support. Medicare covers up to 36 sessions (with physician approval for up to 36 additional sessions). You pay 20% coinsurance per session.",
           "**Oxygen therapy:** When your doctor prescribes home oxygen, Medicare Part B covers the rental of oxygen equipment (concentrators, tanks, regulators, tubing, masks) for up to 36 months. After 36 months, the supplier must continue providing the equipment and maintenance for an additional 24 months at no cost to you. You pay 20% of the Medicare-approved rental amount during the initial 36 months."
@@ -5325,7 +5325,7 @@ export const coverageArticles: CoverageArticleData[] = [
       coverageType: "not-covered",
       paragraphs: [
       "Medicare treats medical alert systems as convenience items rather than medically necessary equipment. Medicare Part B covers [durable medical equipment](/faqs/durable-medical-equipment) that your doctor prescribes for medical conditions, but personal emergency response systems do not meet these requirements.",
-      "According to Medicare.gov, which is managed by CMS, items that are primarily for convenience or comfort, such as medical alert systems, are excluded from coverage.",
+      "According to [Medicare.gov](https://www.medicare.gov/), which is managed by CMS, items that are primarily for convenience or comfort, such as medical alert systems, are excluded from coverage.",
       "The distinction matters because Medicare focuses on treating medical conditions rather than preventing potential emergencies.",
     ],
     },
@@ -7358,7 +7358,7 @@ export const coverageArticles: CoverageArticleData[] = [
         paragraphs: [
           "Betsy, you will never have to go through underwriting for a Medicare Advantage plan. However, if you leave Medicare Advantage during MAOEP, and wish to enroll in a [Medicare Supplement plan](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained), you will need to go through underwriting to enroll in a Medigap plan."],
       },{
-        planName: "Can I change my Part D plan during this period? I am on Original Medicare with a Part D drug plan that is not what I thought it was, based on the numbers I saw on medicare.gov.",
+        planName: "Can I change my Part D plan during this period? I am on Original Medicare with a Part D drug plan that is not what I thought it was, based on the numbers I saw on [medicare.gov](https://www.medicare.gov/).",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "See Details",
@@ -8382,7 +8382,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         paragraphs: [
           "**September 2026:** Your current Medicare Advantage or Part D plan mails you an Annual Notice of Change (ANOC) letter. This document details every change to your plan for 2027, including premium changes, formulary updates, network modifications, and benefit adjustments. Read this letter carefully.",
-          "**October 1, 2026:** The Medicare Plan Finder tool at Medicare.gov updates with all 2027 plan options. You can begin comparing plans, checking drug formularies, and verifying provider networks for the upcoming year.",
+          "**October 1, 2026:** The Medicare Plan Finder tool at [Medicare.gov](https://www.medicare.gov/) updates with all 2027 plan options. You can begin comparing plans, checking drug formularies, and verifying provider networks for the upcoming year.",
           "**October 15, 2026:** AEP officially opens. You can now make plan changes. There is no advantage to changing on the first day versus the last day. All changes take effect January 1, 2027 regardless of when you submit them.",
           "**December 7, 2026:** AEP closes at 11:59 PM in your local time zone. After this deadline, you cannot make changes until the next enrollment period (either the Medicare Advantage Open Enrollment Period in January through March, or the next AEP in October 2027).",
           "**January 1, 2027:** All AEP changes take effect. Your new plan, new premiums, new formulary, and new network are now active."
@@ -11151,7 +11151,7 @@ export const coverageArticles: CoverageArticleData[] = [
       callout: {
       type: "tip",
       title: "Shop for Plans with Medical Alert Benefits during Enrollment",
-      text: "If a medical alert system is important to you, look for Medicare Advantage plans that include it as a supplemental benefit during the Annual Enrollment Period (October 15 – December 7). Use the Medicare Plan Finder at medicare.gov to filter for plans with this benefit.",
+      text: "If a medical alert system is important to you, look for Medicare Advantage plans that include it as a supplemental benefit during the Annual Enrollment Period (October 15 – December 7). Use the Medicare Plan Finder at [medicare.gov](https://www.medicare.gov/) to filter for plans with this benefit.",
     },
     },
     {
@@ -11657,7 +11657,7 @@ export const coverageArticles: CoverageArticleData[] = [
         paragraphs: [
           "About 87% of [Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans/) offered some dental benefit in 2026, according to KFF data. However, the depth of coverage varies significantly. Only about 8% of all MA plans offer comprehensive dental benefits. The majority offer preventive-only coverage, which typically includes oral exams, cleanings, and X-rays at no cost, but does not cover fillings, extractions, or major restorative work.",
           "Comprehensive dental benefits in MA plans typically cover preventive services at 100%, basic services (fillings, extractions) at 50-80% after a deductible, and major services (crowns, dentures, implants) at a lower coinsurance. Annual benefit maximums commonly range from $1,000 to $2,500, though some premium plans offer higher limits or no annual cap on preventive services.",
-          "Every Medicare Advantage plan publishes its dental benefits in the Summary of Benefits document, available at Medicare.gov. Review this document carefully before scheduling dental care. Networks matter too: some MA dental benefits are limited to in-network providers, while others allow out-of-network care at higher cost-sharing. During the [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period) (October 15 to December 7), you can switch to a plan with stronger dental benefits for the following year.",
+          "Every Medicare Advantage plan publishes its dental benefits in the Summary of Benefits document, available at [Medicare.gov](https://www.medicare.gov/). Review this document carefully before scheduling dental care. Networks matter too: some MA dental benefits are limited to in-network providers, while others allow out-of-network care at higher cost-sharing. During the [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period) (October 15 to December 7), you can switch to a plan with stronger dental benefits for the following year.",
         ],
         whatItCovers: [
           "Preventive: Oral exams, cleanings (often 2 per year), X-rays, fluoride treatments",
@@ -12039,7 +12039,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "not-covered",
         paragraphs: [
           "You cannot add dependents - such as your children or spouse - to your Medicare coverage. Medicare is a federal health insurance program for individuals, not families. For your dependents to receive Medicare, they must be individually eligible based on their own age, disability status, or qualifying condition.",
-          "If you have dependents covered under your employer group health plan and you are switching to Medicare, your dependents will need to find other healthcare coverage. Options include CHIP (Children's Health Insurance Program), Medicaid, or a marketplace plan through Healthcare.gov."],
+          "If you have dependents covered under your employer group health plan and you are switching to Medicare, your dependents will need to find other healthcare coverage. Options include CHIP (Children's Health Insurance Program), Medicaid, or a marketplace plan through [Healthcare.gov](https://www.healthcare.gov/)."],
       },
       {
         planName: "When Can a Child Qualify for Medicare?",
@@ -14798,7 +14798,7 @@ export const coverageArticles: CoverageArticleData[] = [
         {
           title: "You Must Use a Medicare-Enrolled DME Supplier",
           text: "Medicare will only cover ostomy supplies purchased from a supplier that is enrolled in Medicare and accepts assignment. If you purchase supplies from a non-enrolled supplier, Medicare will not pay, and you will be responsible for the full cost. Ask your supplier to confirm they are Medicare-enrolled before placing your first order.",
-          highlight: "You can find Medicare-enrolled DME suppliers in your area using the Medicare Supplier Directory at medicare.gov.",
+          highlight: "You can find Medicare-enrolled DME suppliers in your area using the Medicare Supplier Directory at [medicare.gov](https://www.medicare.gov/).",
         },
         {
           title: "Doctor Certification is Required",
@@ -15218,7 +15218,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "Does Medicare Cover Generic Viagra (Sildenafil)?",
-        answer: "Some Medicare Part D plans cover sildenafil (generic Viagra), but not all. Coverage depends on your specific plan's formulary. Check your plan's drug list or use Medicare's Plan Finder tool at medicare.gov to compare plans that cover sildenafil.",
+        answer: "Some Medicare Part D plans cover sildenafil (generic Viagra), but not all. Coverage depends on your specific plan's formulary. Check your plan's drug list or use Medicare's Plan Finder tool at [medicare.gov](https://www.medicare.gov/) to compare plans that cover sildenafil.",
       },
       {
         question: "Why doesn't Medicare cover ED medications?",
@@ -15407,7 +15407,7 @@ export const coverageArticles: CoverageArticleData[] = [
       items: [
         {
           title: "You Must Use a Medicare-Approved Facility for Rehab",
-          text: "Medicare will only cover inpatient alcohol rehab at facilities that are Medicare-approved. Many detox and rehab centers do not accept Medicare and operate on a self-pay basis. Before seeking inpatient treatment, verify that the facility accepts Medicare. You can use the Medicare Care Compare tool at medicare.gov to find Medicare-approved facilities.",
+          text: "Medicare will only cover inpatient alcohol rehab at facilities that are Medicare-approved. Many detox and rehab centers do not accept Medicare and operate on a self-pay basis. Before seeking inpatient treatment, verify that the facility accepts Medicare. You can use the Medicare Care Compare tool at [medicare.gov](https://www.medicare.gov/) to find Medicare-approved facilities.",
           highlight: "Call the facility directly and ask: 'Do you accept Original Medicare?' before admission to avoid unexpected bills.",
         },
         {
@@ -16858,7 +16858,7 @@ export const coverageArticles: CoverageArticleData[] = [
         },
         {
           title: "Where to Buy Medicare-Approved Diabetic Shoes",
-          text: "You can purchase diabetic shoes from your podiatrist, medical supply carriers, or online suppliers - but the supplier must accept Medicare assignment. If you purchase from a supplier who does not accept Medicare, Medicare will not cover any of the cost. Your healthcare provider can give you a list of local approved suppliers, or you can search for Medicare-enrolled suppliers on Medicare.gov.",
+          text: "You can purchase diabetic shoes from your podiatrist, medical supply carriers, or online suppliers - but the supplier must accept Medicare assignment. If you purchase from a supplier who does not accept Medicare, Medicare will not cover any of the cost. Your healthcare provider can give you a list of local approved suppliers, or you can search for Medicare-enrolled suppliers on [Medicare.gov](https://www.medicare.gov/).",
         }],
     },
     faqs: [
@@ -17466,7 +17466,7 @@ export const coverageArticles: CoverageArticleData[] = [
         },
         {
           title: "How to Get Your Lift Chair Approved by Medicare",
-          text: "To get Medicare approval for a lift chair: (1) Your primary care physician must provide a prescription for the lift chair. (2) Your doctor must complete Form CMS-849 (Certification of Medical Necessity for Seat Lift Mechanisms) and submit it to CMS. (3) You must purchase the lift chair from a Medicare-approved supplier. You can find approved suppliers through your healthcare provider, your local Social Security office, or the Medicare.gov supplier directory.",
+          text: "To get Medicare approval for a lift chair: (1) Your primary care physician must provide a prescription for the lift chair. (2) Your doctor must complete Form CMS-849 (Certification of Medical Necessity for Seat Lift Mechanisms) and submit it to CMS. (3) You must purchase the lift chair from a Medicare-approved supplier. You can find approved suppliers through your healthcare provider, your local Social Security office, or the [Medicare.gov](https://www.medicare.gov/) supplier directory.",
         }],
     },
     faqs: [
@@ -20731,7 +20731,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "How do I Find a Medicare-enrolled DME Supplier?",
-        answer: "Use the Medicare Supplier Directory at medicare.gov or call 1-800-MEDICARE to find enrolled suppliers in your area. Always confirm the supplier accepts Medicare assignment before ordering.",
+        answer: "Use the Medicare Supplier Directory at [medicare.gov](https://www.medicare.gov/) or call 1-800-MEDICARE to find enrolled suppliers in your area. Always confirm the supplier accepts Medicare assignment before ordering.",
       }],
     relatedTopics: [
       { title: "Does Medicare Cover Diabetic Supplies?", description: "Learn about Medicare's coverage for blood glucose monitors, test strips, and insulin.", slug: "does-medicare-cover-diabetic-supplies" },
@@ -21822,7 +21822,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Action Required",
         coverageType: "partial",
         paragraphs: [
-          "You can find a plan's formulary on Medicare.gov's Plan Finder tool or directly on the plan's website. Enter your medications to see which plans cover them and at what cost. Plans can change their formularies each year, so it is important to review your coverage during the Annual Enrollment Period (October 15 – December 7) each year."],
+          "You can find a plan's formulary on [Medicare.gov](https://www.medicare.gov/)'s Plan Finder tool or directly on the plan's website. Enter your medications to see which plans cover them and at what cost. Plans can change their formularies each year, so it is important to review your coverage during the Annual Enrollment Period (October 15 – December 7) each year."],
       }],
     faqs: [
       {
@@ -22104,7 +22104,7 @@ export const coverageArticles: CoverageArticleData[] = [
         },
         {
           title: "Medicare-Enrolled Suppliers Only",
-          text: "You must obtain your brace from a supplier enrolled in the Medicare program. If you purchase a brace from a non-enrolled supplier, Medicare will not reimburse you. You can search for Medicare-enrolled DME suppliers in your area at Medicare.gov.",
+          text: "You must obtain your brace from a supplier enrolled in the Medicare program. If you purchase a brace from a non-enrolled supplier, Medicare will not reimburse you. You can search for Medicare-enrolled DME suppliers in your area at [Medicare.gov](https://www.medicare.gov/).",
           highlight: "Ask your supplier if they accept Medicare assignment before purchasing. Suppliers who accept assignment can only charge you the Part B deductible and 20% coinsurance.",
         }],
     },
@@ -22666,7 +22666,7 @@ export const coverageArticles: CoverageArticleData[] = [
         title: "Action Items for Divorced Individuals",
         type: "tip" as const,
         items: [
-          "Check your own work credits at SSA.gov - you may already have 40 quarters",
+          "Check your own work credits at [SSA.gov](https://www.ssa.gov/) - you may already have 40 quarters",
           "Verify your marriage lasted at least 10 years (check your divorce decree)",
           "Confirm your ex-spouse has at least 40 work credits",
           "Mark your Initial Enrollment Period on your calendar (3 months before turning 65)",
@@ -24439,7 +24439,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         paragraphs: [
           "The Patient's Request for Medical Payment (CMS-1490S) is the official form for beneficiaries to request reimbursement from Medicare.",
-          "Download the form from CMS.gov, complete all required fields, attach your itemized bill, and mail it to your state's Medicare Administrative Contractor (MAC) address listed on the form."],
+          "Download the form from [CMS.gov](https://www.cms.gov/), complete all required fields, attach your itemized bill, and mail it to your state's Medicare Administrative Contractor (MAC) address listed on the form."],
         whatItCovers: [
           "Completed CMS-1490S form (available in English and Spanish)",
           "Itemized bill from your provider showing services and charges",
@@ -24751,7 +24751,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         paragraphs: [
           "If you're a green card holder who hasn't yet met the 5-year residency requirement, you still have health insurance options available.",
-          "You may qualify for coverage through the Health Insurance Marketplace (HealthCare.gov), Medicaid (in some states after 5 years), or private health insurance plans."],
+          "You may qualify for coverage through the Health Insurance Marketplace ([HealthCare.gov](https://www.healthcare.gov/)), Medicaid (in some states after 5 years), or private health insurance plans."],
         whatItCovers: [
           "ACA Marketplace plans (may qualify for subsidies based on income)",
           "Employer-sponsored health insurance",
@@ -24992,7 +24992,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "You can apply for Extra Help at any time of year through Social Security. There is no open enrollment window \u2014 you can apply whenever you become eligible.",
           "Once approved, you will receive a notice from Social Security and be able to enroll in or change your Part D plan during a Special Enrollment Period."],
         whatItCovers: [
-          "Online: Apply at ssa.gov/medicare/part-d-extra-help",
+          "Online: Apply at [ssa.gov](https://www.ssa.gov/)/medicare/part-d-extra-help",
           "Phone: Call Social Security at 1-800-772-1213",
           "In person: Visit your local Social Security office",
           "State Medicaid office may also process applications"],
@@ -25281,7 +25281,7 @@ export const coverageArticles: CoverageArticleData[] = [
         { "Type": "Retiree Insurance", "Monthly Cost": "Varies (employer-subsidized)", "What It Covers": "Varies by employer plan"},
         { "Type": "Medicaid (dual eligible)", "Monthly Cost": "$0 (income-based)", "What It Covers": "Premiums, deductibles, coinsurance, LTC"},
         { "Type": "Medicare Advantage (alternative)", "Monthly Cost": "$0-$100+ (plan varies)", "What It Covers": "Replaces Original Medicare; all-in-one"}],
-      footnote: "Medigap premiums vary significantly by age, location, gender, and tobacco use. Compare plans at Medicare.gov or through a licensed agent.",
+      footnote: "Medigap premiums vary significantly by age, location, gender, and tobacco use. Compare plans at [Medicare.gov](https://www.medicare.gov/) or through a licensed agent.",
     },
     exceptionsSection: {
       title: "Important Considerations",
@@ -25491,7 +25491,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Your MBI is printed on your red, white, and blue Medicare card. If you've misplaced your card, there are several other ways to find your MBI."],
         whatItCovers: [
           "Medicare card: Your MBI is printed on the front",
-          "Medicare.gov account: Log in and view your MBI online",
+          "[Medicare.gov](https://www.medicare.gov/) account: Log in and view your MBI online",
           "Medicare Summary Notice (MSN): Your MBI appears on your MSN",
           "Call 1-800-MEDICARE (1-800-633-4227) to get your MBI"],
         whatItDoesntCover: [
@@ -25826,7 +25826,7 @@ export const coverageArticles: CoverageArticleData[] = [
       callout: {
       type: "tip",
       title: "How to Appeal",
-      text: "Submit Form SSA-44 to your local Social Security office or call 1-800-772-1213. You can also request a reconsideration online at ssa.gov. Provide documentation of the life-changing event and your current income.",
+      text: "Submit Form SSA-44 to your local Social Security office or call 1-800-772-1213. You can also request a reconsideration online at [ssa.gov](https://www.ssa.gov/). Provide documentation of the life-changing event and your current income.",
     },
     },
   ],
@@ -26183,7 +26183,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         paragraphs: [
           "Medicare enrollment is handled through the Social Security Administration (SSA). Most people are automatically enrolled at 65 if they receive Social Security benefits. Others must apply during their Initial Enrollment Period.",
-          "Medicaid applications are handled by your state's Medicaid agency. You can apply online through your state's Medicaid portal, through Healthcare.gov, or in person at your local Medicaid office."],
+          "Medicaid applications are handled by your state's Medicaid agency. You can apply online through your state's Medicaid portal, through [Healthcare.gov](https://www.healthcare.gov/), or in person at your local Medicaid office."],
         whatItCovers: [
           "Apply for Medicare at ssa.gov or call 1-800-772-1213",
           "Apply for Medicaid through your state's Medicaid agency or Healthcare.gov",
@@ -26353,7 +26353,7 @@ export const coverageArticles: CoverageArticleData[] = [
         notes: "Automatic for most beneficiaries receiving SS; no enrollment needed",
       },
       {
-        planType: "Medicare.gov Online Bill Pay",
+        planType: "[Medicare.gov](https://www.medicare.gov/) Online Bill Pay",
         coverage: "One-time or recurring online payment via Medicare account",
         icon: "info",
         notes: "Requires Medicare.gov account; good for one-time payments",
@@ -26641,7 +26641,7 @@ export const coverageArticles: CoverageArticleData[] = [
         paragraphs: [
           "To file your own Medicare claim, you'll use Form CMS-1490S, the Patient's Request for Medical Payment. This form is available on the CMS website and must be submitted with supporting documentation."],
         whatItCovers: [
-          "Step 1: Download Form CMS-1490S from CMS.gov or request it by calling 1-800-MEDICARE",
+          "Step 1: Download Form CMS-1490S from [CMS.gov](https://www.cms.gov/) or request it by calling 1-800-MEDICARE",
           "Step 2: Complete all sections of the form (patient info, provider info, description of services)",
           "Step 3: Attach an itemized bill from your provider showing: date of service, description of service, diagnosis/condition treated, provider name and NPI, amount charged",
           "Step 4: Attach any other supporting documents (referral, prior authorization if required)",
@@ -27179,7 +27179,7 @@ export const coverageArticles: CoverageArticleData[] = [
         callout: {
           type: "tip",
           title: "How to Avoid Excess Charges",
-          text: "The easiest way to avoid Part B excess charges is to always use participating providers (those who accept Medicare assignment). You can verify assignment status at Medicare.gov/care-compare or by calling 1-800-MEDICARE.",
+          text: "The easiest way to avoid Part B excess charges is to always use participating providers (those who accept Medicare assignment). You can verify assignment status at [Medicare.gov](https://www.medicare.gov/)/care-compare or by calling 1-800-MEDICARE.",
         },
       },
       {
@@ -27411,7 +27411,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "Partial Extra Help: Reduces but doesn't eliminate Part D costs",
       "Income limit (full): ~$2,015/month individual / ~$2,720/month couple in 2026",
       "Resource limit: ~$17,220 individual / ~$34,360 couple (excluding home, car, life insurance)",
-      "Apply through Social Security (SSA.gov) or your state Medicaid office",
+      "Apply through Social Security ([SSA.gov](https://www.ssa.gov/)) or your state Medicaid office",
     ],
       whatItDoesntCover: [
       "Does not reduce Part A or Part B premiums (MSP does that)",
@@ -28540,7 +28540,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "If you have diabetes, schedule your annual diabetic retinopathy exam - covered by Part B",
           "If at high risk for glaucoma, schedule your annual glaucoma screening - covered by Part B",
           "After cataract surgery, use your covered pair of standard glasses or contacts",
-          "Compare MA plan vision allowances at Medicare.gov Plan Finder during AEP",
+          "Compare MA plan vision allowances at [Medicare.gov](https://www.medicare.gov/) Plan Finder during AEP",
           "Ask your eye doctor if your visit qualifies as medically necessary (covered) vs. routine (not covered)"],
         type: "tip",
       },
@@ -28795,7 +28795,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Never use a manufacturer copay card with your Part D plan - it's illegal",
           "If you qualify for Extra Help: use Part D (LIS copays are usually lower than GoodRx)",
           "For insulin: always use Part D ($35/month cap)",
-          "Apply for Extra Help at SSA.gov if your income is below ~$2,015/month"],
+          "Apply for Extra Help at [SSA.gov](https://www.ssa.gov/) if your income is below ~$2,015/month"],
         type: "tip",
       },
     },
@@ -28944,7 +28944,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Use Medicare Plan Finder",
         coverageType: "partial",
         paragraphs: [
-          "Not all areas have Medicare Advantage plans offering a give back benefit. The best way to find plans is through the Medicare Plan Finder at Medicare.gov. When viewing plan details, look for the \"Part B premium reduction\" line in the premiums section \u2014 it will either say \"not offered\" or show the reduction amount.",
+          "Not all areas have Medicare Advantage plans offering a give back benefit. The best way to find plans is through the Medicare Plan Finder at [Medicare.gov](https://www.medicare.gov/). When viewing plan details, look for the \"Part B premium reduction\" line in the premiums section \u2014 it will either say \"not offered\" or show the reduction amount.",
           "You can also contact Medicare Advantage insurers in your area directly, or work with a licensed Medicare broker who can compare all local options."],
         whatItCovers: [
           "Visit Medicare.gov Plan Finder and enter your ZIP code",
@@ -29863,7 +29863,7 @@ export const coverageArticles: CoverageArticleData[] = [
       coverageType: "covered",
       paragraphs: [
       "One of the biggest draws of Medicare Advantage is the extra benefits not covered by Original Medicare. These vary widely by plan and location, but commonly include routine dental (exams, cleanings, X-rays), routine vision (exams and glasses allowance), hearing aids, fitness memberships (SilverSneakers), and over-the-counter allowances.",
-      "Some plans offer transportation to medical appointments, meal delivery after hospitalization, and home safety modifications. In 2026, CMS has tightened rules on what plans can offer, so verify benefits on Medicare.gov's Plan Finder before enrolling.",
+      "Some plans offer transportation to medical appointments, meal delivery after hospitalization, and home safety modifications. In 2026, CMS has tightened rules on what plans can offer, so verify benefits on [Medicare.gov](https://www.medicare.gov/)'s Plan Finder before enrolling.",
     ],
       whatItCovers: [
       "Routine dental: exams, cleanings, X-rays; some plans cover fillings and dentures",
@@ -30230,7 +30230,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         paragraphs: [
           "When your qualifying employer coverage ends, you have an 8-month Special Enrollment Period to enroll in Part B. You do not need to wait for the General Enrollment Period (Jan 1 – Mar 31). Coverage begins the month after you enroll, or up to 6 months retroactively if you delay within the SEP.",
-          "For Part D, you have a 63-day window after losing creditable drug coverage to enroll without penalty. Contact your Part D plan directly or enroll through Medicare.gov."],
+          "For Part D, you have a 63-day window after losing creditable drug coverage to enroll without penalty. Contact your Part D plan directly or enroll through [Medicare.gov](https://www.medicare.gov/)."],
         whatItCovers: [
           "8-month SEP for Part B after employer coverage ends",
           "63-day window for Part D after losing creditable coverage",
@@ -30602,7 +30602,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         paragraphs: [
           "Medicare Advantage (Part C) is the most popular way for seniors to get dental, vision, and hearing coverage. About 90% of MA plans offer some dental benefits, 90% offer vision, and 75% offer hearing benefits. The quality and extent of coverage varies significantly by plan and location.",
-          "When comparing MA plans, look beyond the premium - check the annual dental maximum, whether the plan covers major dental work, the vision eyewear allowance, and the hearing aid allowance. Use Medicare.gov's Plan Finder to compare plans in your zip code."],
+          "When comparing MA plans, look beyond the premium - check the annual dental maximum, whether the plan covers major dental work, the vision eyewear allowance, and the hearing aid allowance. Use [Medicare.gov](https://www.medicare.gov/)'s Plan Finder to compare plans in your zip code."],
         whatItCovers: [
           "Dental: preventive (exams, cleanings, X-rays) in ~90% of plans; some cover major work",
           "Vision: annual exam + eyewear allowance in ~90% of plans",
@@ -31461,7 +31461,7 @@ export const coverageArticles: CoverageArticleData[] = [
         whatItCovers: [
           "Step 1: Get a written order (prescription) from your doctor",
           "Step 2: Ensure your doctor documents medical necessity in your records",
-          "Step 3: Use a Medicare-enrolled DME supplier (check Medicare.gov/supplier-directory)",
+          "Step 3: Use a Medicare-enrolled DME supplier (check [Medicare.gov](https://www.medicare.gov/)/supplier-directory)",
           "Step 4: Confirm the supplier accepts Medicare assignment",
           "Step 5: Pay the 20% coinsurance after the $257 Part B deductible"],
         whatItDoesntCover: [
@@ -32411,7 +32411,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "How to Find the Best Medicare Advantage Plan for Your Budget",
       paragraphs: [
         "The best Medicare Advantage plan isn't always the one with the lowest premium. Consider total out-of-pocket costs including copays, coinsurance, and the OOP maximum.",
-        "Use Medicare's Plan Finder tool at Medicare.gov to compare plans in your ZIP code during Annual Enrollment Period (October 15 – December 7)."],
+        "Use Medicare's Plan Finder tool at [Medicare.gov](https://www.medicare.gov/) to compare plans in your ZIP code during Annual Enrollment Period (October 15 – December 7)."],
       checklist: {
         title: "MA Plan Shopping Checklist",
         type: "search",
@@ -33195,7 +33195,7 @@ export const coverageArticles: CoverageArticleData[] = [
         },
         {
           title: "Switch Plans during Open Enrollment",
-          text: "If your current plan doesn't cover your drugs well, the Annual Enrollment Period (October 15 – December 7) is your opportunity to switch to a plan with a better formulary. Use Medicare's Plan Finder tool at Medicare.gov to compare plans based on your specific medications.",
+          text: "If your current plan doesn't cover your drugs well, the Annual Enrollment Period (October 15 – December 7) is your opportunity to switch to a plan with a better formulary. Use Medicare's Plan Finder tool at [Medicare.gov](https://www.medicare.gov/) to compare plans based on your specific medications.",
           highlight: "Use Medicare's Plan Finder to compare formularies before switching",
         }],
     },
@@ -33392,7 +33392,7 @@ export const coverageArticles: CoverageArticleData[] = [
         { "Feature": "Prior authorization", "Medicare Advantage": "Common for many services", "Original Medicare + Medigap": "Rare" },
         { "Feature": "Referrals required", "Medicare Advantage": "Yes (HMO); No (PPO)", "Original Medicare + Medigap": "No" },
         { "Feature": "Nationwide coverage", "Medicare Advantage": "Limited (HMO); Broader (PPO)", "Original Medicare + Medigap": "Yes - any Medicare provider in the U.S." }],
-      footnote: "Costs and benefits vary by plan and location. Compare plans at Medicare.gov or speak with a licensed Medicare specialist.",
+      footnote: "Costs and benefits vary by plan and location. Compare plans at [Medicare.gov](https://www.medicare.gov/) or speak with a licensed Medicare specialist.",
     },
     exceptionsSection: {
       title: "Important Rules about Medicare Replacement Plans",
@@ -34627,7 +34627,7 @@ export const coverageArticles: CoverageArticleData[] = [
         callout: {
           type: "info",
           title: "Always Check the Formulary before Enrolling",
-          text: "Before enrolling in any Part D plan, look up your specific medications on the plan's formulary at Medicare.gov or the plan's website. Verify the tier, any restrictions (prior authorization, step therapy), and the pharmacy network to estimate your true annual drug costs.",
+          text: "Before enrolling in any Part D plan, look up your specific medications on the plan's formulary at [Medicare.gov](https://www.medicare.gov/) or the plan's website. Verify the tier, any restrictions (prior authorization, step therapy), and the pharmacy network to estimate your true annual drug costs.",
         },
         costNote: "$ In 2026, the Part D out-of-pocket cap is $2,100. Once you reach $2,100 in out-of-pocket drug costs, you pay $0 for the rest of the year - a major improvement from prior years.",
       },
@@ -35292,7 +35292,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     {
       question: "How do I find Medicare Advantage plans with grocery benefits in my area?",
-      answer: "Use the Medicare Plan Finder at Medicare.gov, call 1-800-MEDICARE, or contact a licensed Medicare agent. During the Annual Enrollment Period, you can compare all plans available in your ZIP code and filter by supplemental benefits.",
+      answer: "Use the Medicare Plan Finder at [Medicare.gov](https://www.medicare.gov/), call 1-800-MEDICARE, or contact a licensed Medicare agent. During the Annual Enrollment Period, you can compare all plans available in your ZIP code and filter by supplemental benefits.",
     },
     {
       question: "Can I use my Medicare grocery card at any store?",
@@ -36152,7 +36152,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     {
       question: "How do I check the status of my Part B application?",
-      answer: "Call Social Security at 1-800-772-1213 (TTY: 1-800-325-0778) to check your application status. You can also visit your local Social Security office or check your my Social Security account online at ssa.gov.",
+      answer: "Call Social Security at 1-800-772-1213 (TTY: 1-800-325-0778) to check your application status. You can also visit your local Social Security office or check your my Social Security account online at [ssa.gov](https://www.ssa.gov/).",
     },
     {
       question: "What if I need medical care while waiting for Part B to start?",
@@ -36394,7 +36394,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Ask your doctor about freestanding imaging centers (often 40-60% cheaper than hospitals)",
           "Verify the facility is accredited before scheduling",
           "Confirm the provider accepts Medicare assignment",
-          "Use Medicare's Procedure Price Lookup tool at Medicare.gov to compare costs",
+          "Use Medicare's Procedure Price Lookup tool at [Medicare.gov](https://www.medicare.gov/) to compare costs",
           "Consider a Medigap Plan G to eliminate the 20% coinsurance entirely",
           "If you have Medicare Advantage, use in-network facilities for lowest copays",
           "Ask if your scan qualifies as preventive (lung cancer CT screening is $0)"],
@@ -36643,7 +36643,7 @@ export const coverageArticles: CoverageArticleData[] = [
         "These resources can help you understand your options and plan ahead for long-term care costs:",
         "State Health Insurance Assistance Program (SHIP) - free, unbiased Medicare counseling from trained volunteers who can help you understand your coverage and options. Find your local SHIP at shiphelp.org.",
         "Eldercare Locator - a public service of the U.S. Administration on Aging that connects older adults and caregivers to local services. Available at eldercare.acl.gov.",
-        "Medicaid.gov - official resource for understanding Medicaid eligibility, benefits, and state-specific rules for long-term care coverage.",
+        "[Medicaid.gov](https://www.medicaid.gov/) - official resource for understanding Medicaid eligibility, benefits, and state-specific rules for long-term care coverage.",
         "Genworth Cost of Care Survey - annual survey providing detailed long-term care cost data by state and care type, essential for financial planning.",
       ],
       checklist: {
