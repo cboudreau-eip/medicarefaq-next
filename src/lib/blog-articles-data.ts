@@ -12181,8 +12181,8 @@ author: "David Haass",reviewer: "Ashlee Zareczny",readTime: "12 min read",featur
   "slug": "aarp-plan-g-vs-plan-f",
   "seo": {
     "focusKeyword": "AARP Medicare Supplement Plan G",
-    "title": "Medicare Supplement Plan G vs. Plan F: Coverage and Eligibility",
-    "description": "Compare Medicare Supplement Plan G and Plan F benefits, eligibility, pricing factors, and when to compare local alternatives before enrolling.",
+    "title": "AARP Plan G vs. Plan F: Which Medicare Supplement Is Right for You?",
+    "description": "See how AARP Medicare Supplement Plan G and Plan F compare on coverage and eligibility, plus what to check before choosing between them.",
     "canonical": "https://www.medicarefaq.com/blog/aarp-plan-g-vs-plan-f/",
     "ogImage": "/images/generated/top-medigap-plans-unbiased-reviews-best-medicare-s.png"
   },
