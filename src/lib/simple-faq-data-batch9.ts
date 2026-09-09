@@ -640,7 +640,7 @@ export const simpleFAQBatch9: SimpleFAQArticleData[] = [
       { type: 'paragraph', content: 'The 24-month gap between SSDI approval and Medicare coverage is a significant concern for many people. Here are your options during this period:' },
       { type: 'table', title: 'Health Coverage Options During the Medicare Waiting Period', headers: ['Option', 'Eligibility', 'Key Details'], rows: [
         ['COBRA continuation', 'Left employer within past 18 months', 'Continues your former employer plan for up to 18 months. You pay the full premium (employer + employee share) plus a 2% admin fee.'],
-        ['ACA Marketplace plan', 'Anyone', 'Available at healthcare.gov. You may qualify for premium subsidies based on income. SSDI recipients often qualify for significant cost reductions.'],
+        ['ACA Marketplace plan', 'Anyone', 'Available at [healthcare.gov](https://www.healthcare.gov/). You may qualify for premium subsidies based on income. SSDI recipients often qualify for significant cost reductions.'],
         ['Medicaid', 'Income-based', 'Many SSDI recipients qualify for Medicaid due to limited income. In some states, you can have both Medicaid and Medicare simultaneously once Medicare begins.'],
         ['Spouse\'s employer plan', 'Married with working spouse', 'Can remain on spouse\'s employer coverage. This may also qualify as [creditable coverage](/faqs/what-is-medicare-creditable-coverage/).'],
         ['State high-risk pool', 'Varies by state', 'Some states offer coverage for people with pre-existing conditions who cannot find other options.'],
