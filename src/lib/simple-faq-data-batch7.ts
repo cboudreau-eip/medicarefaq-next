@@ -215,7 +215,7 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
         ordered: false,
         items: [
           "**Ask before your appointment** whether the provider accepts Medicare assignment.",
-          "**Use Medicare's provider search** at Medicare.gov to find participating providers in your area.",
+          "**Use Medicare's provider search** at [Medicare.gov](https://www.medicare.gov/) to find participating providers in your area.",
           "**Enroll in a Medigap Plan G or Plan N** - Plan G covers 100% of Part B excess charges, eliminating this risk entirely.",
           "**Check your Medicare Summary Notice (MSN)** after each visit to verify charges are correct.",
           "**Avoid opt-out providers** for non-emergency services unless you are prepared to pay the full cost out of pocket."],
