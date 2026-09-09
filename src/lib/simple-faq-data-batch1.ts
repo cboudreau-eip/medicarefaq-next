@@ -306,7 +306,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         { question: 'Do unused OTC credits roll over to the next month or quarter?', answer: 'In most cases, no. The majority of plans reset your OTC allowance at the start of each benefit period (monthly or quarterly). Any unused balance is lost. A small number of plans allow annual rollover within the same plan year, but this is uncommon.' },
         { question: 'Where can I use my Medicare OTC card?', answer: 'Most OTC cards work at major retailers including CVS, Walgreens, Walmart, and Rite Aid. Many plans also offer online ordering with home delivery through platforms like NationsBenefits. Check your plan\'s member portal for the full list of participating stores.' },
         { question: 'Which carriers offer the best OTC benefits in 2026?', answer: 'Dual Special Needs Plans (D-SNPs) generally offer the highest OTC allowances. Aetna D-SNP plans in some markets provide up to $255 per month. UnitedHealthcare D-SNP plans offer approximately $137 per month. Standard Medicare Advantage plans typically offer $100 to $200 per quarter. Compare plans in your area during enrollment to find the best OTC benefit.' },
-        { question: 'How do I find out if my plan has an OTC benefit?', answer: 'Check your plan\'s Summary of Benefits document, call the member services number on your insurance ID card, or log in to your plan\'s online member portal. You can also search for your plan on Medicare.gov to see all included benefits.' },
+        { question: 'How do I find out if my plan has an OTC benefit?', answer: 'Check your plan\'s Summary of Benefits document, call the member services number on your insurance ID card, or log in to your plan\'s online member portal. You can also search for your plan on [Medicare.gov](https://www.medicare.gov/) to see all included benefits.' },
       ]},
     ],
     relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medicare-advantage-extra-benefits-explained-whats-really-included", "key-questions-to-ask-when-comparing-medicare-advantage-plans", "best-medicare-advantage-plans", "what-is-medicare-advantage", "what-is-a-dual-eligible-special-needs-plan"],
@@ -815,7 +815,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         type: 'callout',
         calloutType: 'tip',
         calloutTitle: 'Use the Medicare Plan Finder',
-        calloutText: 'At Medicare.gov/plan-compare, you can enter your specific medications and find Part D plans in your area that cover them -- and compare your estimated annual costs side by side.',
+        calloutText: 'At [Medicare.gov](https://www.medicare.gov/)/plan-compare, you can enter your specific medications and find Part D plans in your area that cover them -- and compare your estimated annual costs side by side.',
       },
       {
         type: 'heading',
@@ -1934,7 +1934,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       { type: 'faq', faqs: [
         { question: 'Can I delay Medicare enrollment if I have employer coverage?', answer: 'Yes. If you are actively working and covered by an employer group health plan through your own or your spouse\'s current employment, you can delay Part B enrollment without penalty. When that coverage ends, you get a Special Enrollment Period to sign up for Medicare.' },
         { question: 'Does my IEP apply to Medicare Advantage plans?', answer: 'Yes. You can enroll in a Medicare Advantage plan during your IEP. This is called the Initial Coverage Election Period (ICEP) for Medicare Advantage, and it runs concurrently with your IEP.' },
-        { question: 'What if I turn 65 but am not yet receiving Social Security?', answer: 'You will need to actively apply for Medicare. You can apply online at ssa.gov, by phone at 1-800-772-1213, or in person at a Social Security office. Apply 3 months before your birthday month to ensure timely coverage.' },
+        { question: 'What if I turn 65 but am not yet receiving Social Security?', answer: 'You will need to actively apply for Medicare. You can apply online at [ssa.gov](https://www.ssa.gov/), by phone at 1-800-772-1213, or in person at a Social Security office. Apply 3 months before your birthday month to ensure timely coverage.' },
       ]},
     ],
     relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-general-enrollment-period", "medicare-annual-enrollment-period", "eligibility-for-special-enrollment-period-after-medicare-coverage-loss", "checklist-preparing-for-medicare-enrollment-in-2026"],
