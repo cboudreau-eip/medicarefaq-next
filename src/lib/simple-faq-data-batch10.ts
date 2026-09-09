@@ -135,7 +135,7 @@ export const simpleFAQBatch10: SimpleFAQArticleData[] = [
       {
         type: 'paragraph',
         content:
-          'Under Part B outpatient coverage, you pay the $283 annual deductible (if not already met) plus 20% coinsurance of the Medicare-approved amount. According to Medicare.gov procedure pricing data, the average patient cost for a laparoscopic total hysterectomy is approximately $1,189 to $1,245 depending on the specific procedure code, while Medicare pays the remaining 80%.',
+          'Under Part B outpatient coverage, you pay the $283 annual deductible (if not already met) plus 20% coinsurance of the Medicare-approved amount. According to [Medicare.gov](https://www.medicare.gov/) procedure pricing data, the average patient cost for a laparoscopic total hysterectomy is approximately $1,189 to $1,245 depending on the specific procedure code, while Medicare pays the remaining 80%.',
       },
       {
         type: 'paragraph',
