@@ -5667,7 +5667,7 @@ export const coverageArticles: CoverageArticleData[] = [
       coverageLabel: "See Details",
       coverageType: "partial",
       paragraphs: [
-      "You will automatically be enrolled in Medicare at age 65 if you are receiving Social Security benefits or railroad retirement board benefits at least four months before you enroll in Medicare.",
+      "You will automatically be enrolled in Medicare at age 65 if you are [receiving Social Security benefits or railroad retirement board benefits](https://www.ssa.gov/benefits/medicare/) at least four months before you enroll in Medicare.",
       "However, suppose you are not receiving Social Security benefits or railroad retirement board benefits. In that case, you will need to contact your local Social Security office to enroll in Medicare up to three months before your 65th birth month.",
       "If you must contact your local Social Security office, you can sign up for Part A and Part B at the same time. Once you complete the application and provide the required documentation, you will begin receiving benefits on the first day of your 65th birth month.",
     ],
