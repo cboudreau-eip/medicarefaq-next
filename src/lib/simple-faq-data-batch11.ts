@@ -211,7 +211,7 @@ export const simpleFAQBatch11: SimpleFAQArticleData[] = [
       {
         type: 'paragraph',
         content:
-          'The best time to start planning is six months before your 65th birthday. This gives you time to compare your coverage options: [Original Medicare with a Medigap supplement versus Medicare Advantage](/faqs/the-essentials-medicare-supplement-vs-medicare-advantage-explained/), and which [Part D drug plan](/blog/how-is-medicare-part-d-changing-in-2026/) best covers your prescriptions.',
+          'The best time to start planning is six months before your 65th birthday. This gives you time to compare your coverage options: [Original Medicare with a Medigap supplement versus Medicare Advantage](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained/), and which [Part D drug plan](/blog/how-is-medicare-part-d-changing-in-2026/) best covers your prescriptions.',
       },
       {
         type: 'eddie-pro-tip',
