@@ -64,7 +64,7 @@ export const simpleFAQBatch11: SimpleFAQArticleData[] = [
       {
         type: 'paragraph',
         content:
-          'For the vast majority of Americans, the age for Medicare is 65. When you reach this age, you qualify for both [Medicare Part A](/faqs/what-does-medicare-part-a-cover/) (hospital insurance) and [Medicare Part B](/faqs/what-does-medicare-part-b-cover/) (medical insurance). According to the Centers for Medicare & Medicaid Services, approximately 69 million people were enrolled in Medicare as of mid-2025, and about 90% of them are 65 or older.',
+          'For the vast majority of Americans, the age for Medicare is 65. When you reach this age, you qualify for both [Medicare Part A](/original-medicare/medicare-parts/medicare-part-a/) (hospital insurance) and [Medicare Part B](/faqs/what-does-medicare-part-b-cover/) (medical insurance). According to the Centers for Medicare & Medicaid Services, approximately 69 million people were enrolled in Medicare as of mid-2025, and about 90% of them are 65 or older.',
       },
       {
         type: 'paragraph',
@@ -211,7 +211,7 @@ export const simpleFAQBatch11: SimpleFAQArticleData[] = [
       {
         type: 'paragraph',
         content:
-          'The best time to start planning is six months before your 65th birthday. This gives you time to compare your coverage options: [Original Medicare with a Medigap supplement versus Medicare Advantage](/faqs/the-essentials-medicare-supplement-vs-medicare-advantage-explained/), and which [Part D drug plan](/faqs/how-is-medicare-part-d-changing-in-2026/) best covers your prescriptions.',
+          'The best time to start planning is six months before your 65th birthday. This gives you time to compare your coverage options: [Original Medicare with a Medigap supplement versus Medicare Advantage](/faqs/the-essentials-medicare-supplement-vs-medicare-advantage-explained/), and which [Part D drug plan](/blog/how-is-medicare-part-d-changing-in-2026/) best covers your prescriptions.',
       },
       {
         type: 'eddie-pro-tip',
