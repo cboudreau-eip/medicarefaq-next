@@ -68,7 +68,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     readTime: '4 min',
     sections: [],
     richSections: [
-      { type: 'paragraph', content: 'Medicare Extra Help is a federal program that helps people with limited income and resources pay for [Medicare Part D](/faqs/what-is-medicare-part-d) prescription drug costs. It is also known as the Low-Income Subsidy (LIS). In 2026, Extra Help covers most Part D premiums, eliminates the deductible, and caps copayments at a few dollars per prescription.' },
+      { type: 'paragraph', content: 'Medicare Extra Help is a federal program that helps people with limited income and resources pay for [Medicare Part D](/original-medicare/medicare-parts/medicare-part-d/) prescription drug costs. It is also known as the Low-Income Subsidy (LIS). In 2026, Extra Help covers most Part D premiums, eliminates the deductible, and caps copayments at a few dollars per prescription.' },
       { type: 'heading', level: 2, text: 'What Does Extra Help Cover?', id: 'what-extra-help-covers' },
       { type: 'table', title: 'Extra Help Benefits (2026)', headers: ['Cost', 'Without Extra Help', 'With Extra Help (Full)'], rows: [
         ['Part D monthly premium', 'Varies by plan (avg. ~$40)', 'Reduced or $0 for benchmark plans'],
@@ -328,7 +328,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     readTime: '4 min',
     sections: [],
     richSections: [
-      { type: 'paragraph', content: 'If you do not enroll in [Medicare Part B](/faqs/what-is-medicare-part-b) when you are first eligible and you do not have qualifying employer coverage, you will face a late enrollment penalty. Unlike some penalties, this one never goes away. It is added to your Part B premium for as long as you have Medicare.' },
+      { type: 'paragraph', content: 'If you do not enroll in [Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) when you are first eligible and you do not have qualifying employer coverage, you will face a late enrollment penalty. Unlike some penalties, this one never goes away. It is added to your Part B premium for as long as you have Medicare.' },
       { type: 'heading', level: 2, text: 'How the Penalty Is Calculated', id: 'how-penalty-calculated' },
       { type: 'paragraph', content: 'The penalty is 10% of the standard Part B premium for each full 12-month period you were eligible but did not enroll. The penalty is recalculated each year when the standard premium changes.' },
       { type: 'table', title: 'Part B Penalty Examples at 2026 Rates ($202.90/month)', headers: ['Years Without Part B', 'Penalty %', 'Monthly Penalty Amount', 'Total Monthly Premium'], rows: [
@@ -1191,7 +1191,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       },
       {
         type: 'paragraph',
-        content: 'Under [Medicare Part B](/faqs/what-is-medicare-part-b), outpatient physical therapy and other timed therapeutic services are covered at 80% of the Medicare-approved amount after you meet your annual Part B deductible ($283 in 2026). You are responsible for the remaining 20% coinsurance.',
+        content: 'Under [Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/), outpatient physical therapy and other timed therapeutic services are covered at 80% of the Medicare-approved amount after you meet your annual Part B deductible ($283 in 2026). You are responsible for the remaining 20% coinsurance.',
       },
       {
         type: 'paragraph',
@@ -1494,7 +1494,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     youtubeVideoTitle: "Don't Be Like Bob: How Delaying Medicare Part D Can Affect Your Financial Future",
     sections: [],
     richSections: [
-      { type: 'paragraph', content: 'The [Medicare Part D](/faqs/what-is-medicare-part-d) late enrollment penalty applies when you go 63 or more consecutive days without creditable prescription drug coverage after you first become eligible for Part D. Unlike some other penalties, this one is permanent and is recalculated every year based on the national base beneficiary premium.' },
+      { type: 'paragraph', content: 'The [Medicare Part D](/original-medicare/medicare-parts/medicare-part-d/) late enrollment penalty applies when you go 63 or more consecutive days without creditable prescription drug coverage after you first become eligible for Part D. Unlike some other penalties, this one is permanent and is recalculated every year based on the national base beneficiary premium.' },
       { type: 'heading', level: 2, text: 'How the Penalty Is Calculated', id: 'how-calculated' },
       { type: 'paragraph', content: 'The penalty equals 1% of the national base beneficiary premium multiplied by the number of full months you lacked creditable drug coverage. In 2026, the national base beneficiary premium is $38.99/month.' },
       { type: 'table', title: 'Part D Penalty Examples (2026 Base Premium: $38.99/month)', headers: ['Months Without Coverage', 'Penalty %', 'Monthly Penalty (2026)', 'Added to Your Premium'], rows: [
@@ -1818,7 +1818,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     readTime: '5 min',
     sections: [],
     richSections: [
-      { type: 'paragraph', content: 'When you first enroll in [Medicare Part B](/faqs/what-is-medicare-part-b), you are entitled to a one-time Welcome to Medicare Preventive Visit. This visit must take place within the first 12 months your Part B coverage is active. It is not a physical exam in the traditional sense, but rather a review of your health history and a discussion of preventive services you may need going forward.' },
+      { type: 'paragraph', content: 'When you first enroll in [Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/), you are entitled to a one-time Welcome to Medicare Preventive Visit. This visit must take place within the first 12 months your Part B coverage is active. It is not a physical exam in the traditional sense, but rather a review of your health history and a discussion of preventive services you may need going forward.' },
       { type: 'callout', calloutType: 'info', calloutTitle: 'No Cost to You', calloutText: 'The Welcome to Medicare visit is covered at 100% by Medicare Part B when you see a provider who accepts Medicare assignment. You pay nothing, and your Part B deductible does not apply. If additional services are ordered during the same visit, those may have separate cost-sharing.' },
       { type: 'heading', level: 2, text: 'What the Visit Includes', id: 'what-it-includes' },
       { type: 'table', title: 'Welcome to Medicare Visit Components', headers: ['Component', 'Details'], rows: [
