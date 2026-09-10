@@ -1199,7 +1199,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       },
       {
         type: 'paragraph',
-        content: 'If you have a [Medicare Supplement (Medigap) plan](/faqs/medicare-supplement-plans), your plan will typically cover the 20% Part B coinsurance, significantly reducing your out-of-pocket costs for therapy sessions. [Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans/) may have different cost-sharing structures, such as a per-visit copay instead of 20% coinsurance.',
+        content: 'If you have a [Medicare Supplement (Medigap) plan](/medicare-supplement-plans/), your plan will typically cover the 20% Part B coinsurance, significantly reducing your out-of-pocket costs for therapy sessions. [Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans/) may have different cost-sharing structures, such as a per-visit copay instead of 20% coinsurance.',
       },
       {
         type: 'heading',
