@@ -7840,7 +7840,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "If you are approaching Medicare eligibility and wish to [delay Medicare Part B without penalty](/blog/protect-yourself-from-medicare-penalties-key-tips-and-deadlines), you must have creditable health coverage. Some of the most common types of creditable coverage include:",
+          "If you are approaching Medicare eligibility and wish to [delay Medicare Part B without penalty](/blog/1-key-reason-sicker-seniors-disenroll-from-medicare-advantag/), you must have creditable health coverage. Some of the most common types of creditable coverage include:",
           "[Large employer group plans]()",
           "Union-sponsored health plans"],
       },{
@@ -8019,7 +8019,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "If you do not enroll in Medicare Part D when you first become eligible, and you don’t have other creditable drug coverage, you may face a [late enrollment penalty](/blog/protect-yourself-from-medicare-penalties-key-tips-and-deadlines)."],
+          "If you do not enroll in Medicare Part D when you first become eligible, and you don’t have other creditable drug coverage, you may face a [late enrollment penalty](/blog/1-key-reason-sicker-seniors-disenroll-from-medicare-advantag/)."],
       },{
         planName: "Is There a Medicare Part D Penalty under 65?",
         icon: "shield",
@@ -35606,7 +35606,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Covered",
         coverageType: "covered",
         paragraphs: [
-          "[Medicare Part B](/faqs/what-does-medicare-part-b-cover) covers the medical services you receive outside of a hospital stay. This includes visits to your primary care doctor and specialists, outpatient surgery, emergency room visits when not admitted, lab tests, X-rays, physical therapy, mental health services, and durable medical equipment like wheelchairs and walkers. Part B also covers many preventive services at no cost, including an annual wellness visit, flu shots, mammograms, and colonoscopies.",
+          "[Medicare Part B](/faqs/does-medicare-cover-zepbound/) covers the medical services you receive outside of a hospital stay. This includes visits to your primary care doctor and specialists, outpatient surgery, emergency room visits when not admitted, lab tests, X-rays, physical therapy, mental health services, and durable medical equipment like wheelchairs and walkers. Part B also covers many preventive services at no cost, including an annual wellness visit, flu shots, mammograms, and colonoscopies.",
           "Unlike Part A, Part B requires a monthly premium. The standard 2026 Part B premium is $202.90 per month. However, if your income exceeds certain thresholds, you pay an IRMAA surcharge on top of the standard premium. IRMAA is based on your tax return from two years prior. For 2026, IRMAA surcharges begin for individuals with income above $106,000 and couples above $212,000.",
           "After meeting the $257 annual Part B deductible, Medicare pays 80% of approved costs and you pay the remaining 20% coinsurance. There is no out-of-pocket maximum under Original Medicare, which means a serious illness could result in significant costs. Many beneficiaries add a [Medigap plan](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) to cover the 20% coinsurance and eliminate exposure to unlimited costs.",
           "Part B is optional, but most people should enroll when first eligible. If you delay Part B enrollment without qualifying coverage from an employer, you will face a permanent 10% premium penalty for each 12-month period you went without coverage.",
