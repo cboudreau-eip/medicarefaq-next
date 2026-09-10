@@ -901,7 +901,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "not-covered",
         statusBadge: "Federal law prohibits coverage for weight-loss drugs",
         paragraphs: [
-          "Under the standard [Medicare Part D](/faqs/what-is-medicare-part-d) benefit, Zepbound is not covered when prescribed for weight loss. A longstanding federal law (Social Security Act Section 1927) prohibits Medicare Part D from covering drugs used for weight loss, weight gain, or anorexia. Because Zepbound (tirzepatide) is FDA-approved for chronic weight management, it falls under this exclusion.",
+          "Under the standard [Medicare Part D](/original-medicare/medicare-parts/medicare-part-d/) benefit, Zepbound is not covered when prescribed for weight loss. A longstanding federal law (Social Security Act Section 1927) prohibits Medicare Part D from covering drugs used for weight loss, weight gain, or anorexia. Because Zepbound (tirzepatide) is FDA-approved for chronic weight management, it falls under this exclusion.",
           "However, tirzepatide is also marketed as Mounjaro for the treatment of type 2 diabetes. If you have type 2 diabetes, your doctor may prescribe Mounjaro (the same active ingredient) for diabetes management, which is covered under standard Part D benefits. The GLP-1 Bridge Program was created specifically to bypass the weight-loss drug exclusion for qualifying beneficiaries."],
         whatItCovers: [
           "Mounjaro (tirzepatide) when prescribed for type 2 diabetes",
@@ -3089,7 +3089,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Comprehensive Coverage",
         coverageType: "covered",
         paragraphs: [
-          "Medicare's hospice benefit is one of the most comprehensive benefits in the entire Medicare program. Once you elect hospice, nearly all services related to your terminal illness are covered with little to no out-of-pocket cost. The benefit is provided under [Medicare Part A](/faqs/what-is-medicare-part-a), so you must be enrolled in Part A to receive hospice coverage.",
+          "Medicare's hospice benefit is one of the most comprehensive benefits in the entire Medicare program. Once you elect hospice, nearly all services related to your terminal illness are covered with little to no out-of-pocket cost. The benefit is provided under [Medicare Part A](/original-medicare/medicare-parts/medicare-part-a/), so you must be enrolled in Part A to receive hospice coverage.",
           "Hospice care is delivered wherever you live. This can be your home, a family member's home, an assisted living facility, or a nursing home. Hospice is not a place; it is a philosophy of care focused on comfort, dignity, and quality of life rather than curing the illness. A team of professionals comes to you.",
           "The hospice team includes a physician (the hospice medical director), registered nurses, home health aides, social workers, chaplains or spiritual counselors, trained volunteers, and bereavement counselors for your family. This interdisciplinary team creates a personalized care plan and coordinates all services related to your terminal condition.",
           "Medicare continues to cover treatment for conditions unrelated to your terminal illness. For example, if you are in hospice for terminal cancer but break your arm, Medicare will still cover the emergency room visit and orthopedic treatment. You also retain the right to see your primary care physician for non-hospice conditions."
@@ -8577,7 +8577,7 @@ export const coverageArticles: CoverageArticleData[] = [
         statusBadge: "Covers some or all of Original Medicare's cost-sharing",
         paragraphs: [
           "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) are designed to pay the out-of-pocket costs that Original Medicare leaves behind \u2014 including the 20% Part B coinsurance and the Part A deductible. Because Medicare covers biopsies, Medigap can significantly reduce or eliminate what you owe.",
-          "For example, [Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the Part B coinsurance in full after you meet the annual Part B deductible. That means once you've paid your $283 deductible for the year, Plan G would cover the remaining 20% of your biopsy costs. Unlike Medicare Advantage, Medigap plans have no provider networks \u2014 any doctor who accepts Medicare will also accept your Medigap plan."],
+          "For example, [Medigap Plan G](/medicare-supplement-plans/plan-g/) covers the Part B coinsurance in full after you meet the annual Part B deductible. That means once you've paid your $283 deductible for the year, Plan G would cover the remaining 20% of your biopsy costs. Unlike Medicare Advantage, Medigap plans have no provider networks \u2014 any doctor who accepts Medicare will also accept your Medigap plan."],
         whatItCovers: [
           "Part B coinsurance (20%) \u2014 covered by most Medigap plans",
           "Part A deductible \u2014 covered by Plans D, G, and others",
@@ -8774,7 +8774,7 @@ export const coverageArticles: CoverageArticleData[] = [
         statusBadge: "Covers some or all of Original Medicare's cost-sharing",
         paragraphs: [
           "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) pay the out-of-pocket costs that Original Medicare leaves behind. Because Medicare Part B covers echocardiograms, a Medigap plan can cover the 20% coinsurance \u2014 and in some cases the Part B deductible as well \u2014 significantly reducing what you owe.",
-          "With [Medigap Plan G](/faqs/medicare-supplement-plan-g), for example, you pay only the $283 annual Part B deductible (2026). After that, Plan G covers the 20% coinsurance for all Medicare-approved services, including echocardiograms, EKGs, and other cardiac tests. Medigap plans have no provider networks, so any cardiologist who accepts Medicare will also accept your Medigap plan."],
+          "With [Medigap Plan G](/medicare-supplement-plans/plan-g/), for example, you pay only the $283 annual Part B deductible (2026). After that, Plan G covers the 20% coinsurance for all Medicare-approved services, including echocardiograms, EKGs, and other cardiac tests. Medigap plans have no provider networks, so any cardiologist who accepts Medicare will also accept your Medigap plan."],
         whatItCovers: [
           "Part B coinsurance (20%) \u2014 covered by most Medigap plans",
           "Part A deductible \u2014 covered by Plans D, G, and others",
@@ -9483,7 +9483,7 @@ export const coverageArticles: CoverageArticleData[] = [
         statusBadge: "Covers some or all of Original Medicare's cost-sharing",
         paragraphs: [
           "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) pay the out-of-pocket costs that Original Medicare leaves behind - including the 20% Part B coinsurance and the Part A deductible. For AFib patients who may need multiple procedures and frequent specialist visits, Medigap can provide significant financial protection.",
-          "[Medigap Plan G](/faqs/medicare-supplement-plan-g) is the most popular option for AFib patients. It covers all Medicare-approved costs except the Part B deductible ($283 in 2026). Unlike Medicare Advantage, Medigap has no provider networks - any doctor who accepts Medicare will also accept your Medigap plan.",
+          "[Medigap Plan G](/medicare-supplement-plans/plan-g/) is the most popular option for AFib patients. It covers all Medicare-approved costs except the Part B deductible ($283 in 2026). Unlike Medicare Advantage, Medigap has no provider networks - any doctor who accepts Medicare will also accept your Medigap plan.",
           "**Important:** If you are diagnosed with AFib before enrolling in Medicare, you can still get a Medigap plan - but only during your Open Enrollment Period or when you have a guaranteed issue right. Outside these windows, insurers can deny coverage or charge higher premiums due to your pre-existing condition."],
         whatItCovers: [
           "Part A hospital deductible and coinsurance",
@@ -10118,7 +10118,7 @@ export const coverageArticles: CoverageArticleData[] = [
         statusBadge: "Covers Original Medicare cost-sharing",
         paragraphs: [
           "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) pay the out-of-pocket costs that Original Medicare leaves behind - including the 20% Part B coinsurance and the Part A deductible. For gender-affirming surgery, Medigap can significantly reduce or eliminate what you owe.",
-          "[Medigap Plan G](/faqs/medicare-supplement-plan-g) covers all Medicare-approved costs except the Part B deductible ($283 in 2026). Unlike Medicare Advantage, Medigap plans have no provider networks - any doctor who accepts Medicare will also accept your Medigap plan."],
+          "[Medigap Plan G](/medicare-supplement-plans/plan-g/) covers all Medicare-approved costs except the Part B deductible ($283 in 2026). Unlike Medicare Advantage, Medigap plans have no provider networks - any doctor who accepts Medicare will also accept your Medigap plan."],
         whatItCovers: [
           "Part A hospital deductible and coinsurance for inpatient gender-affirming surgery",
           "Part B coinsurance (20%) for outpatient procedures and follow-up care",
@@ -10479,7 +10479,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Covered with eligibility requirements",
         paragraphs: [
-          "[Medicare Part B](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers Leqembi as a physician-administered drug under its outpatient drug benefit. Because Leqembi is given as an intravenous infusion in a clinical setting, it falls under Part B rather than [Part D](/faqs/what-is-medicare-part-d) (which covers self-administered drugs).",
+          "[Medicare Part B](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers Leqembi as a physician-administered drug under its outpatient drug benefit. Because Leqembi is given as an intravenous infusion in a clinical setting, it falls under Part B rather than [Part D](/original-medicare/medicare-parts/medicare-part-d/) (which covers self-administered drugs).",
           "CMS expanded coverage for Leqembi in 2023 following its traditional FDA approval, requiring that treatment occur through a provider participating in a qualifying registry. Patients must have a confirmed diagnosis of mild cognitive impairment or mild dementia due to Alzheimer's disease, along with confirmed amyloid pathology (typically via PET scan or cerebrospinal fluid test).",
           "Leqembi is administered as an IV infusion every two weeks. The drug's list price is approximately $26,500 per year, making the 20% Part B coinsurance a significant expense without supplemental coverage."],
         whatItCovers: [
@@ -10527,7 +10527,7 @@ export const coverageArticles: CoverageArticleData[] = [
         statusBadge: "Covers some or all of Original Medicare's cost-sharing",
         paragraphs: [
           "[Medigap plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) can dramatically reduce the out-of-pocket cost of Leqembi treatment. Because Leqembi is covered by Part B, Medigap plans that cover Part B coinsurance will pay the 20% that Original Medicare leaves behind.",
-          "[Medigap Plan G](/faqs/medicare-supplement-plan-g) is the most comprehensive plan available to new Medicare enrollees. After you pay the $283 annual Part B deductible, Plan G covers 100% of the Part B coinsurance - meaning your annual Leqembi cost could be as low as $283 instead of over $5,000."],
+          "[Medigap Plan G](/medicare-supplement-plans/plan-g/) is the most comprehensive plan available to new Medicare enrollees. After you pay the $283 annual Part B deductible, Plan G covers 100% of the Part B coinsurance - meaning your annual Leqembi cost could be as low as $283 instead of over $5,000."],
         whatItCovers: [
           "Part B coinsurance (20%) - covered by most Medigap plans",
           "Part B deductible - covered by Plan C and Plan F (for those eligible before Jan 1, 2020)",
@@ -10728,7 +10728,7 @@ export const coverageArticles: CoverageArticleData[] = [
         statusBadge: "Covers some or all of Original Medicare's cost-sharing",
         paragraphs: [
           "[Medigap plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) can significantly reduce the cost of ongoing macular degeneration treatment. Because anti-VEGF injections can be needed every 4–8 weeks, the 20% Part B coinsurance adds up quickly over the course of a year.",
-          "With [Medigap Plan G](/faqs/medicare-supplement-plan-g), after paying the $283 annual Part B deductible, you pay nothing for covered macular degeneration treatments. This can save hundreds or even thousands of dollars per year for patients receiving regular injections."],
+          "With [Medigap Plan G](/medicare-supplement-plans/plan-g/), after paying the $283 annual Part B deductible, you pay nothing for covered macular degeneration treatments. This can save hundreds or even thousands of dollars per year for patients receiving regular injections."],
         whatItCovers: [
           "Part B coinsurance (20%) - covered by most Medigap plans",
           "Part B deductible - covered by Plan C and Plan F (for those eligible before Jan 1, 2020)",
@@ -11618,7 +11618,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Not Covered (Routine)",
         coverageType: "not-covered",
         paragraphs: [
-          "[Medicare Part A](/faqs/what-does-medicare-part-a-cover) and Part B do not cover routine dental care. This exclusion covers the dental services most people need: oral exams, cleanings, X-rays, fillings, crowns, bridges, tooth extractions, root canals, orthodontics, dentures, and dental implants. According to KFF, more than half of Medicare beneficiaries nationwide lack dental coverage.",
+          "[Medicare Part A](/original-medicare/medicare-parts/medicare-part-a/) and Part B do not cover routine dental care. This exclusion covers the dental services most people need: oral exams, cleanings, X-rays, fillings, crowns, bridges, tooth extractions, root canals, orthodontics, dentures, and dental implants. According to KFF, more than half of Medicare beneficiaries nationwide lack dental coverage.",
           "However, Medicare does cover dental services that are [medically necessary]() and inextricably linked to another covered procedure. Under federal regulation 42 C.F.R. 411.15(i)(3), CMS recognizes payment for dental services that are substantially related and integral to the clinical success of certain covered treatments. This is an important distinction that many beneficiaries and even some providers are unaware of.",
           "A 2026 Harvard School of Dental Medicine analysis estimated that approximately 1.31 million traditional Medicare beneficiaries annually qualify for Medicare-covered dental services under this rule. The same number likely applies to Medicare Advantage enrollees, since MA plans are legally required to cover all medically necessary services covered by traditional Medicare.",
         ],
@@ -12220,7 +12220,7 @@ export const coverageArticles: CoverageArticleData[] = [
       coverageLabel: "$0 Cost",
       coverageType: "covered",
       paragraphs: [
-      "[Medicare Part B](/faqs/what-is-medicare-part-b) covers screening mammograms as a preventive service for women age 40 and older. You are eligible for one screening mammogram every 12 months at absolutely no cost to you: no deductible, no coinsurance, no copay. This applies as long as your provider accepts [Medicare Assignment](/faqs/what-is-medicare-assignment).",
+      "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) covers screening mammograms as a preventive service for women age 40 and older. You are eligible for one screening mammogram every 12 months at absolutely no cost to you: no deductible, no coinsurance, no copay. This applies as long as your provider accepts [Medicare Assignment](/faqs/what-is-medicare-assignment).",
       "Medicare covers both 2D (standard digital) and 3D mammograms (digital breast tomosynthesis) as screening mammograms at the same $0 cost. Since 2015, Medicare has covered 3D mammograms without any additional out-of-pocket expense. 3D mammograms are particularly beneficial for women with dense breast tissue, as they can detect cancers that 2D mammograms may miss.",
       "For women under 65 enrolled in Medicare due to disability, Part B also covers one baseline mammogram between ages 35 and 39. After age 40, the annual screening benefit applies regardless of how you qualified for Medicare.",
       "There is no upper age limit for screening mammograms under Medicare. Women in their 70s, 80s, 90s, and beyond remain eligible for annual screening mammograms at $0 cost. About 6% of breast cancers are diagnosed in women aged 85 and older, making continued screening important.",
@@ -12253,7 +12253,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "When a screening mammogram detects an abnormality, or when you have symptoms such as a breast lump, nipple discharge, or breast pain, your doctor may order a diagnostic mammogram. Medicare Part B covers diagnostic mammograms at 80% of the Medicare-approved amount after you meet the annual [Part B deductible](/faqs/medicare-part-b-deductible) ($283 in 2026).",
       "**Important:** If your screening mammogram is reclassified as diagnostic during the same visit (because the radiologist finds something that needs closer examination), you will be responsible for 20% coinsurance even though you came in for a routine screening. This is a common surprise for beneficiaries. A [Medigap plan](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) or Medicare Advantage plan can eliminate this unexpected cost.",
       "Medicare also covers additional breast imaging when medically necessary, including breast ultrasounds (often used for women with dense breast tissue or to evaluate a specific area), breast MRI (for high-risk patients or to evaluate the extent of known cancer), and follow-up imaging at intervals shorter than 12 months when monitoring a previously detected abnormality.",
-      "The average total cost of a diagnostic mammogram under Medicare is approximately $170 to $250. Your 20% share would be approximately $34 to $50 without supplemental coverage. With a [Medigap Plan G](/faqs/medicare-supplement-plan-g) or similar comprehensive supplement, your 20% coinsurance is covered, making your out-of-pocket cost $0.",
+      "The average total cost of a diagnostic mammogram under Medicare is approximately $170 to $250. Your 20% share would be approximately $34 to $50 without supplemental coverage. With a [Medigap Plan G](/medicare-supplement-plans/plan-g/) or similar comprehensive supplement, your 20% coinsurance is covered, making your out-of-pocket cost $0.",
     ],
       whatItCovers: [
       "Diagnostic mammograms (2D and 3D) when medically necessary",
@@ -12679,7 +12679,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Covered - up to 100 days per benefit period",
         paragraphs: [
-          "[Medicare Part A](/faqs/what-does-medicare-part-a-cover) is the primary payer for skilled nursing facility care. To qualify, you must have had a qualifying inpatient hospital stay of at least 3 consecutive days (not counting the discharge day). The SNF admission must occur within 30 days of your hospital discharge.",
+          "[Medicare Part A](/original-medicare/medicare-parts/medicare-part-a/) is the primary payer for skilled nursing facility care. To qualify, you must have had a qualifying inpatient hospital stay of at least 3 consecutive days (not counting the discharge day). The SNF admission must occur within 30 days of your hospital discharge.",
           "Days 1–20 are covered at 100% - you pay nothing. Days 21–100 require a daily coinsurance of $217 in 2026. After day 100, Medicare pays nothing and you are responsible for the full daily rate, which can exceed $300–$500 per day at many facilities.",
           "Each benefit period resets when you have been out of a hospital or SNF for 60 consecutive days, meaning you can receive another 100-day benefit if you are re-hospitalized."],
         whatItCovers: [
@@ -12727,7 +12727,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Covers days 21–100 coinsurance with Plan G",
         paragraphs: [
-          "A [Medigap Plan G](/faqs/medicare-supplement-plan-g) or Plan N will cover the daily coinsurance for SNF days 21–100, reducing your out-of-pocket cost to $0 for those days. This can save you over $16,760 if you use the full 80 days of coinsurance coverage.",
+          "A [Medigap Plan G](/medicare-supplement-plans/plan-g/) or Plan N will cover the daily coinsurance for SNF days 21–100, reducing your out-of-pocket cost to $0 for those days. This can save you over $16,760 if you use the full 80 days of coinsurance coverage.",
           "Medigap does not extend the 100-day benefit period - after day 100, you are still responsible for all costs. However, for most SNF stays, the 100-day benefit is sufficient.",
           "If you are enrolled in a Medicare Advantage plan, you cannot use a Medigap policy. Medigap only works alongside Original Medicare (Parts A and B)."],
         whatItCovers: [
@@ -12772,7 +12772,7 @@ export const coverageArticles: CoverageArticleData[] = [
     faqs: [
       {
         question: "Does Medicare Cover 100% of Skilled Nursing Facility Costs?",
-        answer: "Medicare covers 100% of SNF costs for the first 20 days. Days 21–100 require a daily coinsurance ($217 in 2026). After day 100, Medicare pays nothing. A [Medigap Plan G](/faqs/medicare-supplement-plan-g) can cover the daily coinsurance for days 21–100.",
+        answer: "Medicare covers 100% of SNF costs for the first 20 days. Days 21–100 require a daily coinsurance ($217 in 2026). After day 100, Medicare pays nothing. A [Medigap Plan G](/medicare-supplement-plans/plan-g/) can cover the daily coinsurance for days 21–100.",
       },
       {
         question: "What is the 3-day Hospital Stay Rule for SNF Coverage?",
@@ -12870,8 +12870,8 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Covered - HSCT and AuSCT for qualifying conditions",
         paragraphs: [
-          "[Medicare Part A](/faqs/what-does-medicare-part-a-cover) covers inpatient stem cell transplants during a hospital stay. The transplant process - which can last 3 to 4 weeks as an inpatient - is covered after you meet the Part A deductible ($1,736 in 2026). Part A also covers any [skilled nursing facility care](/faqs/medicare-coverage-for-skilled-nursing-facilities) needed after discharge.",
-          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers outpatient stem cell therapy sessions. You pay 20% of the Medicare-approved amount after meeting the Part B deductible ($283 in 2026). Given the high cost of stem cell treatments ($5,000–$50,000+), this 20% can be substantial.",
+          "[Medicare Part A](/original-medicare/medicare-parts/medicare-part-a/) covers inpatient stem cell transplants during a hospital stay. The transplant process - which can last 3 to 4 weeks as an inpatient - is covered after you meet the Part A deductible ($1,736 in 2026). Part A also covers any [skilled nursing facility care](/faqs/medicare-coverage-for-skilled-nursing-facilities) needed after discharge.",
+          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) covers outpatient stem cell therapy sessions. You pay 20% of the Medicare-approved amount after meeting the Part B deductible ($283 in 2026). Given the high cost of stem cell treatments ($5,000–$50,000+), this 20% can be substantial.",
           "The critical requirement is FDA approval. Medicare only covers stem cell therapies approved by the FDA - specifically HSCT and AuSCT for certain cancers, blood disorders, and immune system conditions. Any non-FDA-approved therapy will be denied."],
         whatItCovers: [
           "Hematopoietic Stem Cell Transplantation (HSCT) for certain cancers and blood disorders",
@@ -12917,7 +12917,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Covers Part A deductible and Part B coinsurance",
         paragraphs: [
-          "A [Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the Part A deductible and the 20% Part B coinsurance for Medicare-approved stem cell therapy. Given the high cost of these treatments, Medigap can save you thousands of dollars.",
+          "A [Medigap Plan G](/medicare-supplement-plans/plan-g/) covers the Part A deductible and the 20% Part B coinsurance for Medicare-approved stem cell therapy. Given the high cost of these treatments, Medigap can save you thousands of dollars.",
           "Medigap covers any service that Original Medicare approves - so if Medicare approves a stem cell therapy, your Medigap plan will cover your share of the cost. This provides significant financial protection for expensive cancer treatments.",
           "If you have a Medicare Advantage plan, you cannot use Medigap. Medigap only supplements Original Medicare (Parts A and B)."],
         costNote: "With Plan G: pay only the Part B deductible ($283 in 2026). Without Medigap: 20% of all outpatient costs plus the Part A deductible for inpatient stays.",
@@ -12969,7 +12969,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "How Much Does Stem Cell Therapy Cost with Medicare?",
-        answer: "With Original Medicare, you pay the Part A deductible ($1,736 in 2026) for inpatient transplants and 20% of outpatient costs. A [Medigap Plan G](/faqs/medicare-supplement-plan-g) can reduce your share to just the annual Part B deductible ($283 in 2026).",
+        answer: "With Original Medicare, you pay the Part A deductible ($1,736 in 2026) for inpatient transplants and 20% of outpatient costs. A [Medigap Plan G](/medicare-supplement-plans/plan-g/) can reduce your share to just the annual Part B deductible ($283 in 2026).",
       },
       {
         question: "Does Medicare Cover Stem Cell Therapy for COPD?",
@@ -13055,7 +13055,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Covered when medically necessary and FDA-approved",
         paragraphs: [
-          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers Botox injections administered in a doctor's office or outpatient clinic when the treatment is medically necessary and FDA-approved. Part B pays 80% of the Medicare-approved amount; you pay the remaining 20% after meeting your annual Part B deductible ($283 in 2026).",
+          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) covers Botox injections administered in a doctor's office or outpatient clinic when the treatment is medically necessary and FDA-approved. Part B pays 80% of the Medicare-approved amount; you pay the remaining 20% after meeting your annual Part B deductible ($283 in 2026).",
           "The typical Botox dosage for chronic migraines is 155 units, costing approximately $300–$600 per treatment session. With Part B covering 80%, your out-of-pocket cost per session would be approximately $60–$120 without a [Medigap plan](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one).",
           "Before receiving Botox, you must typically try other treatments first and show no improvement. Your doctor must document that Botox is medically necessary for your specific condition. Contact your plan before treatment to confirm coverage and whether prior authorization is required."],
         whatItCovers: [
@@ -13103,7 +13103,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Covers 20% coinsurance for all Medicare-approved Botox",
         paragraphs: [
-          "A [Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the 20% Part B coinsurance for Medicare-approved Botox treatments. Since Botox for conditions like chronic migraines requires repeated treatments (typically every 12 weeks), Medigap can provide significant savings over time.",
+          "A [Medigap Plan G](/medicare-supplement-plans/plan-g/) covers the 20% Part B coinsurance for Medicare-approved Botox treatments. Since Botox for conditions like chronic migraines requires repeated treatments (typically every 12 weeks), Medigap can provide significant savings over time.",
           "With Plan G, your only out-of-pocket cost for Medicare-approved Botox is the annual Part B deductible ($283 in 2026), after which all covered Botox treatments are paid at 100%.",
           "If you receive Botox reimbursement from Medicare (i.e., your doctor does not bill Medicare directly), you may need to file a Medicare reimbursement claim. This is rare but can happen if your doctor does not accept Medicare assignment."],
         costNote: "With Plan G: $0 per Botox session after the annual Part B deductible. Without Medigap: 20% of each session's cost.",
@@ -13168,7 +13168,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "How Much Does Botox Cost with Medicare?",
-        answer: "A typical Botox treatment (155 units for migraines) costs $300–$600. With Medicare Part B covering 80%, you pay approximately $60–$120 per session. With a [Medigap Plan G](/faqs/medicare-supplement-plan-g), your cost is $0 after the annual Part B deductible.",
+        answer: "A typical Botox treatment (155 units for migraines) costs $300–$600. With Medicare Part B covering 80%, you pay approximately $60–$120 per session. With a [Medigap Plan G](/medicare-supplement-plans/plan-g/), your cost is $0 after the annual Part B deductible.",
       }],
     quickReference: [
       { icon: "check", text: "<strong>Medicare covers</strong> Botox for chronic migraines, OAB, cervical dystonia, and upper limb spasms" },
@@ -13221,7 +13221,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     readTime: "8 min read",
     quickAnswer: {
-      text: "Medicare covers cancer treatment across multiple parts. [Part A](/faqs/what-does-medicare-part-a-cover) covers inpatient hospital stays for surgery, chemotherapy, and radiation. [Part B](/faqs/what-is-medicare-part-b) covers outpatient chemotherapy, radiation, immunotherapy, and cancer screenings. [Part D](/faqs/what-is-medicare-part-d) covers oral cancer medications and anti-nausea drugs not covered by Part B. A Medigap plan paired with Part D can provide near-complete coverage for most cancer treatments.",
+      text: "Medicare covers cancer treatment across multiple parts. [Part A](/original-medicare/medicare-parts/medicare-part-a/) covers inpatient hospital stays for surgery, chemotherapy, and radiation. [Part B](/original-medicare/medicare-parts/medicare-part-b/) covers outpatient chemotherapy, radiation, immunotherapy, and cancer screenings. [Part D](/original-medicare/medicare-parts/medicare-part-d/) covers oral cancer medications and anti-nausea drugs not covered by Part B. A Medigap plan paired with Part D can provide near-complete coverage for most cancer treatments.",
       badges: [
         { plan: "Part A", status: "covered" },
         { plan: "Part B", status: "covered" },
@@ -13242,8 +13242,8 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Covered across Parts A and B",
         paragraphs: [
-          "[Medicare Part A](/faqs/what-does-medicare-part-a-cover) covers cancer treatment during inpatient hospital stays - including surgery, inpatient chemotherapy, and radiation. Part A also covers up to 100 days in a [skilled nursing facility](/faqs/medicare-coverage-for-skilled-nursing-facilities) after a qualifying hospital stay, and hospice care at a certified facility.",
-          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers outpatient cancer services - including chemotherapy administered at a doctor's office or clinic (80% coverage after the deductible), radiation therapy, immunotherapy, and diagnostic tests. Part B also covers 100% of many preventive cancer screenings, including annual [mammograms](/faqs/medicare-coverage-for-mammograms), colonoscopies, lung cancer screenings, and prostate cancer screenings.",
+          "[Medicare Part A](/original-medicare/medicare-parts/medicare-part-a/) covers cancer treatment during inpatient hospital stays - including surgery, inpatient chemotherapy, and radiation. Part A also covers up to 100 days in a [skilled nursing facility](/faqs/medicare-coverage-for-skilled-nursing-facilities) after a qualifying hospital stay, and hospice care at a certified facility.",
+          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) covers outpatient cancer services - including chemotherapy administered at a doctor's office or clinic (80% coverage after the deductible), radiation therapy, immunotherapy, and diagnostic tests. Part B also covers 100% of many preventive cancer screenings, including annual [mammograms](/faqs/medicare-coverage-for-mammograms), colonoscopies, lung cancer screenings, and prostate cancer screenings.",
           "Part B covers intravenous cancer drugs and anti-nausea medications. It also covers oral versions of IV drugs if the same drug could have been given intravenously and is taken within 48 hours of treatment."],
         whatItCovers: [
           "Inpatient surgery, chemotherapy, and radiation (Part A)",
@@ -13292,8 +13292,8 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Best combination for cancer coverage",
         paragraphs: [
-          "[Medicare Part D](/faqs/what-is-medicare-part-d) covers oral cancer medications not covered by Part B - including oral chemotherapy drugs, anti-nausea medications only available in pill form, self-injected drugs, and medications to prevent cancer recurrence. Cancer drugs are often in the highest drug tiers, so your copay or coinsurance can be substantial without Part D.",
-          "A [Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the Part A deductible, the 20% Part B coinsurance, and all Part A hospital coinsurance. Combined with Part D, this creates near-complete coverage for most cancer treatments. The only out-of-pocket cost is the annual Part B deductible ($283 in 2026) and Part D drug costs.",
+          "[Medicare Part D](/original-medicare/medicare-parts/medicare-part-d/) covers oral cancer medications not covered by Part B - including oral chemotherapy drugs, anti-nausea medications only available in pill form, self-injected drugs, and medications to prevent cancer recurrence. Cancer drugs are often in the highest drug tiers, so your copay or coinsurance can be substantial without Part D.",
+          "A [Medigap Plan G](/medicare-supplement-plans/plan-g/) covers the Part A deductible, the 20% Part B coinsurance, and all Part A hospital coinsurance. Combined with Part D, this creates near-complete coverage for most cancer treatments. The only out-of-pocket cost is the annual Part B deductible ($283 in 2026) and Part D drug costs.",
           "The Medicare Catastrophic Coverage cap (effective 2024) limits your out-of-pocket Part D drug costs to $8,000/year, providing additional protection for expensive oral cancer drugs."],
         callout: {
           type: "tip",
@@ -13337,7 +13337,7 @@ export const coverageArticles: CoverageArticleData[] = [
     faqs: [
       {
         question: "Does Medicare Cover Chemotherapy?",
-        answer: "Yes. Medicare covers chemotherapy in hospital settings (Part A), doctor's offices, and outpatient clinics (Part B). Part B pays 80% of outpatient chemo costs. A [Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the remaining 20%.",
+        answer: "Yes. Medicare covers chemotherapy in hospital settings (Part A), doctor's offices, and outpatient clinics (Part B). Part B pays 80% of outpatient chemo costs. A [Medigap Plan G](/medicare-supplement-plans/plan-g/) covers the remaining 20%.",
       },
       {
         question: "Does Medicare Cover Cancer Screenings?",
@@ -13353,7 +13353,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "Does Medicare Cover Oral Chemotherapy Drugs?",
-        answer: "Oral chemotherapy drugs are primarily covered under [Medicare Part D](/faqs/what-is-medicare-part-d). Part B covers oral versions of IV drugs if the same drug could have been given intravenously and is taken within 48 hours of treatment. A Part D plan is essential for comprehensive oral cancer drug coverage.",
+        answer: "Oral chemotherapy drugs are primarily covered under [Medicare Part D](/original-medicare/medicare-parts/medicare-part-d/). Part B covers oral versions of IV drugs if the same drug could have been given intravenously and is taken within 48 hours of treatment. A Part D plan is essential for comprehensive oral cancer drug coverage.",
       },
       {
         question: "Is Medicare Advantage Good for Cancer Patients?",
@@ -13435,7 +13435,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Covered - BMI ≥ 35 with obesity-related condition required",
         paragraphs: [
-          "[Medicare Part A](/faqs/what-does-medicare-part-a-cover) covers inpatient bariatric surgery - the hospital stay, operating room, [anesthesia](/faqs/does-medicare-cover-anesthesia), and recovery. You pay the Part A deductible ($1,736 in 2026) for each benefit period. If your surgery is performed as an outpatient procedure, [Medicare Part B](/faqs/what-is-medicare-part-b) covers 80% of the doctor's services and surgical supplies after the Part B deductible.",
+          "[Medicare Part A](/original-medicare/medicare-parts/medicare-part-a/) covers inpatient bariatric surgery - the hospital stay, operating room, [anesthesia](/faqs/does-medicare-cover-anesthesia), and recovery. You pay the Part A deductible ($1,736 in 2026) for each benefit period. If your surgery is performed as an outpatient procedure, [Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) covers 80% of the doctor's services and surgical supplies after the Part B deductible.",
           "Medicare Part B also covers obesity counseling - up to 22 sessions in the first year for beneficiaries with a BMI over 30. This counseling is covered at 100% as a preventive service when provided by a primary care physician in a primary care setting.",
           "Medicare Part D covers prescription medications prescribed after bariatric surgery, such as vitamins, supplements, and any medications needed for post-surgical management. Coverage depends on your specific Part D plan's formulary."],
         whatItCovers: [
@@ -13485,7 +13485,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Reduces your bariatric surgery cost to near $0",
         paragraphs: [
-          "A [Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the Part A deductible for inpatient bariatric surgery and the 20% Part B coinsurance for outpatient procedures. Given the high cost of bariatric surgery ($25,000–$30,000), Medigap can save you thousands of dollars.",
+          "A [Medigap Plan G](/medicare-supplement-plans/plan-g/) covers the Part A deductible for inpatient bariatric surgery and the 20% Part B coinsurance for outpatient procedures. Given the high cost of bariatric surgery ($25,000–$30,000), Medigap can save you thousands of dollars.",
           "With Plan G, your only out-of-pocket cost for bariatric surgery is the annual Part B deductible ($283 in 2026), after which all Medicare-approved surgical costs are covered at 100%.",
           "Medigap also covers any post-surgical hospital stays, [skilled nursing facility care](/faqs/medicare-coverage-for-skilled-nursing-facilities), and follow-up outpatient visits - providing comprehensive protection throughout your recovery."],
         costNote: "With Plan G: $283 total out-of-pocket (Part B deductible only). Without Medigap: $1,736 (Part A deductible) + 20% of outpatient costs.",
@@ -13545,7 +13545,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "How Much Does Bariatric Surgery Cost with Medicare?",
-        answer: "The average cost of bariatric surgery is $25,000–$30,000. With Original Medicare, you pay the Part A deductible ($1,736 in 2026) for an inpatient procedure. With a [Medigap Plan G](/faqs/medicare-supplement-plan-g), your out-of-pocket cost is just the annual Part B deductible ($283 in 2026).",
+        answer: "The average cost of bariatric surgery is $25,000–$30,000. With Original Medicare, you pay the Part A deductible ($1,736 in 2026) for an inpatient procedure. With a [Medigap Plan G](/medicare-supplement-plans/plan-g/), your out-of-pocket cost is just the annual Part B deductible ($283 in 2026).",
       },
       {
         question: "Does Medicare Cover Obesity Counseling?",
@@ -13674,7 +13674,7 @@ export const coverageArticles: CoverageArticleData[] = [
         statusBadge: "Covers some or all of Original Medicare's cost-sharing",
         paragraphs: [
           "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) are designed to cover the out-of-pocket costs that Original Medicare leaves behind - including the 20% Part B coinsurance for ambulance services. Given that air ambulance bills can exceed $30,000, Medigap coverage can be particularly valuable.",
-          "[Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the Part B coinsurance in full after you meet the annual Part B deductible. That means once you've paid your $283 deductible for the year, Plan G covers your 20% share of any covered ambulance bill - whether it's a $500 ground transport or a $25,000 air ambulance."],
+          "[Medigap Plan G](/medicare-supplement-plans/plan-g/) covers the Part B coinsurance in full after you meet the annual Part B deductible. That means once you've paid your $283 deductible for the year, Plan G covers your 20% share of any covered ambulance bill - whether it's a $500 ground transport or a $25,000 air ambulance."],
         whatItCovers: [
           "Part B coinsurance (20%) - covered by most Medigap plans",
           "Part A deductible - covered by Plans D, G, and others",
@@ -13878,7 +13878,7 @@ export const coverageArticles: CoverageArticleData[] = [
         statusBadge: "Covers some or all of Original Medicare's cost-sharing",
         paragraphs: [
           "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cover the out-of-pocket costs that Original Medicare leaves behind after surgery - including the 20% Part B coinsurance and the Part A deductible. Because robotic surgery bills can be substantial, Medigap coverage can significantly reduce what you owe.",
-          "[Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the Part B coinsurance in full after you meet the annual Part B deductible. For inpatient robotic surgery, Plan G also covers the Part A deductible. Unlike Medicare Advantage, Medigap has no provider networks - any surgeon who accepts Medicare will also accept your Medigap plan."],
+          "[Medigap Plan G](/medicare-supplement-plans/plan-g/) covers the Part B coinsurance in full after you meet the annual Part B deductible. For inpatient robotic surgery, Plan G also covers the Part A deductible. Unlike Medicare Advantage, Medigap has no provider networks - any surgeon who accepts Medicare will also accept your Medigap plan."],
         whatItCovers: [
           "Part B coinsurance (20%) - covered by most Medigap plans",
           "Part A deductible ($1,736) - covered by Plans D, G, and others",
@@ -14038,7 +14038,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         statusBadge: "Covers some or all of Original Medicare's cost-sharing",
         paragraphs: [
-          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cover the 20% Part B coinsurance for second opinions, just as they do for any other covered outpatient visit. [Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the coinsurance in full after you meet the annual Part B deductible.",
+          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cover the 20% Part B coinsurance for second opinions, just as they do for any other covered outpatient visit. [Medigap Plan G](/medicare-supplement-plans/plan-g/) covers the coinsurance in full after you meet the annual Part B deductible.",
           "Unlike Medicare Advantage, Medigap has no provider networks - you can see any Medicare-participating specialist in the country without a referral. This makes it easy to seek a second opinion from a leading specialist at a major medical center."],
         whatItCovers: [
           "Part B coinsurance (20%) for second and third opinions",
@@ -14206,7 +14206,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         statusBadge: "Covers some or all of Original Medicare's cost-sharing",
         paragraphs: [
-          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cover the 20% Part B coinsurance for DME, including urinary catheters. [Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the coinsurance in full after you meet the annual Part B deductible.",
+          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cover the 20% Part B coinsurance for DME, including urinary catheters. [Medigap Plan G](/medicare-supplement-plans/plan-g/) covers the coinsurance in full after you meet the annual Part B deductible.",
           "For people who require catheters on an ongoing basis, Medigap can provide meaningful savings over time. Unlike Medicare Advantage, Medigap has no supplier network restrictions - you can use any Medicare-enrolled DME supplier."],
         whatItCovers: [
           "Part B coinsurance (20%) for DME including catheters",
@@ -14396,7 +14396,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         statusBadge: "Covers some or all of Original Medicare's cost-sharing",
         paragraphs: [
-          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cover the 20% Part B coinsurance for medically necessary varicose vein treatment. [Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the coinsurance in full after you meet the annual Part B deductible.",
+          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cover the 20% Part B coinsurance for medically necessary varicose vein treatment. [Medigap Plan G](/medicare-supplement-plans/plan-g/) covers the coinsurance in full after you meet the annual Part B deductible.",
           "Medigap does not add coverage for cosmetic varicose vein treatment - it only covers the cost-sharing for services that Original Medicare covers. Unlike Medicare Advantage, Medigap has no provider network restrictions."],
         whatItCovers: [
           "Part B coinsurance (20%) for medically necessary varicose vein treatment",
@@ -14512,7 +14512,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "not-covered",
         statusBadge: "Not covered for weight loss; covered for cardiovascular risk reduction",
         paragraphs: [
-          "[Medicare Part D](/faqs/what-is-medicare-part-d) does not cover Wegovy when prescribed for weight loss. A longstanding federal law (Social Security Act §1927) prohibits Medicare Part D from covering drugs used for weight loss, weight gain, or anorexia. Wegovy (semaglutide 2.4 mg) is FDA-approved for chronic weight management, which places it in this excluded category.",
+          "[Medicare Part D](/original-medicare/medicare-parts/medicare-part-d/) does not cover Wegovy when prescribed for weight loss. A longstanding federal law (Social Security Act §1927) prohibits Medicare Part D from covering drugs used for weight loss, weight gain, or anorexia. Wegovy (semaglutide 2.4 mg) is FDA-approved for chronic weight management, which places it in this excluded category.",
           "However, in 2024 the FDA approved Wegovy for a second indication: reducing the risk of serious cardiovascular events (heart attack, stroke, cardiovascular death) in adults with established cardiovascular disease and obesity or overweight. CMS issued guidance in 2024 allowing Medicare Part D plans to cover Wegovy for this cardiovascular indication. If your doctor prescribes Wegovy specifically for cardiovascular risk reduction - not weight loss - your Part D plan may cover it.",
           "Ozempic (semaglutide 0.5–2 mg) is a different formulation of the same drug (semaglutide) approved for type 2 diabetes. Medicare Part D covers Ozempic when prescribed for diabetes. If you have both obesity and type 2 diabetes, your doctor may prescribe Ozempic for diabetes management, which would be covered by Part D."],
         whatItCovers: [
@@ -14699,7 +14699,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Covered as DME when medically necessary",
         paragraphs: [
-          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers ostomy supplies as [durable medical equipment (DME)](/faqs/what-is-durable-medical-equipment-dme) when they are medically necessary. To qualify, your doctor must certify that you need the supplies due to a colostomy, ileostomy, or urostomy procedure. The supplies must be obtained from a Medicare-enrolled DME supplier.",
+          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) covers ostomy supplies as [durable medical equipment (DME)](/faqs/what-is-durable-medical-equipment-dme) when they are medically necessary. To qualify, your doctor must certify that you need the supplies due to a colostomy, ileostomy, or urostomy procedure. The supplies must be obtained from a Medicare-enrolled DME supplier.",
           "Ostomy supplies are considered a recurring DME benefit, meaning Medicare will continue to cover replacement supplies on an ongoing basis as long as they remain medically necessary. Your doctor must document the medical need, and you must use a Medicare-enrolled supplier.",
           "The standard cost-sharing for Part B DME applies: Medicare pays 80% of the approved amount, and you are responsible for the remaining 20% after meeting your annual Part B deductible of $283 (2026)."],
         whatItCovers: [
@@ -14748,7 +14748,7 @@ export const coverageArticles: CoverageArticleData[] = [
         statusBadge: "Covers some or all of Original Medicare's cost-sharing",
         paragraphs: [
           "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) pay the out-of-pocket costs that Original Medicare leaves behind - including the 20% Part B coinsurance for DME such as ostomy supplies. Because ostomy supplies are an ongoing need, Medigap can provide significant long-term savings.",
-          "[Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the Part B coinsurance in full after you meet the annual $283 Part B deductible. That means once you've paid your deductible for the year, Plan G covers the remaining 20% of your ostomy supply costs for the rest of the year. Unlike Medicare Advantage, Medigap plans have no provider networks."],
+          "[Medigap Plan G](/medicare-supplement-plans/plan-g/) covers the Part B coinsurance in full after you meet the annual $283 Part B deductible. That means once you've paid your deductible for the year, Plan G covers the remaining 20% of your ostomy supply costs for the rest of the year. Unlike Medicare Advantage, Medigap plans have no provider networks."],
         whatItCovers: [
           "Part B coinsurance (20%) - covered by most Medigap plans",
           "Part A deductible - covered by Plans D, G, and others",
@@ -15106,7 +15106,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         statusBadge: "Brand-name ED drugs excluded; generics may be covered",
         paragraphs: [
-          "[Medicare Part D](/faqs/what-is-medicare-part-d) prescription drug plans are prohibited by law from covering brand-name erectile dysfunction medications such as Viagra, Cialis, and Levitra. This ban was established by Congress and applies to all Medicare Part D plans. However, the ban does not extend to generic versions of these drugs.",
+          "[Medicare Part D](/original-medicare/medicare-parts/medicare-part-d/) prescription drug plans are prohibited by law from covering brand-name erectile dysfunction medications such as Viagra, Cialis, and Levitra. This ban was established by Congress and applies to all Medicare Part D plans. However, the ban does not extend to generic versions of these drugs.",
           "Generic versions - such as sildenafil (generic Viagra), tadalafil (generic Cialis), and vardenafil (generic Levitra) - may be covered by some Medicare Part D plans depending on the plan's [formulary](/faqs/what-is-a-medicare-part-d-formulary). Each plan has its own formulary, and coverage for generic ED medications varies by plan and by state. You'll need to check your specific plan's formulary to determine if your medication is covered.",
           "There are over 800 Medicare Part D stand-alone prescription drug plans available nationally, and formularies change each year. If your current plan doesn't cover your generic ED medication, you may be able to switch plans during the Annual Enrollment Period (October 15 – December 7)."],
         whatItCovers: [
@@ -15152,7 +15152,7 @@ export const coverageArticles: CoverageArticleData[] = [
         statusBadge: "Original Medicare does not cover ED medications",
         paragraphs: [
           "Original Medicare (Part A and Part B) does not cover outpatient prescription drugs, including erectile dysfunction medications. Part A covers inpatient hospital care, and Part B covers outpatient medical services and a limited set of drugs administered in a clinical setting - but ED medications are not among them.",
-          "To get prescription drug coverage, you need to enroll in a [Medicare Part D plan](/faqs/what-is-medicare-part-d) or a Medicare Advantage plan that includes drug coverage (MAPD). If you have Original Medicare and no drug coverage, you will pay the full retail cost for any ED medications."],
+          "To get prescription drug coverage, you need to enroll in a [Medicare Part D plan](/original-medicare/medicare-parts/medicare-part-d/) or a Medicare Advantage plan that includes drug coverage (MAPD). If you have Original Medicare and no drug coverage, you will pay the full retail cost for any ED medications."],
         whatItCovers: [
           "No ED medications under Original Medicare"],
         whatItDoesntCover: [
@@ -15304,7 +15304,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Annual screening + counseling covered at $0",
         paragraphs: [
-          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers alcohol misuse screening and counseling as [preventive services](/faqs/medicare-preventive-services), which means there is no deductible or coinsurance when you receive these services from a Medicare-participating provider. Once per year, Medicare covers a screening for alcohol misuse, typically as part of your [Annual Wellness Visit](/faqs/what-is-the-medicare-annual-wellness-visit).",
+          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) covers alcohol misuse screening and counseling as [preventive services](/faqs/medicare-preventive-services), which means there is no deductible or coinsurance when you receive these services from a Medicare-participating provider. Once per year, Medicare covers a screening for alcohol misuse, typically as part of your [Annual Wellness Visit](/faqs/what-is-the-medicare-annual-wellness-visit).",
           "If the screening indicates you are misusing alcohol but do not meet the criteria for alcohol dependence, Medicare Part B covers up to four brief counseling sessions per year at no cost to you. These sessions are typically 15 minutes each and can be provided by your primary care doctor.",
           "If you need additional counseling beyond the four free sessions, Medicare Part B covers individual and group psychotherapy at 80% of the approved amount after your $283 Part B deductible. Outpatient substance abuse treatment programs are also covered under Part B."],
         whatItCovers: [
@@ -15328,7 +15328,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Inpatient rehab and detox covered when medically necessary",
         paragraphs: [
-          "[Medicare Part A](/faqs/what-is-medicare-part-a) covers inpatient alcohol rehab and detox when your physician determines it is medically necessary. You must receive treatment at a Medicare-approved facility - not all rehab centers accept Medicare, so it is important to verify before admission.",
+          "[Medicare Part A](/original-medicare/medicare-parts/medicare-part-a/) covers inpatient alcohol rehab and detox when your physician determines it is medically necessary. You must receive treatment at a Medicare-approved facility - not all rehab centers accept Medicare, so it is important to verify before admission.",
           "Inpatient alcohol rehab typically lasts one to three months depending on the severity of your dependency. Alcohol detox is typically a seven-day inpatient program. Both are covered under Part A subject to the same cost-sharing as any other inpatient hospital stay.",
           "If you receive inpatient treatment at a specialty psychiatric hospital, Medicare will only pay for 190 days of treatment at a psychiatric hospital in your lifetime. This lifetime limit does not apply to treatment received at a general hospital."],
         whatItCovers: [
@@ -15512,7 +15512,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Covers home health care, DME, and therapy services",
         paragraphs: [
-          "[Medicare Part B](/faqs/what-is-medicare-part-b) is particularly important for ALS patients because it covers home health care services, which are critical as the disease progresses. To qualify for home health care, you must be under the care of a physician who creates and regularly reviews a care plan, and you must be certified as homebound - meaning you cannot leave home without considerable effort.",
+          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) is particularly important for ALS patients because it covers home health care services, which are critical as the disease progresses. To qualify for home health care, you must be under the care of a physician who creates and regularly reviews a care plan, and you must be certified as homebound - meaning you cannot leave home without considerable effort.",
           "Part B also covers durable medical equipment (DME) that is medically necessary for ALS patients, including wheelchairs, communication devices, ventilators, and other equipment. Physical therapy, occupational therapy, and speech-language pathology services are also covered under Part B, which are essential for maintaining quality of life as ALS progresses.",
           "ALS patients often need a wide range of DME and therapy services. Medicare Part B covers these as long as they are medically necessary and ordered by a Medicare-participating physician."],
         whatItCovers: [
@@ -15538,7 +15538,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Covers inpatient hospital care and hospice",
         paragraphs: [
-          "[Medicare Part A](/faqs/what-is-medicare-part-a) covers inpatient hospital stays for ALS patients, including any hospitalizations related to ALS complications such as respiratory failure, pneumonia, or surgical procedures. The standard Part A cost-sharing applies: $1,736 deductible per benefit period, with $0 coinsurance for days 1–60.",
+          "[Medicare Part A](/original-medicare/medicare-parts/medicare-part-a/) covers inpatient hospital stays for ALS patients, including any hospitalizations related to ALS complications such as respiratory failure, pneumonia, or surgical procedures. The standard Part A cost-sharing applies: $1,736 deductible per benefit period, with $0 coinsurance for days 1–60.",
           "Hospice care is an important benefit for ALS patients. Medicare Part A covers hospice care when a doctor certifies that a patient has a terminal illness with a life expectancy of six months or less if the illness runs its normal course. ALS patients who choose hospice receive comfort-focused care rather than curative treatment, and Medicare covers nearly all hospice services."],
         whatItCovers: [
           "Inpatient hospital stays for ALS-related complications",
@@ -15720,7 +15720,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         statusBadge: "Covers commode chairs; most other bathroom safety items excluded",
         paragraphs: [
-          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers bathroom safety devices that qualify as [durable medical equipment (DME)](/faqs/what-is-durable-medical-equipment-dme) and are medically necessary. The primary bathroom safety item covered by Medicare is the commode chair - a portable toilet that can be used at the bedside or in the bathroom. Medicare will cover a commode chair when your doctor orders it for home use because you cannot use a regular toilet.",
+          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) covers bathroom safety devices that qualify as [durable medical equipment (DME)](/faqs/what-is-durable-medical-equipment-dme) and are medically necessary. The primary bathroom safety item covered by Medicare is the commode chair - a portable toilet that can be used at the bedside or in the bathroom. Medicare will cover a commode chair when your doctor orders it for home use because you cannot use a regular toilet.",
           "Medicare also covers crutches, walkers, and other mobility aids that help reduce the risk of falls - but the standard bathroom accessories such as grab bars, shower chairs, and raised toilet seats are not covered. Medicare classifies these items as comfort or convenience items rather than medically necessary DME.",
           "For items Medicare does cover, you pay 20% coinsurance after your annual $283 Part B deductible (2026), and you must use a Medicare-enrolled DME supplier."],
         whatItCovers: [
@@ -15931,7 +15931,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         statusBadge: "Covers ambulatory monitors and dialysis home monitors only",
         paragraphs: [
-          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers blood pressure monitoring in two specific situations. First, if your doctor suspects you have white coat hypertension (elevated readings only in a clinical setting) or masked hypertension (normal readings in a clinical setting but elevated at home), Medicare will cover an ambulatory blood pressure monitor once per year. You wear this device for 24 hours while it takes automatic readings throughout the day and night.",
+          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) covers blood pressure monitoring in two specific situations. First, if your doctor suspects you have white coat hypertension (elevated readings only in a clinical setting) or masked hypertension (normal readings in a clinical setting but elevated at home), Medicare will cover an ambulatory blood pressure monitor once per year. You wear this device for 24 hours while it takes automatic readings throughout the day and night.",
           "Second, if you have [end-stage renal disease (ESRD)](/faqs/does-medicare-cover-end-stage-renal-disease) and are receiving home kidney dialysis, Medicare Part B covers your home dialysis equipment and supplies, which includes a blood pressure monitor. This coverage is part of the broader home dialysis benefit.",
           "Standard home blood pressure monitors purchased for general hypertension management are not covered by Medicare. Blood pressure cuffs are not classified as durable medical equipment (DME) under Medicare's coverage rules, and because they are sold over the counter, Medicare Part D prescription drug plans do not cover them either."],
         whatItCovers: [
@@ -16125,7 +16125,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Covers cardiologist visits, cardiac tests, and preventive screenings",
         paragraphs: [
-          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers outpatient cardiovascular services when they are medically necessary. This includes visits to a cardiologist for diagnosis, treatment, and management of heart conditions. Medicare also covers a range of cardiac diagnostic tests including electrocardiograms (ECGs), [echocardiograms](/faqs/does-medicare-cover-an-echocardiogram), stress tests, nuclear stress tests, and cardiac catheterization.",
+          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) covers outpatient cardiovascular services when they are medically necessary. This includes visits to a cardiologist for diagnosis, treatment, and management of heart conditions. Medicare also covers a range of cardiac diagnostic tests including electrocardiograms (ECGs), [echocardiograms](/faqs/does-medicare-cover-an-echocardiogram), stress tests, nuclear stress tests, and cardiac catheterization.",
           "Medicare Part B also covers several cardiovascular preventive services at no cost to you. These include cardiovascular disease screenings (cholesterol, lipid, and triglyceride tests) once every five years, and cardiovascular behavioral therapy - a once-per-year visit with your doctor to discuss aspirin use, blood pressure management, and diet.",
           "For most outpatient cardiovascular services, you pay 20% coinsurance after your annual $283 Part B deductible (2026). Preventive services are covered at 100% with no deductible or coinsurance."],
         whatItCovers: [
@@ -16151,7 +16151,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Covers hospitalization for heart attacks, strokes, and heart surgery",
         paragraphs: [
-          "[Medicare Part A](/faqs/what-is-medicare-part-a) covers inpatient hospital stays for cardiovascular conditions including heart attacks, strokes, heart failure, and heart surgery. This includes open-heart surgery, bypass surgery, triple bypass surgery, valve replacement, and other cardiac surgical procedures. Medicare covers these as medically necessary inpatient procedures.",
+          "[Medicare Part A](/original-medicare/medicare-parts/medicare-part-a/) covers inpatient hospital stays for cardiovascular conditions including heart attacks, strokes, heart failure, and heart surgery. This includes open-heart surgery, bypass surgery, triple bypass surgery, valve replacement, and other cardiac surgical procedures. Medicare covers these as medically necessary inpatient procedures.",
           "After a qualifying hospital stay, Medicare Part A also covers inpatient cardiac rehabilitation at a skilled nursing facility. If your doctor recommends inpatient cardiac rehab following a heart attack or heart surgery, Medicare covers up to 100 days per benefit period, with $0 coinsurance for days 1–20 and $217/day for days 21–100 (2026)."],
         whatItCovers: [
           "Inpatient hospitalization for heart attacks and strokes",
@@ -16338,7 +16338,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Screening colonoscopies covered at $0 - no deductible or coinsurance",
         paragraphs: [
-          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers colonoscopy screenings as [preventive services](/faqs/medicare-preventive-services), which means there is no deductible and no coinsurance when you receive a screening colonoscopy from a Medicare-participating provider. Medicare also covers the cost of anesthesia for a colonoscopy.",
+          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) covers colonoscopy screenings as [preventive services](/faqs/medicare-preventive-services), which means there is no deductible and no coinsurance when you receive a screening colonoscopy from a Medicare-participating provider. Medicare also covers the cost of anesthesia for a colonoscopy.",
           "The frequency of coverage depends on your risk level. For average-risk patients, Medicare covers a screening colonoscopy once every 10 years (120 months). For high-risk patients - those with a personal or family history of colorectal cancer, or who have had polyps previously - Medicare covers a colonoscopy once every 2 years (24 months). Medicare also covers a colonoscopy once every 4 years (48 months) following a flexible sigmoidoscopy.",
           "There is no age limit for Medicare coverage of colonoscopies. Medicare will cover a colonoscopy at any age as long as it falls within the approved frequency."],
         whatItCovers: [
@@ -16547,7 +16547,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Covers medically necessary dermatology services",
         paragraphs: [
-          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers medically necessary dermatology services when provided by a Medicare-participating dermatologist. This includes visits to a dermatologist for the diagnosis and treatment of skin conditions such as skin cancer, psoriasis, eczema, atopic dermatitis, rosacea, and other medical skin conditions.",
+          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) covers medically necessary dermatology services when provided by a Medicare-participating dermatologist. This includes visits to a dermatologist for the diagnosis and treatment of skin conditions such as skin cancer, psoriasis, eczema, atopic dermatitis, rosacea, and other medical skin conditions.",
           "Medicare covers skin cancer screenings when there is a clinical reason - such as a suspicious mole, unusual growth, or lesion that may indicate cancer. Medicare Part B covers the cost of a referral to a dermatologist for further evaluation of a potentially cancerous skin growth. Skin biopsies ordered to investigate suspicious lesions are also covered under Part B.",
           "Mole removal is covered when the mole is cancerous or medically necessary to remove. Wart removal and seborrheic keratosis removal are covered if they are causing pain or continuously bleeding. Cosmetic mole removal - removing a mole for appearance reasons only - is not covered."],
         whatItCovers: [
@@ -16755,7 +16755,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Covers therapeutic shoes and inserts for diabetic patients",
         paragraphs: [
-          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers both the fitting and the footwear for therapeutic diabetic shoes. The Therapeutic Shoe Bill (TSB) provides Part B reimbursement for therapeutic shoes, inserts, and modifications for beneficiaries with diabetes who meet specific eligibility requirements. Coverage includes one pair of custom-molded shoes with inserts or one pair of extra-depth shoes per calendar year.",
+          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) covers both the fitting and the footwear for therapeutic diabetic shoes. The Therapeutic Shoe Bill (TSB) provides Part B reimbursement for therapeutic shoes, inserts, and modifications for beneficiaries with diabetes who meet specific eligibility requirements. Coverage includes one pair of custom-molded shoes with inserts or one pair of extra-depth shoes per calendar year.",
           "Medicare also covers inserts separately: two extra pairs of inserts per calendar year for custom-molded shoes, or three pairs of inserts per calendar year for extra-depth shoes - for a total of up to five pairs of inserts per year. Medicare can also cover modifications to your shoes in place of inserts.",
           "To qualify, your doctor must verify that the shoes are [medically necessary](/faqs/what-does-medically-necessary-mean-for-medicare). You must have diabetes and meet at least one additional condition: foot deformity, nerve damage caused by diabetes, [foot ulcers](/faqs/does-medicare-cover-wound-care), amputation of part or all of the foot, poor blood circulation, or a history of pre-ulcerative calluses. The doctor who treats your diabetes must certify your need, and a podiatrist or other qualified provider must prescribe the shoes."],
         whatItCovers: [
@@ -16962,7 +16962,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Covers cortisone shots and PRP injections",
         paragraphs: [
-          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers hip injections when they are medically necessary. Hip injections are often a middle-of-the-road treatment - after medications and physical therapy but before surgery. The two most common types of hip injections are cortisone injections and Platelet Rich Plasma (PRP) injections.",
+          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) covers hip injections when they are medically necessary. Hip injections are often a middle-of-the-road treatment - after medications and physical therapy but before surgery. The two most common types of hip injections are cortisone injections and Platelet Rich Plasma (PRP) injections.",
           "Cortisone injections are covered under Original Medicare and are typically limited to three per year per joint. Medicare Part B pays for the administration of cortisone injections when a healthcare provider administers the drug. Unlike prescription drugs covered under Part D, cortisone injections are administered by a medical professional and fall under Part B.",
           "PRP injections use the patient's own blood platelets to stimulate healing in the affected joint. Medicare covers PRP injections when medically necessary. Viscosupplementation injections (hyaluronic acid) may also be covered in some cases. However, stem cell injections do not have FDA approval for orthopedic use and are not covered by Medicare."],
         whatItCovers: [
@@ -16985,9 +16985,9 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Covers inpatient hip replacement surgery",
         paragraphs: [
-          "[Medicare Part A](/faqs/what-is-medicare-part-a) covers inpatient hip replacement surgery when it is medically necessary. Hip replacement surgery involves replacing the hip joint with an artificial joint made of ceramics, hard plastic, and metal. There is no limit on the number of hip replacements Medicare will cover - if your doctor determines another replacement is medically necessary, Medicare will cover it.",
+          "[Medicare Part A](/original-medicare/medicare-parts/medicare-part-a/) covers inpatient hip replacement surgery when it is medically necessary. Hip replacement surgery involves replacing the hip joint with an artificial joint made of ceramics, hard plastic, and metal. There is no limit on the number of hip replacements Medicare will cover - if your doctor determines another replacement is medically necessary, Medicare will cover it.",
           "The average cost of a hip replacement is $32,000–$44,000, but Medicare covers the majority of this cost. Under Part A, you pay the $1,736 deductible per benefit period (2026), with $0 coinsurance for days 1–60. After a qualifying hospital stay, Medicare also covers skilled nursing facility care and inpatient rehabilitation.",
-          "Hip replacement surgery may also be performed as an outpatient procedure. When performed outpatient, the surgery is covered under [Medicare Part B](/faqs/what-is-medicare-part-b) at 80%, and you pay 20% coinsurance after your Part B deductible."],
+          "Hip replacement surgery may also be performed as an outpatient procedure. When performed outpatient, the surgery is covered under [Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) at 80%, and you pay 20% coinsurance after your Part B deductible."],
         whatItCovers: [
           "Inpatient hip replacement surgery (no limit on number of replacements)",
           "Hospital stay for hip replacement (semi-private room, meals, nursing care)",
@@ -17008,7 +17008,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         statusBadge: "Covers Part A deductible and Part B coinsurance",
         paragraphs: [
-          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) can significantly reduce your out-of-pocket costs for hip injections and hip replacement surgery. [Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the $1,736 Part A deductible for inpatient hip replacement surgery, leaving you with $0 out of pocket for the hospital stay. Plan G also covers the 20% Part B coinsurance for outpatient hip injections and outpatient hip replacement.",
+          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) can significantly reduce your out-of-pocket costs for hip injections and hip replacement surgery. [Medigap Plan G](/medicare-supplement-plans/plan-g/) covers the $1,736 Part A deductible for inpatient hip replacement surgery, leaving you with $0 out of pocket for the hospital stay. Plan G also covers the 20% Part B coinsurance for outpatient hip injections and outpatient hip replacement.",
           "With Medigap Plan G, your only annual cost for covered hip services is the $283 Part B deductible. After that, Plan G covers all remaining cost-sharing for the rest of the year."],
         whatItCovers: [
           "Part A deductible ($1,736) for inpatient hip replacement surgery",
@@ -17169,7 +17169,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Covers home health care at $0 when you qualify",
         paragraphs: [
-          "Both [Medicare Part A](/faqs/what-is-medicare-part-a) and [Part B](/faqs/what-is-medicare-part-b) provide coverage for home health care services. When you qualify, Medicare covers home health care at $0 - there is no deductible and no coinsurance for covered home health services. This is one of the few Medicare benefits with no cost-sharing.",
+          "Both [Medicare Part A](/original-medicare/medicare-parts/medicare-part-a/) and [Part B](/original-medicare/medicare-parts/medicare-part-b/) provide coverage for home health care services. When you qualify, Medicare covers home health care at $0 - there is no deductible and no coinsurance for covered home health services. This is one of the few Medicare benefits with no cost-sharing.",
           "To qualify for Medicare home health care, you must meet all of the following requirements: (1) you must be homebound, meaning you cannot leave your home without assistance or it is not recommended due to your health; (2) you must need skilled nursing care, physical therapy, speech therapy, or occupational therapy; (3) your doctor must order the care and regularly review your treatment plan; and (4) you must use a Medicare-certified home health agency.",
           "Medicare covers intermittent skilled nursing care - meaning less than 7 days per week and less than 8 hours per day, for up to 21 days. A 3-week extension may be available in exceptional circumstances. Medicare also covers home health aide services (such as help with bathing and dressing) when you also need skilled care. However, Medicare does not cover 24-hour home care, homemaker services, or meal delivery."],
         whatItCovers: [
@@ -17381,7 +17381,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         statusBadge: "Covers 80% of the lifting mechanism; not the chair itself",
         paragraphs: [
-          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers the seat-lift mechanism of a lift chair when it is deemed [medically necessary](/faqs/what-does-medically-necessary-mean-for-medicare). To qualify, your doctor must indicate the lift chair for your specific health condition and complete Form CMS-849 (Certification of Medical Necessity for Seat Lift Mechanisms). Once approved, Medicare covers 80% of the lifting mechanism, and you pay the remaining 20% plus the full cost of the seat portion of the chair.",
+          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) covers the seat-lift mechanism of a lift chair when it is deemed [medically necessary](/faqs/what-does-medically-necessary-mean-for-medicare). To qualify, your doctor must indicate the lift chair for your specific health condition and complete Form CMS-849 (Certification of Medical Necessity for Seat Lift Mechanisms). Once approved, Medicare covers 80% of the lifting mechanism, and you pay the remaining 20% plus the full cost of the seat portion of the chair.",
           "To be considered medically necessary, you must meet specific criteria: you cannot stand on your own from a regular chair, you can operate the lift chair independently, you can walk independently or with a walker, you suffer from severe arthritis or a similar condition, or without the chair you would be confined to a bed. If you can transfer directly from the lift chair to a wheelchair, Medicare may not approve the lifting mechanism.",
           "The lift chair mechanism is not covered if you reside in a skilled nursing facility, hospice, or nursing home. You must purchase the lift chair from a Medicare-approved supplier. If you purchase from a non-approved supplier, Medicare will not cover any portion of the cost."],
         whatItCovers: [
@@ -20112,7 +20112,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Covered - may include extra Alzheimer's benefits",
         paragraphs: [
-          "[Medicare Advantage plans](/medicare-advantage) are required to cover all the same services as Original Medicare, including all Alzheimer's-related medical care. Some plans offer supplemental benefits specifically relevant to Alzheimer's patients and their caregivers, such as in-home support services, caregiver respite care, and adult day health programs.",
+          "[Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans/) are required to cover all the same services as Original Medicare, including all Alzheimer's-related medical care. Some plans offer supplemental benefits specifically relevant to Alzheimer's patients and their caregivers, such as in-home support services, caregiver respite care, and adult day health programs.",
           "However, Medicare Advantage plans use provider networks, so you must use in-network physicians, specialists, and facilities. For Alzheimer's patients who may need to see multiple specialists, network restrictions can be a significant consideration."],
         whatItCovers: [
           "All medically necessary Alzheimer's-related services covered by Original Medicare",
@@ -20431,7 +20431,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         statusBadge: "May include routine vision benefits",
         paragraphs: [
-          "[Medicare Advantage plans](/medicare-advantage) must cover all Original Medicare benefits including glaucoma screenings and treatment. Many plans also offer supplemental vision benefits such as routine eye exams, eyeglass frames and lenses, and contact lens allowances - benefits not available under Original Medicare.",
+          "[Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans/) must cover all Original Medicare benefits including glaucoma screenings and treatment. Many plans also offer supplemental vision benefits such as routine eye exams, eyeglass frames and lenses, and contact lens allowances - benefits not available under Original Medicare.",
           "If you have glaucoma or are at high risk, compare Medicare Advantage plans in your area to find one with strong ophthalmology network coverage and vision benefits."],
         whatItCovers: [
           "All glaucoma services covered by Original Medicare",
@@ -20804,7 +20804,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Covered + Extras",
         coverageType: "covered",
         paragraphs: [
-          "Most [Medicare Advantage plans](/medicare-advantage) cover telehealth, often with $0 or reduced copays. Many plans go beyond Original Medicare by adding benefits such as remote patient monitoring, virtual urgent care, and expanded behavioral health visits. Check your plan's Evidence of Coverage or call your plan to confirm your specific telehealth benefits."],
+          "Most [Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans/) cover telehealth, often with $0 or reduced copays. Many plans go beyond Original Medicare by adding benefits such as remote patient monitoring, virtual urgent care, and expanded behavioral health visits. Check your plan's Evidence of Coverage or call your plan to confirm your specific telehealth benefits."],
       },
       {
         planName: "Medicare Supplement (Medigap)",
@@ -20917,7 +20917,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Covered",
         coverageType: "covered",
         paragraphs: [
-          "[Medicare Advantage plans](/medicare-advantage) cover knee replacement surgery, but you must use in-network hospitals and surgeons. Copays and cost-sharing vary by plan. Always verify that your surgeon and facility are in-network before scheduling your procedure to avoid unexpected costs."],
+          "[Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans/) cover knee replacement surgery, but you must use in-network hospitals and surgeons. Copays and cost-sharing vary by plan. Always verify that your surgeon and facility are in-network before scheduling your procedure to avoid unexpected costs."],
       },
       {
         planName: "Medicare Supplement (Medigap)",
@@ -21030,7 +21030,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Varies by Plan",
         coverageType: "partial",
         paragraphs: [
-          "Many [Medicare Advantage plans](/medicare-advantage) cover the same podiatry services as Original Medicare and may offer additional foot care benefits. Coverage and copays vary by plan. Review your plan's Evidence of Coverage or call your plan to confirm what podiatry services are included."],
+          "Many [Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans/) cover the same podiatry services as Original Medicare and may offer additional foot care benefits. Coverage and copays vary by plan. Review your plan's Evidence of Coverage or call your plan to confirm what podiatry services are included."],
       },
       {
         planName: "Medicare Supplement (Medigap)",
@@ -21142,7 +21142,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Covered",
         coverageType: "covered",
         paragraphs: [
-          "[Medicare Advantage plans](/medicare-advantage) are required to cover all Medicare-mandated preventive services, including hepatitis C screening, at $0 cost-sharing when you use an in-network provider. Some plans may offer additional screenings or follow-up support."],
+          "[Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans/) are required to cover all Medicare-mandated preventive services, including hepatitis C screening, at $0 cost-sharing when you use an in-network provider. Some plans may offer additional screenings or follow-up support."],
       },
       {
         planName: "Medicare Supplement (Medigap)",
@@ -21254,7 +21254,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Covered",
         coverageType: "covered",
         paragraphs: [
-          "[Medicare Advantage plans](/medicare-advantage) are required to cover all Medicare mental health benefits and often provide additional behavioral health services. Many plans offer $0 or low-cost telehealth therapy visits, expanded substance use disorder programs, and care coordination for mental health conditions. Check your plan's Evidence of Coverage for details."],
+          "[Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans/) are required to cover all Medicare mental health benefits and often provide additional behavioral health services. Many plans offer $0 or low-cost telehealth therapy visits, expanded substance use disorder programs, and care coordination for mental health conditions. Check your plan's Evidence of Coverage for details."],
       },
       {
         planName: "Medicare Supplement (Medigap)",
@@ -21366,7 +21366,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Covered",
         coverageType: "covered",
         paragraphs: [
-          "[Medicare Advantage plans](/medicare-advantage) are required to cover the Annual Wellness Visit at $0 cost-sharing. Many plans also offer additional wellness benefits such as fitness programs, nutrition counseling, and chronic disease management that go beyond the standard AWV."],
+          "[Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans/) are required to cover the Annual Wellness Visit at $0 cost-sharing. Many plans also offer additional wellness benefits such as fitness programs, nutrition counseling, and chronic disease management that go beyond the standard AWV."],
       },
       {
         planName: "Medicare Supplement (Medigap)",
@@ -21478,7 +21478,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Varies by Plan",
         coverageType: "partial",
         paragraphs: [
-          "[Medicare Advantage plans](/medicare-advantage) are required to cover MNT for qualifying conditions. Many plans go further and offer additional nutrition counseling, weight management programs, or dietitian visits as supplemental benefits. Check your plan's Evidence of Coverage to see what nutrition services are included."],
+          "[Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans/) are required to cover MNT for qualifying conditions. Many plans go further and offer additional nutrition counseling, weight management programs, or dietitian visits as supplemental benefits. Check your plan's Evidence of Coverage to see what nutrition services are included."],
       },
       {
         planName: "Medicare Supplement (Medigap)",
@@ -21589,7 +21589,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Covered",
         coverageType: "covered",
         paragraphs: [
-          "[Medicare Advantage plans](/medicare-advantage) are available to under-65 Medicare beneficiaries, though plan availability varies by location. Many MA plans offer additional benefits such as dental, vision, hearing, and fitness programs that can be especially valuable for people managing a disability."],
+          "[Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans/) are available to under-65 Medicare beneficiaries, though plan availability varies by location. Many MA plans offer additional benefits such as dental, vision, hearing, and fitness programs that can be especially valuable for people managing a disability."],
       },
       {
         planName: "Medicare Supplement (Medigap)",
@@ -21710,7 +21710,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Covered",
         coverageType: "covered",
         paragraphs: [
-          "[Medicare Advantage plans](/medicare-advantage) that include prescription drug coverage (MA-PD plans) must follow the same six protected class rules as standalone Part D plans. If you are enrolled in an MA-PD plan, your protected class drugs must be covered."],
+          "[Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans/) that include prescription drug coverage (MA-PD plans) must follow the same six protected class rules as standalone Part D plans. If you are enrolled in an MA-PD plan, your protected class drugs must be covered."],
       }],
     faqs: [
       {
@@ -21924,7 +21924,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Partial",
         coverageType: "partial",
         paragraphs: [
-          "[Medicare Advantage plans](/medicare-advantage) are required to cover medically necessary Botox under the same conditions as Original Medicare. Your cost-sharing may differ from Original Medicare depending on your plan. Always verify that the administering provider is in-network to avoid higher out-of-pocket costs."],
+          "[Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans/) are required to cover medically necessary Botox under the same conditions as Original Medicare. Your cost-sharing may differ from Original Medicare depending on your plan. Always verify that the administering provider is in-network to avoid higher out-of-pocket costs."],
       },
       {
         planName: "Medicare Supplement (Medigap)",
@@ -35013,7 +35013,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Pays for Part A (Hospital Insurance)",
         coverageType: "covered",
         paragraphs: [
-          "The Medicare tax you pay during your working years funds Medicare Part A (Hospital Insurance). For a full breakdown of what this covers, see our [Medicare Part A coverage](/faqs/what-does-medicare-part-a-cover) guide. If you or your spouse paid Medicare taxes for at least 10 years (40 quarters), you qualify for premium-free Part A when you turn 65. This is why most people do not pay a monthly premium for Part A - they already paid for it through decades of Medicare tax contributions.",
+          "The Medicare tax you pay during your working years funds Medicare Part A (Hospital Insurance). For a full breakdown of what this covers, see our [Medicare Part A coverage](/original-medicare/medicare-parts/medicare-part-a/) guide. If you or your spouse paid Medicare taxes for at least 10 years (40 quarters), you qualify for premium-free Part A when you turn 65. This is why most people do not pay a monthly premium for Part A - they already paid for it through decades of Medicare tax contributions.",
           "Medicare Part A covers inpatient hospital stays, skilled nursing facility care, hospice, and some home health services. The [Part A Trust Fund](/blog/medicare-part-a-trust-fund) collects all Medicare payroll tax revenue and uses it to pay these benefits. The fund is currently projected to be depleted by 2031, at which point it could only cover about 89% of scheduled benefits from incoming tax revenue.",
           "It is important to understand that Medicare tax only funds Part A. Medicare Part B (outpatient/doctor visits) and Part D (prescription drugs) are funded separately through a combination of general tax revenues and monthly premiums paid by beneficiaries. If your income is high enough, you may also pay [IRMAA surcharges](/faqs/irmaa) on your Part B and Part D premiums - but that is a separate system from the Medicare payroll tax.",
         ],
@@ -35449,7 +35449,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Covered",
         coverageType: "covered",
         paragraphs: [
-          "[Medicare Part A](/faqs/what-does-medicare-part-a-cover) is often called hospital insurance because its primary function is covering inpatient care. When you are admitted to a hospital as an inpatient, Part A pays for your room, meals, nursing care, and most other hospital services. Part A also covers care in a skilled nursing facility (SNF) after a qualifying hospital stay of at least 3 days, hospice care for terminal illness, and some home health care when medically necessary.",
+          "[Medicare Part A](/original-medicare/medicare-parts/medicare-part-a/) is often called hospital insurance because its primary function is covering inpatient care. When you are admitted to a hospital as an inpatient, Part A pays for your room, meals, nursing care, and most other hospital services. Part A also covers care in a skilled nursing facility (SNF) after a qualifying hospital stay of at least 3 days, hospice care for terminal illness, and some home health care when medically necessary.",
           "The [2026 Part A deductible is $1,736 per benefit period](/faqs/medicare-costs-in-2026-premiums-deductibles-and-key-changes), not per year. A benefit period begins the day you are admitted as an inpatient and ends after you have been out of the hospital or SNF for 60 consecutive days. If you are readmitted after 60 days, a new benefit period begins and a new deductible applies. There is no limit to the number of benefit periods you can have in a year.",
           "After the deductible, Part A pays 100% of covered hospital costs for days 1 through 60. From day 61 to day 90, you pay $434 per day in 2026. Beyond 90 days, you draw from a 60-day lifetime reserve at $868 per day. Once lifetime reserve days are exhausted, you pay all costs. This cost structure is one reason many beneficiaries choose a Medigap plan to cover the gaps.",
           "Most people pay $0 for Part A because they or their spouse paid Medicare payroll taxes for at least 40 quarters (10 years). If you have 30 to 39 quarters, the 2026 premium is $284/month. With fewer than 30 quarters, the premium is $565/month.",
@@ -35478,7 +35478,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         paragraphs: [
           "Together, Part A and Part B form what is called [Original Medicare](/faqs/original-medicare-vs-medicare-advantage). Original Medicare is the federal health insurance program administered by CMS. It is a fee-for-service program, meaning you can see any doctor or hospital that accepts Medicare, anywhere in the country, without needing a referral.",
-          "Original Medicare does not cover everything. It does not include routine dental, vision, or hearing care. It does not cap your out-of-pocket costs. And it does not cover prescription drugs (that is what [Medicare Part D](/faqs/what-is-medicare-part-d) is for). Because of these gaps, most beneficiaries add either a Medigap plan to cover cost-sharing under Original Medicare or switch to a [Medicare Advantage plan](/medicare-part-c/medicare-advantage-plans/), which replaces Original Medicare and often includes dental, vision, hearing, and drug coverage.",
+          "Original Medicare does not cover everything. It does not include routine dental, vision, or hearing care. It does not cap your out-of-pocket costs. And it does not cover prescription drugs (that is what [Medicare Part D](/original-medicare/medicare-parts/medicare-part-d/) is for). Because of these gaps, most beneficiaries add either a Medigap plan to cover cost-sharing under Original Medicare or switch to a [Medicare Advantage plan](/medicare-part-c/medicare-advantage-plans/), which replaces Original Medicare and often includes dental, vision, hearing, and drug coverage.",
           "When you have both Part A and Part B, Medicare coordinates coverage based on where you receive care. If you are admitted to a hospital, Part A is the primary payer. If you see a doctor in an outpatient setting, Part B is the primary payer. Some services, like home health care, can be covered by either part depending on the circumstances.",
         ],
         costNote: "$ Original Medicare has no out-of-pocket maximum. Consider adding Medigap or Medicare Advantage to limit your exposure.",
@@ -35748,7 +35748,7 @@ export const coverageArticles: CoverageArticleData[] = [
       paragraphs: [
       "If you have a [Medigap (Medicare Supplement) plan](/faqs/plan-g), dropping Part B means losing your Medigap coverage. Medigap plans require active Part B enrollment to function. When Part B ends, your Medigap plan terminates. Getting back into a Medigap plan later may require medical underwriting in most states, which means you could be denied or charged higher premiums based on your health.",
       "If you have a Medicare Advantage plan, you cannot keep it without Part B. Medicare Advantage requires enrollment in both Part A and Part B. Dropping Part B automatically disenrolls you from your Medicare Advantage plan.",
-      "If you have a standalone [Part D drug plan](/faqs/what-is-medicare-part-d), dropping Part B does not directly affect your Part D enrollment. However, if your employer plan includes creditable drug coverage, you may choose to drop Part D as well. Confirm that the employer drug coverage is creditable before making this decision to avoid a [Part D late enrollment penalty](/faqs/medicare-part-d-penalty).",
+      "If you have a standalone [Part D drug plan](/original-medicare/medicare-parts/medicare-part-d/), dropping Part B does not directly affect your Part D enrollment. However, if your employer plan includes creditable drug coverage, you may choose to drop Part D as well. Confirm that the employer drug coverage is creditable before making this decision to avoid a [Part D late enrollment penalty](/faqs/medicare-part-d-penalty).",
       "The most important consideration for most people is the Medigap risk. If you are [going back to work on Medicare](/blog/going-back-to-work-on-medicare) and considering dropping Part B, think carefully about whether you can get your Medigap plan back when you return. In most states, the answer is not guaranteed.",
     ],
       costNote: "$ Medigap plans cannot be suspended. Cancellation may be permanent if medical underwriting applies in your state.",
