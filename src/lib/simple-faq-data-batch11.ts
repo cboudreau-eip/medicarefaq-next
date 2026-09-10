@@ -64,7 +64,7 @@ export const simpleFAQBatch11: SimpleFAQArticleData[] = [
       {
         type: 'paragraph',
         content:
-          'For the vast majority of Americans, the age for Medicare is 65. When you reach this age, you qualify for both [Medicare Part A](/original-medicare/medicare-parts/medicare-part-a/) (hospital insurance) and [Medicare Part B](/faqs/what-does-medicare-part-b-cover/) (medical insurance). According to the Centers for Medicare & Medicaid Services, approximately 69 million people were enrolled in Medicare as of mid-2025, and about 90% of them are 65 or older.',
+          'For the vast majority of Americans, the age for Medicare is 65. When you reach this age, you qualify for both [Medicare Part A](/original-medicare/medicare-parts/medicare-part-a/) (hospital insurance) and [Medicare Part B](/faqs/does-medicare-cover-zepbound/) (medical insurance). According to the Centers for Medicare & Medicaid Services, approximately 69 million people were enrolled in Medicare as of mid-2025, and about 90% of them are 65 or older.',
       },
       {
         type: 'paragraph',
