@@ -462,7 +462,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
       ]},
 
       { type: "heading", level: 2, text: "How Pricing Methods Affect Your Costs Over Time", id: "cost-over-time" },
-      { type: "paragraph", content: "The following example illustrates how the three pricing methods can play out over 15 years for a [Medigap Plan G](/faqs/medicare-supplement-plan-f-vs-plan-g-vs-plan-n) policyholder. These are illustrative figures based on typical market rates - your actual premiums will vary by insurer and location." },
+      { type: "paragraph", content: "The following example illustrates how the three pricing methods can play out over 15 years for a [Medigap Plan G](/medicare-supplement-plans/plan-g/) policyholder. These are illustrative figures based on typical market rates - your actual premiums will vary by insurer and location." },
       { type: "table", title: "How Pricing Methods Affect Your Costs Over Time", headers: ["Your Age", "Community-Rated", "Issue-Age-Rated", "Attained-Age-Rated"], rows: [
         ["65", "$175/mo", "$140/mo", "$110/mo"],
         ["70", "$195/mo", "$160/mo", "$165/mo"],
@@ -751,7 +751,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
       {
         type: 'paragraph',
         content:
-          'For care to be deemed medically necessary, your provider must correctly code your diagnosis and the reason for treatment when submitting information to Medicare. Even a minor coding error can cause your treatment to go uncovered. Understanding which services qualify is essential for anyone using [Medicare benefits](/blog/medicare-costs-2025) and can save you thousands of dollars in unexpected medical bills.',
+          'For care to be deemed medically necessary, your provider must correctly code your diagnosis and the reason for treatment when submitting information to Medicare. Even a minor coding error can cause your treatment to go uncovered. Understanding which services qualify is essential for anyone using [Medicare benefits](/blog/medicare-costs-2026/) and can save you thousands of dollars in unexpected medical bills.',
       },
       {
         type: 'heading',
