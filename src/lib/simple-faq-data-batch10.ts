@@ -33,7 +33,7 @@ export const simpleFAQBatch10: SimpleFAQArticleData[] = [
       {
         type: 'paragraph',
         content:
-          'Yes, Medicare covers hysterectomy surgery when your doctor determines it is medically necessary. Medicare Part A pays for the inpatient hospital stay, while Part B covers surgeon fees and outpatient procedures. What you pay out of pocket depends on whether the surgery is performed inpatient or outpatient, and whether you carry supplemental coverage like a [Medigap plan](/faqs/plan-g/).',
+          'Yes, Medicare covers hysterectomy surgery when your doctor determines it is medically necessary. Medicare Part A pays for the inpatient hospital stay, while Part B covers surgeon fees and outpatient procedures. What you pay out of pocket depends on whether the surgery is performed inpatient or outpatient, and whether you carry supplemental coverage like a [Medigap plan](/medicare-supplement-plans/plan-g/).',
       },
       {
         type: 'paragraph',
@@ -204,7 +204,7 @@ export const simpleFAQBatch10: SimpleFAQArticleData[] = [
         type: 'list',
         ordered: false,
         items: [
-          'Enroll in a Medicare Supplement (Medigap) plan before you need surgery. [Plan G](/faqs/plan-g/) covers the Part A deductible and all Part B coinsurance after you meet the Part B deductible.',
+          'Enroll in a Medicare Supplement (Medigap) plan before you need surgery. [Plan G](/medicare-supplement-plans/plan-g/) covers the Part A deductible and all Part B coinsurance after you meet the Part B deductible.',
           'Confirm your surgeon accepts Medicare assignment, meaning they agree to charge only the Medicare-approved amount.',
           'Ask whether the procedure can be performed at an ambulatory surgical center, which often has lower facility fees than a hospital outpatient department.',
           'If you have a Medicare Advantage plan, use in-network providers and confirm prior authorization requirements in advance.',
