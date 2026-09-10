@@ -650,7 +650,7 @@ export const simpleFAQBatch9: SimpleFAQArticleData[] = [
       { type: 'paragraph', content: 'Once your Medicare coverage begins, you have several decisions to make:' },
       { type: 'list', ordered: true, items: [
         '**Keep Original Medicare (Parts A and B):** You can stay with traditional fee-for-service Medicare. Consider adding a [Medicare Supplement plan](/faqs/medicare-advantage-vs-medicare-supplement/) to help cover out-of-pocket costs.',
-        '**Add Part D:** If you stay with Original Medicare, you will likely want a standalone [Part D prescription drug plan](/faqs/medicare-part-d-prescription-drug-coverage/) to avoid the [Part D late enrollment penalty](/faqs/medicare-part-d-late-enrollment-penalty/).',
+        '**Add Part D:** If you stay with Original Medicare, you will likely want a standalone [Part D prescription drug plan](/faqs/top-5-medicare-prescription-drug-plans/) to avoid the [Part D late enrollment penalty](/faqs/medicare-part-d-late-enrollment-penalty/).',
         '**Switch to Medicare Advantage:** You can enroll in a [Medicare Advantage plan](/medicare-part-c/medicare-advantage-plans/) that bundles Part A, B, and usually Part D into one plan.',
         '**Medigap enrollment:** You have a one-time [Medigap Open Enrollment Period](/faqs/medicare-supplement-open-enrollment/) that lasts 6 months starting when your Part B begins. During this window, insurers cannot deny you coverage or charge more due to health conditions.',
       ]},
