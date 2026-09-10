@@ -1650,8 +1650,8 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ordered: true,
         items: [
           '[Medigap Plan F](/faqs/what-does-medicare-supplement-plan-f-cover) - the most comprehensive option, covering 100% of Medicare-approved costs',
-          '[Medigap Plan G](/faqs/what-does-medicare-supplement-plan-g-cover) - the most popular plan for new enrollees, covering everything except the Part B deductible',
-          '[Medigap Plan N](/faqs/what-does-medicare-supplement-plan-n-cover) - the most budget-friendly option with small copays at the doctor and ER',
+          '[Medigap Plan G](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one/) - the most popular plan for new enrollees, covering everything except the Part B deductible',
+          '[Medigap Plan N](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one/) - the most budget-friendly option with small copays at the doctor and ER',
         ],
       },
       { type: 'heading', level: 2, text: 'Medicare Supplement Plan F: The Premium-Only Plan', id: 'plan-f' },
@@ -1840,7 +1840,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ordered: false,
         items: [
           '**Medicare Part A** covers services and drugs you receive as an inpatient at a hospital, such as joint replacement surgery.',
-          '**Medicare Part B** covers outpatient infusions, outpatient surgeries, physical therapy, and other treatments administered in a clinical setting. Part B may also cover a [lift chair](/faqs/does-medicare-cover-lift-chairs) if your doctor determines it is medically necessary.',
+          '**Medicare Part B** covers outpatient infusions, outpatient surgeries, physical therapy, and other treatments administered in a clinical setting. Part B may also cover a [lift chair](/faqs/does-medicare-cover-zepbound/) if your doctor determines it is medically necessary.',
           '**Medicare Part D** covers prescription drugs you take at home, including self-administered injectable biologics.',
           '**Medicare Advantage** plans provide at least the same coverage as Original Medicare, though your copays and cost-sharing may differ. Many Advantage plans include prescription drug coverage.',
         ],
@@ -1857,7 +1857,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       },
       {
         type: 'paragraph',
-        content: 'Amgen offers a copay assistance program (Amgen SupportPlus) that may reduce your out-of-pocket cost. If you have a limited income, you may also qualify for [Extra Help](/faqs/medicare-extra-help-low-income-subsidy-lis) with Part D costs.',
+        content: 'Amgen offers a copay assistance program (Amgen SupportPlus) that may reduce your out-of-pocket cost. If you have a limited income, you may also qualify for [Extra Help](/faqs/medicare-low-income-subsidy/) with Part D costs.',
       },
       { type: 'heading', level: 3, text: 'Does Medicare Cover Orencia Infusions?', id: 'orencia' },
       {
