@@ -226,7 +226,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       { type: 'paragraph', content: 'In 2026, the OTC benefit landscape has shifted. Fewer plans are offering OTC allowances compared to 2025, and CMS policy changes have separated OTC credits from healthy food and utility credits for the first time. Below, we break down how much plans are offering, what you can buy, what changed, and how to make the most of your benefit.' },
 
       { type: 'heading', level: 2, text: 'How Much Is the OTC Benefit in 2026?', id: 'otc-allowances-2026' },
-      { type: 'paragraph', content: 'OTC card allowances vary significantly depending on your carrier, plan type, and whether you are enrolled in a standard Medicare Advantage plan or a [Dual Special Needs Plan (D-SNP)](/faqs/what-is-a-dual-eligible-special-needs-plan). The average Medicare Advantage plan provides approximately $400 per year in OTC benefits, but individual plans range from $25 per quarter to over $250 per month.' },
+      { type: 'paragraph', content: 'OTC card allowances vary significantly depending on your carrier, plan type, and whether you are enrolled in a standard Medicare Advantage plan or a [Dual Special Needs Plan (D-SNP)](/faqs/medicare-plan-g-reviews/). The average Medicare Advantage plan provides approximately $400 per year in OTC benefits, but individual plans range from $25 per quarter to over $250 per month.' },
       { type: 'table', title: '2026 OTC Benefit Allowances by Carrier (Examples)', headers: ['Carrier / Plan Type', 'OTC Allowance', 'Notes'], rows: [
         ['Average MA Plan', '~$400/year ($25 to $200/quarter)', 'Varies widely by plan and region'],
         ['UnitedHealthcare D-SNP', '~$137/month', 'Reduced from 2025 levels; uses UCard'],
@@ -601,7 +601,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       },
       {
         type: 'paragraph',
-        content: 'If you are transitioning from employer coverage to Medicare as a retiree, understanding your [enrollment periods](/faqs/medicare-enrollment-periods) is critical to avoiding [late enrollment penalties](/blog/protect-yourself-from-medicare-penalties-key-tips-and-deadlines). You have an 8-month [Special Enrollment Period](/faqs/medicare-special-enrollment-period) after your employer coverage ends to sign up for Part B without penalty.',
+        content: 'If you are transitioning from employer coverage to Medicare as a retiree, understanding your [enrollment periods](/faqs/medicare-enrollment-periods) is critical to avoiding [late enrollment penalties](/blog/1-key-reason-sicker-seniors-disenroll-from-medicare-advantag/). You have an 8-month [Special Enrollment Period](/faqs/medicare-special-enrollment-period) after your employer coverage ends to sign up for Part B without penalty.',
       },
       {
         type: 'heading',
