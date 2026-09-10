@@ -7490,7 +7490,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         paragraphs: [
           "**URL:** https://www.medicarefaq.com/faqs/medicare-advantage-open-enrollment-period/",
-          "**Summary:** The Medicare Advantage Open Enrollment Period (MAOEP) occurs annually from January 1 until March 31. During the MA Open Enrollment Period, those who already have [Medicare Advantage plans](/faqs/best-medicare-advantage-plans) can make one change to their coverage. The MAOEP is not the time to enroll in Medicare Advantage for the first time. Be sure to use this period to review your plan’s network, coverage, and formulary when applicable to ensure that your coverage meets your healthcare needs. Estimated Read Time: 9 mins",
+          "**Summary:** The Medicare Advantage Open Enrollment Period (MAOEP) occurs annually from January 1 until March 31. During the MA Open Enrollment Period, those who already have [Medicare Advantage plans](/medicare-plans/supplement-vs-advantage/) can make one change to their coverage. The MAOEP is not the time to enroll in Medicare Advantage for the first time. Be sure to use this period to review your plan’s network, coverage, and formulary when applicable to ensure that your coverage meets your healthcare needs. Estimated Read Time: 9 mins",
           "If you are unhappy with your current Medicare Advantage plan, the Medicare Advantage Open Enrollment Period (MAOEP) is an annual window that allows you to make a one-time change to your existing [Medicare Advantage coverage](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included)."],
       },{
         planName: "Do You Have to Go through Underwriting if You Switch during the MAOEP Period?",
