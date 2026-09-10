@@ -314,7 +314,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       },
       {
         type: 'paragraph' as const,
-        content: 'IRMAA is an additional amount that some Medicare beneficiaries must pay on top of their standard [Medicare Part B](/faqs/what-is-medicare-part-b) and [Part D](/faqs/what-is-medicare-part-d) premiums. It applies only to individuals or couples whose income exceeds a certain threshold, and it is based on your reported income from two years prior.',
+        content: 'IRMAA is an additional amount that some Medicare beneficiaries must pay on top of their standard [Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) and [Part D](/original-medicare/medicare-parts/medicare-part-d/) premiums. It applies only to individuals or couples whose income exceeds a certain threshold, and it is based on your reported income from two years prior.',
       },
       {
         type: 'paragraph' as const,
@@ -849,7 +849,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       { type: 'paragraph', content: 'Most people have only one chance to enroll in Medicare without penalty: the [Initial Enrollment Period (IEP)](/faqs/medicare-initial-enrollment-period), a 7-month window centered on your 65th birthday. Miss it without qualifying coverage from an employer, and you could face permanent premium surcharges that follow you for the rest of your life. This checklist is designed to help you prepare well in advance so that nothing falls through the cracks.' },
       { type: 'callout', calloutType: 'tip', calloutTitle: 'Start 6 Months Before Your Birthday', calloutText: 'Ideally, begin this checklist 6 months before you turn 65. Some steps - like deciding whether to keep employer coverage or researching Medigap plans - take time and should not be rushed.' },
       { type: 'heading', level: 2, text: 'Step 1: Confirm Your Medicare Eligibility', id: 'step-1-eligibility' },
-      { type: 'paragraph', content: 'Before anything else, confirm that you are eligible for Medicare and understand what you will pay. Most people qualify for premium-free [Part A](/faqs/what-is-medicare-part-a) at age 65 if they or their spouse worked and paid Medicare taxes for at least 10 years (40 quarters). Part B requires a monthly premium - $202.90 in 2026 for most beneficiaries.' },
+      { type: 'paragraph', content: 'Before anything else, confirm that you are eligible for Medicare and understand what you will pay. Most people qualify for premium-free [Part A](/original-medicare/medicare-parts/medicare-part-a/) at age 65 if they or their spouse worked and paid Medicare taxes for at least 10 years (40 quarters). Part B requires a monthly premium - $202.90 in 2026 for most beneficiaries.' },
       { type: 'list', ordered: false, items: [
         'Verify your work history by checking your Social Security statement at [ssa.gov](https://www.ssa.gov)',
         'If you do not have 40 work credits, check whether you qualify through a spouse\'s work record',
@@ -885,12 +885,12 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       { type: 'heading', level: 2, text: 'Step 5: Choose Your Coverage Path', id: 'step-5-coverage-path' },
       { type: 'paragraph', content: 'Once you have Original Medicare (Parts A and B), you have two main paths for additional coverage. This is the most important plan decision you will make, and the right choice depends on your health, budget, and lifestyle.' },
       { type: 'table', title: 'Two Main Coverage Paths After Original Medicare', headers: ['Coverage Path', 'How It Works', 'Best For'], rows: [
-        ['Original Medicare + [Medicare Supplement (Medigap)](/medicare-supplement-plans/) + [Part D](/faqs/what-is-medicare-part-d)', 'Medigap pays costs Original Medicare leaves behind; Part D covers prescriptions', 'People who want predictable costs, freedom to see any doctor nationwide, and minimal out-of-pocket exposure'],
+        ['Original Medicare + [Medicare Supplement (Medigap)](/medicare-supplement-plans/) + [Part D](/original-medicare/medicare-parts/medicare-part-d/)', 'Medigap pays costs Original Medicare leaves behind; Part D covers prescriptions', 'People who want predictable costs, freedom to see any doctor nationwide, and minimal out-of-pocket exposure'],
         ['[Medicare Advantage (Part C)](/medicare-part-c/medicare-advantage-plans/)', 'Private plan replaces Original Medicare; often includes drug coverage and extra benefits like dental and vision', 'People who want lower monthly premiums and are comfortable with network restrictions and copayments'],
       ]},
       { type: 'callout', calloutType: 'info', calloutTitle: 'Medigap Enrollment Has a Protected Window', calloutText: 'Your [Medigap Open Enrollment Period](/faqs/medicare-supplement-open-enrollment) begins the month you are both 65 and enrolled in Part B. During this 6-month window, insurers cannot deny you coverage or charge you more due to pre-existing conditions. After this window closes, you may be subject to medical underwriting.' },
       { type: 'heading', level: 2, text: 'Step 6: Enroll in a Part D Drug Plan (If Needed)', id: 'step-6-part-d' },
-      { type: 'paragraph', content: 'If you choose Original Medicare with a Medigap plan, you will need a separate [Part D prescription drug plan](/faqs/what-is-medicare-part-d). If you choose Medicare Advantage, most plans already include drug coverage (called MA-PD plans). Either way, you should enroll in drug coverage during your Initial Enrollment Period to avoid the Part D late enrollment penalty.' },
+      { type: 'paragraph', content: 'If you choose Original Medicare with a Medigap plan, you will need a separate [Part D prescription drug plan](/original-medicare/medicare-parts/medicare-part-d/). If you choose Medicare Advantage, most plans already include drug coverage (called MA-PD plans). Either way, you should enroll in drug coverage during your Initial Enrollment Period to avoid the Part D late enrollment penalty.' },
       { type: 'list', ordered: false, items: [
         'Use the [Medicare Plan Finder](https://www.medicare.gov/plan-compare) at Medicare.gov to compare Part D plans in your area',
         'Enter your specific medications to see which plans cover them and at what cost',
