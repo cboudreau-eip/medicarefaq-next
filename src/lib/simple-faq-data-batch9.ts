@@ -167,7 +167,7 @@ export const simpleFAQBatch9: SimpleFAQArticleData[] = [
       {
         type: "paragraph",
         content:
-          "Routine foot care is another common exclusion. Medicare generally does not cover services like callus removal, toenail trimming, or corn treatment when performed by a podiatrist as routine care. However, there are meaningful exceptions: if you have diabetes or a condition that creates medical necessity, podiatry visits may be covered under Part B. The distinction hinges on what is considered medically necessary.",
+          "Routine foot care is another common exclusion. Medicare generally does not cover services like callus removal, toenail trimming, or corn treatment when performed by a podiatrist as routine care. However, there are meaningful exceptions: if you have diabetes or a condition that creates medical necessity, [podiatry visits may be covered under Part B](/faqs/does-medicare-cover-podiatry/). The distinction hinges on what is considered medically necessary.",
       },
       {
         type: "paragraph",
