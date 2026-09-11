@@ -80,7 +80,7 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
       { type: 'faq', faqs: [
         { question: 'Can I switch Medigap plans at any time?', answer: 'Outside of your Open Enrollment Period, you generally must pass medical underwriting to switch Medigap plans in most states. A few states (California, Connecticut, Maine, Massachusetts, New York, Oregon, and Washington) have additional guaranteed issue protections that allow switching with fewer restrictions.' },
         { question: 'Does Medigap cover prescription drugs?', answer: 'No. Medigap plans sold after 2006 do not include prescription drug coverage. You need a separate Medicare Part D plan for drug coverage if you have Original Medicare and a Medigap plan.' },
-        { question: 'Are Medigap premiums tax-deductible?', answer: 'Medigap premiums may be deductible as a medical expense if you itemize deductions and your total unreimbursed medical expenses exceed 7.5% of your adjusted gross income. Consult a tax advisor for guidance specific to your situation.' },
+        { question: 'Are Medigap premiums tax-deductible?', answer: '[Medigap premiums may be deductible as a medical expense](/faqs/medicare-supplemental-insurance-tax-deductible/) if you itemize deductions and your total unreimbursed medical expenses exceed 7.5% of your adjusted gross income. Consult a tax advisor for guidance specific to your situation.' },
       ]},
     ],
     relatedSlugs: ['medicare-supplement-open-enrollment', 'medicare-plan-g-reviews', "what-to-know-about-medicare-at-64"],
