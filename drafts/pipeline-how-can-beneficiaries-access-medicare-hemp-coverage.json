@@ -26,11 +26,11 @@
     },
     {
       "type": "paragraph",
-      "content": "A new kind of benefit has quietly started showing up in some Medicare plan documents: coverage for low-THC hemp products. For people managing chronic pain, nausea, or other ongoing symptoms, this shift could open a door that used to be closed entirely."
+      "content": "A new kind of benefit has quietly started showing up in some Medicare plan documents: coverage for low-THC hemp products. For people managing [chronic pain](/faqs/medicare-coverage-for-lower-back-pain-management/), nausea, or other ongoing symptoms, this shift could open a door that used to be closed entirely."
     },
     {
       "type": "paragraph",
-      "content": "This coverage is not universal, and it does not work the same way across every plan. Some Medicare Advantage plans have started including it as a **supplemental benefit**, while Original Medicare has its own separate rules. To see how these extra perks generally work, take a look at our guide to [Medicare Advantage supplemental benefits](https://www.medicarefaq.com)."
+      "content": "This coverage is not universal, and it does not work the same way across every plan. Some [Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included/) have started including it as a **supplemental benefit**, while Original Medicare has its own separate rules. To see how these extra perks generally work, take a look at our guide to [Medicare Advantage supplemental benefits](https://www.medicarefaq.com)."
     },
     {
       "type": "paragraph",
@@ -82,7 +82,7 @@
     },
     {
       "type": "paragraph",
-      "content": "It is also worth understanding why Medicare Part D, which covers prescription drugs, generally does not apply here either. Part D **formularies** are built around FDA-approved prescription medications, and most hemp and CBD products are sold as over-the-counter wellness or supplement items rather than approved prescription drugs. Because of that, they typically fall outside Part D's coverage rules entirely, and any coverage that does exist tends to live within a Medicare Advantage plan's supplemental benefits instead. For a closer look at how these drug lists work, see our [Part D formulary basics guide](https://www.medicarefaq.com)."
+      "content": "It is also worth understanding why [Medicare Part D](/faqs/medicare-and-prescription-drugs-whats-covered-and-whats-not/), which covers prescription drugs, generally does not apply here either. Part D **formularies** are built around FDA-approved prescription medications, and most hemp and CBD products are sold as over-the-counter wellness or supplement items rather than approved prescription drugs. Because of that, they typically fall outside Part D's coverage rules entirely, and any coverage that does exist tends to live within a Medicare Advantage plan's supplemental benefits instead. For a closer look at how these drug lists work, see our [Part D formulary basics guide](https://www.medicarefaq.com)."
     },
     {
       "type": "callout",
@@ -92,7 +92,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Understanding these three terms matters because hemp coverage almost always falls under the supplemental benefit category, and it often requires **prior authorization** before your plan will pay anything toward it."
+      "content": "Understanding these three terms matters because hemp coverage almost always falls under the supplemental benefit category, and it often requires **[prior authorization](/faqs/medicare-prior-authorization/)** before your plan will pay anything toward it."
     },
     {
       "type": "heading",
@@ -106,7 +106,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Coverage for hemp products varies significantly by plan and by region, since Medicare Advantage plans are offered by private insurers who design their own benefit packages. A plan available in one county may not offer the same hemp benefit in a neighboring one."
+      "content": "Coverage for hemp products varies significantly by plan and by region, since [Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included/) are offered by private insurers who design their own benefit packages. A plan available in one county may not offer the same hemp benefit in a neighboring one."
     },
     {
       "type": "paragraph",
@@ -130,7 +130,7 @@
     },
     {
       "type": "paragraph",
-      "content": "If your plan does include hemp product coverage, expect some combination of a copay and possibly a separate deductible before the benefit kicks in. These costs are set by each individual plan, so there is no single standard figure across Medicare Advantage. In short, costs vary by plan, so contact your insurer directly for exact copay and deductible amounts."
+      "content": "If your plan does include hemp product coverage, expect some combination of a copay and possibly a separate deductible before the benefit kicks in. These costs are set by each individual plan, so there is no single standard figure across Medicare Advantage. In short, [costs vary by plan](/faqs/medicare-costs-in-2026-premiums-deductibles-and-key-changes/), so contact your insurer directly for exact copay and deductible amounts."
     },
     {
       "type": "paragraph",
@@ -148,7 +148,7 @@
     },
     {
       "type": "paragraph",
-      "content": "It is also worth asking whether hemp product costs count toward your plan's annual out-of-pocket maximum. Medicare Advantage plans must cap in-network out-of-pocket spending each year, but supplemental benefits are not always applied the same way as standard medical costs. <a href=\"https://www.cms.gov\">Medicare Advantage out-of-pocket limits are set annually by CMS</a>."
+      "content": "It is also worth asking whether hemp product costs count toward your plan's annual out-of-pocket maximum. [Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included/) must cap in-network out-of-pocket spending each year, but supplemental benefits are not always applied the same way as standard medical costs. <a href=\"https://www.cms.gov\">Medicare Advantage out-of-pocket limits are set annually by CMS</a>."
     },
     {
       "type": "list",
@@ -175,7 +175,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Coverage typically requires more than just interest on your part. Most plans that include this benefit require a documented medical need, meaning your provider must note a qualifying condition such as chronic pain or nausea in your medical record."
+      "content": "Coverage typically requires more than just interest on your part. Most plans that include this benefit require a documented medical need, meaning your provider must note a qualifying condition such as [chronic pain](/faqs/medicare-coverage-for-lower-back-pain-management/) or nausea in your medical record."
     },
     {
       "type": "paragraph",
@@ -222,7 +222,7 @@
       "type": "list",
       "ordered": true,
       "items": [
-        "Your plan reviews the request, which may include a prior authorization step."
+        "Your plan reviews the request, which may include a [prior authorization](/faqs/medicare-prior-authorization/) step."
       ]
     },
     {
@@ -254,7 +254,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Keep copies of every form you sign and the approval notice from your plan. If you experience a delay, call your plan and ask for a status update using the reference number from your **prior authorization** request."
+      "content": "Keep copies of every form you sign and the approval notice from your plan. If you experience a delay, call your plan and ask for a status update using the reference number from your **[prior authorization](/faqs/medicare-prior-authorization/)** request."
     },
     {
       "type": "callout",
@@ -335,34 +335,16 @@
   ],
   "linkSuggestions": [
     {
-      "phrase": "Medicare Advantage plans",
-      "url": "/faqs/medicare-advantage-extra-benefits-explained-whats-really-included/",
-      "title": "Medicare Advantage Extra Benefits Explained: What's Really Included",
-      "reason": "This link provides detailed information about Medicare Advantage plans, which are crucial for understanding how supplemental benefits like hemp coverage work."
-    },
-    {
       "phrase": "supplemental benefits",
       "url": "/faqs/medicare-advantage-extra-benefits-explained-whats-really-included/",
       "title": "Medicare Advantage Extra Benefits Explained: What's Really Included",
       "reason": "Linking to this page helps clarify what supplemental benefits entail, which is essential for readers exploring hemp coverage options."
     },
     {
-      "phrase": "prior authorization",
-      "url": "/faqs/medicare-prior-authorization/",
-      "title": "Medicare Prior Authorization",
-      "reason": "This link will provide readers with a deeper understanding of the prior authorization process, which is often required for supplemental benefits."
-    },
-    {
       "phrase": "Evidence of Coverage document",
       "url": "/faqs/medicare-annual-notice-of-change-letter/",
       "title": "Medicare Annual Notice of Change (ANOC) Letter",
       "reason": "This page offers insights into important Medicare documents, including the Evidence of Coverage, which is vital for confirming benefits."
-    },
-    {
-      "phrase": "Medicare Part D",
-      "url": "/faqs/medicare-and-prescription-drugs-whats-covered-and-whats-not/",
-      "title": "Medicare and Prescription Drugs: What Is Covered and What Is Not?",
-      "reason": "This link provides context on Medicare Part D, which is relevant for understanding why certain hemp products may not be covered."
     },
     {
       "phrase": "Medicare Advantage plan's supplemental benefits",
@@ -375,21 +357,36 @@
       "url": "/faqs/medicare-maximum-out-of-pocket/",
       "title": "Medicare Maximum Out-of-Pocket",
       "reason": "Linking to this page will help readers understand how the out-of-pocket maximum applies to their overall Medicare costs."
+    }
+  ],
+  "acceptedLinks": [
+    {
+      "phrase": "Medicare Advantage plans",
+      "url": "/faqs/medicare-advantage-extra-benefits-explained-whats-really-included/",
+      "title": "Medicare Advantage Extra Benefits Explained: What's Really Included"
+    },
+    {
+      "phrase": "Medicare Part D",
+      "url": "/faqs/medicare-and-prescription-drugs-whats-covered-and-whats-not/",
+      "title": "Medicare and Prescription Drugs: What Is Covered and What Is Not?"
+    },
+    {
+      "phrase": "prior authorization",
+      "url": "/faqs/medicare-prior-authorization/",
+      "title": "Medicare Prior Authorization"
     },
     {
       "phrase": "chronic pain",
       "url": "/faqs/medicare-coverage-for-lower-back-pain-management/",
-      "title": "Medicare Coverage for Lower Back Pain Management",
-      "reason": "This link provides relevant information for readers managing chronic pain, which is a common condition that may lead them to consider hemp products."
+      "title": "Medicare Coverage for Lower Back Pain Management"
     },
     {
       "phrase": "costs vary by plan",
       "url": "/faqs/medicare-costs-in-2026-premiums-deductibles-and-key-changes/",
-      "title": "Medicare Costs in 2026: Premiums, Deductibles, and Key Changes",
-      "reason": "This page offers insights into how costs can differ across plans, which is important for understanding potential expenses related to hemp coverage."
+      "title": "Medicare Costs in 2026: Premiums, Deductibles, and Key Changes"
     }
   ],
   "id": "pipeline-how-can-beneficiaries-access-medicare-hemp-coverage",
-  "updatedAt": "2026-09-11T12:19:09.700Z",
-  "createdAt": "2026-09-11T12:19:09.700Z"
+  "updatedAt": "2026-09-11T12:21:47.773Z",
+  "createdAt": "2026-09-11T12:21:47.773Z"
 }
