@@ -18598,7 +18598,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "Does Medicare Cover Botox Injections?",
-        answer: "Medicare Part B may cover Botox injections when used to treat severe migraines or muscle spasms in the neck, after other medications have been unsuccessful. Botox for cosmetic purposes is not covered.",
+        answer: "Medicare Part B may cover [Botox injections when used to treat severe migraines or muscle spasms](/faqs/does-medicare-cover-botox/) in the neck, after other medications have been unsuccessful. Botox for cosmetic purposes is not covered.",
       },
       {
         question: "What is the Prior Authorization Process for Plastic Surgery?",
