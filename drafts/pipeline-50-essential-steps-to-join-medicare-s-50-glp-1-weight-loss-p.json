@@ -1,7 +1,22 @@
 {
   "title": "Medicare GLP-1 $50 Program: Enrollment Guide",
+  "rawContent": "",
   "slug": "50-essential-steps-to-join-medicare-s-50-glp-1-weight-loss-p",
+  "excerpt": "A plain-language breakdown of the Medicare GLP-1 $50 program, covering eligibility, plan requirements, and how to check if your coverage qualifies.",
   "category": "eligibility",
+  "author": "David Haass",
+  "reviewer": "Ashlee Zareczny",
+  "image": "/images/generated/50-essential-steps-to.png",
+  "imageAlt": "",
+  "keyTakeaways": [
+    "The Medicare GLP-1 $50 program is not automatic; it only applies to plans that have added GLP-1 drugs to a lower cost tier or negotiated special pricing",
+    "Eligibility usually requires a diagnosed condition like type 2 diabetes, obesity with a qualifying BMI, or documented cardiovascular risk",
+    "Availability depends on your specific Part D or Medicare Advantage plan and where you live, so checking your Evidence of Coverage is essential",
+    "Prior authorization from your doctor is typically required to confirm medical necessity before coverage is approved",
+    "Choosing a plan based solely on the $50 price could backfire if premiums, deductibles, or other costs end up higher overall"
+  ],
+  "seoTitle": "Medicare GLP-1 $50 Program: Enrollment Guide",
+  "seoDescription": "Learn how the Medicare GLP-1 $50 program works, who qualifies, and how to check if your plan includes this lower cost drug pricing.",
   "sections": [
     {
       "type": "heading",
@@ -258,21 +273,13 @@
       "content": "When you are ready, trustworthy help is available through <a href=\"/medicare-supplement-plans/plan-g/\">licensed Medicare guidance</a> that respects your pace and answers your questions honestly."
     }
   ],
-  "seoTitle": "Medicare GLP-1 $50 Program: Enrollment Guide",
-  "seoDescription": "Learn how the Medicare GLP-1 $50 program works, who qualifies, and how to check if your plan includes this lower cost drug pricing.",
-  "excerpt": "A plain-language breakdown of the Medicare GLP-1 $50 program, covering eligibility, plan requirements, and how to check if your coverage qualifies.",
-  "keyTakeaways": [
-    "The Medicare GLP-1 $50 program is not automatic; it only applies to plans that have added GLP-1 drugs to a lower cost tier or negotiated special pricing",
-    "Eligibility usually requires a diagnosed condition like type 2 diabetes, obesity with a qualifying BMI, or documented cardiovascular risk",
-    "Availability depends on your specific Part D or Medicare Advantage plan and where you live, so checking your Evidence of Coverage is essential",
-    "Prior authorization from your doctor is typically required to confirm medical necessity before coverage is approved",
-    "Choosing a plan based solely on the $50 price could backfire if premiums, deductibles, or other costs end up higher overall"
+  "relatedSlugs": [
+    "strategies-for-choosing-medicare-part-d-plan",
+    "top-5-medicare-prescription-drug-plans",
+    "medicare-part-d-enrollment-deadlines",
+    "medicare-annual-notice-of-change-letter"
   ],
-  "image": "/images/generated/50-essential-steps-to.png",
-  "relatedSlugs": [],
-  "sourceUrl": "https://www.aarp.org/medicare/medicare-glp1-bridge-program-eligibility/",
-  "pipelineId": "disc-4a35e42ff50d06e9283c8fe6f1acbe381c6ea11e6fffbb305761048e0753d87a",
   "id": "pipeline-50-essential-steps-to-join-medicare-s-50-glp-1-weight-loss-p",
-  "updatedAt": "2026-09-14T14:39:29.641Z",
-  "createdAt": "2026-09-14T14:39:29.641Z"
+  "updatedAt": "2026-09-14T15:36:05.643Z",
+  "createdAt": "2026-09-14T15:36:05.643Z"
 }
