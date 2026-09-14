@@ -5786,7 +5786,7 @@ export const coverageArticles: CoverageArticleData[] = [
       coverageLabel: "See Details",
       coverageType: "partial",
       paragraphs: [
-      "The following are the [top 25 most asked questions](/faqs/medicare-questions) by you – our clients- to our licensed Medicare agents. These questions are listed in no particular order.",
+      "The following are the [top 25 most asked questions](/faqs/turning-65-these-are-the-most-common-medicare-questions-answered/) by you – our clients- to our licensed Medicare agents. These questions are listed in no particular order.",
       "1.  Who is Eligible for Medicare?",
       "2.  Will I automatically be enrolled in Medicare when I turn 65?",
     ],
@@ -12040,7 +12040,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "not-covered",
         paragraphs: [
           "[Original Medicare](/faqs/original-medicare-vs-medicare-advantage) will only cover medically necessary items. Adult pads, diapers, and other incontinence supplies are not considered medically necessary under Medicare's definition. However, Medicare does cover appointments, diagnostic tests, and procedures related to the diagnosis and treatment of incontinence itself - just not the supplies.",
-          "Medicare Part B covers [durable medical equipment (DME)](/faqs/what-is-durable-medical-equipment-dme) that is medically necessary, but incontinence supplies do not qualify as DME under Medicare's rules. This is the same reason Medicare won't cover bandages or gauze for home use."],
+          "Medicare Part B covers [durable medical equipment (DME)](/faqs/does-medicare-cover-durable-medical-equipment/) that is medically necessary, but incontinence supplies do not qualify as DME under Medicare's rules. This is the same reason Medicare won't cover bandages or gauze for home use."],
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -12670,7 +12670,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Limited Coverage",
         coverageType: "partial",
         paragraphs: [
-          "In most cases, [Original Medicare](/faqs/original-medicare-vs-medicare-advantage) won't cover compression stockings since they aren't classified as [durable medical equipment (DME)](/faqs/what-is-durable-medical-equipment-dme). However, Medicare Part B will cover graduated compression stockings when your doctor writes a prescription to treat an active venous stasis ulcer (an open wound caused by poor vein function).",
+          "In most cases, [Original Medicare](/faqs/original-medicare-vs-medicare-advantage) won't cover compression stockings since they aren't classified as [durable medical equipment (DME)](/faqs/does-medicare-cover-durable-medical-equipment/). However, Medicare Part B will cover graduated compression stockings when your doctor writes a prescription to treat an active venous stasis ulcer (an open wound caused by poor vein function).",
           "Medicare only covers graduated compression stockings designed to help issues below the knee, such as an open venous stasis ulcer. The stockings must be medically necessary and prescribed by your physician. Medicare does not cover compression garments for varicose veins, general circulation problems, or for the prevention of ulcers."],
       },
       {
@@ -14842,7 +14842,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Covered as DME when medically necessary",
         paragraphs: [
-          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) covers ostomy supplies as [durable medical equipment (DME)](/faqs/what-is-durable-medical-equipment-dme) when they are medically necessary. To qualify, your doctor must certify that you need the supplies due to a colostomy, ileostomy, or urostomy procedure. The supplies must be obtained from a Medicare-enrolled DME supplier.",
+          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) covers ostomy supplies as [durable medical equipment (DME)](/faqs/does-medicare-cover-durable-medical-equipment/) when they are medically necessary. To qualify, your doctor must certify that you need the supplies due to a colostomy, ileostomy, or urostomy procedure. The supplies must be obtained from a Medicare-enrolled DME supplier.",
           "Ostomy supplies are considered a recurring DME benefit, meaning Medicare will continue to cover replacement supplies on an ongoing basis as long as they remain medically necessary. Your doctor must document the medical need, and you must use a Medicare-enrolled supplier.",
           "The standard cost-sharing for Part B DME applies: Medicare pays 80% of the approved amount, and you are responsible for the remaining 20% after meeting your annual Part B deductible of $283 (2026)."],
         whatItCovers: [
@@ -15863,7 +15863,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         statusBadge: "Covers commode chairs; most other bathroom safety items excluded",
         paragraphs: [
-          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) covers bathroom safety devices that qualify as [durable medical equipment (DME)](/faqs/what-is-durable-medical-equipment-dme) and are medically necessary. The primary bathroom safety item covered by Medicare is the commode chair - a portable toilet that can be used at the bedside or in the bathroom. Medicare will cover a commode chair when your doctor orders it for home use because you cannot use a regular toilet.",
+          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) covers bathroom safety devices that qualify as [durable medical equipment (DME)](/faqs/does-medicare-cover-durable-medical-equipment/) and are medically necessary. The primary bathroom safety item covered by Medicare is the commode chair - a portable toilet that can be used at the bedside or in the bathroom. Medicare will cover a commode chair when your doctor orders it for home use because you cannot use a regular toilet.",
           "Medicare also covers crutches, walkers, and other mobility aids that help reduce the risk of falls - but the standard bathroom accessories such as grab bars, shower chairs, and raised toilet seats are not covered. Medicare classifies these items as comfort or convenience items rather than medically necessary DME.",
           "For items Medicare does cover, you pay 20% coinsurance after your annual $283 Part B deductible (2026), and you must use a Medicare-enrolled DME supplier."],
         whatItCovers: [
@@ -16900,7 +16900,7 @@ export const coverageArticles: CoverageArticleData[] = [
         paragraphs: [
           "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) covers both the fitting and the footwear for therapeutic diabetic shoes. The Therapeutic Shoe Bill (TSB) provides Part B reimbursement for therapeutic shoes, inserts, and modifications for beneficiaries with diabetes who meet specific eligibility requirements. Coverage includes one pair of custom-molded shoes with inserts or one pair of extra-depth shoes per calendar year.",
           "Medicare also covers inserts separately: two extra pairs of inserts per calendar year for custom-molded shoes, or three pairs of inserts per calendar year for extra-depth shoes - for a total of up to five pairs of inserts per year. Medicare can also cover modifications to your shoes in place of inserts.",
-          "To qualify, your doctor must verify that the shoes are [medically necessary](/faqs/what-does-medically-necessary-mean-for-medicare). You must have diabetes and meet at least one additional condition: foot deformity, nerve damage caused by diabetes, [foot ulcers](/faqs/does-medicare-cover-wound-care), amputation of part or all of the foot, poor blood circulation, or a history of pre-ulcerative calluses. The doctor who treats your diabetes must certify your need, and a podiatrist or other qualified provider must prescribe the shoes."],
+          "To qualify, your doctor must verify that the shoes are [medically necessary](/faqs/what-does-medically-necessary-mean/). You must have diabetes and meet at least one additional condition: foot deformity, nerve damage caused by diabetes, [foot ulcers](/faqs/does-medicare-cover-wound-care), amputation of part or all of the foot, poor blood circulation, or a history of pre-ulcerative calluses. The doctor who treats your diabetes must certify your need, and a podiatrist or other qualified provider must prescribe the shoes."],
         whatItCovers: [
           "One pair of custom-molded shoes with inserts per calendar year",
           "One pair of extra-depth shoes per calendar year",
@@ -17524,7 +17524,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         statusBadge: "Covers 80% of the lifting mechanism; not the chair itself",
         paragraphs: [
-          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) covers the seat-lift mechanism of a lift chair when it is deemed [medically necessary](/faqs/what-does-medically-necessary-mean-for-medicare). To qualify, your doctor must indicate the lift chair for your specific health condition and complete Form CMS-849 (Certification of Medical Necessity for Seat Lift Mechanisms). Once approved, Medicare covers 80% of the lifting mechanism, and you pay the remaining 20% plus the full cost of the seat portion of the chair.",
+          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) covers the seat-lift mechanism of a lift chair when it is deemed [medically necessary](/faqs/what-does-medically-necessary-mean/). To qualify, your doctor must indicate the lift chair for your specific health condition and complete Form CMS-849 (Certification of Medical Necessity for Seat Lift Mechanisms). Once approved, Medicare covers 80% of the lifting mechanism, and you pay the remaining 20% plus the full cost of the seat portion of the chair.",
           "To be considered medically necessary, you must meet specific criteria: you cannot stand on your own from a regular chair, you can operate the lift chair independently, you can walk independently or with a walker, you suffer from severe arthritis or a similar condition, or without the chair you would be confined to a bed. If you can transfer directly from the lift chair to a wheelchair, Medicare may not approve the lifting mechanism.",
           "The lift chair mechanism is not covered if you reside in a skilled nursing facility, hospice, or nursing home. You must purchase the lift chair from a Medicare-approved supplier. If you purchase from a non-approved supplier, Medicare will not cover any portion of the cost."],
         whatItCovers: [
@@ -22477,7 +22477,7 @@ export const coverageArticles: CoverageArticleData[] = [
       coverageType: "partial",
       statusBadge: "Enrollment timing matters - avoid penalties",
       paragraphs: [
-      "If you are a government employee approaching age 65, understanding your enrollment windows is essential to avoid [late enrollment penalties](/faqs/protect-yourself-from-medicare-penalties-and-deadlines) and gaps in coverage.",
+      "If you are a government employee approaching age 65, understanding your enrollment windows is essential to avoid [late enrollment penalties](/blog/medicare-penalty-avoidance-strategies/) and gaps in coverage.",
       "Your Initial Enrollment Period (IEP) begins three months before the month you turn 65 and ends three months after. If you are still actively working and covered by your employer's group health plan (including FEHB), you may qualify for a Special Enrollment Period (SEP) that allows you to delay Medicare enrollment without penalty.",
     ],
       whatItCovers: [
