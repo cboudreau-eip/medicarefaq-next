@@ -3501,7 +3501,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "**Dental insurance plans** (DHMO and DPPO) typically cost $20 to $60 per month and cover preventive care at 100%, basic procedures at 50-80%, and major procedures (including dentures) at 50%. Most plans have annual maximums of $1,000 to $2,000. Common carriers include Delta Dental, Humana Dental, AARP/UnitedHealthcare Dental, Cigna Dental, and Guardian.",
           "**Dental discount plans** (not insurance) charge a monthly membership fee of $8 to $15 and provide 20% to 60% discounts on dental services at participating providers. There are no annual maximums, no waiting periods, and no claims to file. For expensive procedures like dentures, a discount plan can save $500 to $2,000+ depending on the provider's fees.",
           "**Important considerations for denture coverage:** Most dental insurance plans have a 12-month waiting period before covering major services like dentures. This means you must be enrolled and paying premiums for a full year before the plan will pay for dentures. Dental discount plans have no waiting period. If you need dentures soon, a discount plan may be more practical than insurance.",
-          "Some [standalone dental plans designed for seniors](/faqs/top-5-dental-insurance-for-seniors) offer higher annual maximums ($2,000 to $5,000) specifically to accommodate expensive procedures like dentures and implants. These premium plans cost more per month ($40 to $75) but provide significantly more coverage for major dental work."
+          "Some [standalone dental plans designed for seniors](/faqs/top-10-medicare-supplement-insurance-companies/) offer higher annual maximums ($2,000 to $5,000) specifically to accommodate expensive procedures like dentures and implants. These premium plans cost more per month ($40 to $75) but provide significantly more coverage for major dental work."
         ],
         callout: {
           type: "info",
@@ -11841,7 +11841,7 @@ export const coverageArticles: CoverageArticleData[] = [
         paragraphs: [
           "Stand-alone dental insurance plans are available to Medicare beneficiaries regardless of which Medicare coverage they have. These plans are not part of Medicare; they are private insurance policies you purchase separately. They typically follow a 100/80/50 structure: 100% for preventive care, 80% for basic services, and 50% for major services, after a deductible.",
           "Most stand-alone dental plans have a waiting period of 6 to 12 months before major services are covered. Annual benefit maximums commonly range from $1,000 to $2,000. Dental discount plans are a lower-cost alternative that provide negotiated rates at participating dentists rather than insurance reimbursement. These have no waiting periods and no annual maximums, but you pay the discounted rate out of pocket at the time of service.",
-          "If you have [top-rated dental insurance options for seniors](/faqs/top-5-dental-insurance-for-seniors), compare plan networks, waiting periods, annual maximums, and whether your current dentist participates before enrolling.",
+          "If you have [top-rated dental insurance options for seniors](/faqs/top-10-medicare-supplement-insurance-companies/), compare plan networks, waiting periods, annual maximums, and whether your current dentist participates before enrolling.",
         ],
         whatItCovers: [
           "Preventive: Exams, cleanings, X-rays (usually 100% covered)",
