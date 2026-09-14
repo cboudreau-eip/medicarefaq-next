@@ -25,6 +25,15 @@
       "text": "Introduction: What the Medicare GLP-1 $50 Program Means for You"
     },
     {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**What it is:** A lower copay, often around $50, offered by some Medicare Part D and Medicare Advantage plans that have placed certain GLP-1 medications on a lower-cost formulary tier or negotiated special pricing",
+        "**Who qualifies:** Enrollees with a diagnosed condition covered by an FDA-approved indication for these drugs, such as type 2 diabetes or cardiovascular risk reduction, whose specific plan includes this pricing",
+        "**Key deadline:** The Medicare Annual Enrollment Period, October 15 through December 7, is generally your main window to switch into a plan offering this pricing"
+      ]
+    },
+    {
       "type": "paragraph",
       "content": "A prescription that once cost hundreds of dollars a month is now within reach for many Medicare enrollees managing weight-related health conditions. The new Medicare GLP-1 $50 program has changed how certain plans price these medications, and the shift is significant for anyone watching a fixed budget closely."
     },
@@ -48,6 +57,14 @@
     },
     {
       "type": "paragraph",
+      "content": "This $50 pricing is not a formal CMS demonstration program. It reflects individual plan decisions, specifically some Medicare Part D and Medicare Advantage plans that have placed FDA-approved GLP-1 medications, such as Ozempic and Rybelsus (semaglutide) or Mounjaro (tirzepatide), on a lower-cost formulary tier or negotiated special pricing for members who are prescribed these drugs for an FDA-approved indication. Availability and pricing vary by plan and by drug, so always confirm details directly with your plan or at <a href=\"https://www.medicare.gov\">Medicare.gov</a>."
+    },
+    {
+      "type": "paragraph",
+      "content": "It is worth noting that Wegovy and Zepbound, which contain the same active ingredients as Ozempic (semaglutide) and Mounjaro (tirzepatide) respectively, are FDA-approved primarily for chronic weight management rather than type 2 diabetes. Because Medicare Part D and Medicare Advantage drug coverage generally does not include treatment for obesity or weight loss alone, Wegovy and Zepbound are typically covered only when prescribed for another FDA-approved indication your plan recognizes, such as reducing cardiovascular risk. This is different from Ozempic and Mounjaro, which are more commonly covered under Part D when prescribed for type 2 diabetes. Always check with your specific plan to see how it classifies each of these medications."
+    },
+    {
+      "type": "paragraph",
       "content": "A few terms will come up often as you research this benefit. A **formulary** is the list of drugs your plan covers. **Tier pricing** determines how much you pay based on where a drug falls on that list, and **prior authorization** means your doctor must confirm medical necessity before your plan approves coverage."
     },
     {
@@ -59,6 +76,12 @@
     {
       "type": "paragraph",
       "content": "This benefit does not exist outside your current coverage. It works within your existing Part D plan or the drug coverage bundled into your Medicare Advantage plan, so understanding your plan's specific formulary is the starting point."
+    },
+    {
+      "type": "callout",
+      "calloutType": "warning",
+      "calloutText": "Medicare Part D and Medicare Advantage drug coverage can only pay for GLP-1 medications when they are prescribed for an FDA-approved indication, such as type 2 diabetes or reducing cardiovascular risk in people with heart disease. According to CMS.gov, Medicare does not cover these drugs when prescribed solely for weight loss, since obesity treatment alone is not currently an FDA-approved use recognized for Part D coverage.",
+      "calloutTitle": "Important Coverage Rule"
     },
     {
       "type": "heading",
@@ -75,13 +98,18 @@
       "content": "Plan-specific requirements matter just as much as medical ones. Not every Medicare Part D or Medicare Advantage plan has added this pricing structure yet, so availability depends heavily on where you live and which plan you carry."
     },
     {
+      "type": "paragraph",
+      "content": "Your out-of-pocket costs can also depend on whether you qualify for Extra Help, also known as the Low-Income Subsidy. This program helps eligible enrollees with limited income and resources pay for Part D premiums, deductibles, and copays, which can significantly reduce the cost of GLP-1 medications even below a plan's standard $50 pricing. Check with Medicare.gov or the Social Security Administration to see if you qualify."
+    },
+    {
       "type": "list",
       "ordered": false,
       "items": [
         "Review your plan's Evidence of Coverage document for GLP-1 drug listings",
         "Check the formulary tier your specific medication falls under",
         "Confirm whether prior authorization or step therapy is required",
-        "Ask your plan directly whether the $50 pricing applies to your prescription"
+        "Ask your plan directly whether the $50 pricing applies to your prescription",
+        "Ask whether you qualify for Extra Help/Low-Income Subsidy, which may further lower your costs"
       ]
     },
     {
@@ -237,6 +265,14 @@
       "type": "faq",
       "faqs": [
         {
+          "question": "What is the Medicare GLP-1 $50 program exactly?",
+          "answer": "It is a lower copay, typically around $50, offered by some Medicare Part D and Medicare Advantage plans that have placed certain FDA-approved GLP-1 medications on a lower-cost formulary tier or negotiated special pricing for members who qualify based on an FDA-approved indication."
+        },
+        {
+          "question": "Does this pricing apply to Wegovy and Zepbound as well as Ozempic and Mounjaro?",
+          "answer": "It can, but coverage often works differently. Wegovy and Zepbound are FDA-approved mainly for chronic weight management, and Medicare Part D and Medicare Advantage plans typically do not cover drugs prescribed solely for weight loss. Ozempic and Mounjaro are more commonly covered when prescribed for type 2 diabetes. Check your plan's formulary to see how it classifies each medication and whether the $50 pricing applies."
+        },
+        {
           "question": "I'm not ready to enroll yet. Can I take more time to think it over?",
           "answer": "Yes, reviewing this guide first is a smart step. There is no requirement to act immediately, and taking time to compare plans, verify your doctor and pharmacy, and understand your costs will help you make a more confident decision when you are ready."
         },
@@ -251,6 +287,10 @@
         {
           "question": "How do I know which sources about this program I can trust?",
           "answer": "Start with <a href=\"https://www.medicare.gov\">Medicare.gov</a> or a licensed representative for accurate, current details. Trustworthy sources explain both benefits and limitations clearly, avoid guaranteeing savings, and never pressure you to enroll before you have had time to compare options."
+        },
+        {
+          "question": "Can Extra Help/Low-Income Subsidy lower my GLP-1 costs even further?",
+          "answer": "Yes, if you qualify for Extra Help, also called the Low-Income Subsidy, it can reduce your Part D premiums, deductibles, and copays, which may bring your GLP-1 medication costs below a plan's standard $50 pricing. Contact Medicare.gov or the Social Security Administration to check your eligibility."
         }
       ]
     },
@@ -280,6 +320,6 @@
     "medicare-annual-notice-of-change-letter"
   ],
   "id": "pipeline-50-essential-steps-to-join-medicare-s-50-glp-1-weight-loss-p",
-  "updatedAt": "2026-09-14T15:36:05.643Z",
-  "createdAt": "2026-09-14T15:36:05.643Z"
+  "updatedAt": "2026-09-14T15:49:57.430Z",
+  "createdAt": "2026-09-14T15:49:57.430Z"
 }
