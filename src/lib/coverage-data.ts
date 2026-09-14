@@ -32597,207 +32597,355 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "the-hidden-trade-offs-of-0-premium-medicare-advantage-plans", "medicare-costs-2025", "best-medicare-advantage-plans"],
   },
   {
-    slug: "medicare-general-enrollment-period",
-    seo: {
-      title: "Medicare General Enrollment Period (GEP): Dates, Rules, and Penalties",
-      description: "The Medicare General Enrollment Period runs January 1 – March 31 each year. Learn who needs it, when coverage starts, and how to avoid late enrollment penalties.",
-      canonical: "https://www.medicarefaq.com/faqs/medicare-general-enrollment-period/",
-      ogImage: "/images/medicarefaq-cover.jpg",
-    },
-    title: "Medicare General Enrollment Period",
-    subtitle: "The Medicare General Enrollment Period (GEP) is your opportunity to sign up for Medicare Part A and/or Part B if you missed your Initial Enrollment Period and do not qualify for a Special Enrollment Period. Also called the late enrollment period, the GEP is the safety net for people who missed their initial Medicare enrollment window.",
-    category: "Enrollment",
-    dateUpdated: "April 30, 2025",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
-    },
-    readTime: "6 min read",
-    quickAnswer: {
-      text: "The GEP runs January 1 – March 31 each year. Coverage starts July 1 (previously April 1 before 2023 rule change). A late enrollment penalty applies permanently if you missed your IEP without qualifying employer coverage.",
-      badges: [
-        { plan: "Part A", status: "covered" },
-        { plan: "Part B", status: "covered" },
-        { plan: "Medicare Advantage", status: "partial" },
-        { plan: "Part D", status: "partial" }],
-    },
-    comparisonTable: [
-      { planType: "Initial Enrollment Period (IEP)", coverage: "Best Option", icon: "shield", notes: "7-month window around your 65th birthday - no penalty if you enroll on time" },
-      { planType: "General Enrollment Period (GEP)", coverage: "Backup Option", icon: "heart", notes: "Jan 1 – Mar 31; coverage starts July 1; late penalty may apply" },
-      { planType: "Special Enrollment Period (SEP)", coverage: "No Penalty", icon: "filetext", notes: "Available if you had qualifying employer coverage - no late penalty" },
-      { planType: "Annual Enrollment Period (AEP)", coverage: "MA/Part D Only", icon: "users", notes: "Oct 15 – Dec 7; for changing MA or Part D plans only, not Part A/B" }],
-    planBreakdowns: [
-      {
-        planName: "What is the General Enrollment Period?",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Jan 1 – Mar 31",
-        coverageType: "covered",
-        paragraphs: [
-          "The General Enrollment Period (GEP) runs every year from January 1 through March 31. It is the safety net for people who missed their [Initial Enrollment Period](/faqs/medicare-initial-enrollment-period) and do not qualify for a Special Enrollment Period.",
-          "Starting in 2023, coverage under the GEP begins on the first day of the month after you enroll (not July 1 as it was previously). This was a significant improvement - previously you could wait up to 6 months for coverage to start."],
-        whatItCovers: [
-          "Medicare Part A enrollment (if not automatically enrolled)",
-          "Medicare Part B enrollment",
-          "Coverage starts the month after enrollment (2023 rule change)"],
-        whatItDoesntCover: [
-          "Medicare Advantage or Part D plans (use AEP or ICEP for those)",
-          "Does not eliminate late enrollment penalties already accrued"],
-      },
-      {
-        planName: "Who Needs the GEP?",
-        icon: "heart",
-        iconColor: "#059669",
-        coverageLabel: "Missed IEP",
-        coverageType: "partial",
-        paragraphs: [
-          "You need the GEP if you missed your [Initial Enrollment Period](/faqs/medicare-initial-enrollment-period/) (the 7-month window around your 65th birthday) and do not have a qualifying reason for a Special Enrollment Period.",
-          "Common reasons people end up needing the GEP: they delayed Medicare thinking COBRA or marketplace coverage qualified (it doesn't), they were unaware of the enrollment deadline, or they had a gap in employer coverage."],
-        whatItCovers: [
-          "Enrollment for people who missed their IEP",
-          "Enrollment for people who lost SEP eligibility",
-          "Re-enrollment after voluntary termination of Part B"],
-        whatItDoesntCover: [
-          "COBRA coverage does NOT qualify for an SEP - you must use the GEP",
-          "Marketplace/ACA coverage does NOT qualify for an SEP - you must use the GEP"],
-      },
-      {
-        planName: "Late Enrollment Penalties",
-        icon: "filetext",
-        iconColor: "#D97706",
-        coverageLabel: "Permanent Penalty",
-        coverageType: "not-covered",
-        paragraphs: [
-          "If you enroll during the GEP without having had qualifying coverage (like active employer coverage from an employer with 20+ employees), you will face a late enrollment penalty that is added to your premium permanently.",
-          "Part B penalty: 10% added to the standard premium for each full 12-month period you were eligible but didn't enroll. Part A penalty (if applicable): 10% added for twice the number of years you delayed."],
-        whatItCovers: [
-          "Enrollment is still possible despite the penalty",
-          "Penalty can be appealed if you had qualifying coverage"],
-        whatItDoesntCover: [
-          "Part B penalty: permanent +10% per year of delay",
-          "Part A penalty: +10% for twice the number of years delayed",
-          "Part D penalty also applies separately if you delayed drug coverage"],
-      },
-      {
-        planName: "After GEP: Enrolling in MA and Part D",
-        icon: "users",
-        iconColor: "#7C3AED",
-        coverageLabel: "ICEP Available",
-        coverageType: "covered",
-        paragraphs: [
-          "Once you enroll in Part A and B during the GEP, you have a special window called the Initial Coverage Election Period (ICEP) to enroll in a Medicare Advantage or Part D plan. The ICEP runs from when you first become eligible for MA through the end of the month you enroll in Part B.",
-          "If you miss the ICEP, you will need to wait until the [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period/) (October 15 - December 7) to add [Medicare Advantage](/medicare-part-c/medicare-advantage-plans/) or [Part D](/original-medicare/medicare-parts/medicare-part-d/) coverage."],
-        whatItCovers: [
-          "ICEP allows MA and Part D enrollment after GEP",
-          "AEP (Oct 15 – Dec 7) as a fallback for MA/Part D"],
-        whatItDoesntCover: [
-          "Medigap guaranteed issue rights may be limited after GEP enrollment",
-          "Some states have Medigap birthday rules that may help"],
-      }],
-    costTable: {
-      title: "Medicare Enrollment Periods at a Glance",
-      headers: ["Period", "Dates", "Who Uses It", "Coverage Starts", "Late Penalty?"],
-      rows: [
-        { "Period": "Initial Enrollment Period (IEP)", "Dates": "7 months around 65th birthday", "Who Uses It": "Everyone turning 65", "Coverage Starts": "Varies (1–3 months after)", "Late Penalty?": "No" },
-        { "Period": "General Enrollment Period (GEP)", "Dates": "Jan 1 – Mar 31", "Who Uses It": "Missed IEP, no SEP", "Coverage Starts": "Month after enrollment", "Late Penalty?": "Yes - permanent" },
-        { "Period": "Special Enrollment Period (SEP)", "Dates": "8 months after employer coverage ends", "Who Uses It": "Had qualifying employer coverage", "Coverage Starts": "Month after enrollment", "Late Penalty?": "No" },
-        { "Period": "Annual Enrollment Period (AEP)", "Dates": "Oct 15 – Dec 7", "Who Uses It": "Changing MA or Part D plans", "Coverage Starts": "January 1", "Late Penalty?": "Part D penalty if applicable" },
-        { "Period": "MA Open Enrollment Period", "Dates": "Jan 1 – Mar 31", "Who Uses It": "Switching MA plans or dropping MA", "Coverage Starts": "Month after enrollment", "Late Penalty?": "No" }],
-      footnote: "Coverage start dates for GEP changed in 2023 - coverage now starts the month after enrollment, not July 1.",
-    },
-    exceptionsSection: {
-      title: "Important Exceptions and Recent Changes",
-      items: [
-        {
-          title: "2023 Coverage Start Date Change",
-          text: "Before 2023, GEP enrollees had to wait until July 1 for coverage to start, regardless of when they enrolled in January–March. The Consolidated Appropriations Act of 2021 changed this - starting in 2023, coverage begins the first day of the month after you enroll.",
-          highlight: "If you enroll in February, your coverage now starts March 1 - not July 1 as it was before 2023.",
-        },
-        {
-          title: "COBRA and Marketplace Coverage do not Qualify for SEP",
-          text: "A common and costly mistake: people on COBRA or marketplace (ACA) coverage think they qualify for a Special Enrollment Period when they lose that coverage. They do not. COBRA and marketplace coverage are not considered qualifying employer coverage for Medicare SEP purposes.",
-          highlight: "If you have COBRA or marketplace coverage and miss your IEP, you must use the GEP and will face late enrollment penalties.",
-        },
-        {
-          title: "Equitable Relief for Certain Situations",
-          text: "If you missed your IEP due to misinformation from a government agency (like SSA or CMS), you may be able to request equitable relief to enroll without penalty. This is rare but worth pursuing if applicable.",
-          highlight: "Contact your SHIP counselor if you believe you received incorrect information that caused you to miss your enrollment window.",
-        }],
-    },
-    legislativeUpdate: {
-      title: "Legislative Update",
-      items: [
-        {
-          title: "GEP Coverage Start Date Improved",
-          status: "Passed",
-          description: "The Consolidated Appropriations Act of 2021 changed the GEP coverage start date from July 1 to the first day of the month after enrollment, effective January 2023. This significantly reduced the gap in coverage for late enrollees.",
-        },
-        {
-          title: "Part B Premium Increased to $185",
-          status: "Passed",
-          description: "The standard Part B premium is $202.90/month in 2026. Late enrollees pay a permanent surcharge of 10% per year of delay on top of this amount.",
-        },
-        {
-          title: "Medicare Enrollment Simplification Act",
-          status: "Proposed",
-          description: "Proposed legislation would simplify Medicare enrollment rules and reduce penalties for certain late enrollees. Has not yet passed Congress.",
-        }],
-    },
-    alternativesSection: {
-      title: "Avoid the GEP: Enroll on Time",
-      paragraphs: [
-        "The best way to avoid the GEP and its penalties is to enroll during your [Initial Enrollment Period](/faqs/medicare-initial-enrollment-period/). If you have employer coverage, work with your HR department to understand when you need to enroll in Medicare. You can also [compare plans in your area](https://demographics.medicarecompared.com/ms/) to see what coverage options are available once you are enrolled.",
-        "Contact Social Security Administration (1-800-772-1213) or visit SSA.gov to enroll. You can also enroll online at Medicare.gov."],
-      checklist: {
-        title: "GEP Enrollment Checklist",
-        type: "search",
-        items: [
-          "Confirm you don't qualify for a Special Enrollment Period first",
-          "Enroll January 1 – March 31 at SSA.gov or by calling 1-800-772-1213",
-          "Understand your late enrollment penalty amount before enrolling",
-          "After enrolling in Part A/B, use ICEP to add MA or Part D",
-          "Contact your SHIP counselor for free enrollment help",
-          "Check if your state has any Medigap open enrollment protections",
-          "Set a reminder for next AEP (Oct 15 – Dec 7) to add MA or Part D"],
-      },
-    },
-    faqs: [
-      { question: "When is the Medicare General Enrollment Period?", answer: "The GEP runs January 1 through March 31 every year. Coverage starts the first day of the month after you enroll." },
-      { question: "What is the Penalty for Enrolling during the GEP?", answer: "If you didn't have qualifying employer coverage, you'll pay a permanent 10% surcharge on your Part B premium for each full 12-month period you delayed enrollment." },
-      { question: "Can I Enroll in Medicare Advantage during the GEP?", answer: "Not directly. After enrolling in Part A/B during the GEP, you can use the Initial Coverage Election Period (ICEP) to add Medicare Advantage or Part D." },
-      { question: "Does COBRA Coverage Count for a Special Enrollment Period?", answer: "No. COBRA is not considered qualifying employer coverage for Medicare SEP purposes. If you have COBRA and miss your IEP, you must use the GEP." },
-      { question: "When Does GEP Coverage Start?", answer: "Since 2023, coverage starts the first day of the month after you enroll - a significant improvement from the previous July 1 start date." }],
-    quickReference: [
-      { icon: "info", text: "GEP dates: <strong>January 1 – March 31</strong> every year" },
-      { icon: "check", text: "Coverage starts <strong>the month after enrollment</strong> (since 2023)" },
-      { icon: "alert", text: "Late penalty: permanent <strong>+10% per year</strong> of delay on Part B premium" },
-      { icon: "x", text: "<strong>COBRA and marketplace coverage</strong> do NOT qualify for a Special Enrollment Period" },
-      { icon: "dollar", text: "Use <strong>ICEP</strong> after GEP enrollment to add Medicare Advantage or Part D" }],
-    relatedTopics: [
-      { title: "Medicare Initial Enrollment Period", description: "Learn about the 7-month window around your 65th birthday to enroll in Medicare.", slug: "medicare-initial-enrollment-period" },
-      { title: "Medicare Special Enrollment Periods", description: "Find out if you qualify for a penalty-free enrollment window.", slug: "medicare-special-enrollment-periods" },
-      { title: "Medicare Part B Late Enrollment Penalty", description: "Understand how the permanent Part B penalty is calculated.", slug: "medicare-part-b-late-enrollment-penalty" },
-      { title: "Delay Medicare", description: "Learn when it is safe to delay Medicare enrollment.", slug: "delay-medicare" }],
-    sidebarRelatedLinks: [
-      "Medicare Initial Enrollment Period",
-      "Medicare Special Enrollment Periods",
-      "Medicare Part B Late Enrollment Penalty",
-      "Delay Medicare"],
-    ctaBanner: {
-      title: "Missed Your Enrollment Window?",
-      text: "Our licensed agents can help you understand your options and minimize late enrollment penalties.",
-    },
-    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "eligibility-for-special-enrollment-period-after-medicare-coverage-loss", "medicare-advantage-open-enrollment-period"],
+  slug: "medicare-general-enrollment-period",
+  seo: {
+    title: "Medicare General Enrollment Period (GEP): Dates, Rules, and Penalties",
+    description: "Missed your Medicare enrollment window? See exact GEP dates, when coverage begins, and how to minimize your late enrollment penalty.",
+    canonical: "https://www.medicarefaq.com/faqs/medicare-general-enrollment-period/",
+    ogImage: "/images/medicarefaq-cover.jpg",
   },
+  title: "Medicare General Enrollment Period",
+  subtitle: "The Medicare General Enrollment Period (GEP) is your opportunity to sign up for Medicare Part A and/or Part B if you missed your Initial Enrollment Period and do not qualify for a Special Enrollment Period. Also called the late enrollment period, the GEP is the safety net for people who missed their initial Medicare enrollment window.",
+  category: "Enrollment",
+  dateUpdated: "April 30, 2025",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
+  },
+  readTime: "6 min read",
+  quickAnswer: {
+    text: "The Medicare General Enrollment Period (GEP) lets you sign up for Part A and/or Part B if you missed your Initial Enrollment Period and don't qualify for a Special Enrollment Period. It runs January 1 through March 31 each year, with coverage starting the following July. Enrolling through the GEP may trigger a late enrollment penalty if you went without qualifying coverage during your IEP.",
+    badges: [
+      {
+        plan: "Part A",
+        status: "covered",
+      },
+      {
+        plan: "Part B",
+        status: "covered",
+      },
+      {
+        plan: "Medicare Advantage",
+        status: "partial",
+      },
+      {
+        plan: "Part D",
+        status: "partial",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Initial Enrollment Period (IEP)",
+      coverage: "Best Option",
+      icon: "shield",
+      notes: "7-month window around your 65th birthday - no penalty if you enroll on time",
+    },
+    {
+      planType: "General Enrollment Period (GEP)",
+      coverage: "Backup Option",
+      icon: "heart",
+      notes: "Jan 1 – Mar 31; coverage starts July 1; late penalty may apply",
+    },
+    {
+      planType: "Special Enrollment Period (SEP)",
+      coverage: "No Penalty",
+      icon: "filetext",
+      notes: "Available if you had qualifying employer coverage - no late penalty",
+    },
+    {
+      planType: "Annual Enrollment Period (AEP)",
+      coverage: "MA/Part D Only",
+      icon: "users",
+      notes: "Oct 15 – Dec 7; for changing MA or Part D plans only, not Part A/B",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "What is the General Enrollment Period?",
+      icon: "shield",
+      iconColor: "#1B2A4A",
+      coverageLabel: "Jan 1 – Mar 31",
+      coverageType: "covered",
+      paragraphs: [
+      "The General Enrollment Period (GEP) runs every year from January 1 through March 31. It is the safety net for people who missed their [Initial Enrollment Period](/faqs/medicare-initial-enrollment-period) and do not qualify for a Special Enrollment Period.",
+      "Starting in 2023, coverage under the GEP begins on the first day of the month after you enroll (not July 1 as it was previously). This was a significant improvement - previously you could wait up to 6 months for coverage to start.",
+    ],
+      whatItCovers: [
+      "Medicare Part A enrollment (if not automatically enrolled)",
+      "Medicare Part B enrollment",
+      "Coverage starts the month after enrollment (2023 rule change)",
+    ],
+      whatItDoesntCover: [
+      "Medicare Advantage or Part D plans (use AEP or ICEP for those)",
+      "Does not eliminate late enrollment penalties already accrued",
+    ],
+    },
+    {
+      planName: "Who Needs the GEP?",
+      icon: "heart",
+      iconColor: "#059669",
+      coverageLabel: "Missed IEP",
+      coverageType: "partial",
+      paragraphs: [
+      "You need the GEP if you missed your [Initial Enrollment Period](/faqs/medicare-initial-enrollment-period/) (the 7-month window around your 65th birthday) and do not have a qualifying reason for a Special Enrollment Period.",
+      "Common reasons people end up needing the GEP: they delayed Medicare thinking COBRA or marketplace coverage qualified (it doesn't), they were unaware of the enrollment deadline, or they had a gap in employer coverage.",
+    ],
+      whatItCovers: [
+      "Enrollment for people who missed their IEP",
+      "Enrollment for people who lost SEP eligibility",
+      "Re-enrollment after voluntary termination of Part B",
+    ],
+      whatItDoesntCover: [
+      "COBRA coverage does NOT qualify for an SEP - you must use the GEP",
+      "Marketplace/ACA coverage does NOT qualify for an SEP - you must use the GEP",
+    ],
+    },
+    {
+      planName: "Late Enrollment Penalties",
+      icon: "filetext",
+      iconColor: "#D97706",
+      coverageLabel: "Permanent Penalty",
+      coverageType: "not-covered",
+      paragraphs: [
+      "If you enroll during the GEP without having had qualifying coverage (like active employer coverage from an employer with 20+ employees), you will face a late enrollment penalty that is added to your premium permanently.",
+      "Part B penalty: 10% added to the standard premium for each full 12-month period you were eligible but didn't enroll. Part A penalty (if applicable): 10% added for twice the number of years you delayed.",
+    ],
+      whatItCovers: [
+      "Enrollment is still possible despite the penalty",
+      "Penalty can be appealed if you had qualifying coverage",
+    ],
+      whatItDoesntCover: [
+      "Part B penalty: permanent +10% per year of delay",
+      "Part A penalty: +10% for twice the number of years delayed",
+      "Part D penalty also applies separately if you delayed drug coverage",
+    ],
+    },
+    {
+      planName: "After GEP: Enrolling in MA and Part D",
+      icon: "users",
+      iconColor: "#7C3AED",
+      coverageLabel: "ICEP Available",
+      coverageType: "covered",
+      paragraphs: [
+      "Once you enroll in Part A and B during the GEP, you have a special window called the Initial Coverage Election Period (ICEP) to enroll in a Medicare Advantage or Part D plan. The ICEP runs from when you first become eligible for MA through the end of the month you enroll in Part B.",
+      "If you miss the ICEP, you will need to wait until the [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period/) (October 15 - December 7) to add [Medicare Advantage](/medicare-part-c/medicare-advantage-plans/) or [Part D](/original-medicare/medicare-parts/medicare-part-d/) coverage.",
+    ],
+      whatItCovers: [
+      "ICEP allows MA and Part D enrollment after GEP",
+      "AEP (Oct 15 – Dec 7) as a fallback for MA/Part D",
+    ],
+      whatItDoesntCover: [
+      "Medigap guaranteed issue rights may be limited after GEP enrollment",
+      "Some states have Medigap birthday rules that may help",
+    ],
+    },
+  ],
+  costTable: {
+    title: "Medicare Enrollment Periods at a Glance",
+    headers: [
+    "Period",
+    "Dates",
+    "Who Uses It",
+    "Coverage Starts",
+    "Late Penalty?",
+  ],
+    rows: [
+      {
+        "Period": "Initial Enrollment Period (IEP)",
+        "Dates": "7 months around 65th birthday",
+        "Who Uses It": "Everyone turning 65",
+        "Coverage Starts": "Varies (1–3 months after)",
+        "Late Penalty?": "No",
+      },
+      {
+        "Period": "General Enrollment Period (GEP)",
+        "Dates": "Jan 1 – Mar 31",
+        "Who Uses It": "Missed IEP, no SEP",
+        "Coverage Starts": "Month after enrollment",
+        "Late Penalty?": "Yes - permanent",
+      },
+      {
+        "Period": "Special Enrollment Period (SEP)",
+        "Dates": "8 months after employer coverage ends",
+        "Who Uses It": "Had qualifying employer coverage",
+        "Coverage Starts": "Month after enrollment",
+        "Late Penalty?": "No",
+      },
+      {
+        "Period": "Annual Enrollment Period (AEP)",
+        "Dates": "Oct 15 – Dec 7",
+        "Who Uses It": "Changing MA or Part D plans",
+        "Coverage Starts": "January 1",
+        "Late Penalty?": "Part D penalty if applicable",
+      },
+      {
+        "Period": "MA Open Enrollment Period",
+        "Dates": "Jan 1 – Mar 31",
+        "Who Uses It": "Switching MA plans or dropping MA",
+        "Coverage Starts": "Month after enrollment",
+        "Late Penalty?": "No",
+      },
+    ],
+    footnote: "Coverage start dates for GEP changed in 2023 - coverage now starts the month after enrollment, not July 1.",
+  },
+  exceptionsSection: {
+    title: "Important Exceptions and Recent Changes",
+    items: [
+      {
+        title: "2023 Coverage Start Date Change",
+        text: "Before 2023, GEP enrollees had to wait until July 1 for coverage to start, regardless of when they enrolled in January–March. The Consolidated Appropriations Act of 2021 changed this - starting in 2023, coverage begins the first day of the month after you enroll.",
+        highlight: "If you enroll in February, your coverage now starts March 1 - not July 1 as it was before 2023.",
+      },
+      {
+        title: "COBRA and Marketplace Coverage do not Qualify for SEP",
+        text: "A common and costly mistake: people on COBRA or marketplace (ACA) coverage think they qualify for a Special Enrollment Period when they lose that coverage. They do not. COBRA and marketplace coverage are not considered qualifying employer coverage for Medicare SEP purposes.",
+        highlight: "If you have COBRA or marketplace coverage and miss your IEP, you must use the GEP and will face late enrollment penalties.",
+      },
+      {
+        title: "Equitable Relief for Certain Situations",
+        text: "If you missed your IEP due to misinformation from a government agency (like SSA or CMS), you may be able to request equitable relief to enroll without penalty. This is rare but worth pursuing if applicable.",
+        highlight: "Contact your SHIP counselor if you believe you received incorrect information that caused you to miss your enrollment window.",
+      },
+    ],
+  },
+  legislativeUpdate: {
+    title: "Legislative Update",
+    items: [
+      {
+        title: "GEP Coverage Start Date Improved",
+        status: "Passed",
+        description: "The Consolidated Appropriations Act of 2021 changed the GEP coverage start date from July 1 to the first day of the month after enrollment, effective January 2023. This significantly reduced the gap in coverage for late enrollees.",
+      },
+      {
+        title: "Part B Premium Increased to $185",
+        status: "Passed",
+        description: "The standard Part B premium is $202.90/month in 2026. Late enrollees pay a permanent surcharge of 10% per year of delay on top of this amount.",
+      },
+      {
+        title: "Medicare Enrollment Simplification Act",
+        status: "Proposed",
+        description: "Proposed legislation would simplify Medicare enrollment rules and reduce penalties for certain late enrollees. Has not yet passed Congress.",
+      },
+    ],
+  },
+  alternativesSection: {
+    title: "Avoid the GEP: Enroll on Time",
+    paragraphs: [
+    "The best way to avoid the GEP and its penalties is to enroll during your [Initial Enrollment Period](/faqs/medicare-initial-enrollment-period/). If you have employer coverage, work with your HR department to understand when you need to enroll in Medicare. You can also [compare plans in your area](https://demographics.medicarecompared.com/ms/) to see what coverage options are available once you are enrolled.",
+    "Contact Social Security Administration (1-800-772-1213) or visit SSA.gov to enroll. You can also enroll online at Medicare.gov.",
+  ],
+    checklist: {
+    title: "GEP Enrollment Checklist",
+    items: [
+    "Confirm you don't qualify for a Special Enrollment Period first",
+    "Enroll January 1 – March 31 at SSA.gov or by calling 1-800-772-1213",
+    "Understand your late enrollment penalty amount before enrolling",
+    "After enrolling in Part A/B, use ICEP to add MA or Part D",
+    "Contact your SHIP counselor for free enrollment help",
+    "Check if your state has any Medigap open enrollment protections",
+    "Set a reminder for next AEP (Oct 15 – Dec 7) to add MA or Part D",
+  ],
+    type: "search",
+  },
+  },
+  faqs: [
+    {
+      question: "When is the Medicare General Enrollment Period?",
+      answer: "The GEP runs January 1 through March 31 every year. Coverage starts the first day of the month after you enroll.",
+    },
+    {
+      question: "What is the Penalty for Enrolling during the GEP?",
+      answer: "If you didn't have qualifying employer coverage, you'll pay a permanent 10% surcharge on your Part B premium for each full 12-month period you delayed enrollment.",
+    },
+    {
+      question: "Can I Enroll in Medicare Advantage during the GEP?",
+      answer: "Not directly. After enrolling in Part A/B during the GEP, you can use the Initial Coverage Election Period (ICEP) to add Medicare Advantage or Part D.",
+    },
+    {
+      question: "Does COBRA Coverage Count for a Special Enrollment Period?",
+      answer: "No. COBRA is not considered qualifying employer coverage for Medicare SEP purposes. If you have COBRA and miss your IEP, you must use the GEP.",
+    },
+    {
+      question: "When Does GEP Coverage Start?",
+      answer: "Since 2023, coverage starts the first day of the month after you enroll - a significant improvement from the previous July 1 start date.",
+    },
+    {
+      question: "How Do I Enroll During the General Enrollment Period?",
+      answer: "You can enroll during the GEP by contacting Social Security online, by phone, or in person at a local office. If you're requesting Part A only or already have Part A and need Part B, submit the approp",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "info",
+      text: "GEP dates: <strong>January 1 – March 31</strong> every year",
+    },
+    {
+      icon: "check",
+      text: "Coverage starts <strong>the month after enrollment</strong> (since 2023)",
+    },
+    {
+      icon: "alert",
+      text: "Late penalty: permanent <strong>+10% per year</strong> of delay on Part B premium",
+    },
+    {
+      icon: "x",
+      text: "<strong>COBRA and marketplace coverage</strong> do NOT qualify for a Special Enrollment Period",
+    },
+    {
+      icon: "dollar",
+      text: "Use <strong>ICEP</strong> after GEP enrollment to add Medicare Advantage or Part D",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Medicare Initial Enrollment Period",
+      description: "Learn about the 7-month window around your 65th birthday to enroll in Medicare.",
+      slug: "medicare-initial-enrollment-period",
+    },
+    {
+      title: "Medicare Special Enrollment Periods",
+      description: "Find out if you qualify for a penalty-free enrollment window.",
+      slug: "medicare-special-enrollment-periods",
+    },
+    {
+      title: "Medicare Part B Late Enrollment Penalty",
+      description: "Understand how the permanent Part B penalty is calculated.",
+      slug: "medicare-part-b-late-enrollment-penalty",
+    },
+    {
+      title: "Delay Medicare",
+      description: "Learn when it is safe to delay Medicare enrollment.",
+      slug: "delay-medicare",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "Medicare Initial Enrollment Period",
+    "Medicare Special Enrollment Periods",
+    "Medicare Part B Late Enrollment Penalty",
+    "Delay Medicare",
+  ],
+  ctaBanner: {
+    title: "Missed Your Enrollment Window?",
+    text: "Our licensed agents can help you understand your options and minimize late enrollment penalties.",
+  },
+  relatedSlugs: [
+    "your-guide-to-medicare-enrollment-periods-when-to-sign-up",
+    "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them",
+    "protect-yourself-from-medicare-penalties-key-tips-and-deadlines",
+    "eligibility-for-special-enrollment-period-after-medicare-coverage-loss",
+    "medicare-advantage-open-enrollment-period",
+  ],
+},
   {
     slug: "medicare-annual-wellness-visit",
     seo: {
