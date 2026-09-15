@@ -25022,255 +25022,354 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   /* ─── Medicare Low Income Subsidy (Extra Help) ─── */
   {
-    slug: "medicare-low-income-subsidy",
-    seo: {
-      title: "Medicare Low Income Subsidy (Extra Help): Eligibility & Benefits | MedicareFAQ",
-      description: "The Medicare Low Income Subsidy (LIS), also called Extra Help, reduces Part D drug costs for people with limited income. Learn eligibility, income limits, and how to apply.",
-      canonical: "https://www.medicarefaq.com/faqs/medicare-low-income-subsidy/",
-      ogImage: "/images/medicarefaq-cover.jpg",
-    },
-    title: "Medicare Low Income Subsidy (Extra Help)",
-    subtitle: "The Low Income Subsidy (LIS), also known as Extra Help, can save Medicare beneficiaries thousands of dollars per year on prescription drug costs.",
-    category: "Medicare Costs",
-    dateUpdated: "April 29, 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is the Compliance & Editorial Manager at MedicareFAQ.",
-    },
-    readTime: "6 min read",
-    quickAnswer: {
-      text: "Extra Help (Low Income Subsidy) is a federal program that helps people with limited income and resources pay for Medicare Part D prescription drug costs, including premiums, deductibles, and copays. In 2026, individuals with monthly income up to $2,015 may qualify.",
-      badges: [
-        { plan: "Part D", status: "covered" },
-        { plan: "Part A", status: "not-covered" },
-        { plan: "Part B", status: "not-covered" },
-        { plan: "Medicare Advantage", status: "partial" }],
-    },
-    comparisonTable: [
-      {
-        planType: "Full Extra Help (Level 1)",
-        coverage: "$0 premium, $0 deductible, minimal copays",
-        icon: "shield-check",
-        notes: "Auto-enrolled if you have Medicaid, SSI, or Medicare Savings Program",
-      },
-      {
-        planType: "Partial Extra Help (Level 2)",
-        coverage: "Reduced premium, $0 deductible, low copays",
-        icon: "info",
-        notes: "Income between 135%-150% of Federal Poverty Level",
-      },
-      {
-        planType: "Medicare Savings Programs (MSP)",
-        coverage: "Covers Part B premiums; may auto-qualify for Extra Help",
-        icon: "shield-check",
-        notes: "QMB, SLMB, QI programs also reduce Medicare costs",
-      },
-      {
-        planType: "No Extra Help",
-        coverage: "Standard Part D costs apply",
-        icon: "alert-triangle",
-        notes: "Income/resources above the LIS limits",
-      }],
-    planBreakdowns: [
-      {
-        planName: "What Extra Help Covers",
-        icon: "pill",
-        iconColor: "text-blue-600",
-        coverageLabel: "Part D Cost Reduction",
-        coverageType: "covered",
-        paragraphs: [
-          "Extra Help pays for most or all of your Medicare Part D prescription drug plan costs. This includes the monthly premium, annual deductible, and copayments or coinsurance for covered drugs.",
-          "Beneficiaries with full Extra Help pay no more than a small copay per prescription \u2014 typically $4.50 for generics and $11.20 for brand-name drugs in 2025."],
-        whatItCovers: [
-          "Part D monthly premiums (up to the benchmark amount)",
-          "Part D annual deductible ($0 for full Extra Help)",
-          "Copays: $4.50 generics / $11.20 brand-name (2025, full LIS)",
-          "Coverage gap (donut hole) costs"],
-        whatItDoesntCover: [
-          "Part A or Part B premiums (covered by Medicare Savings Programs instead)",
-          "Drugs not covered by your Part D plan",
-          "Over-the-counter medications",
-          "Non-drug medical expenses"],
-        callout: {
-          type: "tip",
-          title: "Automatic Enrollment",
-          text: "If you receive Medicaid, Supplemental Security Income (SSI), or are enrolled in a Medicare Savings Program, you are automatically enrolled in Extra Help. No separate application needed.",
-        },
-      },
-      {
-        planName: "Eligibility: Income & Resource Limits",
-        icon: "dollar-sign",
-        iconColor: "text-green-600",
-        coverageLabel: "2025-2026 Thresholds",
-        coverageType: "partial",
-        paragraphs: [
-          "To qualify for Extra Help, your income and resources must fall below certain limits set by the Social Security Administration. These limits are updated annually.",
-          "For 2026, individuals with monthly income up to $2,015 (or $2,725 for married couples) may qualify. Resource limits are $17,220 for individuals and $34,360 for couples."],
-        whatItCovers: [
-          "2026 income limit: $2,015/month individual ($24,180/year)",
-          "2026 income limit: $2,725/month married couple ($32,700/year)",
-          "2026 resource limit: $17,220 individual / $34,360 couple",
-          "Resources exclude: home, car, burial funds, life insurance"],
-        whatItDoesntCover: [
-          "Income above 150% of Federal Poverty Level generally disqualifies",
-          "Resources include: bank accounts, stocks, bonds, second homes",
-          "Employer pension income counts toward income limits"],
-      },
-      {
-        planName: "How to Apply for Extra Help",
-        icon: "clipboard-list",
-        iconColor: "text-teal-600",
-        coverageLabel: "Three Ways to Apply",
-        coverageType: "covered",
-        paragraphs: [
-          "You can apply for Extra Help at any time of year through Social Security. There is no open enrollment window \u2014 you can apply whenever you become eligible.",
-          "Once approved, you will receive a notice from Social Security and be able to enroll in or change your Part D plan during a Special Enrollment Period."],
-        whatItCovers: [
-          "Online: Apply at [ssa.gov](https://www.ssa.gov/)/medicare/part-d-extra-help",
-          "Phone: Call Social Security at 1-800-772-1213",
-          "In person: Visit your local Social Security office",
-          "State Medicaid office may also process applications"],
-        whatItDoesntCover: [
-          "Applications are not processed through Medicare.gov",
-          "SHIP counselors can help but cannot submit on your behalf"],
-        callout: {
-          type: "info",
-          title: "Special Enrollment Period",
-          text: "When you qualify for Extra Help, you get a Special Enrollment Period to join, switch, or drop a Medicare drug plan once per quarter in the first 9 months of the year.",
-        },
-      },
-      {
-        planName: "Related Medicare Savings Programs",
-        icon: "layers",
-        iconColor: "text-purple-600",
-        coverageLabel: "Additional Cost Help",
-        coverageType: "partial",
-        paragraphs: [
-          "Medicare Savings Programs (MSPs) are state programs that help pay Medicare Part A and Part B costs. Qualifying for an MSP often automatically qualifies you for Extra Help.",
-          "There are four MSP levels: Qualified Medicare Beneficiary (QMB), Specified Low-Income Medicare Beneficiary (SLMB), Qualifying Individual (QI), and Qualified Disabled and Working Individuals (QDWI)."],
-        whatItCovers: [
-          "QMB: Pays Part A & B premiums, deductibles, coinsurance",
-          "SLMB: Pays Part B premium only",
-          "QI: Pays Part B premium (limited slots available)",
-          "All MSPs automatically qualify you for Extra Help"],
-        whatItDoesntCover: [
-          "MSPs don't cover Part D costs directly (Extra Help does)",
-          "QI program has limited funding and may have waitlists"],
-      }],
-    costTable: {
-      title: "Extra Help Cost Comparison (2025)",
-      headers: ["Cost Category", "Without Extra Help", "With Full Extra Help"],
-      rows: [
-        { "Cost Category": "Part D Monthly Premium", "Without Extra Help": "$0-$100+ (plan varies)", "With Full Extra Help": "$0 (up to benchmark)"},
-        { "Cost Category": "Annual Deductible", "Without Extra Help": "Up to $590 (2025)", "With Full Extra Help": "$0"},
-        { "Cost Category": "Generic Drug Copay", "Without Extra Help": "Varies by plan tier", "With Full Extra Help": "$4.50 per prescription"},
-        { "Cost Category": "Brand-Name Drug Copay", "Without Extra Help": "Varies by plan tier", "With Full Extra Help": "$11.20 per prescription"},
-        { "Cost Category": "Coverage Gap Costs", "Without Extra Help": "25% of drug cost", "With Full Extra Help": "$0"}],
-      footnote: "Copay amounts for full Extra Help are set by CMS and updated annually. Partial Extra Help has different copay levels based on income.",
-    },
-    exceptionsSection: {
-      title: "Important Exceptions & Special Situations",
-      items: [
-        {
-          title: "Automatic Qualification",
-          text: "You are automatically enrolled in Extra Help if you receive full Medicaid benefits, Supplemental Security Income (SSI), or are enrolled in a Medicare Savings Program. CMS will notify you by letter.",
-          highlight: "No application needed if you already receive Medicaid or SSI.",
-        },
-        {
-          title: "Deemed Eligible vs. Applied",
-          text: "Beneficiaries who are automatically enrolled ('deemed eligible') receive full Extra Help. Those who apply and qualify based on income/resources may receive full or partial Extra Help depending on their specific situation.",
-        },
-        {
-          title: "Annual Redetermination",
-          text: "SSA reviews your Extra Help eligibility each year. If your income or resources change, your level of assistance may change. You'll receive a notice if your status changes.",
-        },
-        {
-          title: "Benchmark Premium Plans",
-          text: "Extra Help pays your Part D premium up to the 'benchmark' amount for your region. If you choose a plan with a premium above the benchmark, you pay the difference.",
-        }],
-    },
-    legislativeUpdate: {
-      title: "Recent Policy Updates",
-      items: [
-        {
-          title: "Inflation Reduction Act \U2014 Expanded Extra Help",
-          status: "Passed",
-          description: "The Inflation Reduction Act (2022) expanded Extra Help eligibility to 150% of the Federal Poverty Level (previously 135%), bringing more low-income beneficiaries into the program starting in 2024.",
-        },
-        {
-          title: "$2,000 Part D Out-of-Pocket Cap (2025)",
-          status: "Passed",
-          description: "Starting in 2025, Medicare Part D has a $2,000 annual out-of-pocket cap. Extra Help beneficiaries continue to pay only their small copays and are not subject to this cap.",
-        }],
-    },
-    alternativesSection: {
-      title: "Steps to Apply for Extra Help",
-      paragraphs: [
-        "Applying for Extra Help is free and can be done at any time of year. Here's how to get started:"],
-      checklist: {
-        title: "Application Checklist",
-        items: [
-          "Check your income against the current year's limits at ssa.gov",
-          "Gather documents: Social Security card, bank statements, proof of income",
-          "Apply online at ssa.gov/medicare/part-d-extra-help or call 1-800-772-1213",
-          "Also apply for Medicare Savings Programs through your state Medicaid office",
-          "Once approved, use your Special Enrollment Period to choose a Part D plan",
-          "Contact your State Health Insurance Assistance Program (SHIP) for free help"],
-        type: "tip",
-      },
-    },
-    faqs: [
-      {
-        question: "What is the Difference between Extra Help and Medicare Savings Programs?",
-        answer: "Extra Help reduces Part D (drug) costs. Medicare Savings Programs reduce Part A and Part B costs like premiums and deductibles. They are separate programs, but qualifying for an MSP usually automatically qualifies you for Extra Help.",
-      },
-      {
-        question: "Can I apply for Extra Help if I'm not yet on Medicare?",
-        answer: "Yes. You can apply up to 3 months before your Medicare Part D coverage begins. SSA will hold your application and process it when your coverage starts.",
-      },
-      {
-        question: "How Long Does Extra Help Last?",
-        answer: "Extra Help is renewed annually. SSA reviews your eligibility each year and sends a notice. As long as your income and resources remain within limits, you'll continue to receive the benefit.",
-      },
-      {
-        question: "Does Extra Help Cover Medicare Advantage Drug Plans?",
-        answer: "Yes. Extra Help applies to Medicare Advantage plans that include drug coverage (MA-PD plans), not just standalone Part D plans.",
-      },
-      {
-        question: "What if My Income is Slightly Above the Limit?",
-        answer: "You may still qualify for partial Extra Help, which provides reduced premiums and copays. Also check if your state has a State Pharmaceutical Assistance Program (SPAP) for additional help.",
-      }],
-    quickReference: [
-      { icon: "check", text: "Extra Help reduces Part D premiums, deductibles, and copays for low-income beneficiaries" },
-      { icon: "info", text: "2026 income limit: $2,015/month individual; $2,725/month married couple" },
-      { icon: "check", text: "Medicaid, SSI, and MSP recipients are automatically enrolled \u2014 no application needed" },
-      { icon: "dollar", text: "Full Extra Help copays: $4.50 generics / $11.20 brand-name (2025)" },
-      { icon: "alert", text: "Apply through Social Security at any time \u2014 there is no enrollment window" }],
-    relatedTopics: [
-      { title: "Medicare Extra Help Program", description: "Detailed guide to the Extra Help program and how to apply.", slug: "medicare-extra-help-program" },
-      { title: "Qualified Medicare Beneficiary Program", description: "How the QMB program helps with Part A and Part B costs.", slug: "qualified-medicare-beneficiary-program" },
-      { title: "Saving on Prescription Drug Costs", description: "Ways seniors can reduce their prescription drug expenses.", slug: "how-can-seniors-save-on-prescription-drug-costs" },
-      { title: "Medicare and Medicaid", description: "How to qualify for and use both Medicare and Medicaid together.", slug: "medicare-vs-medicaid" }],
-    sidebarRelatedLinks: [
-      "Medicare Extra Help",
-      "QMB Program",
-      "Saving on Drug Costs",
-      "Medicare and Medicaid"],
-    ctaBanner: {
-      title: "Could You Qualify for Extra Help?",
-      text: "Our licensed agents can help you determine if you qualify for the Low Income Subsidy and find a Part D plan that maximizes your savings.",
-    },
-    relatedSlugs: ["medicare-extra-help-program", "qualified-medicare-beneficiary-program", "how-can-seniors-save-on-prescription-drug-costs", "medicare-vs-medicaid", "extra-help-low-income-subsidy", "top-5-dental-insurance-for-seniors"],
+  slug: "medicare-low-income-subsidy",
+  seo: {
+    title: "Medicare Low Income Subsidy (Extra Help): Eligibility & Benefits | MedicareFAQ",
+    description: "The Medicare Low Income Subsidy (LIS), also called Extra Help, reduces Part D drug costs for people with limited income. Learn eligibility, income limits, and how to apply.",
+    canonical: "https://www.medicarefaq.com/faqs/medicare-low-income-subsidy/",
+    ogImage: "/images/medicarefaq-cover.jpg",
   },
+  title: "Medicare Low Income Subsidy (Extra Help)",
+  subtitle: "The Low Income Subsidy (LIS), also known as Extra Help, can save Medicare beneficiaries thousands of dollars per year on prescription drug costs.",
+  category: "Medicare Costs",
+  dateUpdated: "April 29, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is the Compliance & Editorial Manager at MedicareFAQ.",
+  },
+  readTime: "6 min read",
+  quickAnswer: {
+    text: "Extra Help (Low Income Subsidy) is a federal program that helps people with limited income and resources pay for Medicare Part D prescription drug costs, including premiums, deductibles, and copays. In 2026, individuals with monthly income up to $2,015 may qualify.",
+    badges: [
+      {
+        plan: "Part D",
+        status: "covered",
+      },
+      {
+        plan: "Part A",
+        status: "not-covered",
+      },
+      {
+        plan: "Part B",
+        status: "not-covered",
+      },
+      {
+        plan: "Medicare Advantage",
+        status: "partial",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Full Extra Help (Level 1)",
+      coverage: "$0 premium, $0 deductible, minimal copays",
+      icon: "shield-check",
+      notes: "Auto-enrolled if you have Medicaid, SSI, or Medicare Savings Program",
+    },
+    {
+      planType: "Partial Extra Help (Level 2)",
+      coverage: "Reduced premium, $0 deductible, low copays",
+      icon: "info",
+      notes: "Income between 135%-150% of Federal Poverty Level",
+    },
+    {
+      planType: "Medicare Savings Programs (MSP)",
+      coverage: "Covers Part B premiums; may auto-qualify for Extra Help",
+      icon: "shield-check",
+      notes: "QMB, SLMB, QI programs also reduce Medicare costs",
+    },
+    {
+      planType: "No Extra Help",
+      coverage: "Standard Part D costs apply",
+      icon: "alert-triangle",
+      notes: "Income/resources above the LIS limits",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "What Extra Help Covers",
+      icon: "pill",
+      iconColor: "text-blue-600",
+      coverageLabel: "Part D Cost Reduction",
+      coverageType: "covered",
+      paragraphs: [
+      "Extra Help pays for most or all of your Medicare Part D prescription drug plan costs. This includes the monthly premium, annual deductible, and copayments or coinsurance for covered drugs.",
+      "Beneficiaries with full Extra Help pay no more than a small copay per prescription — typically $4.50 for generics and $11.20 for brand-name drugs in 2025.",
+    ],
+      whatItCovers: [
+      "Part D monthly premiums (up to the benchmark amount)",
+      "Part D annual deductible ($0 for full Extra Help)",
+      "Copays: $4.50 generics / $11.20 brand-name (2025, full LIS)",
+      "Coverage gap (donut hole) costs",
+    ],
+      whatItDoesntCover: [
+      "Part A or Part B premiums (covered by Medicare Savings Programs instead)",
+      "Drugs not covered by your Part D plan",
+      "Over-the-counter medications",
+      "Non-drug medical expenses",
+    ],
+      callout: {
+      type: "tip",
+      title: "Automatic Enrollment",
+      text: "If you receive Medicaid, Supplemental Security Income (SSI), or are enrolled in a Medicare Savings Program, you are automatically enrolled in Extra Help. No separate application needed.",
+    },
+    },
+    {
+      planName: "Eligibility: Income & Resource Limits",
+      icon: "dollar-sign",
+      iconColor: "text-green-600",
+      coverageLabel: "2025-2026 Thresholds",
+      coverageType: "partial",
+      paragraphs: [
+      "To qualify for Extra Help, your income and resources must fall below certain limits set by the Social Security Administration. These limits are updated annually.",
+      "For 2026, individuals with monthly income up to $2,015 (or $2,725 for married couples) may qualify. Resource limits are $17,220 for individuals and $34,360 for couples.",
+    ],
+      whatItCovers: [
+      "2026 income limit: $2,015/month individual ($24,180/year)",
+      "2026 income limit: $2,725/month married couple ($32,700/year)",
+      "2026 resource limit: $17,220 individual / $34,360 couple",
+      "Resources exclude: home, car, burial funds, life insurance",
+    ],
+      whatItDoesntCover: [
+      "Income above 150% of Federal Poverty Level generally disqualifies",
+      "Resources include: bank accounts, stocks, bonds, second homes",
+      "Employer pension income counts toward income limits",
+    ],
+    },
+    {
+      planName: "How to Apply for Extra Help",
+      icon: "clipboard-list",
+      iconColor: "text-teal-600",
+      coverageLabel: "Three Ways to Apply",
+      coverageType: "covered",
+      paragraphs: [
+      "You can apply for Extra Help at any time of year through Social Security. There is no open enrollment window — you can apply whenever you become eligible.",
+      "Once approved, you will receive a notice from Social Security and be able to enroll in or change your Part D plan during a Special Enrollment Period.",
+    ],
+      whatItCovers: [
+      "Online: Apply at [ssa.gov](https://www.ssa.gov/)/medicare/part-d-extra-help",
+      "Phone: Call Social Security at 1-800-772-1213",
+      "In person: Visit your local Social Security office",
+      "State Medicaid office may also process applications",
+    ],
+      whatItDoesntCover: [
+      "Applications are not processed through Medicare.gov",
+      "SHIP counselors can help but cannot submit on your behalf",
+    ],
+      callout: {
+      type: "info",
+      title: "Special Enrollment Period",
+      text: "When you qualify for Extra Help, you get a Special Enrollment Period to join, switch, or drop a Medicare drug plan once per quarter in the first 9 months of the year.",
+    },
+    },
+    {
+      planName: "Related Medicare Savings Programs",
+      icon: "layers",
+      iconColor: "text-purple-600",
+      coverageLabel: "Additional Cost Help",
+      coverageType: "partial",
+      paragraphs: [
+      "Medicare Savings Programs (MSPs) are state programs that help pay Medicare Part A and Part B costs. Qualifying for an MSP often automatically qualifies you for Extra Help.",
+      "There are four MSP levels: Qualified Medicare Beneficiary (QMB), Specified Low-Income Medicare Beneficiary (SLMB), Qualifying Individual (QI), and Qualified Disabled and Working Individuals (QDWI).",
+    ],
+      whatItCovers: [
+      "QMB: Pays Part A & B premiums, deductibles, coinsurance",
+      "SLMB: Pays Part B premium only",
+      "QI: Pays Part B premium (limited slots available)",
+      "All MSPs automatically qualify you for Extra Help",
+    ],
+      whatItDoesntCover: [
+      "MSPs don't cover Part D costs directly (Extra Help does)",
+      "QI program has limited funding and may have waitlists",
+    ],
+    },
+  ],
+  costTable: {
+    title: "Extra Help Cost Comparison (2025)",
+    headers: [
+    "Cost Category",
+    "Without Extra Help",
+    "With Full Extra Help",
+  ],
+    rows: [
+      {
+        "Cost Category": "Part D Monthly Premium",
+        "Without Extra Help": "$0-$100+ (plan varies)",
+        "With Full Extra Help": "$0 (up to benchmark)",
+      },
+      {
+        "Cost Category": "Annual Deductible",
+        "Without Extra Help": "Up to $590 (2025)",
+        "With Full Extra Help": "$0",
+      },
+      {
+        "Cost Category": "Generic Drug Copay",
+        "Without Extra Help": "Varies by plan tier",
+        "With Full Extra Help": "$4.50 per prescription",
+      },
+      {
+        "Cost Category": "Brand-Name Drug Copay",
+        "Without Extra Help": "Varies by plan tier",
+        "With Full Extra Help": "$11.20 per prescription",
+      },
+      {
+        "Cost Category": "Coverage Gap Costs",
+        "Without Extra Help": "25% of drug cost",
+        "With Full Extra Help": "$0",
+      },
+    ],
+    footnote: "Copay amounts for full Extra Help are set by CMS and updated annually. Partial Extra Help has different copay levels based on income.",
+  },
+  exceptionsSection: {
+    title: "Important Exceptions & Special Situations",
+    items: [
+      {
+        title: "Automatic Qualification",
+        text: "You are automatically enrolled in Extra Help if you receive full Medicaid benefits, Supplemental Security Income (SSI), or are enrolled in a Medicare Savings Program. CMS will notify you by letter.",
+        highlight: "No application needed if you already receive Medicaid or SSI.",
+      },
+      {
+        title: "Deemed Eligible vs. Applied",
+        text: "Beneficiaries who are automatically enrolled ('deemed eligible') receive full Extra Help. Those who apply and qualify based on income/resources may receive full or partial Extra Help depending on their specific situation.",
+      },
+      {
+        title: "Annual Redetermination",
+        text: "SSA reviews your Extra Help eligibility each year. If your income or resources change, your level of assistance may change. You'll receive a notice if your status changes.",
+      },
+      {
+        title: "Benchmark Premium Plans",
+        text: "Extra Help pays your Part D premium up to the 'benchmark' amount for your region. If you choose a plan with a premium above the benchmark, you pay the difference.",
+      },
+    ],
+  },
+  legislativeUpdate: {
+    title: "Recent Policy Updates",
+    items: [
+      {
+        title: "Inflation Reduction Act U2014 Expanded Extra Help",
+        status: "Passed",
+        description: "The Inflation Reduction Act (2022) expanded Extra Help eligibility to 150% of the Federal Poverty Level (previously 135%), bringing more low-income beneficiaries into the program starting in 2024.",
+      },
+      {
+        title: "$2,000 Part D Out-of-Pocket Cap (2025)",
+        status: "Passed",
+        description: "Starting in 2025, Medicare Part D has a $2,000 annual out-of-pocket cap. Extra Help beneficiaries continue to pay only their small copays and are not subject to this cap.",
+      },
+    ],
+  },
+  alternativesSection: {
+    title: "Steps to Apply for Extra Help",
+    paragraphs: [
+    "Applying for Extra Help is free and can be done at any time of year. Here's how to get started:",
+  ],
+    checklist: {
+    title: "Application Checklist",
+    items: [
+    "Check your income against the current year's limits at ssa.gov",
+    "Gather documents: Social Security card, bank statements, proof of income",
+    "Apply online at ssa.gov/medicare/part-d-extra-help or call 1-800-772-1213",
+    "Also apply for Medicare Savings Programs through your state Medicaid office",
+    "Once approved, use your Special Enrollment Period to choose a Part D plan",
+    "Contact your State Health Insurance Assistance Program (SHIP) for free help",
+  ],
+    type: "tip",
+  },
+  },
+  faqs: [
+    {
+      question: "What is the Difference between Extra Help and Medicare Savings Programs?",
+      answer: "Extra Help reduces Part D (drug) costs. Medicare Savings Programs reduce Part A and Part B costs like premiums and deductibles. They are separate programs, but qualifying for an MSP usually automatically qualifies you for Extra Help.",
+    },
+    {
+      question: "Can I apply for Extra Help if I'm not yet on Medicare?",
+      answer: "Yes. You can apply up to 3 months before your Medicare Part D coverage begins. SSA will hold your application and process it when your coverage starts.",
+    },
+    {
+      question: "How Long Does Extra Help Last?",
+      answer: "Extra Help is renewed annually. SSA reviews your eligibility each year and sends a notice. As long as your income and resources remain within limits, you'll continue to receive the benefit.",
+    },
+    {
+      question: "Does Extra Help Cover Medicare Advantage Drug Plans?",
+      answer: "Yes. Extra Help applies to Medicare Advantage plans that include drug coverage (MA-PD plans), not just standalone Part D plans.",
+    },
+    {
+      question: "What if My Income is Slightly Above the Limit?",
+      answer: "You may still qualify for partial Extra Help, which provides reduced premiums and copays. Also check if your state has a State Pharmaceutical Assistance Program (SPAP) for additional help.",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "check",
+      text: "Extra Help reduces Part D premiums, deductibles, and copays for low-income beneficiaries",
+    },
+    {
+      icon: "info",
+      text: "2026 income limit: $2,015/month individual; $2,725/month married couple",
+    },
+    {
+      icon: "check",
+      text: "Medicaid, SSI, and MSP recipients are automatically enrolled — no application needed",
+    },
+    {
+      icon: "dollar",
+      text: "Full Extra Help copays: $4.50 generics / $11.20 brand-name (2025)",
+    },
+    {
+      icon: "alert",
+      text: "Apply through Social Security at any time — there is no enrollment window",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Medicare Extra Help Program",
+      description: "Detailed guide to the Extra Help program and how to apply.",
+      slug: "medicare-extra-help-program",
+    },
+    {
+      title: "Qualified Medicare Beneficiary Program",
+      description: "How the QMB program helps with Part A and Part B costs.",
+      slug: "qualified-medicare-beneficiary-program",
+    },
+    {
+      title: "Saving on Prescription Drug Costs",
+      description: "Ways seniors can reduce their prescription drug expenses.",
+      slug: "how-can-seniors-save-on-prescription-drug-costs",
+    },
+    {
+      title: "Medicare and Medicaid",
+      description: "How to qualify for and use both Medicare and Medicaid together.",
+      slug: "medicare-vs-medicaid",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "Medicare Extra Help",
+    "QMB Program",
+    "Saving on Drug Costs",
+    "Medicare and Medicaid",
+  ],
+  ctaBanner: {
+    title: "Could You Qualify for Extra Help?",
+    text: "Our licensed agents can help you determine if you qualify for the Low Income Subsidy and find a Part D plan that maximizes your savings.",
+  },
+  relatedSlugs: [
+    "medicare-extra-help-program",
+    "qualified-medicare-beneficiary-program",
+    "how-can-seniors-save-on-prescription-drug-costs",
+    "medicare-vs-medicaid",
+    "extra-help-low-income-subsidy",
+    "top-5-dental-insurance-for-seniors",
+  ],
+  youtubeVideoId: "4N2n9rsIcJk",
+},
   /* ─── Medicare Secondary Insurance ─── */
   {
     slug: "medicare-secondary-insurance",
