@@ -92,6 +92,9 @@ export const blogArticles: BlogArticleData[] = [
       { type: "paragraph", content: "When you are ready, trustworthy help is available through [licensed Medicare guidance](/medicare-supplement-plans/plan-g/) that respects your pace and answers your questions honestly." },
     ],
     relatedSlugs: ["strategies-for-choosing-medicare-part-d-plan", "top-5-medicare-prescription-drug-plans", "medicare-part-d-enrollment-deadlines", "medicare-annual-notice-of-change-letter"],
+    buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/19808548-qualifying-for-medicare-glp-1-50-program.mp3?download=true",
+    podcastDate: "9/15/26",
+    podcastDuration: "4:47",
   },
 
   {
