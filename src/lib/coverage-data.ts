@@ -25899,7 +25899,7 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   readTime: "8 min read",
   quickAnswer: {
-    text: "IRMAA stands for Income-Related Monthly Adjustment Amount. It is a surcharge added to your Medicare Part B and/or Part D premiums if your Modified Adjusted Gross Income (MAGI) from two years ago exceeded $109,000 (single) or $218,000 (married filing jointly) in 2026. The surcharge ranges from $81.20 to $487.00/month for Part B and $14.50 to $91.00/month for Part D.",
+    text: "IRMAA (Income-Related Monthly Adjustment Amount) is an extra amount added to your Medicare Part B and/or Part D premium if you're a higher earner. It's based on your Modified Adjusted Gross Income (MAGI) from two years prior. In 2026, it applies once MAGI exceeds $109,000 (single) or $218,000 (married filing jointly), with surcharges ranging from $81.20 to $487.00/month for Part B and $14.50 to $91.00/month for Part D.",
     badges: [
       {
         plan: "Part B",
@@ -26205,6 +26205,10 @@ export const coverageArticles: CoverageArticleData[] = [
     {
       question: "How is IRMAA Calculated?",
       answer: "IRMAA is based on your MAGI from two years ago. MAGI is your Adjusted Gross Income plus tax-exempt interest. The SSA uses your tax return to determine which bracket you fall into.",
+    },
+    {
+      question: "Does IRMAA Change Every Year?",
+      answer: "Yes. The income thresholds and surcharge amounts for IRMAA are reviewed and typically adjusted each year based on inflation and other federal cost calculations. Because of this, it's a good idea to ch",
     },
   ],
   quickReference: [
