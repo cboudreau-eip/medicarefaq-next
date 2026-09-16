@@ -11177,7 +11177,7 @@ export const coverageArticles: CoverageArticleData[] = [
   slug: "does-medicare-cover-medical-alert-systems",
   seo: {
     title: "Does Medicare Cover Life Alert? Cost & Coverage (2026)",
-    description: "Original Medicare does not cover Life Alert, but some Medicare Advantage plans do. See 2026 pricing for Life Alert and 5 cheaper alternatives plus how to check your plan's coverage.",
+    description: "Original Medicare won't pay for Life Alert, but some Medicare Advantage plans will. Compare 2026 prices for 6 top medical alert systems and see if your plan covers one.",
     canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-medical-alert-systems/",
     ogImage: "/images/medicarefaq-cover.jpg",
     focusKeyword: "life alert cost covered by medicare",
@@ -11201,7 +11201,7 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   readTime: "8 min read",
   quickAnswer: {
-    text: "No, Original Medicare does not cover Life Alert or medical alert systems. Life Alert costs $49.95 to $89.85 per month with a 3-year contract. Other providers like Medical Guardian ($27.95 to $39.95/mo) and Bay Alarm Medical ($24.95 to $34.95/mo) offer similar monitoring without long-term contracts. Some Medicare Advantage plans include medical alert devices as supplemental benefits at no extra cost. If your plan does not include this benefit, you pay the full cost out of pocket.",
+    text: "No, Original Medicare does not cover Life Alert or medical alert systems. Life Alert costs $49.95 to $89.85 per month with a 3-year contract. Other providers like Medical Guardian ($27.95 to $39.95/mo) and Bay Alarm Medical ($24.95 to $34.95/mo) offer similar monitoring without long-term contracts. Some Medicare Advantage plans include medical alert devices as supplemental benefits at no extra cost. Check your plan's Summary of Benefits or call your carrier to confirm before you enroll. If your plan does not include this benefit, you pay the full cost out of pocket.",
     badges: [
       {
         plan: "Original Medicare",
@@ -11425,6 +11425,10 @@ export const coverageArticles: CoverageArticleData[] = [
     {
       question: "Can You Cancel a Life Alert Contract?",
       answer: "Life Alert requires a 3-year service agreement, and canceling before the term ends may involve an early termination fee or require written notice, depending on your agreement. If you want a medical al",
+    },
+    {
+      question: "Is a Medical Alert System Tax Deductible?",
+      answer: "Medical alert systems may be tax deductible if a doctor prescribes the device as medically necessary, since the IRS allows deductions for certain medical equipment that exceeds a percentage of your ad",
     },
   ],
   quickReference: [
