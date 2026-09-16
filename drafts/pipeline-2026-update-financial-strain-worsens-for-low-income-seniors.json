@@ -1,7 +1,22 @@
 {
   "title": "2026 Medicare Costs: Help for Low-Income Seniors",
+  "rawContent": "",
   "slug": "2026-update-financial-strain-worsens-for-low-income-seniors",
+  "excerpt": "A new AARP report shows rising costs are outpacing fixed incomes for Medicare beneficiaries. Here's what's driving the squeeze and how to lower your costs now.",
   "category": "general",
+  "author": "David Haass",
+  "reviewer": "Ashlee Zareczny",
+  "image": "/images/generated/2026-update-financial-strain.png",
+  "imageAlt": "",
+  "keyTakeaways": [
+    "A new AARP report finds housing, groceries, and utility costs are rising faster than cost-of-living adjustments, straining fixed-income seniors on Medicare.",
+    "Out-of-pocket healthcare costs like copays, coinsurance, and prescriptions add pressure even for those with Medicare coverage.",
+    "In 2026, the standard Part B premium is $202.90 and the Part B deductible is $283.",
+    "Medicare Savings Programs, Extra Help, and Medicaid dual eligibility can significantly reduce or eliminate premiums and out-of-pocket costs for qualifying seniors.",
+    "Starting with your personal needs, doctors, medications, and budget, makes comparing Medicare plan types much less overwhelming."
+  ],
+  "seoTitle": "2026 Medicare Costs: Financial Help for Low-Income Seniors",
+  "seoDescription": "Rising costs are straining low-income seniors affordability Medicare in 2026. Learn what's changed and how to lower your out-of-pocket costs now.",
   "sections": [
     {
       "type": "heading",
@@ -213,21 +228,12 @@
       "content": "You do not have to figure this out alone or rush into a decision. Comparing your plan options or checking assistance program eligibility is a low-pressure step you can take whenever you feel ready, with licensed help available if and when you want it."
     }
   ],
-  "seoTitle": "2026 Medicare Costs: Help for Low-Income Seniors",
-  "seoDescription": "Rising costs are straining low-income seniors affordability Medicare in 2026. Learn what's changed and how to lower your out-of-pocket costs now.",
-  "excerpt": "A new AARP report shows rising costs are outpacing fixed incomes for Medicare beneficiaries. Here's what's driving the squeeze and how to lower your costs now.",
-  "keyTakeaways": [
-    "A new AARP report finds housing, groceries, and utility costs are rising faster than cost-of-living adjustments, straining fixed-income seniors on Medicare.",
-    "Out-of-pocket healthcare costs like copays, coinsurance, and prescriptions add pressure even for those with Medicare coverage.",
-    "In 2026, the standard Part B premium is $202.90 and the Part B deductible is $283.",
-    "Medicare Savings Programs, Extra Help, and Medicaid dual eligibility can significantly reduce or eliminate premiums and out-of-pocket costs for qualifying seniors.",
-    "Starting with your personal needs, doctors, medications, and budget, makes comparing Medicare plan types much less overwhelming."
+  "relatedSlugs": [
+    "medigap-plan-costs-by-state",
+    "medicare-maximum-out-of-pocket",
+    "best-medicare-supplement-plan-g-companies"
   ],
-  "image": "/images/generated/2026-update-financial-strain.png",
-  "relatedSlugs": [],
-  "sourceUrl": "https://www.medicarerights.org/medicare-watch/2026/09/10/financial-pressures-erode-affordability-for-low-income-older-adults",
-  "pipelineId": "disc-7d73d7a8ea3ed6b05acc9da99f25e901ca2228982d5c1ddcf066cefafc2136fa",
   "id": "pipeline-2026-update-financial-strain-worsens-for-low-income-seniors",
-  "updatedAt": "2026-09-14T14:42:17.023Z",
-  "createdAt": "2026-09-14T14:42:17.023Z"
+  "updatedAt": "2026-09-16T11:43:18.161Z",
+  "createdAt": "2026-09-16T11:43:18.161Z"
 }
