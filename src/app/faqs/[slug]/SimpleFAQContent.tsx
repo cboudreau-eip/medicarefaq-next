@@ -650,6 +650,21 @@ export default function SimpleFAQContent({ article, blogSlugs }: { article: Simp
             {/* ─── Sidebar ─── */}
             <aside className="hidden lg:block w-[280px] shrink-0">
               <div className="sticky top-[180px] space-y-6">
+                {/* CTA Sidebar */}
+                <div className="bg-[#1B2A4A] rounded-xl p-5 text-center">
+                  <p className="text-white font-bold text-sm mb-1">Have Questions?</p>
+                  <p className="text-white/60 text-xs mb-4">
+                    Speak with a licensed Medicare agent
+                  </p>
+                  <a
+                    href="tel:+18883358996"  data-invoca-phone-number="18883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "faq_simple" })}
+                    className="invoca-phone flex items-center justify-center gap-2 bg-[#C41230] text-white text-sm font-bold py-2.5 rounded-lg hover:bg-[#A50F28] transition-colors w-full mb-2"
+                  >
+                    <Phone className="w-4 h-4" /> (888) 335-8996
+                  </a>
+                </div>
+
                 {/* ON THIS PAGE */}
                 {toc.length > 0 && (
                   <div className="bg-white border border-[#E5E7EB] rounded-xl p-5 shadow-sm">
@@ -673,21 +688,6 @@ export default function SimpleFAQContent({ article, blogSlugs }: { article: Simp
                     </nav>
                   </div>
                 )}
-
-                {/* CTA Sidebar */}
-                <div className="bg-[#1B2A4A] rounded-xl p-5 text-center">
-                  <p className="text-white font-bold text-sm mb-1">Have Questions?</p>
-                  <p className="text-white/60 text-xs mb-4">
-                    Speak with a licensed Medicare agent
-                  </p>
-                  <a
-                    href="tel:+18883358996"  data-invoca-phone-number="18883358996"
-              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "faq_simple" })}
-                    className="invoca-phone flex items-center justify-center gap-2 bg-[#C41230] text-white text-sm font-bold py-2.5 rounded-lg hover:bg-[#A50F28] transition-colors w-full mb-2"
-                  >
-                    <Phone className="w-4 h-4" /> (888) 335-8996
-                  </a>
-                </div>
               </div>
             </aside>
           </div>
