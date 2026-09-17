@@ -22,7 +22,7 @@ The CMS and coding assistants have separate responsibilities:
 4. Before publishing code work, fetch `origin/main` again and incorporate any CMS commits created during the task. Resolve conflicts in favor of preserving the newest CMS content plus the intended code change.
 5. Review the final diff against current `origin/main`. It must contain only the requested work.
 6. Run checks appropriate to the change before publishing.
-7. The user's phrase **"push it"** authorizes publishing the finished change to `main`. Never force push.
+7. A request to make, fix, add, or update something authorizes committing and publishing the verified finished change to `main`. Do not ask for a separate push confirmation. Never force push.
 
 Vercel preview deployments should use short-lived branches. Do not recreate a long-running `develop` branch.
 

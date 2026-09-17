@@ -194,7 +194,8 @@ present, that there are no em dashes, and that there are at least 5 internal lin
 
 Create the article change on a short-lived branch from the latest `main`. Before publishing, fetch
 `origin/main` again, incorporate any CMS commits created during the task, and inspect the final diff.
-Push to production when the user says "push it"; otherwise commit and stop.
+After validation, commit and publish the finished article change to `main` without asking for a
+separate push confirmation. Never force push.
 
 ## Report back
 
