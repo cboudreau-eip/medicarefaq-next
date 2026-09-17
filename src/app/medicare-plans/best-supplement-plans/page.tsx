@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Medicare Supplement Plans 2026 | Top Medigap Plans Ranked",
     description: "Find the best Medicare Supplement plans for 2026. We compare Plan G, Plan N, and other top Medigap options by cost, coverage, and value.",
-    url: "https://www.medicarefaq.com/medicare-supplement-plans/best-supplement-plans/",
+    url: "https://www.medicarefaq.com/medicare-plans/best-supplement-plans/",
     type: "website",
   },
   alternates: {
-    canonical: "https://www.medicarefaq.com/medicare-supplement-plans/best-supplement-plans/",
+    canonical: "https://www.medicarefaq.com/medicare-plans/best-supplement-plans/",
   },
 };
 
@@ -22,7 +22,7 @@ export default function Page() {
     "@type": "Article",
     "headline": "Best Medicare Supplement Plans 2026 | Top Medigap Plans Ranked",
     "description": "Find the best Medicare Supplement plans for 2026. We compare Plan G, Plan N, and other top Medigap options by cost, coverage, and value.",
-    "url": "https://www.medicarefaq.com/medicare-supplement-plans/best-supplement-plans/",
+    "url": "https://www.medicarefaq.com/medicare-plans/best-supplement-plans/",
     "dateModified": "2026-06-15",
     "author": { "@type": "Organization", "name": "MedicareFAQ" },
     "publisher": {
@@ -36,7 +36,7 @@ export default function Page() {
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.medicarefaq.com/" },
         { "@type": "ListItem", "position": 2, "name": "Medicare Supplement Plans", "item": "https://www.medicarefaq.com/medicare-supplement-plans/" },
-        { "@type": "ListItem", "position": 3, "name": "Best Medicare Supplement Plans", "item": "https://www.medicarefaq.com/medicare-supplement-plans/best-supplement-plans/" }
+        { "@type": "ListItem", "position": 3, "name": "Best Medicare Supplement Plans", "item": "https://www.medicarefaq.com/medicare-plans/best-supplement-plans/" }
       ]
     }
   };
