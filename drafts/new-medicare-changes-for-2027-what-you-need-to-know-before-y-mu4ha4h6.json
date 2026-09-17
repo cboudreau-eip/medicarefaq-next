@@ -15,7 +15,7 @@
     "For 2026, the Part A deductible is $1,736 per benefit period, and the Part B monthly premium is $202.90 with a $283 annual deductible.",
     "Comparing plans based on your doctors, prescriptions, and budget, ideally with a licensed Medicare agent, is the best way to prepare for 2027 changes."
   ],
-  "seoTitle": "New Medicare Changes for 2027 Explained",
+  "seoTitle": "New Medicare Changes for 2027: What Seniors Should Know",
   "seoDescription": "Learn about the new Medicare changes for 2027, including premiums, deductibles, and enrollment tips to help you choose the right coverage.",
   "sections": [
     {
@@ -36,7 +36,7 @@
       "type": "callout",
       "calloutType": "info",
       "calloutTitle": "Key Takeaways",
-      "calloutText": "2027 brings updated premiums and deductibles for Part A, Part B, and Part D, along with shifts in some [Medicare Advantage benefit structures](/faqs/medicare-advantage-costs/).\nThe [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period/) runs October 15 to December 7, and missing it can delay coverage changes or trigger penalties.\nYour best next step is [comparing plans](/faqs/medicare-supplement-vs-medicare-advantage/) based on your actual doctors, prescriptions, and budget, ideally with help from a licensed Medicare agent."
+      "calloutText": "2027 brings updated premiums and deductibles for Part A, Part B, and Part D, along with shifts in some [[Medicare Advantage benefit structures](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included/)](/faqs/medicare-advantage-costs/).\nThe [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period/) runs October 15 to December 7, and missing it can delay coverage changes or trigger penalties.\nYour best next step is [[comparing plans](/faqs/medicare-coverage-for-disabled-under-65/)](/faqs/medicare-supplement-vs-medicare-advantage/) based on your actual doctors, prescriptions, and budget, ideally with help from a licensed Medicare agent."
     },
     {
       "type": "heading",
@@ -50,7 +50,7 @@
     },
     {
       "type": "paragraph",
-      "content": "[Medicare Advantage plans](/medicare-part-c/) are also adjusting benefit packages, with some carriers changing supplemental offerings like dental or vision allowances. Prescription drug pricing rules continue to influence how plans structure their formularies and tiers, which can shift your monthly costs even if your prescriptions stay the same."
+      "content": "[[Medicare Advantage plans](/faqs/original-medicare-vs-medicare-advantage/)](/medicare-part-c/) are also adjusting benefit packages, with some carriers changing supplemental offerings like dental or vision allowances. Prescription drug pricing rules continue to influence how plans structure their formularies and tiers, which can shift your monthly costs even if your prescriptions stay the same."
     },
     {
       "type": "heading",
@@ -74,7 +74,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Medicare Advantage plans set their own out-of-pocket maximums, and the 2026 maximum out-of-pocket limit for these plans is $9,250. Some plans may adjust this cap, along with copay amounts for specialist visits or durable medical equipment."
+      "content": "[Medicare Advantage plans](/faqs/original-medicare-vs-medicare-advantage/) set their own out-of-pocket maximums, and the 2026 maximum out-of-pocket limit for these plans is $9,250. Some plans may adjust this cap, along with copay amounts for specialist visits or durable medical equipment."
     },
     {
       "type": "paragraph",
@@ -106,7 +106,7 @@
     {
       "type": "callout",
       "calloutType": "tip",
-      "calloutText": "Write down your current doctors, medications, and monthly budget before comparing plans. Having this list ready makes every conversation, whether with an agent or on your own, faster and clearer."
+      "calloutText": "Write down your current doctors, medications, and monthly budget before [comparing plans](/faqs/medicare-coverage-for-disabled-under-65/). Having this list ready makes every conversation, whether with an agent or on your own, faster and clearer."
     },
     {
       "type": "heading",
@@ -245,7 +245,7 @@
     },
     {
       "type": "paragraph",
-      "content": "The Annual Enrollment Period runs from October 15 to December 7 each year, allowing you to switch Medicare Advantage or Part D plans for the following year. The [Medicare Advantage Open Enrollment Period](/faqs/medicare-advantage-open-enrollment-period/), from January 1 to March 31, offers a second chance to make one plan change if your initial choice isn't working out."
+      "content": "The [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period/) runs from October 15 to December 7 each year, allowing you to switch Medicare Advantage or Part D plans for the following year. The [[Medicare Advantage Open Enrollment Period](/faqs/medicare-special-enrollment-period/)](/faqs/medicare-advantage-open-enrollment-period/), from January 1 to March 31, offers a second chance to make one plan change if your initial choice isn't working out."
     },
     {
       "type": "paragraph",
@@ -375,7 +375,60 @@
     "2027-medicare-part-b-premium-estimate",
     "medicare-part-d-premium-stabilization"
   ],
+  "linkSuggestions": [
+    {
+      "phrase": "Part D drug costs",
+      "url": "/faqs/medicare-part-d-six-protected-classes/",
+      "title": "Medicare Part D Six Protected Drug Classes",
+      "reason": "Linking to this page offers insights into the specific drug classes protected under Part D, enhancing understanding of drug cost implications."
+    },
+    {
+      "phrase": "comparing plans",
+      "url": "/faqs/medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling/",
+      "title": "Medicare Supplement vs Medicare Advantage: Crucial Questions to Ask before Enrolling",
+      "reason": "This link offers guidance on comparing Medicare Supplement and Advantage plans, which is vital for beneficiaries making informed choices."
+    },
+    {
+      "phrase": "Part A deductible",
+      "url": "/faqs/medicare-part-b-annual-deductible-explained-what-youll-pay/",
+      "title": "Medicare Part B Annual Deductible Explained: What You'll Pay",
+      "reason": "Linking to this page provides context on deductibles, helping readers understand the financial implications of their Medicare coverage."
+    },
+    {
+      "phrase": "higher-income beneficiaries",
+      "url": "/faqs/irmaa/",
+      "title": "IRMAA: What is IRMAA in Medicare?",
+      "reason": "This link explains the IRMAA surcharges for higher-income beneficiaries, providing essential information on how income affects Medicare costs."
+    }
+  ],
+  "acceptedLinks": [
+    {
+      "phrase": "comparing plans",
+      "url": "/faqs/medicare-coverage-for-disabled-under-65/",
+      "title": "Medicare Coverage for People under 65 with a Disability"
+    },
+    {
+      "phrase": "Medicare Advantage Open Enrollment Period",
+      "url": "/faqs/medicare-special-enrollment-period/",
+      "title": "Medicare Special Enrollment Period"
+    },
+    {
+      "phrase": "Medicare Advantage plans",
+      "url": "/faqs/original-medicare-vs-medicare-advantage/",
+      "title": "Medicare Advantage vs. Original Medicare"
+    },
+    {
+      "phrase": "Annual Enrollment Period",
+      "url": "/faqs/medicare-annual-enrollment-period/",
+      "title": "Medicare Annual Enrollment Period"
+    },
+    {
+      "phrase": "Medicare Advantage benefit structures",
+      "url": "/faqs/medicare-advantage-extra-benefits-explained-whats-really-included/",
+      "title": "Medicare Advantage Extra Benefits Explained: What's Really Included"
+    }
+  ],
   "id": "new-medicare-changes-for-2027-what-you-need-to-know-before-y-mu4ha4h6",
-  "updatedAt": "2026-09-16T19:39:57.069Z",
-  "createdAt": "2026-09-16T19:39:57.069Z"
+  "updatedAt": "2026-09-17T11:21:28.529Z",
+  "createdAt": "2026-09-17T11:21:28.529Z"
 }
