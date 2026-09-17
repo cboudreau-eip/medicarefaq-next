@@ -161,7 +161,7 @@ function CoverageBadge({ badge }: { badge: CoverageBadgeData }) {
     return (
       <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-amber-50 text-amber-700 border border-amber-200">
         <AlertTriangle className="w-3.5 h-3.5" />
-        {badge.plan}: Some Plans
+        {badge.plan}: {badge.statusText || "Some Plans"}
       </span>
     );
   }
@@ -169,7 +169,7 @@ function CoverageBadge({ badge }: { badge: CoverageBadgeData }) {
   return (
     <span className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold ${covered ? "bg-emerald-50 text-emerald-700 border border-emerald-200" : "bg-red-50 text-red-700 border border-red-200"}`}>
       {covered ? <CheckCircle2 className="w-3.5 h-3.5" /> : <XCircle className="w-3.5 h-3.5" />}
-      {badge.plan}: {covered ? "Covered" : "Not Covered"}
+      {badge.plan}: {badge.statusText || (covered ? "Covered" : "Not Covered")}
     </span>
   );
 }
@@ -289,8 +289,8 @@ function QRIcon({ type }: { type: QuickReferenceItem["icon"] }) {
 function buildTOC(article: CoverageArticleData) {
   const toc = [
     { id: "quick-answer", label: "Quick Answer" },
-    { id: "coverage-comparison", label: "Coverage by Plan" },
-    { id: "plan-breakdowns", label: "Understanding Coverage" },
+    { id: "coverage-comparison", label: article.comparisonTocLabel || "Coverage by Plan" },
+    { id: "plan-breakdowns", label: article.breakdownsTocLabel || "Understanding Coverage" },
   ];
   if (article.advantageSteps) toc.push({ id: "advantage-steps", label: "Finding the Right Plan" });
   if (article.costTable) toc.push({ id: "costs", label: "Costs & Pricing" });
@@ -575,15 +575,15 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
               <div id="coverage-comparison" className="bg-white border border-[#E5E7EB] rounded-xl overflow-hidden mb-8 shadow-sm">
                 <div className="bg-[#D97706] px-6 py-4 flex items-center gap-3">
                   <Shield className="w-5 h-5 text-white" />
-                  <h2 className="font-bold text-white text-lg">{article.slug === "medicare-tax-rate" ? "Detailed Rate Breakdown" : "Coverage Comparison by Plan Type"}</h2>
+                  <h2 className="font-bold text-white text-lg">{article.comparisonTitle || (article.slug === "medicare-tax-rate" ? "Detailed Rate Breakdown" : "Coverage Comparison by Plan Type")}</h2>
                 </div>
                 <div className="overflow-x-auto">
                   <table className="w-full text-sm">
                     <thead>
                       <tr className="bg-[#F5F7FA] border-b border-[#E5E7EB]">
-                        <th className="text-left px-6 py-3 font-semibold text-[#1B2A4A]">Plan Type</th>
-                        <th className="text-left px-4 py-3 font-semibold text-[#1B2A4A]">Coverage</th>
-                        <th className="text-left px-4 py-3 font-semibold text-[#1B2A4A]">Notes</th>
+                        <th className="text-left px-6 py-3 font-semibold text-[#1B2A4A]">{article.comparisonHeaders?.primary || "Plan Type"}</th>
+                        <th className="text-left px-4 py-3 font-semibold text-[#1B2A4A]">{article.comparisonHeaders?.status || "Coverage"}</th>
+                        <th className="text-left px-4 py-3 font-semibold text-[#1B2A4A]">{article.comparisonHeaders?.notes || "Notes"}</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -611,7 +611,7 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
               </div>
 
               {/* Plan Breakdowns */}
-              <h2 id="plan-breakdowns" className="text-2xl font-bold text-[#1B2A4A] mb-4">{article.slug === "medicare-tax-rate" ? "Medicare Tax Rate Details" : "Understanding Your Coverage Options"}</h2>
+              <h2 id="plan-breakdowns" className="text-2xl font-bold text-[#1B2A4A] mb-4">{article.breakdownsTitle || (article.slug === "medicare-tax-rate" ? "Medicare Tax Rate Details" : "Understanding Your Coverage Options")}</h2>
               <div className="space-y-4 mb-8">
                 {article.planBreakdowns.map((plan, i) => (
                   <>

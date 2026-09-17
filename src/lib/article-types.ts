@@ -8,6 +8,7 @@
 export interface CoverageBadgeData {
   plan: string;
   status: "covered" | "not-covered" | "partial";
+  statusText?: string;
 }
 
 export interface QuickAnswerData {
@@ -113,8 +114,17 @@ export interface CoverageArticleData {
 
   quickAnswer: QuickAnswerData;
   comparisonTable: ComparisonRow[];
+  comparisonTitle?: string;
+  comparisonTocLabel?: string;
+  comparisonHeaders?: {
+    primary: string;
+    status: string;
+    notes: string;
+  };
 
   planBreakdowns: PlanBreakdownData[];
+  breakdownsTitle?: string;
+  breakdownsTocLabel?: string;
 
   // Optional sections - not every article has all of these
   subNavLinks?: { label: string; href: string }[];
