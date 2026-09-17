@@ -41,11 +41,11 @@ import { coverageArticles } from "@/lib/coverage-data";
 import { trackPhoneClick } from "@/lib/analytics";
 import { getAuthorPhoto } from "@/lib/authors";
 /* ─── Markdown Inline Parser ─── */
-// Parses **bold**, *italic*, and [text](url) in a string and returns React nodes
+// Parses ***bold italic***, **bold**, *italic*, and [text](url) in a string and returns React nodes
 function parseInline(text: string, keyPrefix: string): React.ReactNode[] {
   const nodes: React.ReactNode[] = [];
-  // Combined regex: **bold**, *italic*, [text](url)
-  const inlineRegex = /(\*\*([^*]+)\*\*|\*([^*]+)\*|\[([^\]]+)\]\(([^)]*)\))/g;
+  // Combined regex: ***bold italic***, **bold**, *italic*, [text](url)
+  const inlineRegex = /(\*\*\*([^*]+)\*\*\*|\*\*([^*]+)\*\*|\*([^*]+)\*|\[([^\]]+)\]\(([^)]*)\))/g;
   let lastIndex = 0;
   let match;
   while ((match = inlineRegex.exec(text)) !== null) {
@@ -53,16 +53,24 @@ function parseInline(text: string, keyPrefix: string): React.ReactNode[] {
       nodes.push(text.slice(lastIndex, match.index));
     }
     if (match[2] !== undefined) {
-      // **bold** — recursively parse inner content for nested links
-      const innerNodes = parseInline(match[2], `${keyPrefix}-bi-${match.index}`);
-      nodes.push(<strong key={`${keyPrefix}-b-${match.index}`}>{innerNodes}</strong>);
+      // ***bold italic***
+      const innerNodes = parseInline(match[2], `${keyPrefix}-bii-${match.index}`);
+      nodes.push(
+        <strong key={`${keyPrefix}-bi-${match.index}`}>
+          <em>{innerNodes}</em>
+        </strong>
+      );
     } else if (match[3] !== undefined) {
-      // *italic*
-      nodes.push(<em key={`${keyPrefix}-i-${match.index}`}>{match[3]}</em>);
+      // **bold** — recursively parse inner content for nested links
+      const innerNodes = parseInline(match[3], `${keyPrefix}-bi-${match.index}`);
+      nodes.push(<strong key={`${keyPrefix}-b-${match.index}`}>{innerNodes}</strong>);
     } else if (match[4] !== undefined) {
+      // *italic*
+      nodes.push(<em key={`${keyPrefix}-i-${match.index}`}>{match[4]}</em>);
+    } else if (match[5] !== undefined) {
       // [text](url)
-      const linkText = match[4];
-      const href = match[5];
+      const linkText = match[5];
+      const href = match[6];
       if (!href || href.trim() === "") {
         nodes.push(<strong key={`${keyPrefix}-l-${match.index}`}>{linkText}</strong>);
       } else {
