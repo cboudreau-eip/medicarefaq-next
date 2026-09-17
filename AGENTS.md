@@ -2,10 +2,10 @@
 
 ## Content and code workflow
 
-The CMS and coding assistants have separate responsibilities:
+The CMS and Codex have separate responsibilities:
 
 - **CMS** creates, edits, schedules, and publishes site content directly to `main`.
-- **Coding assistants** handle templates, features, broken links, rendering problems, code defects, and technical maintenance. Do not use a coding assistant for routine CMS content work unless the user asks.
+- **Codex** handles templates, features, broken links, rendering problems, code defects, and technical maintenance. Do not use Codex for routine CMS content work unless the user asks.
 
 `main` is the production branch and the single source of truth. Vercel production deploys from `main`. There is no long-running staging branch because it would become stale whenever the CMS publishes content.
 
@@ -17,7 +17,7 @@ The CMS and coding assistants have separate responsibilities:
    git switch main
    git pull --ff-only origin main
    ```
-2. Create a short-lived branch from that exact commit. Use the branch prefix required by the active coding assistant.
+2. Create a short-lived branch from that exact commit. Codex branches use `codex/<short-name>`.
 3. Preserve all CMS commits and unrelated user changes. Never replace a current content file with an older copy from another branch or commit.
 4. Before publishing code work, fetch `origin/main` again and incorporate any CMS commits created during the task. Resolve conflicts in favor of preserving the newest CMS content plus the intended code change.
 5. Review the final diff against current `origin/main`. It must contain only the requested work.
