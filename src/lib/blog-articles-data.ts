@@ -10207,6 +10207,7 @@ export const blogArticles: BlogArticleData[] = [
       ] },
       { type: "paragraph", content: "The only Medicare cost-sharing Plan G does not cover is the annual Part B deductible, which is $283 in 2026. Once you pay that $283, Plan G covers 100% of your remaining Medicare-approved costs for the year." },
 
+      { type: "paragraph", content: "For help evaluating insurer service rather than coverage benefits, use our [Plan G reviews guide](/faqs/medicare-plan-g-reviews/) to check customer feedback and complaint records." },
       { type: "heading", level: 2, text: "The Pros of Medicare Plan G", id: "pros" },
       { type: "heading", level: 3, text: "1. Near-complete cost predictability" },
       { type: "paragraph", content: "With Plan G, your maximum annual out-of-pocket cost for Medicare-covered services is $283 (the Part B deductible) plus your monthly premium. That is it. No surprise hospital bills. No 20% coinsurance on a $50,000 surgery. No skilled nursing facility charges. For people on fixed incomes who need to budget precisely, this predictability is the single biggest advantage." },
@@ -12651,6 +12652,10 @@ imageAlt: "Older couple link arms drinking champagne at a party with bunting and
       "level": 2,
       "text": "Why the Plan G Company Still Matters",
       "id": "why-company-matters"
+    },
+    {
+      "type": "paragraph",
+      "content": "When checking a company's reputation, use our [Plan G reviews guide](/faqs/medicare-plan-g-reviews/) to distinguish customer opinions from regulator complaint records and evaluate service quality."
     },
     {
       "type": "paragraph",
