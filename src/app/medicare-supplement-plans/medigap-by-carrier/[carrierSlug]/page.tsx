@@ -52,7 +52,7 @@ export default async function Page({
     "headline": carrier.metaTitle,
     "description": carrier.metaDescription,
     "url": carrier.canonical,
-    "dateModified": "2026-06-15",
+    "dateModified": carrier.review?.date ?? "2026-06-15",
     "author": { "@type": "Organization", "name": "MedicareFAQ" },
     "publisher": {
       "@type": "Organization",
@@ -74,6 +74,11 @@ export default async function Page({
   return (
     <SiteLayout>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+      {carrier.review && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: carrier.review.faqs.map(faq => ({ "@type": "Question", name: faq.question, acceptedAnswer: { "@type": "Answer", text: faq.answer } }))
+      }).replace(/</g, "\\u003c") }} />}
       <PageContent carrierSlug={carrierSlug} />
     </SiteLayout>
   );

@@ -12,6 +12,7 @@ import { CARRIER_DATA } from "@/lib/medigap-carrier-data";
 import { trackPhoneClick } from "@/lib/analytics";
 
 const PRICING_BADGE: Record<string, { label: string; color: string }> = {
+  quote: { label: "Personal Quote", color: "bg-blue-100 text-blue-700 border-blue-200" },
   budget: { label: "Budget-Friendly", color: "bg-green-100 text-green-700 border-green-200" },
   mid: { label: "Mid-Range", color: "bg-blue-100 text-blue-700 border-blue-200" },
   premium: { label: "Premium", color: "bg-purple-100 text-purple-700 border-purple-200" },
@@ -96,7 +97,7 @@ export default function PageContent() {
                     </div>
                     <div className="flex items-center gap-3 mb-3 text-xs text-slate-500">
                       <span className="flex items-center gap-1"><Star className="w-3 h-3 text-amber-500" aria-hidden="true" /> {carrier.amBestRating}</span>
-                      <span className="flex items-center gap-1"><Globe className="w-3 h-3 text-blue-500" aria-hidden="true" /> {carrier.statesAvailable} states</span>
+                      <span className="flex items-center gap-1"><Globe className="w-3 h-3 text-blue-500" aria-hidden="true" /> {carrier.review ? "Confirm availability" : `${carrier.statesAvailable} states`}</span>
                     </div>
                     <p className="text-sm text-slate-600 line-clamp-2 mb-3">{carrier.overview.split(".")[0]}.</p>
                     <div className="flex items-center gap-1 text-teal-700 font-semibold text-sm">
@@ -128,7 +129,7 @@ export default function PageContent() {
                     </div>
                     <div className="flex items-center gap-3 text-xs text-slate-500 mb-2">
                       <span className="flex items-center gap-1"><Star className="w-3 h-3 text-amber-500" aria-hidden="true" /> {carrier.amBestRating}</span>
-                      <span className="flex items-center gap-1"><Globe className="w-3 h-3 text-blue-500" aria-hidden="true" /> {carrier.statesAvailable} states</span>
+                      <span className="flex items-center gap-1"><Globe className="w-3 h-3 text-blue-500" aria-hidden="true" /> {carrier.review ? "Confirm availability" : `${carrier.statesAvailable} states`}</span>
                     </div>
                     <div className="flex flex-wrap gap-1">
                       {carrier.popularPlans.map((p) => (

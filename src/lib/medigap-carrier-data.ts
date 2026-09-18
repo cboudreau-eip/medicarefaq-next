@@ -24,7 +24,7 @@ export interface CarrierData {
   considerations: string[];
   bestFor: string;
   notIdealFor: string;
-  pricingTier: "budget" | "mid" | "premium";
+  pricingTier: "budget" | "mid" | "premium" | "quote";
   pricingNote: string;
   phone: string;
   website: string;
@@ -33,6 +33,13 @@ export interface CarrierData {
   metaTitle: string;
   metaDescription: string;
   relatedCarriers?: string[];
+  review?: {
+    date: string;
+    availability: string;
+    ratingNote: string;
+    facts: { label: string; text: string; source: string; sourceLabel: string }[];
+    faqs: { question: string; answer: string }[];
+  };
 }
 
 const ALL_PLANS: string[] = ["A", "B", "C", "D", "F", "G", "HD-F", "HD-G", "K", "L", "M", "N"];
@@ -118,68 +125,92 @@ export const CARRIER_DATA: CarrierData[] = [
     slug: "bankers-fidelity-medigap-plans",
     name: "Bankers Fidelity Life Insurance Company",
     shortName: "Bankers Fidelity",
-    amBestRating: "A- (Excellent)",
+    amBestRating: "A-; under review (June 17, 2026)",
     founded: "1955",
     hq: "Atlanta, GA",
-    statesAvailable: 32,
+    statesAvailable: "Confirm availability",
     popularPlans: ["G", "N"],
     plans: plans(["A", "F", "G", "HD-G", "N"]),
-    overview: "Bankers Fidelity Life Insurance Company has been providing insurance since 1955 and is headquartered in Atlanta, Georgia. They offer Medicare Supplement plans in 32 jurisdictions (31 states + DC) through three underwriting entities: Bankers Fidelity Life Insurance Company, Bankers Fidelity Assurance Company, and Atlantic Capital Life Assurance Company. They are known for competitive pricing, particularly in the Southeast, and focus primarily on senior insurance products.",
+    overview: "Bankers Fidelity markets Medicare Supplement insurance through Bankers Fidelity Life Insurance Company, Bankers Fidelity Assurance Company, and Atlantic Capital Life Assurance Company. Identify the insurer on your quote before comparing its financial rating, complaints, policy form, and premium. This review uses official product disclosures and dated rating evidence, not customer-star scores or a national price ranking.",
     strengths: [
-      "Competitive pricing, especially in Southeastern states",
-      "Long history since 1955 - focused on senior market",
-      "A- (Excellent) AM Best rating affirmed April 2026",
-      "Household discount available",
-      "High-Deductible Plan G option in some areas"],
+      "Official product disclosures identify the issuing companies and policy-form series",
+      "Plan G and Plan N options can be compared where offered",
+      "Published product materials provide a starting point for checking policy terms"],
     considerations: [
-      "Limited state availability (32 jurisdictions - not nationwide)",
-      "Smaller company with fewer resources than national carriers",
-      "Limited plan selection (5 plan letters)",
-      "Less competitive outside the Southeast"],
-    bestFor: "Enrollees in Southeastern states looking for competitive pricing from a regionally focused carrier.",
-    notIdealFor: "Enrollees who prioritize the highest financial strength ratings or need coverage in all 50 states.",
-    pricingTier: "budget",
-    pricingNote: "Bankers Fidelity is often competitively priced in the Southeast, particularly for Plan G.",
+      "The June 17, 2026 AM Best action placed the group ratings under review with negative implications; check for subsequent actions",
+      "New-policy availability and plan options require confirmation",
+      "No matched premium study or product-specific complaint score is supplied in this review"],
+    bestFor: "Worth comparing when the exact issuer offers your chosen plan and a documented quote fits your budget after reviewing the rating update.",
+    notIdealFor: "Do not select it based only on an advertised starting price or an older rating summary. Resolve availability, underwriting, and rating questions first.",
+    pricingTier: "quote",
+    pricingNote: "Request a written quote with the same plan letter, deductible option, effective date, age, tobacco status, and discount assumptions as competing offers. Ask which discounts apply and how premiums can change; this review does not establish that Bankers Fidelity is cheaper than other insurers.",
     phone: "(888) 335-8996",
     website: "bankersfidelity.com",
     canonical: "https://www.medicarefaq.com/medicare-supplement-plans/medigap-by-carrier/bankers-fidelity-medigap-plans/",
     ogImage: "/images/medicarefaq-cover.jpg",
-    metaTitle: "Bankers Fidelity Medicare Supplement Plans 2026: Rates & Reviews",
-    metaDescription: "Compare Bankers Fidelity Medicare Supplement plans, rates, and reviews. See which Medigap plans they offer and whether they're right for you in 2026.",
+    metaTitle: "Bankers Fidelity Medicare Supplement Review 2026",
+    metaDescription: "Review Bankers Fidelity Medigap insurers, dated AM Best rating information, policy availability, and questions to ask before comparing a written premium quote.",
+    review: {
+      date: "2026-09-18",
+      availability: "Confirm current new-policy availability with the insurer. The official product page lists exclusions and says plan availability varies; an insurance license alone does not establish that a particular Medigap plan is sold to you.",
+      ratingNote: "The dated action below is not a live rating feed. Financial strength is not a customer-service score, price ranking, or guarantee of future performance.",
+      facts: [
+        { label: "Legal insurer", text: "Product notes identify three issuers: Bankers Fidelity Life, Bankers Fidelity Assurance, and Atlantic Capital Life Assurance. Match your policy-form series to the company on the application.", source: "https://bankersfidelity.com/productnotes/", sourceLabel: "Official product notes" },
+        { label: "Rating action: June 17, 2026", text: "AM Best placed the A- (Excellent) financial-strength ratings of all three group members under review with negative implications. This later action supersedes the April stable-outlook summary; it is not itself a downgrade of the letter rating.", source: "https://news.ambest.com/newscontent.aspx?refnum=275148", sourceLabel: "AM Best rating action" },
+        { label: "Policy availability", text: "The product disclosures limit where new Medicare Supplement coverage is offered. Confirm the plan letter, deductible option, issuer, and current application requirements before relying on a quote.", source: "https://bankersfidelity.com/medicare-supplement/", sourceLabel: "Official Medicare Supplement disclosures" }
+      ],
+      faqs: [
+        { question: "Which company issues Bankers Fidelity Medicare Supplement policies?", answer: "The brand's disclosures list Bankers Fidelity Life Insurance Company, Bankers Fidelity Assurance Company, and Atlantic Capital Life Assurance Company. Your application and policy identify the legal issuer. Use that exact name for complaint research and rating checks rather than assuming every record about the brand applies to your policy." },
+        { question: "What does the Bankers Fidelity rating review mean?", answer: "AM Best's June 17, 2026 action placed the group's A- financial-strength ratings under review with negative implications. That status signals further rating review, not an automatic downgrade or a claim denial. Check AM Best for newer actions before applying; the dated notice here is not a live rating feed." },
+        { question: "Is Bankers Fidelity the cheapest Medigap option?", answer: "This review does not establish a lowest-price winner. Compare written quotes for identical plan letters and deductible options using the same applicant details and effective date. Confirm discounts and the exact insurer, then ask for the applicable rating method and available policy-form rate history." }
+      ]
+    },
   relatedCarriers: ["medico-medigap-plans", "gpm-medigap-plans", "national-general"],
   },
   {
     slug: "united-american-medigap-plans",
     name: "United American Insurance Company",
     shortName: "United American",
-    amBestRating: "A (Excellent)",
+    amBestRating: "A (Excellent), company disclosure 11/2025",
     founded: "1947",
     hq: "McKinney, TX",
-    statesAvailable: 48,
+    statesAvailable: "Confirm availability",
     popularPlans: ["G", "N", "F"],
     plans: plans(["A", "B", "C", "D", "F", "HD-F", "G", "HD-G", "K", "L", "N"]),
-    overview: "United American Insurance Company has been providing insurance products since 1947 and is a subsidiary of Globe Life Inc. (formerly Torchmark Corporation), one of the largest life and health insurance companies in the United States. United American offers Medicare Supplement plans in 47 states plus Washington, D.C. (not available in Massachusetts, Minnesota, or New York) and is known for its broad availability and competitive pricing. They offer one of the most complete plan lineups of any Medigap carrier with 11 plan letters available.",
+    overview: "United American Insurance Company is a Globe Life subsidiary founded in 1947, with a Medicare Supplement business dating to 1966. It is not UnitedHealthcare or the AARP Medicare Supplement program. This review separates documented company facts from questions that require a personal quote, policy-form records, or current complaint research.",
     strengths: [
-      "Available in 47 states + DC - near-nationwide coverage",
-      "One of the most complete plan lineups (11 plan letters)",
-      "Subsidiary of Globe Life Inc. - strong financial backing",
-      "A (Excellent) AM Best rating for 50+ consecutive years",
-      "Long history since 1947 - selling Medigap since 1966"],
+      "Official materials include standard and high-deductible policy options, where approved",
+      "Published policy-form identifiers help you match the quote to the coverage",
+      "Documented Medicare Supplement history dating to 1966"],
     considerations: [
-      "Not available in Massachusetts, Minnesota, or New York",
-      "Pricing varies significantly by state",
-      "Rate increases have been higher than average in some states",
-      "Customer service quality varies by agent"],
-    bestFor: "Enrollees who want the widest plan selection from a financially strong carrier with near-nationwide availability.",
-    notIdealFor: "Enrollees in MA, MN, or NY, or in states where United American has had above-average rate increases.",
-    pricingTier: "mid",
-    pricingNote: "United American offers mid-range pricing with significant variation by state. Competitive in some markets, higher in others.",
+      "A high-deductible quote is not directly equivalent to standard Plan G or Plan F",
+      "Plan availability must be confirmed for your application",
+      "No verified above-average rate-increase finding or customer-service score is supplied here"],
+    bestFor: "Worth comparing when you want to evaluate standard and high-deductible options using the exact policy forms and a current personal quote.",
+    notIdealFor: "Do not choose a high-deductible policy just for its lower premium if you cannot comfortably budget for its additional cost sharing.",
+    pricingTier: "quote",
+    pricingNote: "Compare the same plan letter and deductible option across insurers. Request the rating method, discount terms, and available rate history for the quoted policy form. We have not established a national price tier or an above-average rate-increase pattern for United American.",
     phone: "(888) 335-8996",
     website: "unitedamerican.com",
     canonical: "https://www.medicarefaq.com/medicare-supplement-plans/medigap-by-carrier/united-american-medigap-plans/",
     ogImage: "/images/medicarefaq-cover.jpg",
-    metaTitle: "United American Medicare Supplement Plans 2026: Rates & Reviews",
-    metaDescription: "Compare United American Medicare Supplement plans, rates, and reviews. Available in 47 states + DC. See which Medigap plans are right for you in 2026.",
+    metaTitle: "United American Medicare Supplement Review 2026",
+    metaDescription: "Review United American Medigap coverage, standard and high-deductible options, dated financial-rating evidence, and key questions for comparing personal quotes.",
+    review: {
+      date: "2026-09-18",
+      availability: "United American lists multiple policy forms where approved. Confirm which are open to new applicants; company licensing and a national benefit chart do not establish your specific plan availability.",
+      ratingNote: "United American's company page reports A (Excellent) as of November 2025. That is the source's rating date, not a new September 2026 affirmation. Check AM Best for the latest rating before applying.",
+      facts: [
+        { label: "Company identity", text: "United American is a wholly owned Globe Life subsidiary, established in 1947. Its corporate history records a Medicare Supplement program starting in 1966. Do not confuse it with UnitedHealthcare.", source: "https://www2.unitedamerican.com/about", sourceLabel: "Company history and ratings" },
+        { label: "Financial-strength evidence", text: "The company reports an AM Best A (Excellent) financial-strength rating as of November 2025. Financial strength does not measure customer satisfaction or establish the best premium.", source: "https://www2.unitedamerican.com/about", sourceLabel: "Company rating disclosure" },
+        { label: "Standard versus high deductible", text: "Official materials list both standard and high-deductible Plan F and G policy forms where approved. Check the deductible option before comparing premiums, and verify Plan F eligibility separately.", source: "https://www2.unitedamerican.com/medicare-supplement-policies", sourceLabel: "Official policy information" }
+      ],
+      faqs: [
+        { question: "Is United American the same as UnitedHealthcare?", answer: "No. United American Insurance Company is a Globe Life subsidiary. UnitedHealthcare is a different insurer associated with AARP-branded Medicare Supplement plans. Check the full legal insurer name on your application so you do not apply another company's reviews, financial ratings, or discount rules to your quote." },
+        { question: "Does United American offer high-deductible Plan G?", answer: "Its official materials list a high-deductible Plan G policy form where approved. Confirm current availability and the deductible in your Outline of Coverage. Compare high-deductible quotes separately from standard Plan G because the lower premium comes with additional cost sharing before the policy pays." },
+        { question: "Does United American have above-average rate increases?", answer: "We have not verified that claim for your policy and do not use it as a finding in this review. Ask for approved increases tied to the same insurer, policy form, plan, and jurisdiction. Past rate history is useful context but cannot guarantee future premiums." }
+      ]
+    },
   relatedCarriers: ["mutual-of-omaha-medigap-plans", "aetna-medicare-supplement-plans", "humana-medigap-plans"],
   },
   {

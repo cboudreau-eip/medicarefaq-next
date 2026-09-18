@@ -17,6 +17,7 @@ import { trackPhoneClick } from "@/lib/analytics";
 const PLAN_LETTERS = ["A", "B", "C", "D", "F", "G", "HD-F", "HD-G", "K", "L", "M", "N"];
 
 const PRICING_BADGE: Record<string, { label: string; color: string }> = {
+  quote: { label: "Personal Quote Needed", color: "bg-blue-100 text-blue-800 border-blue-200" },
   budget: { label: "Budget-Friendly", color: "bg-green-100 text-green-800 border-green-200" },
   mid: { label: "Mid-Range", color: "bg-blue-100 text-blue-800 border-blue-200" },
   premium: { label: "Premium Pricing", color: "bg-purple-100 text-purple-800 border-purple-200" },
@@ -59,8 +60,9 @@ export default function PageContent({ carrierSlug }: { carrierSlug: string }) {
             {carrier.name}
           </h1>
           <p className="text-lg text-slate-300 max-w-2xl mb-6">
-            Medicare Supplement Plans - 2026 Rates, Reviews & Coverage
+            {carrier.review ? "Medicare Supplement Review: Evidence, Costs, and Trade-Offs" : "Medicare Supplement Plans - 2026 Rates, Reviews & Coverage"}
           </p>
+          {carrier.review && <p className="text-sm text-slate-300 mb-6">Reviewed <time dateTime={carrier.review.date}>September 18, 2026</time> · Editorial review, not a customer-star rating</p>}
           {/* Quick stats */}
           <div className="flex flex-wrap gap-4 mb-8">
             <div className="flex items-center gap-2 text-sm text-slate-300">
@@ -73,7 +75,7 @@ export default function PageContent({ carrierSlug }: { carrierSlug: string }) {
             </div>
             <div className="flex items-center gap-2 text-sm text-slate-300">
               <Globe className="w-4 h-4 text-blue-400" aria-hidden="true" />
-              <span>Available in <strong className="text-white">{carrier.statesAvailable} states</strong></span>
+              <span>{carrier.review ? "Availability: confirm your policy" : `Available in ${carrier.statesAvailable} states`}</span>
             </div>
           </div>
           <div className="flex flex-wrap gap-3">
@@ -98,15 +100,34 @@ export default function PageContent({ carrierSlug }: { carrierSlug: string }) {
             <p className="text-slate-600 leading-relaxed">{carrier.overview}</p>
           </div>
 
+          {carrier.review && (
+            <section className="mb-14" aria-labelledby="review-evidence">
+              <h2 id="review-evidence" className="text-2xl font-bold text-slate-900 mb-4">Verified Facts and Evidence Limits</h2>
+              <p className="text-slate-600 mb-5">{carrier.review.ratingNote}</p>
+              <div className="space-y-4">
+                {carrier.review.facts.map((fact) => <div key={fact.label} className="rounded-xl border border-slate-200 p-5">
+                  <h3 className="font-bold text-slate-900 mb-2">{fact.label}</h3>
+                  <p className="text-slate-600 mb-2">{fact.text}</p>
+                  <a href={fact.source} className="text-teal-700 underline">{fact.sourceLabel}</a>
+                </div>)}
+              </div>
+              <aside className="mt-5 rounded-xl bg-blue-50 border border-blue-200 p-5">
+                <h3 className="font-bold text-blue-900 mb-2">How to Check Complaints and Service</h3>
+                <p className="text-blue-900 text-sm">We have not assigned a complaint score. Search the exact legal insurer and relevant product category, record the reporting year, and consider company size. A financial-strength rating is not a substitute for complaint research.</p>
+                <a className="inline-block mt-3 text-teal-700 underline" href="https://content.naic.org/article/how-file-complaint-and-research-complaints-against-insurance-carriers">NAIC complaint research guidance</a>
+              </aside>
+            </section>
+          )}
+
           {/* Plan availability table */}
           <div className="mb-14">
             <h2 className="text-2xl font-bold text-slate-900 mb-4" style={{ fontFamily: "'Merriweather', serif" }}>
-              Available Medigap Plans
+              {carrier.review ? "Confirm Your Medigap Plan Options" : "Available Medigap Plans"}
             </h2>
             <p className="text-slate-600 mb-6 text-sm">
-              All Medigap plans are standardized by federal law - a Plan G from {carrier.shortName} offers identical benefits to a Plan G from any other carrier. The only difference is the premium.
+              {carrier.review ? carrier.review.availability : `All Medigap plans are standardized by federal law - a Plan G from ${carrier.shortName} offers identical benefits to a Plan G from any other carrier. The only difference is the premium.`}
             </p>
-            <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3">
+            {!carrier.review && <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3">
               {PLAN_LETTERS.map((letter) => {
                 const planData = carrier.plans.find((p) => p.letter === letter);
                 const available = planData?.available ?? false;
@@ -126,7 +147,7 @@ export default function PageContent({ carrierSlug }: { carrierSlug: string }) {
                   </div>
                 );
               })}
-            </div>
+            </div>}
             <p className="text-xs text-slate-500 mt-3 flex items-center gap-1">
               <AlertTriangle className="w-3 h-3" aria-hidden="true" /> Plan C and Plan F are not available to anyone who became eligible for Medicare on or after January 1, 2020.
             </p>
@@ -135,7 +156,7 @@ export default function PageContent({ carrierSlug }: { carrierSlug: string }) {
           {/* Popular plans */}
           <div className="mb-14">
             <h2 className="text-2xl font-bold text-slate-900 mb-4" style={{ fontFamily: "'Merriweather', serif" }}>
-              Most Popular Plans from {carrier.shortName}
+              {carrier.review ? "Understand the Plan Benefits Before Comparing Quotes" : `Most Popular Plans from ${carrier.shortName}`}
             </h2>
             <div className="flex flex-wrap gap-3">
               {carrier.popularPlans.map((letter) => (
@@ -186,11 +207,11 @@ export default function PageContent({ carrierSlug }: { carrierSlug: string }) {
           {/* Best for / Not ideal for */}
           <div className="grid md:grid-cols-2 gap-6 mb-14">
             <div className="p-5 border border-slate-200 rounded-xl">
-              <p className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Best For</p>
+              <p className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">{carrier.review ? "Worth Comparing When" : "Best For"}</p>
               <p className="text-slate-700 text-sm leading-relaxed">{carrier.bestFor}</p>
             </div>
             <div className="p-5 border border-slate-200 rounded-xl">
-              <p className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Not Ideal For</p>
+              <p className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">{carrier.review ? "Before You Choose" : "Not Ideal For"}</p>
               <p className="text-slate-700 text-sm leading-relaxed">{carrier.notIdealFor}</p>
             </div>
           </div>
@@ -202,6 +223,17 @@ export default function PageContent({ carrierSlug }: { carrierSlug: string }) {
           </div>
 
           {/* Related Carriers */}
+          {carrier.review && <section className="mb-14" aria-labelledby="carrier-faqs">
+            <h2 id="carrier-faqs" className="text-2xl font-bold text-slate-900 mb-5">{carrier.shortName} Review Questions</h2>
+            <div className="space-y-4">{carrier.review.faqs.map(faq => <details key={faq.question} className="rounded-xl border border-slate-200 p-5">
+              <summary className="font-semibold text-slate-900 cursor-pointer">{faq.question}</summary>
+              <p className="mt-3 text-slate-600">{faq.answer}</p>
+            </details>)}</div>
+            <div className="mt-6 flex flex-wrap gap-4">
+              <Link href="/faqs/top-10-medicare-supplement-insurance-companies/" className="text-teal-700 underline">Compare Medicare Supplement companies</Link>
+              <Link href="/blog/best-medicare-supplement-plan-g-companies/" className="text-teal-700 underline">Plan G company comparison checklist</Link>
+            </div>
+          </section>}
           {carrier.relatedCarriers && carrier.relatedCarriers.length > 0 && (
             <div className="mb-14">
               <h2 className="text-2xl font-bold text-slate-900 mb-4" style={{ fontFamily: "'Merriweather', serif" }}>
@@ -230,6 +262,7 @@ export default function PageContent({ carrierSlug }: { carrierSlug: string }) {
           )}
 
           {/* CTA */}
+          {carrier.review && <p className="text-sm text-slate-600 mb-4">The comparison number below connects you with MedicareFAQ, not the insurer's policyholder-service department. For an existing policy or claim, use the number on your insurance card.</p>}
           <div className="p-8 bg-gradient-to-br from-blue-900 to-slate-900 rounded-2xl text-white">
             <h3 className="text-2xl font-bold mb-3">Compare {carrier.shortName} Rates</h3>
             <p className="text-slate-300 mb-6 max-w-2xl">
