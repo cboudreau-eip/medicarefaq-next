@@ -6,10 +6,22 @@
  */
 import { useState } from "react";
 import Link from "next/link";
-import { ChevronDown, Clock, AlertTriangle, Calendar } from "lucide-react";
-import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "@/components/schema";
+import { ChevronDown, AlertTriangle, Calendar } from "lucide-react";
+import { FAQSchema } from "@/components/schema";
 
 const faqs = [
+  {
+    q: "What is the difference between AEP and OEP?",
+    a: "AEP is the fall window for Medicare Advantage and Part D changes. In an AEP-versus-OEP comparison, OEP usually means the January through March Medicare Advantage window, which is only for people already enrolled in Medicare Advantage. Medicare also calls the fall AEP its Open Enrollment Period, so always check the full name and dates.",
+  },
+  {
+    q: "Can I change a standalone Part D plan during Medicare Advantage OEP?",
+    a: "Not if you already have Original Medicare and a standalone drug plan, unless you qualify for another enrollment period. If you leave Medicare Advantage for Original Medicare during MA OEP, you can join a separate Part D plan as part of that change.",
+  },
+  {
+    q: "Does AEP or Medicare Advantage OEP guarantee a Medigap policy?",
+    a: "No. Medigap has separate purchase protections. Your federal Medigap Open Enrollment Period lasts six months starting the first month you are at least 65 and enrolled in Part B. Outside that window, check guaranteed-issue rights and state protections before leaving Medicare Advantage or assuming an insurer will accept your application.",
+  },
   {
     q: "What is the Initial Enrollment Period (IEP) for Medicare?",
     a: "The Initial Enrollment Period (IEP) is a 7-month window centered around your 65th birthday. It begins 3 months before your birthday month, includes your birthday month, and extends 3 months after. This is your first opportunity to enroll in Medicare Parts A and B. Enrolling early in the IEP (before your birthday month) ensures coverage starts on time.",
@@ -20,7 +32,7 @@ const faqs = [
   },
   {
     q: "What is the General Enrollment Period (GEP)?",
-    a: "The General Enrollment Period runs from January 1 through March 31 each year. It's for people who missed their Initial Enrollment Period and don't qualify for a Special Enrollment Period. Coverage begins July 1 of the enrollment year. Enrolling during the GEP instead of your IEP may result in a late enrollment penalty.",
+    a: "The General Enrollment Period runs from January 1 to March 31 each year for people who need to enroll in Part B or premium-Part A after missing their initial window and who do not qualify for a Special Enrollment Period. Coverage starts the month after you sign up. Late enrollment penalties may apply.",
   },
   {
     q: "What is the Annual Enrollment Period (AEP) for Medicare?",
@@ -60,7 +72,7 @@ const enrollmentPeriods = [
     dates: "January 1 – March 31 annually",
     color: "border-amber-400 bg-amber-50",
     titleColor: "text-amber-800",
-    description: "For those who missed their IEP and don't qualify for an SEP. Coverage begins July 1. Late penalties may apply.",
+    description: "For those who missed their IEP and don't qualify for an SEP. Coverage starts the month after you sign up. Late penalties may apply.",
     link: "/medicare-enrollment/late-penalties",
     linkText: "Late Enrollment Penalties",
   },
@@ -99,23 +111,6 @@ export default function MedicareEnrollmentPeriods() {
   return (
     <article className="min-h-screen bg-white">
       <FAQSchema faqs={faqs}  />
-      <BreadcrumbSchema
-        items={[
-          { name: "Home", url: "https://www.medicarefaq.com/" },
-          { name: "Original Medicare", url: "https://www.medicarefaq.com/original-medicare/" },
-          { name: "Medicare Enrollment Periods", url: "https://www.medicarefaq.com/original-medicare/medicare-enrollment-periods/" },
-        ]}
-      />
-      <ArticleSchema
-        title="Medicare Enrollment Periods 2026 | IEP, SEP, GEP, AEP Explained"
-        description="Understand all Medicare enrollment periods in 2026 — Initial Enrollment Period (IEP), Special Enrollment Period (SEP), General Enrollment Period (GEP), and Annual Enrollment Period (AEP)."
-        url="https://www.medicarefaq.com/original-medicare/medicare-enrollment-periods/"
-        datePublished="2024-01-15T00:00:00+00:00"
-        dateModified="2026-01-10T00:00:00+00:00"
-        authorName="David Haass"
-        authorUrl="https://www.medicarefaq.com/about/"
-        imageUrl="https://www.medicarefaq.com/images/medicarefaq-cover.jpg"
-      />
 
       {/* Hero */}
       <section className="bg-[#1B2A4A] text-white py-12 px-4">
@@ -127,14 +122,56 @@ export default function MedicareEnrollmentPeriods() {
             <span className="mx-2">/</span>
             <span className="text-white">Medicare Enrollment Periods</span>
           </nav>
-          <h1 className="text-3xl md:text-4xl font-bold mb-4">Medicare Enrollment Periods</h1>
+          <h1 className="text-3xl md:text-4xl font-bold mb-4">Medicare Enrollment Periods: AEP vs OEP</h1>
           <p className="text-lg text-blue-100 max-w-3xl">
-            Knowing when you can enroll in Medicare — and what happens if you miss a window — is critical to avoiding permanent late enrollment penalties.
+            Compare the fall Annual Enrollment Period with Medicare Advantage Open Enrollment, then find the rules for first-time enrollment and Medigap.
           </p>
+          <p className="text-sm text-blue-200 mt-4">Updated September 18, 2026</p>
         </div>
       </section>
 
       <div className="container max-w-5xl py-10">
+
+        <section id="aep-vs-oep" aria-labelledby="aep-vs-oep-heading" className="mb-10 scroll-mt-44">
+          <h2 id="aep-vs-oep-heading" className="text-2xl font-bold text-[#1B2A4A] mb-4">AEP vs OEP: Dates, Eligibility, and Allowed Changes</h2>
+          <p className="text-gray-700 mb-5">AEP runs October 15 to December 7. Medicare Advantage OEP runs January 1 to March 31 and is limited to people already in Medicare Advantage. The key difference is who can use each window and which changes it permits.</p>
+          <div role="region" aria-label="Scrollable AEP versus OEP comparison" tabIndex={0} className="overflow-x-auto rounded-xl border border-gray-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-teal-600">
+            <table className="w-full min-w-[600px] text-sm text-left">
+              <caption className="sr-only">Annual Enrollment versus Medicare Advantage Open Enrollment</caption>
+              <thead className="bg-[#1B2A4A] text-white"><tr>
+                <th scope="col" className="p-4">Compare</th>
+                <th scope="col" className="p-4">Annual Enrollment (AEP)</th>
+                <th scope="col" className="p-4">Medicare Advantage OEP</th>
+              </tr></thead>
+              <tbody className="text-gray-700">
+                {[
+                  ["Dates each year", "October 15 to December 7", "January 1 to March 31"],
+                  ["Who can use it", "Medicare beneficiaries eligible for the plan they want", "Current Medicare Advantage members"],
+                  ["Medicare Advantage", "Join, switch, or leave a plan", "Switch plans once, or return to Original Medicare"],
+                  ["Standalone Part D", "Join, switch, or drop a drug plan with Original Medicare", "Join a drug plan when returning to Original Medicare; not a general Part D switching window"],
+                  ["Coverage starts", "January 1 of the next year", "First of the month after the plan receives your request"],
+                ].map(([label, aep, oep]) => <tr key={label} className="border-t border-gray-200 even:bg-gray-50">
+                  <th scope="row" className="p-4 font-semibold text-[#1B2A4A]">{label}</th><td className="p-4">{aep}</td><td className="p-4">{oep}</td>
+                </tr>)}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-gray-600 mt-3">Sources: <a className="text-teal-700 underline" href="https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/joining-a-plan">Medicare plan enrollment rules</a> and the <a className="text-teal-700 underline" href="https://www.medicare.gov/publications/10050-medicare-and-you.pdf">Medicare &amp; You handbook</a>.</p>
+          <aside className="bg-blue-50 border-l-4 border-blue-500 rounded-xl p-5 mt-5">
+            <h3 className="font-bold text-[#1B2A4A] mb-2">Why “open enrollment” can be confusing</h3>
+            <p className="text-gray-700">Medicare calls the fall AEP “Open Enrollment,” too. Confirm whether someone means fall enrollment, Medicare Advantage OEP, or your separate six-month Medigap window. Neither AEP nor MA OEP automatically guarantees acceptance into Medigap.</p>
+            <Link className="inline-block text-teal-700 underline mt-3" href="/faqs/medicare-supplement-open-enrollment/">Check Medigap enrollment protections</Link>
+          </aside>
+        </section>
+
+        <section aria-labelledby="which-window" className="mb-10">
+          <h2 id="which-window" className="text-2xl font-bold text-[#1B2A4A] mb-4">Which Enrollment Window Fits Your Situation?</h2>
+          <div className="grid md:grid-cols-2 gap-4">
+            <div className="border border-gray-200 rounded-xl p-5"><h3 className="font-bold text-[#1B2A4A] mb-2">You want a different drug plan for next year</h3><p className="text-gray-700">With Original Medicare, compare Part D options during fall AEP. A change submitted in November 2026 takes effect January 1, 2027.</p><Link className="inline-block text-teal-700 underline mt-3" href="/faqs/medicare-annual-enrollment-period/">Review AEP rules</Link></div>
+            <div className="border border-gray-200 rounded-xl p-5"><h3 className="font-bold text-[#1B2A4A] mb-2">Your Medicare Advantage plan is not working for you</h3><p className="text-gray-700">During MA OEP, use your one change to switch plans or return to Original Medicare. A request received in February generally takes effect March 1.</p><Link className="inline-block text-teal-700 underline mt-3" href="/faqs/medicare-advantage-open-enrollment-period/">Review MA OEP rules</Link></div>
+          </div>
+          <p className="text-gray-700 mt-4">Outside these windows, check whether a <Link className="text-teal-700 underline" href="/faqs/medicare-special-enrollment-period/">Special Enrollment Period</Link> applies. If you need Part A or Part B for the first time, use the enrollment chart below.</p>
+        </section>
 
         {/* Enrollment Period Cards */}
         <section className="mb-10">
@@ -186,12 +223,14 @@ export default function MedicareEnrollmentPeriods() {
                 <button
                   className="w-full text-left p-5 flex justify-between items-center hover:bg-gray-50 transition-colors"
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                  aria-expanded={openFaq === i}
+                  aria-controls={`enrollment-faq-${i}`}
                 >
                   <span className="font-semibold text-[#1B2A4A] pr-4">{faq.q}</span>
                   <ChevronDown className={`w-5 h-5 text-gray-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
                 </button>
                 {openFaq === i && (
-                  <div className="px-5 pb-5 text-gray-700 text-sm leading-relaxed border-t border-gray-100">
+                  <div id={`enrollment-faq-${i}`} className="px-5 pb-5 text-gray-700 text-sm leading-relaxed border-t border-gray-100">
                     {faq.a}
                   </div>
                 )}
@@ -199,6 +238,7 @@ export default function MedicareEnrollmentPeriods() {
             ))}
           </div>
         </section>
+        <p className="mt-6 text-sm text-gray-600">Also reviewed: Medicare.gov guidance on <a className="text-teal-700 underline" href="https://www.medicare.gov/basics/get-started-with-medicare/sign-up/when-does-medicare-coverage-start">coverage start dates</a> and <a className="text-teal-700 underline" href="https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy/when">when you can buy Medigap</a>.</p>
       </div>
     </article>
   );

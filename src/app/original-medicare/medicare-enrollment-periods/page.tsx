@@ -2,12 +2,15 @@ import type { Metadata } from "next";
 import SiteLayout from "@/components/SiteLayout";
 import PageContent from "./PageContent";
 
+const title = "AEP vs OEP: Medicare Enrollment Periods Explained";
+const description = "Compare AEP vs OEP dates, eligibility, allowed plan changes, and coverage start dates. Understand how Medicare Advantage and Medigap enrollment windows differ.";
+
 export const metadata: Metadata = {
-  title: "Medicare Enrollment Periods 2026 | IEP, SEP, GEP, AEP Explained",
-  description: "Understand all Medicare enrollment periods in 2026 — Initial Enrollment Period (IEP), Special Enrollment Period (SEP), General Enrollment Period (GEP), and Annual Enrollment Period (AEP).",
+  title,
+  description,
   openGraph: {
-    title: "Medicare Enrollment Periods 2026 | IEP, SEP, GEP, AEP Explained",
-    description: "Understand all Medicare enrollment periods in 2026 — Initial Enrollment Period (IEP), Special Enrollment Period (SEP), General Enrollment Period (GEP), and Annual Enrollment Period (AEP).",
+    title,
+    description,
     url: "https://www.medicarefaq.com/original-medicare/medicare-enrollment-periods/",
     type: "article",
     images: [{ url: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg" }],
@@ -21,11 +24,12 @@ export default function Page() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "Medicare Enrollment Periods 2026 | IEP, SEP, GEP, AEP Explained",
-    description: "Understand all Medicare enrollment periods in 2026 — Initial Enrollment Period (IEP), Special Enrollment Period (SEP), General Enrollment Period (GEP), and Annual Enrollment Period (AEP).",
+    headline: "Medicare Enrollment Periods: AEP vs OEP",
+    description,
     url: "https://www.medicarefaq.com/original-medicare/medicare-enrollment-periods/",
-    dateModified: "2026-01-01",
-    author: { "@type": "Organization", name: "MedicareFAQ" },
+    datePublished: "2024-01-15T00:00:00+00:00",
+    dateModified: "2026-09-18",
+    author: { "@type": "Person", name: "David Haass", url: "https://www.medicarefaq.com/about-us/david-haass/" },
     publisher: {
       "@type": "Organization",
       name: "MedicareFAQ",
