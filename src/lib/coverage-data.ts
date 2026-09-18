@@ -34681,6 +34681,7 @@ export const coverageArticles: CoverageArticleData[] = [
         paragraphs: [
           "Medigap benefits are standardized by plan letter in most states. A [Plan G](/medicare-supplement-plans/plan-g/) from one company covers the same standardized Medicare cost-sharing benefits as Plan G from another company, so begin every carrier comparison with the same plan letter.",
           "The company still matters because premiums, approved rating methods, discounts, underwriting rules outside protected enrollment periods, complaint history, and service can differ. [Medicare's cost guidance](https://www.medicare.gov/health-drug-plans/medigap/basics/costs) advises comparing the same plan letter across companies because premiums for identical standardized coverage can vary.",
+          "Already decided on Plan G? Use our [Plan G company comparison](/blog/best-medicare-supplement-plan-g-companies/) for a focused carrier shortlist and checks that keep standard, high-deductible, and SELECT quotes separate. This broader guide covers company research across Medigap plan letters.",
           "For 2026, the [CMS cost fact sheet](https://www.cms.gov/newsroom/fact-sheets/2026-medicare-parts-b-premiums-deductibles) sets the Part A inpatient deductible at $1,736 and the Part B deductible at $283. Medigap coverage of those amounts depends on the plan letter and eligibility rules, not the brand name."],
         whatItCovers: [
           "Compare Plan G with Plan G, Plan N with Plan N, or another matching plan letter",

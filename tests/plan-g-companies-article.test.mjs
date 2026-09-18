@@ -44,3 +44,15 @@ test("shared blog schema converts FAQ sections into FAQPage JSON-LD", () => {
   assert.ok(schemaSource.includes('"@type": "FAQPage"'), "Schema builder must emit FAQPage markup");
   assert.ok(schemaSource.includes('acceptedAnswer'), "Schema builder must emit accepted answers");
 });
+
+test("Plan G comparison distinguishes policy types and connects to the company guide", () => {
+  const article = sliceArticle(articleSource, "best-medicare-supplement-plan-g-companies");
+  assert.ok(article.includes("Plan G Company Comparison at a Glance"));
+  assert.ok(article.includes("Keep These Plan G Quotes Separate"));
+  for (const policy of ["Standard Plan G", "High-deductible Plan G", "Medicare SELECT Plan G"]) {
+    assert.ok(article.includes(policy), `Comparison must identify ${policy}`);
+  }
+  assert.ok(article.includes("/faqs/top-10-medicare-supplement-insurance-companies/"));
+  assert.match(article, /"id": "faq"\s*},\s*{\s*"type": "faq"/);
+  assert.equal(article.includes("best fit to investigate"), false);
+});
