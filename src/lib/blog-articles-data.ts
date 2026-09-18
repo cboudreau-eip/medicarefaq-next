@@ -12401,91 +12401,366 @@ imageAlt: "Older couple link arms drinking champagne at a party with bunting and
     ],
   },
   {
-    slug: "medicare-part-d-enrollment-deadlines",
-    seo: {
-      focusKeyword: "",
-      title: "Top 5 Medicare Part D Enrollment Deadlines You Need to Know",
-      description: "Discover the top 5 Medicare Part D enrollment deadlines. Learn key dates, windows, and how to avoid costly lifetime late penalties.",
-      canonical: "https://www.medicarefaq.com/blog/medicare-part-d-enrollment-deadlines/",
-      ogImage: "/images/medicarefaq-cover.jpg",
+    "slug": "medicare-part-d-enrollment-deadlines",
+    "seo": {
+      "focusKeyword": "Medicare Part D enrollment deadlines",
+      "title": "Medicare Part D Enrollment Deadlines Checklist 2026",
+      "description": "Use this 2026 Medicare Part D enrollment deadline checklist to act on time, avoid coverage gaps, review plan changes, and prevent costly late penalties.",
+      "canonical": "https://www.medicarefaq.com/blog/medicare-part-d-enrollment-deadlines/",
+      "ogImage": "/images/generated/medicare-part-d-enrollment.png"
     },
-    title: "Top 5 Deadlines You Need to Know for Medicare Part D Enrollment",
-    category: "Medicare Part D",
-    categoryColor: "#7C3AED",
-    date: "August 11, 2026",
-    author: "David Haass",
-    reviewer: "Ashlee Zareczny",
-    readTime: "11 min read",
-    featured: false,
-    image: "/images/generated/medicare-part-d-enrollment.png",
-    imageAlt: "Calendar with Medicare Part D enrollment deadline dates highlighted",
-    excerpt: "Missing a Medicare Part D deadline by even one month can follow you financially for years. This article breaks down the five most important deadlines you need to know, explains what happens if you miss them, and gives you clear steps to stay on track.",
-    tableOfContents: [
-      { id: "why-deadlines-matter", title: "Why Medicare Part D Deadlines Matter" },
-      { id: "initial-enrollment", title: "Step 1: The Initial Enrollment Period" },
-      { id: "annual-enrollment", title: "Step 2: The Annual Enrollment Period" },
-      { id: "special-enrollment", title: "Step 3: Special Enrollment Periods" },
-      { id: "late-penalties", title: "Step 4: Late Penalties and Hidden Costs" },
-      { id: "employer-coverage", title: "Step 5: Employer Coverage and Creditable Plans" },
-      { id: "financial-assistance", title: "Financial Assistance and IRMAA" },
-      { id: "faqs", title: "Frequently Asked Questions" },
+    "title": "Medicare Part D Enrollment Deadline Checklist for 2026",
+    "excerpt": "The rules page tells you when Part D enrollment periods occur. This checklist turns those dates into practical steps for enrolling, changing plans, preserving records, and avoiding penalties.",
+    "category": "Medicare Part D",
+    "categoryColor": "#7C3AED",
+    "date": "August 11, 2026",
+    "dateUpdated": "September 18, 2026",
+    "author": "David Haass",
+    "reviewer": "Ashlee Zareczny",
+    "readTime": "9 min read",
+    "featured": false,
+    "image": "/images/generated/medicare-part-d-enrollment.png",
+    "imageAlt": "Calendar with Medicare Part D enrollment deadline dates highlighted",
+    "answerBlock": "Medicare Part D enrollment deadlines depend on why you are enrolling. Use your Initial Enrollment Period when you first get Medicare, Open Enrollment from October 15 to December 7 for annual changes, or a Special Enrollment Period after a qualifying event. The 63-day rule concerns penalties, not SEP length.",
+    "keyTakeaways": [
+      "Use the Part D enrollment-period reference for the governing dates, then use this checklist to complete the right tasks before your window closes.",
+      "Open Enrollment runs from October 15 to December 7, and changes submitted by December 7 generally take effect January 1.",
+      "The 63-day creditable-coverage rule determines potential late-penalty exposure; it is not the deadline for every Special Enrollment Period."
     ],
-    keyTakeaways: [
-      "Your Initial Enrollment Period gives you a 7-month window around your 65th birthday to enroll in Part D without facing a late penalty.",
-      "The Annual Enrollment Period (October 15 - December 7) is your primary opportunity each year to join, switch, or drop a Part D plan.",
-      "Missing your enrollment window can result in a permanent late enrollment penalty added to your monthly premium for as long as you have Part D coverage.",
+    "tableOfContents": [
+      {
+        "id": "start-with-right-window",
+        "title": "Start With the Right Enrollment Window"
+      },
+      {
+        "id": "initial-enrollment-checklist",
+        "title": "Checklist 1: Enrolling When New to Medicare"
+      },
+      {
+        "id": "open-enrollment-checklist",
+        "title": "Checklist 2: Reviewing Coverage Each Fall"
+      },
+      {
+        "id": "special-enrollment-checklist",
+        "title": "Checklist 3: Acting After a Life Event"
+      },
+      {
+        "id": "creditable-coverage-checklist",
+        "title": "Checklist 4: Protecting Creditable Coverage Records"
+      },
+      {
+        "id": "penalty-checklist",
+        "title": "Checklist 5: Avoiding the Part D Penalty"
+      },
+      {
+        "id": "faqs",
+        "title": "Frequently Asked Questions"
+      }
     ],
-    sections: [
-      { type: "heading", level: 2, text: "Understanding Why Medicare Part D Deadlines Matter for You", id: "why-deadlines-matter" },
-      { type: "paragraph", content: "Missing a Medicare Part D deadline by even one month can follow you financially for years. Unlike many insurance decisions that offer second chances, Medicare Part D enrollment deadlines carry real consequences, including permanent premium penalties that add up every single month for the rest of your coverage." },
-      { type: "paragraph", content: "For anyone turning 65 or transitioning off employer coverage, the enrollment windows can feel complicated. There are multiple periods to track, each with different rules and triggers. Getting them right from the start protects both your prescription access and your budget." },
-      { type: "paragraph", content: "This article breaks down the five most important deadlines you need to know, explains what happens if you miss them, and gives you clear steps to stay on track. Understanding your Medicare initial enrollment period and the annual windows that follow puts you in a much stronger position when it matters most." },
-      { type: "heading", level: 2, text: "The Initial Enrollment Period When Turning 65", id: "initial-enrollment" },
-      { type: "paragraph", content: "The Initial Enrollment Period (IEP) is a 7-month window that surrounds your 65th birthday. It begins three months before the month you turn 65, includes your birthday month, and extends three months after. This is your first opportunity to enroll in Medicare Part D without facing any late penalties." },
-      { type: "paragraph", content: "One detail many people overlook: your Part D start date depends on when within that 7-month window you enroll. If you sign up during the three months before your birthday month, coverage begins on the first day of your birthday month. Enroll after your birthday month, and your start date is pushed back, sometimes by several months." },
-      { type: "paragraph", content: "Your Part D enrollment is also closely tied to your Medicare Part B enrollment date. Delaying Part B can affect when your drug coverage kicks in, so it is worth coordinating both decisions together. If you are still working and have employer coverage, see our guidance on [when to enroll in Medicare if still working](/faqs/when-does-medicare-start/) before making any decisions." },
-      { type: "paragraph", content: "To keep things simple, mark your calendar three months before your 65th birthday. Use that time to [compare plans](/faqs/top-5-medicare-prescription-drug-plans/), check which drugs are covered, and submit your enrollment. Starting early gives you the most coverage options and the cleanest transition." },
-      { type: "heading", level: 2, text: "Navigating the Annual Enrollment Period Every Fall", id: "annual-enrollment" },
-      { type: "paragraph", content: "Every fall, Medicare opens a window for beneficiaries to review and change their prescription drug coverage. The Medicare open enrollment period runs from October 15 through December 7, with any changes taking effect on January 1 of the following year. This is the primary opportunity to join Part D if you do not already have it, switch to a different plan, or drop coverage entirely." },
-      { type: "paragraph", content: "Before this window opens, you should receive an Annual Notice of Change (ANOC) letter from your current plan. This document outlines any changes to your premiums, deductibles, or drug formulary taking effect in the new year. Reading it carefully is one of the most important things you can do during this period." },
-      { type: "paragraph", content: "In 2026, the maximum Part D deductible reached [$615](https://www.cms.gov/), up from $590 in 2025. That increase alone is a reason to shop around rather than auto-renewing. Compare your current medications against each plan's [formulary](/faqs/what-is-a-medicare-part-d-formulary/) to make sure your drugs are still covered at a reasonable cost tier." },
-      { type: "paragraph", content: "Use the fall window as an annual checkup for your prescription coverage. What worked last year may not be the best fit this year, especially if your medications or health needs have changed." },
-      { type: "eddie-pro-tip", content: "Before the Annual Enrollment Period opens each October, pull together a current list of every prescription you take, including dosages and how often you fill them. Then use Medicare's online Plan Finder tool at Medicare.gov to run a side-by-side cost comparison across available Part D plans in your zip code. This single step can save you hundreds of dollars per year by matching your exact drug list to the plan with the lowest total out-of-pocket cost - not just the lowest premium." },
-      { type: "heading", level: 2, text: "Special Enrollment Periods and Life-Changing Events", id: "special-enrollment" },
-      { type: "paragraph", content: "Life does not always follow Medicare's calendar. A [Special Enrollment Period (SEP)](/faqs/medicare-special-enrollment-period/) allows you to enroll in or change your Part D plan outside the standard windows when a qualifying life event occurs. Common triggers include losing employer drug coverage, moving to a new address that is outside your current plan's service area, or qualifying for Extra Help (Low-Income Subsidy)." },
-      { type: "paragraph", content: "The timing here is strict. Once you lose creditable employer coverage, you generally have 63 days to enroll in a Part D plan before the [late enrollment penalty](/faqs/medicare-part-d-late-enrollment-penalty/) clock starts ticking. Missing that 63-day window, even by a few days, can trigger a permanent penalty on your future premiums." },
-      { type: "paragraph", content: "Documentation matters. You will need proof of your qualifying event, such as a letter from your employer confirming your coverage end date. Keep any written notices you receive from your employer or union plan. These records are essential if you ever need to dispute a penalty or verify your enrollment eligibility with Medicare." },
-      { type: "paragraph", content: "If you are unsure whether your situation qualifies for a Medicare Special Enrollment Period, contact Medicare directly or speak with a licensed agent who can walk through your specific circumstances." },
-      { type: "heading", level: 2, text: "The Hidden Costs of Missing Deadlines and Late Penalties", id: "late-penalties" },
-      { type: "paragraph", content: "The Part D late enrollment penalty is one of Medicare's most misunderstood rules, and one of the most costly. It applies when you go without creditable prescription drug coverage for 63 or more consecutive days after your Initial Enrollment Period ends." },
-      { type: "paragraph", content: "The penalty is calculated as 1% of the national base beneficiary premium for every month you went without coverage. In 2026, that base premium is $38.99. So for each uncovered month, you owe roughly $0.39 in permanent penalty, and that amount is added to your monthly Part D premium indefinitely." },
-      { type: "paragraph", content: "Here is what that looks like in real dollar terms:" },
-      { type: "table", title: "", headers: ["Months Without Coverage", "Estimated Monthly Penalty", "Annual Penalty Cost"], rows: [["12 months", "~$4.68", "~$56"], ["24 months", "~$9.36", "~$112"], ["36 months", "~$14.04", "~$168"], ["60 months", "~$23.39", "~$281"]] },
-      { type: "paragraph", content: "Note: The base beneficiary premium is subject to annual adjustment by CMS, so actual penalty amounts may differ in future years." },
-      { type: "paragraph", content: "What makes this penalty especially burdensome is that it compounds over time. The base premium used for calculation can change annually, but the number of penalty months you have accumulated stays with you permanently. Someone who waited five years before enrolling could end up paying hundreds of dollars more per year, every year, for the rest of their enrollment." },
-      { type: "paragraph", content: "The penalty also does not disappear if you switch plans. It follows you from plan to plan. For higher-income beneficiaries who already face [IRMAA surcharges](/faqs/irmaa/) on top of their Part D premium, adding a penalty makes the total monthly cost substantially higher than it needed to be." },
-      { type: "callout", calloutType: "warning", calloutTitle: "Common Mistakes to Avoid", calloutText: "1) Assuming you do not need Part D because you are healthy - enroll during your IEP regardless of current medication needs. 2) Missing the 63-day window after losing employer coverage. 3) Auto-renewing without reviewing your plan each year. 4) Confusing non-creditable coverage with creditable coverage. 5) Overlooking Extra Help eligibility. 6) Enrolling based on premium alone - a $0 premium plan may have a $615 deductible and high drug costs." },
-      { type: "heading", level: 2, text: "Employer Coverage Rules and Creditable Drug Plans", id: "employer-coverage" },
-      { type: "paragraph", content: "If you or your spouse still works and has drug coverage through an employer or union, you may be able to delay Part D enrollment without any penalty - but only if that coverage meets a specific standard. Creditable coverage means your existing drug plan is at least as good as standard Medicare Part D. Employers are required by law to notify you in writing each year whether your coverage qualifies." },
-      { type: "paragraph", content: "That annual notice, typically sent before October 15, is a document you should save carefully. If you ever need to prove to Medicare that you had creditable coverage during a period when you were not enrolled in Part D, this letter is your primary evidence. Without it, disputing a penalty becomes much harder." },
-      { type: "paragraph", content: "When you do retire or lose employer coverage, timing your transition matters. You have 63 days from your coverage end date to enroll in a Part D plan through a Special Enrollment Period. Coordinating your last day of employer coverage with your Part D start date prevents any gap." },
-      { type: "paragraph", content: "Also confirm whether your retiree plan, if offered, continues to qualify as creditable after you leave active employment. Not all retiree drug plans meet the Medicare standard, and the rules can change from year to year." },
-      { type: "heading", level: 2, text: "Financial Assistance and High-Income Surcharges to Keep in Mind", id: "financial-assistance" },
-      { type: "paragraph", content: "Your total Part D cost is not just the monthly premium. Two additional cost factors - one for lower-income beneficiaries and one for higher earners - can significantly affect what you actually pay." },
-      { type: "paragraph", content: "In 2026, the Part D catastrophic coverage phase threshold is $2,100. Once your out-of-pocket drug spending crosses that threshold in a given year, your cost-sharing drops substantially. This cap provides meaningful protection for people who take expensive specialty medications. Understanding [Medicare costs in 2026](/new-to-medicare/costs/) helps you plan your annual budget more accurately." },
-      { type: "paragraph", content: "Higher-income beneficiaries face an additional charge known as the Income-Related Monthly Adjustment Amount (IRMAA). In 2026, Part D IRMAA surcharges range from $14.50 to $91.00 per month, depending on your income bracket. These amounts are based on your 2024 tax return and are added on top of your regular plan premium." },
-      { type: "paragraph", content: "On the other end of the income spectrum, the Social Security Administration's [Extra Help program](/faqs/medicare-extra-help-program/) (also called the Low-Income Subsidy) can significantly reduce Part D premiums, deductibles, and copays. Eligibility is based on income and resources, and qualifying automatically grants you a Special Enrollment Period. If your income is modest, applying for Extra Help through the [SSA's Medicare resources](https://www.ssa.gov/medicare) is worth doing before your enrollment deadline arrives." },
-      { type: "heading", level: 2, text: "Frequently Asked Questions About Medicare Part D Deadlines", id: "faqs" },
-      { type: "faq", faqs: [{ question: "When is the Medicare Part D enrollment deadline for 2026?", answer: "The Annual Enrollment Period runs from October 15 through December 7 each year, with coverage starting January 1. If you are turning 65, your deadline falls within your 7-month Initial Enrollment Period surrounding your birthday month. Both windows apply depending on where you are in your Medicare journey." }, { question: "What happens if I miss the Medicare Part D enrollment deadline?", answer: "Missing your enrollment window generally means waiting until the next Annual Enrollment Period to sign up. You also risk triggering the permanent Part D late enrollment penalty, which adds a percentage to your monthly premium for every uncovered month, and never goes away." }, { question: "How is the Medicare Part D late enrollment penalty calculated?", answer: "The penalty equals 1% of the national base beneficiary premium ($38.99 in 2026) multiplied by the number of full months you went without creditable coverage. That amount is permanently added to your monthly Part D premium for as long as you are enrolled." }, { question: "Can I enroll in Part D outside of the Annual Enrollment Period?", answer: "Yes, if you qualify for a Special Enrollment Period. Common triggers include losing employer drug coverage, moving out of your plan's service area, or qualifying for Extra Help. You typically have 63 days from the qualifying event to enroll." }, { question: "Does employer drug coverage protect me from the Part D late penalty?", answer: "Only if your employer coverage is creditable - meaning it is at least as good as standard Medicare Part D. Your employer must notify you annually whether your plan qualifies. Keep those letters as proof in case Medicare questions your enrollment timing." }, { question: "What is the difference between the Annual Enrollment Period and Open Enrollment?", answer: "The Annual Enrollment Period (October 15 - December 7) allows all beneficiaries to join, switch, or drop Part D plans. The Medicare Advantage Open Enrollment Period (January 1 - March 31) is a separate window for people already in Medicare Advantage to switch plans or return to Original Medicare with a standalone Part D plan." }, { question: "How do I avoid the Part D late enrollment penalty?", answer: "Enroll in a Part D plan during your Initial Enrollment Period, or maintain creditable drug coverage (such as qualifying employer coverage) without a gap of 63 or more days. If you lose creditable coverage, enroll in Part D within 63 days to avoid the penalty." }, { question: "Can I get help paying for Part D if I have a low income?", answer: "Yes. The Extra Help program (Low-Income Subsidy) through Social Security can reduce your Part D premiums, deductibles, and copays. Qualifying also gives you a Special Enrollment Period to join or switch plans at any time during the year." }] },
+    "sections": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Start With the Right Enrollment Window",
+        "id": "start-with-right-window"
+      },
+      {
+        "type": "paragraph",
+        "content": "A deadline checklist is useful only after you identify the enrollment period that applies to you. Our [Part D enrollment-period reference](/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-enrollment-periods/) explains the rules for the Initial Enrollment Period, Open Enrollment, Medicare Advantage Open Enrollment, and Special Enrollment Periods."
+      },
+      {
+        "type": "paragraph",
+        "content": "Use this article for the next step: gathering records, comparing plans, submitting your request, and confirming the effective date. Part D is available when you have Medicare Part A or Part B and live in the plan's service area, but you must request enrollment during a valid period."
+      },
+      {
+        "type": "table",
+        "title": "Which Part D Deadline Applies to You?",
+        "headers": [
+          "Situation",
+          "Enrollment opportunity",
+          "Immediate action"
+        ],
+        "rows": [
+          [
+            "You are first becoming eligible for Medicare",
+            "Part D Initial Enrollment Period",
+            "Confirm your Medicare effective date and submit a plan request before you need drug coverage."
+          ],
+          [
+            "You want to review or change coverage for next year",
+            "Open Enrollment, October 15 to December 7",
+            "Compare your current plan with next year's premiums, formulary, pharmacies, and total drug costs."
+          ],
+          [
+            "You lost employer or other creditable drug coverage",
+            "A Special Enrollment Period based on the event",
+            "Confirm the exact SEP end date and prevent an uncovered gap of 63 days or more."
+          ],
+          [
+            "You are already in Medicare Advantage",
+            "Medicare Advantage Open Enrollment, January 1 to March 31",
+            "Check which changes are allowed before leaving or changing the plan."
+          ]
+        ],
+        "footnote": "Special Enrollment Period timing varies by event. Confirm the rule that applies to your circumstances."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "calloutTitle": "Rules Reference and Action Checklist",
+        "calloutText": "The enrollment-period page owns the full rules and dates. This checklist focuses on what to do before, during, and after the applicable window."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Checklist 1: Enrolling When You Are New to Medicare",
+        "id": "initial-enrollment-checklist"
+      },
+      {
+        "type": "paragraph",
+        "content": "Your Part D Initial Enrollment Period generally starts three months before you first get Medicare Part A or Part B and ends three months afterward. You need either Part A or Part B to join a standalone Medicare drug plan. Medicare's [plan enrollment guidance](https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/joining-a-plan) explains how your request date affects when coverage starts."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Confirm your Medicare start date",
+            "description": "Use the Part A and Part B dates on your Medicare card instead of assuming the window is based only on your birthday."
+          },
+          {
+            "title": "Build a current medication list",
+            "description": "Include each drug's exact name, dosage, quantity, refill frequency, and preferred pharmacies."
+          },
+          {
+            "title": "Compare total annual costs",
+            "description": "Review premiums, deductibles, copays, coinsurance, formulary restrictions, and pharmacy pricing together."
+          },
+          {
+            "title": "Submit the enrollment request",
+            "description": "Keep the confirmation number or dated receipt and verify the expected effective date."
+          },
+          {
+            "title": "Check the first plan materials",
+            "description": "Review your member card, formulary, pharmacy network, and any transition-fill instructions before your next refill."
+          }
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "calloutTitle": "Coverage Start Dates",
+        "calloutText": "If you request enrollment before Medicare Part A or Part B begins, plan coverage generally starts when that Medicare coverage starts. If you request enrollment afterward, coverage generally begins the first day of the following month."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Checklist 2: Reviewing Coverage Each Fall",
+        "id": "open-enrollment-checklist"
+      },
+      {
+        "type": "paragraph",
+        "content": "Medicare Open Enrollment runs from October 15 to December 7. You can join, drop, or switch a standalone drug plan if you use Original Medicare, and changes submitted by December 7 generally take effect January 1. Medicare lists the available actions on its [Open Enrollment page](https://www.medicare.gov/health-drug-plans/open-enrollment)."
+      },
+      {
+        "type": "paragraph",
+        "content": "Start with your plan's Annual Notice of Change, but do not stop there. Update your prescription list and compare next year's full costs even if your premium changes only slightly. The [Part D formulary guide](/faqs/what-is-a-medicare-part-d-formulary/) explains tiers and coverage restrictions to check."
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "Read the Annual Notice of Change for premium, deductible, formulary, pharmacy, and utilization-management changes.",
+          "Enter every current prescription into Medicare's plan comparison tool with the correct dosage and quantity.",
+          "Confirm that your preferred pharmacy remains in network and whether another pharmacy offers preferred pricing.",
+          "Check prior authorization, step therapy, and quantity-limit rules for each medication.",
+          "Compare estimated annual drug and premium costs, not the monthly premium alone.",
+          "Submit any change by December 7 and save the enrollment confirmation."
+        ]
+      },
+      {
+        "type": "eddie-pro-tip",
+        "content": "I recommend running two comparisons: one with your preferred pharmacy and one with another convenient network pharmacy. The same plan can produce different annual estimates depending on where you fill prescriptions. Save both results with the date so you can explain why you selected the plan."
+      },
+      {
+        "type": "zip-cta",
+        "headline": "Compare Medicare drug coverage in your area",
+        "subtext": "Review plans using your prescriptions, preferred pharmacies, and budget.",
+        "buttonLabel": "Compare Plans"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Checklist 3: Acting After a Qualifying Life Event",
+        "id": "special-enrollment-checklist"
+      },
+      {
+        "type": "paragraph",
+        "content": "A Special Enrollment Period may let you join or change Part D coverage outside Open Enrollment after events such as moving or losing other coverage. The deadline depends on the event. Medicare's [SEP rules by event](https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/joining-a-plan/special-enrollment-periods) give the controlling time frames."
+      },
+      {
+        "type": "paragraph",
+        "content": "After employer or union coverage ends, your opportunity to join generally lasts for two full months after the month the coverage ends. If creditable coverage is lost involuntarily or becomes non-creditable, the period generally lasts two full months after the month of the loss or notice, whichever is later. Confirm your exact dates instead of using a generic 63-day deadline."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Identify the qualifying event",
+            "description": "Record what changed, the effective date, and when you received notice."
+          },
+          {
+            "title": "Verify the SEP dates",
+            "description": "Use Medicare's event-specific rules or call 1-800-MEDICARE if the situation is unclear."
+          },
+          {
+            "title": "Collect proof",
+            "description": "Keep employer letters, termination notices, address records, or other documents supporting the event."
+          },
+          {
+            "title": "Choose and enroll",
+            "description": "Compare eligible plans, submit the request within the SEP, and save confirmation."
+          },
+          {
+            "title": "Confirm the transition",
+            "description": "Verify the new effective date and plan for any prescriptions needed before coverage starts."
+          }
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "warning",
+        "calloutTitle": "The 63-Day Rule Is Not Your SEP Deadline",
+        "calloutText": "An uncovered period of 63 days or more can create late-penalty exposure. Special Enrollment Periods have event-specific start and end dates, which may be expressed as full calendar months rather than 63 days."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Checklist 4: Protecting Your Creditable Coverage Records",
+        "id": "creditable-coverage-checklist"
+      },
+      {
+        "type": "paragraph",
+        "content": "Creditable prescription drug coverage is expected to pay, on average, at least as much as Medicare drug coverage. Employer or union coverage, TRICARE, Indian Health Service coverage, and VA drug benefits may qualify. Medicare's [creditable coverage explanation](https://www.medicare.gov/health-drug-plans/part-d/basics/creditable-coverage) also warns that discount cards and free clinics are not drug insurance."
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Save each annual creditable coverage notice from your employer, union, or plan.",
+          "Keep records showing the coverage start and end dates for you and any covered dependents.",
+          "Ask the benefits administrator before adding Part D because enrolling could affect employer or union health coverage.",
+          "Respond by the deadline if a Medicare drug plan asks for proof of prior creditable coverage.",
+          "Store enrollment confirmations, termination notices, and related correspondence together."
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "calloutTitle": "Document the Gap Calculation",
+        "calloutText": "Write down the last day of old drug coverage and the first day of new coverage. This makes it easier to check whether you had 63 consecutive days without Part D or other creditable coverage."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Checklist 5: Avoiding the Part D Late Enrollment Penalty",
+        "id": "penalty-checklist"
+      },
+      {
+        "type": "paragraph",
+        "content": "You may owe a Part D late enrollment penalty if, after your initial enrollment period ends, you go 63 days or more in a row without Part D or other creditable drug coverage. The 2026 calculation uses 1% of the $38.99 national base beneficiary premium for each full uncovered month, rounded to the nearest $0.10. Medicare explains the calculation on its [Part D cost page](https://www.medicare.gov/health-drug-plans/part-d/basics/costs)."
+      },
+      {
+        "type": "table",
+        "title": "Illustrative 2026 Part D Late Penalties",
+        "headers": [
+          "Full uncovered months",
+          "Estimated monthly penalty",
+          "Estimated annual amount"
+        ],
+        "rows": [
+          [
+            "12",
+            "$4.70",
+            "$56.40"
+          ],
+          [
+            "24",
+            "$9.40",
+            "$112.80"
+          ],
+          [
+            "36",
+            "$14.00",
+            "$168.00"
+          ],
+          [
+            "60",
+            "$23.40",
+            "$280.80"
+          ]
+        ],
+        "footnote": "Examples use the 2026 base premium. The national base beneficiary premium can change each year, so the monthly penalty can also change."
+      },
+      {
+        "type": "paragraph",
+        "content": "The penalty is generally added for as long as you have Medicare drug coverage, including after switching plans. People who receive Extra Help do not pay a Part D late enrollment penalty while receiving that assistance. Review our [late-penalty guide](/faqs/medicare-part-d-late-enrollment-penalty/) and [Extra Help overview](/faqs/medicare-extra-help-program/) for those specific rules."
+      },
+      {
+        "type": "callout",
+        "calloutType": "success",
+        "calloutTitle": "Your Final Confirmation",
+        "calloutText": "After enrolling, verify the plan name, effective date, premium, preferred pharmacy, and covered prescriptions. Keep the confirmation until your membership materials arrive and your first refill is processed correctly."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently Asked Questions About Part D Deadlines",
+        "id": "faqs"
+      },
+      {
+        "type": "faq",
+        "faqs": [
+          {
+            "question": "When is the Medicare Part D enrollment deadline for 2026?",
+            "answer": "There is no single deadline for everyone. Open Enrollment ends December 7, but someone new to Medicare uses an individual Initial Enrollment Period. A qualifying event may create a different Special Enrollment Period. Start with the [Part D period reference](/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-enrollment-periods/) and match the rule to your situation."
+          },
+          {
+            "question": "Is 63 days the deadline after losing employer drug coverage?",
+            "answer": "No. The 63-day rule concerns whether an uncovered gap can trigger a late enrollment penalty. Your Special Enrollment Period after employer or union coverage ends generally lasts for two full months after the month coverage ends. Confirm the event-specific dates and enroll early enough to avoid a coverage gap."
+          },
+          {
+            "question": "When does Part D coverage start during initial enrollment?",
+            "answer": "If the plan receives your request before your Medicare Part A or Part B coverage starts, drug-plan coverage generally starts on the same date as that Medicare coverage. If the request arrives after Medicare coverage starts, Part D generally begins on the first day of the following month."
+          },
+          {
+            "question": "What should I review before the December 7 deadline?",
+            "answer": "Check next year's premium, deductible, formulary, drug tiers, pharmacy network, prior authorization, step therapy, quantity limits, and estimated annual cost. Use your current dosages and refill quantities. Save the comparison and enrollment confirmation so you have a record of what you selected."
+          },
+          {
+            "question": "Can I join Part D during Medicare Advantage Open Enrollment?",
+            "answer": "Only certain changes are allowed. If you are already in Medicare Advantage, you may switch Advantage plans or return to Original Medicare and join a standalone drug plan from January 1 to March 31. Someone already using Original Medicare cannot use that period simply to add or switch a standalone Part D plan."
+          },
+          {
+            "question": "How do I prove I had creditable prescription coverage?",
+            "answer": "Keep the annual creditable coverage notice from your employer, union, or insurer, along with documents showing the dates coverage began and ended. If a drug plan asks about prior coverage, answer by its deadline. Missing proof can cause the plan to assess a late enrollment penalty."
+          },
+          {
+            "question": "Does Extra Help change Part D enrollment opportunities?",
+            "answer": "Yes. In 2026, people with Medicaid or Extra Help can generally make eligible drug-coverage changes once per calendar month, with the change effective the first day of the next month. Extra Help also removes the Part D late enrollment penalty while you receive the assistance."
+          },
+          {
+            "question": "What should I do after submitting a Part D enrollment request?",
+            "answer": "Save the confirmation number, verify the effective date, and watch for your member card and plan materials. Check that your medications and pharmacy information match what you reviewed. Contact the plan promptly if the materials do not arrive or the effective date is incorrect."
+          }
+        ]
+      }
     ],
-    relatedSlugs: [
+    "relatedSlugs": [
       "medicare-part-d-late-enrollment-penalty",
       "medicare-extra-help-program",
-      "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them",
-      "how-is-medicare-part-d-changing-in-2026",
-      "protect-yourself-from-medicare-penalties-key-tips-and-deadlines",
-      "top-5-medicare-prescription-drug-plans",
-    ],
+      "medicare-annual-notice-of-change-letter",
+      "top-5-medicare-prescription-drug-plans"
+    ]
   },
   {
     slug: "medicare-part-d-premium-stabilization",

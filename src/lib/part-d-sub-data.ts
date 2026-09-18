@@ -154,22 +154,22 @@ export const partDSubPages: PartDSubPage[] = [
     slug: "medicare-part-d-enrollment-periods",
     title: "Medicare Part D Enrollment Periods",
     metaTitle: "Medicare Part D Enrollment Periods 2026 | When to Sign Up",
-    metaDescription: "Learn about all Medicare Part D enrollment periods: Initial Coverage Election Period, Annual Enrollment Period, Special Enrollment Periods, and how to avoid the late enrollment penalty.",
-    heroSubtitle: "Knowing when you can enroll in, switch, or drop a Medicare Part D plan is essential to avoiding penalties and ensuring you have coverage when you need it.",
+    metaDescription: "Review Medicare Part D enrollment periods for 2026, including initial enrollment, Open Enrollment, Medicare Advantage OEP, and event-specific SEPs.",
+    heroSubtitle: "Use this reference to identify when you can enroll in, switch, or drop Medicare Part D coverage, then follow the linked deadline checklist to complete each step.",
     heroIcon: "Calendar",
     sections: [
       {
-        id: "icep",
-        heading: "Initial Coverage Election Period (ICEP)",
-        content: "Your first opportunity to enroll in a Part D plan. The ICEP runs for the same 7-month window as your Medicare Initial Enrollment Period - 3 months before your 65th birthday month, your birthday month, and 3 months after. If you're enrolling in Part D due to disability, your ICEP begins 3 months before your 25th month of disability benefits.",
-        callout: { type: "tip", text: "Enroll during the first 3 months of your ICEP for the earliest possible coverage start date. Enrolling in the last 3 months may delay your coverage start." },
+        id: "iep",
+        heading: "Initial Enrollment Period for Part D",
+        content: "Your first opportunity to join a Medicare drug plan generally begins 3 months before you first get Medicare Part A or Part B and ends 3 months afterward. You need either Part A or Part B to join a standalone Part D plan. People who qualify for Medicare before age 65 generally receive another Part D Initial Enrollment Period when they turn 65.",
+        callout: { type: "tip", text: "If the plan receives your request before Medicare Part A or Part B starts, drug coverage generally begins on the same date. If the request arrives after Medicare coverage starts, Part D generally begins the first day of the following month." },
       },
       {
         id: "aep",
         heading: "Annual Enrollment Period (AEP)",
         content: "The main window to make changes to your Part D coverage each year. Runs October 15 – December 7. During AEP you can:",
         bullets: [
-          "Enroll in a Part D plan for the first time (if you missed your ICEP)",
+          "Enroll in a Part D plan for the first time if you missed your initial period",
           "Switch from one Part D plan to another",
           "Drop a Part D plan (not recommended unless you have other creditable coverage)",
           "Switch from Original Medicare + Part D to Medicare Advantage with drug coverage"],
@@ -182,7 +182,7 @@ export const partDSubPages: PartDSubPage[] = [
       {
         id: "sep",
         heading: "Special Enrollment Periods (SEPs)",
-        content: "Certain life events trigger a Special Enrollment Period that allows you to make Part D changes outside the standard windows:",
+        content: "Certain life events trigger a Special Enrollment Period that allows you to make Part D changes outside the standard windows. The deadline depends on the event, so confirm the specific start and end dates that apply to you:",
         bullets: [
           "Moving out of your plan's service area",
           "Losing other creditable drug coverage (employer plan, TRICARE, VA)",
@@ -192,13 +192,15 @@ export const partDSubPages: PartDSubPage[] = [
           "Gaining or losing Medicaid eligibility"],
       }],
     faqs: [
-      { q: "What happens if I miss all enrollment periods?", a: "If you miss your ICEP and don't qualify for a SEP, you must wait until the Annual Enrollment Period (Oct 15 – Dec 7). If you went without creditable drug coverage during the gap, you'll face a permanent late enrollment penalty." },
-      { q: "Can I enroll in Part D at any time if I have a qualifying event?", a: "Yes. A Special Enrollment Period is triggered by qualifying life events. The SEP typically lasts 2 months after the triggering event. Contact Medicare or a licensed agent to confirm your SEP eligibility." },
-      { q: "When does my new Part D coverage start after enrolling?", a: "If you enroll during AEP (Oct 15 – Dec 7), coverage starts January 1. If you enroll during your ICEP in the 3 months before your birthday month, coverage starts the first day of your birthday month. Enrolling in your birthday month or the 3 months after may delay coverage by 1–3 months." }],
+      { q: "What happens if I miss all enrollment periods?", a: "If you miss your Part D Initial Enrollment Period and do not qualify for a Special Enrollment Period, you generally must wait for Open Enrollment from October 15 to December 7. A gap of 63 days or more without Part D or other creditable drug coverage may also create a late enrollment penalty." },
+      { q: "Can I enroll in Part D at any time if I have a qualifying event?", a: "A qualifying event can create a Special Enrollment Period, but the timing and permitted changes depend on the event. For example, the period after employer or union coverage ends generally lasts for 2 full months after the month coverage ends. Confirm your exact deadline with Medicare." },
+      { q: "Is the 63-day rule a Special Enrollment Period deadline?", a: "No. The 63-day rule is used to determine potential Part D late enrollment penalty exposure. Special Enrollment Periods have event-specific deadlines, which may be measured in full calendar months. You should verify the applicable SEP and enroll early enough to avoid a gap in drug coverage." },
+      { q: "When does my new Part D coverage start after enrolling?", a: "During Open Enrollment from October 15 to December 7, coverage starts January 1. During initial enrollment, a request made before Medicare Part A or Part B starts generally takes effect with that coverage. A later request generally takes effect the first day of the following month." }],
     relatedLinks: [
       { label: "Part D Overview", href: "/original-medicare/medicare-parts/medicare-part-d" },
       { label: "Part D Late Enrollment Penalty", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-late-enrollment-penalty" },
       { label: "Part D Eligibility", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-eligibility" },
+      { label: "Part D Deadline Checklist", href: "/blog/medicare-part-d-enrollment-deadlines" },
       { href: "/original-medicare/medicare-parts/medicare-part-d/silverscript", label: "SilverScript Part D Plans" }],
   },
   {
