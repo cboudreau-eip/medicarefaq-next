@@ -16803,212 +16803,320 @@ export const coverageArticles: CoverageArticleData[] = [
 
   // ─── Medicare Coverage for Dermatology ──────────────────────────────────────
   {
-    slug: "medicare-coverage-for-dermatology",
-    seo: {
-      title: "Does Medicare Cover Dermatology Services?",
-      description: "Medicare covers medically necessary dermatology services including skin cancer screenings, mole removal, and biopsies. Learn what's covered, what isn't, and what you'll pay.",
-      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-dermatology/",
-      ogImage: "/images/medicarefaq-cover.jpg",
-    },
-    title: "Does Medicare Cover Dermatology Services?",
-    subtitle: "Medicare covers medically necessary dermatology services including skin cancer screenings, mole removal, biopsies, and treatment of skin conditions. Cosmetic procedures and routine skin exams are not covered. Learn what's covered and what you'll pay.",
-    category: "Medicare Coverage",
-    dateUpdated: "April 15, 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
-    },
-    readTime: "5 min read",
-    quickAnswer: {
-      text: "Medicare Part B covers medically necessary dermatology services including visits to a dermatologist for diagnosis and treatment of skin conditions, skin cancer screenings when there is a clinical reason, mole removal for cancerous or suspicious growths, skin biopsies, and treatment of skin cancer. Cosmetic dermatology procedures (Botox for wrinkles, cosmetic mole removal, etc.) and routine full-body skin exams without a clinical reason are not covered.",
-      badges: [
-        { plan: "Medically Necessary Dermatology", status: "covered" },
-        { plan: "Skin Cancer Screening/Treatment", status: "covered" },
-        { plan: "Cosmetic Procedures", status: "not-covered" }],
-    },
-    comparisonTable: [
-      { planType: "Dermatologist visits (medically necessary)", coverage: "Covered", icon: "shield", notes: "Covered under Part B at 80%; you pay 20% coinsurance after Part B deductible" },
-      { planType: "Skin cancer screenings (with clinical reason)", coverage: "Covered", icon: "shield", notes: "Covered when there is a clinical reason (suspicious mole, lesion, etc.)" },
-      { planType: "Mole removal (cancerous or suspicious)", coverage: "Covered", icon: "shield", notes: "Covered when medically necessary; cosmetic mole removal is not covered" },
-      { planType: "Skin biopsies", coverage: "Covered", icon: "shield", notes: "Covered under Part B when medically necessary to diagnose a condition" },
-      { planType: "Cosmetic dermatology (Botox, wrinkle treatment)", coverage: "Not Covered", icon: "x", notes: "Not covered; considered cosmetic, not medically necessary" },
-      { planType: "Routine full-body skin exam (no symptoms)", coverage: "Not Covered", icon: "x", notes: "Not covered without a clinical reason or symptoms" }],
-    planBreakdowns: [
-      {
-        planName: "Original Medicare (Part B)",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Covered",
-        coverageType: "covered",
-        statusBadge: "Covers medically necessary dermatology services",
-        paragraphs: [
-          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) covers medically necessary dermatology services when provided by a Medicare-participating dermatologist. This includes visits to a dermatologist for the diagnosis and treatment of skin conditions such as skin cancer, psoriasis, eczema, atopic dermatitis, rosacea, and other medical skin conditions.",
-          "Medicare covers skin cancer screenings when there is a clinical reason - such as a suspicious mole, unusual growth, or lesion that may indicate cancer. Medicare Part B covers the cost of a referral to a dermatologist for further evaluation of a potentially cancerous skin growth. Skin biopsies ordered to investigate suspicious lesions are also covered under Part B.",
-          "Mole removal is covered when the mole is cancerous or medically necessary to remove. Wart removal and seborrheic keratosis removal are covered if they are causing pain or continuously bleeding. Cosmetic mole removal - removing a mole for appearance reasons only - is not covered."],
-        whatItCovers: [
-          "Dermatologist visits for diagnosis and treatment of skin conditions",
-          "Skin cancer screenings when there is a clinical reason",
-          "Skin biopsies to diagnose suspicious lesions",
-          "Mole removal (cancerous or medically necessary)",
-          "Wart removal (when causing pain or bleeding)",
-          "Seborrheic keratosis removal (when causing pain or bleeding)",
-          "Skin tag removal (when medically necessary)",
-          "Treatment of skin cancer (surgery, topical treatments, etc.)",
-          "Treatment of psoriasis, eczema, atopic dermatitis, and other skin conditions",
-          "Allergy testing related to skin conditions"],
-        whatItDoesntCover: [
-          "Cosmetic procedures (Botox for wrinkles, cosmetic mole removal, chemical peels for cosmetic purposes)",
-          "Routine full-body skin exams without a clinical reason or symptoms",
-          "Hair loss treatment (unless related to a covered medical condition)",
-          "Cosmetic scar treatment"],
-        costNote: "You pay 20% coinsurance after the $283 annual Part B deductible (2026). Preventive services (if applicable) are covered at $0.",
-      },
-      {
-        planName: "Medicare Advantage (Part C)",
-        icon: "heart",
-        iconColor: "#059669",
-        coverageLabel: "Covered",
-        coverageType: "covered",
-        statusBadge: "Covered - cost-sharing varies by plan",
-        paragraphs: [
-          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) must cover all medically necessary dermatology services that Original Medicare covers. Cost-sharing varies by plan - some plans may have lower copays for specialist visits, while others may require referrals or prior authorization for dermatology services.",
-          "Some Medicare Advantage plans may also offer additional benefits such as coverage for over-the-counter skin care products or expanded coverage for certain skin conditions. Check your plan's Evidence of Coverage for details."],
-        whatItCovers: [
-          "All medically necessary dermatology services covered by Original Medicare",
-          "Additional skin care benefits (varies by plan)"],
-        whatItDoesntCover: [
-          "Cosmetic dermatology procedures",
-          "Out-of-network dermatologists (unless your plan allows out-of-network benefits)"],
-        callout: {
-          type: "info",
-          title: "Referrals May be Required for Dermatology",
-          text: "Some Medicare Advantage HMO plans require a referral from your primary care doctor before seeing a dermatologist. Check your plan's requirements before scheduling a dermatology appointment to avoid unexpected costs.",
-        },
-      },
-      {
-        planName: "Medicare Supplement (Medigap)",
-        icon: "users",
-        iconColor: "#7C3AED",
-        coverageLabel: "Covers Cost-Sharing",
-        coverageType: "partial",
-        statusBadge: "Covers Part B coinsurance for covered dermatology services",
-        paragraphs: [
-          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cover the 20% Part B coinsurance for medically necessary dermatology services. With Medigap Plan G, your only cost for covered dermatology services is the annual $283 Part B deductible. After that, Plan G covers the 20% coinsurance for the rest of the year.",
-          "Medigap cannot cover cosmetic dermatology procedures or other services that Original Medicare excludes."],
-        whatItCovers: [
-          "Part B coinsurance (20%) for covered dermatology services",
-          "Part A deductible for inpatient dermatology procedures"],
-        whatItDoesntCover: [
-          "Cosmetic dermatology procedures (not covered by Original Medicare)",
-          "Routine skin exams without a clinical reason"],
-        costNote: "With Medigap Plan G, your only annual cost for covered dermatology services is the $283 Part B deductible.",
-      }],
-    costTable: {
-      title: "Dermatology Service Costs under Medicare (2026)",
-      headers: ["Service", "Medicare Coverage", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
-      rows: [
-        {
-          "Service": "Dermatologist visit (medically necessary)",
-          "Medicare Coverage": "80% after deductible",
-          "Your Cost (No Supplement)": "20% + $283 deductible",
-          "Your Cost (With Plan G)": "$283 deductible only",
-        },
-        {
-          "Service": "Skin biopsy",
-          "Medicare Coverage": "80% after deductible",
-          "Your Cost (No Supplement)": "20% + $283 deductible",
-          "Your Cost (With Plan G)": "$283 deductible only",
-        },
-        {
-          "Service": "Mole removal (cancerous)",
-          "Medicare Coverage": "80% after deductible",
-          "Your Cost (No Supplement)": "20% + $283 deductible",
-          "Your Cost (With Plan G)": "$283 deductible only",
-        },
-        {
-          "Service": "Skin cancer treatment",
-          "Medicare Coverage": "80% after deductible",
-          "Your Cost (No Supplement)": "20% + $283 deductible",
-          "Your Cost (With Plan G)": "$283 deductible only",
-        },
-        {
-          "Service": "Cosmetic Botox or wrinkle treatment",
-          "Medicare Coverage": "Not covered",
-          "Your Cost (No Supplement)": "Full cost ($200–$600+)",
-          "Your Cost (With Plan G)": "Full cost (not covered)",
-        }],
-      footnote: "Costs based on 2026 Medicare figures. Part B deductible: $283/year. Actual costs vary by provider and location.",
-    },
-    exceptionsSection: {
-      title: "When Cosmetic Procedures May be Covered",
-      items: [
-        {
-          title: "Medically Necessary vs. Cosmetic: The Key Distinction",
-          text: "Medicare covers dermatology procedures that are medically necessary - meaning they are needed to diagnose, treat, or manage a health condition. Cosmetic procedures performed solely to improve appearance are not covered. However, some procedures that appear cosmetic may be covered if they serve a medical purpose. For example, scar revision may be covered if the scar impairs function (such as restricting movement). Botox may be covered for certain medical conditions (such as hyperhidrosis or blepharospasm) but not for cosmetic wrinkle treatment.",
-          highlight: "If you believe a dermatology procedure is medically necessary, ask your doctor to document the medical reason in your records. This documentation is essential for Medicare coverage.",
-        },
-        {
-          title: "Hair Loss: When is it Covered?",
-          text: "Medicare does not cover treatment for cosmetic hair loss (androgenetic alopecia). However, Medicare may cover evaluation and treatment of hair loss caused by a medical condition such as alopecia areata, thyroid disease, or lupus. If your hair loss is related to a covered medical condition, the dermatology visit and treatment may be covered under Part B.",
-        }],
-    },
-    faqs: [
-      {
-        question: "Does Medicare Cover Dermatologist Visits?",
-        answer: "Yes. Medicare Part B covers visits to a dermatologist when they are medically necessary for the diagnosis or treatment of a skin condition. You pay 20% coinsurance after your annual $283 Part B deductible (2026). The dermatologist must accept Medicare assignment.",
-      },
-      {
-        question: "Does Medicare Cover Skin Cancer Screenings?",
-        answer: "Medicare covers skin cancer screenings when there is a clinical reason - such as a suspicious mole, unusual growth, or lesion. Medicare does not cover routine full-body skin exams without a clinical reason. If your doctor refers you to a dermatologist for evaluation of a potentially cancerous growth, that visit is covered under Part B.",
-      },
-      {
-        question: "Does Medicare Cover Mole Removal?",
-        answer: "Medicare covers mole removal when it is medically necessary - for example, when the mole is cancerous or suspected to be cancerous. Cosmetic mole removal (removing a mole for appearance reasons only) is not covered. You pay 20% coinsurance after your Part B deductible for covered mole removal.",
-      },
-      {
-        question: "Does Medicare Cover Dermatology for Hair Loss?",
-        answer: "Medicare does not cover treatment for cosmetic hair loss. However, if your hair loss is caused by a medical condition such as alopecia areata, thyroid disease, or lupus, Medicare may cover the dermatology visit and treatment related to that underlying condition.",
-      },
-      {
-        question: "Is Sebaceous Cyst Removal Covered by Medicare?",
-        answer: "Medicare may cover sebaceous cyst removal if it is medically necessary - for example, if the cyst is infected, causing pain, or affecting function. Cosmetic removal of a sebaceous cyst is not covered. Your doctor must document the medical necessity for Medicare to cover the procedure.",
-      },
-      {
-        question: "Does Medicare Cover Atopic Dermatitis?",
-        answer: "Yes. Medicare Part B covers the diagnosis and treatment of atopic dermatitis (eczema) as a medically necessary service. This includes dermatologist visits, prescription medications, and other treatments. Medicare Part D covers prescription drugs for atopic dermatitis, including newer biologic medications such as dupilumab (Dupixent).",
-      }],
-    quickReference: [
-      { icon: "check", text: "<strong>Medically necessary dermatology visits</strong> covered under Part B (20% coinsurance)" },
-      { icon: "check", text: "<strong>Skin cancer screenings</strong> covered when there is a clinical reason" },
-      { icon: "check", text: "<strong>Mole removal, biopsies, and skin cancer treatment</strong> covered when medically necessary" },
-      { icon: "x", text: "<strong>Cosmetic procedures</strong> (Botox for wrinkles, cosmetic mole removal) are NOT covered" },
-      { icon: "x", text: "<strong>Routine full-body skin exams</strong> without symptoms are NOT covered" },
-      { icon: "info", text: "<strong>Medigap Plan G</strong> covers the 20% Part B coinsurance for covered dermatology services" }],
-    relatedTopics: [
-      { title: "Does Medicare Cover Cancer Treatment?", description: "Learn about Medicare's coverage for skin cancer and other cancer treatments.", slug: "medicare-coverage-for-cancer" },
-      { title: "Does Medicare Cover a Biopsy?", description: "Learn about Medicare's coverage for biopsies including skin biopsies.", slug: "does-medicare-cover-a-biopsy" },
-      { title: "Does Medicare Cover Botox?", description: "Learn when Medicare covers Botox for medical conditions versus cosmetic use.", slug: "medicare-coverage-for-botox-treatments" },
-      { title: "Medicare Supplement Plan G", description: "Learn how Plan G can cover your Part B coinsurance for dermatology services.", slug: "plan-g" }],
-    sidebarRelatedLinks: [
-      "Does Medicare Cover Cancer Treatment",
-      "Does Medicare Cover a Biopsy",
-      "Does Medicare Cover Botox",
-      "Medicare Supplement Plan G"],
-    ctaBanner: {
-      title: "Need Help Covering Your Dermatology Costs?",
-      text: "Our licensed Medicare agents can help you find a Medigap or Medicare Advantage plan that minimizes your out-of-pocket costs for dermatology and other specialist services. Compare plans in your area for free.",
-    },
-    relatedSlugs: ["medicare-coverage-for-cancer", "does-medicare-cover-a-biopsy", "medicare-coverage-for-botox-treatments", "plan-g", "medicare-coverage-for-botox-treatments", "medicare-coverage-for-botox-treatments", "medicare-coverage-for-prostate-specific-antigen-psa-test"],
+  slug: "medicare-coverage-for-dermatology",
+  seo: {
+    title: "Does Medicare Cover Dermatology? 2026 Coverage & Costs",
+    description: "Medicare covers medically necessary dermatology services including skin cancer screenings, mole removal, and biopsies. Learn what's covered, what isn't, and what you'll pay.",
+    canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-dermatology/",
+    ogImage: "/images/medicarefaq-cover.jpg",
   },
+  title: "Does Medicare Cover Dermatology Services?",
+  subtitle: "Medicare covers medically necessary dermatology services including skin cancer screenings, mole removal, biopsies, and treatment of skin conditions. Cosmetic procedures and routine skin exams are not covered. Learn what's covered and what you'll pay.",
+  category: "Medicare Coverage",
+  dateUpdated: "April 15, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+  },
+  readTime: "5 min read",
+  quickAnswer: {
+    text: "Medicare Part B covers medically necessary dermatology services including visits to a dermatologist for diagnosis and treatment of skin conditions, skin cancer screenings when there is a clinical reason, mole removal for cancerous or suspicious growths, skin biopsies, and treatment of skin cancer. You'll typically pay your Part B deductible and coinsurance for these services unless you have supplemental coverage. Cosmetic dermatology procedures (Botox for wrinkles, cosmetic mole removal, etc.) and routine full-body skin exams without a clinical reason are not covered.",
+    badges: [
+      {
+        plan: "Medically Necessary Dermatology",
+        status: "covered",
+      },
+      {
+        plan: "Skin Cancer Screening/Treatment",
+        status: "covered",
+      },
+      {
+        plan: "Cosmetic Procedures",
+        status: "not-covered",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Dermatologist visits (medically necessary)",
+      coverage: "Covered",
+      icon: "shield",
+      notes: "Covered under Part B at 80%; you pay 20% coinsurance after Part B deductible",
+    },
+    {
+      planType: "Skin cancer screenings (with clinical reason)",
+      coverage: "Covered",
+      icon: "shield",
+      notes: "Covered when there is a clinical reason (suspicious mole, lesion, etc.)",
+    },
+    {
+      planType: "Mole removal (cancerous or suspicious)",
+      coverage: "Covered",
+      icon: "shield",
+      notes: "Covered when medically necessary; cosmetic mole removal is not covered",
+    },
+    {
+      planType: "Skin biopsies",
+      coverage: "Covered",
+      icon: "shield",
+      notes: "Covered under Part B when medically necessary to diagnose a condition",
+    },
+    {
+      planType: "Cosmetic dermatology (Botox, wrinkle treatment)",
+      coverage: "Not Covered",
+      icon: "x",
+      notes: "Not covered; considered cosmetic, not medically necessary",
+    },
+    {
+      planType: "Routine full-body skin exam (no symptoms)",
+      coverage: "Not Covered",
+      icon: "x",
+      notes: "Not covered without a clinical reason or symptoms",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "Original Medicare (Part B)",
+      icon: "shield",
+      iconColor: "#1B2A4A",
+      coverageLabel: "Covered",
+      coverageType: "covered",
+      statusBadge: "Covers medically necessary dermatology services",
+      paragraphs: [
+      "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) covers medically necessary dermatology services when provided by a Medicare-participating dermatologist. This includes visits to a dermatologist for the diagnosis and treatment of skin conditions such as skin cancer, psoriasis, eczema, atopic dermatitis, rosacea, and other medical skin conditions.",
+      "Medicare covers skin cancer screenings when there is a clinical reason - such as a suspicious mole, unusual growth, or lesion that may indicate cancer. Medicare Part B covers the cost of a referral to a dermatologist for further evaluation of a potentially cancerous skin growth. Skin biopsies ordered to investigate suspicious lesions are also covered under Part B.",
+      "Mole removal is covered when the mole is cancerous or medically necessary to remove. Wart removal and seborrheic keratosis removal are covered if they are causing pain or continuously bleeding. Cosmetic mole removal - removing a mole for appearance reasons only - is not covered.",
+    ],
+      whatItCovers: [
+      "Dermatologist visits for diagnosis and treatment of skin conditions",
+      "Skin cancer screenings when there is a clinical reason",
+      "Skin biopsies to diagnose suspicious lesions",
+      "Mole removal (cancerous or medically necessary)",
+      "Wart removal (when causing pain or bleeding)",
+      "Seborrheic keratosis removal (when causing pain or bleeding)",
+      "Skin tag removal (when medically necessary)",
+      "Treatment of skin cancer (surgery, topical treatments, etc.)",
+      "Treatment of psoriasis, eczema, atopic dermatitis, and other skin conditions",
+      "Allergy testing related to skin conditions",
+    ],
+      whatItDoesntCover: [
+      "Cosmetic procedures (Botox for wrinkles, cosmetic mole removal, chemical peels for cosmetic purposes)",
+      "Routine full-body skin exams without a clinical reason or symptoms",
+      "Hair loss treatment (unless related to a covered medical condition)",
+      "Cosmetic scar treatment",
+    ],
+      costNote: "You pay 20% coinsurance after the $283 annual Part B deductible (2026). Preventive services (if applicable) are covered at $0.",
+    },
+    {
+      planName: "Medicare Advantage (Part C)",
+      icon: "heart",
+      iconColor: "#059669",
+      coverageLabel: "Covered",
+      coverageType: "covered",
+      statusBadge: "Covered - cost-sharing varies by plan",
+      paragraphs: [
+      "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) must cover all medically necessary dermatology services that Original Medicare covers. Cost-sharing varies by plan - some plans may have lower copays for specialist visits, while others may require referrals or prior authorization for dermatology services.",
+      "Some Medicare Advantage plans may also offer additional benefits such as coverage for over-the-counter skin care products or expanded coverage for certain skin conditions. Check your plan's Evidence of Coverage for details.",
+    ],
+      whatItCovers: [
+      "All medically necessary dermatology services covered by Original Medicare",
+      "Additional skin care benefits (varies by plan)",
+    ],
+      whatItDoesntCover: [
+      "Cosmetic dermatology procedures",
+      "Out-of-network dermatologists (unless your plan allows out-of-network benefits)",
+    ],
+      callout: {
+      type: "info",
+      title: "Referrals May be Required for Dermatology",
+      text: "Some Medicare Advantage HMO plans require a referral from your primary care doctor before seeing a dermatologist. Check your plan's requirements before scheduling a dermatology appointment to avoid unexpected costs.",
+    },
+    },
+    {
+      planName: "Medicare Supplement (Medigap)",
+      icon: "users",
+      iconColor: "#7C3AED",
+      coverageLabel: "Covers Cost-Sharing",
+      coverageType: "partial",
+      statusBadge: "Covers Part B coinsurance for covered dermatology services",
+      paragraphs: [
+      "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cover the 20% Part B coinsurance for medically necessary dermatology services. With Medigap Plan G, your only cost for covered dermatology services is the annual $283 Part B deductible. After that, Plan G covers the 20% coinsurance for the rest of the year.",
+      "Medigap cannot cover cosmetic dermatology procedures or other services that Original Medicare excludes.",
+    ],
+      whatItCovers: [
+      "Part B coinsurance (20%) for covered dermatology services",
+      "Part A deductible for inpatient dermatology procedures",
+    ],
+      whatItDoesntCover: [
+      "Cosmetic dermatology procedures (not covered by Original Medicare)",
+      "Routine skin exams without a clinical reason",
+    ],
+      costNote: "With Medigap Plan G, your only annual cost for covered dermatology services is the $283 Part B deductible.",
+    },
+  ],
+  costTable: {
+    title: "Dermatology Service Costs under Medicare (2026)",
+    headers: [
+    "Service",
+    "Medicare Coverage",
+    "Your Cost (No Supplement)",
+    "Your Cost (With Plan G)",
+  ],
+    rows: [
+      {
+        "Service": "Dermatologist visit (medically necessary)",
+        "Medicare Coverage": "80% after deductible",
+        "Your Cost (No Supplement)": "20% + $283 deductible",
+        "Your Cost (With Plan G)": "$283 deductible only",
+      },
+      {
+        "Service": "Skin biopsy",
+        "Medicare Coverage": "80% after deductible",
+        "Your Cost (No Supplement)": "20% + $283 deductible",
+        "Your Cost (With Plan G)": "$283 deductible only",
+      },
+      {
+        "Service": "Mole removal (cancerous)",
+        "Medicare Coverage": "80% after deductible",
+        "Your Cost (No Supplement)": "20% + $283 deductible",
+        "Your Cost (With Plan G)": "$283 deductible only",
+      },
+      {
+        "Service": "Skin cancer treatment",
+        "Medicare Coverage": "80% after deductible",
+        "Your Cost (No Supplement)": "20% + $283 deductible",
+        "Your Cost (With Plan G)": "$283 deductible only",
+      },
+      {
+        "Service": "Cosmetic Botox or wrinkle treatment",
+        "Medicare Coverage": "Not covered",
+        "Your Cost (No Supplement)": "Full cost ($200–$600+)",
+        "Your Cost (With Plan G)": "Full cost (not covered)",
+      },
+    ],
+    footnote: "Costs based on 2026 Medicare figures. Part B deductible: $283/year. Actual costs vary by provider and location.",
+  },
+  exceptionsSection: {
+    title: "When Cosmetic Procedures May be Covered",
+    items: [
+      {
+        title: "Medically Necessary vs. Cosmetic: The Key Distinction",
+        text: "Medicare covers dermatology procedures that are medically necessary - meaning they are needed to diagnose, treat, or manage a health condition. Cosmetic procedures performed solely to improve appearance are not covered. However, some procedures that appear cosmetic may be covered if they serve a medical purpose. For example, scar revision may be covered if the scar impairs function (such as restricting movement). Botox may be covered for certain medical conditions (such as hyperhidrosis or blepharospasm) but not for cosmetic wrinkle treatment.",
+        highlight: "If you believe a dermatology procedure is medically necessary, ask your doctor to document the medical reason in your records. This documentation is essential for Medicare coverage.",
+      },
+      {
+        title: "Hair Loss: When is it Covered?",
+        text: "Medicare does not cover treatment for cosmetic hair loss (androgenetic alopecia). However, Medicare may cover evaluation and treatment of hair loss caused by a medical condition such as alopecia areata, thyroid disease, or lupus. If your hair loss is related to a covered medical condition, the dermatology visit and treatment may be covered under Part B.",
+      },
+    ],
+  },
+  faqs: [
+    {
+      question: "Does Medicare Cover Dermatologist Visits?",
+      answer: "Yes. Medicare Part B covers visits to a dermatologist when they are medically necessary for the diagnosis or treatment of a skin condition. You pay 20% coinsurance after your annual $283 Part B deductible (2026). The dermatologist must accept Medicare assignment.",
+    },
+    {
+      question: "Does Medicare Cover Skin Cancer Screenings?",
+      answer: "Medicare covers skin cancer screenings when there is a clinical reason - such as a suspicious mole, unusual growth, or lesion. Medicare does not cover routine full-body skin exams without a clinical reason. If your doctor refers you to a dermatologist for evaluation of a potentially cancerous growth, that visit is covered under Part B.",
+    },
+    {
+      question: "Does Medicare Cover Mole Removal?",
+      answer: "Medicare covers mole removal when it is medically necessary - for example, when the mole is cancerous or suspected to be cancerous. Cosmetic mole removal (removing a mole for appearance reasons only) is not covered. You pay 20% coinsurance after your Part B deductible for covered mole removal.",
+    },
+    {
+      question: "Does Medicare Cover Dermatology for Hair Loss?",
+      answer: "Medicare does not cover treatment for cosmetic hair loss. However, if your hair loss is caused by a medical condition such as alopecia areata, thyroid disease, or lupus, Medicare may cover the dermatology visit and treatment related to that underlying condition.",
+    },
+    {
+      question: "Is Sebaceous Cyst Removal Covered by Medicare?",
+      answer: "Medicare may cover sebaceous cyst removal if it is medically necessary - for example, if the cyst is infected, causing pain, or affecting function. Cosmetic removal of a sebaceous cyst is not covered. Your doctor must document the medical necessity for Medicare to cover the procedure.",
+    },
+    {
+      question: "Does Medicare Cover Atopic Dermatitis?",
+      answer: "Yes. Medicare Part B covers the diagnosis and treatment of atopic dermatitis (eczema) as a medically necessary service. This includes dermatologist visits, prescription medications, and other treatments. Medicare Part D covers prescription drugs for atopic dermatitis, including newer biologic medications such as dupilumab (Dupixent).",
+    },
+    {
+      question: "Does Medicare Cover Psoriasis Treatment?",
+      answer: "Yes, Medicare Part B covers medically necessary treatment for psoriasis when prescribed by a doctor, including office visits, diagnostic testing, and certain treatments like phototherapy. Prescription",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "check",
+      text: "<strong>Medically necessary dermatology visits</strong> covered under Part B (20% coinsurance)",
+    },
+    {
+      icon: "check",
+      text: "<strong>Skin cancer screenings</strong> covered when there is a clinical reason",
+    },
+    {
+      icon: "check",
+      text: "<strong>Mole removal, biopsies, and skin cancer treatment</strong> covered when medically necessary",
+    },
+    {
+      icon: "x",
+      text: "<strong>Cosmetic procedures</strong> (Botox for wrinkles, cosmetic mole removal) are NOT covered",
+    },
+    {
+      icon: "x",
+      text: "<strong>Routine full-body skin exams</strong> without symptoms are NOT covered",
+    },
+    {
+      icon: "info",
+      text: "<strong>Medigap Plan G</strong> covers the 20% Part B coinsurance for covered dermatology services",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Does Medicare Cover Cancer Treatment?",
+      description: "Learn about Medicare's coverage for skin cancer and other cancer treatments.",
+      slug: "medicare-coverage-for-cancer",
+    },
+    {
+      title: "Does Medicare Cover a Biopsy?",
+      description: "Learn about Medicare's coverage for biopsies including skin biopsies.",
+      slug: "does-medicare-cover-a-biopsy",
+    },
+    {
+      title: "Does Medicare Cover Botox?",
+      description: "Learn when Medicare covers Botox for medical conditions versus cosmetic use.",
+      slug: "medicare-coverage-for-botox-treatments",
+    },
+    {
+      title: "Medicare Supplement Plan G",
+      description: "Learn how Plan G can cover your Part B coinsurance for dermatology services.",
+      slug: "plan-g",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "Does Medicare Cover Cancer Treatment",
+    "Does Medicare Cover a Biopsy",
+    "Does Medicare Cover Botox",
+    "Medicare Supplement Plan G",
+  ],
+  ctaBanner: {
+    title: "Need Help Covering Your Dermatology Costs?",
+    text: "Our licensed Medicare agents can help you find a Medigap or Medicare Advantage plan that minimizes your out-of-pocket costs for dermatology and other specialist services. Compare plans in your area for free.",
+  },
+  relatedSlugs: [
+    "medicare-coverage-for-cancer",
+    "does-medicare-cover-a-biopsy",
+    "medicare-coverage-for-botox-treatments",
+    "plan-g",
+    "medicare-coverage-for-botox-treatments",
+    "medicare-coverage-for-botox-treatments",
+    "medicare-coverage-for-prostate-specific-antigen-psa-test",
+  ],
+},
 
 
   // ─── Medicare Coverage for Diabetic Shoes ──────────────────────────────────
