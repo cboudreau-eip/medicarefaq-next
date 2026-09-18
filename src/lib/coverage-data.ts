@@ -25782,252 +25782,352 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   /* ─── Medicare Beneficiary Identifiers ─── */
   {
-    slug: "medicare-beneficiary-identifiers",
-    seo: {
-      title: "Medicare Cards & Medicare Beneficiary Identifiers (MBI) | MedicareFAQ",
-      description: "Learn what a Medicare Beneficiary Identifier (MBI) is, how to find yours, what the format means, and how to protect your Medicare card from fraud.",
-      canonical: "https://www.medicarefaq.com/faqs/medicare-beneficiary-identifiers/",
-      ogImage: "/images/medicarefaq-cover.jpg",
-    },
-    title: "Medicare Cards & Medicare Beneficiary Identifiers",
-    subtitle: "Your Medicare Beneficiary Identifier (MBI) is your unique Medicare ID number. Also referred to as your MBI number, it replaced Social Security Numbers on Medicare cards to protect against identity theft.",
-    category: "Medicare Basics",
-    dateUpdated: "April 29, 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is the Compliance & Editorial Manager at MedicareFAQ.",
-    },
-    readTime: "5 min read",
-    quickAnswer: {
-      text: "A Medicare Beneficiary Identifier (MBI) is an 11-character alphanumeric code that serves as your unique Medicare ID. It replaced Social Security Number-based Health Insurance Claim Numbers (HICNs) on all Medicare cards in 2019 to protect against identity theft.",
-      badges: [
-        { plan: "Part A", status: "covered" },
-        { plan: "Part B", status: "covered" },
-        { plan: "Medicare Advantage", status: "partial" },
-        { plan: "Part D", status: "covered" }],
-    },
-    comparisonTable: [
-      {
-        planType: "Medicare Beneficiary Identifier (MBI)",
-        coverage: "Current Medicare ID \u2014 used for all Medicare transactions since 2019",
-        icon: "shield-check",
-        notes: "11-character alphanumeric; no SSN embedded",
-      },
-      {
-        planType: "Health Insurance Claim Number (HICN)",
-        coverage: "Old Medicare ID \u2014 based on Social Security Number",
-        icon: "x-circle",
-        notes: "No longer accepted; replaced by MBI in 2019",
-      },
-      {
-        planType: "Medicare Card",
-        coverage: "Red, white, and blue card showing your MBI and coverage dates",
-        icon: "info",
-        notes: "Keep in a safe place; carry a copy when seeking care",
-      },
-      {
-        planType: "Medicare Advantage ID Card",
-        coverage: "Issued by your MA plan; use this card (not red/white/blue) for care",
-        icon: "info",
-        notes: "Your MBI is still on file but you use your plan's card",
-      }],
-    planBreakdowns: [
-      {
-        planName: "What is an MBI?",
-        icon: "id-card",
-        iconColor: "text-blue-600",
-        coverageLabel: "Your Medicare ID Number",
-        coverageType: "covered",
-        paragraphs: [
-          "The Medicare Beneficiary Identifier (MBI) is a randomly generated 11-character code consisting of numbers and uppercase letters. It is unique to each Medicare beneficiary and is used for all Medicare billing and transactions.",
-          "CMS replaced the old SSN-based Health Insurance Claim Number (HICN) with the MBI starting in April 2018. By December 2019, all Medicare cards had been replaced with new cards featuring the MBI."],
-        whatItCovers: [
-          "Used for all Medicare Part A and Part B billing",
-          "Required for Medicare Advantage and Part D transactions",
-          "Used when filing Medicare claims",
-          "Needed when enrolling in Medicare or changing plans"],
-        whatItDoesntCover: [
-          "MBI is not the same as your Medicare Advantage plan ID",
-          "MBI does not contain any personal information (it's randomly generated)",
-          "MBI is not used for Social Security transactions"],
-      },
-      {
-        planName: "MBI Format Explained",
-        icon: "hash",
-        iconColor: "text-teal-600",
-        coverageLabel: "11-Character Structure",
-        coverageType: "covered",
-        paragraphs: [
-          "The MBI follows a specific 11-character format: 1C2AC2AC2AC3. Each position uses either a number (0-9) or an uppercase letter (A-Z), but the letters S, L, O, I, B, and Z are never used to avoid confusion with numbers.",
-          "The MBI is case-sensitive and must be entered exactly as shown on your Medicare card. There are no dashes or spaces in the MBI itself, though it may be displayed with dashes for readability."],
-        whatItCovers: [
-          "Position 1: Always a number (1-9)",
-          "Positions 2, 5, 8: Always an uppercase letter (not S, L, O, I, B, Z)",
-          "Positions 3, 6, 9: Always a number or letter",
-          "Positions 4, 7, 10, 11: Always a number"],
-        whatItDoesntCover: [
-          "Letters S, L, O, I, B, Z are never used",
-          "The number 0 is used but the letter O is not",
-          "MBIs are randomly generated and carry no personal meaning"],
-        callout: {
-          type: "info",
-          title: "Example MBI Format",
-          text: "An MBI looks like: 1EG4-TE5-MK72. The dashes are for display only. When entering your MBI for billing, use all 11 characters without dashes.",
-        },
-      },
-      {
-        planName: "How to Find Your MBI",
-        icon: "search",
-        iconColor: "text-green-600",
-        coverageLabel: "Multiple Ways to Access",
-        coverageType: "covered",
-        paragraphs: [
-          "Your MBI is printed on your red, white, and blue Medicare card. If you've misplaced your card, there are several other ways to find your MBI."],
-        whatItCovers: [
-          "Medicare card: Your MBI is printed on the front",
-          "[Medicare.gov](https://www.medicare.gov/) account: Log in and view your MBI online",
-          "Medicare Summary Notice (MSN): Your MBI appears on your MSN",
-          "Call 1-800-MEDICARE (1-800-633-4227) to get your MBI"],
-        whatItDoesntCover: [
-          "Social Security cannot provide your MBI (contact Medicare directly)",
-          "Your doctor's office may have it on file from previous visits"],
-        callout: {
-          type: "warning",
-          title: "Protect Your MBI",
-          text: "Treat your MBI like your Social Security Number. Never share it with anyone who contacts you unsolicited. Medicare will never call you to ask for your MBI.",
-        },
-      },
-      {
-        planName: "Lost or Stolen Medicare Card",
-        icon: "alert-triangle",
-        iconColor: "text-amber-600",
-        coverageLabel: "How to Replace Your Card",
-        coverageType: "covered",
-        paragraphs: [
-          "If your Medicare card is lost, stolen, or damaged, you can get a replacement card for free. Your MBI will remain the same unless you report fraud."],
-        whatItCovers: [
-          "Request online at Medicare.gov (fastest method)",
-          "Call 1-800-MEDICARE to request a replacement",
-          "Visit your local Social Security office",
-          "Replacement cards arrive by mail within 30 days"],
-        whatItDoesntCover: [
-          "You cannot get a replacement card at a Medicare office (there are none)",
-          "If fraud occurred, report it and request a new MBI"],
-      }],
-    costTable: {
-      title: "Medicare Card & MBI Quick Reference",
-      headers: ["Item", "Details", "Where to Find"],
-      rows: [
-        { "Item": "Medicare Beneficiary Identifier (MBI)", "Details": "11-character alphanumeric ID", "Where to Find": "Medicare card, Medicare.gov, MSN"},
-        { "Item": "Medicare Card", "Details": "Red, white, and blue card", "Where to Find": "Mailed when you enroll; replace at Medicare.gov"},
-        { "Item": "Medicare Advantage Card", "Details": "Issued by your MA plan", "Where to Find": "Mailed by your plan after enrollment"},
-        { "Item": "Part D Card", "Details": "Issued by your drug plan", "Where to Find": "Mailed by your Part D plan after enrollment"},
-        { "Item": "Medicare Summary Notice", "Details": "Quarterly statement of claims", "Where to Find": "Mailed quarterly or view at Medicare.gov"}],
-      footnote: "If you have Medicare Advantage, use your plan's ID card when seeking care. Your red, white, and blue Medicare card is still needed for some transactions.",
-    },
-    exceptionsSection: {
-      title: "Important Exceptions & Special Situations",
-      items: [
-        {
-          title: "Medicare Advantage Members",
-          text: "If you have Medicare Advantage, you use your plan's ID card (not your red/white/blue Medicare card) when seeking care. However, your MBI is still on file and may be needed for certain transactions.",
-        },
-        {
-          title: "Reporting Medicare Fraud",
-          text: "If you believe someone has used your MBI fraudulently, report it to 1-800-MEDICARE or the Office of Inspector General at 1-800-HHS-TIPS. You can request a new MBI if your identity has been compromised.",
-          highlight: "Never share your MBI with anyone who contacts you unsolicited.",
-        },
-        {
-          title: "Railroad Retirement Board (RRB) Beneficiaries",
-          text: "If your Medicare coverage is through the Railroad Retirement Board, your Medicare card and ID number may look different. Contact the RRB at 1-877-772-5772 for assistance.",
-        },
-        {
-          title: "Providers Still Using Old HICN",
-          text: "Since the 2019 transition, all Medicare transactions must use the MBI. If a provider is still using your old HICN, remind them to update their records with your MBI to avoid claim rejections.",
-        }],
-    },
-    legislativeUpdate: {
-      title: "Background: The MACRA MBI Transition",
-      items: [
-        {
-          title: "Medicare Access and CHIP Reauthorization Act (MACRA) \U2014 MBI Mandate",
-          status: "Passed",
-          description: "MACRA (2015) required CMS to remove Social Security Numbers from Medicare cards and replace them with new Medicare Beneficiary Identifiers by April 2019. The transition was completed by December 2019.",
-        },
-        {
-          title: "New Medicare Card Mailing Completed",
-          status: "Passed",
-          description: "CMS mailed new Medicare cards to all 58 million beneficiaries between April 2018 and December 2019. The transition was completed on schedule, protecting beneficiaries from SSN-based identity theft.",
-        }],
-    },
-    alternativesSection: {
-      title: "Protecting Your Medicare Card & MBI",
-      paragraphs: [
-        "Your MBI is sensitive personal information. Follow these steps to protect it and respond quickly if it's compromised."],
-      checklist: {
-        title: "Security Checklist",
-        items: [
-          "Keep your Medicare card in a safe place \u2014 don't carry it unless needed",
-          "Never share your MBI with unsolicited callers, even if they claim to be from Medicare",
-          "Review your Medicare Summary Notice (MSN) for unfamiliar claims",
-          "Create a Medicare.gov account to monitor your claims online",
-          "Report suspected fraud to 1-800-MEDICARE or 1-800-HHS-TIPS",
-          "If your card is lost or stolen, request a replacement at Medicare.gov immediately"],
-        type: "warning",
-      },
-    },
-    faqs: [
-      {
-        question: "What Does MBI Stand For?",
-        answer: "MBI stands for Medicare Beneficiary Identifier. It's the unique 11-character ID number on your Medicare card that replaced the old SSN-based Health Insurance Claim Number (HICN) in 2019.",
-      },
-      {
-        question: "How do I Find My Medicare Number?",
-        answer: "Your MBI number is printed on your red, white, and blue Medicare card. You can also find your Medicare ID by logging into your Medicare.gov account or by calling 1-800-MEDICARE.",
-      },
-      {
-        question: "Can I Get a New MBI if Mine is Compromised?",
-        answer: "Yes. If you believe your MBI has been used fraudulently, contact 1-800-MEDICARE to report the fraud and request a new MBI. A new card will be mailed to you.",
-      },
-      {
-        question: "Do I Use My Medicare Card or My Medicare Advantage Card?",
-        answer: "If you have Medicare Advantage, use your plan's ID card when seeking care. Your red/white/blue Medicare card is generally not needed for day-to-day care but keep it safe.",
-      },
-      {
-        question: "Why Did Medicare Stop Using Social Security Numbers on Cards?",
-        answer: "To protect beneficiaries from identity theft. The old HICN contained your SSN, making Medicare cards a target for fraud. The new MBI is randomly generated and contains no personal information.",
-      }],
-    quickReference: [
-      { icon: "check", text: "Your MBI is an 11-character alphanumeric code on your red, white, and blue Medicare card" },
-      { icon: "info", text: "MBIs replaced SSN-based HICNs in 2019 under the MACRA law" },
-      { icon: "alert", text: "Never share your MBI with unsolicited callers \u2014 Medicare will never call to ask for it" },
-      { icon: "check", text: "Lost your card? Request a free replacement at Medicare.gov or call 1-800-MEDICARE" },
-      { icon: "info", text: "Medicare Advantage members: use your plan's card for care, not your red/white/blue card" }],
-    relatedTopics: [
-      { title: "5 Things to Do After Getting Your Medicare Card", description: "Important steps to take when you receive your Medicare card.", slug: "5-things-to-do-after-you-receive-your-medicare-card" },
-      { title: "What to do if You Lose Your Medicare Card", description: "Step-by-step guide to replacing a lost Medicare card.", slug: "what-to-do-if-you-lose-your-medicare-card-a-step-by-step-guide" },
-      { title: "Applying for Medicare", description: "How and when to apply for Medicare benefits.", slug: "applying-for-medicare" },
-      { title: "Report Medicare Fraud", description: "How to identify and report Medicare fraud and abuse.", slug: "report-medicare-fraud" }],
-    sidebarRelatedLinks: [
-      "After Getting Your Medicare Card",
-      "Lost Medicare Card",
-      "Applying for Medicare",
-      "Report Medicare Fraud"],
-    ctaBanner: {
-      title: "Questions about Your Medicare Coverage?",
-      text: "Our licensed agents can help you understand your Medicare card, coverage options, and how to protect yourself from Medicare fraud.",
-    },
-    relatedSlugs: ["5-things-to-do-after-you-receive-your-medicare-card", "what-to-do-if-you-lose-your-medicare-card-a-step-by-step-guide", "applying-for-medicare", "report-medicare-fraud"],
+  slug: "medicare-beneficiary-identifiers",
+  seo: {
+    title: "Medicare Cards & Medicare Beneficiary Identifiers (MBI) | MedicareFAQ",
+    description: "Lost your Medicare card or unsure of your MBI? Learn how to find your number, what the format means, and how to keep it safe from fraud.",
+    canonical: "https://www.medicarefaq.com/faqs/medicare-beneficiary-identifiers/",
+    ogImage: "/images/medicarefaq-cover.jpg",
   },
+  title: "Medicare Cards & Medicare Beneficiary Identifiers",
+  subtitle: "Your Medicare Beneficiary Identifier (MBI) is your unique Medicare ID number. Also referred to as your MBI number, it replaced Social Security Numbers on Medicare cards to protect against identity theft.",
+  category: "Medicare Basics",
+  dateUpdated: "April 29, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is the Compliance & Editorial Manager at MedicareFAQ.",
+  },
+  readTime: "5 min read",
+  quickAnswer: {
+    text: "A Medicare Beneficiary Identifier (MBI) is an 11-character alphanumeric code that serves as your unique Medicare ID number. It replaced Social Security Number-based Health Insurance Claim Numbers (HICNs) on all Medicare cards in 2019 to protect against identity theft. You can find your MBI printed on your red, white, and blue Medicare card, or by logging into your mymedicare.gov account.",
+    badges: [
+      {
+        plan: "Part A",
+        status: "covered",
+      },
+      {
+        plan: "Part B",
+        status: "covered",
+      },
+      {
+        plan: "Medicare Advantage",
+        status: "partial",
+      },
+      {
+        plan: "Part D",
+        status: "covered",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Medicare Beneficiary Identifier (MBI)",
+      coverage: "Current Medicare ID — used for all Medicare transactions since 2019",
+      icon: "shield-check",
+      notes: "11-character alphanumeric; no SSN embedded",
+    },
+    {
+      planType: "Health Insurance Claim Number (HICN)",
+      coverage: "Old Medicare ID — based on Social Security Number",
+      icon: "x-circle",
+      notes: "No longer accepted; replaced by MBI in 2019",
+    },
+    {
+      planType: "Medicare Card",
+      coverage: "Red, white, and blue card showing your MBI and coverage dates",
+      icon: "info",
+      notes: "Keep in a safe place; carry a copy when seeking care",
+    },
+    {
+      planType: "Medicare Advantage ID Card",
+      coverage: "Issued by your MA plan; use this card (not red/white/blue) for care",
+      icon: "info",
+      notes: "Your MBI is still on file but you use your plan's card",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "What is an MBI?",
+      icon: "id-card",
+      iconColor: "text-blue-600",
+      coverageLabel: "Your Medicare ID Number",
+      coverageType: "covered",
+      paragraphs: [
+      "The Medicare Beneficiary Identifier (MBI) is a randomly generated 11-character code consisting of numbers and uppercase letters. It is unique to each Medicare beneficiary and is used for all Medicare billing and transactions.",
+      "CMS replaced the old SSN-based Health Insurance Claim Number (HICN) with the MBI starting in April 2018. By December 2019, all Medicare cards had been replaced with new cards featuring the MBI.",
+    ],
+      whatItCovers: [
+      "Used for all Medicare Part A and Part B billing",
+      "Required for Medicare Advantage and Part D transactions",
+      "Used when filing Medicare claims",
+      "Needed when enrolling in Medicare or changing plans",
+    ],
+      whatItDoesntCover: [
+      "MBI is not the same as your Medicare Advantage plan ID",
+      "MBI does not contain any personal information (it's randomly generated)",
+      "MBI is not used for Social Security transactions",
+    ],
+    },
+    {
+      planName: "MBI Format Explained",
+      icon: "hash",
+      iconColor: "text-teal-600",
+      coverageLabel: "11-Character Structure",
+      coverageType: "covered",
+      paragraphs: [
+      "The MBI follows a specific 11-character format: 1C2AC2AC2AC3. Each position uses either a number (0-9) or an uppercase letter (A-Z), but the letters S, L, O, I, B, and Z are never used to avoid confusion with numbers.",
+      "The MBI is case-sensitive and must be entered exactly as shown on your Medicare card. There are no dashes or spaces in the MBI itself, though it may be displayed with dashes for readability.",
+    ],
+      whatItCovers: [
+      "Position 1: Always a number (1-9)",
+      "Positions 2, 5, 8: Always an uppercase letter (not S, L, O, I, B, Z)",
+      "Positions 3, 6, 9: Always a number or letter",
+      "Positions 4, 7, 10, 11: Always a number",
+    ],
+      whatItDoesntCover: [
+      "Letters S, L, O, I, B, Z are never used",
+      "The number 0 is used but the letter O is not",
+      "MBIs are randomly generated and carry no personal meaning",
+    ],
+      callout: {
+      type: "info",
+      title: "Example MBI Format",
+      text: "An MBI looks like: 1EG4-TE5-MK72. The dashes are for display only. When entering your MBI for billing, use all 11 characters without dashes.",
+    },
+    },
+    {
+      planName: "How to Find Your MBI",
+      icon: "search",
+      iconColor: "text-green-600",
+      coverageLabel: "Multiple Ways to Access",
+      coverageType: "covered",
+      paragraphs: [
+      "Your MBI is printed on your red, white, and blue Medicare card. If you've misplaced your card, there are several other ways to find your MBI.",
+    ],
+      whatItCovers: [
+      "Medicare card: Your MBI is printed on the front",
+      "[Medicare.gov](https://www.medicare.gov/) account: Log in and view your MBI online",
+      "Medicare Summary Notice (MSN): Your MBI appears on your MSN",
+      "Call 1-800-MEDICARE (1-800-633-4227) to get your MBI",
+    ],
+      whatItDoesntCover: [
+      "Social Security cannot provide your MBI (contact Medicare directly)",
+      "Your doctor's office may have it on file from previous visits",
+    ],
+      callout: {
+      type: "warning",
+      title: "Protect Your MBI",
+      text: "Treat your MBI like your Social Security Number. Never share it with anyone who contacts you unsolicited. Medicare will never call you to ask for your MBI.",
+    },
+    },
+    {
+      planName: "Lost or Stolen Medicare Card",
+      icon: "alert-triangle",
+      iconColor: "text-amber-600",
+      coverageLabel: "How to Replace Your Card",
+      coverageType: "covered",
+      paragraphs: [
+      "If your Medicare card is lost, stolen, or damaged, you can get a replacement card for free. Your MBI will remain the same unless you report fraud.",
+    ],
+      whatItCovers: [
+      "Request online at Medicare.gov (fastest method)",
+      "Call 1-800-MEDICARE to request a replacement",
+      "Visit your local Social Security office",
+      "Replacement cards arrive by mail within 30 days",
+    ],
+      whatItDoesntCover: [
+      "You cannot get a replacement card at a Medicare office (there are none)",
+      "If fraud occurred, report it and request a new MBI",
+    ],
+    },
+  ],
+  costTable: {
+    title: "Medicare Card & MBI Quick Reference",
+    headers: [
+    "Item",
+    "Details",
+    "Where to Find",
+  ],
+    rows: [
+      {
+        "Item": "Medicare Beneficiary Identifier (MBI)",
+        "Details": "11-character alphanumeric ID",
+        "Where to Find": "Medicare card, Medicare.gov, MSN",
+      },
+      {
+        "Item": "Medicare Card",
+        "Details": "Red, white, and blue card",
+        "Where to Find": "Mailed when you enroll; replace at Medicare.gov",
+      },
+      {
+        "Item": "Medicare Advantage Card",
+        "Details": "Issued by your MA plan",
+        "Where to Find": "Mailed by your plan after enrollment",
+      },
+      {
+        "Item": "Part D Card",
+        "Details": "Issued by your drug plan",
+        "Where to Find": "Mailed by your Part D plan after enrollment",
+      },
+      {
+        "Item": "Medicare Summary Notice",
+        "Details": "Quarterly statement of claims",
+        "Where to Find": "Mailed quarterly or view at Medicare.gov",
+      },
+    ],
+    footnote: "If you have Medicare Advantage, use your plan's ID card when seeking care. Your red, white, and blue Medicare card is still needed for some transactions.",
+  },
+  exceptionsSection: {
+    title: "Important Exceptions & Special Situations",
+    items: [
+      {
+        title: "Medicare Advantage Members",
+        text: "If you have Medicare Advantage, you use your plan's ID card (not your red/white/blue Medicare card) when seeking care. However, your MBI is still on file and may be needed for certain transactions.",
+      },
+      {
+        title: "Reporting Medicare Fraud",
+        text: "If you believe someone has used your MBI fraudulently, report it to 1-800-MEDICARE or the Office of Inspector General at 1-800-HHS-TIPS. You can request a new MBI if your identity has been compromised.",
+        highlight: "Never share your MBI with anyone who contacts you unsolicited.",
+      },
+      {
+        title: "Railroad Retirement Board (RRB) Beneficiaries",
+        text: "If your Medicare coverage is through the Railroad Retirement Board, your Medicare card and ID number may look different. Contact the RRB at 1-877-772-5772 for assistance.",
+      },
+      {
+        title: "Providers Still Using Old HICN",
+        text: "Since the 2019 transition, all Medicare transactions must use the MBI. If a provider is still using your old HICN, remind them to update their records with your MBI to avoid claim rejections.",
+      },
+    ],
+  },
+  legislativeUpdate: {
+    title: "Background: The MACRA MBI Transition",
+    items: [
+      {
+        title: "Medicare Access and CHIP Reauthorization Act (MACRA) U2014 MBI Mandate",
+        status: "Passed",
+        description: "MACRA (2015) required CMS to remove Social Security Numbers from Medicare cards and replace them with new Medicare Beneficiary Identifiers by April 2019. The transition was completed by December 2019.",
+      },
+      {
+        title: "New Medicare Card Mailing Completed",
+        status: "Passed",
+        description: "CMS mailed new Medicare cards to all 58 million beneficiaries between April 2018 and December 2019. The transition was completed on schedule, protecting beneficiaries from SSN-based identity theft.",
+      },
+    ],
+  },
+  alternativesSection: {
+    title: "Protecting Your Medicare Card & MBI",
+    paragraphs: [
+    "Your MBI is sensitive personal information. Follow these steps to protect it and respond quickly if it's compromised.",
+  ],
+    checklist: {
+    title: "Security Checklist",
+    items: [
+    "Keep your Medicare card in a safe place — don't carry it unless needed",
+    "Never share your MBI with unsolicited callers, even if they claim to be from Medicare",
+    "Review your Medicare Summary Notice (MSN) for unfamiliar claims",
+    "Create a Medicare.gov account to monitor your claims online",
+    "Report suspected fraud to 1-800-MEDICARE or 1-800-HHS-TIPS",
+    "If your card is lost or stolen, request a replacement at Medicare.gov immediately",
+  ],
+    type: "warning",
+  },
+  },
+  faqs: [
+    {
+      question: "What Does MBI Stand For?",
+      answer: "MBI stands for Medicare Beneficiary Identifier. It's the unique 11-character ID number on your Medicare card that replaced the old SSN-based Health Insurance Claim Number (HICN) in 2019.",
+    },
+    {
+      question: "How do I Find My Medicare Number?",
+      answer: "Your MBI number is printed on your red, white, and blue Medicare card. You can also find your Medicare ID by logging into your Medicare.gov account or by calling 1-800-MEDICARE.",
+    },
+    {
+      question: "Can I Get a New MBI if Mine is Compromised?",
+      answer: "Yes. If you believe your MBI has been used fraudulently, contact 1-800-MEDICARE to report the fraud and request a new MBI. A new card will be mailed to you.",
+    },
+    {
+      question: "Do I Use My Medicare Card or My Medicare Advantage Card?",
+      answer: "If you have Medicare Advantage, use your plan's ID card when seeking care. Your red/white/blue Medicare card is generally not needed for day-to-day care but keep it safe.",
+    },
+    {
+      question: "Why Did Medicare Stop Using Social Security Numbers on Cards?",
+      answer: "To protect beneficiaries from identity theft. The old HICN contained your SSN, making Medicare cards a target for fraud. The new MBI is randomly generated and contains no personal information.",
+    },
+    {
+      question: "What Should I Do if I Lose My Medicare Card?",
+      answer: "If you lose your Medicare card, you can print an official copy instantly by logging into your mymedicare.gov account, or you can request a replacement card be mailed to you through your account or by ",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "check",
+      text: "Your MBI is an 11-character alphanumeric code on your red, white, and blue Medicare card",
+    },
+    {
+      icon: "info",
+      text: "MBIs replaced SSN-based HICNs in 2019 under the MACRA law",
+    },
+    {
+      icon: "alert",
+      text: "Never share your MBI with unsolicited callers — Medicare will never call to ask for it",
+    },
+    {
+      icon: "check",
+      text: "Lost your card? Request a free replacement at Medicare.gov or call 1-800-MEDICARE",
+    },
+    {
+      icon: "info",
+      text: "Medicare Advantage members: use your plan's card for care, not your red/white/blue card",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "5 Things to Do After Getting Your Medicare Card",
+      description: "Important steps to take when you receive your Medicare card.",
+      slug: "5-things-to-do-after-you-receive-your-medicare-card",
+    },
+    {
+      title: "What to do if You Lose Your Medicare Card",
+      description: "Step-by-step guide to replacing a lost Medicare card.",
+      slug: "what-to-do-if-you-lose-your-medicare-card-a-step-by-step-guide",
+    },
+    {
+      title: "Applying for Medicare",
+      description: "How and when to apply for Medicare benefits.",
+      slug: "applying-for-medicare",
+    },
+    {
+      title: "Report Medicare Fraud",
+      description: "How to identify and report Medicare fraud and abuse.",
+      slug: "report-medicare-fraud",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "After Getting Your Medicare Card",
+    "Lost Medicare Card",
+    "Applying for Medicare",
+    "Report Medicare Fraud",
+  ],
+  ctaBanner: {
+    title: "Questions about Your Medicare Coverage?",
+    text: "Our licensed agents can help you understand your Medicare card, coverage options, and how to protect yourself from Medicare fraud.",
+  },
+  relatedSlugs: [
+    "5-things-to-do-after-you-receive-your-medicare-card",
+    "what-to-do-if-you-lose-your-medicare-card-a-step-by-step-guide",
+    "applying-for-medicare",
+    "report-medicare-fraud",
+  ],
+},
   /* ─── IRMAA ─── */
   {
   slug: "irmaa",
