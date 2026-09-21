@@ -1,7 +1,22 @@
 {
   "title": "Medigap Mistakes to Avoid: 2026 Enrollment Guide",
+  "rawContent": "",
   "slug": "how-to-enroll-in-medigap-and-avoid-common-mistakes",
+  "excerpt": "Learn the biggest Medigap mistakes to avoid, from missing enrollment windows to misunderstanding underwriting rules, so you can choose coverage with confidence.",
   "category": "medicare_supplement",
+  "author": "David Haass",
+  "reviewer": "Ashlee Zareczny",
+  "image": "/images/generated/how-to-enroll-in-medigap-and-avoid-common-mistakes.png",
+  "imageAlt": "",
+  "keyTakeaways": [
+    "Medigap supplements Original Medicare, while Medicare Advantage replaces it entirely with a private plan",
+    "Your six-month Medigap Open Enrollment Period starts the month you turn 65 and have Part B, and missing it can trigger medical underwriting",
+    "Outside guaranteed issue windows, insurers can ask health questions and may charge more or deny coverage based on your medical history",
+    "Never cancel your current Medigap policy until your new policy is officially approved in writing",
+    "Medigap pricing follows community-rated, issue-age-rated, or attained-age-rated models, which affect how premiums change over time"
+  ],
+  "seoTitle": "Medigap Mistakes to Avoid: 2026 Enrollment Guide",
+  "seoDescription": "Discover key Medigap mistakes to avoid, from enrollment timing to underwriting pitfalls, and enroll with confidence in 2026.",
   "sections": [
     {
       "type": "heading",
@@ -53,7 +68,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Your Medigap Open Enrollment Period lasts six months, starting the month you turn 65 and have Part B. During this window, insurers must sell you any Medigap policy they offer, without health questions."
+      "content": "Your [Medigap Open Enrollment Period](/faqs/medicare-supplement-open-enrollment/) lasts six months, starting the month you turn 65 and have Part B. During this window, insurers must sell you any Medigap policy they offer, without health questions."
     },
     {
       "type": "warning-callout-placeholder",
@@ -71,7 +86,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Another frequent mistake is assuming you can switch Medigap plans anytime without health questions. Outside guaranteed issue situations, switching almost always involves underwriting."
+      "content": "Another frequent mistake is assuming you can [switch [Medigap plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one/)](/faqs/when-can-i-change-my-medicare-supplement-plan/) anytime without health questions. Outside guaranteed issue situations, switching almost always involves underwriting."
     },
     {
       "type": "heading",
@@ -148,7 +163,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Medigap works differently from Medicare Advantage when it comes to doctor access. With most Medigap plans, you can see any provider who accepts Medicare nationwide, without needing referrals or network approval."
+      "content": "Medigap works differently from Medicare Advantage when it comes to doctor access. With most [Medigap plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one/), you can see any provider who accepts Medicare nationwide, without needing referrals or network approval."
     },
     {
       "type": "paragraph",
@@ -162,7 +177,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Not all Medigap plans work identically, even though benefits are standardized by letter. Assuming every plan behaves the same with any provider is a mistake worth avoiding before you sign anything."
+      "content": "Not all [Medigap plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one/) work identically, even though benefits are standardized by letter. Assuming every plan behaves the same with any provider is a mistake worth avoiding before you sign anything."
     },
     {
       "type": "heading",
@@ -235,21 +250,61 @@
       "content": "Seek out clear, transparent guidance rather than deciding under pressure. A calm, informed decision today can protect your coverage and budget for years to come."
     }
   ],
-  "seoTitle": "Medigap Mistakes to Avoid: 2026 Enrollment Guide",
-  "seoDescription": "Discover key Medigap mistakes to avoid, from enrollment timing to underwriting pitfalls, and enroll with confidence in 2026.",
-  "excerpt": "Learn the biggest Medigap mistakes to avoid, from missing enrollment windows to misunderstanding underwriting rules, so you can choose coverage with confidence.",
-  "keyTakeaways": [
-    "Medigap supplements Original Medicare, while Medicare Advantage replaces it entirely with a private plan",
-    "Your six-month Medigap Open Enrollment Period starts the month you turn 65 and have Part B, and missing it can trigger medical underwriting",
-    "Outside guaranteed issue windows, insurers can ask health questions and may charge more or deny coverage based on your medical history",
-    "Never cancel your current Medigap policy until your new policy is officially approved in writing",
-    "Medigap pricing follows community-rated, issue-age-rated, or attained-age-rated models, which affect how premiums change over time"
+  "relatedSlugs": [
+    "medicare-advantage-vs-medicare-supplement",
+    "top-10-medicare-supplement-insurance-companies",
+    "best-medicare-supplement-plan-g-companies"
   ],
-  "image": "/images/generated/how-to-enroll-in-medigap-and-avoid-common-mistakes.png",
-  "relatedSlugs": [],
-  "sourceUrl": "https://www.aarp.org/medicare/how-to-avoid-medigap-mistakes/",
-  "pipelineId": "disc-b1941b4936e7ea15e0ce02c532799386d5f2a3c110802c3da3dd39d010c43787",
+  "linkSuggestions": [
+    {
+      "phrase": "Medicare Advantage",
+      "url": "/faqs/medicare-advantage-vs-medicare-supplement/",
+      "title": "Medicare Advantage vs. Medicare Supplement: Crucial Questions to Ask before Enrolling",
+      "reason": "This link provides a comparison between Medicare Advantage and Medigap, which is essential for understanding the differences mentioned in the article."
+    },
+    {
+      "phrase": "guaranteed issue",
+      "url": "/faqs/medicare-guaranteed-issue/",
+      "title": "Guaranteed Issue Rights for Medicare Supplement Plans",
+      "reason": "This link explains guaranteed issue rights, which is a key concept discussed in the article regarding Medigap enrollment."
+    },
+    {
+      "phrase": "Part D plan",
+      "url": "/faqs/medicare-part-d-six-protected-classes/",
+      "title": "Medicare Part D Six Protected Drug Classes",
+      "reason": "This link provides insights into Part D plans, which are necessary for readers needing prescription coverage alongside Medigap."
+    },
+    {
+      "phrase": "medical underwriting",
+      "url": "/faqs/medicare-supplement-plans-and-pre-existing-conditions/",
+      "title": "Medicare Supplement Plans and Pre-Existing Conditions",
+      "reason": "This page discusses how medical underwriting affects Medigap applications, providing valuable context for readers."
+    },
+    {
+      "phrase": "coverage gaps",
+      "url": "/faqs/what-medicare-doesnt-cover-common-surprises/",
+      "title": "What Medicare Doesn't Cover: Common Surprises",
+      "reason": "This page addresses common coverage gaps in Medicare, which is directly relevant to the discussion of Medigap's purpose."
+    }
+  ],
+  "acceptedLinks": [
+    {
+      "phrase": "switch Medigap plans",
+      "url": "/faqs/when-can-i-change-my-medicare-supplement-plan/",
+      "title": "When Can I Change My Medicare Supplement Plan?"
+    },
+    {
+      "phrase": "Medigap plans",
+      "url": "/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one/",
+      "title": "What Is a Medicare Supplement Plan and Who Needs One?"
+    },
+    {
+      "phrase": "Medigap Open Enrollment Period",
+      "url": "/faqs/medicare-supplement-open-enrollment/",
+      "title": "Medigap Open Enrollment Period"
+    }
+  ],
   "id": "pipeline-how-to-enroll-in-medigap-and-avoid-common-mistakes",
-  "updatedAt": "2026-09-21T18:20:37.689Z",
-  "createdAt": "2026-09-21T18:20:37.689Z"
+  "updatedAt": "2026-09-21T18:24:29.897Z",
+  "createdAt": "2026-09-21T18:24:29.897Z"
 }
