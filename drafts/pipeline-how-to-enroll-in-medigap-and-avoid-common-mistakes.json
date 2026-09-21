@@ -48,13 +48,13 @@
     },
     {
       "type": "paragraph",
-      "content": "Plan letters simply describe standardized benefit packages. Plan G, for example, covers most gaps left by Original Medicare except the Part B deductible, while Plan N includes small copays for certain office and emergency room visits."
+      "content": "Plan letters simply describe standardized benefit packages. Plan G, for example, covers most gaps left by Original Medicare except the Part B deductible, while Plan N includes small copays for certain office and emergency room visits. One key difference between the two: Plan G covers Part B excess charges, the extra amount some providers can legally bill above the Medicare-approved amount, while Plan N does not, leaving you responsible for those excess charges if your provider charges them."
     },
     {
       "type": "callout",
       "calloutType": "info",
       "calloutTitle": "Guaranteed Issue vs. Underwriting",
-      "calloutText": "Guaranteed issue means an insurer must sell you a policy regardless of health history. Outside those protected windows, medical underwriting applies, meaning your health history can affect price or eligibility."
+      "calloutText": "Guaranteed issue means an insurer must sell you a policy regardless of health history. Outside those protected windows, medical underwriting applies, meaning your health history can affect price or eligibility. According to Medicare.gov, guaranteed issue protections apply during specific windows defined by federal and state rules."
     },
     {
       "type": "paragraph",
@@ -68,17 +68,13 @@
     },
     {
       "type": "paragraph",
-      "content": "Your [Medigap Open Enrollment Period](/faqs/medicare-supplement-open-enrollment/) lasts six months, starting the month you turn 65 and have Part B. During this window, insurers must sell you any Medigap policy they offer, without health questions."
-    },
-    {
-      "type": "warning-callout-placeholder",
-      "remove": true
+      "content": "Your [Medigap Open Enrollment Period](/faqs/medicare-supplement-open-enrollment/) lasts six months, starting the month you turn 65 and have Part B. During this window, insurers must sell you any Medigap policy they offer, without health questions. According to Medicare.gov, this six-month timeframe and the guaranteed issue protections that come with it are set by federal rule, so confirming your exact dates directly with Medicare.gov or CMS.gov is worthwhile."
     },
     {
       "type": "callout",
       "calloutType": "warning",
       "calloutTitle": "Missing Your Window",
-      "calloutText": "If you miss this six-month period, insurers can require medical underwriting later. That means your health history could raise your premium or lead to a denial in most states."
+      "calloutText": "If you miss this six-month period, insurers can require medical underwriting later. That means your health history could raise your premium or lead to a denial in most states. CMS.gov outlines the limited guaranteed issue situations that can still apply after your initial window closes, including trying a Medicare Advantage plan for the first time and deciding to switch back to Original Medicare within your trial right period, or moving out of your Medicare SELECT plan's service area."
     },
     {
       "type": "paragraph",
@@ -86,7 +82,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Another frequent mistake is assuming you can [switch [Medigap plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one/)](/faqs/when-can-i-change-my-medicare-supplement-plan/) anytime without health questions. Outside guaranteed issue situations, switching almost always involves underwriting."
+      "content": "Another frequent mistake is assuming you can [switch [Medigap plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one/)](/faqs/when-can-i-change-my-medicare-supplement-plan/) anytime without health questions. Outside guaranteed issue situations, switching almost always involves underwriting. That said, guaranteed issue rights are not limited to your initial enrollment window. Situations like exercising a Medicare Advantage trial right or moving out of a Medicare SELECT plan's service area can also let you switch Medigap plans without medical underwriting, so it is worth checking whether your specific situation qualifies before assuming underwriting is required."
     },
     {
       "type": "heading",
@@ -122,7 +118,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Choosing the lowest premium without checking a carrier's rate increase history is a common misstep. A plan that looks affordable today may rise sharply within a few years."
+      "content": "Choosing the lowest premium without checking a carrier's rate increase history is a common misstep. A plan that looks affordable today may rise sharply within a few years. It is also worth asking about additional ways to lower costs, such as a household discount some carriers offer when multiple people in the same home enroll in a Medigap policy, or considering high-deductible Plan G, which carries a much lower monthly premium in exchange for paying a higher annual deductible before the plan's benefits kick in."
     },
     {
       "type": "table",
@@ -149,7 +145,7 @@
           "$434/day"
         ]
       ],
-      "footnote": "Medigap can help cover many of these costs, but your Part B premium is separate and still your responsibility."
+      "footnote": "Medigap can help cover many of these costs, but your Part B premium is separate and still your responsibility. Figures are published annually by CMS.gov; visit CMS.gov for the current official amounts."
     },
     {
       "type": "paragraph",
@@ -177,7 +173,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Not all [Medigap plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one/) work identically, even though benefits are standardized by letter. Assuming every plan behaves the same with any provider is a mistake worth avoiding before you sign anything."
+      "content": "Not all [Medigap plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one/) work identically, even though benefits are standardized by letter. Assuming every plan behaves the same with any provider is a mistake worth avoiding before you sign anything. It is also worth remembering that Plan G and Plan N handle Part B excess charges differently, so if you tend to see providers who do not accept Medicare assignment, that difference can affect your out-of-pocket costs."
     },
     {
       "type": "heading",
@@ -227,7 +223,7 @@
         },
         {
           "question": "How do I know which online sources about Medigap I can trust?",
-          "answer": "Look for plain language, clear licensing information, and transparent explanations of how help works. Real client reviews add confidence, and cross-checking details against official resources like <a href=\"https://www.medicare.gov/supplements-other-insurance\">medicare.gov's Medigap overview</a> helps verify accuracy."
+          "answer": "Look for plain language, clear licensing information, and transparent explanations of how help works. Real client reviews add confidence, and cross-checking details against official resources like <a href=\"https://www.medicare.gov/supplements-other-insurance\">medicare.gov's Medigap overview</a> or CMS.gov helps verify accuracy, especially for specific rules like the six-month enrollment window and guaranteed issue protections."
         }
       ]
     },
@@ -305,6 +301,6 @@
     }
   ],
   "id": "pipeline-how-to-enroll-in-medigap-and-avoid-common-mistakes",
-  "updatedAt": "2026-09-21T18:24:29.897Z",
-  "createdAt": "2026-09-21T18:24:29.897Z"
+  "updatedAt": "2026-09-21T18:34:32.873Z",
+  "createdAt": "2026-09-21T18:34:32.873Z"
 }
