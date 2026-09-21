@@ -1,7 +1,22 @@
 {
   "title": "Medicare Eligibility for Immigrants 2027 Rule",
+  "rawContent": "",
   "slug": "medicare-policy-shift-in-2027-impact-on-immigrant-eligibilit",
+  "excerpt": "A proposed rule under H.R. 1 could tighten Medicare eligibility rules for certain immigrant groups starting in 2027. Learn what could change and how to prepare.",
   "category": "eligibility",
+  "author": "David Haass",
+  "reviewer": "Ashlee Zareczny",
+  "image": "/images/generated/medicare-policy-shift-in-2027-impact-on-immigrant-d012461.png",
+  "imageAlt": "",
+  "keyTakeaways": [
+    "A proposed rule tied to H.R. 1 could change Medicare eligibility for certain immigrant categories, with 2027 as a target implementation timeline",
+    "As of September 2026, no final rule has been issued; official updates will come only from CMS",
+    "Lawful permanent residents without sufficient qualifying quarters, certain visa holders, and some refugees or asylees are most likely to be affected",
+    "Without premium-free Part A, you may owe $565 per month in 2026, or $311 with 30+ work credits",
+    "A coverage gap from an eligibility change could leave you responsible for the $1,736 Part A deductible and $283 Part B deductible plus $202.90 monthly premium"
+  ],
+  "seoTitle": "Medicare Eligibility for Immigrants 2027 Rule",
+  "seoDescription": "Learn how the proposed H.R. 1 rule may affect Medicare eligibility for immigrants in 2027 and what steps to take now.",
   "sections": [
     {
       "type": "heading",
@@ -11,11 +26,11 @@
     },
     {
       "type": "paragraph",
-      "content": "A proposed rule tied to H.R. 1 is drawing attention because it would tighten how lawful presence and waiting periods factor into Medicare eligibility for certain immigrant categories. The conversation has picked up steam as lawmakers debate implementation details for the years ahead."
+      "content": "A proposed rule tied to H.R. 1 is drawing attention because it would tighten how lawful presence and [waiting periods](/faqs/medicare-special-enrollment-period/) factor into Medicare eligibility for certain immigrant categories. The conversation has picked up steam as lawmakers debate implementation details for the years ahead."
     },
     {
       "type": "paragraph",
-      "content": "The groups most likely to feel this shift include lawful permanent residents who have not yet met existing quarter requirements, certain visa holders, and some refugees or asylees whose status timelines differ from citizens. Nothing is finalized yet, and the rule is still moving through review."
+      "content": "The groups most likely to feel this shift include [lawful permanent residents](/faqs/medicare-for-green-card-holders/) who have not yet met existing quarter requirements, certain visa holders, and some refugees or asylees whose status timelines differ from citizens. Nothing is finalized yet, and the rule is still moving through review."
     },
     {
       "type": "paragraph",
@@ -35,7 +50,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Terms like lawful presence, qualifying quarters, and waiting periods sound technical, but they boil down to a few simple questions. Lawful presence asks whether your immigration status is recognized under federal rules. Qualifying quarters track how long you or a spouse paid into Social Security through work."
+      "content": "Terms like lawful presence, qualifying quarters, and [waiting periods](/faqs/medicare-special-enrollment-period/) sound technical, but they boil down to a few simple questions. Lawful presence asks whether your immigration status is recognized under federal rules. Qualifying quarters track how long you or a spouse paid into Social Security through work."
     },
     {
       "type": "paragraph",
@@ -114,7 +129,7 @@
     },
     {
       "type": "paragraph",
-      "content": "If your eligibility status changes, your current Medicare Advantage or Part D plan network could be affected too. Some plans require continuous enrollment to maintain your provider relationships and prescription coverage without interruption."
+      "content": "If your eligibility status changes, your current [Medicare Advantage or Part D plan](/faqs/medicare-advantage-vs-medicare-supplement/) network could be affected too. Some plans require continuous enrollment to maintain your provider relationships and prescription coverage without interruption."
     },
     {
       "type": "paragraph",
@@ -124,7 +139,7 @@
       "type": "list",
       "ordered": true,
       "items": [
-        "Call your Medicare Advantage or Part D plan to ask about status verification requirements",
+        "Call your [Medicare Advantage or Part D plan](/faqs/medicare-advantage-vs-medicare-supplement/) to ask about status verification requirements",
         "Request a written summary of your current coverage and enrollment basis",
         "Ask your doctor's office to flag your file for any insurance changes",
         "Keep a copy of your Medicare card and enrollment confirmation in an accessible place"
@@ -152,7 +167,7 @@
       "type": "list",
       "ordered": false,
       "items": [
-        "Confirm your current eligibility status with the Social Security Administration",
+        "Confirm your current eligibility status with the [Social Security Administration](/faqs/when-should-you-enroll-in-medicare-if-still-working/)",
         "Mark your Initial Enrollment Period dates if you are approaching 65",
         "Check whether your state Medicaid or dual-eligible status could be affected",
         "Set a calendar reminder to review CMS updates every few months through 2027"
@@ -246,21 +261,60 @@
       "content": "You can take this one step at a time. Gathering documents, asking questions, and checking official updates now means you will be ready, calmly and confidently, whenever a final rule takes shape."
     }
   ],
-  "seoTitle": "Medicare Eligibility for Immigrants 2027 Rule",
-  "seoDescription": "Learn how the proposed H.R. 1 rule may affect Medicare eligibility for immigrants in 2027 and what steps to take now.",
-  "excerpt": "A proposed rule under H.R. 1 could tighten Medicare eligibility rules for certain immigrant groups starting in 2027. Learn what could change and how to prepare.",
-  "keyTakeaways": [
-    "A proposed rule tied to H.R. 1 could change Medicare eligibility for certain immigrant categories, with 2027 as a target implementation timeline",
-    "As of September 2026, no final rule has been issued; official updates will come only from CMS",
-    "Lawful permanent residents without sufficient qualifying quarters, certain visa holders, and some refugees or asylees are most likely to be affected",
-    "Without premium-free Part A, you may owe $565 per month in 2026, or $311 with 30+ work credits",
-    "A coverage gap from an eligibility change could leave you responsible for the $1,736 Part A deductible and $283 Part B deductible plus $202.90 monthly premium"
+  "relatedSlugs": [
+    "medicare-changes-2027",
+    "2027-medicare-part-b-premium-estimate",
+    "medicare-part-d-premium-stabilization"
   ],
-  "image": "/images/generated/medicare-policy-shift-in-2027-impact-on-immigrant-d012461.png",
-  "relatedSlugs": [],
-  "sourceUrl": "https://www.medicarerights.org/medicare-watch/2026/09/17/thousands-of-immigrants-scheduled-to-lose-medicare-coverage-in-the-new-year",
-  "pipelineId": "disc-a124f1dbf241c45642605a45293c5d871a537890d561419f50942f23978e3f16",
+  "linkSuggestions": [
+    {
+      "phrase": "qualifying quarters",
+      "url": "/faqs/medicare-coverage-for-disabled-under-65/",
+      "title": "Medicare Coverage for People under 65 with a Disability",
+      "reason": "Linking to this page helps clarify how qualifying quarters impact eligibility, especially for those under 65."
+    },
+    {
+      "phrase": "coverage gap",
+      "url": "/faqs/medicare-maximum-out-of-pocket/",
+      "title": "Medicare Maximum Out-of-Pocket",
+      "reason": "This link explains the concept of coverage gaps and maximum out-of-pocket costs, which is crucial for understanding potential financial risks."
+    },
+    {
+      "phrase": "initial enrollment period",
+      "url": "/faqs/medicare-initial-enrollment-period/",
+      "title": "Medicare Initial Enrollment Period",
+      "reason": "This link provides essential information about the initial enrollment period, which is relevant for readers approaching eligibility changes."
+    },
+    {
+      "phrase": "licensed Medicare agent",
+      "url": "/faqs/choosing-a-medigap-policy/",
+      "title": "Choosing a Medigap Policy: A Step-by-Step Guide",
+      "reason": "This link can help readers understand how to work with licensed agents to navigate their Medicare options effectively."
+    }
+  ],
+  "acceptedLinks": [
+    {
+      "phrase": "lawful permanent residents",
+      "url": "/faqs/medicare-for-green-card-holders/",
+      "title": "Medicare for Green Card Holders (Medicare for Immigrants)"
+    },
+    {
+      "phrase": "waiting periods",
+      "url": "/faqs/medicare-special-enrollment-period/",
+      "title": "Medicare Special Enrollment Period"
+    },
+    {
+      "phrase": "Medicare Advantage or Part D plan",
+      "url": "/faqs/medicare-advantage-vs-medicare-supplement/",
+      "title": "Medicare Advantage vs. Medicare Supplement: Which Is Right for You?"
+    },
+    {
+      "phrase": "Social Security Administration",
+      "url": "/faqs/when-should-you-enroll-in-medicare-if-still-working/",
+      "title": "When Should You Enroll in Medicare if Still Working?"
+    }
+  ],
   "id": "pipeline-medicare-policy-shift-in-2027-impact-on-immigrant-eligibilit",
-  "updatedAt": "2026-09-21T13:15:22.371Z",
-  "createdAt": "2026-09-21T13:15:22.371Z"
+  "updatedAt": "2026-09-21T13:27:38.637Z",
+  "createdAt": "2026-09-21T13:27:38.637Z"
 }
