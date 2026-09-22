@@ -31,7 +31,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "10 min read",
     featured: false,
-    image: "/images/generated/medicare-policy-shift-in-2027-impact-on-immigrant-eligibilit.png",
+    image: "/images/generated/medicare-policy-shift-2027-immigrant-eligibility.png",
     imageAlt: "Older adult reviewing 2027 Medicare immigrant eligibility information",
     answerBlock: "Public Law 119-21 limits Medicare eligibility to U.S. citizens and nationals, lawful permanent residents, Cuban and Haitian entrants, and Compact of Free Association residents. The restriction reaches affected existing enrollees in January 2027. CMS has proposed ending their coverage on February 1, 2027, with notice and appeal procedures.",
     keyTakeaways: [
