@@ -16,7 +16,7 @@ export const blogArticles: BlogArticleData[] = [
     slug: "medicare-policy-shift-2027-immigrant-eligibility",
     seo: {
       focusKeyword: "Medicare eligibility for immigrants 2027",
-      title: "2027 Medicare Eligibility Changes for New Immigrants",
+      title: "Medicare Eligibility for Immigrants 2027: What to Know",
       description: "Public Law 119-21 changes Medicare eligibility for immigrants in 2027. Learn who remains protected, who may lose coverage, and the important dates to know.",
       canonical: "https://www.medicarefaq.com/blog/medicare-policy-shift-2027-immigrant-eligibility/",
       ogImage: "/images/generated/medicare-policy-shift-in-2027-impact-on-immigrant-eligibilit.png",
