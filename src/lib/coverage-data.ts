@@ -32459,208 +32459,349 @@ export const coverageArticles: CoverageArticleData[] = [
   },
 
 {
-    slug: "medicare-prior-authorization",
-    seo: {
-      title: "Medicare Prior Authorization: What it is and How it Works",
-      description: "Learn what Medicare prior authorization is, which plans require it, how to request it, and what to do if it's denied.",
-      canonical: "https://www.medicarefaq.com/faqs/medicare-prior-authorization/",
-      ogImage: "/images/medicarefaq-cover.jpg",
-    },
-    title: "Medicare Prior Authorization",
-    subtitle: "Prior authorization is a requirement from your insurance plan that your doctor get approval before providing certain services, procedures, or medications. Understanding how it works can help you avoid unexpected coverage denials.",
-    category: "Medicare Coverage",
-    dateUpdated: "April 30, 2025",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
-    },
-    readTime: "5 min read",
-    quickAnswer: {
-      text: "Prior authorization (PA) is required by Medicare Advantage and Part D plans before approving certain services or drugs. Original Medicare rarely requires PA. If denied, you have the right to appeal within 60 days.",
-      badges: [
-        { plan: "Original Medicare", status: "partial" },
-        { plan: "Medicare Advantage", status: "covered" },
-        { plan: "Part D", status: "partial" },
-        { plan: "Medigap", status: "not-covered" }],
-    },
-    comparisonTable: [
-      { planType: "Original Medicare", coverage: "Rarely Required", icon: "shield", notes: "PA required for only a few services (e.g., some home health)" },
-      { planType: "Medicare Advantage", coverage: "Commonly Required", icon: "heart", notes: "Plans set their own PA requirements for specialists, surgeries, imaging" },
-      { planType: "Part D", coverage: "For Some Drugs", icon: "filetext", notes: "Required for certain high-cost or specialty drugs on formulary" },
-      { planType: "Medigap", coverage: "Not Applicable", icon: "users", notes: "Medigap supplements Original Medicare; PA rules follow Original Medicare" }],
-    planBreakdowns: [
-      {
-        planName: "Original Medicare (Part a & B)",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Rarely Required",
-        coverageType: "partial",
-        paragraphs: [
-          "[Original Medicare](/faqs/original-medicare-vs-medicare-advantage) does not require prior authorization for most services. Your doctor can generally order tests, referrals, and procedures without advance approval from Medicare.",
-          "A small number of services - such as certain home health agency services and some outpatient therapy - may require documentation of medical necessity, but this is not the same as a formal prior authorization process."],
-        whatItCovers: [
-          "Most Part B services without advance approval",
-          "Hospital admissions (Part A) without pre-approval",
-          "Physician referrals without PA requirement"],
-        whatItDoesntCover: [
-          "Formal PA process does not apply to most Original Medicare services",
-          "Some home health services require medical necessity documentation"],
-      },
-      {
-        planName: "Medicare Advantage (Part C)",
-        icon: "heart",
-        iconColor: "#059669",
-        coverageLabel: "Commonly Required",
-        coverageType: "covered",
-        paragraphs: [
-          "[Medicare Advantage plans](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans) are required to cover everything Original Medicare covers, but they can impose prior authorization requirements for many services. Common PA requirements include specialist visits, inpatient hospital stays, skilled nursing facility care, imaging (MRI, CT scans), and certain surgeries.",
-          "The CMS 2024 Prior Authorization Rule requires MA plans to make PA decisions within 72 hours for urgent requests and 7 calendar days for standard requests. Plans must also provide a specific reason for any denial."],
-        whatItCovers: [
-          "Specialist referrals (with PA approval)",
-          "Inpatient hospital stays (with PA approval)",
-          "Imaging and diagnostic tests (with PA approval)",
-          "Surgeries and procedures (with PA approval)"],
-        whatItDoesntCover: [
-          "Emergency services - PA cannot be required for emergencies",
-          "Urgently needed care while temporarily outside the plan area"],
-      },
-      {
-        planName: "Medicare Part D",
-        icon: "filetext",
-        iconColor: "#D97706",
-        coverageLabel: "For Some Drugs",
-        coverageType: "partial",
-        paragraphs: [
-          "[Part D plans](/faqs/medicare-part-d-explained) use prior authorization for certain drugs on their formulary - typically high-cost, specialty, or brand-name medications. Your doctor must submit clinical documentation showing the drug is medically necessary for your condition.",
-          "Step therapy is a related requirement where you must try a lower-cost drug first before the plan will approve a more expensive alternative. If the first-line drug fails or is contraindicated, your doctor can request a PA exception."],
-        whatItCovers: [
-          "Formulary drugs after PA approval",
-          "Specialty drugs with documented medical necessity",
-          "Step therapy exceptions when lower-cost drugs fail"],
-        whatItDoesntCover: [
-          "Off-formulary drugs (require a formulary exception, not just PA)",
-          "Drugs not covered by Part D (e.g., weight loss drugs, vitamins)"],
-      },
-      {
-        planName: "How to Request Prior Authorization",
-        icon: "users",
-        iconColor: "#7C3AED",
-        coverageLabel: "Action Required",
-        coverageType: "partial",
-        paragraphs: [
-          "Your doctor or specialist typically submits the PA request on your behalf. They will provide clinical notes, diagnosis codes, and supporting documentation to your plan. You can also call your plan's member services line to check the status of a pending PA.",
-          "If your PA is denied, you have the right to appeal. For Medicare Advantage, you can request a reconsideration from the plan, and then escalate to an Independent Review Entity (IRE) if still denied. Time limits apply: standard appeals must be filed within 60 days of the denial notice."],
-        whatItCovers: [
-          "Doctor-submitted PA requests on your behalf",
-          "Expedited PA for urgent medical situations (72-hour decision)",
-          "Right to appeal any PA denial within 60 days"],
-        whatItDoesntCover: [
-          "Retroactive PA for services already received (generally not allowed)",
-          "PA approval does not guarantee payment if other coverage rules apply"],
-      }],
-    costTable: {
-      title: "Prior Authorization at a Glance",
-      headers: ["Plan Type", "PA Required?", "Decision Timeline", "Appeal Right", "Emergency Exception"],
-      rows: [
-        { "Plan Type": "Original Medicare", "PA Required?": "Rarely", "Decision Timeline": "N/A", "Appeal Right": "Yes", "Emergency Exception": "Yes" },
-        { "Plan Type": "Medicare Advantage", "PA Required?": "Yes - many services", "Decision Timeline": "72 hrs (urgent) / 7 days (standard)", "Appeal Right": "Yes - 60 days", "Emergency Exception": "Yes - always exempt" },
-        { "Plan Type": "Part D", "PA Required?": "Yes - some drugs", "Decision Timeline": "24 hrs (urgent) / 72 hrs (standard)", "Appeal Right": "Yes", "Emergency Exception": "Emergency supply rules apply" },
-        { "Plan Type": "Medigap", "PA Required?": "No", "Decision Timeline": "N/A", "Appeal Right": "N/A", "Emergency Exception": "N/A" }],
-      footnote: "Timelines based on CMS 2024 Prior Authorization Rule requirements for Medicare Advantage plans.",
-    },
-    exceptionsSection: {
-      title: "Important Exceptions and Protections",
-      items: [
-        {
-          title: "Emergency Care is Always Exempt",
-          text: "Medicare Advantage plans cannot require prior authorization for emergency medical care. If you have a medical emergency, go to the nearest emergency room - your plan must cover it regardless of PA status.",
-          highlight: "Emergency services are always covered without prior authorization under both Original Medicare and Medicare Advantage.",
-        },
-        {
-          title: "2024 CMS Prior Authorization Rule",
-          text: "CMS issued a final rule in 2024 requiring Medicare Advantage plans to streamline PA processes, provide specific denial reasons, and implement electronic PA systems by 2026. Plans must also honor PA approvals for the duration of a course of treatment.",
-          highlight: "MA plans must now provide a specific clinical reason for every PA denial - vague denials are no longer permitted.",
-        },
-        {
-          title: "Continuity of Care Protections",
-          text: "If you switch Medicare Advantage plans mid-year, your new plan must honor prior authorizations from your old plan for up to 90 days to ensure continuity of care.",
-          highlight: "You have 90 days of continuity of care protection when switching MA plans.",
-        }],
-    },
-    legislativeUpdate: {
-      title: "Legislative Update",
-      items: [
-        {
-          title: "CMS 2024 Prior Authorization Rule",
-          status: "Passed",
-          description: "CMS finalized rules requiring Medicare Advantage plans to implement electronic prior authorization, provide specific denial reasons, and meet stricter decision timelines. Electronic PA systems required by January 1, 2026.",
-        },
-        {
-          title: "GOLD Card Act",
-          status: "Proposed",
-          description: "Would exempt physicians who have a track record of PA approvals from having to request PA for Medicare Advantage patients. Introduced in multiple sessions of Congress but not yet passed.",
-        },
-        {
-          title: "Improving Seniors' Timely Access to Care Act",
-          status: "Passed",
-          description: "Signed into law in 2022, this act codified many of the electronic PA and transparency requirements for Medicare Advantage plans.",
-        }],
-    },
-    alternativesSection: {
-      title: "What to do if Prior Authorization is Denied",
-      paragraphs: [
-        "A PA denial is not the end of the road. You have clear rights under Medicare to appeal any coverage decision.",
-        "Work with your doctor to submit a strong appeal with clinical documentation. Many PA denials are overturned on appeal, especially when supported by medical records and a physician's letter of medical necessity."],
-      checklist: {
-        title: "PA Denial Action Steps",
-        type: "search",
-        items: [
-          "Request the specific reason for the denial in writing",
-          "Ask your doctor to submit a letter of medical necessity",
-          "File a formal appeal within 60 days of the denial",
-          "Request an expedited appeal if your health is at risk (72-hour decision)",
-          "Escalate to an Independent Review Entity (IRE) if plan upholds denial",
-          "Contact your State Health Insurance Assistance Program (SHIP) for free help",
-          "File a complaint with CMS if the plan violates PA rules"],
-      },
-    },
-    faqs: [
-      { question: "Does Original Medicare Require Prior Authorization?", answer: "Original Medicare rarely requires prior authorization. Most services are covered as long as they are medically necessary and ordered by a Medicare-enrolled provider." },
-      { question: "How Long Does Prior Authorization Take?", answer: "For Medicare Advantage, standard PA decisions must be made within 7 calendar days. Urgent requests must be decided within 72 hours." },
-      { question: "What Happens if I Get a Service without Prior Authorization?", answer: "If your MA plan required PA and you didn't get it, the plan may deny the claim. You can still appeal, but it's harder to win retroactively. Always check PA requirements before scheduled procedures." },
-      { question: "Can I Appeal a Prior Authorization Denial?", answer: "Yes. You have the right to appeal any PA denial within 60 days. Your doctor can help by submitting clinical documentation supporting medical necessity." },
-      { question: "Does Medigap Require Prior Authorization?", answer: "No. Medigap (Medicare Supplement) plans do not require prior authorization. They follow Original Medicare's coverage rules, which rarely require PA." }],
-    quickReference: [
-      { icon: "alert", text: "<strong>Medicare Advantage</strong> commonly requires PA for specialists, imaging, and surgeries" },
-      { icon: "check", text: "<strong>Emergency care</strong> is always exempt from prior authorization" },
-      { icon: "info", text: "PA denials can be appealed within <strong>60 days</strong>" },
-      { icon: "dollar", text: "CMS 2024 rule requires electronic PA and specific denial reasons" },
-      { icon: "x", text: "<strong>Original Medicare</strong> rarely requires prior authorization" }],
-    relatedTopics: [
-      { title: "Medicare Advantage Plans", description: "Compare Medicare Advantage plan types and how they manage coverage.", slug: "original-medicare-vs-medicare-advantage" },
-      { title: "Medicare Appeals Process", description: "Learn how to appeal a Medicare coverage or payment denial.", slug: "medicare-appeals-process" },
-      { title: "Advance Beneficiary Notice", description: "Understand when providers issue ABNs and what they mean for your costs.", slug: "advance-beneficiary-notice" },
-      { title: "What Does Medically Necessary Mean?", description: "Learn how Medicare defines medical necessity and how it affects coverage.", slug: "what-does-medically-necessary-mean" }],
-    sidebarRelatedLinks: [
-      "Medicare Advantage Plans",
-      "Medicare Appeals Process",
-      "Advance Beneficiary Notice",
-      "What Does Medically Necessary Mean?"],
-    ctaBanner: {
-      title: "Questions about Prior Authorization?",
-      text: "Our licensed agents can help you understand your plan's PA requirements and navigate coverage decisions.",
-    },
-    relatedSlugs: ["advance-beneficiary-notice", "what-does-medically-necessary-mean", "medicare-coverage-for-physical-therapy", "scope-of-appointment"],
+  slug: "medicare-prior-authorization",
+  seo: {
+    title: "Medicare Prior Authorization: What it is and How it Works",
+    description: "Confused about Medicare prior authorization? See which plans require it, how the approval process works, and your appeal rights if you're denied.",
+    canonical: "https://www.medicarefaq.com/faqs/medicare-prior-authorization/",
+    ogImage: "/images/medicarefaq-cover.jpg",
   },
+  title: "Medicare Prior Authorization",
+  subtitle: "Prior authorization is a requirement from your insurance plan that your doctor get approval before providing certain services, procedures, or medications. Understanding how it works can help you avoid unexpected coverage denials.",
+  category: "Medicare Coverage",
+  dateUpdated: "April 30, 2025",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
+  },
+  readTime: "5 min read",
+  quickAnswer: {
+    text: "Prior authorization (PA) means your doctor must get plan approval before certain services, procedures, or drugs are covered. Medicare Advantage and Part D plans commonly require PA, while Original Medicare rarely does. If your request is denied, you have the right to file an appeal.",
+    badges: [
+      {
+        plan: "Original Medicare",
+        status: "partial",
+      },
+      {
+        plan: "Medicare Advantage",
+        status: "covered",
+      },
+      {
+        plan: "Part D",
+        status: "partial",
+      },
+      {
+        plan: "Medigap",
+        status: "not-covered",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Original Medicare",
+      coverage: "Rarely Required",
+      icon: "shield",
+      notes: "PA required for only a few services (e.g., some home health)",
+    },
+    {
+      planType: "Medicare Advantage",
+      coverage: "Commonly Required",
+      icon: "heart",
+      notes: "Plans set their own PA requirements for specialists, surgeries, imaging",
+    },
+    {
+      planType: "Part D",
+      coverage: "For Some Drugs",
+      icon: "filetext",
+      notes: "Required for certain high-cost or specialty drugs on formulary",
+    },
+    {
+      planType: "Medigap",
+      coverage: "Not Applicable",
+      icon: "users",
+      notes: "Medigap supplements Original Medicare; PA rules follow Original Medicare",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "Original Medicare (Part a & B)",
+      icon: "shield",
+      iconColor: "#1B2A4A",
+      coverageLabel: "Rarely Required",
+      coverageType: "partial",
+      paragraphs: [
+      "[Original Medicare](/faqs/original-medicare-vs-medicare-advantage) does not require prior authorization for most services. Your doctor can generally order tests, referrals, and procedures without advance approval from Medicare.",
+      "A small number of services - such as certain home health agency services and some outpatient therapy - may require documentation of medical necessity, but this is not the same as a formal prior authorization process.",
+    ],
+      whatItCovers: [
+      "Most Part B services without advance approval",
+      "Hospital admissions (Part A) without pre-approval",
+      "Physician referrals without PA requirement",
+    ],
+      whatItDoesntCover: [
+      "Formal PA process does not apply to most Original Medicare services",
+      "Some home health services require medical necessity documentation",
+    ],
+    },
+    {
+      planName: "Medicare Advantage (Part C)",
+      icon: "heart",
+      iconColor: "#059669",
+      coverageLabel: "Commonly Required",
+      coverageType: "covered",
+      paragraphs: [
+      "[Medicare Advantage plans](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans) are required to cover everything Original Medicare covers, but they can impose prior authorization requirements for many services. Common PA requirements include specialist visits, inpatient hospital stays, skilled nursing facility care, imaging (MRI, CT scans), and certain surgeries.",
+      "The CMS 2024 Prior Authorization Rule requires MA plans to make PA decisions within 72 hours for urgent requests and 7 calendar days for standard requests. Plans must also provide a specific reason for any denial.",
+    ],
+      whatItCovers: [
+      "Specialist referrals (with PA approval)",
+      "Inpatient hospital stays (with PA approval)",
+      "Imaging and diagnostic tests (with PA approval)",
+      "Surgeries and procedures (with PA approval)",
+    ],
+      whatItDoesntCover: [
+      "Emergency services - PA cannot be required for emergencies",
+      "Urgently needed care while temporarily outside the plan area",
+    ],
+    },
+    {
+      planName: "Medicare Part D",
+      icon: "filetext",
+      iconColor: "#D97706",
+      coverageLabel: "For Some Drugs",
+      coverageType: "partial",
+      paragraphs: [
+      "[Part D plans](/faqs/medicare-part-d-explained) use prior authorization for certain drugs on their formulary - typically high-cost, specialty, or brand-name medications. Your doctor must submit clinical documentation showing the drug is medically necessary for your condition.",
+      "Step therapy is a related requirement where you must try a lower-cost drug first before the plan will approve a more expensive alternative. If the first-line drug fails or is contraindicated, your doctor can request a PA exception.",
+    ],
+      whatItCovers: [
+      "Formulary drugs after PA approval",
+      "Specialty drugs with documented medical necessity",
+      "Step therapy exceptions when lower-cost drugs fail",
+    ],
+      whatItDoesntCover: [
+      "Off-formulary drugs (require a formulary exception, not just PA)",
+      "Drugs not covered by Part D (e.g., weight loss drugs, vitamins)",
+    ],
+    },
+    {
+      planName: "How to Request Prior Authorization",
+      icon: "users",
+      iconColor: "#7C3AED",
+      coverageLabel: "Action Required",
+      coverageType: "partial",
+      paragraphs: [
+      "Your doctor or specialist typically submits the PA request on your behalf. They will provide clinical notes, diagnosis codes, and supporting documentation to your plan. You can also call your plan's member services line to check the status of a pending PA.",
+      "If your PA is denied, you have the right to appeal. For Medicare Advantage, you can request a reconsideration from the plan, and then escalate to an Independent Review Entity (IRE) if still denied. Time limits apply: standard appeals must be filed within 60 days of the denial notice.",
+    ],
+      whatItCovers: [
+      "Doctor-submitted PA requests on your behalf",
+      "Expedited PA for urgent medical situations (72-hour decision)",
+      "Right to appeal any PA denial within 60 days",
+    ],
+      whatItDoesntCover: [
+      "Retroactive PA for services already received (generally not allowed)",
+      "PA approval does not guarantee payment if other coverage rules apply",
+    ],
+    },
+  ],
+  costTable: {
+    title: "Prior Authorization at a Glance",
+    headers: [
+    "Plan Type",
+    "PA Required?",
+    "Decision Timeline",
+    "Appeal Right",
+    "Emergency Exception",
+  ],
+    rows: [
+      {
+        "Plan Type": "Original Medicare",
+        "PA Required?": "Rarely",
+        "Decision Timeline": "N/A",
+        "Appeal Right": "Yes",
+        "Emergency Exception": "Yes",
+      },
+      {
+        "Plan Type": "Medicare Advantage",
+        "PA Required?": "Yes - many services",
+        "Decision Timeline": "72 hrs (urgent) / 7 days (standard)",
+        "Appeal Right": "Yes - 60 days",
+        "Emergency Exception": "Yes - always exempt",
+      },
+      {
+        "Plan Type": "Part D",
+        "PA Required?": "Yes - some drugs",
+        "Decision Timeline": "24 hrs (urgent) / 72 hrs (standard)",
+        "Appeal Right": "Yes",
+        "Emergency Exception": "Emergency supply rules apply",
+      },
+      {
+        "Plan Type": "Medigap",
+        "PA Required?": "No",
+        "Decision Timeline": "N/A",
+        "Appeal Right": "N/A",
+        "Emergency Exception": "N/A",
+      },
+    ],
+    footnote: "Timelines based on CMS 2024 Prior Authorization Rule requirements for Medicare Advantage plans.",
+  },
+  exceptionsSection: {
+    title: "Important Exceptions and Protections",
+    items: [
+      {
+        title: "Emergency Care is Always Exempt",
+        text: "Medicare Advantage plans cannot require prior authorization for emergency medical care. If you have a medical emergency, go to the nearest emergency room - your plan must cover it regardless of PA status.",
+        highlight: "Emergency services are always covered without prior authorization under both Original Medicare and Medicare Advantage.",
+      },
+      {
+        title: "2024 CMS Prior Authorization Rule",
+        text: "CMS issued a final rule in 2024 requiring Medicare Advantage plans to streamline PA processes, provide specific denial reasons, and implement electronic PA systems by 2026. Plans must also honor PA approvals for the duration of a course of treatment.",
+        highlight: "MA plans must now provide a specific clinical reason for every PA denial - vague denials are no longer permitted.",
+      },
+      {
+        title: "Continuity of Care Protections",
+        text: "If you switch Medicare Advantage plans mid-year, your new plan must honor prior authorizations from your old plan for up to 90 days to ensure continuity of care.",
+        highlight: "You have 90 days of continuity of care protection when switching MA plans.",
+      },
+    ],
+  },
+  legislativeUpdate: {
+    title: "Legislative Update",
+    items: [
+      {
+        title: "CMS 2024 Prior Authorization Rule",
+        status: "Passed",
+        description: "CMS finalized rules requiring Medicare Advantage plans to implement electronic prior authorization, provide specific denial reasons, and meet stricter decision timelines. Electronic PA systems required by January 1, 2026.",
+      },
+      {
+        title: "GOLD Card Act",
+        status: "Proposed",
+        description: "Would exempt physicians who have a track record of PA approvals from having to request PA for Medicare Advantage patients. Introduced in multiple sessions of Congress but not yet passed.",
+      },
+      {
+        title: "Improving Seniors' Timely Access to Care Act",
+        status: "Passed",
+        description: "Signed into law in 2022, this act codified many of the electronic PA and transparency requirements for Medicare Advantage plans.",
+      },
+    ],
+  },
+  alternativesSection: {
+    title: "What to do if Prior Authorization is Denied",
+    paragraphs: [
+    "A PA denial is not the end of the road. You have clear rights under Medicare to appeal any coverage decision.",
+    "Work with your doctor to submit a strong appeal with clinical documentation. Many PA denials are overturned on appeal, especially when supported by medical records and a physician's letter of medical necessity.",
+  ],
+    checklist: {
+    title: "PA Denial Action Steps",
+    items: [
+    "Request the specific reason for the denial in writing",
+    "Ask your doctor to submit a letter of medical necessity",
+    "File a formal appeal within 60 days of the denial",
+    "Request an expedited appeal if your health is at risk (72-hour decision)",
+    "Escalate to an Independent Review Entity (IRE) if plan upholds denial",
+    "Contact your State Health Insurance Assistance Program (SHIP) for free help",
+    "File a complaint with CMS if the plan violates PA rules",
+  ],
+    type: "search",
+  },
+  },
+  faqs: [
+    {
+      question: "Does Original Medicare Require Prior Authorization?",
+      answer: "Original Medicare rarely requires prior authorization. Most services are covered as long as they are medically necessary and ordered by a Medicare-enrolled provider.",
+    },
+    {
+      question: "How Long Does Prior Authorization Take?",
+      answer: "For Medicare Advantage, standard PA decisions must be made within 7 calendar days. Urgent requests must be decided within 72 hours.",
+    },
+    {
+      question: "What Happens if I Get a Service without Prior Authorization?",
+      answer: "If your MA plan required PA and you didn't get it, the plan may deny the claim. You can still appeal, but it's harder to win retroactively. Always check PA requirements before scheduled procedures.",
+    },
+    {
+      question: "Can I Appeal a Prior Authorization Denial?",
+      answer: "Yes. You have the right to appeal any PA denial within 60 days. Your doctor can help by submitting clinical documentation supporting medical necessity.",
+    },
+    {
+      question: "Does Medigap Require Prior Authorization?",
+      answer: "No. Medigap (Medicare Supplement) plans do not require prior authorization. They follow Original Medicare's coverage rules, which rarely require PA.",
+    },
+    {
+      question: "How Can I Check if My Service Needs Prior Authorization Before My Appointment?",
+      answer: "You can find out whether a service or drug needs prior authorization by checking your plan's formulary or coverage documents, calling your plan's member services number, or asking your doctor's office",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "alert",
+      text: "<strong>Medicare Advantage</strong> commonly requires PA for specialists, imaging, and surgeries",
+    },
+    {
+      icon: "check",
+      text: "<strong>Emergency care</strong> is always exempt from prior authorization",
+    },
+    {
+      icon: "info",
+      text: "PA denials can be appealed within <strong>60 days</strong>",
+    },
+    {
+      icon: "dollar",
+      text: "CMS 2024 rule requires electronic PA and specific denial reasons",
+    },
+    {
+      icon: "x",
+      text: "<strong>Original Medicare</strong> rarely requires prior authorization",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Medicare Advantage Plans",
+      description: "Compare Medicare Advantage plan types and how they manage coverage.",
+      slug: "original-medicare-vs-medicare-advantage",
+    },
+    {
+      title: "Medicare Appeals Process",
+      description: "Learn how to appeal a Medicare coverage or payment denial.",
+      slug: "medicare-appeals-process",
+    },
+    {
+      title: "Advance Beneficiary Notice",
+      description: "Understand when providers issue ABNs and what they mean for your costs.",
+      slug: "advance-beneficiary-notice",
+    },
+    {
+      title: "What Does Medically Necessary Mean?",
+      description: "Learn how Medicare defines medical necessity and how it affects coverage.",
+      slug: "what-does-medically-necessary-mean",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "Medicare Advantage Plans",
+    "Medicare Appeals Process",
+    "Advance Beneficiary Notice",
+    "What Does Medically Necessary Mean?",
+  ],
+  ctaBanner: {
+    title: "Questions about Prior Authorization?",
+    text: "Our licensed agents can help you understand your plan's PA requirements and navigate coverage decisions.",
+  },
+  relatedSlugs: [
+    "advance-beneficiary-notice",
+    "what-does-medically-necessary-mean",
+    "medicare-coverage-for-physical-therapy",
+    "scope-of-appointment",
+  ],
+},
   {
     slug: "medicaid-spend-down-program",
     seo: {
