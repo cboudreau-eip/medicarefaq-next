@@ -9,12 +9,13 @@ import type { BlogArticleData } from "./article-types";
 export const tampaAgentsArticle: BlogArticleData = {
   slug: "medicare-agents-tampa-fl",
   seo: {
+      focusKeyword: "",
     title: "Find a Medicare Agent in Tampa, FL (2026 Guide)",
     description: "Compare Medicare agents in Tampa. 58 Advantage plans, $0 premiums, and local brokers who know Hillsborough County networks.",
     canonical: "https://www.medicarefaq.com/blog/medicare-agents-tampa-fl/",
     ogImage: "/images/generated/medicare-agent-tampa-fl-featured.png",
   },
-  title: "Find a Medicare Agent in Tampa: Your 2026 Local Guide",
+  title: "Medicare Agents in Tampa, FL",
   excerpt:
     "Tampa residents have 58 Medicare Advantage plans to choose from in 2026, with 52 offering $0 premiums. A local agent who knows Hillsborough County networks can help you compare options and avoid costly mistakes.",
   category: "Medicare Enrollment",
