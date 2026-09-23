@@ -29201,258 +29201,371 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   /* ─── MANUFACTURERS COUPONS AND MEDICARE ─── */
   {
-    slug: "manufacturers-coupons-and-medicare",
-    seo: {
-      title: "Prescription Discount Cards and Coupons for Medicare Beneficiaries | MedicareFAQ",
-      description: "Can Medicare beneficiaries use GoodRx, manufacturer coupons, or prescription discount cards? Learn the rules, when to use them, and how to save on drug costs in 2026.",
-      canonical: "https://www.medicarefaq.com/faqs/manufacturers-coupons-and-medicare/",
-      ogImage: "/images/medicarefaq-cover.jpg",
-    },
-    title: "Prescription Discount Cards and Coupons for Medicare Beneficiaries",
-    subtitle: "Medicare beneficiaries can use GoodRx and other discount cards - but not at the same time as Medicare. Understanding when to use each option can lead to significant savings.",
-    category: "Medicare FAQ",
-    dateUpdated: "April 29, 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is the Compliance & Editorial Manager at MedicareFAQ.",
-    },
-    readTime: "5 min read",
-    quickAnswer: {
-      text: "Medicare beneficiaries CAN use prescription discount cards like GoodRx, RxSaver, and manufacturer coupons - but NOT at the same time as Medicare Part D. You must choose one or the other for each prescription fill. Using a discount card instead of Part D means that purchase does NOT count toward your Part D deductible or out-of-pocket maximum. In 2026, with the new $2,100 Part D out-of-pocket cap, it's often better to use Part D for expensive drugs and discount cards only for cheap generics not covered by your plan.",
-      badges: [
-        { plan: "Part D", status: "partial" },
-        { plan: "GoodRx", status: "covered" },
-        { plan: "Manufacturer Coupons", status: "partial" },
-        { plan: "Extra Help", status: "covered" }],
-    },
-    comparisonTable: [
-      {
-        planType: "Medicare Part D",
-        coverage: "Covers formulary drugs; counts toward deductible and OOP max",
-        icon: "shield-check",
-        notes: "$2,100 OOP cap in 2026; best for expensive brand-name drugs and high-cost medications",
-      },
-      {
-        planType: "GoodRx / Discount Cards",
-        coverage: "Negotiated discounts at pharmacies; no insurance required",
-        icon: "info",
-        notes: "Cannot be combined with Part D; purchase does NOT count toward deductible or OOP max; best for cheap generics",
-      },
-      {
-        planType: "Manufacturer Coupons (Copay Cards)",
-        coverage: "Manufacturer pays part of your drug cost",
-        icon: "info",
-        notes: "Cannot be used with Medicare Part D (federal anti-kickback statute); may be used instead of Part D",
-      },
-      {
-        planType: "Extra Help (LIS)",
-        coverage: "Federal subsidy reducing Part D costs for low-income beneficiaries",
-        icon: "shield-check",
-        notes: "Copays capped at $4.90 (generic) / $12.15 (brand) in 2026; better than most discount cards for eligible beneficiaries",
-      }],
-    planBreakdowns: [
-      {
-        planName: "Can Medicare Beneficiaries Use GoodRx?",
-        icon: "tag",
-        iconColor: "text-green-600",
-        coverageLabel: "GoodRx with Medicare",
-        coverageType: "partial",
-        paragraphs: [
-          "Yes - Medicare beneficiaries can use GoodRx and other prescription discount programs. However, you cannot use GoodRx and your Medicare Part D coverage for the same prescription at the same time.",
-          "When you use GoodRx, you are paying cash for your prescription using GoodRx's negotiated price. The transaction is not processed through Medicare at all."],
-        whatItCovers: [
-          "GoodRx can be used at most major pharmacies (CVS, Walgreens, Walmart, Kroger, etc.)",
-          "GoodRx discounts can be up to 80% off retail price for some generic drugs",
-          "You can use GoodRx for drugs not on your Part D formulary",
-          "You can use GoodRx when the GoodRx price is lower than your Part D copay",
-          "Free to use - no membership fee required for basic GoodRx discounts"],
-        whatItDoesntCover: [
-          "GoodRx purchases do NOT count toward your Part D deductible or out-of-pocket maximum",
-          "You must ask the pharmacist to use GoodRx instead of your Medicare card - they cannot process both",
-          "GoodRx Gold (paid membership) offers additional savings for some drugs"],
-        callout: {
-          type: "warning",
-          title: "GoodRx vs. Part D: The $2,000 Cap Tradeoff",
-          text: "In 2026, Part D has a $2,100 out-of-pocket cap. If you use GoodRx for expensive drugs, those costs don't count toward the cap. For high-cost brand-name drugs, using Part D is usually better so you reach the cap faster. Use GoodRx only for cheap generics where Part D copays are higher.",
-        },
-      },
-      {
-        planName: "Manufacturer Coupons and Copay Cards",
-        icon: "scissors",
-        iconColor: "text-blue-600",
-        coverageLabel: "Manufacturer Discount Programs",
-        coverageType: "partial",
-        paragraphs: [
-          "Pharmaceutical manufacturers often offer copay cards or coupons that reduce the cost of brand-name drugs. However, these programs have strict rules for Medicare beneficiaries."],
-        whatItCovers: [
-          "Manufacturer copay cards CAN be used if you pay cash (not using Part D) for the prescription",
-          "Some manufacturers offer patient assistance programs (PAPs) for low-income Medicare beneficiaries - these are separate from copay cards and may be used with Medicare",
-          "Medicare Drug Price Negotiation (IRA): 10 drugs have negotiated prices in 2026, reducing costs for Part D enrollees"],
-        whatItDoesntCover: [
-          "Manufacturer copay cards CANNOT be used with Medicare Part D - this violates the federal anti-kickback statute",
-          "Using a manufacturer coupon with Part D is illegal and can result in loss of Medicare benefits",
-          "Copay cards used instead of Part D do NOT count toward your deductible or OOP max"],
-        callout: {
-          type: "warning",
-          title: "Manufacturer Coupons ++ Part D == Illegal",
-          text: "Using a manufacturer copay card or coupon in combination with Medicare Part D violates the federal anti-kickback statute. You can use a coupon instead of Part D (paying cash), but never alongside it.",
-        },
-      },
-      {
-        planName: "When to Use a Discount Card vs. Part D",
-        icon: "git-compare",
-        iconColor: "text-teal-600",
-        coverageLabel: "Decision Framework",
-        coverageType: "partial",
-        paragraphs: [
-          "Choosing between a discount card and Part D depends on the drug cost, your plan's formulary, and how close you are to the $2,000 out-of-pocket cap."],
-        whatItCovers: [
-          "Use Part D when: The drug is expensive (brand-name, specialty); you want the cost to count toward the $2,000 OOP cap; the drug is on your formulary with a reasonable copay",
-          "Use GoodRx/discount card when: The drug is a cheap generic; it's not on your Part D formulary; the GoodRx price is lower than your Part D copay; you have already hit your $2,000 OOP cap",
-          "Use Extra Help (LIS) when: You qualify (income below ~$2,015/month); LIS copays ($4.90 generic / $12.15 brand) are lower than GoodRx prices",
-          "Use Patient Assistance Programs (PAPs) when: You are low-income and the manufacturer offers free or reduced-cost drugs directly"],
-        whatItDoesntCover: [],
-      },
-      {
-        planName: "Other Ways to Save on Prescriptions with Medicare",
-        icon: "dollar-sign",
-        iconColor: "text-purple-600",
-        coverageLabel: "Additional Savings Strategies",
-        coverageType: "covered",
-        paragraphs: [
-          "Beyond discount cards and coupons, Medicare beneficiaries have several other tools to reduce prescription drug costs."],
-        whatItCovers: [
-          "Extra Help (Low Income Subsidy): Caps copays at $4.90 (generic) / $12.15 (brand) in 2026 for eligible beneficiaries",
-          "Preferred pharmacy networks: Using your plan's preferred pharmacies can significantly reduce copays",
-          "Mail-order pharmacy: 90-day supplies through mail order are often cheaper than 30-day retail fills",
-          "Formulary tier exceptions: Ask your doctor to request a tier exception if a lower-tier alternative isn't appropriate",
-          "Medicare Drug Price Negotiation (IRA): 10 drugs have negotiated prices in 2026; more added each year",
-          "$35 insulin cap: Insulin is capped at $35/month for Part D enrollees in 2026"],
-        whatItDoesntCover: [],
-        callout: {
-          type: "tip",
-          title: "$35 Insulin Cap",
-          text: "Under the Inflation Reduction Act, insulin is capped at $35/month for Medicare Part D enrollees in 2026. If you use insulin, always use Part D rather than a discount card.",
-        },
-      }],
-    costTable: {
-      title: "Prescription Savings Options for Medicare Beneficiaries",
-      headers: ["Option", "Can Use with Medicare?", "Counts Toward OOP Cap?", "Best For"],
-      rows: [
-        { "Option": "Medicare Part D", "Can Use with Medicare?": "Yes (primary)", "Counts Toward OOP Cap?": "Yes ($2,100 cap in 2026)", "Best For": "Expensive brand-name and specialty drugs" },
-        { "Option": "GoodRx (instead of Part D)", "Can Use with Medicare?": "Yes (instead of Part D)", "Counts Toward OOP Cap?": "No", "Best For": "Cheap generics with high Part D copays" },
-        { "Option": "Manufacturer Copay Card (cash)", "Can Use with Medicare?": "Yes (instead of Part D only)", "Counts Toward OOP Cap?": "No", "Best For": "Brand-name drugs when paying cash" },
-        { "Option": "Manufacturer Copay Card (with Part D)", "Can Use with Medicare?": "No - illegal", "Counts Toward OOP Cap?": "N/A", "Best For": "Never - violates anti-kickback statute" },
-        { "Option": "Extra Help (LIS)", "Can Use with Medicare?": "Yes (with Part D)", "Counts Toward OOP Cap?": "Yes", "Best For": "Low-income beneficiaries (income ≤ ~$2,015/mo)" },
-        { "Option": "Patient Assistance Programs", "Can Use with Medicare?": "Yes (separate from Part D)", "Counts Toward OOP Cap?": "No", "Best For": "Very low-income; free drugs from manufacturer" }],
-      footnote: "Part D OOP cap: $2,100 in 2026. Extra Help copays: $4.90 generic / $12.15 brand in 2026. Insulin cap: $35/month.",
-    },
-    exceptionsSection: {
-      title: "Important Rules & Exceptions",
-      items: [
-        {
-          title: "The $2,000 Part D Cap Changes the Math",
-          text: "Starting in 2025, Part D has a $2,000 annual out-of-pocket cap. This makes using Part D more valuable for expensive drugs - once you hit the cap, Medicare pays 100%. Using GoodRx for expensive drugs means you never reach the cap and lose this protection.",
-          highlight: "Use Part D for expensive drugs to reach the $2,000 OOP cap faster.",
-        },
-        {
-          title: "Insulin is Always Better through Part D",
-          text: "Insulin is capped at $35/month for Part D enrollees under the Inflation Reduction Act. GoodRx prices for insulin are typically higher than $35. Always use Part D for insulin.",
-        },
-        {
-          title: "Negotiated Drug Prices (IRA)",
-          text: "The Inflation Reduction Act requires Medicare to negotiate prices for certain high-cost drugs. In 2026, 10 drugs have negotiated prices available through Part D. These negotiated prices are often lower than GoodRx prices for those specific drugs.",
-        },
-        {
-          title: "GoodRx Gold Membership",
-          text: "GoodRx Gold is a paid membership ($9.99/month individual, $19.99/month family) that offers lower prices than the free GoodRx card at some pharmacies. It may be worth it for beneficiaries who frequently use GoodRx for generics not covered by their Part D plan.",
-        }],
-    },
-    legislativeUpdate: {
-      title: "2026 Prescription Drug Cost Updates",
-      items: [
-        {
-          title: "Part D $2,000 Out-of-Pocket Cap (IRA)",
-          status: "Passed",
-          description: "The Inflation Reduction Act capped Part D out-of-pocket costs at $2,000/year starting in 2025. This makes using Part D more valuable for expensive drugs.",
-        },
-        {
-          title: "Medicare Drug Price Negotiation - 10 Drugs in 2026",
-          status: "Passed",
-          description: "CMS negotiated prices for 10 high-cost drugs take effect in 2026, including Eliquis, Jardiance, Xarelto, and others. Part D enrollees pay these lower negotiated prices.",
-        },
-        {
-          title: "$35 Insulin Cap Continues in 2026",
-          status: "Passed",
-          description: "The $35/month insulin cap for Part D enrollees continues in 2026 under the Inflation Reduction Act. Always use Part D for insulin rather than discount cards.",
-        }],
-    },
-    alternativesSection: {
-      title: "Prescription Savings Decision Checklist",
-      paragraphs: [
-        "Use this checklist to decide whether to use Part D or a discount card for each prescription."],
-      checklist: {
-        title: "Decision Steps",
-        items: [
-          "Check if the drug is on your Part D formulary and what tier it's on",
-          "Compare your Part D copay vs. the GoodRx price for the drug",
-          "For expensive brand-name drugs: use Part D to count toward the $2,000 OOP cap",
-          "For cheap generics with high copays: use GoodRx or another discount card",
-          "Never use a manufacturer copay card with your Part D plan - it's illegal",
-          "If you qualify for Extra Help: use Part D (LIS copays are usually lower than GoodRx)",
-          "For insulin: always use Part D ($35/month cap)",
-          "Apply for Extra Help at [SSA.gov](https://www.ssa.gov/) if your income is below ~$2,015/month"],
-        type: "tip",
-      },
-    },
-    faqs: [
-      {
-        question: "Can I Use GoodRx if I Have Medicare Part D?",
-        answer: "Yes, but not at the same time. You must choose either your Part D coverage or GoodRx for each fill. GoodRx purchases don't count toward your Part D deductible or $2,000 out-of-pocket cap.",
-      },
-      {
-        question: "Can I Use Manufacturer Coupons with Medicare?",
-        answer: "Not with Part D. Using manufacturer copay cards with Part D violates the federal anti-kickback statute. You can use a coupon instead of Part D (paying cash), but never alongside it.",
-      },
-      {
-        question: "When Should I Use GoodRx Instead of Part D?",
-        answer: "Use GoodRx for cheap generics where the GoodRx price is lower than your Part D copay, or for drugs not on your formulary. For expensive drugs, use Part D to count toward the $2,000 OOP cap.",
-      },
-      {
-        question: "Does GoodRx Count toward My Medicare Deductible?",
-        answer: "No. GoodRx purchases are not processed through Medicare and do not count toward your Part D deductible or out-of-pocket maximum.",
-      },
-      {
-        question: "What is the Cheapest Way to Get Prescriptions with Medicare?",
-        answer: "Apply for Extra Help if you qualify (income below ~$2,015/month). Otherwise, use Part D for expensive drugs (to hit the $2,000 cap) and GoodRx for cheap generics with high copays.",
-      }],
-    quickReference: [
-      { icon: "check", text: "GoodRx CAN be used with Medicare - but not at the same time as Part D" },
-      { icon: "alert", text: "Manufacturer copay cards CANNOT be used with Part D - it's illegal" },
-      { icon: "info", text: "GoodRx purchases don't count toward the $2,000 Part D OOP cap" },
-      { icon: "check", text: "Insulin is capped at $35/month through Part D - always use Part D for insulin" },
-      { icon: "info", text: "Extra Help caps copays at $4.90 (generic) / $12.15 (brand) for eligible beneficiaries" }],
-    relatedTopics: [
-      { title: "How to Save on Prescriptions", description: "All strategies for lowering drug costs.", slug: "how-can-seniors-save-on-prescription-drug-costs" },
-      { title: "Coverage Gap (Donut Hole)", description: "How the Part D coverage gap works.", slug: "coverage-gap-discount-program" },
-      { title: "Part D Formulary", description: "How drug formularies work.", slug: "part-d-formulary" },
-      { title: "Medicare and Prescription Drugs", description: "What Part D covers and what it doesn't.", slug: "medicare-and-prescription-drugs-whats-covered-and-whats-not" }],
-    sidebarRelatedLinks: ["Save on Prescriptions", "Coverage Gap", "Part D Formulary", "Prescription Drugs"],
-    ctaBanner: {
-      title: "Want to Lower Your Prescription Drug Costs?",
-      text: "Our licensed agents can help you find the right Part D plan and identify savings programs like Extra Help.",
-    },
-    relatedSlugs: ["how-can-seniors-save-on-prescription-drug-costs", "coverage-gap-discount-program", "part-d-formulary", "medicare-and-prescription-drugs-whats-covered-and-whats-not", "medicare-coverage-for-dermatology", "medicare-coverage-for-stroke-victims", "medicare-silversneakers-program"],
+  slug: "manufacturers-coupons-and-medicare",
+  seo: {
+    title: "Prescription Discount Cards for Medicare Beneficiaries",
+    description: "Can Medicare beneficiaries use GoodRx, manufacturer coupons, or prescription discount cards? Learn the rules, when to use them, and how to save on drug costs in 2026.",
+    canonical: "https://www.medicarefaq.com/faqs/manufacturers-coupons-and-medicare/",
+    ogImage: "/images/medicarefaq-cover.jpg",
   },
+  title: "Prescription Discount Cards and Coupons for Medicare Beneficiaries",
+  subtitle: "Medicare beneficiaries can use GoodRx and other discount cards - but not at the same time as Medicare. Understanding when to use each option can lead to significant savings.",
+  category: "Medicare FAQ",
+  dateUpdated: "April 29, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is the Compliance & Editorial Manager at MedicareFAQ.",
+  },
+  readTime: "5 min read",
+  quickAnswer: {
+    text: "Medicare beneficiaries CAN use prescription discount cards like GoodRx, RxSaver, and manufacturer coupons - but NOT at the same time as Medicare Part D. You must choose one or the other for each prescription fill. Using a discount card instead of Part D means that purchase does NOT count toward your Part D deductible or out-of-pocket maximum. In 2026, with the new $2,100 Part D out-of-pocket cap, it's often better to use Part D for expensive drugs and discount cards only for cheap generics not covered by your plan.",
+    badges: [
+      {
+        plan: "Part D",
+        status: "partial",
+      },
+      {
+        plan: "GoodRx",
+        status: "covered",
+      },
+      {
+        plan: "Manufacturer Coupons",
+        status: "partial",
+      },
+      {
+        plan: "Extra Help",
+        status: "covered",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Medicare Part D",
+      coverage: "Covers formulary drugs; counts toward deductible and OOP max",
+      icon: "shield-check",
+      notes: "$2,100 OOP cap in 2026; best for expensive brand-name drugs and high-cost medications",
+    },
+    {
+      planType: "GoodRx / Discount Cards",
+      coverage: "Negotiated discounts at pharmacies; no insurance required",
+      icon: "info",
+      notes: "Cannot be combined with Part D; purchase does NOT count toward deductible or OOP max; best for cheap generics",
+    },
+    {
+      planType: "Manufacturer Coupons (Copay Cards)",
+      coverage: "Manufacturer pays part of your drug cost",
+      icon: "info",
+      notes: "Cannot be used with Medicare Part D (federal anti-kickback statute); may be used instead of Part D",
+    },
+    {
+      planType: "Extra Help (LIS)",
+      coverage: "Federal subsidy reducing Part D costs for low-income beneficiaries",
+      icon: "shield-check",
+      notes: "Copays capped at $4.90 (generic) / $12.15 (brand) in 2026; better than most discount cards for eligible beneficiaries",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "Can Medicare Beneficiaries Use GoodRx?",
+      icon: "tag",
+      iconColor: "text-green-600",
+      coverageLabel: "GoodRx with Medicare",
+      coverageType: "partial",
+      paragraphs: [
+      "Yes - Medicare beneficiaries can use GoodRx and other prescription discount programs. However, you cannot use GoodRx and your Medicare Part D coverage for the same prescription at the same time.",
+      "When you use GoodRx, you are paying cash for your prescription using GoodRx's negotiated price. The transaction is not processed through Medicare at all.",
+    ],
+      whatItCovers: [
+      "GoodRx can be used at most major pharmacies (CVS, Walgreens, Walmart, Kroger, etc.)",
+      "GoodRx discounts can be up to 80% off retail price for some generic drugs",
+      "You can use GoodRx for drugs not on your Part D formulary",
+      "You can use GoodRx when the GoodRx price is lower than your Part D copay",
+      "Free to use - no membership fee required for basic GoodRx discounts",
+    ],
+      whatItDoesntCover: [
+      "GoodRx purchases do NOT count toward your Part D deductible or out-of-pocket maximum",
+      "You must ask the pharmacist to use GoodRx instead of your Medicare card - they cannot process both",
+      "GoodRx Gold (paid membership) offers additional savings for some drugs",
+    ],
+      callout: {
+      type: "warning",
+      title: "GoodRx vs. Part D: The $2,000 Cap Tradeoff",
+      text: "In 2026, Part D has a $2,100 out-of-pocket cap. If you use GoodRx for expensive drugs, those costs don't count toward the cap. For high-cost brand-name drugs, using Part D is usually better so you reach the cap faster. Use GoodRx only for cheap generics where Part D copays are higher.",
+    },
+    },
+    {
+      planName: "Manufacturer Coupons and Copay Cards",
+      icon: "scissors",
+      iconColor: "text-blue-600",
+      coverageLabel: "Manufacturer Discount Programs",
+      coverageType: "partial",
+      paragraphs: [
+      "Pharmaceutical manufacturers often offer copay cards or coupons that reduce the cost of brand-name drugs. However, these programs have strict rules for Medicare beneficiaries.",
+    ],
+      whatItCovers: [
+      "Manufacturer copay cards CAN be used if you pay cash (not using Part D) for the prescription",
+      "Some manufacturers offer patient assistance programs (PAPs) for low-income Medicare beneficiaries - these are separate from copay cards and may be used with Medicare",
+      "Medicare Drug Price Negotiation (IRA): 10 drugs have negotiated prices in 2026, reducing costs for Part D enrollees",
+    ],
+      whatItDoesntCover: [
+      "Manufacturer copay cards CANNOT be used with Medicare Part D - this violates the federal anti-kickback statute",
+      "Using a manufacturer coupon with Part D is illegal and can result in loss of Medicare benefits",
+      "Copay cards used instead of Part D do NOT count toward your deductible or OOP max",
+    ],
+      callout: {
+      type: "warning",
+      title: "Manufacturer Coupons ++ Part D == Illegal",
+      text: "Using a manufacturer copay card or coupon in combination with Medicare Part D violates the federal anti-kickback statute. You can use a coupon instead of Part D (paying cash), but never alongside it.",
+    },
+    },
+    {
+      planName: "When to Use a Discount Card vs. Part D",
+      icon: "git-compare",
+      iconColor: "text-teal-600",
+      coverageLabel: "Decision Framework",
+      coverageType: "partial",
+      paragraphs: [
+      "Choosing between a discount card and Part D depends on the drug cost, your plan's formulary, and how close you are to the $2,000 out-of-pocket cap.",
+    ],
+      whatItCovers: [
+      "Use Part D when: The drug is expensive (brand-name, specialty); you want the cost to count toward the $2,000 OOP cap; the drug is on your formulary with a reasonable copay",
+      "Use GoodRx/discount card when: The drug is a cheap generic; it's not on your Part D formulary; the GoodRx price is lower than your Part D copay; you have already hit your $2,000 OOP cap",
+      "Use Extra Help (LIS) when: You qualify (income below ~$2,015/month); LIS copays ($4.90 generic / $12.15 brand) are lower than GoodRx prices",
+      "Use Patient Assistance Programs (PAPs) when: You are low-income and the manufacturer offers free or reduced-cost drugs directly",
+    ],
+      whatItDoesntCover: [],
+    },
+    {
+      planName: "Other Ways to Save on Prescriptions with Medicare",
+      icon: "dollar-sign",
+      iconColor: "text-purple-600",
+      coverageLabel: "Additional Savings Strategies",
+      coverageType: "covered",
+      paragraphs: [
+      "Beyond discount cards and coupons, Medicare beneficiaries have several other tools to reduce prescription drug costs.",
+    ],
+      whatItCovers: [
+      "Extra Help (Low Income Subsidy): Caps copays at $4.90 (generic) / $12.15 (brand) in 2026 for eligible beneficiaries",
+      "Preferred pharmacy networks: Using your plan's preferred pharmacies can significantly reduce copays",
+      "Mail-order pharmacy: 90-day supplies through mail order are often cheaper than 30-day retail fills",
+      "Formulary tier exceptions: Ask your doctor to request a tier exception if a lower-tier alternative isn't appropriate",
+      "Medicare Drug Price Negotiation (IRA): 10 drugs have negotiated prices in 2026; more added each year",
+      "$35 insulin cap: Insulin is capped at $35/month for Part D enrollees in 2026",
+    ],
+      whatItDoesntCover: [],
+      callout: {
+      type: "tip",
+      title: "$35 Insulin Cap",
+      text: "Under the Inflation Reduction Act, insulin is capped at $35/month for Medicare Part D enrollees in 2026. If you use insulin, always use Part D rather than a discount card.",
+    },
+    },
+  ],
+  costTable: {
+    title: "Prescription Savings Options for Medicare Beneficiaries",
+    headers: [
+    "Option",
+    "Can Use with Medicare?",
+    "Counts Toward OOP Cap?",
+    "Best For",
+  ],
+    rows: [
+      {
+        "Option": "Medicare Part D",
+        "Can Use with Medicare?": "Yes (primary)",
+        "Counts Toward OOP Cap?": "Yes ($2,100 cap in 2026)",
+        "Best For": "Expensive brand-name and specialty drugs",
+      },
+      {
+        "Option": "GoodRx (instead of Part D)",
+        "Can Use with Medicare?": "Yes (instead of Part D)",
+        "Counts Toward OOP Cap?": "No",
+        "Best For": "Cheap generics with high Part D copays",
+      },
+      {
+        "Option": "Manufacturer Copay Card (cash)",
+        "Can Use with Medicare?": "Yes (instead of Part D only)",
+        "Counts Toward OOP Cap?": "No",
+        "Best For": "Brand-name drugs when paying cash",
+      },
+      {
+        "Option": "Manufacturer Copay Card (with Part D)",
+        "Can Use with Medicare?": "No - illegal",
+        "Counts Toward OOP Cap?": "N/A",
+        "Best For": "Never - violates anti-kickback statute",
+      },
+      {
+        "Option": "Extra Help (LIS)",
+        "Can Use with Medicare?": "Yes (with Part D)",
+        "Counts Toward OOP Cap?": "Yes",
+        "Best For": "Low-income beneficiaries (income ≤ ~$2,015/mo)",
+      },
+      {
+        "Option": "Patient Assistance Programs",
+        "Can Use with Medicare?": "Yes (separate from Part D)",
+        "Counts Toward OOP Cap?": "No",
+        "Best For": "Very low-income; free drugs from manufacturer",
+      },
+    ],
+    footnote: "Part D OOP cap: $2,100 in 2026. Extra Help copays: $4.90 generic / $12.15 brand in 2026. Insulin cap: $35/month.",
+  },
+  exceptionsSection: {
+    title: "Important Rules & Exceptions",
+    items: [
+      {
+        title: "The $2,000 Part D Cap Changes the Math",
+        text: "Starting in 2025, Part D has a $2,000 annual out-of-pocket cap. This makes using Part D more valuable for expensive drugs - once you hit the cap, Medicare pays 100%. Using GoodRx for expensive drugs means you never reach the cap and lose this protection.",
+        highlight: "Use Part D for expensive drugs to reach the $2,000 OOP cap faster.",
+      },
+      {
+        title: "Insulin is Always Better through Part D",
+        text: "Insulin is capped at $35/month for Part D enrollees under the Inflation Reduction Act. GoodRx prices for insulin are typically higher than $35. Always use Part D for insulin.",
+      },
+      {
+        title: "Negotiated Drug Prices (IRA)",
+        text: "The Inflation Reduction Act requires Medicare to negotiate prices for certain high-cost drugs. In 2026, 10 drugs have negotiated prices available through Part D. These negotiated prices are often lower than GoodRx prices for those specific drugs.",
+      },
+      {
+        title: "GoodRx Gold Membership",
+        text: "GoodRx Gold is a paid membership ($9.99/month individual, $19.99/month family) that offers lower prices than the free GoodRx card at some pharmacies. It may be worth it for beneficiaries who frequently use GoodRx for generics not covered by their Part D plan.",
+      },
+    ],
+  },
+  legislativeUpdate: {
+    title: "2026 Prescription Drug Cost Updates",
+    items: [
+      {
+        title: "Part D $2,000 Out-of-Pocket Cap (IRA)",
+        status: "Passed",
+        description: "The Inflation Reduction Act capped Part D out-of-pocket costs at $2,000/year starting in 2025. This makes using Part D more valuable for expensive drugs.",
+      },
+      {
+        title: "Medicare Drug Price Negotiation - 10 Drugs in 2026",
+        status: "Passed",
+        description: "CMS negotiated prices for 10 high-cost drugs take effect in 2026, including Eliquis, Jardiance, Xarelto, and others. Part D enrollees pay these lower negotiated prices.",
+      },
+      {
+        title: "$35 Insulin Cap Continues in 2026",
+        status: "Passed",
+        description: "The $35/month insulin cap for Part D enrollees continues in 2026 under the Inflation Reduction Act. Always use Part D for insulin rather than discount cards.",
+      },
+    ],
+  },
+  alternativesSection: {
+    title: "Prescription Savings Decision Checklist",
+    paragraphs: [
+    "Use this checklist to decide whether to use Part D or a discount card for each prescription.",
+  ],
+    checklist: {
+    title: "Decision Steps",
+    items: [
+    "Check if the drug is on your Part D formulary and what tier it's on",
+    "Compare your Part D copay vs. the GoodRx price for the drug",
+    "For expensive brand-name drugs: use Part D to count toward the $2,000 OOP cap",
+    "For cheap generics with high copays: use GoodRx or another discount card",
+    "Never use a manufacturer copay card with your Part D plan - it's illegal",
+    "If you qualify for Extra Help: use Part D (LIS copays are usually lower than GoodRx)",
+    "For insulin: always use Part D ($35/month cap)",
+    "Apply for Extra Help at [SSA.gov](https://www.ssa.gov/) if your income is below ~$2,015/month",
+  ],
+    type: "tip",
+  },
+  },
+  faqs: [
+    {
+      question: "Can I Use GoodRx if I Have Medicare Part D?",
+      answer: "Yes, but not at the same time. You must choose either your Part D coverage or GoodRx for each fill. GoodRx purchases don't count toward your Part D deductible or $2,000 out-of-pocket cap.",
+    },
+    {
+      question: "Can I Use Manufacturer Coupons with Medicare?",
+      answer: "Not with Part D. Using manufacturer copay cards with Part D violates the federal anti-kickback statute. You can use a coupon instead of Part D (paying cash), but never alongside it.",
+    },
+    {
+      question: "When Should I Use GoodRx Instead of Part D?",
+      answer: "Use GoodRx for cheap generics where the GoodRx price is lower than your Part D copay, or for drugs not on your formulary. For expensive drugs, use Part D to count toward the $2,000 OOP cap.",
+    },
+    {
+      question: "Does GoodRx Count toward My Medicare Deductible?",
+      answer: "No. GoodRx purchases are not processed through Medicare and do not count toward your Part D deductible or out-of-pocket maximum.",
+    },
+    {
+      question: "What is the Cheapest Way to Get Prescriptions with Medicare?",
+      answer: "Apply for Extra Help if you qualify (income below ~$2,015/month). Otherwise, use Part D for expensive drugs (to hit the $2,000 cap) and GoodRx for cheap generics with high copays.",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "check",
+      text: "GoodRx CAN be used with Medicare - but not at the same time as Part D",
+    },
+    {
+      icon: "alert",
+      text: "Manufacturer copay cards CANNOT be used with Part D - it's illegal",
+    },
+    {
+      icon: "info",
+      text: "GoodRx purchases don't count toward the $2,000 Part D OOP cap",
+    },
+    {
+      icon: "check",
+      text: "Insulin is capped at $35/month through Part D - always use Part D for insulin",
+    },
+    {
+      icon: "info",
+      text: "Extra Help caps copays at $4.90 (generic) / $12.15 (brand) for eligible beneficiaries",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "How to Save on Prescriptions",
+      description: "All strategies for lowering drug costs.",
+      slug: "how-can-seniors-save-on-prescription-drug-costs",
+    },
+    {
+      title: "Coverage Gap (Donut Hole)",
+      description: "How the Part D coverage gap works.",
+      slug: "coverage-gap-discount-program",
+    },
+    {
+      title: "Part D Formulary",
+      description: "How drug formularies work.",
+      slug: "part-d-formulary",
+    },
+    {
+      title: "Medicare and Prescription Drugs",
+      description: "What Part D covers and what it doesn't.",
+      slug: "medicare-and-prescription-drugs-whats-covered-and-whats-not",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "Save on Prescriptions",
+    "Coverage Gap",
+    "Part D Formulary",
+    "Prescription Drugs",
+  ],
+  ctaBanner: {
+    title: "Want to Lower Your Prescription Drug Costs?",
+    text: "Our licensed agents can help you find the right Part D plan and identify savings programs like Extra Help.",
+  },
+  relatedSlugs: [
+    "how-can-seniors-save-on-prescription-drug-costs",
+    "coverage-gap-discount-program",
+    "part-d-formulary",
+    "medicare-and-prescription-drugs-whats-covered-and-whats-not",
+    "medicare-coverage-for-dermatology",
+    "medicare-coverage-for-stroke-victims",
+    "medicare-silversneakers-program",
+  ],
+  youtubeVideoId: "RWf0DAlVem0",
+},
   {
     slug: "medicare-part-b-give-back-plan",
     seo: {
