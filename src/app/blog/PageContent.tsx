@@ -190,12 +190,12 @@ export default function Blog({ currentPage }: { currentPage: number }) {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {paginatedPosts.map((post) => (
-                <div key={post.slug}>
+                <div key={post.slug} className="h-full">
                   <Link
                     href={`/blog/${post.slug}`}
-                    className="group block bg-white border border-[#E5E7EB] rounded-xl overflow-hidden hover:shadow-lg hover:shadow-black/5 transition-all duration-200 h-full"
+                    className="group flex h-full flex-col bg-white border border-[#E5E7EB] rounded-xl overflow-hidden hover:shadow-lg hover:shadow-black/5 transition-all duration-200"
                   >
-                    <div className="relative h-44 overflow-hidden">
+                    <div className="relative h-[202px] overflow-hidden">
                       <img
                         src={post.image}
                         alt={(post as any).imageAlt || post.title}
@@ -210,7 +210,7 @@ export default function Blog({ currentPage }: { currentPage: number }) {
                         </span>
                       </div>
                     </div>
-                    <div className="p-5 flex flex-col h-[calc(100%-176px)]">
+                    <div className="p-5 flex flex-1 flex-col">
                       <h3 className="font-bold text-[#1B2A4A] text-[15px] mb-2 leading-snug group-hover:text-[#1B2A4A] line-clamp-2">
                         {post.title}
                       </h3>

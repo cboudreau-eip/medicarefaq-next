@@ -16,3 +16,9 @@ test("featured article cards use taller images and equal-height content", () => 
   assert.match(source, /group flex h-full flex-col/);
   assert.match(source, /p-6 flex flex-1 flex-col/);
 });
+
+test("all article preview cards use taller images and equal-height rows", () => {
+  assert.match(source, /relative h-\[202px\] overflow-hidden/);
+  assert.match(source, /p-5 flex flex-1 flex-col/);
+  assert.doesNotMatch(source, /h-\[calc\(100%-176px\)\]/);
+});
