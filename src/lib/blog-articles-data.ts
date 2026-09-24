@@ -8488,6 +8488,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters",
     seo: {
+      focusKeyword: "",
       title: "Best Time to Enroll in Medigap: Planning Checklist",
       description: "The best time to enroll in Medigap is your six-month Open Enrollment Period. Use this checklist to compare plans, time coverage, and avoid gaps.",
       canonical: "https://www.medicarefaq.com/blog/the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters/",
@@ -8604,6 +8605,7 @@ export const blogArticles: BlogArticleData[] = [
       ]}
     ],
     relatedSlugs: ["medicare-supplement-open-enrollment", "choosing-a-medigap-policy", "when-to-switch-medigap-plans-what-you-need-to-know", "medicare-guaranteed-issue", "average-cost-of-medicare-supplement-plans", "medigap-birthday-rule"],
+    buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/19858285-timing-your-medigap-coverage.mp3?download=true",
   },
   {
     slug: "nevada-birthday-rule",
