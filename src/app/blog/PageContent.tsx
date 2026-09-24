@@ -60,13 +60,13 @@ export default function Blog({ currentPage }: { currentPage: number }) {
   // Sort all posts by date (newest first)
   const allSorted = uniquePosts.sort(sortByDate);
 
-  // Latest 2 posts become the "Latest Articles" hero row (only on page 1).
+  // Latest 4 posts become the "Latest Articles" grid (only on page 1).
   // remainingPosts always excludes them, on every page -- otherwise pages
   // after page 1 re-include the featured posts, shifting the grid and
   // duplicating them onto page 2, and totalPages is computed from a
   // different-length array depending on which page you're on.
-  const featuredPosts = currentPage === 1 ? allSorted.slice(0, 2) : [];
-  const remainingPosts = allSorted.slice(2);
+  const featuredPosts = currentPage === 1 ? allSorted.slice(0, 4) : [];
+  const remainingPosts = allSorted.slice(4);
 
   // Pagination
   const totalPages = Math.ceil(remainingPosts.length / POSTS_PER_PAGE);
@@ -126,13 +126,13 @@ export default function Blog({ currentPage }: { currentPage: number }) {
                 Latest Articles
               </h2>
               <div className="grid md:grid-cols-2 gap-6">
-                {featuredPosts.map((post, index) => (
-                  <div key={post.slug}>
+                {featuredPosts.map((post) => (
+                  <div key={post.slug} className="h-full">
                     <Link
                       href={`/blog/${post.slug}`}
-                      className="group block bg-white border border-[#E5E7EB] rounded-xl overflow-hidden hover:shadow-lg hover:shadow-black/5 transition-all duration-200"
+                      className="group flex h-full flex-col bg-white border border-[#E5E7EB] rounded-xl overflow-hidden hover:shadow-lg hover:shadow-black/5 transition-all duration-200"
                     >
-                      <div className="relative h-52 overflow-hidden">
+                      <div className="relative h-60 md:h-72 overflow-hidden">
                         <img
                           src={post.image}
                           alt={(post as any).imageAlt || post.title}
@@ -147,14 +147,14 @@ export default function Blog({ currentPage }: { currentPage: number }) {
                           </span>
                         </div>
                       </div>
-                      <div className="p-6">
+                      <div className="p-6 flex flex-1 flex-col">
                         <h3 className="font-bold text-[#1B2A4A] text-xl mb-2 leading-tight group-hover:text-[#1B2A4A]">
                           {post.title}
                         </h3>
-                        <p className="text-[#6B7280] text-sm leading-relaxed mb-4">
+                        <p className="text-[#6B7280] text-sm leading-relaxed mb-4 flex-1">
                           {post.excerpt}
                         </p>
-                        <div className="flex items-center justify-between">
+                        <div className="flex flex-wrap items-center justify-between gap-3">
                           <div className="flex items-center gap-4 text-xs text-[#9CA3AF]">
                             <span className="flex items-center gap-1">
                               <User className="w-3.5 h-3.5" aria-hidden="true" />
