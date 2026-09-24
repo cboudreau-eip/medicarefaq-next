@@ -12,7 +12,7 @@ test("blog landing page promotes four latest articles without pagination duplica
 });
 
 test("featured article cards use taller images and equal-height content", () => {
-  assert.match(source, /relative h-60 md:h-72 overflow-hidden/);
+  assert.match(source, /relative h-\[276px\] md:h-\[332px\] overflow-hidden/);
   assert.match(source, /group flex h-full flex-col/);
   assert.match(source, /p-6 flex flex-1 flex-col/);
 });

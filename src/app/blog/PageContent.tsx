@@ -132,7 +132,7 @@ export default function Blog({ currentPage }: { currentPage: number }) {
                       href={`/blog/${post.slug}`}
                       className="group flex h-full flex-col bg-white border border-[#E5E7EB] rounded-xl overflow-hidden hover:shadow-lg hover:shadow-black/5 transition-all duration-200"
                     >
-                      <div className="relative h-60 md:h-72 overflow-hidden">
+                      <div className="relative h-[276px] md:h-[332px] overflow-hidden">
                         <img
                           src={post.image}
                           alt={(post as any).imageAlt || post.title}
