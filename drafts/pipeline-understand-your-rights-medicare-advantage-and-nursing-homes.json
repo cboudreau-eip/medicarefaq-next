@@ -1,0 +1,268 @@
+{
+  "title": "Medicare Advantage Disenrollment in Nursing Homes",
+  "slug": "understand-your-rights-medicare-advantage-and-nursing-homes",
+  "category": "medicare_advantage",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "introduction",
+      "text": "Why Nursing Home Disenrollment Rules Matter to You"
+    },
+    {
+      "type": "paragraph",
+      "content": "A short-term rehab stay after surgery can turn into a confusing conversation about your Medicare coverage almost overnight. Family members often hear a staff member mention switching plans, and suddenly a stressful hospital transition becomes a coverage decision nobody expected to make. That moment of pressure is exactly when mistakes happen."
+    },
+    {
+      "type": "paragraph",
+      "content": "The good news is that Medicare Advantage disenrollment rules, while unfamiliar, are not complicated once you see them laid out clearly. This article walks through what disenrollment actually means, what rights you hold as a plan member, and the exact steps to take if a nursing facility suggests a change you did not ask for."
+    },
+    {
+      "type": "callout",
+      "calloutType": "info",
+      "calloutTitle": "Key Fact",
+      "calloutText": "A nursing facility has no authority to enroll, disenroll, or switch your Medicare Advantage plan on your behalf. That decision belongs to you alone."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-disenrollment-means",
+      "text": "When Medicare Terms Get Confusing: What 'Disenrollment' Really Means"
+    },
+    {
+      "type": "paragraph",
+      "content": "Disenrollment simply means ending your membership in a Medicare Advantage plan. It is different from switching plans during an enrollment period, and it is very different from an involuntary termination, which only happens under specific, limited circumstances such as nonpayment of premiums or moving outside a plan's service area."
+    },
+    {
+      "type": "paragraph",
+      "content": "Original Medicare and Medicare Advantage handle skilled nursing facility stays differently in terms of network rules and prior authorization requirements, but neither system requires you to change plans simply because you are admitted. Many families assume a plan switch is mandatory during a facility stay. It is not."
+    },
+    {
+      "type": "callout",
+      "calloutType": "warning",
+      "calloutTitle": "Common Misunderstanding",
+      "calloutText": "Being told you \"need to switch plans\" to receive care at a specific nursing facility is not the same as being required to do so by Medicare rules. Always verify claims like this directly with your plan."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "your-rights",
+      "text": "Your Rights as a Medicare Advantage Member in a Nursing Home"
+    },
+    {
+      "type": "paragraph",
+      "content": "A nursing facility cannot force you to disenroll from your current plan, and it cannot choose a replacement plan for you. Enrollment decisions rest entirely with you or your authorized representative, not with facility administrators or billing staff."
+    },
+    {
+      "type": "paragraph",
+      "content": "Certain situations, such as moving into a skilled nursing facility permanently, can create a Special Enrollment Period that allows you to make a plan change if you choose to. This is an option available to you, not an obligation imposed by the facility. You can review these enrollment periods directly through <a href=\"https://www.medicare.gov/basics/get-started-with-medicare/coverage-choices/choose-medicare-coverage\">Medicare.gov's coverage choices guide</a> to confirm what applies to your situation."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "You decide if and when to change your Medicare Advantage plan",
+        "A facility cannot make enrollment changes on your behalf",
+        "Special Enrollment Periods offer an option, not a requirement",
+        "Your authorized representative can act only with documented authority"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "how-improper-disenrollment-happens",
+      "text": "The Fear of Losing Good Coverage: How Improper Disenrollment Happens"
+    },
+    {
+      "type": "paragraph",
+      "content": "Improper disenrollment pressure often starts with good intentions and poor communication. A staff member may mention that a different plan works more smoothly with the facility's preferred network, without clarifying that this is a suggestion rather than a requirement."
+    },
+    {
+      "type": "paragraph",
+      "content": "In other cases, billing preferences or contractual relationships between a facility and certain plans can create an incentive to steer residents toward a specific choice. This does not mean every conversation about plan options is inappropriate, but it does mean you should slow down before signing anything."
+    },
+    {
+      "type": "callout",
+      "calloutType": "tip",
+      "calloutTitle": "Trust Your Instincts",
+      "calloutText": "If a plan change feels rushed or unclear, that is a valid reason to pause and ask more questions. You are allowed to take your time, even during a hospital or facility transition."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "costs-and-coverage-concerns",
+      "text": "Costs and Coverage Concerns: What Changes If You Are Disenrolled"
+    },
+    {
+      "type": "paragraph",
+      "content": "Switching Medicare Advantage plans, even with good intentions, can shift your premiums, copays, and out-of-pocket maximums. In 2026, Medicare Advantage plans can set a maximum out-of-pocket limit as high as $9,250, so moving to a plan with a higher limit or different cost-sharing structure could increase what you pay during an already stressful recovery period."
+    },
+    {
+      "type": "paragraph",
+      "content": "A new plan may also use a different network of doctors and a different drug formulary. That means your longtime primary care physician or a medication you rely on could suddenly fall outside your coverage."
+    },
+    {
+      "type": "table",
+      "title": "What to Compare Before Any Plan Change",
+      "headers": [
+        "Coverage Factor",
+        "Why It Matters"
+      ],
+      "rows": [
+        [
+          "Monthly premium",
+          "A lower premium may come with higher copays or a smaller provider network"
+        ],
+        [
+          "Out-of-pocket maximum",
+          "Can vary significantly between plans, up to $9,250 in 2026"
+        ],
+        [
+          "Doctor network",
+          "Your current physicians may not be included in a new plan's network"
+        ],
+        [
+          "Prescription formulary",
+          "A medication covered under your current plan may not be covered under a new one"
+        ]
+      ]
+    },
+    {
+      "type": "eddie-pro-tip",
+      "content": "I always tell families to ask for the plan comparison in writing before agreeing to anything during a nursing home stay. If someone cannot show you the specific cost and network differences on paper, that is your signal to pump the brakes and call your current plan directly."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "steps-to-take",
+      "text": "Steps to Take If a Nursing Home Tries to Disenroll You Improperly"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you suspect a facility is pushing an unwanted plan change, start by documenting the conversation. Write down the date, who spoke with you, and what was said, then ask for a written explanation of any proposed change."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, call your current Medicare Advantage plan directly to confirm your enrollment status has not been altered. Plans are required to verify your membership and can tell you immediately if any change request has been submitted in your name."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Document every conversation about a potential plan change, including dates and names",
+        "Request written confirmation of any proposed disenrollment or plan switch",
+        "Call your Medicare Advantage plan to verify your current enrollment status",
+        "File a complaint with Medicare or your State Health Insurance Assistance Program if pressure continues",
+        "Reach out to a licensed Medicare agent for a no-pressure second opinion"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "If the situation does not resolve, you can file a complaint through <a href=\"https://www.medicare.gov/basics/reporting-medicare-fraud-and-abuse\">Medicare's fraud and complaint reporting page</a> or contact your local State Health Insurance Assistance Program for free, unbiased guidance."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "protect-yourself-in-advance",
+      "text": "How to Protect Yourself Before a Nursing Home Stay Ever Begins"
+    },
+    {
+      "type": "paragraph",
+      "content": "The best protection often happens before a hospital or facility stay is even on the horizon. Review your plan's Evidence of Coverage to understand which skilled nursing facilities are in-network and what prior authorization rules apply."
+    },
+    {
+      "type": "paragraph",
+      "content": "Keep a copy of your enrollment confirmation and plan documents somewhere a caregiver or family member can access quickly if needed. This small step removes a lot of confusion during an already stressful moment."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Review your plan's skilled nursing facility network before you need it",
+        "Store enrollment confirmation and plan documents where caregivers can find them",
+        "Ask a licensed Medicare agent to explain options in plain language, without pressure",
+        "Compare plans using verified client reviews and transparent cost breakdowns"
+      ]
+    },
+    {
+      "type": "callout",
+      "calloutType": "success",
+      "calloutTitle": "Peace of Mind",
+      "calloutText": "Working with a licensed agent before you need care means you already understand your rights and your plan's rules if a nursing home stay ever happens."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "faq",
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "I am worried about this but not ready to talk to anyone yet, what should I do first?",
+          "answer": "You can gather information at your own pace. Start by reviewing your plan's Evidence of Coverage and writing down any questions you have. There is no rush to call anyone until you feel ready."
+        },
+        {
+          "question": "How do I get help without dealing with a pushy sales call?",
+          "answer": "Licensed Medicare agents are trained to answer questions and explain options without pressuring you toward a decision. You can set expectations upfront, such as asking only for information and requesting no follow-up calls unless you initiate them."
+        },
+        {
+          "question": "Can I just figure out my rights on my own by reading more?",
+          "answer": "That is a reasonable approach, and resources like <a href=\"https://www.medicare.gov\">Medicare.gov</a> and your local SHIP office offer reliable, free information. A licensed professional can still add clarity if you want a second opinion on a specific situation."
+        },
+        {
+          "question": "How do I know which sources about Medicare Advantage rules I can trust?",
+          "answer": "Trustworthy guidance uses plain language, avoids pressure tactics, and is transparent about how plans and coverage work. Check any information you read against official sources like Medicare.gov, and look for real client reviews before working with an agent."
+        },
+        {
+          "question": "Can a nursing home legally require me to change my Medicare Advantage plan?",
+          "answer": "No. A nursing facility cannot require you to disenroll or switch Medicare Advantage plans. Enrollment decisions belong to you or your authorized representative, not the facility."
+        },
+        {
+          "question": "What is a Special Enrollment Period tied to a nursing home stay?",
+          "answer": "Moving into a skilled nursing facility can qualify you for a Special Enrollment Period, giving you the option to change plans if you want to. It is an opportunity, not a mandatory action."
+        },
+        {
+          "question": "Who should I call if I think my enrollment was changed without my consent?",
+          "answer": "Contact your Medicare Advantage plan directly to confirm your enrollment status. If something was changed without your approval, you can also file a complaint with Medicare or your State Health Insurance Assistance Program."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "conclusion",
+      "text": "Conclusion: Feel Confident in Your Coverage Decisions"
+    },
+    {
+      "type": "paragraph",
+      "content": "Your Medicare Advantage enrollment belongs to you, not to a nursing facility or its staff. No one can switch your coverage or force a decision without your consent."
+    },
+    {
+      "type": "paragraph",
+      "content": "Acting early, documenting conversations, and asking questions when something feels unclear can prevent a stressful situation from becoming a costly mistake. Help is available whenever you want it, without pressure and on your own timeline."
+    },
+    {
+      "type": "paragraph",
+      "content": "Clear information paired with licensed, judgment-free support can help you avoid regret later. You do not have to navigate this alone, and you do not have to decide anything before you feel ready."
+    }
+  ],
+  "seoTitle": "Medicare Advantage Disenrollment in Nursing Homes",
+  "seoDescription": "Understand your rights on Medicare Advantage disenrollment nursing home rules and how to protect your coverage from unwanted plan changes.",
+  "excerpt": "Learn your rights around Medicare Advantage disenrollment in nursing homes and why no facility can force you to switch or drop your plan.",
+  "keyTakeaways": [
+    "A nursing facility cannot enroll, disenroll, or switch your Medicare Advantage plan on your behalf; this decision belongs only to you or your authorized representative",
+    "Disenrollment is different from involuntary termination, which only occurs in limited cases like nonpayment of premiums or moving outside a plan's service area",
+    "Being told you must switch plans to receive care at a facility is not the same as a Medicare requirement, always verify such claims directly with your plan",
+    "Moving into a skilled nursing facility permanently may create a Special Enrollment Period, but this is an option, not an obligation",
+    "Slow down before signing anything if facility staff suggest a plan change, and confirm details through Medicare.gov or your plan directly"
+  ],
+  "image": "/images/generated/understand-your-rights-medicare-advantage-and-nursing-homes.png",
+  "relatedSlugs": [],
+  "sourceUrl": "https://medicareadvocacy.org/nursing-homes-cant-disenroll-you/",
+  "pipelineId": "disc-b67c412d9c5c90e8df0184dcf0fe68a02b68191186d2df6c617a3530b97375a1",
+  "id": "pipeline-understand-your-rights-medicare-advantage-and-nursing-homes",
+  "updatedAt": "2026-09-25T18:21:49.647Z",
+  "createdAt": "2026-09-25T18:21:49.647Z"
+}
