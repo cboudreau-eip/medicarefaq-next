@@ -1,11 +1,9 @@
 import { NextResponse } from "next/server";
 import { coverageArticles } from "@/lib/coverage-data";
-import { simpleFAQBatch1 } from "@/lib/simple-faq-data-batch1";
-import { simpleFAQBatch2 } from "@/lib/simple-faq-data-batch2";
-import { simpleFAQBatch3 } from "@/lib/simple-faq-data-batch3";
-import { simpleFAQBatch4 } from "@/lib/simple-faq-data-batch4";
-import { simpleFAQBatch5 } from "@/lib/simple-faq-data-batch5";
-import { simpleFAQBatch6 } from "@/lib/simple-faq-data-batch6";
+// Import the aggregator rather than individual batches: it already spreads every
+// batch, so a newly added batch lands in the sitemap automatically. Listing
+// batches here previously left batches 7 through 11 out of the sitemap entirely.
+import { simpleFAQArticles } from "@/lib/simple-faq-data";
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.medicarefaq.com";
 const FALLBACK_DATE = "2026-06-15T00:00:00.000Z";
@@ -67,16 +65,8 @@ export function GET() {
     });
   }
 
-  // Simple FAQ articles (all 6 batches) — use dateUpdated
-  const allSimpleFAQs = [
-    ...simpleFAQBatch1,
-    ...simpleFAQBatch2,
-    ...simpleFAQBatch3,
-    ...simpleFAQBatch4,
-    ...simpleFAQBatch5,
-    ...simpleFAQBatch6,
-  ];
-  for (const article of allSimpleFAQs) {
+  // Simple FAQ articles (every batch) — use dateUpdated
+  for (const article of simpleFAQArticles) {
     entries.push({
       url: `${BASE_URL}/faqs/${article.slug}/`,
       lastmod: toISODate(article.dateUpdated),
