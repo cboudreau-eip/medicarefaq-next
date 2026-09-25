@@ -1,0 +1,227 @@
+{
+  "title": "Medicare Drug Costs, Moving States & Work Rules",
+  "slug": "faqs-on-medicare-drug-costs-moving-states-and-working-rules",
+  "category": "general",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "introduction",
+      "text": "Answers to the Medicare Questions You Are Actually Asking"
+    },
+    {
+      "type": "paragraph",
+      "content": "Most Medicare guides stop at enrollment. But life keeps moving after you sign up, and so does Medicare. You might switch cities to be closer to family, pick up part-time work after retirement, or notice your prescription costs shifting from one month to the next."
+    },
+    {
+      "type": "paragraph",
+      "content": "This guide answers the questions that come up after the basics: what happens to your drug costs, what happens when you move, and how working past 65 affects your coverage."
+    },
+    {
+      "type": "paragraph",
+      "content": "None of these situations need to feel overwhelming. With plain-language answers, you can make decisions that fit your health needs and your budget, without second-guessing yourself later."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-terms-feel-confusing",
+      "text": "Why Medicare Terms Around Costs and Coverage Feel So Confusing"
+    },
+    {
+      "type": "paragraph",
+      "content": "Prescription drug coverage comes with its own vocabulary, and that vocabulary rarely matches how people talk about medications in everyday life. Formularies, drug tiers, and coverage gaps sound abstract until you realize they directly affect what you pay at the pharmacy counter."
+    },
+    {
+      "type": "paragraph",
+      "content": "Adding to the confusion, drug coverage does not come from one single source. You can get it through a standalone Part D plan paired with Original Medicare, or through a Medicare Advantage plan that bundles drug coverage with your medical benefits."
+    },
+    {
+      "type": "callout",
+      "calloutType": "info",
+      "calloutTitle": "Why This Matters",
+      "calloutText": "Two plans can list the same medication but charge very different amounts, depending on which tier that drug falls into and whether the plan requires prior authorization."
+    },
+    {
+      "type": "paragraph",
+      "content": "This complexity is one of the top reasons people delay comparing plans altogether. When terms feel unfamiliar, it is natural to put off a decision rather than risk getting it wrong."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "prescription-drug-costs",
+      "text": "Understanding Your Prescription Drug Costs Under Medicare"
+    },
+    {
+      "type": "paragraph",
+      "content": "Your drug costs are shaped by several moving parts working together: your monthly premium, an annual deductible, copays or coinsurance, and where your medication falls within your plan's tier structure. In 2026, the average Part D premium is $34.50, and the maximum deductible a plan can charge is $615."
+    },
+    {
+      "type": "paragraph",
+      "content": "Drug tiers group medications by cost, with generics typically in lower tiers and specialty drugs in the highest tiers. Your plan's formulary, the official list of covered drugs, determines which tier your specific prescriptions land in, and that placement drives your out-of-pocket cost."
+    },
+    {
+      "type": "paragraph",
+      "content": "Costs can also shift as the year goes on. Once your total drug spending reaches the catastrophic phase threshold of $2,100.00 in 2026, your out-of-pocket costs for covered drugs drop significantly for the rest of the year, according to the <a href=\"https://www.cms.gov/newsroom/fact-sheets/2026-medicare-parts-b-premiums-and-deductibles\">CMS Medicare Part D cost structure</a>."
+    },
+    {
+      "type": "callout",
+      "calloutType": "tip",
+      "calloutTitle": "Check Annually",
+      "calloutText": "Formularies and drug tiers can change every year, even if you keep the same plan. Reviewing your plan's formulary each fall helps you catch cost increases before they surprise you."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "coverage-moving-states",
+      "text": "What Happens to Your Medicare Coverage When You Move to Another State"
+    },
+    {
+      "type": "paragraph",
+      "content": "Original Medicare, meaning Part A and Part B, travels with you anywhere in the United States. If you rely on Original Medicare, moving from one state to another will not disrupt your hospital or medical coverage."
+    },
+    {
+      "type": "paragraph",
+      "content": "Medicare Advantage plans and standalone Part D plans work differently. These plans operate within specific service areas, so a move outside that area usually means your current plan will no longer be available to you."
+    },
+    {
+      "type": "paragraph",
+      "content": "Moving triggers a Special Enrollment Period, giving you a window to choose a new plan in your new location. According to <a href=\"https://www.medicare.gov/basics/get-started-with-medicare/coverage/coverage-outside-us\">Medicare's rules on plan service areas</a>, you typically have time both before and after your move to make the switch without penalty."
+    },
+    {
+      "type": "callout",
+      "calloutType": "warning",
+      "calloutTitle": "Don't Wait Too Long",
+      "calloutText": "If you do not choose a new plan within your Special Enrollment Period window, you could be left without drug coverage or Medicare Advantage benefits until the next enrollment period."
+    },
+    {
+      "type": "paragraph",
+      "content": "Before your move is finalized, confirm that your doctors and preferred pharmacies participate in plans available at your new address. Coverage that worked well in one state does not guarantee the same doctors or pharmacy discounts in another."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "doctors-prescriptions-after-move",
+      "text": "Concerned About Your Doctors and Prescriptions Being Covered After a Move or Plan Change"
+    },
+    {
+      "type": "paragraph",
+      "content": "Losing access to a trusted doctor is one of the biggest worries people have when relocating or switching plans. It is a valid concern, since not every plan network includes the same specialists or hospitals."
+    },
+    {
+      "type": "paragraph",
+      "content": "Before you finalize a new plan, check the provider directory and confirm your doctors are listed as in-network. Do the same for your pharmacy, since preferred pharmacy networks can affect how much you pay for the same prescription."
+    },
+    {
+      "type": "paragraph",
+      "content": "A simple way to prepare is to gather a current list of your medications, dosages, and your physicians' names before you start comparing plans. Having this list ready makes it much easier to compare specific costs instead of guessing."
+    },
+    {
+      "type": "eddie-pro-tip",
+      "content": "I always tell people to write down their medications and doctors before they even start comparing plans. It sounds small, but it turns an overwhelming search into a simple side-by-side comparison, and it is the single fastest way to avoid an unpleasant surprise after you enroll."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "working-past-65",
+      "text": "Working Past 65: How Medicare Rules Apply If You Still Have a Job"
+    },
+    {
+      "type": "paragraph",
+      "content": "Whether you need to enroll in Medicare at 65 while still working depends largely on the size of your employer. If your employer has 20 or more employees, your group health plan is usually primary, and you may be able to delay Part B without penalty."
+    },
+    {
+      "type": "paragraph",
+      "content": "If your employer has fewer than 20 employees, Medicare typically becomes the primary payer, which means you generally need to enroll in Part B when you turn 65 to avoid a gap in coverage."
+    },
+    {
+      "type": "paragraph",
+      "content": "Once your employment ends or your group coverage stops, a Special Enrollment Period gives you 8 months to enroll in Part B without a late penalty, according to the <a href=\"https://www.ssa.gov/medicare/sign-up\">Social Security Administration's Medicare enrollment guidance</a>."
+    },
+    {
+      "type": "callout",
+      "calloutType": "warning",
+      "calloutTitle": "Missed Deadlines Add Up",
+      "calloutText": "Missing your enrollment window while working can lead to a permanent Part B late enrollment penalty, along with a possible gap in coverage until the next enrollment period opens."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "avoiding-costly-mistakes",
+      "text": "Avoiding Costly Mistakes and Deadline Penalties as Your Situation Changes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Moving, retiring, and losing employer coverage each come with their own enrollment deadlines. Missing any of them can lead to a coverage gap or a penalty that follows you for years."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Part B late enrollment penalty can increase your premium for as long as you have Medicare. The Part D late enrollment penalty works similarly, adding to your premium based on how long you went without creditable drug coverage, using a base premium of $38.99."
+    },
+    {
+      "type": "paragraph",
+      "content": "Keeping simple records, such as the date your employer coverage ended or the notice confirming your move, can make a real difference. These records help you prove you enrolled on time if a question ever comes up later."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "faq",
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "I am not ready to make a decision yet. Is it okay to take more time before I talk to anyone?",
+          "answer": "Yes, taking time to review your options is completely normal. Just keep your enrollment windows in mind, such as the 8-month Special Enrollment Period after employer coverage ends, so you have a clear sense of how much time you realistically have before deadlines apply."
+        },
+        {
+          "question": "If I ask for help, will I get a pushy sales call?",
+          "answer": "Licensed Medicare agents are expected to explain your options clearly, without pressuring you toward a specific plan. A trustworthy agent will walk through your costs and coverage choices and let you decide at your own pace, with transparency about how the process works."
+        },
+        {
+          "question": "Can I just research this myself instead of getting help?",
+          "answer": "Researching on your own is a great first step, and many people start that way. Where self-research often falls short is comparing plan-specific drug costs, formulary tiers, and provider networks side by side, since that data can be difficult to find and compare without help."
+        },
+        {
+          "question": "How do I know which sources of Medicare information I can trust?",
+          "answer": "Look for plain-language explanations, licensed agents willing to answer direct questions, and transparent comparisons that show real costs and coverage details. Reviews and testimonials from actual clients are also a helpful way to gauge whether a source is reliable."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "conclusion",
+      "text": "Feel Confident About Your Next Medicare Decision"
+    },
+    {
+      "type": "paragraph",
+      "content": "Understanding how drug costs work, what happens when you move, and how working past 65 fits into Medicare helps you avoid the surprises that catch so many people off guard."
+    },
+    {
+      "type": "paragraph",
+      "content": "As your situation changes, compare your options based on your own doctors, prescriptions, and budget, not just a plan's advertised premium."
+    },
+    {
+      "type": "paragraph",
+      "content": "When you are ready, clear and licensed guidance is available without any pressure to decide before you feel comfortable."
+    }
+  ],
+  "seoTitle": "Medicare Drug Costs, Moving States & Work Rules",
+  "seoDescription": "Learn how Medicare drug costs, moving states, and working past 65 affect your coverage and out-of-pocket expenses in this plain-language FAQ guide.",
+  "excerpt": "This FAQ guide explains how Medicare drug costs, Medicare Advantage service areas, and coverage rules change when you move states or keep working past 65.",
+  "keyTakeaways": [
+    "Drug costs depend on premiums, deductibles, copays, and which tier your medication falls into on the plan's formulary",
+    "In 2026, the average Part D premium is $34.50 and the maximum deductible is $615",
+    "Once spending hits the $2,100 catastrophic threshold in 2026, out-of-pocket drug costs drop significantly for the rest of the year",
+    "Original Medicare (Part A and Part B) travels with you nationwide, but Medicare Advantage and standalone Part D plans have specific service areas",
+    "Formularies and drug tiers can change yearly, so reviewing your plan each fall helps avoid unexpected cost increases"
+  ],
+  "image": "/images/generated/faqs-on-medicare-drug-costs-moving-states-and-working-rules.png",
+  "relatedSlugs": [],
+  "sourceUrl": "https://www.salemreporter.com/2026/09/24/what-medicare-beneficiaries-should-know-about-drug-costs-moving-and-work-rules/",
+  "pipelineId": "disc-1c6c01762f396cce8a22c4cdc929368707c3c7ed60fd4e3ee5fe5e5193019182",
+  "id": "pipeline-faqs-on-medicare-drug-costs-moving-states-and-working-rules",
+  "updatedAt": "2026-09-25T18:28:03.907Z",
+  "createdAt": "2026-09-25T18:28:03.907Z"
+}
