@@ -35610,8 +35610,8 @@ export const coverageArticles: CoverageArticleData[] = [
   title: "Part D Plans: What You Need to Know to Minimize Costs",
   subtitle: "How to Navigate Formularies, Cost-Sharing, and Savings Programs to Keep Your Drug Costs Low",
   category: "Medicare Part D",
-  dateUpdated: "April 30, 2026",
-  lastReviewed: "2026-05-18",
+  dateUpdated: "September 28, 2026",
+  lastReviewed: "2026-09-28",
   author: {
     name: "David Haass",
     initials: "DH",
@@ -35634,7 +35634,8 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         plan: "Part B",
-        status: "not-covered",
+        status: "partial",
+        statusText: "Limited",
       },
       {
         plan: "Part D",
@@ -35710,27 +35711,28 @@ export const coverageArticles: CoverageArticleData[] = [
       coverageLabel: "Premiums, Deductibles, and Copays",
       coverageType: "partial",
       paragraphs: [
-      "Part D cost-sharing has several components. Most plans charge a monthly premium, which varies by plan and location. The national base beneficiary premium in 2026 is $36.78/month, but actual plan premiums vary widely. High-income beneficiaries pay an additional Income-Related Monthly Adjustment Amount (IRMAA) on top of their plan premium.",
+      "Part D cost-sharing has several components. Most plans charge a monthly premium, which varies by plan and location. The national base beneficiary premium is $38.99 in 2026, but this amount is used to calculate plan-specific premiums and is not the average premium beneficiaries pay. The estimated average monthly premium for a standalone Part D plan is about $34.50 in 2026. High-income beneficiaries pay an additional Income-Related Monthly Adjustment Amount (IRMAA) on top of their plan premium.",
       "Many Part D plans also have a deductible - the maximum standard deductible in 2026 is $615. Some plans waive the deductible for lower-tier drugs. After the deductible, you pay copays or coinsurance based on the drug's tier until you reach the $2,100 out-of-pocket cap, at which point your cost-sharing drops to $0 for the remainder of the year.",
+      "Looking ahead to 2027, [CMS has set](https://www.cms.gov/files/document/2027-announcement.pdf) the maximum Part D deductible at $700 and the annual out-of-pocket threshold at $2,400. The [2027 national base beneficiary premium](https://www.cms.gov/newsroom/fact-sheets/medicare-part-d-2027-national-average-monthly-bid-amount-information) is $41.33, and CMS is ending the standalone Part D Premium Stabilization Demonstration after 2026. Compare final 2027 plan premiums carefully because actual premiums will continue to vary by plan.",
     ],
       whatItCovers: [
-      "Monthly premium: varies by plan (average ~$36.78/month in 2026)",
+      "Monthly premium: varies by plan (estimated standalone Part D plan average is about $34.50/month in 2026)",
       "Annual deductible: up to $615 in 2026 (some plans waive for Tier 1/2 drugs)",
       "Copays/coinsurance: based on drug tier (see tier breakdown above)",
       "Out-of-pocket cap: $2,100 in 2026 - after this, you pay $0 for covered drugs",
       "Medicare Prescription Payment Plan: option to spread costs across monthly installments",
     ],
       whatItDoesntCover: [
-      "IRMAA surcharge applies if your income exceeds $106,000 (individual) or $212,000 (joint) in 2026",
+      "IRMAA surcharge applies if your income exceeds $109,000 (individual) or $218,000 (joint) in 2026",
       "Drugs not on the formulary are not covered by cost-sharing protections",
-      "Discount card purchases (GoodRx, etc.) do not count toward the $2,000 cap",
+      "Discount card purchases (GoodRx, etc.) do not count toward the $2,100 cap",
     ],
       callout: {
       type: "tip",
       title: "The $2,100 Cap Continues an Important Part D Protection",
-      text: "Starting in 2026, there is a hard $2,100 annual out-of-pocket cap on Part D drug costs. This is a significant change from prior years when there was effectively no cap for most beneficiaries. Once you hit $2,100 in out-of-pocket costs, you pay $0 for covered drugs for the rest of the year.",
+      text: "The hard Part D out-of-pocket cap began in 2025 at $2,000 and increased to $2,100 in 2026. Once you reach $2,100 in out-of-pocket costs for covered Part D drugs, you pay $0 for those drugs for the rest of the year.",
     },
-      costNote: "$ IRMAA for Part D in 2026 ranges from $13.70 to $85.80/month added to your plan premium, depending on your income. Check your income bracket at Medicare.gov.",
+      costNote: "$ IRMAA for Part D in 2026 ranges from $14.50 to $91.00/month added to your plan premium, depending on your income. Check your income bracket at Medicare.gov.",
     },
     {
       planName: "Top Strategies to Minimize Part D Costs",
@@ -35746,20 +35748,20 @@ export const coverageArticles: CoverageArticleData[] = [
       "Compare plans annually at Medicare.gov using the Plan Finder tool with your specific drug list",
       "Request generic alternatives - generics cost 80–85% less than brand-name equivalents",
       "Use mail-order pharmacy for 90-day supplies of maintenance medications",
-      "Apply for Extra Help (LIS) if income is below ~$22,590 (individual) or ~$30,660 (couple) in 2026",
+      "Apply for Extra Help (LIS) if your 2026 countable income is below $23,940 (individual) or $32,460 (couple) in the 48 contiguous states and Washington, D.C.; Alaska and Hawaii have higher limits",
       "Check for State Pharmaceutical Assistance Programs (SPAPs) in your state",
       "Ask your doctor about manufacturer patient assistance programs for high-cost specialty drugs",
       "Use preferred pharmacies in your plan's network for lower copays",
       "Review your plan's formulary each fall before the AEP deadline",
     ],
       whatItDoesntCover: [
-      "GoodRx and other discount programs do not count toward your $2,000 out-of-pocket cap - use them strategically for drugs not covered by your plan",
+      "GoodRx and other discount programs do not count toward your $2,100 out-of-pocket cap - use them strategically for drugs not covered by your plan",
       "Switching plans mid-year is generally not allowed except during Special Enrollment Periods",
     ],
       callout: {
       type: "tip",
       title: "Extra Help Can Save Thousands per Year",
-      text: "The Extra Help (Low Income Subsidy) program can reduce Part D premiums, deductibles, and copays to near zero for qualifying beneficiaries. In 2026, you may qualify if your annual income is below approximately $22,590 (individual) or $30,660 (couple). Apply through the Social Security Administration at ssa.gov or call 1-800-772-1213.",
+      text: "The Extra Help (Low Income Subsidy) program can reduce Part D premiums, deductibles, and copays for qualifying beneficiaries. In the 48 contiguous states and Washington, D.C., the 2026 countable-income limit is below $23,940 for an individual or $32,460 for a couple; Alaska and Hawaii have higher limits, and resource limits also apply. Apply through the Social Security Administration at ssa.gov or call 1-800-772-1213.",
     },
       costNote: "$ Mail-order pharmacies often provide a 90-day supply for the same cost as a 60-day retail supply - effectively a 33% savings on maintenance medications. Check if your plan has a preferred mail-order pharmacy.",
     },
@@ -35774,8 +35776,8 @@ export const coverageArticles: CoverageArticleData[] = [
     rows: [
       {
         "Cost Component": "Monthly Premium",
-        "2026 Amount": "Varies by plan (~$36.78 avg)",
-        "Notes": "Higher-income beneficiaries pay IRMAA surcharge on top",
+        "2026 Amount": "Varies by plan (~$34.50 standalone PDP average)",
+        "Notes": "$38.99 base beneficiary premium is not the average; higher-income beneficiaries also pay IRMAA",
       },
       {
         "Cost Component": "Annual Deductible",
@@ -35810,12 +35812,12 @@ export const coverageArticles: CoverageArticleData[] = [
       {
         "Cost Component": "Out-of-Pocket Cap",
         "2026 Amount": "$2,100",
-        "Notes": "NEW in 2026 - after $2,100, you pay $0 for covered drugs",
+        "Notes": "Increased from the $2,000 cap established in 2025; after $2,100, you pay $0 for covered drugs",
       },
       {
         "Cost Component": "Extra Help (LIS) Copays",
-        "2026 Amount": "$0–$11.20 (specialty)",
-        "Notes": "For qualifying low-income beneficiaries",
+        "2026 Amount": "Up to $5.10 generic / $12.65 brand-name",
+        "Notes": "Maximum Extra Help copays; some qualifying beneficiaries pay less or $0",
       },
     ],
     footnote: "Costs are 2026 figures. Actual plan premiums, deductibles, and copays vary by plan and location. Always verify with the specific plan before enrolling.",
@@ -35851,7 +35853,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     {
       question: "What is the Extra Help Program for Part D?",
-      answer: "Extra Help (also called the Low Income Subsidy or LIS) is a federal program that helps low-income Medicare beneficiaries pay for Part D costs. If you qualify, Extra Help can reduce or eliminate your Part D premiums, deductibles, and copays. In 2026, you may qualify if your annual income is below approximately $22,590 (individual) or $30,660 (couple). Apply through the Social Security Administration at ssa.gov or call 1-800-772-1213.",
+      answer: "Extra Help (also called the Low Income Subsidy or LIS) is a federal program that helps people with limited income and resources pay Part D costs. In the 48 contiguous states and Washington, D.C., the 2026 countable-income limit is below $23,940 for an individual or $32,460 for a couple. Alaska and Hawaii have higher limits, and resource limits also apply. Apply through the Social Security Administration at ssa.gov or call 1-800-772-1213.",
     },
     {
       question: "Can I Use GoodRx with Medicare Part D?",
@@ -35889,11 +35891,11 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     {
       icon: "alert",
-      text: "GoodRx purchases do NOT count toward your $2,000 out-of-pocket cap",
+      text: "GoodRx purchases do NOT count toward your $2,100 out-of-pocket cap",
     },
     {
       icon: "dollar",
-      text: "2026 Part D deductible: up to $615. Average premium: ~$36.78/month",
+      text: "2026 Part D deductible: up to $615. Base beneficiary premium: $38.99; estimated standalone PDP average: about $34.50/month",
     },
   ],
   relatedTopics: [
