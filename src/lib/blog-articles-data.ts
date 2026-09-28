@@ -571,6 +571,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "does-medicare-include-long-term-care-common-misunderstanding",
     seo: {
+      focusKeyword: "",
       title: "Does Medicare Cover Long-Term Care? What to Know",
       description: "Does Medicare cover long-term care? Learn what Medicare actually pays for and where coverage gaps could leave you exposed financially.",
       canonical: "https://www.medicarefaq.com/blog/does-medicare-include-long-term-care-common-misunderstanding/",
@@ -585,7 +586,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "7 min read",
     featured: false,
-    image: "/images/generated/does-medicare-include-long.png",
+    image: "/images/generated/does-medicare-include-long-term-care-common-misunderstanding-a1ccd440a07c.png",
     imageAlt: "Does Medicare Cover Long-Term Care? What to Know",
     keyTakeaways: ["Medicare covers skilled nursing care and short-term rehab, not ongoing custodial care like bathing or dressing help", "Part A only covers skilled nursing facility stays after a qualifying hospital stay, and only for a limited number of days", "Home health coverage is limited to intermittent skilled nursing or therapy visits, not daily personal care assistance", "Assisted living and most nursing home stays are not covered once care needs shift from medical recovery to daily living support", "Medicare Advantage plans may offer limited supplemental benefits, but these are not a substitute for true long-term care coverage"],
     tableOfContents: [
