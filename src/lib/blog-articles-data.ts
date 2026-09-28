@@ -17,7 +17,7 @@ export const blogArticles: BlogArticleData[] = [
     seo: {
       focusKeyword: "",
       title: "Medicare Advantage Disenrollment in Nursing Homes",
-      description: "Understand your rights on Medicare Advantage disenrollment nursing home rules and how to protect your coverage from unwanted plan changes.",
+      description: "Learn your rights on Medicare Advantage disenrollment nursing home rules, how they work, and steps to protect your coverage from unwanted plan changes.",
       canonical: "https://www.medicarefaq.com/blog/understand-your-rights-medicare-advantage-and-nursing-homes/",
       ogImage: "/images/generated/understand-your-rights-medicare-advantage-and-nursing-homes.png",
     },
