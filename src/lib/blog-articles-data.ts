@@ -106,7 +106,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "/images/generated/understand-your-rights-medicare-advantage-and-nursing-homes.png",
+    image: "/images/generated/understand-your-rights-medicare-advantage-and-nursing-homes-b3e9c67d8e1b.png",
     imageAlt: "Medicare Advantage Disenrollment in Nursing Homes",
     keyTakeaways: ["A nursing facility cannot enroll, disenroll, or switch your Medicare Advantage plan on your behalf; this decision belongs only to you or your authorized representative", "Disenrollment is different from involuntary termination, which only occurs in limited cases like nonpayment of premiums or moving outside a plan's service area", "Being told you must switch plans to receive care at a facility is not the same as a Medicare requirement, always verify such claims directly with your plan", "Moving into a skilled nursing facility permanently may create a Special Enrollment Period, but this is an option, not an obligation", "Slow down before signing anything if facility staff suggest a plan change, and confirm details through Medicare.gov or your plan directly"],
     tableOfContents: [
