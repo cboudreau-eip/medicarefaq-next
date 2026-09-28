@@ -35939,6 +35939,7 @@ export const coverageArticles: CoverageArticleData[] = [
     "medicare-part-d",
     "medicare-low-income-subsidy",
   ],
+  youtubeVideoId: "wGW6XL9vvHg",
 },
   {
     slug: "original-medicare-vs-medicare-advantage",
