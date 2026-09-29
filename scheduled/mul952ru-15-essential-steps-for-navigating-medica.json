@@ -3,7 +3,7 @@
   "title": "15 Steps for Medicare Open Enrollment 2026",
   "slug": "15-essential-steps-for-navigating-medicare-open-enrollment",
   "publishAt": "2026-09-29T12:56:00.000Z",
-  "status": "pending",
+  "status": "failed",
   "payload": {
     "title": "15 Steps for Medicare Open Enrollment 2026",
     "slug": "15-essential-steps-for-navigating-medicare-open-enrollment",
@@ -290,5 +290,5 @@
     ]
   },
   "createdAt": "2026-09-28T12:57:03.306Z",
-  "error": null
+  "error": "Article with slug \"15-essential-steps-for-navigating-medicare-open-enrollment\" already exists."
 }
