@@ -247,6 +247,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "how-to-enroll-in-medigap-and-avoid-common-mistakes",
     seo: {
+      focusKeyword: "",
       title: "Medigap Mistakes to Avoid: 2026 Enrollment Guide",
       description: "Discover key Medigap mistakes to avoid, from enrollment timing to underwriting pitfalls, and enroll with confidence in 2026.",
       canonical: "https://www.medicarefaq.com/blog/how-to-enroll-in-medigap-and-avoid-common-mistakes/",
@@ -282,7 +283,7 @@ export const blogArticles: BlogArticleData[] = [
       { type: "paragraph", content: "Once you know which mistakes to watch for, the process becomes far less intimidating." },
       { type: "heading", level: 2, text: "Medicare Terms That Trip People Up (And What They Actually Mean)", id: "medicare-terms-that-trip-people-up" },
       { type: "paragraph", content: "One of the most common mix-ups is confusing Medigap with Medicare Advantage. They are not the same thing. Medigap supplements Original Medicare and helps pay leftover costs like coinsurance, while Medicare Advantage replaces Original Medicare with a private plan that often includes its own network and rules." },
-      { type: "paragraph", content: "Plan letters simply describe standardized benefit packages. Plan G, for example, covers most gaps left by Original Medicare except the Part B deductible, while Plan N includes small copays for certain office and emergency room visits. One key difference between the two: Plan G covers Part B excess charges, the extra amount some providers can legally bill above the Medicare-approved amount, while Plan N does not, leaving you responsible for those excess charges if your provider charges them." },
+      { type: "paragraph", content: "Plan letters simply describe standardized benefit packages. Plan G, for example, covers most gaps left by Original Medicare except the Part B deductible, while Plan N includes small copays for certain office and emergency room visits. One key difference between the two: **Plan G covers Part B excess charges**, the extra amount some providers can legally bill above the Medicare-approved amount, while Plan N does not, leaving you responsible for those excess charges if your provider charges them." },
       { type: "callout", calloutType: "info", calloutTitle: "Guaranteed Issue vs. Underwriting", calloutText: "Guaranteed issue means an insurer must sell you a policy regardless of health history. Outside those protected windows, medical underwriting applies, meaning your health history can affect price or eligibility. According to Medicare.gov, guaranteed issue protections apply during specific windows defined by federal and state rules." },
       { type: "paragraph", content: "A simple way to translate the jargon: ask what each term means for your specific doctors, prescriptions, and monthly budget. That personal lens turns confusing vocabulary into a decision you can actually make." },
       { type: "heading", level: 2, text: "Timing Mistakes That Cost You Money and Options", id: "timing-mistakes-that-cost-you-money" },
