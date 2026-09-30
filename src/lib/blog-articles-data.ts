@@ -9665,6 +9665,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "best-states-to-retire",
     seo: {
+      focusKeyword: "",
       title: "Best States to Retire",
       description: "Looking for the best state to retire in? We compare states by taxes, healthcare quality, cost of living, weather, and Medicare plan availability.",
       canonical: "https://www.medicarefaq.com/blog/best-states-to-retire/",
@@ -9679,7 +9680,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "7 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=800&h=500&fit=crop",
+    image: "/images/generated/best-states-to-retire-86ebe196f40f.png",
     imageAlt: "White buildings and pink flowers frame a coastal view of blue water with a distant boat",
     keyTakeaways: [
       "Florida, Arizona, and Tennessee consistently rank among the top states for retirees",
