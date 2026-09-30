@@ -15,6 +15,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "evaluating-your-medicare-advantage-plan-as-satisfaction-decl",
     seo: {
+      focusKeyword: "",
       title: "Medicare Advantage Satisfaction Decline: What to Know",
       description: "Medicare Advantage satisfaction decline is real. Learn the warning signs and how to reevaluate your plan before your next enrollment decision.",
       canonical: "https://www.medicarefaq.com/blog/evaluating-your-medicare-advantage-plan-as-satisfaction-decl/",
@@ -29,7 +30,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "7 min read",
     featured: false,
-    image: "/images/generated/evaluating-your-medicare-advantage.png",
+    image: "/images/generated/evaluating-your-medicare-advantage-plan-as-satisfaction-decl-85cf0f1b5964.png",
     imageAlt: "Medicare Advantage Satisfaction Decline: What to Know",
     keyTakeaways: ["Medicare Advantage member satisfaction has declined due to narrower provider networks, slower prior authorization approvals, and rising out-of-pocket costs", "Plans can change benefits, networks, and drug formularies every year, so annual review is essential even if you were satisfied previously", "Warning signs like increased claim denials, longer referral wait times, or a specialist leaving your network signal it's time for a closer look", "The Annual Notice of Change (ANOC) letter details cost, benefit, and network changes and should be compared against your actual doctor and medication usage", "Original Medicare, Medicare Advantage, and Medigap work differently, and understanding these differences helps you make informed coverage decisions"],
     tableOfContents: [
