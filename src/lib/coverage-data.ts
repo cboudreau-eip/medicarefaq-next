@@ -15364,201 +15364,298 @@ export const coverageArticles: CoverageArticleData[] = [
 
   // ─── Medicare Coverage for Erectile Dysfunction ──────────────────────────────
   {
-    slug: "medicare-coverage-erectile-dysfunction",
-    seo: {
-      title: "Does Medicare Cover Erectile Dysfunction Medication?",
-      description: "Medicare does not cover brand-name ED drugs like Viagra or Cialis, but some generic versions may be covered by Part D. Learn about your options for ED medication coverage.",
-      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-erectile-dysfunction/",
-      ogImage: "/images/medicarefaq-cover.jpg",
-    },
+  slug: "medicare-coverage-erectile-dysfunction",
+  seo: {
     title: "Does Medicare Cover Erectile Dysfunction Medication?",
-    subtitle: "Medicare does not cover brand-name ED drugs like Viagra or Cialis, but some generic versions may be covered by Medicare Part D. Learn what's covered, what you'll pay, and your options.",
-    category: "Medicare Coverage",
-    dateUpdated: "April 15, 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
-    },
-    readTime: "5 min read",
-    quickAnswer: {
-      text: "Medicare does not cover brand-name erectile dysfunction medications such as Viagra (sildenafil), Cialis (tadalafil), or Levitra (vardenafil) under Part D. However, some generic versions of these drugs may be covered by certain Medicare Part D plans. Medicare Advantage Prescription Drug (MAPD) plans may also offer coverage for generic ED medications. Coverage varies by plan and state.",
-      badges: [
-        { plan: "Medicare Part D", status: "partial" },
-        { plan: "Medicare Advantage", status: "partial" },
-        { plan: "Original Medicare", status: "not-covered" }],
-    },
-    comparisonTable: [
-      { planType: "Medicare Part D (Prescription Drug)", coverage: "Partial", icon: "shield", notes: "Brand-name ED drugs excluded by law; some generic versions may be covered depending on plan formulary" },
-      { planType: "Medicare Part B (Outpatient)", coverage: "Not Covered", icon: "x", notes: "Part B does not cover outpatient prescription drugs including ED medications" },
-      { planType: "Medicare Advantage + Drug Plan (MAPD)", coverage: "Partial", icon: "heart", notes: "Some MAPD plans may cover generic ED medications; coverage varies by plan" },
-      { planType: "Medicare Supplement (Medigap)", coverage: "Not Covered", icon: "users", notes: "Medigap does not cover prescription drugs; you need Part D for drug coverage" }],
-    planBreakdowns: [
-      {
-        planName: "Medicare Part D (Prescription Drug Plans)",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Partial - Generics Only",
-        coverageType: "partial",
-        statusBadge: "Brand-name ED drugs excluded; generics may be covered",
-        paragraphs: [
-          "[Medicare Part D](/original-medicare/medicare-parts/medicare-part-d/) prescription drug plans are prohibited by law from covering brand-name erectile dysfunction medications such as Viagra, Cialis, and Levitra. This ban was established by Congress and applies to all Medicare Part D plans. However, the ban does not extend to generic versions of these drugs.",
-          "Generic versions - such as sildenafil (generic Viagra), tadalafil (generic Cialis), and vardenafil (generic Levitra) - may be covered by some Medicare Part D plans depending on the plan's [formulary](/faqs/what-is-a-medicare-part-d-formulary). Each plan has its own formulary, and coverage for generic ED medications varies by plan and by state. You'll need to check your specific plan's formulary to determine if your medication is covered.",
-          "There are over 800 Medicare Part D stand-alone prescription drug plans available nationally, and formularies change each year. If your current plan doesn't cover your generic ED medication, you may be able to switch plans during the Annual Enrollment Period (October 15 – December 7)."],
-        whatItCovers: [
-          "Sildenafil (generic Viagra) - covered by some Part D plans",
-          "Tadalafil (generic Cialis) - covered by some Part D plans",
-          "Vardenafil (generic Levitra) - covered by some Part D plans",
-          "Tadalafil for BPH (benign prostatic hyperplasia) - covered by most Part D plans"],
-        whatItDoesntCover: [
-          "Brand-name Viagra (sildenafil brand)",
-          "Brand-name Cialis (tadalafil brand)",
-          "Brand-name Levitra (vardenafil brand - discontinued in the US)",
-          "Any ED medication not on your plan's formulary"],
-        costNote: "Generic ED medications covered by Part D are typically placed on Tier 1 or Tier 2 of the formulary, with copays ranging from $0 to $47 per month depending on your plan. Brand-name versions are not covered and can cost $400–$700 per month without insurance.",
-      },
-      {
-        planName: "Medicare Advantage (MAPD Plans)",
-        icon: "heart",
-        iconColor: "#059669",
-        coverageLabel: "Partial - Varies by Plan",
-        coverageType: "partial",
-        statusBadge: "Some MAPD plans cover generic ED medications",
-        paragraphs: [
-          "[Medicare Advantage Prescription Drug (MAPD) plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) combine Medicare Advantage health coverage with Part D prescription drug coverage. Like standalone Part D plans, MAPD plans cannot cover brand-name ED medications, but some may cover generic versions.",
-          "Coverage for generic ED medications under MAPD plans varies by plan and location. The best way to determine whether your MAPD plan covers your specific medication is to review the plan's formulary or call the plan directly. If your current plan doesn't cover your medication, you can compare plans during the Annual Enrollment Period."],
-        whatItCovers: [
-          "Generic ED medications that appear on the plan's formulary",
-          "Tadalafil when prescribed for BPH - most MAPD plans"],
-        whatItDoesntCover: [
-          "Brand-name Viagra, Cialis, or Levitra",
-          "Generic ED medications not on the plan's formulary"],
-        callout: {
-          type: "info",
-          title: "Tadalafil for BPH May Have Broader Coverage",
-          text: "Tadalafil (generic Cialis) is FDA-approved for both erectile dysfunction and benign prostatic hyperplasia (BPH). When prescribed specifically for BPH, it is covered by the majority of Medicare Part D and MAPD plans. If you have both ED and BPH, ask your doctor about prescribing tadalafil for BPH.",
-        },
-      },
-      {
-        planName: "Original Medicare (Part A & B)",
-        icon: "x",
-        iconColor: "#DC2626",
-        coverageLabel: "Not Covered",
-        coverageType: "not-covered",
-        statusBadge: "Original Medicare does not cover ED medications",
-        paragraphs: [
-          "Original Medicare (Part A and Part B) does not cover outpatient prescription drugs, including erectile dysfunction medications. Part A covers inpatient hospital care, and Part B covers outpatient medical services and a limited set of drugs administered in a clinical setting - but ED medications are not among them.",
-          "To get prescription drug coverage, you need to enroll in a [Medicare Part D plan](/original-medicare/medicare-parts/medicare-part-d/) or a Medicare Advantage plan that includes drug coverage (MAPD). If you have Original Medicare and no drug coverage, you will pay the full retail cost for any ED medications."],
-        whatItCovers: [
-          "No ED medications under Original Medicare"],
-        whatItDoesntCover: [
-          "All brand-name and generic ED medications",
-          "Any outpatient prescription drugs"],
-        costNote: "Without Part D coverage, brand-name Viagra can cost $400–$700 per month. Generic sildenafil may be available for as little as $10–$30 per month at pharmacies with discount programs like GoodRx.",
-      }],
-    costTable: {
-      title: "ED Medication Costs under Medicare (2026)",
-      headers: ["Medication", "Brand Name", "Generic Available", "Part D Coverage", "Estimated Monthly Cost (with Part D)"],
-      rows: [
-        {
-          "Medication": "Sildenafil",
-          "Brand Name": "Viagra",
-          "Generic Available": "Yes",
-          "Part D Coverage": "Generic may be covered",
-          "Estimated Monthly Cost (with Part D)": "$0–$47 (generic, if covered)",
-        },
-        {
-          "Medication": "Tadalafil",
-          "Brand Name": "Cialis",
-          "Generic Available": "Yes",
-          "Part D Coverage": "Generic may be covered; BPH use more widely covered",
-          "Estimated Monthly Cost (with Part D)": "$0–$47 (generic, if covered)",
-        },
-        {
-          "Medication": "Vardenafil",
-          "Brand Name": "Levitra (discontinued)",
-          "Generic Available": "Yes",
-          "Part D Coverage": "Generic may be covered",
-          "Estimated Monthly Cost (with Part D)": "$0–$47 (generic, if covered)",
-        },
-        {
-          "Medication": "Brand-name Viagra/Cialis",
-          "Brand Name": "N/A",
-          "Generic Available": "N/A",
-          "Part D Coverage": "Not covered (banned by law)",
-          "Estimated Monthly Cost (with Part D)": "$400–$700 (full retail cost)",
-        }],
-      footnote: "Costs are estimates. Actual Part D copays depend on your specific plan's formulary and tier placement. Generic prices without insurance may be lower through discount programs like GoodRx.",
-    },
-    exceptionsSection: {
-      title: "Special Cases: When Medicare May Cover ED Medications",
-      items: [
-        {
-          title: "Tadalafil for Benign Prostatic Hyperplasia (BPH)",
-          text: "Tadalafil (generic Cialis) is FDA-approved for both erectile dysfunction and benign prostatic hyperplasia (BPH). When prescribed specifically for BPH, tadalafil is not subject to the same formulary exclusion as ED medications and is covered by the majority of Medicare Part D and MAPD plans. If your doctor determines tadalafil is appropriate for your BPH, coverage is more likely than for ED alone.",
-          highlight: "Ask your doctor whether tadalafil is appropriate for your BPH diagnosis. When prescribed for BPH, it is covered by most Part D plans.",
-        },
-        {
-          title: "Sildenafil for Pulmonary Arterial Hypertension (PAH)",
-          text: "Sildenafil (sold as Revatio for PAH) is FDA-approved to treat pulmonary arterial hypertension (PAH), a serious lung condition. When prescribed for PAH, sildenafil is covered by most Medicare Part D plans as a medically necessary treatment - even though the same drug (Viagra) is not covered for ED. Coverage depends on the indication documented by your doctor.",
-        }],
-    },
-    faqs: [
-      {
-        question: "Does Medicare Cover Viagra?",
-        answer: "No. Medicare Part D plans are prohibited by law from covering brand-name Viagra. However, some Part D plans may cover sildenafil, the generic version of Viagra. Check your plan's formulary to see if sildenafil is covered and what your copay would be.",
-      },
-      {
-        question: "Does Medicare Cover Cialis?",
-        answer: "Medicare Part D plans do not cover brand-name Cialis. However, generic tadalafil may be covered by some Part D plans. Additionally, tadalafil is more widely covered when prescribed for benign prostatic hyperplasia (BPH) rather than erectile dysfunction.",
-      },
-      {
-        question: "Does Medicare Cover Generic Viagra (Sildenafil)?",
-        answer: "Some Medicare Part D plans cover sildenafil (generic Viagra), but not all. Coverage depends on your specific plan's formulary. Check your plan's drug list or use Medicare's Plan Finder tool at [medicare.gov](https://www.medicare.gov/) to compare plans that cover sildenafil.",
-      },
-      {
-        question: "Why doesn't Medicare cover ED medications?",
-        answer: "Congress explicitly prohibited Medicare Part D from covering drugs used for sexual or erectile dysfunction when the Part D program was created. This ban applies to brand-name ED drugs. Generic versions are not explicitly banned but must be included in a plan's formulary to be covered.",
-      },
-      {
-        question: "How Can I Save Money on ED Medications with Medicare?",
-        answer: "If your Part D plan doesn't cover your ED medication, consider: (1) asking your doctor about generic alternatives, (2) using discount programs like GoodRx which can reduce generic sildenafil to $10–$30/month, (3) comparing Part D plans during the Annual Enrollment Period to find one that covers your medication, or (4) asking your doctor about prescribing tadalafil for BPH if applicable.",
-      },
-      {
-        question: "Does Medicare Cover ED Medications for Mental Health-related ED?",
-        answer: "Medicare covers mental health services including therapy and counseling for psychological causes of erectile dysfunction. However, the ED medications themselves (Viagra, Cialis, etc.) are still subject to the same coverage rules - brand-name drugs are excluded, and generic versions depend on your plan's formulary.",
-      }],
-    quickReference: [
-      { icon: "x", text: "<strong>Brand-name Viagra and Cialis</strong> are excluded from Medicare Part D by law" },
-      { icon: "check", text: "Some Part D plans cover <strong>generic sildenafil and tadalafil</strong> - check your formulary" },
-      { icon: "info", text: "Tadalafil for <strong>BPH</strong> is covered by most Part D plans" },
-      { icon: "dollar", text: "Generic ED medications can cost as little as <strong>$10–$30/month</strong> with GoodRx" },
-      { icon: "alert", text: "Coverage varies by plan and state - compare plans during Annual Enrollment (Oct 15 – Dec 7)" },
-      { icon: "check", text: "Sildenafil for <strong>pulmonary arterial hypertension</strong> is covered by most Part D plans" }],
-    relatedTopics: [
-      { title: "What is Medicare Part D?", description: "Learn how Medicare prescription drug coverage works and how to enroll.", slug: "what-is-medicare-part-d" },
-      { title: "What is a Medicare Part D Formulary?", description: "Understand how drug formularies work and how to check if your medication is covered.", slug: "what-is-a-medicare-part-d-formulary" },
-      { title: "Medicare Advantage Extra Benefits Explained", description: "Discover the extra benefits available through Medicare Advantage plans.", slug: "medicare-advantage-extra-benefits-explained-whats-really-included" },
-      { title: "Does Medicare Cover a PSA Test?", description: "Learn about Medicare coverage for prostate-specific antigen (PSA) screening tests.", slug: "medicare-coverage-for-prostate-specific-antigen-psa-test" }],
-    sidebarRelatedLinks: [
-      "What Is Medicare Part D",
-      "What Is a Medicare Part D Formulary",
-      "Medicare Advantage Extra Benefits Explained",
-      "Does Medicare Cover a PSA Test"],
-    ctaBanner: {
-      title: "Need Help Finding a Part D Plan that Covers Your Medications?",
-      text: "Our licensed Medicare agents can help you compare Part D plans to find one that covers your prescriptions at the lowest cost. Compare plans in your area for free.",
-    },
-    relatedSlugs: ["what-is-medicare-part-d", "what-is-a-medicare-part-d-formulary", "medicare-advantage-extra-benefits-explained-whats-really-included", "medicare-coverage-for-prostate-specific-antigen-psa-test", "medicare-coverage-for-cancer"],
+    description: "Brand-name ED drugs like Viagra and Cialis aren't covered by Medicare, but generics may be under Part D. See which plans help and how to save.",
+    canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-erectile-dysfunction/",
+    ogImage: "/images/medicarefaq-cover.jpg",
   },
+  title: "Does Medicare Cover Erectile Dysfunction Medication?",
+  subtitle: "Medicare does not cover brand-name ED drugs like Viagra or Cialis, but some generic versions may be covered by Medicare Part D. Learn what's covered, what you'll pay, and your options.",
+  category: "Medicare Coverage",
+  dateUpdated: "April 15, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+  },
+  readTime: "5 min read",
+  quickAnswer: {
+    text: "Medicare Part D does not cover brand-name erectile dysfunction medications such as Viagra (sildenafil), Cialis (tadalafil), Levitra (vardenafil), or Stendra (avanafil). However, generic versions of sildenafil and tadalafil may be covered by certain Part D or Medicare Advantage Prescription Drug (MAPD) plans. Whether a specific generic is covered, and at what cost, depends on your plan's formulary and state.",
+    badges: [
+      {
+        plan: "Medicare Part D",
+        status: "partial",
+      },
+      {
+        plan: "Medicare Advantage",
+        status: "partial",
+      },
+      {
+        plan: "Original Medicare",
+        status: "not-covered",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Medicare Part D (Prescription Drug)",
+      coverage: "Partial",
+      icon: "shield",
+      notes: "Brand-name ED drugs excluded by law; some generic versions may be covered depending on plan formulary",
+    },
+    {
+      planType: "Medicare Part B (Outpatient)",
+      coverage: "Not Covered",
+      icon: "x",
+      notes: "Part B does not cover outpatient prescription drugs including ED medications",
+    },
+    {
+      planType: "Medicare Advantage + Drug Plan (MAPD)",
+      coverage: "Partial",
+      icon: "heart",
+      notes: "Some MAPD plans may cover generic ED medications; coverage varies by plan",
+    },
+    {
+      planType: "Medicare Supplement (Medigap)",
+      coverage: "Not Covered",
+      icon: "users",
+      notes: "Medigap does not cover prescription drugs; you need Part D for drug coverage",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "Medicare Part D (Prescription Drug Plans)",
+      icon: "shield",
+      iconColor: "#1B2A4A",
+      coverageLabel: "Partial - Generics Only",
+      coverageType: "partial",
+      statusBadge: "Brand-name ED drugs excluded; generics may be covered",
+      paragraphs: [
+      "[Medicare Part D](/original-medicare/medicare-parts/medicare-part-d/) prescription drug plans are prohibited by law from covering brand-name erectile dysfunction medications such as Viagra, Cialis, and Levitra. This ban was established by Congress and applies to all Medicare Part D plans. However, the ban does not extend to generic versions of these drugs.",
+      "Generic versions - such as sildenafil (generic Viagra), tadalafil (generic Cialis), and vardenafil (generic Levitra) - may be covered by some Medicare Part D plans depending on the plan's [formulary](/faqs/what-is-a-medicare-part-d-formulary). Each plan has its own formulary, and coverage for generic ED medications varies by plan and by state. You'll need to check your specific plan's formulary to determine if your medication is covered.",
+      "There are over 800 Medicare Part D stand-alone prescription drug plans available nationally, and formularies change each year. If your current plan doesn't cover your generic ED medication, you may be able to switch plans during the Annual Enrollment Period (October 15 – December 7).",
+    ],
+      whatItCovers: [
+      "Sildenafil (generic Viagra) - covered by some Part D plans",
+      "Tadalafil (generic Cialis) - covered by some Part D plans",
+      "Vardenafil (generic Levitra) - covered by some Part D plans",
+      "Tadalafil for BPH (benign prostatic hyperplasia) - covered by most Part D plans",
+    ],
+      whatItDoesntCover: [
+      "Brand-name Viagra (sildenafil brand)",
+      "Brand-name Cialis (tadalafil brand)",
+      "Brand-name Levitra (vardenafil brand - discontinued in the US)",
+      "Any ED medication not on your plan's formulary",
+    ],
+      costNote: "Generic ED medications covered by Part D are typically placed on Tier 1 or Tier 2 of the formulary, with copays ranging from $0 to $47 per month depending on your plan. Brand-name versions are not covered and can cost $400–$700 per month without insurance.",
+    },
+    {
+      planName: "Medicare Advantage (MAPD Plans)",
+      icon: "heart",
+      iconColor: "#059669",
+      coverageLabel: "Partial - Varies by Plan",
+      coverageType: "partial",
+      statusBadge: "Some MAPD plans cover generic ED medications",
+      paragraphs: [
+      "[Medicare Advantage Prescription Drug (MAPD) plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) combine Medicare Advantage health coverage with Part D prescription drug coverage. Like standalone Part D plans, MAPD plans cannot cover brand-name ED medications, but some may cover generic versions.",
+      "Coverage for generic ED medications under MAPD plans varies by plan and location. The best way to determine whether your MAPD plan covers your specific medication is to review the plan's formulary or call the plan directly. If your current plan doesn't cover your medication, you can compare plans during the Annual Enrollment Period.",
+    ],
+      whatItCovers: [
+      "Generic ED medications that appear on the plan's formulary",
+      "Tadalafil when prescribed for BPH - most MAPD plans",
+    ],
+      whatItDoesntCover: [
+      "Brand-name Viagra, Cialis, or Levitra",
+      "Generic ED medications not on the plan's formulary",
+    ],
+      callout: {
+      type: "info",
+      title: "Tadalafil for BPH May Have Broader Coverage",
+      text: "Tadalafil (generic Cialis) is FDA-approved for both erectile dysfunction and benign prostatic hyperplasia (BPH). When prescribed specifically for BPH, it is covered by the majority of Medicare Part D and MAPD plans. If you have both ED and BPH, ask your doctor about prescribing tadalafil for BPH.",
+    },
+    },
+    {
+      planName: "Original Medicare (Part A & B)",
+      icon: "x",
+      iconColor: "#DC2626",
+      coverageLabel: "Not Covered",
+      coverageType: "not-covered",
+      statusBadge: "Original Medicare does not cover ED medications",
+      paragraphs: [
+      "Original Medicare (Part A and Part B) does not cover outpatient prescription drugs, including erectile dysfunction medications. Part A covers inpatient hospital care, and Part B covers outpatient medical services and a limited set of drugs administered in a clinical setting - but ED medications are not among them.",
+      "To get prescription drug coverage, you need to enroll in a [Medicare Part D plan](/original-medicare/medicare-parts/medicare-part-d/) or a Medicare Advantage plan that includes drug coverage (MAPD). If you have Original Medicare and no drug coverage, you will pay the full retail cost for any ED medications.",
+    ],
+      whatItCovers: [
+      "No ED medications under Original Medicare",
+    ],
+      whatItDoesntCover: [
+      "All brand-name and generic ED medications",
+      "Any outpatient prescription drugs",
+    ],
+      costNote: "Without Part D coverage, brand-name Viagra can cost $400–$700 per month. Generic sildenafil may be available for as little as $10–$30 per month at pharmacies with discount programs like GoodRx.",
+    },
+  ],
+  costTable: {
+    title: "ED Medication Costs under Medicare (2026)",
+    headers: [
+    "Medication",
+    "Brand Name",
+    "Generic Available",
+    "Part D Coverage",
+    "Estimated Monthly Cost (with Part D)",
+  ],
+    rows: [
+      {
+        "Medication": "Sildenafil",
+        "Brand Name": "Viagra",
+        "Generic Available": "Yes",
+        "Part D Coverage": "Generic may be covered",
+        "Estimated Monthly Cost (with Part D)": "$0–$47 (generic, if covered)",
+      },
+      {
+        "Medication": "Tadalafil",
+        "Brand Name": "Cialis",
+        "Generic Available": "Yes",
+        "Part D Coverage": "Generic may be covered; BPH use more widely covered",
+        "Estimated Monthly Cost (with Part D)": "$0–$47 (generic, if covered)",
+      },
+      {
+        "Medication": "Vardenafil",
+        "Brand Name": "Levitra (discontinued)",
+        "Generic Available": "Yes",
+        "Part D Coverage": "Generic may be covered",
+        "Estimated Monthly Cost (with Part D)": "$0–$47 (generic, if covered)",
+      },
+      {
+        "Medication": "Brand-name Viagra/Cialis",
+        "Brand Name": "N/A",
+        "Generic Available": "N/A",
+        "Part D Coverage": "Not covered (banned by law)",
+        "Estimated Monthly Cost (with Part D)": "$400–$700 (full retail cost)",
+      },
+    ],
+    footnote: "Costs are estimates. Actual Part D copays depend on your specific plan's formulary and tier placement. Generic prices without insurance may be lower through discount programs like GoodRx.",
+  },
+  exceptionsSection: {
+    title: "Special Cases: When Medicare May Cover ED Medications",
+    items: [
+      {
+        title: "Tadalafil for Benign Prostatic Hyperplasia (BPH)",
+        text: "Tadalafil (generic Cialis) is FDA-approved for both erectile dysfunction and benign prostatic hyperplasia (BPH). When prescribed specifically for BPH, tadalafil is not subject to the same formulary exclusion as ED medications and is covered by the majority of Medicare Part D and MAPD plans. If your doctor determines tadalafil is appropriate for your BPH, coverage is more likely than for ED alone.",
+        highlight: "Ask your doctor whether tadalafil is appropriate for your BPH diagnosis. When prescribed for BPH, it is covered by most Part D plans.",
+      },
+      {
+        title: "Sildenafil for Pulmonary Arterial Hypertension (PAH)",
+        text: "Sildenafil (sold as Revatio for PAH) is FDA-approved to treat pulmonary arterial hypertension (PAH), a serious lung condition. When prescribed for PAH, sildenafil is covered by most Medicare Part D plans as a medically necessary treatment - even though the same drug (Viagra) is not covered for ED. Coverage depends on the indication documented by your doctor.",
+      },
+    ],
+  },
+  faqs: [
+    {
+      question: "Does Medicare Cover Viagra?",
+      answer: "No. Medicare Part D plans are prohibited by law from covering brand-name Viagra. However, some Part D plans may cover sildenafil, the generic version of Viagra. Check your plan's formulary to see if sildenafil is covered and what your copay would be.",
+    },
+    {
+      question: "Does Medicare Cover Cialis?",
+      answer: "Medicare Part D plans do not cover brand-name Cialis. However, generic tadalafil may be covered by some Part D plans. Additionally, tadalafil is more widely covered when prescribed for benign prostatic hyperplasia (BPH) rather than erectile dysfunction.",
+    },
+    {
+      question: "Does Medicare Cover Generic Viagra (Sildenafil)?",
+      answer: "Some Medicare Part D plans cover sildenafil (generic Viagra), but not all. Coverage depends on your specific plan's formulary. Check your plan's drug list or use Medicare's Plan Finder tool at [medicare.gov](https://www.medicare.gov/) to compare plans that cover sildenafil.",
+    },
+    {
+      question: "Why doesn't Medicare cover ED medications?",
+      answer: "Congress explicitly prohibited Medicare Part D from covering drugs used for sexual or erectile dysfunction when the Part D program was created. This ban applies to brand-name ED drugs. Generic versions are not explicitly banned but must be included in a plan's formulary to be covered.",
+    },
+    {
+      question: "How Can I Save Money on ED Medications with Medicare?",
+      answer: "If your Part D plan doesn't cover your ED medication, consider: (1) asking your doctor about generic alternatives, (2) using discount programs like GoodRx which can reduce generic sildenafil to $10–$30/month, (3) comparing Part D plans during the Annual Enrollment Period to find one that covers your medication, or (4) asking your doctor about prescribing tadalafil for BPH if applicable.",
+    },
+    {
+      question: "Does Medicare Cover ED Medications for Mental Health-related ED?",
+      answer: "Medicare covers mental health services including therapy and counseling for psychological causes of erectile dysfunction. However, the ED medications themselves (Viagra, Cialis, etc.) are still subject to the same coverage rules - brand-name drugs are excluded, and generic versions depend on your plan's formulary.",
+    },
+    {
+      question: "How do I check if my Medicare plan covers a specific ED medication?",
+      answer: "To find out whether your Medicare plan covers a particular ED medication, check your plan's formulary, which lists covered drugs and their tiers. You can find this on your plan provider's website, in ",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "x",
+      text: "<strong>Brand-name Viagra and Cialis</strong> are excluded from Medicare Part D by law",
+    },
+    {
+      icon: "check",
+      text: "Some Part D plans cover <strong>generic sildenafil and tadalafil</strong> - check your formulary",
+    },
+    {
+      icon: "info",
+      text: "Tadalafil for <strong>BPH</strong> is covered by most Part D plans",
+    },
+    {
+      icon: "dollar",
+      text: "Generic ED medications can cost as little as <strong>$10–$30/month</strong> with GoodRx",
+    },
+    {
+      icon: "alert",
+      text: "Coverage varies by plan and state - compare plans during Annual Enrollment (Oct 15 – Dec 7)",
+    },
+    {
+      icon: "check",
+      text: "Sildenafil for <strong>pulmonary arterial hypertension</strong> is covered by most Part D plans",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "What is Medicare Part D?",
+      description: "Learn how Medicare prescription drug coverage works and how to enroll.",
+      slug: "what-is-medicare-part-d",
+    },
+    {
+      title: "What is a Medicare Part D Formulary?",
+      description: "Understand how drug formularies work and how to check if your medication is covered.",
+      slug: "what-is-a-medicare-part-d-formulary",
+    },
+    {
+      title: "Medicare Advantage Extra Benefits Explained",
+      description: "Discover the extra benefits available through Medicare Advantage plans.",
+      slug: "medicare-advantage-extra-benefits-explained-whats-really-included",
+    },
+    {
+      title: "Does Medicare Cover a PSA Test?",
+      description: "Learn about Medicare coverage for prostate-specific antigen (PSA) screening tests.",
+      slug: "medicare-coverage-for-prostate-specific-antigen-psa-test",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "What Is Medicare Part D",
+    "What Is a Medicare Part D Formulary",
+    "Medicare Advantage Extra Benefits Explained",
+    "Does Medicare Cover a PSA Test",
+  ],
+  ctaBanner: {
+    title: "Need Help Finding a Part D Plan that Covers Your Medications?",
+    text: "Our licensed Medicare agents can help you compare Part D plans to find one that covers your prescriptions at the lowest cost. Compare plans in your area for free.",
+  },
+  relatedSlugs: [
+    "what-is-medicare-part-d",
+    "what-is-a-medicare-part-d-formulary",
+    "medicare-advantage-extra-benefits-explained-whats-really-included",
+    "medicare-coverage-for-prostate-specific-antigen-psa-test",
+    "medicare-coverage-for-cancer",
+  ],
+},
 
   // ─── Medicare Coverage for Alcohol Misuse ────────────────────────────────────
   {
