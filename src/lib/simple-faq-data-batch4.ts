@@ -215,7 +215,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
     slug: 'how-is-medicare-funded',
     seo: {
       title: 'How Is Medicare Funded? A Plain-Language Guide (2026)',
-      description: 'Learn how Medicare is funded in 2026, including payroll taxes, Part B and Part D premiums, general revenue contributions, and the long-term financial outlook of the Medicare trust funds.',
+      description: "Curious where Medicare's money comes from? See how payroll taxes, premiums, and general revenue fund the program, and what the trust fund outlook means for your coverage.",
       canonical: 'https://www.medicarefaq.com/faqs/how-is-medicare-funded/',
       ogImage: '/images/medicarefaq-cover.jpg',
     },
