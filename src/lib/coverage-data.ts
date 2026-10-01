@@ -3892,210 +3892,369 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedSlugs: ["medicare-coverage-for-stroke-victims", "medicare-coverage-for-in-home-caregivers", "medicare-coverage-for-physical-therapy", "does-medicare-cover-copd", "medicare-coverage-for-oxygen-therapy"],
   },
   {
-    slug: "does-medicare-cover-copd",
-    seo: {
-      title: "Does Medicare Cover COPD Treatment? Inhalers, Oxygen & Pulmonary Rehab (2026)",
-      description: "Medicare covers COPD treatment including inhalers, oxygen therapy, pulmonary rehabilitation, and specialist visits. Learn costs, coverage rules, and how to find a pulmonologist.",
-      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-copd/",
-      ogImage: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg",
-      focusKeyword: "does medicare cover copd",
-    },
-    title: "Does Medicare Cover COPD? Treatment, Inhalers, Oxygen & Costs (2026)",
-    subtitle: "Yes, Medicare covers COPD (Chronic Obstructive Pulmonary Disease) treatment comprehensively. Medicare Part B covers pulmonologist visits, pulmonary rehabilitation, oxygen therapy, and lung cancer screenings. Medicare Part D covers COPD medications including inhalers and nebulizer solutions. While COPD is not curable, Medicare provides coverage for the treatments that manage symptoms and slow disease progression.",
-    category: "Medicare Coverage",
-    dateUpdated: "July 14, 2026",
-    lastReviewed: "2026-07-14",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
-    },
-    readTime: "11 min read",
-    quickAnswer: {
-      text: "Yes, Medicare covers COPD treatment across multiple parts of the program. Medicare Part B covers doctor and specialist visits (including pulmonologists), diagnostic tests (spirometry, chest X-rays, CT scans), pulmonary rehabilitation programs, and home oxygen therapy when medically necessary. Medicare Part D covers COPD medications including rescue inhalers, maintenance inhalers, nebulizer solutions, and oral medications. The 2025 Inflation Reduction Act cap of $2,100 per year on Part D out-of-pocket costs significantly reduces inhaler expenses for COPD patients in 2026.",
-      badges: [
-        { plan: "Medicare Part B", status: "covered" },
-        { plan: "Medicare Part D", status: "covered" },
-        { plan: "Medicare Advantage", status: "covered" },
-        { plan: "Medigap", status: "partial" }],
-    },
-    comparisonTable: [
-      { planType: "Medicare Part A (Inpatient)", coverage: "Covered", icon: "check-circle", notes: "Covers COPD-related hospitalizations, ICU stays, and inpatient rehab" },
-      { planType: "Medicare Part B (Outpatient)", coverage: "Covered", icon: "check-circle", notes: "Covers pulmonologist visits, pulmonary rehab, oxygen therapy, diagnostics" },
-      { planType: "Medicare Part D (Drugs)", coverage: "Covered", icon: "check-circle", notes: "Covers inhalers, nebulizer solutions, oral COPD medications" },
-      { planType: "Medicare Advantage (Part C)", coverage: "Covered + Extras", icon: "check-circle", notes: "All Original Medicare benefits plus possible extra benefits (telehealth, fitness)" },
-      { planType: "Medicare Supplement (Medigap)", coverage: "Covers Cost-Sharing", icon: "check-circle", notes: "Pays Part B deductible, 20% coinsurance on treatments" },
-      { planType: "Lung Cancer Screening (LDCT)", coverage: "Covered Preventive", icon: "check-circle", notes: "$0 cost for qualifying beneficiaries (age 50-80, 20+ pack-year history)" }],
-    planBreakdowns: [
-      {
-        planName: "Medicare Part B: COPD Treatments and Services",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Covered (with cost-sharing)",
-        coverageType: "covered",
-        paragraphs: [
-          "Medicare Part B provides extensive coverage for outpatient COPD treatment. This includes visits to your primary care physician and pulmonologist (lung specialist), diagnostic testing, pulmonary rehabilitation, oxygen therapy, and preventive screenings. You pay 20% coinsurance after meeting the annual [Part B deductible](/faqs/medicare-part-a-vs-part-b/) ($283 in 2026).",
-          "**Pulmonologist visits:** Medicare Part B covers visits to a pulmonologist (lung specialist) when referred by your doctor or when medically necessary. If your pulmonologist accepts [Medicare assignment](/faqs/what-is-medicare-assignment), you pay 20% of the Medicare-approved amount. Finding a pulmonologist who accepts Medicare is straightforward: use the [Medicare.gov](https://www.medicare.gov/) Physician Compare tool or call 1-800-MEDICARE.",
-          "**Diagnostic tests:** Medicare covers spirometry (breathing tests), chest X-rays, CT scans, arterial blood gas tests, pulse oximetry, and other tests used to diagnose and monitor COPD. These are covered under Part B with standard 20% coinsurance.",
-          "**Pulmonary rehabilitation:** Medicare Part B covers pulmonary rehabilitation programs for COPD patients. These programs include supervised exercise, breathing techniques, education about managing your condition, and psychological support. Medicare covers up to 36 sessions (with physician approval for up to 36 additional sessions). You pay 20% coinsurance per session.",
-          "**Oxygen therapy:** When your doctor prescribes home oxygen, Medicare Part B covers the rental of oxygen equipment (concentrators, tanks, regulators, tubing, masks) for up to 36 months. After 36 months, the supplier must continue providing the equipment and maintenance for an additional 24 months at no cost to you. You pay 20% of the Medicare-approved rental amount during the initial 36 months."
-        ],
-        whatItCovers: [
-          "Pulmonologist and specialist visits",
-          "Spirometry and pulmonary function tests",
-          "Chest X-rays and CT scans",
-          "Pulmonary rehabilitation (up to 72 sessions with approval)",
-          "Home oxygen therapy equipment (concentrators, tanks, supplies)",
-          "Nebulizer machines (as durable medical equipment)",
-          "Lung cancer screening (LDCT) for qualifying patients",
-          "Smoking cessation counseling (up to 8 sessions per year)",
-          "Flu, pneumonia, and COVID-19 vaccines ($0 cost)"
-        ],
-        whatItDoesntCover: [
-          "Inhaler medications (covered under Part D, not Part B)",
-          "Over-the-counter supplements or air purifiers",
-          "Long-term custodial care for COPD disability",
-          "Experimental treatments not approved by Medicare"
-        ],
-        callout: {
-          type: "tip",
-          title: "Pulmonary Rehab Can Significantly Improve Quality of Life",
-          text: "Studies show pulmonary rehabilitation reduces COPD hospitalizations by up to 40% and significantly improves exercise capacity and daily functioning. Medicare covers up to 72 sessions with physician approval. Ask your pulmonologist for a referral to a Medicare-certified pulmonary rehab program.",
-        },
-      },
-      {
-        planName: "Medicare Part D: COPD Medications and Inhalers",
-        icon: "pill",
-        iconColor: "#059669",
-        coverageLabel: "Covered (formulary-dependent)",
-        coverageType: "covered",
-        paragraphs: [
-          "Medicare Part D covers prescription medications for COPD, including rescue inhalers, maintenance inhalers, nebulizer solutions, and oral medications. The specific drugs covered and your cost depend on your plan's formulary (drug list) and which tier the medication is placed on.",
-          "**Common COPD medications covered by Part D:** Rescue inhalers (albuterol/ProAir, Ventolin), maintenance inhalers (Spiriva, Advair/Wixela, Breo Ellipta, Symbicort, Trelegy Ellipta, Anoro Ellipta), nebulizer solutions (ipratropium, budesonide), oral medications (prednisone, roflumilast/Daliresp), and combination therapies.",
-          "**The $2,000 out-of-pocket cap:** Starting in 2025, the Inflation Reduction Act caps total Part D out-of-pocket spending at $2,000 per year. This is a major benefit for COPD patients who often take multiple expensive inhalers. Before this cap, some patients paid $5,000 to $10,000+ annually for their COPD medications. The $2,000 cap applies to all Part D drugs combined, and you can spread payments monthly through the [Medicare Prescription Payment Plan](/faqs/new-medicare-changes).",
-          "**Tier placement matters:** Brand-name inhalers like Trelegy Ellipta or Breo Ellipta are often on Tier 3 or Tier 4, meaning higher copays ($40 to $100+ per fill before reaching the cap). Generic alternatives and preferred brands on lower tiers cost less. Ask your doctor about equally effective medications that may be on a lower tier in your specific Part D plan.",
-          "**Nebulizer solutions vs. inhalers:** If you cannot use a metered-dose inhaler effectively, your doctor may prescribe nebulizer treatments. The nebulizer machine itself is covered under Part B as durable medical equipment, while the nebulizer solutions (medications) are covered under Part D. This split coverage can be confusing but ensures both the device and medications are covered."
-        ],
-        callout: {
-          type: "info",
-          title: "$2,000 Annual Cap Helps COPD Patients",
-          text: "The Inflation Reduction Act's $2,000 annual out-of-pocket cap on Part D drugs is especially beneficial for COPD patients who take multiple inhalers. Once you reach $2,000 in total out-of-pocket drug costs for the year, you pay $0 for all additional prescriptions. You can also enroll in the Medicare Prescription Payment Plan to spread costs into equal monthly payments.",
-        },
-      },
-      {
-        planName: "Medicare Advantage Plans and COPD",
-        icon: "heart",
-        iconColor: "#7C3AED",
-        coverageLabel: "All Original Medicare + Extras",
-        coverageType: "covered",
-        paragraphs: [
-          "[Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans/) (Part C) must cover everything Original Medicare covers, including all COPD treatments. Most MA plans also include Part D drug coverage (MAPD plans), so your inhalers and COPD medications are covered under the same plan. Additionally, many MA plans offer extra benefits relevant to COPD patients.",
-          "**Extra benefits for COPD patients:** Some Medicare Advantage plans offer fitness programs (like SilverSneakers or gym memberships) that can help maintain lung function, telehealth visits for routine COPD check-ins, transportation to medical appointments, and over-the-counter allowances that may cover items like peak flow meters or saline solutions.",
-          "**Network considerations:** If you have COPD, ensure your pulmonologist and preferred hospital are in-network before choosing a Medicare Advantage plan. HMO plans require referrals to see specialists, while PPO plans allow you to see any pulmonologist (though at higher cost for out-of-network providers). For a chronic condition like COPD requiring ongoing specialist care, network access is critical.",
-          "**Prior authorization:** Some Medicare Advantage plans require prior authorization for certain COPD treatments, particularly pulmonary rehabilitation sessions beyond the initial approval, specific brand-name inhalers, or home oxygen therapy. Ask about prior authorization requirements when comparing plans during the [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period)."
-        ],
-      },
-      {
-        planName: "Oxygen Therapy: Coverage Rules and Costs",
-        icon: "wind",
-        iconColor: "#0891B2",
-        coverageLabel: "Covered Under Part B",
-        coverageType: "covered",
-        paragraphs: [
-          "Home oxygen therapy is one of the most important treatments for advanced COPD. Medicare Part B covers oxygen equipment when your doctor documents that your blood oxygen level falls below specific thresholds (typically an arterial PO2 at or below 55 mm Hg, or oxygen saturation at or below 88%).",
-          "**How oxygen rental works:** Medicare rents oxygen equipment from a supplier for 36 months. During this rental period, you pay 20% of the Medicare-approved rental amount (typically $30 to $80 per month depending on the equipment). After 36 months, ownership transfers to you, and the supplier must provide the equipment, maintenance, and servicing for an additional 24 months at no charge.",
-          "**What is covered:** Oxygen concentrators (stationary and portable), compressed gas systems, liquid oxygen systems, tubing, nasal cannulas, masks, regulators, humidifiers, and related supplies. Your doctor's prescription determines which type of system you receive based on your oxygen flow requirements and mobility needs.",
-          "**Qualifying for oxygen:** Your doctor must order an arterial blood gas test or pulse oximetry to document your oxygen levels. The test must show that your oxygen levels meet Medicare's criteria. Your doctor must also provide a Certificate of Medical Necessity (CMN) and a written order specifying the flow rate, frequency of use, and duration. Re-testing may be required after 90 days to confirm ongoing need."
-        ],
-        callout: {
-          type: "warning",
-          title: "Use a Medicare-Enrolled Oxygen Supplier",
-          text: "You must obtain oxygen equipment from a Medicare-enrolled supplier for Medicare to cover the cost. Using a non-enrolled supplier means Medicare will not pay, and you will be responsible for the full cost. Ask your doctor for a referral to an enrolled supplier, or search Medicare.gov's Supplier Directory.",
-        },
-      }
-    ],
-    costTable: {
-      title: "COPD Treatment Costs Under Medicare (2026)",
-      headers: ["Treatment", "Medicare Coverage", "Your Estimated Cost"],
-      rows: [
-        { "Treatment": "Pulmonologist visit", "Medicare Coverage": "Part B (80%)", "Your Estimated Cost": "20% coinsurance (~$30-$60)" },
-        { "Treatment": "Spirometry/pulmonary function test", "Medicare Coverage": "Part B (80%)", "Your Estimated Cost": "20% coinsurance (~$15-$40)" },
-        { "Treatment": "Pulmonary rehabilitation (per session)", "Medicare Coverage": "Part B (80%)", "Your Estimated Cost": "20% coinsurance (~$20-$50)" },
-        { "Treatment": "Home oxygen equipment (monthly rental)", "Medicare Coverage": "Part B (80%)", "Your Estimated Cost": "20% coinsurance (~$30-$80/month)" },
-        { "Treatment": "Rescue inhaler (albuterol/generic)", "Medicare Coverage": "Part D", "Your Estimated Cost": "$0-$15 copay (Tier 1-2)" },
-        { "Treatment": "Maintenance inhaler (brand-name)", "Medicare Coverage": "Part D", "Your Estimated Cost": "$40-$100 copay (Tier 3-4)" },
-        { "Treatment": "Trelegy Ellipta (triple therapy)", "Medicare Coverage": "Part D", "Your Estimated Cost": "$40-$100+ (until $2,000 cap)" },
-        { "Treatment": "Lung cancer screening (LDCT)", "Medicare Coverage": "Part B preventive", "Your Estimated Cost": "$0 (no cost-sharing)" },
-        { "Treatment": "Smoking cessation counseling", "Medicare Coverage": "Part B preventive", "Your Estimated Cost": "$0 (up to 8 sessions/year)" }
-      ],
-      footnote: "Part B costs assume the $257 annual deductible has been met. Part D costs vary by plan formulary. The $2,000 annual Part D out-of-pocket cap applies to all drug costs combined. Medigap plans cover the 20% Part B coinsurance."
-    },
-    exceptionsSection: {
-      title: "Preventive Services and Screenings for COPD Patients",
-      items: [
-        {
-          title: "Lung Cancer Screening (LDCT)",
-          text: "Medicare covers an annual Low-Dose Computed Tomography (LDCT) lung cancer screening at $0 cost for beneficiaries aged 50 to 80 who have a 20+ pack-year smoking history and currently smoke or quit within the past 15 years. COPD patients who meet these criteria should take advantage of this preventive benefit, as COPD and lung cancer share common risk factors."
-        },
-        {
-          title: "Smoking Cessation Counseling",
-          text: "Medicare covers up to 8 face-to-face smoking cessation counseling sessions per year at no cost to you. This is critical for COPD patients who still smoke, as quitting is the single most effective intervention to slow COPD progression. Medicare also covers FDA-approved smoking cessation medications under Part D."
-        },
-        {
-          title: "Flu, Pneumonia, and COVID-19 Vaccines",
-          text: "COPD patients are at higher risk for respiratory infections. Medicare covers flu shots (annually), pneumococcal vaccines (pneumonia), COVID-19 vaccines, and RSV vaccines at $0 cost. These preventive vaccines are especially important for COPD patients to prevent exacerbations that can lead to hospitalization."
-        },
-        {
-          title: "COPD Exacerbation and Hospitalization",
-          text: "When COPD flares require hospitalization, Medicare Part A covers the inpatient stay including ICU care, respiratory therapy, medications administered in the hospital, and discharge planning. You pay the Part A deductible ($1,736 in 2026) for each benefit period. Medigap plans cover this deductible."
-        }
-      ]
-    },
-    faqs: [
-      { question: "Does Medicare cover COPD inhalers?", answer: "Yes. Medicare Part D covers COPD inhalers including rescue inhalers (albuterol, ProAir, Ventolin), maintenance inhalers (Spiriva, Advair, Breo Ellipta, Symbicort, Trelegy Ellipta), and combination therapies. Your cost depends on the plan's formulary tier placement. The $2,000 annual Part D out-of-pocket cap (effective 2025) limits your total inhaler costs for the year." },
-      { question: "Does Medicare cover oxygen for COPD?", answer: "Yes. Medicare Part B covers home oxygen therapy when your doctor documents that your blood oxygen level meets Medicare's criteria (arterial PO2 at or below 55 mm Hg or oxygen saturation at or below 88%). Medicare rents the equipment for 36 months (you pay 20% coinsurance), then the supplier provides it free for an additional 24 months." },
-      { question: "Does Medicare cover pulmonary rehabilitation?", answer: "Yes. Medicare Part B covers pulmonary rehabilitation for COPD patients. The program includes supervised exercise, breathing techniques, disease management education, and psychological support. Medicare covers up to 36 sessions initially, with physician approval for up to 36 additional sessions (72 total). You pay 20% coinsurance per session." },
-      { question: "How much do COPD inhalers cost with Medicare?", answer: "With Medicare Part D, rescue inhalers (generic albuterol) typically cost $0 to $15 per fill. Brand-name maintenance inhalers cost $40 to $100+ per fill depending on tier placement. However, the $2,000 annual out-of-pocket cap means once your total drug costs reach $2,000 for the year, all additional prescriptions are $0. You can spread payments monthly through the Medicare Prescription Payment Plan." },
-      { question: "Does Medicare cover nebulizer treatments for COPD?", answer: "Yes. The nebulizer machine is covered under Medicare Part B as durable medical equipment (you pay 20% coinsurance). The nebulizer solutions (medications like ipratropium or budesonide) are covered under Medicare Part D. Your doctor must provide a prescription and Certificate of Medical Necessity for the nebulizer." },
-      { question: "Does Medicare cover a pulmonologist for COPD?", answer: "Yes. Medicare Part B covers visits to a pulmonologist (lung specialist) when medically necessary. You pay 20% coinsurance after meeting the Part B deductible ($283 in 2026). With an HMO Medicare Advantage plan, you need a referral from your primary care doctor. With a PPO or Original Medicare, no referral is needed." },
-      { question: "Does Medicare cover lung cancer screening for COPD patients?", answer: "Yes. Medicare covers an annual Low-Dose CT (LDCT) lung cancer screening at $0 cost for beneficiaries aged 50 to 80 with a 20+ pack-year smoking history who currently smoke or quit within the past 15 years. Many COPD patients meet these criteria. No referral is needed, but you must get a written order from your doctor." },
-      { question: "Does Medicare Advantage cover COPD treatment?", answer: "Yes. Medicare Advantage plans must cover everything Original Medicare covers, including all COPD treatments. Most MA plans also include Part D drug coverage for inhalers. Some plans offer additional benefits like fitness programs, telehealth visits, and transportation to appointments that can benefit COPD patients. Network restrictions apply." },
-      { question: "Does Medigap help with COPD costs?", answer: "Yes. Medicare Supplement (Medigap) plans cover the cost-sharing associated with COPD treatment under Original Medicare. This includes the 20% Part B coinsurance for pulmonologist visits, pulmonary rehab, oxygen therapy, and the Part A deductible for hospitalizations. Medigap does not cover Part D drug costs (inhalers), so you still need a separate Part D plan." },
-      { question: "Can I get a portable oxygen concentrator with Medicare?", answer: "Yes. Medicare covers portable oxygen concentrators (POCs) when your doctor prescribes oxygen therapy and documents medical necessity. The POC is rented from a Medicare-enrolled supplier under the same 36-month rental terms as stationary equipment. You pay 20% of the Medicare-approved rental amount. Ensure the supplier provides a POC that meets your prescribed flow rate." }
-    ],
-    quickReference: [
-      { icon: "check", text: "<strong>Part B:</strong> Covers pulmonologist visits, pulmonary rehab, oxygen therapy, diagnostics" },
-      { icon: "check", text: "<strong>Part D:</strong> Covers inhalers, nebulizer solutions, oral COPD medications" },
-      { icon: "dollar", text: "<strong>$2,000 cap:</strong> Maximum annual out-of-pocket for all Part D drugs (inhalers included)" },
-      { icon: "check", text: "<strong>Preventive:</strong> Lung cancer screening, smoking cessation, vaccines at $0" },
-      { icon: "info", text: "<strong>Oxygen:</strong> Covered when O2 saturation ≤88%; 36-month rental then free" },
-      { icon: "alert", text: "<strong>Medigap:</strong> Covers Part B coinsurance but not Part D drug costs" }
-    ],
-    relatedTopics: [
-      { title: "Does Medicare Cover Asthma Inhalers?", description: "Inhaler coverage and costs under Medicare Part D.", slug: "does-medicare-cover-asthma-inhalers" },
-      { title: "Medicare Coverage for Cardiovascular Disease", description: "Heart disease treatment coverage under Medicare.", slug: "medicare-coverage-for-cardiovascular-disease" },
-      { title: "Medicare Preventive Services", description: "All preventive screenings and services covered at $0.", slug: "medicare-preventive-services" },
-      { title: "Does Medicare Cover Sleep Apnea?", description: "CPAP and sleep study coverage under Medicare.", slug: "does-medicare-cover-sleep-apnea" }
-    ],
-    sidebarRelatedLinks: [
-      "Does Medicare Cover Asthma Inhalers",
-      "Medicare Coverage for Cardiovascular Disease",
-      "Medicare Preventive Services",
-      "Does Medicare Cover Sleep Apnea"
-    ],
-    ctaBanner: {
-      title: "Need Help Finding COPD Coverage?",
-      text: "Our licensed agents can help you compare Medicare plans with the best coverage for COPD treatments, inhalers, and pulmonary care in your area at no cost to you.",
-    },
-    relatedSlugs: ["does-medicare-cover-asthma-inhalers", "medicare-coverage-for-cardiovascular-disease", "medicare-preventive-services", "does-medicare-cover-sleep-apnea", "does-medicare-cover-ostomy-supplies", "new-medicare-changes"],
+  slug: "does-medicare-cover-copd",
+  seo: {
+    title: "Does Medicare Cover COPD? Inhalers, Oxygen, Rehab & Costs Explained (2026)",
+    description: "Medicare covers COPD treatment including inhalers, oxygen therapy, pulmonary rehabilitation, and specialist visits. Learn costs, coverage rules, and how to find a pulmonologist.",
+    canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-copd/",
+    ogImage: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg",
+    focusKeyword: "does medicare cover copd",
   },
+  title: "Does Medicare Cover COPD? Treatment, Inhalers, Oxygen & Costs (2026)",
+  subtitle: "Yes, Medicare covers COPD (Chronic Obstructive Pulmonary Disease) treatment comprehensively. Medicare Part B covers pulmonologist visits, pulmonary rehabilitation, oxygen therapy, and lung cancer screenings. Medicare Part D covers COPD medications including inhalers and nebulizer solutions. While COPD is not curable, Medicare provides coverage for the treatments that manage symptoms and slow disease progression.",
+  category: "Medicare Coverage",
+  dateUpdated: "July 14, 2026",
+  lastReviewed: "2026-07-14",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
+  },
+  readTime: "11 min read",
+  quickAnswer: {
+    text: "Yes, Medicare covers COPD treatment. Medicare Part B covers doctor and specialist visits (including pulmonologists), diagnostic tests (spirometry, chest X-rays, CT scans), pulmonary rehabilitation programs, and home oxygen therapy when medically necessary. Medicare Part D covers COPD medications, including rescue inhalers, maintenance inhalers, nebulizer solutions, and oral medications. The annual cap on Part D out-of-pocket drug costs also helps lower inhaler expenses for COPD patients.",
+    badges: [
+      {
+        plan: "Medicare Part B",
+        status: "covered",
+      },
+      {
+        plan: "Medicare Part D",
+        status: "covered",
+      },
+      {
+        plan: "Medicare Advantage",
+        status: "covered",
+      },
+      {
+        plan: "Medigap",
+        status: "partial",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Medicare Part A (Inpatient)",
+      coverage: "Covered",
+      icon: "check-circle",
+      notes: "Covers COPD-related hospitalizations, ICU stays, and inpatient rehab",
+    },
+    {
+      planType: "Medicare Part B (Outpatient)",
+      coverage: "Covered",
+      icon: "check-circle",
+      notes: "Covers pulmonologist visits, pulmonary rehab, oxygen therapy, diagnostics",
+    },
+    {
+      planType: "Medicare Part D (Drugs)",
+      coverage: "Covered",
+      icon: "check-circle",
+      notes: "Covers inhalers, nebulizer solutions, oral COPD medications",
+    },
+    {
+      planType: "Medicare Advantage (Part C)",
+      coverage: "Covered + Extras",
+      icon: "check-circle",
+      notes: "All Original Medicare benefits plus possible extra benefits (telehealth, fitness)",
+    },
+    {
+      planType: "Medicare Supplement (Medigap)",
+      coverage: "Covers Cost-Sharing",
+      icon: "check-circle",
+      notes: "Pays Part B deductible, 20% coinsurance on treatments",
+    },
+    {
+      planType: "Lung Cancer Screening (LDCT)",
+      coverage: "Covered Preventive",
+      icon: "check-circle",
+      notes: "$0 cost for qualifying beneficiaries (age 50-80, 20+ pack-year history)",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "Medicare Part B: COPD Treatments and Services",
+      icon: "shield",
+      iconColor: "#1B2A4A",
+      coverageLabel: "Covered (with cost-sharing)",
+      coverageType: "covered",
+      paragraphs: [
+      "Medicare Part B provides extensive coverage for outpatient COPD treatment. This includes visits to your primary care physician and pulmonologist (lung specialist), diagnostic testing, pulmonary rehabilitation, oxygen therapy, and preventive screenings. You pay 20% coinsurance after meeting the annual [Part B deductible](/faqs/medicare-part-a-vs-part-b/) ($283 in 2026).",
+      "**Pulmonologist visits:** Medicare Part B covers visits to a pulmonologist (lung specialist) when referred by your doctor or when medically necessary. If your pulmonologist accepts [Medicare assignment](/faqs/what-is-medicare-assignment), you pay 20% of the Medicare-approved amount. Finding a pulmonologist who accepts Medicare is straightforward: use the [Medicare.gov](https://www.medicare.gov/) Physician Compare tool or call 1-800-MEDICARE.",
+      "**Diagnostic tests:** Medicare covers spirometry (breathing tests), chest X-rays, CT scans, arterial blood gas tests, pulse oximetry, and other tests used to diagnose and monitor COPD. These are covered under Part B with standard 20% coinsurance.",
+      "**Pulmonary rehabilitation:** Medicare Part B covers pulmonary rehabilitation programs for COPD patients. These programs include supervised exercise, breathing techniques, education about managing your condition, and psychological support. Medicare covers up to 36 sessions (with physician approval for up to 36 additional sessions). You pay 20% coinsurance per session.",
+      "**Oxygen therapy:** When your doctor prescribes home oxygen, Medicare Part B covers the rental of oxygen equipment (concentrators, tanks, regulators, tubing, masks) for up to 36 months. After 36 months, the supplier must continue providing the equipment and maintenance for an additional 24 months at no cost to you. You pay 20% of the Medicare-approved rental amount during the initial 36 months.",
+    ],
+      whatItCovers: [
+      "Pulmonologist and specialist visits",
+      "Spirometry and pulmonary function tests",
+      "Chest X-rays and CT scans",
+      "Pulmonary rehabilitation (up to 72 sessions with approval)",
+      "Home oxygen therapy equipment (concentrators, tanks, supplies)",
+      "Nebulizer machines (as durable medical equipment)",
+      "Lung cancer screening (LDCT) for qualifying patients",
+      "Smoking cessation counseling (up to 8 sessions per year)",
+      "Flu, pneumonia, and COVID-19 vaccines ($0 cost)",
+    ],
+      whatItDoesntCover: [
+      "Inhaler medications (covered under Part D, not Part B)",
+      "Over-the-counter supplements or air purifiers",
+      "Long-term custodial care for COPD disability",
+      "Experimental treatments not approved by Medicare",
+    ],
+      callout: {
+      type: "tip",
+      title: "Pulmonary Rehab Can Significantly Improve Quality of Life",
+      text: "Studies show pulmonary rehabilitation reduces COPD hospitalizations by up to 40% and significantly improves exercise capacity and daily functioning. Medicare covers up to 72 sessions with physician approval. Ask your pulmonologist for a referral to a Medicare-certified pulmonary rehab program.",
+    },
+    },
+    {
+      planName: "Medicare Part D: COPD Medications and Inhalers",
+      icon: "pill",
+      iconColor: "#059669",
+      coverageLabel: "Covered (formulary-dependent)",
+      coverageType: "covered",
+      paragraphs: [
+      "Medicare Part D covers prescription medications for COPD, including rescue inhalers, maintenance inhalers, nebulizer solutions, and oral medications. The specific drugs covered and your cost depend on your plan's formulary (drug list) and which tier the medication is placed on.",
+      "**Common COPD medications covered by Part D:** Rescue inhalers (albuterol/ProAir, Ventolin), maintenance inhalers (Spiriva, Advair/Wixela, Breo Ellipta, Symbicort, Trelegy Ellipta, Anoro Ellipta), nebulizer solutions (ipratropium, budesonide), oral medications (prednisone, roflumilast/Daliresp), and combination therapies.",
+      "**The $2,000 out-of-pocket cap:** Starting in 2025, the Inflation Reduction Act caps total Part D out-of-pocket spending at $2,000 per year. This is a major benefit for COPD patients who often take multiple expensive inhalers. Before this cap, some patients paid $5,000 to $10,000+ annually for their COPD medications. The $2,000 cap applies to all Part D drugs combined, and you can spread payments monthly through the [Medicare Prescription Payment Plan](/faqs/new-medicare-changes).",
+      "**Tier placement matters:** Brand-name inhalers like Trelegy Ellipta or Breo Ellipta are often on Tier 3 or Tier 4, meaning higher copays ($40 to $100+ per fill before reaching the cap). Generic alternatives and preferred brands on lower tiers cost less. Ask your doctor about equally effective medications that may be on a lower tier in your specific Part D plan.",
+      "**Nebulizer solutions vs. inhalers:** If you cannot use a metered-dose inhaler effectively, your doctor may prescribe nebulizer treatments. The nebulizer machine itself is covered under Part B as durable medical equipment, while the nebulizer solutions (medications) are covered under Part D. This split coverage can be confusing but ensures both the device and medications are covered.",
+    ],
+      callout: {
+      type: "info",
+      title: "$2,000 Annual Cap Helps COPD Patients",
+      text: "The Inflation Reduction Act's $2,000 annual out-of-pocket cap on Part D drugs is especially beneficial for COPD patients who take multiple inhalers. Once you reach $2,000 in total out-of-pocket drug costs for the year, you pay $0 for all additional prescriptions. You can also enroll in the Medicare Prescription Payment Plan to spread costs into equal monthly payments.",
+    },
+    },
+    {
+      planName: "Medicare Advantage Plans and COPD",
+      icon: "heart",
+      iconColor: "#7C3AED",
+      coverageLabel: "All Original Medicare + Extras",
+      coverageType: "covered",
+      paragraphs: [
+      "[Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans/) (Part C) must cover everything Original Medicare covers, including all COPD treatments. Most MA plans also include Part D drug coverage (MAPD plans), so your inhalers and COPD medications are covered under the same plan. Additionally, many MA plans offer extra benefits relevant to COPD patients.",
+      "**Extra benefits for COPD patients:** Some Medicare Advantage plans offer fitness programs (like SilverSneakers or gym memberships) that can help maintain lung function, telehealth visits for routine COPD check-ins, transportation to medical appointments, and over-the-counter allowances that may cover items like peak flow meters or saline solutions.",
+      "**Network considerations:** If you have COPD, ensure your pulmonologist and preferred hospital are in-network before choosing a Medicare Advantage plan. HMO plans require referrals to see specialists, while PPO plans allow you to see any pulmonologist (though at higher cost for out-of-network providers). For a chronic condition like COPD requiring ongoing specialist care, network access is critical.",
+      "**Prior authorization:** Some Medicare Advantage plans require prior authorization for certain COPD treatments, particularly pulmonary rehabilitation sessions beyond the initial approval, specific brand-name inhalers, or home oxygen therapy. Ask about prior authorization requirements when comparing plans during the [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period).",
+    ],
+    },
+    {
+      planName: "Oxygen Therapy: Coverage Rules and Costs",
+      icon: "wind",
+      iconColor: "#0891B2",
+      coverageLabel: "Covered Under Part B",
+      coverageType: "covered",
+      paragraphs: [
+      "Home oxygen therapy is one of the most important treatments for advanced COPD. Medicare Part B covers oxygen equipment when your doctor documents that your blood oxygen level falls below specific thresholds (typically an arterial PO2 at or below 55 mm Hg, or oxygen saturation at or below 88%).",
+      "**How oxygen rental works:** Medicare rents oxygen equipment from a supplier for 36 months. During this rental period, you pay 20% of the Medicare-approved rental amount (typically $30 to $80 per month depending on the equipment). After 36 months, ownership transfers to you, and the supplier must provide the equipment, maintenance, and servicing for an additional 24 months at no charge.",
+      "**What is covered:** Oxygen concentrators (stationary and portable), compressed gas systems, liquid oxygen systems, tubing, nasal cannulas, masks, regulators, humidifiers, and related supplies. Your doctor's prescription determines which type of system you receive based on your oxygen flow requirements and mobility needs.",
+      "**Qualifying for oxygen:** Your doctor must order an arterial blood gas test or pulse oximetry to document your oxygen levels. The test must show that your oxygen levels meet Medicare's criteria. Your doctor must also provide a Certificate of Medical Necessity (CMN) and a written order specifying the flow rate, frequency of use, and duration. Re-testing may be required after 90 days to confirm ongoing need.",
+    ],
+      callout: {
+      type: "warning",
+      title: "Use a Medicare-Enrolled Oxygen Supplier",
+      text: "You must obtain oxygen equipment from a Medicare-enrolled supplier for Medicare to cover the cost. Using a non-enrolled supplier means Medicare will not pay, and you will be responsible for the full cost. Ask your doctor for a referral to an enrolled supplier, or search Medicare.gov's Supplier Directory.",
+    },
+    },
+  ],
+  costTable: {
+    title: "COPD Treatment Costs Under Medicare (2026)",
+    headers: [
+    "Treatment",
+    "Medicare Coverage",
+    "Your Estimated Cost",
+  ],
+    rows: [
+      {
+        "Treatment": "Pulmonologist visit",
+        "Medicare Coverage": "Part B (80%)",
+        "Your Estimated Cost": "20% coinsurance (~$30-$60)",
+      },
+      {
+        "Treatment": "Spirometry/pulmonary function test",
+        "Medicare Coverage": "Part B (80%)",
+        "Your Estimated Cost": "20% coinsurance (~$15-$40)",
+      },
+      {
+        "Treatment": "Pulmonary rehabilitation (per session)",
+        "Medicare Coverage": "Part B (80%)",
+        "Your Estimated Cost": "20% coinsurance (~$20-$50)",
+      },
+      {
+        "Treatment": "Home oxygen equipment (monthly rental)",
+        "Medicare Coverage": "Part B (80%)",
+        "Your Estimated Cost": "20% coinsurance (~$30-$80/month)",
+      },
+      {
+        "Treatment": "Rescue inhaler (albuterol/generic)",
+        "Medicare Coverage": "Part D",
+        "Your Estimated Cost": "$0-$15 copay (Tier 1-2)",
+      },
+      {
+        "Treatment": "Maintenance inhaler (brand-name)",
+        "Medicare Coverage": "Part D",
+        "Your Estimated Cost": "$40-$100 copay (Tier 3-4)",
+      },
+      {
+        "Treatment": "Trelegy Ellipta (triple therapy)",
+        "Medicare Coverage": "Part D",
+        "Your Estimated Cost": "$40-$100+ (until $2,000 cap)",
+      },
+      {
+        "Treatment": "Lung cancer screening (LDCT)",
+        "Medicare Coverage": "Part B preventive",
+        "Your Estimated Cost": "$0 (no cost-sharing)",
+      },
+      {
+        "Treatment": "Smoking cessation counseling",
+        "Medicare Coverage": "Part B preventive",
+        "Your Estimated Cost": "$0 (up to 8 sessions/year)",
+      },
+    ],
+    footnote: "Part B costs assume the $257 annual deductible has been met. Part D costs vary by plan formulary. The $2,000 annual Part D out-of-pocket cap applies to all drug costs combined. Medigap plans cover the 20% Part B coinsurance.",
+  },
+  exceptionsSection: {
+    title: "Preventive Services and Screenings for COPD Patients",
+    items: [
+      {
+        title: "Lung Cancer Screening (LDCT)",
+        text: "Medicare covers an annual Low-Dose Computed Tomography (LDCT) lung cancer screening at $0 cost for beneficiaries aged 50 to 80 who have a 20+ pack-year smoking history and currently smoke or quit within the past 15 years. COPD patients who meet these criteria should take advantage of this preventive benefit, as COPD and lung cancer share common risk factors.",
+      },
+      {
+        title: "Smoking Cessation Counseling",
+        text: "Medicare covers up to 8 face-to-face smoking cessation counseling sessions per year at no cost to you. This is critical for COPD patients who still smoke, as quitting is the single most effective intervention to slow COPD progression. Medicare also covers FDA-approved smoking cessation medications under Part D.",
+      },
+      {
+        title: "Flu, Pneumonia, and COVID-19 Vaccines",
+        text: "COPD patients are at higher risk for respiratory infections. Medicare covers flu shots (annually), pneumococcal vaccines (pneumonia), COVID-19 vaccines, and RSV vaccines at $0 cost. These preventive vaccines are especially important for COPD patients to prevent exacerbations that can lead to hospitalization.",
+      },
+      {
+        title: "COPD Exacerbation and Hospitalization",
+        text: "When COPD flares require hospitalization, Medicare Part A covers the inpatient stay including ICU care, respiratory therapy, medications administered in the hospital, and discharge planning. You pay the Part A deductible ($1,736 in 2026) for each benefit period. Medigap plans cover this deductible.",
+      },
+    ],
+  },
+  faqs: [
+    {
+      question: "Does Medicare cover COPD inhalers?",
+      answer: "Yes. Medicare Part D covers COPD inhalers including rescue inhalers (albuterol, ProAir, Ventolin), maintenance inhalers (Spiriva, Advair, Breo Ellipta, Symbicort, Trelegy Ellipta), and combination therapies. Your cost depends on the plan's formulary tier placement. The $2,000 annual Part D out-of-pocket cap (effective 2025) limits your total inhaler costs for the year.",
+    },
+    {
+      question: "Does Medicare cover oxygen for COPD?",
+      answer: "Yes. Medicare Part B covers home oxygen therapy when your doctor documents that your blood oxygen level meets Medicare's criteria (arterial PO2 at or below 55 mm Hg or oxygen saturation at or below 88%). Medicare rents the equipment for 36 months (you pay 20% coinsurance), then the supplier provides it free for an additional 24 months.",
+    },
+    {
+      question: "Does Medicare cover pulmonary rehabilitation?",
+      answer: "Yes. Medicare Part B covers pulmonary rehabilitation for COPD patients. The program includes supervised exercise, breathing techniques, disease management education, and psychological support. Medicare covers up to 36 sessions initially, with physician approval for up to 36 additional sessions (72 total). You pay 20% coinsurance per session.",
+    },
+    {
+      question: "How much do COPD inhalers cost with Medicare?",
+      answer: "With Medicare Part D, rescue inhalers (generic albuterol) typically cost $0 to $15 per fill. Brand-name maintenance inhalers cost $40 to $100+ per fill depending on tier placement. However, the $2,000 annual out-of-pocket cap means once your total drug costs reach $2,000 for the year, all additional prescriptions are $0. You can spread payments monthly through the Medicare Prescription Payment Plan.",
+    },
+    {
+      question: "Does Medicare cover nebulizer treatments for COPD?",
+      answer: "Yes. The nebulizer machine is covered under Medicare Part B as durable medical equipment (you pay 20% coinsurance). The nebulizer solutions (medications like ipratropium or budesonide) are covered under Medicare Part D. Your doctor must provide a prescription and Certificate of Medical Necessity for the nebulizer.",
+    },
+    {
+      question: "Does Medicare cover a pulmonologist for COPD?",
+      answer: "Yes. Medicare Part B covers visits to a pulmonologist (lung specialist) when medically necessary. You pay 20% coinsurance after meeting the Part B deductible ($283 in 2026). With an HMO Medicare Advantage plan, you need a referral from your primary care doctor. With a PPO or Original Medicare, no referral is needed.",
+    },
+    {
+      question: "Does Medicare cover lung cancer screening for COPD patients?",
+      answer: "Yes. Medicare covers an annual Low-Dose CT (LDCT) lung cancer screening at $0 cost for beneficiaries aged 50 to 80 with a 20+ pack-year smoking history who currently smoke or quit within the past 15 years. Many COPD patients meet these criteria. No referral is needed, but you must get a written order from your doctor.",
+    },
+    {
+      question: "Does Medicare Advantage cover COPD treatment?",
+      answer: "Yes. Medicare Advantage plans must cover everything Original Medicare covers, including all COPD treatments. Most MA plans also include Part D drug coverage for inhalers. Some plans offer additional benefits like fitness programs, telehealth visits, and transportation to appointments that can benefit COPD patients. Network restrictions apply.",
+    },
+    {
+      question: "Does Medigap help with COPD costs?",
+      answer: "Yes. Medicare Supplement (Medigap) plans cover the cost-sharing associated with COPD treatment under Original Medicare. This includes the 20% Part B coinsurance for pulmonologist visits, pulmonary rehab, oxygen therapy, and the Part A deductible for hospitalizations. Medigap does not cover Part D drug costs (inhalers), so you still need a separate Part D plan.",
+    },
+    {
+      question: "Can I get a portable oxygen concentrator with Medicare?",
+      answer: "Yes. Medicare covers portable oxygen concentrators (POCs) when your doctor prescribes oxygen therapy and documents medical necessity. The POC is rented from a Medicare-enrolled supplier under the same 36-month rental terms as stationary equipment. You pay 20% of the Medicare-approved rental amount. Ensure the supplier provides a POC that meets your prescribed flow rate.",
+    },
+    {
+      question: "Does Medicare cover COPD diagnostic testing?",
+      answer: "Yes, Medicare Part B covers diagnostic testing used to confirm or monitor COPD, including spirometry, chest X-rays, and CT scans, when ordered by your doctor as medically necessary. These tests are ty",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "check",
+      text: "<strong>Part B:</strong> Covers pulmonologist visits, pulmonary rehab, oxygen therapy, diagnostics",
+    },
+    {
+      icon: "check",
+      text: "<strong>Part D:</strong> Covers inhalers, nebulizer solutions, oral COPD medications",
+    },
+    {
+      icon: "dollar",
+      text: "<strong>$2,000 cap:</strong> Maximum annual out-of-pocket for all Part D drugs (inhalers included)",
+    },
+    {
+      icon: "check",
+      text: "<strong>Preventive:</strong> Lung cancer screening, smoking cessation, vaccines at $0",
+    },
+    {
+      icon: "info",
+      text: "<strong>Oxygen:</strong> Covered when O2 saturation ≤88%; 36-month rental then free",
+    },
+    {
+      icon: "alert",
+      text: "<strong>Medigap:</strong> Covers Part B coinsurance but not Part D drug costs",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Does Medicare Cover Asthma Inhalers?",
+      description: "Inhaler coverage and costs under Medicare Part D.",
+      slug: "does-medicare-cover-asthma-inhalers",
+    },
+    {
+      title: "Medicare Coverage for Cardiovascular Disease",
+      description: "Heart disease treatment coverage under Medicare.",
+      slug: "medicare-coverage-for-cardiovascular-disease",
+    },
+    {
+      title: "Medicare Preventive Services",
+      description: "All preventive screenings and services covered at $0.",
+      slug: "medicare-preventive-services",
+    },
+    {
+      title: "Does Medicare Cover Sleep Apnea?",
+      description: "CPAP and sleep study coverage under Medicare.",
+      slug: "does-medicare-cover-sleep-apnea",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "Does Medicare Cover Asthma Inhalers",
+    "Medicare Coverage for Cardiovascular Disease",
+    "Medicare Preventive Services",
+    "Does Medicare Cover Sleep Apnea",
+  ],
+  ctaBanner: {
+    title: "Need Help Finding COPD Coverage?",
+    text: "Our licensed agents can help you compare Medicare plans with the best coverage for COPD treatments, inhalers, and pulmonary care in your area at no cost to you.",
+  },
+  relatedSlugs: [
+    "does-medicare-cover-asthma-inhalers",
+    "medicare-coverage-for-cardiovascular-disease",
+    "medicare-preventive-services",
+    "does-medicare-cover-sleep-apnea",
+    "does-medicare-cover-ostomy-supplies",
+    "new-medicare-changes",
+  ],
+},
   {
     slug: "does-medicare-cover-pre-existing-conditions",
     seo: {
