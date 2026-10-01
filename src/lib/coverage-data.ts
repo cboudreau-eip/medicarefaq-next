@@ -26921,253 +26921,365 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   /* ─── MEDICARE EASY PAY ─── */
   {
-    slug: "medicare-easy-pay",
-    seo: {
-      title: "Medicare Easy Pay: How to Set up Automatic Premium Payments | MedicareFAQ",
-      description: "Medicare Easy Pay is a free service that automatically deducts your Medicare premiums from your bank account. Learn how to enroll, what it covers, and how it compares to other payment options.",
-      canonical: "https://www.medicarefaq.com/faqs/medicare-easy-pay/",
-      ogImage: "/images/medicarefaq-cover.jpg",
-    },
-    title: "Medicare Easy Pay",
-    subtitle: "Medicare Easy Pay is a free automatic payment service that deducts your Medicare premiums directly from your bank account each month, so you never miss a payment.",
-    category: "Medicare FAQ",
-    dateUpdated: "April 29, 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is the Compliance & Editorial Manager at MedicareFAQ.",
-    },
-    readTime: "5 min read",
-    quickAnswer: {
-      text: "Medicare Easy Pay is a free service offered by the Centers for Medicare & Medicaid Services (CMS) that automatically deducts your Medicare premium payments from your checking or savings account each month. It is available for Part A, Part B, and some Medicare Advantage and Part D premiums billed directly by Medicare. It takes 6\u20138 weeks to activate after enrollment.",
-      badges: [
-        { plan: "Part A", status: "covered" },
-        { plan: "Part B", status: "covered" },
-        { plan: "Part D", status: "partial" },
-        { plan: "Medicare Advantage", status: "partial" }],
-    },
-    comparisonTable: [
-      {
-        planType: "Medicare Easy Pay (Bank Auto-Debit)",
-        coverage: "Free automatic deduction from checking or savings account",
-        icon: "shield-check",
-        notes: "Best option if you don't receive Social Security; takes 6-8 weeks to activate",
-      },
-      {
-        planType: "Social Security Deduction",
-        coverage: "Automatic deduction from monthly Social Security benefit",
-        icon: "shield-check",
-        notes: "Automatic for most beneficiaries receiving SS; no enrollment needed",
-      },
-      {
-        planType: "[Medicare.gov](https://www.medicare.gov/) Online Bill Pay",
-        coverage: "One-time or recurring online payment via Medicare account",
-        icon: "info",
-        notes: "Requires Medicare.gov account; good for one-time payments",
-      },
-      {
-        planType: "Mail Check or Money Order",
-        coverage: "Paper check mailed to Medicare Premium Collection Center",
-        icon: "alert-triangle",
-        notes: "Slowest option; risk of missed payments; not recommended",
-      }],
-    planBreakdowns: [
-      {
-        planName: "What is Medicare Easy Pay?",
-        icon: "credit-card",
-        iconColor: "text-blue-600",
-        coverageLabel: "Automatic Bank Deduction",
-        coverageType: "covered",
-        paragraphs: [
-          "Medicare Easy Pay is a free electronic funds transfer (EFT) service provided by CMS. Once enrolled, your Medicare premiums are automatically deducted from your checking or savings account on the same date each month.",
-          "It is the recommended payment method for Medicare beneficiaries who do not receive Social Security benefits (and therefore don't have premiums automatically deducted from their SS check)."],
-        whatItCovers: [
-          "Medicare Part A premiums (for those who pay a premium)",
-          "Medicare Part B premiums ($202.90/month standard in 2026)",
-          "Medicare Part D premiums billed directly by Medicare (not all plans)",
-          "Medicare Advantage premiums billed directly by Medicare (not all plans)",
-          "Works with checking or savings accounts at U.S. banks"],
-        whatItDoesntCover: [
-          "Does not cover premiums billed directly by your private plan (MA or Part D)",
-          "Does not work with credit cards or prepaid debit cards",
-          "Cannot be used for Medigap (Medicare Supplement) premiums"],
-        callout: {
-          type: "info",
-          title: "Who Needs Medicare Easy Pay?",
-          text: "If you receive Social Security benefits, your Part B premium is already automatically deducted from your SS check - you don't need Easy Pay. Easy Pay is most useful if you have Medicare but don't yet receive Social Security (e.g., you enrolled in Medicare at 65 but delayed Social Security).",
-        },
-      },
-      {
-        planName: "How to Enroll in Medicare Easy Pay",
-        icon: "file-text",
-        iconColor: "text-green-600",
-        coverageLabel: "Enrollment Process",
-        coverageType: "covered",
-        paragraphs: [
-          "Enrolling in Medicare Easy Pay is straightforward. You can sign up online through your Medicare.gov account or by completing a paper form.",
-          "After enrollment, it typically takes 6\u20138 weeks for automatic deductions to begin. During this time, you must continue paying your premiums by another method to avoid a lapse in coverage."],
-        whatItCovers: [
-          "Option 1: Sign in to Medicare.gov and go to 'Pay My Premium' to set up Easy Pay online",
-          "Option 2: Complete Form CMS-10048 (Authorization Agreement for Preauthorized Payments) and mail it to the Medicare Premium Collection Center",
-          "You'll need your bank account number and routing number",
-          "Deductions occur on the same day each month (typically the 20th)",
-          "You'll receive a confirmation letter once enrollment is processed"],
-        whatItDoesntCover: [
-          "Cannot enroll by phone - must use Medicare.gov or paper form",
-          "Must continue paying manually for 6-8 weeks after enrollment"],
-        callout: {
-          type: "warning",
-          title: "Don't Miss Payments During the Waiting Period",
-          text: "After enrolling in Easy Pay, it takes 6\u20138 weeks to activate. Continue paying your premiums by check or online during this period. Missing payments can result in a 2-month grace period, after which your coverage may be terminated.",
-        },
-      },
-      {
-        planName: "How to Cancel or Change Medicare Easy Pay",
-        icon: "settings",
-        iconColor: "text-purple-600",
-        coverageLabel: "Managing Your Enrollment",
-        coverageType: "covered",
-        paragraphs: [
-          "You can cancel or change your Medicare Easy Pay enrollment at any time. Changes also take 6\u20138 weeks to process, so plan accordingly."],
-        whatItCovers: [
-          "Cancel online at Medicare.gov or by calling 1-800-MEDICARE (1-800-633-4227)",
-          "To change bank accounts, complete a new Form CMS-10048 with the new account information",
-          "After cancellation, you must resume paying premiums by another method",
-          "If your bank account changes, update Easy Pay immediately to avoid missed payments"],
-        whatItDoesntCover: [],
-      },
-      {
-        planName: "Medicare Premium Payment Options Compared",
-        icon: "list",
-        iconColor: "text-teal-600",
-        coverageLabel: "All Payment Methods",
-        coverageType: "partial",
-        paragraphs: [
-          "Medicare offers several ways to pay your premiums. The best option depends on whether you receive Social Security and your personal preference for automation."],
-        whatItCovers: [
-          "Social Security auto-deduction: Automatic if you receive SS benefits (most common)",
-          "Medicare Easy Pay: Free bank auto-debit; best for non-SS recipients",
-          "Medicare.gov online payment: One-time or recurring; requires account login",
-          "Mail check/money order: Payable to 'Medicare Premium Collection Center'",
-          "Railroad Retirement Board (RRB): Deducted from RRB benefits if applicable"],
-        whatItDoesntCover: [
-          "Credit card payments are not accepted by Medicare directly",
-          "Cash payments are not accepted"],
-      }],
-    costTable: {
-      title: "Medicare Premium Payment Methods: Comparison",
-      headers: ["Payment Method", "Cost", "Setup Required", "Processing Time", "Best For"],
-      rows: [
-        { "Payment Method": "Social Security Deduction", "Cost": "Free", "Setup Required": "None (automatic)", "Processing Time": "Immediate", "Best For": "SS recipients" },
-        { "Payment Method": "Medicare Easy Pay", "Cost": "Free", "Setup Required": "Online or paper form", "Processing Time": "6\u20138 weeks", "Best For": "Non-SS recipients" },
-        { "Payment Method": "Medicare.gov Online", "Cost": "Free", "Setup Required": "Medicare.gov account", "Processing Time": "1\u20133 business days", "Best For": "One-time payments" },
-        { "Payment Method": "Mail Check", "Cost": "Postage", "Setup Required": "None", "Processing Time": "7\u2013-10 days", "Best For": "Last resort only" },
-        { "Payment Method": "RRB Deduction", "Cost": "Free", "Setup Required": "None (automatic)", "Processing Time": "Immediate", "Best For": "Railroad retirees" }],
-      footnote: "Part B standard premium is $202.90/month in 2026. Easy Pay and Social Security deductions are the most reliable methods to avoid missed payments.",
-    },
-    exceptionsSection: {
-      title: "Important Notes & Exceptions",
-      items: [
-        {
-          title: "Part D and Medicare Advantage Premiums",
-          text: "Medicare Easy Pay only covers premiums billed directly by Medicare (CMS). If your Part D or Medicare Advantage plan bills you directly (most do), you must pay those premiums separately to your plan. Contact your plan to set up automatic payments with them.",
-          highlight: "Most MA and Part D plans bill you directly - Easy Pay does not cover these.",
-        },
-        {
-          title: "What Happens if You Miss a Payment?",
-          text: "If you miss a Medicare Part B premium payment, you have a 2-month grace period to pay. After the grace period, Medicare may disenroll you from Part B. Reinstatement may require waiting until the next General Enrollment Period (January 1 \u2013 March 31).",
-        },
-        {
-          title: "Medigap Premiums",
-          text: "Medicare Supplement (Medigap) premiums are paid directly to your private insurance company, not to Medicare. Easy Pay cannot be used for Medigap premiums. Contact your Medigap insurer to set up automatic payments.",
-        },
-        {
-          title: "IRMAA Surcharges",
-          text: "If you owe an IRMAA surcharge (income-related adjustment), it is included in your total Part B premium and will be automatically deducted via Easy Pay or Social Security deduction along with your standard premium.",
-        }],
-    },
-    legislativeUpdate: {
-      title: "Recent Updates",
-      items: [
-        {
-          title: "Part B Premium Increased to $202.90 in 2026",
-          status: "Passed",
-          description: "The standard Medicare Part B premium increased to $202.90/month in 2026 (from $185.00 in 2025). This is the amount automatically deducted via Easy Pay or Social Security.",
-        },
-        {
-          title: "Medicare.gov Online Payment Improvements",
-          status: "Passed",
-          description: "CMS improved the Medicare.gov online payment portal in 2025, making it easier to set up and manage Easy Pay enrollment and view payment history.",
-        }],
-    },
-    alternativesSection: {
-      title: "Tips for Managing Medicare Premium Payments",
-      paragraphs: [
-        "Missing Medicare premium payments can result in loss of coverage. Setting up automatic payments is the best way to ensure continuous coverage."],
-      checklist: {
-        title: "Premium Payment Checklist",
-        items: [
-          "Determine how your premiums are currently being paid (check your Medicare Summary Notice)",
-          "If you receive Social Security, your Part B premium is already auto-deducted",
-          "If you don't receive SS, enroll in Medicare Easy Pay at Medicare.gov",
-          "Set up separate automatic payments with your Part D or MA plan directly",
-          "Update Easy Pay immediately if you change bank accounts",
-          "Keep your Medicare.gov account login current to monitor payment status",
-          "Contact 1-800-MEDICARE if you have questions about your premium bill"],
-        type: "tip",
-      },
-    },
-    faqs: [
-      {
-        question: "What is Medicare Easy Pay?",
-        answer: "Medicare Easy Pay is a free service that automatically deducts your Medicare Part A and/or Part B premiums from your bank account each month. It is offered by CMS and is ideal for beneficiaries who don't receive Social Security.",
-      },
-      {
-        question: "How do I Sign up for Medicare Easy Pay?",
-        answer: "Sign up online at Medicare.gov under 'Pay My Premium,' or complete Form CMS-10048 and mail it to the Medicare Premium Collection Center. You'll need your bank account and routing numbers.",
-      },
-      {
-        question: "How Long Does Medicare Easy Pay Take to Start?",
-        answer: "It takes 6\u20138 weeks after enrollment for automatic deductions to begin. Continue paying your premiums manually during this period.",
-      },
-      {
-        question: "Does Medicare Easy Pay Cover Part D Premiums?",
-        answer: "Only if your Part D plan is billed directly by Medicare. Most Part D and Medicare Advantage plans bill you directly, so you'd need to set up automatic payments with your plan separately.",
-      },
-      {
-        question: "What Happens if I Miss a Medicare Premium Payment?",
-        answer: "You have a 2-month grace period. After that, Medicare may disenroll you from Part B. Reinstatement may require waiting until the General Enrollment Period (January\u2013March).",
-      }],
-    quickReference: [
-      { icon: "check", text: "Medicare Easy Pay is free and automatically deducts premiums from your bank account" },
-      { icon: "info", text: "Takes 6\u20138 weeks to activate \u2014 keep paying manually until then" },
-      { icon: "alert", text: "Does NOT cover most Part D or MA plan premiums billed directly by the plan" },
-      { icon: "check", text: "Enroll online at Medicare.gov or via Form CMS-10048" },
-      { icon: "dollar", text: "2026 Part B standard premium: $202.90/month" }],
-    relatedTopics: [
-      { title: "Medicare Paperless Billing", description: "Go paperless with your Medicare statements.", slug: "medicare-paperless-billing" },
-      { title: "Medicare Part B Premiums", description: "Full breakdown of Part B costs in 2026.", slug: "medicare-part-b-premiums" },
-      { title: "5 Ways to Reduce Medicare Premiums", description: "Strategies to lower your Medicare costs.", slug: "reduce-medicare-premiums" },
-      { title: "Medicare Costs in 2026", description: "Updated 2026 Medicare cost figures.", slug: "medicare-costs-in-2026-premiums-deductibles-and-key-changes" }],
-    sidebarRelatedLinks: [
-      "Medicare Paperless Billing",
-      "Part B Premiums",
-      "Reduce Premiums",
-      "Medicare Costs 2026"],
-    ctaBanner: {
-      title: "Questions about Medicare Premium Payments?",
-      text: "Our licensed agents can help you understand your Medicare billing options and find the most cost-effective coverage for your needs.",
-    },
-    relatedSlugs: ["medicare-paperless-billing", "medicare-part-b-premiums", "reduce-medicare-premiums", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "will-medicare-pay-for-a-nebulizer-machine"],
+  slug: "medicare-easy-pay",
+  seo: {
+    title: "Medicare Easy Pay 2026: How to Enroll & Stop Missing Premiums | MedicareFAQ",
+    description: "Never miss a Medicare premium again. See how Medicare Easy Pay works, which premiums it covers, how long setup takes, and how to enroll in minutes.",
+    canonical: "https://www.medicarefaq.com/faqs/medicare-easy-pay/",
+    ogImage: "/images/medicarefaq-cover.jpg",
   },
+  title: "Medicare Easy Pay",
+  subtitle: "Medicare Easy Pay is a free automatic payment service that deducts your Medicare premiums directly from your bank account each month, so you never miss a payment.",
+  category: "Medicare FAQ",
+  dateUpdated: "April 29, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is the Compliance & Editorial Manager at MedicareFAQ.",
+  },
+  readTime: "5 min read",
+  quickAnswer: {
+    text: "Medicare Easy Pay is a free, optional service from the Centers for Medicare & Medicaid Services (CMS) that automatically withdraws your Medicare premium from your checking or savings account each month, so you don't have to mail a check or pay online. It covers Part A and Part B premiums, plus some Medicare Advantage and Part D premiums billed directly by Medicare, though it does not cover premiums billed by your employer or a private insurer. Setup typically takes 6–8 weeks after you enroll.",
+    badges: [
+      {
+        plan: "Part A",
+        status: "covered",
+      },
+      {
+        plan: "Part B",
+        status: "covered",
+      },
+      {
+        plan: "Part D",
+        status: "partial",
+      },
+      {
+        plan: "Medicare Advantage",
+        status: "partial",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Medicare Easy Pay (Bank Auto-Debit)",
+      coverage: "Free automatic deduction from checking or savings account",
+      icon: "shield-check",
+      notes: "Best option if you don't receive Social Security; takes 6-8 weeks to activate",
+    },
+    {
+      planType: "Social Security Deduction",
+      coverage: "Automatic deduction from monthly Social Security benefit",
+      icon: "shield-check",
+      notes: "Automatic for most beneficiaries receiving SS; no enrollment needed",
+    },
+    {
+      planType: "[Medicare.gov](https://www.medicare.gov/) Online Bill Pay",
+      coverage: "One-time or recurring online payment via Medicare account",
+      icon: "info",
+      notes: "Requires Medicare.gov account; good for one-time payments",
+    },
+    {
+      planType: "Mail Check or Money Order",
+      coverage: "Paper check mailed to Medicare Premium Collection Center",
+      icon: "alert-triangle",
+      notes: "Slowest option; risk of missed payments; not recommended",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "What is Medicare Easy Pay?",
+      icon: "credit-card",
+      iconColor: "text-blue-600",
+      coverageLabel: "Automatic Bank Deduction",
+      coverageType: "covered",
+      paragraphs: [
+      "Medicare Easy Pay is a free electronic funds transfer (EFT) service provided by CMS. Once enrolled, your Medicare premiums are automatically deducted from your checking or savings account on the same date each month.",
+      "It is the recommended payment method for Medicare beneficiaries who do not receive Social Security benefits (and therefore don't have premiums automatically deducted from their SS check).",
+    ],
+      whatItCovers: [
+      "Medicare Part A premiums (for those who pay a premium)",
+      "Medicare Part B premiums ($202.90/month standard in 2026)",
+      "Medicare Part D premiums billed directly by Medicare (not all plans)",
+      "Medicare Advantage premiums billed directly by Medicare (not all plans)",
+      "Works with checking or savings accounts at U.S. banks",
+    ],
+      whatItDoesntCover: [
+      "Does not cover premiums billed directly by your private plan (MA or Part D)",
+      "Does not work with credit cards or prepaid debit cards",
+      "Cannot be used for Medigap (Medicare Supplement) premiums",
+    ],
+      callout: {
+      type: "info",
+      title: "Who Needs Medicare Easy Pay?",
+      text: "If you receive Social Security benefits, your Part B premium is already automatically deducted from your SS check - you don't need Easy Pay. Easy Pay is most useful if you have Medicare but don't yet receive Social Security (e.g., you enrolled in Medicare at 65 but delayed Social Security).",
+    },
+    },
+    {
+      planName: "How to Enroll in Medicare Easy Pay",
+      icon: "file-text",
+      iconColor: "text-green-600",
+      coverageLabel: "Enrollment Process",
+      coverageType: "covered",
+      paragraphs: [
+      "Enrolling in Medicare Easy Pay is straightforward. You can sign up online through your Medicare.gov account or by completing a paper form.",
+      "After enrollment, it typically takes 6–8 weeks for automatic deductions to begin. During this time, you must continue paying your premiums by another method to avoid a lapse in coverage.",
+    ],
+      whatItCovers: [
+      "Option 1: Sign in to Medicare.gov and go to 'Pay My Premium' to set up Easy Pay online",
+      "Option 2: Complete Form CMS-10048 (Authorization Agreement for Preauthorized Payments) and mail it to the Medicare Premium Collection Center",
+      "You'll need your bank account number and routing number",
+      "Deductions occur on the same day each month (typically the 20th)",
+      "You'll receive a confirmation letter once enrollment is processed",
+    ],
+      whatItDoesntCover: [
+      "Cannot enroll by phone - must use Medicare.gov or paper form",
+      "Must continue paying manually for 6-8 weeks after enrollment",
+    ],
+      callout: {
+      type: "warning",
+      title: "Don't Miss Payments During the Waiting Period",
+      text: "After enrolling in Easy Pay, it takes 6–8 weeks to activate. Continue paying your premiums by check or online during this period. Missing payments can result in a 2-month grace period, after which your coverage may be terminated.",
+    },
+    },
+    {
+      planName: "How to Cancel or Change Medicare Easy Pay",
+      icon: "settings",
+      iconColor: "text-purple-600",
+      coverageLabel: "Managing Your Enrollment",
+      coverageType: "covered",
+      paragraphs: [
+      "You can cancel or change your Medicare Easy Pay enrollment at any time. Changes also take 6–8 weeks to process, so plan accordingly.",
+    ],
+      whatItCovers: [
+      "Cancel online at Medicare.gov or by calling 1-800-MEDICARE (1-800-633-4227)",
+      "To change bank accounts, complete a new Form CMS-10048 with the new account information",
+      "After cancellation, you must resume paying premiums by another method",
+      "If your bank account changes, update Easy Pay immediately to avoid missed payments",
+    ],
+      whatItDoesntCover: [],
+    },
+    {
+      planName: "Medicare Premium Payment Options Compared",
+      icon: "list",
+      iconColor: "text-teal-600",
+      coverageLabel: "All Payment Methods",
+      coverageType: "partial",
+      paragraphs: [
+      "Medicare offers several ways to pay your premiums. The best option depends on whether you receive Social Security and your personal preference for automation.",
+    ],
+      whatItCovers: [
+      "Social Security auto-deduction: Automatic if you receive SS benefits (most common)",
+      "Medicare Easy Pay: Free bank auto-debit; best for non-SS recipients",
+      "Medicare.gov online payment: One-time or recurring; requires account login",
+      "Mail check/money order: Payable to 'Medicare Premium Collection Center'",
+      "Railroad Retirement Board (RRB): Deducted from RRB benefits if applicable",
+    ],
+      whatItDoesntCover: [
+      "Credit card payments are not accepted by Medicare directly",
+      "Cash payments are not accepted",
+    ],
+    },
+  ],
+  costTable: {
+    title: "Medicare Premium Payment Methods: Comparison",
+    headers: [
+    "Payment Method",
+    "Cost",
+    "Setup Required",
+    "Processing Time",
+    "Best For",
+  ],
+    rows: [
+      {
+        "Payment Method": "Social Security Deduction",
+        "Cost": "Free",
+        "Setup Required": "None (automatic)",
+        "Processing Time": "Immediate",
+        "Best For": "SS recipients",
+      },
+      {
+        "Payment Method": "Medicare Easy Pay",
+        "Cost": "Free",
+        "Setup Required": "Online or paper form",
+        "Processing Time": "6–8 weeks",
+        "Best For": "Non-SS recipients",
+      },
+      {
+        "Payment Method": "Medicare.gov Online",
+        "Cost": "Free",
+        "Setup Required": "Medicare.gov account",
+        "Processing Time": "1–3 business days",
+        "Best For": "One-time payments",
+      },
+      {
+        "Payment Method": "Mail Check",
+        "Cost": "Postage",
+        "Setup Required": "None",
+        "Processing Time": "7–-10 days",
+        "Best For": "Last resort only",
+      },
+      {
+        "Payment Method": "RRB Deduction",
+        "Cost": "Free",
+        "Setup Required": "None (automatic)",
+        "Processing Time": "Immediate",
+        "Best For": "Railroad retirees",
+      },
+    ],
+    footnote: "Part B standard premium is $202.90/month in 2026. Easy Pay and Social Security deductions are the most reliable methods to avoid missed payments.",
+  },
+  exceptionsSection: {
+    title: "Important Notes & Exceptions",
+    items: [
+      {
+        title: "Part D and Medicare Advantage Premiums",
+        text: "Medicare Easy Pay only covers premiums billed directly by Medicare (CMS). If your Part D or Medicare Advantage plan bills you directly (most do), you must pay those premiums separately to your plan. Contact your plan to set up automatic payments with them.",
+        highlight: "Most MA and Part D plans bill you directly - Easy Pay does not cover these.",
+      },
+      {
+        title: "What Happens if You Miss a Payment?",
+        text: "If you miss a Medicare Part B premium payment, you have a 2-month grace period to pay. After the grace period, Medicare may disenroll you from Part B. Reinstatement may require waiting until the next General Enrollment Period (January 1 – March 31).",
+      },
+      {
+        title: "Medigap Premiums",
+        text: "Medicare Supplement (Medigap) premiums are paid directly to your private insurance company, not to Medicare. Easy Pay cannot be used for Medigap premiums. Contact your Medigap insurer to set up automatic payments.",
+      },
+      {
+        title: "IRMAA Surcharges",
+        text: "If you owe an IRMAA surcharge (income-related adjustment), it is included in your total Part B premium and will be automatically deducted via Easy Pay or Social Security deduction along with your standard premium.",
+      },
+    ],
+  },
+  legislativeUpdate: {
+    title: "Recent Updates",
+    items: [
+      {
+        title: "Part B Premium Increased to $202.90 in 2026",
+        status: "Passed",
+        description: "The standard Medicare Part B premium increased to $202.90/month in 2026 (from $185.00 in 2025). This is the amount automatically deducted via Easy Pay or Social Security.",
+      },
+      {
+        title: "Medicare.gov Online Payment Improvements",
+        status: "Passed",
+        description: "CMS improved the Medicare.gov online payment portal in 2025, making it easier to set up and manage Easy Pay enrollment and view payment history.",
+      },
+    ],
+  },
+  alternativesSection: {
+    title: "Tips for Managing Medicare Premium Payments",
+    paragraphs: [
+    "Missing Medicare premium payments can result in loss of coverage. Setting up automatic payments is the best way to ensure continuous coverage.",
+  ],
+    checklist: {
+    title: "Premium Payment Checklist",
+    items: [
+    "Determine how your premiums are currently being paid (check your Medicare Summary Notice)",
+    "If you receive Social Security, your Part B premium is already auto-deducted",
+    "If you don't receive SS, enroll in Medicare Easy Pay at Medicare.gov",
+    "Set up separate automatic payments with your Part D or MA plan directly",
+    "Update Easy Pay immediately if you change bank accounts",
+    "Keep your Medicare.gov account login current to monitor payment status",
+    "Contact 1-800-MEDICARE if you have questions about your premium bill",
+  ],
+    type: "tip",
+  },
+  },
+  faqs: [
+    {
+      question: "What is Medicare Easy Pay?",
+      answer: "Medicare Easy Pay is a free service that automatically deducts your Medicare Part A and/or Part B premiums from your bank account each month. It is offered by CMS and is ideal for beneficiaries who don't receive Social Security.",
+    },
+    {
+      question: "How do I Sign up for Medicare Easy Pay?",
+      answer: "Sign up online at Medicare.gov under 'Pay My Premium,' or complete Form CMS-10048 and mail it to the Medicare Premium Collection Center. You'll need your bank account and routing numbers.",
+    },
+    {
+      question: "How Long Does Medicare Easy Pay Take to Start?",
+      answer: "It takes 6–8 weeks after enrollment for automatic deductions to begin. Continue paying your premiums manually during this period.",
+    },
+    {
+      question: "Does Medicare Easy Pay Cover Part D Premiums?",
+      answer: "Only if your Part D plan is billed directly by Medicare. Most Part D and Medicare Advantage plans bill you directly, so you'd need to set up automatic payments with your plan separately.",
+    },
+    {
+      question: "What Happens if I Miss a Medicare Premium Payment?",
+      answer: "You have a 2-month grace period. After that, Medicare may disenroll you from Part B. Reinstatement may require waiting until the General Enrollment Period (January–March).",
+    },
+    {
+      question: "Can I Cancel or Change My Bank Account for Medicare Easy Pay?",
+      answer: "Yes. You can cancel Medicare Easy Pay or update your bank account information at any time by contacting Medicare or submitting a new authorization form. If you switch bank accounts, you'll need to com",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "check",
+      text: "Medicare Easy Pay is free and automatically deducts premiums from your bank account",
+    },
+    {
+      icon: "info",
+      text: "Takes 6–8 weeks to activate — keep paying manually until then",
+    },
+    {
+      icon: "alert",
+      text: "Does NOT cover most Part D or MA plan premiums billed directly by the plan",
+    },
+    {
+      icon: "check",
+      text: "Enroll online at Medicare.gov or via Form CMS-10048",
+    },
+    {
+      icon: "dollar",
+      text: "2026 Part B standard premium: $202.90/month",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Medicare Paperless Billing",
+      description: "Go paperless with your Medicare statements.",
+      slug: "medicare-paperless-billing",
+    },
+    {
+      title: "Medicare Part B Premiums",
+      description: "Full breakdown of Part B costs in 2026.",
+      slug: "medicare-part-b-premiums",
+    },
+    {
+      title: "5 Ways to Reduce Medicare Premiums",
+      description: "Strategies to lower your Medicare costs.",
+      slug: "reduce-medicare-premiums",
+    },
+    {
+      title: "Medicare Costs in 2026",
+      description: "Updated 2026 Medicare cost figures.",
+      slug: "medicare-costs-in-2026-premiums-deductibles-and-key-changes",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "Medicare Paperless Billing",
+    "Part B Premiums",
+    "Reduce Premiums",
+    "Medicare Costs 2026",
+  ],
+  ctaBanner: {
+    title: "Questions about Medicare Premium Payments?",
+    text: "Our licensed agents can help you understand your Medicare billing options and find the most cost-effective coverage for your needs.",
+  },
+  relatedSlugs: [
+    "medicare-paperless-billing",
+    "medicare-part-b-premiums",
+    "reduce-medicare-premiums",
+    "medicare-costs-in-2026-premiums-deductibles-and-key-changes",
+    "will-medicare-pay-for-a-nebulizer-machine",
+  ],
+},
   /* ─── HOW TO FILE A MEDICARE CLAIM ─── */
   {
     slug: "how-to-file-a-medicare-claim",
