@@ -889,8 +889,8 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     slug: 'medicare-special-enrollment-periods',
     seo: {
       focusKeyword: "",
-      title: "Medicare Special Enrollment Periods (SEP): When and How to Use Them in 2026",
-      description: "A Medicare Special Enrollment Period lets you enroll in or change Medicare coverage outside the standard windows when a qualifying life event occurs. Learn which events qualify and how long your window lasts.",
+      title: "Medicare Special Enrollment Periods (SEP): 2026 Guide",
+      description: "A Medicare Special Enrollment Period lets you enroll in or change coverage outside standard windows after a qualifying life event. Learn which events qualify.",
       canonical: 'https://www.medicarefaq.com/faqs/medicare-special-enrollment-periods/',
       ogImage: "/images/medicarefaq-cover.jpg",
     },
