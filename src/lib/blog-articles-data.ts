@@ -12436,8 +12436,8 @@ imageAlt: "Older couple link arms drinking champagne at a party with bunting and
   {
     slug: "dual-eligible-special-needs-plans-dsnp-explained",
     seo: {
-      title: "Dual-Eligible Special Needs Plans (D-SNPs) Explained: Benefits, Eligibility, and How to Enroll",
-      description: "D-SNP plans coordinate Medicare and Medicaid benefits into one plan for dual-eligible beneficiaries. Learn who qualifies, what extra benefits are included, and how to enroll in 2026.",
+      title: "D-SNP Plans: Eligibility, Benefits & How to Enroll",
+      description: "Learn how Dual-Eligible Special Needs Plans (D-SNPs) coordinate Medicare and Medicaid, who qualifies as full- or partial-dual eligible, what extra benefits like dental and OTC allowances are included, and how to enroll or switch plans quarterly.",
       canonical: "https://www.medicarefaq.com/blog/dual-eligible-special-needs-plans-dsnp-explained/",
       ogImage: "/images/generated/navigating-medicare-and-health.png",
       focusKeyword: "dual eligible special needs plan",
