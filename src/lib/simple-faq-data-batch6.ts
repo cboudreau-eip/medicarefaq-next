@@ -89,7 +89,7 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
     slug: 'medicare-cover-dialysis-treatments',
     seo: {
       title: 'Does Medicare Cover Dialysis Treatments? | ESRD Coverage Guide 2026',
-      description: 'Medicare covers dialysis treatments for people with End-Stage Renal Disease (ESRD) at any age. Learn about hemodialysis, peritoneal dialysis, costs, and how to reduce your out-of-pocket expenses.',
+      description: "Wondering what Medicare pays for dialysis? See how ESRD coverage works, what hemodialysis and peritoneal dialysis cost, and ways to lower your out-of-pocket bills.",
       canonical: 'https://www.medicarefaq.com/faqs/medicare-cover-dialysis-treatments/',
       ogImage: 'https://www.medicarefaq.com/images/medicarefaq-cover.jpg',
     },
