@@ -7431,8 +7431,8 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: 'eligibility-for-special-enrollment-period-after-medicare-coverage-loss',
       seo: {
-        title: 'Eligibility for Special Enrollment Period after Medicare Coverage Loss',
-        description: 'Losing health insurance coverage through your employer triggers a Special Enrollment Period. Learn how to qualify and enroll in Medicare without facing lat',
+        title: "Special Enrollment Period After Losing Coverage: 8-Month Rule Explained",
+        description: "Lost employer health coverage? Find out if you qualify for a Special Enrollment Period, your enrollment deadline, and how to avoid late penalties.",
         canonical: 'https://www.medicarefaq.com/blog/eligibility-for-special-enrollment-period-after-medicare-coverage-loss/',
         ogImage: 'https://www.medicarefaq.com/images/medicarefaq-cover.jpg',
       },
