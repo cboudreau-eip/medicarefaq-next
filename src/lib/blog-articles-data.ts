@@ -155,6 +155,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "faqs-on-medicare-drug-costs-moving-states-and-working-rules",
     seo: {
+      focusKeyword: "",
       title: "Medicare Drug Costs, Moving States & Work Rules",
       description: "Learn how Medicare drug costs, moving states, and working past 65 affect your coverage and out-of-pocket expenses in this plain-language FAQ guide.",
       canonical: "https://www.medicarefaq.com/blog/faqs-on-medicare-drug-costs-moving-states-and-working-rules/",
