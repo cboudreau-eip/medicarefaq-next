@@ -6371,8 +6371,8 @@ export const blogArticles: BlogArticleData[] = [
       slug: "discounts-for-seniors",
       seo: {
       focusKeyword: "",
-        title: "What Age Qualifies for Senior Discounts? ",
-        description: "Wondering what age senior discounts start? Most begin at 50–55 with AARP, 55 at retailers like Walgreens, or restaurants & grocery stores. See the breakdown.",
+        title: "Senior Discount Age Chart: Grocery, Retail, Dining & Travel Deals",
+        description: "See verified senior discounts by age for retail, grocery, dining, and travel, plus which popular discounts have been discontinued so you don't waste a trip.",
         canonical: "https://www.medicarefaq.com/blog/discounts-for-seniors/",
         ogImage: "https://images.pexels.com/photos/6787918/pexels-photo-6787918.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
       },
