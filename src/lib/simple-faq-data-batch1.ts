@@ -888,12 +888,13 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
   {
     slug: 'medicare-special-enrollment-periods',
     seo: {
-      title: 'Medicare Special Enrollment Periods (SEP): When and How to Use Them in 2026',
-      description: 'A Medicare Special Enrollment Period lets you enroll in or change Medicare coverage outside the standard windows when a qualifying life event occurs. Learn which events qualify and how long your window lasts.',
+      focusKeyword: "",
+      title: "Medicare Special Enrollment Periods (SEP): When and How to Use Them in 2026",
+      description: "A Medicare Special Enrollment Period lets you enroll in or change Medicare coverage outside the standard windows when a qualifying life event occurs. Learn which events qualify and how long your window lasts.",
       canonical: 'https://www.medicarefaq.com/faqs/medicare-special-enrollment-periods/',
-      ogImage: '/images/medicarefaq-cover.jpg',
+      ogImage: "/images/medicarefaq-cover.jpg",
     },
-    title: 'Medicare Special Enrollment Periods (SEP): When and How to Use Them',
+    title: "Medicare Special Enrollment Periods (SEP): When and How to Use Them",
     summary: 'A Medicare Special Enrollment Period (SEP) gives you a limited window to enroll in Medicare or change your coverage outside the standard enrollment periods when a qualifying life event occurs. Understanding which events trigger a SEP, how long each window lasts, and what actions you can take prevents costly gaps in coverage and avoids late enrollment penalties.',
     category: 'Enrollment',
     dateUpdated: 'May 11, 2026',
@@ -967,6 +968,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       ]},
     ],
     relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-annual-enrollment-period", "eligibility-for-special-enrollment-period-after-medicare-coverage-loss", "checklist-preparing-for-medicare-enrollment-in-2026"],
+    youtubeVideoId: "4fO49wxQskc",
   },
   {
     slug: 'medicare-8-minute-rule',
