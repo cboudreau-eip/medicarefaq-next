@@ -1290,8 +1290,8 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
   {
     slug: 'can-i-cancel-medicare-advantage-plan',
     seo: {
-      title: 'Can I Cancel My Medicare Advantage Plan? (2026 Guide)',
-      description: 'Yes, you can cancel a Medicare Advantage plan -- but only during specific enrollment windows. Learn when you can disenroll, what happens to your coverage, and how to switch back to Original Medicare.',
+      title: "Cancel Your Medicare Advantage Plan: Rules & Deadlines (2026)",
+      description: "Find out exactly when you can cancel a Medicare Advantage plan, what deadlines apply, and the steps to switch back to Original Medicare without losing coverage.",
       canonical: 'https://www.medicarefaq.com/faqs/can-i-cancel-medicare-advantage-plan/',
       ogImage: '/images/medicarefaq-cover.jpg',
     },
