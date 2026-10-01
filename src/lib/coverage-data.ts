@@ -25995,253 +25995,357 @@ export const coverageArticles: CoverageArticleData[] = [
 },
   /* ─── Medicare Secondary Insurance ─── */
   {
-    slug: "medicare-secondary-insurance",
-    seo: {
-      title: "Medicare Secondary Insurance: Options to Cover What Medicare Doesn't | MedicareFAQ",
-      description: "Medicare secondary insurance helps cover costs that Original Medicare doesn't pay. Learn about Medigap, retiree coverage, Medicaid, and other secondary options.",
-      canonical: "https://www.medicarefaq.com/faqs/medicare-secondary-insurance/",
-      ogImage: "/images/medicarefaq-cover.jpg",
-    },
-    title: "Medicare Secondary Insurance",
-    subtitle: "Secondary insurance fills the gaps left by Original Medicare \u2014 covering deductibles, coinsurance, and other out-of-pocket costs.",
-    category: "Medicare Coverage",
-    dateUpdated: "April 29, 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is the Compliance & Editorial Manager at MedicareFAQ.",
-    },
-    readTime: "7 min read",
-    quickAnswer: {
-      text: "Medicare secondary insurance is any coverage that pays after Medicare has paid its share. The most common options are Medigap (Medicare Supplement), retiree insurance, Medicaid, and employer group health plans. Each works differently with Medicare.",
-      badges: [
-        { plan: "Medigap", status: "covered" },
-        { plan: "Part A", status: "partial" },
-        { plan: "Part B", status: "partial" },
-        { plan: "Medicare Advantage", status: "not-covered" }],
-    },
-    comparisonTable: [
-      {
-        planType: "Medigap (Medicare Supplement)",
-        coverage: "Covers Part A/B deductibles, coinsurance, excess charges",
-        icon: "shield-check",
-        notes: "Most comprehensive secondary option; standardized plans A-N",
-      },
-      {
-        planType: "Retiree Insurance",
-        coverage: "Employer-sponsored coverage that wraps around Medicare",
-        icon: "info",
-        notes: "Coverage and costs vary by employer; may include drug coverage",
-      },
-      {
-        planType: "Medicaid",
-        coverage: "Covers costs for low-income Medicare beneficiaries (dual eligible)",
-        icon: "shield-check",
-        notes: "Income/asset limits apply; most comprehensive secondary coverage",
-      },
-      {
-        planType: "Medicare Secondary Payer (MSP)",
-        coverage: "Medicare pays second when another insurer is primary",
-        icon: "alert-triangle",
-        notes: "Applies with employer plans, workers' comp, auto insurance",
-      }],
-    planBreakdowns: [
-      {
-        planName: "Medigap (Medicare Supplement Insurance)",
-        icon: "shield",
-        iconColor: "text-blue-600",
-        coverageLabel: "Most Popular Secondary Option",
-        coverageType: "covered",
-        paragraphs: [
-          "Medigap plans are private insurance policies specifically designed to supplement Original Medicare. They pay after Medicare pays its share, covering costs like the Part A deductible, Part B coinsurance, and excess charges.",
-          "There are 10 standardized Medigap plans (A through N). Plan G is currently the most comprehensive plan available to new enrollees, covering nearly all out-of-pocket costs except the Part B deductible."],
-        whatItCovers: [
-          "Part A deductible ($1,676 per benefit period in 2025)",
-          "Part B coinsurance (20% of Medicare-approved amount)",
-          "Part B excess charges (Plan G and Plan F)",
-          "Skilled nursing facility coinsurance",
-          "Foreign travel emergency (Plans C, D, G, M, N)"],
-        whatItDoesntCover: [
-          "Prescription drugs (need a separate Part D plan)",
-          "Vision, dental, or hearing",
-          "Long-term care",
-          "Cannot be used with Medicare Advantage"],
-        callout: {
-          type: "tip",
-          title: "Best Time to Enroll",
-          text: "The best time to enroll in Medigap is during your 6-month Medigap Open Enrollment Period, which starts when you're 65 and enrolled in Part B. During this window, insurers cannot deny you or charge more based on health conditions.",
-        },
-      },
-      {
-        planName: "Retiree Insurance",
-        icon: "building",
-        iconColor: "text-teal-600",
-        coverageLabel: "Employer-Sponsored Secondary",
-        coverageType: "partial",
-        paragraphs: [
-          "Some employers offer retiree health insurance that works alongside Medicare. Once you're on Medicare, your retiree plan typically becomes secondary, paying after Medicare pays its share.",
-          "Retiree coverage varies widely by employer. Some plans are very comprehensive and may eliminate the need for a Medigap policy. Others may have high deductibles or limited benefits."],
-        whatItCovers: [
-          "Varies by employer plan \u2014 may cover deductibles and coinsurance",
-          "Often includes prescription drug coverage",
-          "May cover dental, vision, and hearing",
-          "Typically covers spouse and dependents"],
-        whatItDoesntCover: [
-          "Coverage details vary \u2014 review your plan's Summary of Benefits",
-          "Some retiree plans are less comprehensive than Medigap",
-          "May require you to stay enrolled in Medicare Part B"],
-      },
-      {
-        planName: "Medicaid as Secondary Insurance",
-        icon: "heart",
-        iconColor: "text-green-600",
-        coverageLabel: "Dual Eligible Beneficiaries",
-        coverageType: "covered",
-        paragraphs: [
-          "People who qualify for both Medicare and Medicaid are called 'dual eligible' beneficiaries. Medicaid acts as secondary insurance, paying costs that Medicare doesn't cover.",
-          "Dual eligible beneficiaries often pay little to nothing for healthcare. Medicaid can cover Medicare premiums, deductibles, coinsurance, and services Medicare doesn't cover like long-term care."],
-        whatItCovers: [
-          "Medicare Part A and Part B premiums",
-          "Medicare deductibles and coinsurance",
-          "Long-term care (nursing home, home health)",
-          "Dental, vision, and hearing in many states"],
-        whatItDoesntCover: [
-          "Income and asset limits apply \u2014 not everyone qualifies",
-          "Coverage varies significantly by state",
-          "Must use Medicaid-accepting providers"],
-      },
-      {
-        planName: "Medicare Secondary Payer (MSP) Rules",
-        icon: "scale",
-        iconColor: "text-purple-600",
-        coverageLabel: "When Medicare Pays Second",
-        coverageType: "partial",
-        paragraphs: [
-          "In some situations, Medicare is not the primary payer \u2014 another insurer pays first, and Medicare pays second. This is called Medicare Secondary Payer (MSP).",
-          "MSP rules apply when you have employer group health insurance (if employer has 20+ employees), workers' compensation, auto insurance, or liability insurance. Understanding which payer is primary is critical to avoid claim denials."],
-        whatItCovers: [
-          "Employer group health plan (20+ employees): employer plan pays first",
-          "Workers' compensation: workers' comp pays first for work injuries",
-          "Auto/liability insurance: pays first for accident-related care",
-          "Medicare pays remaining balance after primary insurer"],
-        whatItDoesntCover: [
-          "If primary insurer denies a claim, Medicare may not pay either",
-          "Employer plans with under 20 employees: Medicare pays first",
-          "COBRA coverage: Medicare pays first if you're eligible for Medicare"],
-      }],
-    costTable: {
-      title: "Secondary Insurance Cost Comparison",
-      headers: ["Type", "Monthly Cost", "What It Covers"],
-      rows: [
-        { "Type": "Medigap Plan G", "Monthly Cost": "$100-$300+ (age/location)", "What It Covers": "Part A/B deductibles, coinsurance, excess charges"},
-        { "Type": "Medigap Plan N", "Monthly Cost": "$80-$200+ (age/location)", "What It Covers": "Most costs; copays up to $20 for office visits"},
-        { "Type": "Retiree Insurance", "Monthly Cost": "Varies (employer-subsidized)", "What It Covers": "Varies by employer plan"},
-        { "Type": "Medicaid (dual eligible)", "Monthly Cost": "$0 (income-based)", "What It Covers": "Premiums, deductibles, coinsurance, LTC"},
-        { "Type": "Medicare Advantage (alternative)", "Monthly Cost": "$0-$100+ (plan varies)", "What It Covers": "Replaces Original Medicare; all-in-one"}],
-      footnote: "Medigap premiums vary significantly by age, location, gender, and tobacco use. Compare plans at [Medicare.gov](https://www.medicare.gov/) or through a licensed agent.",
-    },
-    exceptionsSection: {
-      title: "Important Considerations",
-      items: [
-        {
-          title: "Medigap Cannot be Used with Medicare Advantage",
-          text: "If you switch to a Medicare Advantage plan, your Medigap policy cannot be used to pay costs. You would be paying for a policy that provides no benefit. You should drop your Medigap policy if you enroll in Medicare Advantage.",
-          highlight: "Never pay for both Medigap and Medicare Advantage simultaneously.",
-        },
-        {
-          title: "Coordination of Benefits",
-          text: "When you have multiple insurance plans, they coordinate to determine who pays what. Medicare and your secondary insurer exchange information automatically through the Coordination of Benefits (COB) process \u2014 you don't need to file separate claims in most cases.",
-        },
-        {
-          title: "Medigap Medical Underwriting",
-          text: "Outside of your Medigap Open Enrollment Period, insurers can use medical underwriting to deny coverage or charge higher premiums based on your health history. Some states have additional protections.",
-        },
-        {
-          title: "Retiree Coverage May Require Medicare Enrollment",
-          text: "Many retiree plans require you to enroll in Medicare Part B as a condition of keeping your retiree coverage. Failing to enroll in Part B could cause you to lose your retiree benefits.",
-        }],
-    },
-    legislativeUpdate: {
-      title: "Recent Policy Updates",
-      items: [
-        {
-          title: "Medigap Guaranteed Issue Protections",
-          status: "Passed",
-          description: "Federal law guarantees your right to buy certain Medigap plans without medical underwriting during specific periods, such as when you first enroll in Part B or lose other coverage.",
-        },
-        {
-          title: "Medicare Advantage vs. Medigap Comparison Tool",
-          status: "Passed",
-          description: "Medicare.gov updated its plan comparison tools to help beneficiaries better compare Medigap and Medicare Advantage plans side by side, improving transparency.",
-        }],
-    },
-    alternativesSection: {
-      title: "How to Choose the Right Secondary Coverage",
-      paragraphs: [
-        "The best secondary insurance depends on your health needs, budget, and whether you want the flexibility of Original Medicare or the simplicity of an all-in-one plan."],
-      checklist: {
-        title: "Decision Checklist",
-        items: [
-          "If you want to see any doctor who accepts Medicare: choose Medigap + Part D",
-          "If you want lower premiums and don't mind a network: consider Medicare Advantage",
-          "If you have retiree coverage: review it carefully before buying Medigap",
-          "If you qualify for Medicaid: apply \u2014 it's the most comprehensive secondary option",
-          "If you have employer coverage: understand MSP rules before assuming Medicare pays first",
-          "Enroll in Medigap during your Open Enrollment Period to avoid medical underwriting"],
-        type: "tip",
-      },
-    },
-    faqs: [
-      {
-        question: "Do I Need Secondary Insurance if I Have Medicare?",
-        answer: "Original Medicare covers about 80% of approved costs, leaving you responsible for the rest. Without secondary insurance, a serious illness could result in significant out-of-pocket expenses. Most beneficiaries benefit from some form of secondary coverage.",
-      },
-      {
-        question: "What's the difference between Medigap and Medicare Advantage?",
-        answer: "Medigap supplements Original Medicare and lets you use any Medicare-accepting provider nationwide. Medicare Advantage replaces Original Medicare and typically uses a network. They serve different needs and cannot be used together.",
-      },
-      {
-        question: "Can I Have Both Medigap and Retiree Insurance?",
-        answer: "Technically yes, but it's usually not cost-effective. If your retiree plan provides comprehensive coverage, adding Medigap may result in duplicate coverage. Review both plans carefully.",
-      },
-      {
-        question: "When Does Medicare Pay Second Instead of First?",
-        answer: "Medicare pays second (is the secondary payer) when you have employer group health insurance through a large employer (20+ employees), workers' compensation, or auto/liability insurance related to an accident.",
-      },
-      {
-        question: "Is Medigap Worth the Cost?",
-        answer: "For many beneficiaries, yes. Medigap eliminates most unpredictable out-of-pocket costs, which is valuable if you have frequent medical needs or want financial predictability. Compare the premium cost against your expected healthcare usage.",
-      }],
-    quickReference: [
-      { icon: "check", text: "Medigap is the most popular secondary option \u2014 standardized plans A through N" },
-      { icon: "info", text: "Retiree insurance, Medicaid, and employer plans can also serve as secondary coverage" },
-      { icon: "alert", text: "Medigap cannot be used with Medicare Advantage \u2014 never pay for both" },
-      { icon: "check", text: "Enroll in Medigap during your 6-month Open Enrollment Period to avoid underwriting" },
-      { icon: "dollar", text: "Dual eligible beneficiaries (Medicare + Medicaid) typically pay little to nothing" }],
-    relatedTopics: [
-      { title: "Medicare and Workers' Comp", description: "How Medicare coordinates with workers' compensation.", slug: "medicare-and-workers-comp" },
-      { title: "Medicare and Employer Plans", description: "How Medicare works with employer health insurance.", slug: "understanding-how-medicare-works-with-employer-health-plans" },
-      { title: "When is Medicare Primary?", description: "Situations where Medicare pays first vs. second.", slug: "when-is-medicare-primary" },
-      { title: "Medicare and Retiree Insurance", description: "How retiree coverage coordinates with Medicare.", slug: "medicare-and-retiree-insurance" }],
-    sidebarRelatedLinks: [
-      "Medicare and Workers' Comp",
-      "Medicare and Employer Plans",
-      "When Is Medicare Primary",
-      "Medicare and Retiree Insurance"],
-    ctaBanner: {
-      title: "Need Help Choosing Secondary Coverage?",
-      text: "Our licensed agents can help you compare Medigap plans, Medicare Advantage, and other secondary options to find the best fit for your needs and budget.",
-    },
-    relatedSlugs: ["medicare-and-workers-comp", "understanding-how-medicare-works-with-employer-health-plans", "when-is-medicare-primary", "medicare-and-retiree-insurance", "does-medicare-cover-mental-health", "how-tricare-works-with-medicare", "top-5-dental-insurance-for-seniors", "understanding-medicare-assignment-what-it-means-for-your-costs"],
+  slug: "medicare-secondary-insurance",
+  seo: {
+    title: "Medicare Secondary Insurance: Options to Cover What Medicare Doesn't | MedicareFAQ",
+    description: "Confused about Medicare secondary insurance? Compare Medigap, retiree coverage, Medicaid, and employer plans to find the right fit for your gaps in coverage.",
+    canonical: "https://www.medicarefaq.com/faqs/medicare-secondary-insurance/",
+    ogImage: "/images/medicarefaq-cover.jpg",
   },
+  title: "Medicare Secondary Insurance",
+  subtitle: "Secondary insurance fills the gaps left by Original Medicare — covering deductibles, coinsurance, and other out-of-pocket costs.",
+  category: "Medicare Coverage",
+  dateUpdated: "April 29, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is the Compliance & Editorial Manager at MedicareFAQ.",
+  },
+  readTime: "7 min read",
+  quickAnswer: {
+    text: "Medicare secondary insurance is any coverage that pays after your primary insurance, usually Medicare, has paid its share of a claim. It helps cover the deductibles, coinsurance, and copays Medicare leaves behind. The most common options are Medigap (Medicare Supplement), retiree insurance, Medicaid, and employer group health plans, and each coordinates with Medicare differently.",
+    badges: [
+      {
+        plan: "Medigap",
+        status: "covered",
+      },
+      {
+        plan: "Part A",
+        status: "partial",
+      },
+      {
+        plan: "Part B",
+        status: "partial",
+      },
+      {
+        plan: "Medicare Advantage",
+        status: "not-covered",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Medigap (Medicare Supplement)",
+      coverage: "Covers Part A/B deductibles, coinsurance, excess charges",
+      icon: "shield-check",
+      notes: "Most comprehensive secondary option; standardized plans A-N",
+    },
+    {
+      planType: "Retiree Insurance",
+      coverage: "Employer-sponsored coverage that wraps around Medicare",
+      icon: "info",
+      notes: "Coverage and costs vary by employer; may include drug coverage",
+    },
+    {
+      planType: "Medicaid",
+      coverage: "Covers costs for low-income Medicare beneficiaries (dual eligible)",
+      icon: "shield-check",
+      notes: "Income/asset limits apply; most comprehensive secondary coverage",
+    },
+    {
+      planType: "Medicare Secondary Payer (MSP)",
+      coverage: "Medicare pays second when another insurer is primary",
+      icon: "alert-triangle",
+      notes: "Applies with employer plans, workers' comp, auto insurance",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "Medigap (Medicare Supplement Insurance)",
+      icon: "shield",
+      iconColor: "text-blue-600",
+      coverageLabel: "Most Popular Secondary Option",
+      coverageType: "covered",
+      paragraphs: [
+      "Medigap plans are private insurance policies specifically designed to supplement Original Medicare. They pay after Medicare pays its share, covering costs like the Part A deductible, Part B coinsurance, and excess charges.",
+      "There are 10 standardized Medigap plans (A through N). Plan G is currently the most comprehensive plan available to new enrollees, covering nearly all out-of-pocket costs except the Part B deductible.",
+    ],
+      whatItCovers: [
+      "Part A deductible ($1,676 per benefit period in 2025)",
+      "Part B coinsurance (20% of Medicare-approved amount)",
+      "Part B excess charges (Plan G and Plan F)",
+      "Skilled nursing facility coinsurance",
+      "Foreign travel emergency (Plans C, D, G, M, N)",
+    ],
+      whatItDoesntCover: [
+      "Prescription drugs (need a separate Part D plan)",
+      "Vision, dental, or hearing",
+      "Long-term care",
+      "Cannot be used with Medicare Advantage",
+    ],
+      callout: {
+      type: "tip",
+      title: "Best Time to Enroll",
+      text: "The best time to enroll in Medigap is during your 6-month Medigap Open Enrollment Period, which starts when you're 65 and enrolled in Part B. During this window, insurers cannot deny you or charge more based on health conditions.",
+    },
+    },
+    {
+      planName: "Retiree Insurance",
+      icon: "building",
+      iconColor: "text-teal-600",
+      coverageLabel: "Employer-Sponsored Secondary",
+      coverageType: "partial",
+      paragraphs: [
+      "Some employers offer retiree health insurance that works alongside Medicare. Once you're on Medicare, your retiree plan typically becomes secondary, paying after Medicare pays its share.",
+      "Retiree coverage varies widely by employer. Some plans are very comprehensive and may eliminate the need for a Medigap policy. Others may have high deductibles or limited benefits.",
+    ],
+      whatItCovers: [
+      "Varies by employer plan — may cover deductibles and coinsurance",
+      "Often includes prescription drug coverage",
+      "May cover dental, vision, and hearing",
+      "Typically covers spouse and dependents",
+    ],
+      whatItDoesntCover: [
+      "Coverage details vary — review your plan's Summary of Benefits",
+      "Some retiree plans are less comprehensive than Medigap",
+      "May require you to stay enrolled in Medicare Part B",
+    ],
+    },
+    {
+      planName: "Medicaid as Secondary Insurance",
+      icon: "heart",
+      iconColor: "text-green-600",
+      coverageLabel: "Dual Eligible Beneficiaries",
+      coverageType: "covered",
+      paragraphs: [
+      "People who qualify for both Medicare and Medicaid are called 'dual eligible' beneficiaries. Medicaid acts as secondary insurance, paying costs that Medicare doesn't cover.",
+      "Dual eligible beneficiaries often pay little to nothing for healthcare. Medicaid can cover Medicare premiums, deductibles, coinsurance, and services Medicare doesn't cover like long-term care.",
+    ],
+      whatItCovers: [
+      "Medicare Part A and Part B premiums",
+      "Medicare deductibles and coinsurance",
+      "Long-term care (nursing home, home health)",
+      "Dental, vision, and hearing in many states",
+    ],
+      whatItDoesntCover: [
+      "Income and asset limits apply — not everyone qualifies",
+      "Coverage varies significantly by state",
+      "Must use Medicaid-accepting providers",
+    ],
+    },
+    {
+      planName: "Medicare Secondary Payer (MSP) Rules",
+      icon: "scale",
+      iconColor: "text-purple-600",
+      coverageLabel: "When Medicare Pays Second",
+      coverageType: "partial",
+      paragraphs: [
+      "In some situations, Medicare is not the primary payer — another insurer pays first, and Medicare pays second. This is called Medicare Secondary Payer (MSP).",
+      "MSP rules apply when you have employer group health insurance (if employer has 20+ employees), workers' compensation, auto insurance, or liability insurance. Understanding which payer is primary is critical to avoid claim denials.",
+    ],
+      whatItCovers: [
+      "Employer group health plan (20+ employees): employer plan pays first",
+      "Workers' compensation: workers' comp pays first for work injuries",
+      "Auto/liability insurance: pays first for accident-related care",
+      "Medicare pays remaining balance after primary insurer",
+    ],
+      whatItDoesntCover: [
+      "If primary insurer denies a claim, Medicare may not pay either",
+      "Employer plans with under 20 employees: Medicare pays first",
+      "COBRA coverage: Medicare pays first if you're eligible for Medicare",
+    ],
+    },
+  ],
+  costTable: {
+    title: "Secondary Insurance Cost Comparison",
+    headers: [
+    "Type",
+    "Monthly Cost",
+    "What It Covers",
+  ],
+    rows: [
+      {
+        "Type": "Medigap Plan G",
+        "Monthly Cost": "$100-$300+ (age/location)",
+        "What It Covers": "Part A/B deductibles, coinsurance, excess charges",
+      },
+      {
+        "Type": "Medigap Plan N",
+        "Monthly Cost": "$80-$200+ (age/location)",
+        "What It Covers": "Most costs; copays up to $20 for office visits",
+      },
+      {
+        "Type": "Retiree Insurance",
+        "Monthly Cost": "Varies (employer-subsidized)",
+        "What It Covers": "Varies by employer plan",
+      },
+      {
+        "Type": "Medicaid (dual eligible)",
+        "Monthly Cost": "$0 (income-based)",
+        "What It Covers": "Premiums, deductibles, coinsurance, LTC",
+      },
+      {
+        "Type": "Medicare Advantage (alternative)",
+        "Monthly Cost": "$0-$100+ (plan varies)",
+        "What It Covers": "Replaces Original Medicare; all-in-one",
+      },
+    ],
+    footnote: "Medigap premiums vary significantly by age, location, gender, and tobacco use. Compare plans at [Medicare.gov](https://www.medicare.gov/) or through a licensed agent.",
+  },
+  exceptionsSection: {
+    title: "Important Considerations",
+    items: [
+      {
+        title: "Medigap Cannot be Used with Medicare Advantage",
+        text: "If you switch to a Medicare Advantage plan, your Medigap policy cannot be used to pay costs. You would be paying for a policy that provides no benefit. You should drop your Medigap policy if you enroll in Medicare Advantage.",
+        highlight: "Never pay for both Medigap and Medicare Advantage simultaneously.",
+      },
+      {
+        title: "Coordination of Benefits",
+        text: "When you have multiple insurance plans, they coordinate to determine who pays what. Medicare and your secondary insurer exchange information automatically through the Coordination of Benefits (COB) process — you don't need to file separate claims in most cases.",
+      },
+      {
+        title: "Medigap Medical Underwriting",
+        text: "Outside of your Medigap Open Enrollment Period, insurers can use medical underwriting to deny coverage or charge higher premiums based on your health history. Some states have additional protections.",
+      },
+      {
+        title: "Retiree Coverage May Require Medicare Enrollment",
+        text: "Many retiree plans require you to enroll in Medicare Part B as a condition of keeping your retiree coverage. Failing to enroll in Part B could cause you to lose your retiree benefits.",
+      },
+    ],
+  },
+  legislativeUpdate: {
+    title: "Recent Policy Updates",
+    items: [
+      {
+        title: "Medigap Guaranteed Issue Protections",
+        status: "Passed",
+        description: "Federal law guarantees your right to buy certain Medigap plans without medical underwriting during specific periods, such as when you first enroll in Part B or lose other coverage.",
+      },
+      {
+        title: "Medicare Advantage vs. Medigap Comparison Tool",
+        status: "Passed",
+        description: "Medicare.gov updated its plan comparison tools to help beneficiaries better compare Medigap and Medicare Advantage plans side by side, improving transparency.",
+      },
+    ],
+  },
+  alternativesSection: {
+    title: "How to Choose the Right Secondary Coverage",
+    paragraphs: [
+    "The best secondary insurance depends on your health needs, budget, and whether you want the flexibility of Original Medicare or the simplicity of an all-in-one plan.",
+  ],
+    checklist: {
+    title: "Decision Checklist",
+    items: [
+    "If you want to see any doctor who accepts Medicare: choose Medigap + Part D",
+    "If you want lower premiums and don't mind a network: consider Medicare Advantage",
+    "If you have retiree coverage: review it carefully before buying Medigap",
+    "If you qualify for Medicaid: apply — it's the most comprehensive secondary option",
+    "If you have employer coverage: understand MSP rules before assuming Medicare pays first",
+    "Enroll in Medigap during your Open Enrollment Period to avoid medical underwriting",
+  ],
+    type: "tip",
+  },
+  },
+  faqs: [
+    {
+      question: "Do I Need Secondary Insurance if I Have Medicare?",
+      answer: "Original Medicare covers about 80% of approved costs, leaving you responsible for the rest. Without secondary insurance, a serious illness could result in significant out-of-pocket expenses. Most beneficiaries benefit from some form of secondary coverage.",
+    },
+    {
+      question: "What's the difference between Medigap and Medicare Advantage?",
+      answer: "Medigap supplements Original Medicare and lets you use any Medicare-accepting provider nationwide. Medicare Advantage replaces Original Medicare and typically uses a network. They serve different needs and cannot be used together.",
+    },
+    {
+      question: "Can I Have Both Medigap and Retiree Insurance?",
+      answer: "Technically yes, but it's usually not cost-effective. If your retiree plan provides comprehensive coverage, adding Medigap may result in duplicate coverage. Review both plans carefully.",
+    },
+    {
+      question: "When Does Medicare Pay Second Instead of First?",
+      answer: "Medicare pays second (is the secondary payer) when you have employer group health insurance through a large employer (20+ employees), workers' compensation, or auto/liability insurance related to an accident.",
+    },
+    {
+      question: "Is Medigap Worth the Cost?",
+      answer: "For many beneficiaries, yes. Medigap eliminates most unpredictable out-of-pocket costs, which is valuable if you have frequent medical needs or want financial predictability. Compare the premium cost against your expected healthcare usage.",
+    },
+    {
+      question: "How Does Billing Work With Medicare and Secondary Insurance?",
+      answer: "When you have Medicare and a secondary insurance plan, Medicare typically processes your claim first and pays its share. The claim then automatically crosses over to your secondary insurer, which pays",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "check",
+      text: "Medigap is the most popular secondary option — standardized plans A through N",
+    },
+    {
+      icon: "info",
+      text: "Retiree insurance, Medicaid, and employer plans can also serve as secondary coverage",
+    },
+    {
+      icon: "alert",
+      text: "Medigap cannot be used with Medicare Advantage — never pay for both",
+    },
+    {
+      icon: "check",
+      text: "Enroll in Medigap during your 6-month Open Enrollment Period to avoid underwriting",
+    },
+    {
+      icon: "dollar",
+      text: "Dual eligible beneficiaries (Medicare + Medicaid) typically pay little to nothing",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Medicare and Workers' Comp",
+      description: "How Medicare coordinates with workers' compensation.",
+      slug: "medicare-and-workers-comp",
+    },
+    {
+      title: "Medicare and Employer Plans",
+      description: "How Medicare works with employer health insurance.",
+      slug: "understanding-how-medicare-works-with-employer-health-plans",
+    },
+    {
+      title: "When is Medicare Primary?",
+      description: "Situations where Medicare pays first vs. second.",
+      slug: "when-is-medicare-primary",
+    },
+    {
+      title: "Medicare and Retiree Insurance",
+      description: "How retiree coverage coordinates with Medicare.",
+      slug: "medicare-and-retiree-insurance",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "Medicare and Workers' Comp",
+    "Medicare and Employer Plans",
+    "When Is Medicare Primary",
+    "Medicare and Retiree Insurance",
+  ],
+  ctaBanner: {
+    title: "Need Help Choosing Secondary Coverage?",
+    text: "Our licensed agents can help you compare Medigap plans, Medicare Advantage, and other secondary options to find the best fit for your needs and budget.",
+  },
+  relatedSlugs: [
+    "medicare-and-workers-comp",
+    "understanding-how-medicare-works-with-employer-health-plans",
+    "when-is-medicare-primary",
+    "medicare-and-retiree-insurance",
+    "does-medicare-cover-mental-health",
+    "how-tricare-works-with-medicare",
+    "top-5-dental-insurance-for-seniors",
+    "understanding-medicare-assignment-what-it-means-for-your-costs",
+  ],
+},
   /* ─── Medicare Beneficiary Identifiers ─── */
   {
   slug: "medicare-beneficiary-identifiers",
