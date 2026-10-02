@@ -432,8 +432,8 @@ export const partDSubPages: PartDSubPage[] = [
       {
         id: "zero-deductible",
         heading: "Plans with $0 Deductible",
-        content: "Many Part D plans offer $0 deductibles, particularly for generic drugs. However, these plans typically have higher monthly premiums to offset the lower cost-sharing. When comparing plans, look at the total annual cost (premium + deductible + copays) rather than just the deductible amount.",
-        callout: { type: "tip", text: "A plan with a $0 deductible and $50/month premium may cost more annually than a plan with a $615 deductible and $15/month premium - especially if you only take generics. Always compare total estimated annual costs." },
+        content: "Many Part D plans offer $0 deductibles, particularly for generic drugs. However, these plans typically have higher monthly premiums to offset the lower cost-sharing. If you already have a plan and want to know your specific deductible, check your plan's Annual Notice of Change or Evidence of Coverage documents, or log in to your plan's member portal, rather than relying on averages. When comparing plans, look at the total annual cost (premium + deductible + copays) rather than just the deductible amount.",
+        callout: { type: "tip", text: "For example, a hypothetical plan with a $0 deductible and $50/month premium may cost more annually than a plan with a $615 deductible and $15/month premium - especially if you only take generics. These premium figures are illustrative only. Always compare total estimated annual costs for the specific plans you're considering." },
       }],
     faqs: [
       { q: "Does the Part D deductible reset every year?", a: "Yes. The Part D deductible resets on January 1 each year. You start fresh each calendar year and must meet the deductible again before your plan begins sharing costs." },
