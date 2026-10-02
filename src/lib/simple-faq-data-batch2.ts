@@ -627,7 +627,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
           ['Part D', 'Prescription drug coverage offered through private insurers', 'Average $34.50/month in 2026; varies by plan and drugs covered'],
           ['Medicare Supplement (Medigap)', 'Helps pay the out-of-pocket costs Original Medicare leaves behind: deductibles, coinsurance, and copays', 'Monthly premium varies by plan letter and insurer'],
         ],
-        footnote: '2026 figures. Part B premium may be higher for higher-income beneficiaries due to IRMAA surcharges.',
+        footnote: "2026 figures. Part B premium may be higher for higher-income beneficiaries due to IRMAA surcharges, which are based on your modified adjusted gross income (MAGI) reported on your federal tax return from two years earlier and are reassessed annually; for 2026, this generally applies if your MAGI exceeds $109,000 (individual) or $218,000 (joint filers).",
       },
       {
         type: 'paragraph',
@@ -667,7 +667,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ordered: false,
         items: [
           '**Part A:** Premium-free for most people who worked and paid Medicare taxes for at least 10 years. If you have 30 to 39 work credits, the 2026 premium is $311/month. With fewer than 30 credits, it is $565/month.',
-          '**Part B:** The standard monthly premium in 2026 is **$202.90**. Higher-income beneficiaries pay more due to IRMAA surcharges. There is also a $283 annual deductible.',
+          "**Part B:** The standard monthly premium in 2026 is **$202.90**. Higher-income beneficiaries pay more due to IRMAA surcharges, which are based on your modified adjusted gross income (MAGI) from your federal tax return filed two years earlier (reassessed annually); for 2026, IRMAA generally applies if your MAGI is above $109,000 (individual) or $218,000 (joint filers). There is also a $283 annual deductible. See our [IRMAA guide](https://www.ssa.gov/benefits/medicare/medicare-premiums.html) for the full bracket table.",
           '**Part D:** The average monthly premium in 2026 is **$34.50**, though costs vary widely by plan and the drugs you take. The maximum deductible is $615.',
           '**Medicare Advantage:** Many plans have $0 or low monthly premiums, but you still pay your Part B premium. Plans may have copays, coinsurance, and an annual out-of-pocket maximum (up to $9,250 in 2026).',
           '**Medicare Supplement:** Monthly premiums vary by plan letter and insurer, but these plans significantly reduce your unpredictable out-of-pocket costs.',
@@ -810,7 +810,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
           },
           {
             question: 'What happens if I miss my Initial Enrollment Period?',
-            answer: 'You can enroll during the General Enrollment Period (January 1 to March 31 each year), but your coverage will not start until July 1 and you may owe a permanent late enrollment penalty.',
+            answer: "You can enroll during the General Enrollment Period (January 1 to March 31 each year). Under current rules, your coverage will start the month after you sign up, and you may still owe a permanent late enrollment penalty ([Medicare.gov](https://www.medicare.gov/node/38351)).",
           },
           {
             question: 'Can I have both Medicare and employer insurance at the same time?',
