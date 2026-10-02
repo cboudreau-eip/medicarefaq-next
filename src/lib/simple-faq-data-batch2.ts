@@ -1981,12 +1981,13 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
   {
     slug: 'mapd-vs-part-d',
     seo: {
+      focusKeyword: "",
       title: "MAPD vs. PDP (2026): Key Differences Explained Simply",
       description: "Confused about MAPD vs. PDP? See how these two Medicare drug coverage options differ so you can compare costs, coverage, and flexibility before you decide.",
       canonical: 'https://www.medicarefaq.com/faqs/mapd-vs-part-d/',
-      ogImage: '/images/medicarefaq-cover.jpg',
+      ogImage: "/images/medicarefaq-cover.jpg",
     },
-    title: 'MAPD vs. PDP: Medicare Drug Coverage Compared',
+    title: "MAPD vs. PDP: Medicare Drug Coverage Compared",
     summary: 'If you want prescription drug coverage through Medicare, you have two paths: a standalone Prescription Drug Plan (PDP) that works alongside Original Medicare, or a Medicare Advantage Prescription Drug plan (MAPD) that bundles medical and drug coverage together. The right choice depends on your health needs, preferred providers, and budget.',
     category: 'Prescription Drugs',
     dateUpdated: 'May 12, 2026',
@@ -2021,6 +2022,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       ]},
     ],
     relatedSlugs: ["how-is-medicare-part-d-changing-in-2026", "medicare-part-d-payment-plan-2026", "medicare-parts-a-b-c-and-d-explained-simply", "part-d-formulary", "medicare-and-prescription-drugs-whats-covered-and-whats-not", "medicare-part-d-part-b-vaccines"],
+    youtubeVideoId: "youtube.com/watch?v=0Mws1sATVr0&feature=youtu.be",
   },
   {
     slug: 'medicare-forms',
