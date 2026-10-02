@@ -8429,7 +8429,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ogImage: "/images/medicarefaq-cover.jpg",
     },
     title: "Medicare Maximum Out-of-Pocket",
-    subtitle: "Original Medicare has no annual out-of-pocket limit, but Medicare Advantage, Medigap, and Medigap Plan K and Plan L each cap your costs differently. Here is what you would actually pay in a high-cost year under each option.",
+    subtitle: "Original Medicare has no annual out-of-pocket limit, but Medicare Advantage, Medigap, and Medigap Plan K and Plan L each cap your costs differently. Here is how those caps compare across each option.",
     category: "General Medicare",
     dateUpdated: "August 20, 2026",
     lastReviewed: "2026-08-20",
