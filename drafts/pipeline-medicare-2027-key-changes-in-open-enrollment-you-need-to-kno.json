@@ -26,7 +26,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Something feels different about this year's enrollment season. Prescription drug pricing rules have shifted again, several [Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included/) are pulling out of certain counties, and the annual cost figures have moved just enough to catch people off guard."
+      "content": "Several key details have changed for Medicare Open Enrollment in 2027. Prescription drug pricing rules have shifted again, several [Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included/) are pulling out of certain counties, and the annual cost figures have moved just enough to catch people off guard."
     },
     {
       "type": "paragraph",
@@ -35,6 +35,10 @@
     {
       "type": "paragraph",
       "content": "This guide walks through what actually changed for 2027, how to compare your options without getting lost in fine print, and how to enroll with a decision you feel good about, not just one you rushed through."
+    },
+    {
+      "type": "paragraph",
+      "content": "If you are turning 65 this year, this process looks a little different for you. Rather than comparing changes to a plan you already have, you are starting from scratch with dozens of Medicare Advantage plans, Medigap options, and Part D drug plans all competing for attention at once. It is common to feel overwhelmed trying to figure out where to even begin. The good news is that the same fundamentals in this guide, checking your doctors, checking your prescriptions, and comparing total costs rather than just premiums, apply just as much to a first-time decision as they do to someone reevaluating a long-held plan."
     },
     {
       "type": "heading",
@@ -68,7 +72,11 @@
     },
     {
       "type": "paragraph",
-      "content": "What has not changed is the core split between the two paths: you still choose one primary structure and build coverage around it. The 2027 Medicare Advantage [maximum out-of-pocket limit](/faqs/medicare-maximum-out-of-pocket/) is capped at $9,250, a detail worth knowing before you assume Original Medicare with a supplement is automatically the pricier route."
+      "content": "What has not changed is the core split between the two paths: you still choose one primary structure and build coverage around it. The 2027 Medicare Advantage [maximum out-of-pocket limit](/faqs/medicare-maximum-out-of-pocket/) is capped at $9,250, according to CMS.gov, a detail worth knowing before you assume Original Medicare with a supplement is automatically the pricier route."
+    },
+    {
+      "type": "paragraph",
+      "content": "If you choose Original Medicare, many people also look at a Medigap, or Medicare Supplement, plan to help cover the gaps Part A and Part B leave behind, such as coinsurance and deductibles. Medigap plans are sold by private insurers, are standardized by letter (like Plan G or Plan N), and are designed to pair with Original Medicare plus a separate Part D drug plan rather than with Medicare Advantage. Unlike Medicare Advantage, Medigap generally does not use provider networks, so you can see any doctor who accepts Medicare. Premiums for Medigap are separate from your Part B premium and vary by insurer, location, and the specific plan letter you choose."
     },
     {
       "type": "heading",
@@ -102,13 +110,13 @@
     },
     {
       "type": "paragraph",
-      "content": "Part D costs have shifted again for 2027. The maximum deductible rises to $615, up from $590 in 2025, and the average premium sits around $34.50 a month, though your actual premium depends on the plan you choose."
+      "content": "Part D costs have shifted again for 2027. According to CMS.gov, the maximum deductible rises to $615, up from $590 in 2025, and according to KFF, the average premium sits around $34.50 a month, though your actual premium depends on the plan you choose."
     },
     {
       "type": "callout",
       "calloutType": "info",
       "calloutTitle": "The Cap Keeps Climbing",
-      "calloutText": "The out-of-pocket prescription cap moves to $2,100 in 2026, up from $2,000 the year before. Once you hit that threshold, you enter the catastrophic phase and pay nothing more for covered drugs that plan year."
+      "calloutText": "According to CMS.gov, the out-of-pocket prescription cap moves to $2,100 in 2026, up from $2,000 the year before. Once you hit that threshold, you enter the catastrophic phase and pay nothing more for covered drugs that plan year."
     },
     {
       "type": "paragraph",
@@ -154,13 +162,13 @@
     },
     {
       "type": "paragraph",
-      "content": "The Medicare Open Enrollment Period runs from October 15 through December 7, with changes taking effect January 1, 2027. Miss this window, and you may be locked into your current plan for another year unless you qualify for a [Special Enrollment Period](/faqs/medicare-special-enrollment-period/).</p>"
+      "content": "According to Medicare.gov, the Medicare Open Enrollment Period runs from October 15 through December 7, with changes taking effect January 1, 2027. Miss this window, and you may be locked into your current plan for another year unless you qualify for a [Special Enrollment Period](/faqs/medicare-special-enrollment-period/). This is separate from the Medicare Advantage Open Enrollment Period, which runs January 1 through March 31 and allows those already enrolled in a Medicare Advantage plan to switch to a different Medicare Advantage plan or return to Original Medicare, but it does not allow switching from Original Medicare into Medicare Advantage.</p>"
     },
     {
       "type": "callout",
       "calloutType": "warning",
       "calloutTitle": "Late Enrollment Penalties",
-      "calloutText": "Delaying Part D coverage without other creditable drug coverage can trigger a permanent late enrollment penalty added to your premium. The 2026 Part D penalty is based on a national base premium of $38.99, and the longer you wait, the more it can cost you long term."
+      "calloutText": "Delaying Part D coverage without other creditable drug coverage can trigger a permanent late enrollment penalty added to your premium. According to CMS.gov, the 2026 Part D penalty is based on a national base premium of $38.99, and the longer you wait, the more it can cost you long term."
     },
     {
       "type": "list",
@@ -181,7 +189,15 @@
     },
     {
       "type": "paragraph",
-      "content": "A plan with a low premium can still cost more overall once you add up deductibles, copays, and coinsurance. The 2026 Part B deductible is $283, and Part A carries a $1,736 deductible per benefit period, both of which affect your true costs depending on how much care you use.</p>"
+      "content": "A plan with a low premium can still cost more overall once you add up deductibles, copays, and coinsurance. According to CMS.gov, here are the 2026 deductible figures that affect your true costs depending on how much care you use:</p>"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Part B deductible: $283 per year",
+        "Part A deductible: $1,736 per benefit period"
+      ]
     },
     {
       "type": "paragraph",
@@ -198,19 +214,19 @@
       "faqs": [
         {
           "question": "I'm not ready to talk to anyone yet. Can I take my time reviewing options first?",
-          "answer": "Yes, you have from October 15 through December 7 to review options at your own pace. There is no requirement to decide immediately, and taking time to compare costs and coverage carefully often leads to a better outcome than rushing."
+          "answer": "Yes, you have from October 15 through December 7 to review options at your own pace, according to Medicare.gov. There is no requirement to decide immediately, and taking time to compare costs and coverage carefully often leads to a better outcome than rushing."
         },
         {
           "question": "How do I get help comparing plans without dealing with a pushy sales call?",
-          "answer": "Licensed Medicare agents are trained to walk through your specific doctors, prescriptions, and budget without pressuring you toward a decision. A good conversation should feel like education, not a pitch, and you can always ask questions before committing to anything."
+          "answer": "Licensed Medicare agents are trained to walk through your specific doctors, prescriptions, and budget without pressuring you toward a decision. You can also contact your local SHIP (State Health Insurance Assistance Program) for free, unbiased counseling that is not tied to selling any particular plan. A good conversation should feel like education, not a pitch, and you can always ask questions before committing to anything."
         },
         {
           "question": "Can I really figure out these changes on my own by reading more?",
-          "answer": "Self-research is genuinely useful for understanding the basics and this year's changes. Where it often falls short is verifying plan-specific details like formulary tiers or network status, which is where a licensed agent or plan finder tool can fill in the gaps."
+          "answer": "Self-research is genuinely useful for understanding the basics and this year's changes. Where it often falls short is verifying plan-specific details like formulary tiers or network status, which is where a licensed agent, a SHIP counselor, or plan finder tool can fill in the gaps."
         },
         {
           "question": "How do I know which sources or advisors I can actually trust?",
-          "answer": "Look for clear licensing information, transparent explanations of how plans and commissions work, and verified client reviews. Trustworthy sources explain trade-offs honestly rather than pushing a single plan as the obvious best choice for everyone."
+          "answer": "Look for clear licensing information, transparent explanations of how plans and commissions work, and verified client reviews. Trustworthy sources explain trade-offs honestly rather than pushing a single plan as the obvious best choice for everyone. SHIP counselors are a good benchmark for unbiased guidance since they do not sell plans or earn commissions."
         },
         {
           "question": "What happens if my Medicare Advantage plan is non-renewed for 2027?",
@@ -222,7 +238,7 @@
         },
         {
           "question": "Will my prescription costs definitely go down with the new cap?",
-          "answer": "The $2,100 out-of-pocket cap for 2026 limits your maximum annual prescription spending once reached, but it does not lower your costs before you hit that threshold. Your actual savings depend on which drugs you take and how your specific plan structures its earlier cost phases."
+          "answer": "The $2,100 out-of-pocket cap for 2026, according to CMS.gov, limits your maximum annual prescription spending once reached, but it does not lower your costs before you hit that threshold. Your actual savings depend on which drugs you take and how your specific plan structures its earlier cost phases."
         }
       ]
     },
@@ -238,7 +254,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Use the checklist above to confirm your doctors, prescriptions, and true annual costs before December 7. If questions remain, a licensed Medicare agent can walk through your specific situation without pressure.</p>"
+      "content": "Use the checklist above to confirm your doctors, prescriptions, and true annual costs before December 7. If questions remain, a licensed Medicare agent or your local SHIP counselor can walk through your specific situation without pressure.</p>"
     },
     {
       "type": "paragraph",
@@ -306,6 +322,6 @@
     }
   ],
   "id": "pipeline-medicare-2027-key-changes-in-open-enrollment-you-need-to-kno",
-  "updatedAt": "2026-10-06T16:01:14.003Z",
-  "createdAt": "2026-10-06T16:01:14.003Z"
+  "updatedAt": "2026-10-06T16:19:35.521Z",
+  "createdAt": "2026-10-06T16:19:35.521Z"
 }
