@@ -1,7 +1,22 @@
 {
   "title": "Medicare Open Enrollment 2027: 15-Point Checklist",
-  "slug": "15-essentials-for-medicare-open-enrollment-2027-preparation",
+  "rawContent": "",
+  "slug": "15-essentials-for-medicare-open-enrollment-preparation",
+  "excerpt": "A 15-point checklist to help Medicare beneficiaries and caregivers prepare for the 2027 Annual Enrollment Period, covering terminology, documents, and costs to compare.",
   "category": "enrollment",
+  "author": "David Haass",
+  "reviewer": "Ashlee Zareczny",
+  "image": "/images/generated/15-essentials-for-medicare-open-enrollment-2027-preparation-4d30dccf8280.png",
+  "imageAlt": "",
+  "keyTakeaways": [
+    "Medicare Open Enrollment 2027 runs October 15 to December 7, 2026 for coverage starting in 2027",
+    "Know your current plan type (Original Medicare, Medicare Advantage, or Part D) before comparing new options",
+    "Gather key documents like your Evidence of Coverage, provider directory, and Annual Notice of Change letter early",
+    "Avoid auto-renewing your plan since premiums, formularies, and networks can change significantly each year",
+    "Comparing monthly premiums, deductibles, copays, and out-of-pocket maximums helps prevent costly surprises in January"
+  ],
+  "seoTitle": "Medicare Open Enrollment 2027: Your 15-Point Checklist",
+  "seoDescription": "Prepare for Medicare Open Enrollment 2027 with this essential checklist covering costs, coverage, documents, and key deadlines to know.",
   "sections": [
     {
       "type": "heading",
@@ -224,21 +239,12 @@
       "content": "When you are ready, licensed guidance is available to help you compare plans based on your doctors, prescriptions, and budget, with no obligation to enroll until you feel confident in your choice."
     }
   ],
-  "seoTitle": "Medicare Open Enrollment 2027: 15-Point Checklist",
-  "seoDescription": "Prepare for Medicare Open Enrollment 2027 with this essential checklist covering costs, coverage, documents, and key deadlines to know.",
-  "excerpt": "A 15-point checklist to help Medicare beneficiaries and caregivers prepare for the 2027 Annual Enrollment Period, covering terminology, documents, and costs to compare.",
-  "keyTakeaways": [
-    "Medicare Open Enrollment 2027 runs October 15 to December 7, 2026 for coverage starting in 2027",
-    "Know your current plan type (Original Medicare, Medicare Advantage, or Part D) before comparing new options",
-    "Gather key documents like your Evidence of Coverage, provider directory, and Annual Notice of Change letter early",
-    "Avoid auto-renewing your plan since premiums, formularies, and networks can change significantly each year",
-    "Comparing monthly premiums, deductibles, copays, and out-of-pocket maximums helps prevent costly surprises in January"
+  "relatedSlugs": [
+    "2027-medicare-advantage-enroll-early-to-avoid-county-caps",
+    "medicare-part-d-premiums-to-increase-in-2027-key-details",
+    "15-essential-steps-for-navigating-medicare-open-enrollment"
   ],
-  "image": "/images/generated/15-essentials-for-medicare-open-enrollment-2027-preparation-4d30dccf8280.png",
-  "relatedSlugs": [],
-  "sourceUrl": "https://www.savingadvice.com/articles/2026/10/04/10748927_medicare-open-enrollment-starts-october-15-7-things-to-gather-before-you-compare-plans.html",
-  "pipelineId": "disc-d01fe4951a78b32486e2a223400ddef975bd4fce8d3c0b6a9b25324591168a32",
   "id": "pipeline-15-essentials-for-medicare-open-enrollment-2027-preparation",
-  "updatedAt": "2026-10-06T15:32:34.702Z",
-  "createdAt": "2026-10-06T15:32:34.702Z"
+  "updatedAt": "2026-10-06T18:11:26.349Z",
+  "createdAt": "2026-10-06T18:11:26.349Z"
 }
