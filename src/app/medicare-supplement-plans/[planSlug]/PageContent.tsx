@@ -142,6 +142,11 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
                   What Is {plan.displayName}?
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-5 text-lg">{plan.intro}</p>
+                {plan.slug === "plan-g" && (
+                  <p className="text-slate-600 leading-relaxed mb-5">
+                    Ready to compare companies? <Link href="/blog/best-medicare-supplement-plan-g-companies/#compare-local-quotes" className="text-teal-700 underline font-semibold">Compare Plan G quotes step by step and use the side-by-side worksheet</Link>.
+                  </p>
+                )}
                                 {plan.detailParagraphs.map((para, i) => (
                   <p key={i} className="text-slate-600 leading-relaxed mb-4">{para}</p>
                 ))}

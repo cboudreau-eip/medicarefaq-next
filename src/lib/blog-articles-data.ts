@@ -2415,7 +2415,7 @@ export const blogArticles: BlogArticleData[] = [
     category: "Medicare Basics",
     categoryColor: "#2563EB",
     date: "August 7, 2026",
-    dateUpdated: "August 7, 2026",
+    dateUpdated: "October 6, 2026",
     author: "David Haass",
     reviewer: "Ashlee Zareczny",
     readTime: "10 min read",
@@ -2438,51 +2438,224 @@ export const blogArticles: BlogArticleData[] = [
       "Comparing plans by total estimated cost, not just monthly premium, gives you a far more accurate picture of what you will actually spend in a given year.",
     ],
     sections: [
-      { type: "heading", level: 2, text: "Navigating Medicare Choices Without the Confusion" },
-      { type: "paragraph", content: "Facing 40 or more plan options in a single county is not unusual for people turning 65 or reviewing Medicare coverage each fall. That sheer volume of choices - different carriers, different premiums, different drug formularies - can leave even the most organized person feeling stuck before they even begin." },
-      { type: "paragraph", content: "The good news is that the right medicare plan comparison tool does the heavy lifting for you. By entering a few basic details, you can compare Medicare plans side by side and evaluate real quotes from multiple carriers at once, filtered by your doctors, prescriptions, and monthly budget." },
-      { type: "paragraph", content: "This guide walks you through every major tool available so you can make a confident, well-informed decision, without guesswork and without pressure." },
-      { type: "heading", level: 2, text: "The Official Government Tool for Multi-Carrier Quotes" },
-      { type: "paragraph", content: 'The most direct answer to the question "what Medicare comparison tool shows multiple carrier quotes?" is Medicare.gov\'s Plan Finder. This free, government-operated platform displays benefit summaries and estimated costs from every CMS-approved carrier operating in your area, all on one screen.' },
-      { type: "paragraph", content: "The scale of the marketplace makes a centralized tool essential. According to KFF data, the average Medicare beneficiary had access to 43 Medicare Advantage plans per county in 2026. Without a single place to view all of them, you would need to visit dozens of individual carrier websites and try to reconcile wildly different formats on your own." },
-      { type: "paragraph", content: "Using Plan Finder is straightforward. You enter your zip code, add your prescription drugs by name and dosage, and indicate whether you want Medicare Advantage, Part D standalone coverage, or Medigap options. The tool then generates a list of available plans with estimated out-of-pocket costs calculated specifically around your medications and expected care use." },
-      { type: "paragraph", content: "Results can be sorted by estimated total cost, monthly premium, star rating, or plan type. This makes it easy to compare Medicare plans side by side using data that reflects your actual situation, not just general averages. The Plan Finder is updated annually ahead of each enrollment season, so the quotes you see reflect the current benefit year." },
-      { type: "heading", level: 2, text: "Private Marketplace Tools and What They Cover" },
-      { type: "paragraph", content: "Beyond Medicare.gov, several private comparison platforms, including eHealth, GoHealth, and SelectQuote, also allow you to request quotes from multiple carriers at once. These sites are free for consumers and can be a convenient way to reach a licensed agent who will walk you through your options in real time." },
-      { type: "paragraph", content: "The key distinction worth understanding: private marketplaces only display carriers with which they have active contracted agreements. That sounds minor, but it matters significantly. The Medicare market includes well over 4,000 plan options nationally, and a private site may feature only a portion of those, specifically the ones that have paid to be listed or have an agent distribution relationship with that platform." },
-      { type: "paragraph", content: "This does not make private tools unreliable. It simply means you should understand what you are looking at. If you want a free tool to get Medicare quotes from multiple companies without any filtering, Medicare.gov is the neutral choice. If you want a knowledgeable person explaining those quotes in plain language, a private marketplace connected to a licensed independent broker can complement that research effectively." },
-      { type: "paragraph", content: "The smartest approach is to use both. Start with Medicare.gov for a complete market view, then work with an independent broker or counselor to interpret what you find. That combination gives you breadth and depth." },
-      { type: "callout", calloutType: "tip", calloutTitle: "Pro Tip", calloutText: "Before you use any comparison tool, gather your current medication list, including the exact drug names, dosages, and how often you take them, and have it ready to enter into the Plan Finder. Even small differences in dosage can affect which Part D plan offers the lowest annual cost for your specific prescriptions, and entering your drugs accurately is the single most important step toward getting a meaningful quote rather than a generic estimate." },
-      { type: "heading", level: 2, text: "Comparing Medigap Plans Across Different Companies" },
-      { type: "paragraph", content: "Medicare Supplement plans, commonly called Medigap, present a different comparison challenge. Unlike Medicare Advantage plans, Medigap benefits are standardized by the federal government. A Plan G from Carrier A covers the exact same services as a Plan G from Carrier B. What varies significantly is the monthly premium." },
-      { type: "paragraph", content: "Medicare.gov does list Medigap options and provides a directory of insurers in your state, which is a useful starting point. However, the premium rates shown are not always real-time quotes and may not reflect current underwriting decisions, age-band pricing, or discounts that individual carriers apply. For accurate Medigap premium comparisons, a licensed independent agent or your state insurance department\'s rate lookup tool will typically deliver far more precise numbers." },
-      { type: "paragraph", content: "State-specific pricing methods add another layer of complexity. Some carriers use attained-age pricing, where your premium increases as you get older, while others use community or issue-age pricing. Policy researchers consistently emphasize that the lowest initial rate is not always the best long-term value - the rate trajectory over five to ten years matters just as much as what you pay in the first month." },
-      { type: "paragraph", content: "When reviewing Medigap quotes, always ask each carrier what their pricing method is and how rates have changed over the past three years. That context tells you far more than any single premium figure." },
-      { type: "heading", level: 2, text: "Looking Beyond the Monthly Premium: Total Cost of Ownership" },
-      { type: "paragraph", content: "One of the most common missteps when using any medicare comparison tool is focusing only on the monthly premium. That number is visible and easy to compare, but it rarely tells the complete story." },
-      { type: "paragraph", content: "To evaluate a plan honestly, you need to account for all cost layers. In 2026, the standard Part B premium is $202.90 per month, which you pay regardless of what plan you choose. The average standalone Part D plan adds approximately $34.50 per month. If you select a Medicare Advantage plan, the maximum out-of-pocket limit in 2026 is $9,250, meaning your exposure in a high-use year could reach that ceiling before the plan covers 100% of costs." },
-      { type: "table", headers: ["Plan Component", "What It Covers", "2026 Example"], rows: [["Monthly premium", "What you pay whether or not you use care", "Part B baseline $202.90"], ["Annual deductible", "What you pay before coverage kicks in", "Varies by plan"], ["Copays and coinsurance", "Your share of costs each time you receive care", "Per visit or service"], ["Drug costs", "Estimated annual total based on your specific medications", "Part D average $34.50 premium"], ["Maximum out-of-pocket", "The most you could owe in a worst-case year", "Up to $9,250 for Advantage"]] },
-      { type: "paragraph", content: "The Plan Finder tool calculates an estimated annual total that factors in all these elements against your drug list and expected utilization. That number, not the monthly premium alone, is what you should use to compare Medicare plans side by side." },
-      { type: "heading", level: 2, text: "Free, Unbiased Human Guidance Through SHIP" },
-      { type: "paragraph", content: "One of the most underutilized resources in Medicare planning is the State Health Insurance Assistance Program, known as SHIP. Funded by the federal government and administered at the state level, SHIP provides free, one-on-one counseling from certified advisors who have no financial interest in which plan you choose." },
-      { type: "paragraph", content: "SHIP counselors are trained to walk you through comparison tools, explain the quotes you are seeing, and help you match plan features to your specific health situation. You can meet with a counselor in person at a local office, talk over the phone, or in some states connect through video. The SHIP national network can connect you with your state\'s program quickly, and appointments are available year-round, not just during enrollment windows." },
-      { type: "paragraph", content: "This matters especially if you find the numbers overwhelming or you are not sure whether a Medicare Advantage plan or a Medigap policy makes more sense for your circumstances. A SHIP counselor can explain the difference between plan types, review Medigap vs. Medicare Advantage tradeoffs, and help you think through scenarios based on your health history." },
-      { type: "paragraph", content: "There is no sales pitch, no follow-up call trying to close a deal, and no cost. That independence is what makes SHIP a genuinely valuable resource during one of the more consequential financial decisions you will make in retirement." },
-      { type: "heading", level: 2, text: "Taking the Next Step with Confidence" },
-      { type: "paragraph", content: "Choosing the right Medicare plan does not have to feel like solving a puzzle with missing pieces. The tools exist, they are free, and they are designed to give you a clear picture of your options, whether you use Medicare.gov\'s Plan Finder, a private marketplace, or sit down with a SHIP counselor for personalized help." },
-      { type: "paragraph", content: "Start by checking your total estimated costs, not just the monthly premium. Review your prescriptions, your preferred doctors, and your anticipated care needs for the year. Then use the resources available to you to make a side-by-side comparison that reflects your real situation." },
-      { type: "paragraph", content: "You have time to get this right. The annual enrollment period gives you a dedicated window each year to revisit your coverage, and free help is always available when you need it. Make the comparison, ask the questions, and move forward knowing your choice is grounded in clear, accurate information." },
-      { type: "faq", faqs: [
-        { question: "What Medicare comparison tool shows multiple carrier quotes at once?", answer: "Medicare.gov's Plan Finder is the primary tool that displays every CMS-approved carrier available in your area at the same time. It is the only truly comprehensive, neutral platform - private sites show only carriers with contracted agreements. For the broadest market view, start there." },
-        { question: "How do I use Medicare.gov Plan Finder to compare plans from different companies?", answer: "Go to Medicare.gov and select Find health and drug plans. Enter your zip code, add your current prescriptions by name and dosage, and choose the plan type you want to explore. You can then sort results by estimated annual cost, monthly premium, or star rating to see how carriers stack up against each other." },
-        { question: "Is there a free tool to compare Medicare Advantage plans from multiple carriers?", answer: "Yes, both Medicare.gov and private platforms like eHealth and GoHealth are free for consumers. You pay nothing to search, compare, or enroll through any of these tools. The difference is in how many carriers each platform displays, so using Medicare.gov ensures you see the full picture." },
-        { question: "What is the best website to compare Medicare supplement plans side by side?", answer: "Medicare.gov provides a Medigap directory, but state insurance department websites often deliver more accurate local rate quotes. An independent licensed agent can also pull real-time premiums from multiple carriers simultaneously, which is often the fastest route to an accurate side-by-side Medigap comparison." },
-        { question: "Can I see multiple Medicare Part D drug plan quotes in one place?", answer: "Yes. The Medicare.gov Plan Finder evaluates your specific medication list against every Part D plan operating in your zip code and calculates an estimated annual drug cost for each. This is one of its strongest features - it personalizes the quote rather than giving you a generic plan premium." },
-        { question: "Does Medicare.gov show all carriers or just some?", answer: "Medicare.gov lists all carriers participating in Medicare, making it comprehensive by design. Private comparison websites, by contrast, feature only the carriers with whom they have established distribution agreements. For a complete market view, CMS-approved resources like Medicare.gov are the most reliable option." },
-        { question: "How often do comparison tool quotes change?", answer: "Plan benefits and premiums update every January 1st for the new plan year. Carriers announce their changes in the fall, which is why the Annual Enrollment Period from October 15 through December 7 is the critical window to review and switch plans. Quotes you see outside of that window reflect the current year's benefits." },
-        { question: "Can a broker help me interpret these multi-carrier quotes?", answer: "Absolutely. An independent broker can pull quotes from the carriers they represent and explain what the numbers mean for your specific health needs. For fully unbiased guidance with no sales pressure, a SHIP counselor offers the same interpretation help at no cost and without any affiliation to specific carriers." },
-      ]},
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "Navigating Medicare Choices Without the Confusion"
+  },
+  {
+    "type": "paragraph",
+    "content": "Facing 40 or more plan options in a single county is not unusual for people turning 65 or reviewing Medicare coverage each fall. That sheer volume of choices - different carriers, different premiums, different drug formularies - can leave even the most organized person feeling stuck before they even begin."
+  },
+  {
+    "type": "paragraph",
+    "content": "The good news is that the right medicare plan comparison tool does the heavy lifting for you. By entering a few basic details, you can compare Medicare plans side by side and evaluate real quotes from multiple carriers at once, filtered by your doctors, prescriptions, and monthly budget."
+  },
+  {
+    "type": "paragraph",
+    "content": "This guide walks you through every major tool available so you can make a confident, well-informed decision, without guesswork and without pressure."
+  },
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "The Official Government Tool for Multi-Carrier Quotes"
+  },
+  {
+    "type": "paragraph",
+    "content": "The most direct answer to the question \"what Medicare comparison tool shows multiple carrier quotes?\" is Medicare.gov's Plan Finder. This free, government-operated platform displays benefit summaries and estimated costs from every CMS-approved carrier operating in your area, all on one screen."
+  },
+  {
+    "type": "paragraph",
+    "content": "The scale of the marketplace makes a centralized tool essential. According to KFF data, the average Medicare beneficiary had access to 43 Medicare Advantage plans per county in 2026. Without a single place to view all of them, you would need to visit dozens of individual carrier websites and try to reconcile wildly different formats on your own."
+  },
+  {
+    "type": "paragraph",
+    "content": "Using Plan Finder is straightforward. You enter your zip code, add your prescription drugs by name and dosage, and indicate whether you want Medicare Advantage, Part D standalone coverage, or Medigap options. The tool then generates a list of available plans with estimated out-of-pocket costs calculated specifically around your medications and expected care use."
+  },
+  {
+    "type": "paragraph",
+    "content": "Results can be sorted by estimated total cost, monthly premium, star rating, or plan type. This makes it easy to compare Medicare plans side by side using data that reflects your actual situation, not just general averages. The Plan Finder is updated annually ahead of each enrollment season, so the quotes you see reflect the current benefit year."
+  },
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "Private Marketplace Tools and What They Cover"
+  },
+  {
+    "type": "paragraph",
+    "content": "Beyond Medicare.gov, several private comparison platforms, including eHealth, GoHealth, and SelectQuote, also allow you to request quotes from multiple carriers at once. These sites are free for consumers and can be a convenient way to reach a licensed agent who will walk you through your options in real time."
+  },
+  {
+    "type": "paragraph",
+    "content": "The key distinction worth understanding: private marketplaces only display carriers with which they have active contracted agreements. That sounds minor, but it matters significantly. The Medicare market includes well over 4,000 plan options nationally, and a private site may feature only a portion of those, specifically the ones that have paid to be listed or have an agent distribution relationship with that platform."
+  },
+  {
+    "type": "paragraph",
+    "content": "This does not make private tools unreliable. It simply means you should understand what you are looking at. If you want a free tool to get Medicare quotes from multiple companies without any filtering, Medicare.gov is the neutral choice. If you want a knowledgeable person explaining those quotes in plain language, a private marketplace connected to a licensed independent broker can complement that research effectively."
+  },
+  {
+    "type": "paragraph",
+    "content": "The smartest approach is to use both. Start with Medicare.gov for a complete market view, then work with an independent broker or counselor to interpret what you find. That combination gives you breadth and depth."
+  },
+  {
+    "type": "callout",
+    "calloutType": "tip",
+    "calloutTitle": "Pro Tip",
+    "calloutText": "Before you use any comparison tool, gather your current medication list, including the exact drug names, dosages, and how often you take them, and have it ready to enter into the Plan Finder. Even small differences in dosage can affect which Part D plan offers the lowest annual cost for your specific prescriptions, and entering your drugs accurately is the single most important step toward getting a meaningful quote rather than a generic estimate."
+  },
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "Comparing Medigap Plans Across Different Companies"
+  },
+  {
+    "type": "paragraph",
+    "content": "Medicare Supplement plans, commonly called Medigap, present a different comparison challenge. Unlike Medicare Advantage plans, Medigap benefits are standardized by the federal government. A Plan G from Carrier A covers the exact same services as a Plan G from Carrier B. What varies significantly is the monthly premium."
+  },
+  {
+    "type": "paragraph",
+    "content": "Medicare.gov does list Medigap options and provides a directory of insurers in your state, which is a useful starting point. However, the premium rates shown are not always real-time quotes and may not reflect current underwriting decisions, age-band pricing, or discounts that individual carriers apply. For accurate Medigap premium comparisons, a licensed independent agent or your state insurance department's rate lookup tool will typically deliver far more precise numbers."
+  },
+  {
+    "type": "paragraph",
+    "content": "State-specific pricing methods add another layer of complexity. Some carriers use attained-age pricing, where your premium increases as you get older, while others use community or issue-age pricing. Policy researchers consistently emphasize that the lowest initial rate is not always the best long-term value - the rate trajectory over five to ten years matters just as much as what you pay in the first month."
+  },
+  {
+    "type": "paragraph",
+    "content": "When reviewing Medigap quotes, always ask each carrier what their pricing method is and how rates have changed over the past three years. That context tells you far more than any single premium figure."
+  },
+  {
+    "type": "paragraph",
+    "content": "Comparing Plan G specifically? Follow our [five-step Plan G quote comparison guide](/blog/best-medicare-supplement-plan-g-companies/#compare-local-quotes) and use its worksheet to record each insurer's policy type, premium, discounts, rating method and quote date side by side."
+  },
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "Looking Beyond the Monthly Premium: Total Cost of Ownership"
+  },
+  {
+    "type": "paragraph",
+    "content": "One of the most common missteps when using any medicare comparison tool is focusing only on the monthly premium. That number is visible and easy to compare, but it rarely tells the complete story."
+  },
+  {
+    "type": "paragraph",
+    "content": "To evaluate a plan honestly, you need to account for all cost layers. In 2026, the standard Part B premium is $202.90 per month, which you pay regardless of what plan you choose. The average standalone Part D plan adds approximately $34.50 per month. If you select a Medicare Advantage plan, the maximum out-of-pocket limit in 2026 is $9,250, meaning your exposure in a high-use year could reach that ceiling before the plan covers 100% of costs."
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Plan Component",
+      "What It Covers",
+      "2026 Example"
     ],
+    "rows": [
+      [
+        "Monthly premium",
+        "What you pay whether or not you use care",
+        "Part B baseline $202.90"
+      ],
+      [
+        "Annual deductible",
+        "What you pay before coverage kicks in",
+        "Varies by plan"
+      ],
+      [
+        "Copays and coinsurance",
+        "Your share of costs each time you receive care",
+        "Per visit or service"
+      ],
+      [
+        "Drug costs",
+        "Estimated annual total based on your specific medications",
+        "Part D average $34.50 premium"
+      ],
+      [
+        "Maximum out-of-pocket",
+        "The most you could owe in a worst-case year",
+        "Up to $9,250 for Advantage"
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "content": "The Plan Finder tool calculates an estimated annual total that factors in all these elements against your drug list and expected utilization. That number, not the monthly premium alone, is what you should use to compare Medicare plans side by side."
+  },
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "Free, Unbiased Human Guidance Through SHIP"
+  },
+  {
+    "type": "paragraph",
+    "content": "One of the most underutilized resources in Medicare planning is the State Health Insurance Assistance Program, known as SHIP. Funded by the federal government and administered at the state level, SHIP provides free, one-on-one counseling from certified advisors who have no financial interest in which plan you choose."
+  },
+  {
+    "type": "paragraph",
+    "content": "SHIP counselors are trained to walk you through comparison tools, explain the quotes you are seeing, and help you match plan features to your specific health situation. You can meet with a counselor in person at a local office, talk over the phone, or in some states connect through video. The SHIP national network can connect you with your state's program quickly, and appointments are available year-round, not just during enrollment windows."
+  },
+  {
+    "type": "paragraph",
+    "content": "This matters especially if you find the numbers overwhelming or you are not sure whether a Medicare Advantage plan or a Medigap policy makes more sense for your circumstances. A SHIP counselor can explain the difference between plan types, review Medigap vs. Medicare Advantage tradeoffs, and help you think through scenarios based on your health history."
+  },
+  {
+    "type": "paragraph",
+    "content": "There is no sales pitch, no follow-up call trying to close a deal, and no cost. That independence is what makes SHIP a genuinely valuable resource during one of the more consequential financial decisions you will make in retirement."
+  },
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "Taking the Next Step with Confidence"
+  },
+  {
+    "type": "paragraph",
+    "content": "Choosing the right Medicare plan does not have to feel like solving a puzzle with missing pieces. The tools exist, they are free, and they are designed to give you a clear picture of your options, whether you use Medicare.gov's Plan Finder, a private marketplace, or sit down with a SHIP counselor for personalized help."
+  },
+  {
+    "type": "paragraph",
+    "content": "Start by checking your total estimated costs, not just the monthly premium. Review your prescriptions, your preferred doctors, and your anticipated care needs for the year. Then use the resources available to you to make a side-by-side comparison that reflects your real situation."
+  },
+  {
+    "type": "paragraph",
+    "content": "You have time to get this right. The annual enrollment period gives you a dedicated window each year to revisit your coverage, and free help is always available when you need it. Make the comparison, ask the questions, and move forward knowing your choice is grounded in clear, accurate information."
+  },
+  {
+    "type": "faq",
+    "faqs": [
+      {
+        "question": "What Medicare comparison tool shows multiple carrier quotes at once?",
+        "answer": "Medicare.gov's Plan Finder is the primary tool that displays every CMS-approved carrier available in your area at the same time. It is the only truly comprehensive, neutral platform - private sites show only carriers with contracted agreements. For the broadest market view, start there."
+      },
+      {
+        "question": "How do I use Medicare.gov Plan Finder to compare plans from different companies?",
+        "answer": "Go to Medicare.gov and select Find health and drug plans. Enter your zip code, add your current prescriptions by name and dosage, and choose the plan type you want to explore. You can then sort results by estimated annual cost, monthly premium, or star rating to see how carriers stack up against each other."
+      },
+      {
+        "question": "Is there a free tool to compare Medicare Advantage plans from multiple carriers?",
+        "answer": "Yes, both Medicare.gov and private platforms like eHealth and GoHealth are free for consumers. You pay nothing to search, compare, or enroll through any of these tools. The difference is in how many carriers each platform displays, so using Medicare.gov ensures you see the full picture."
+      },
+      {
+        "question": "What is the best website to compare Medicare supplement plans side by side?",
+        "answer": "Medicare.gov provides a Medigap directory, but state insurance department websites often deliver more accurate local rate quotes. An independent licensed agent can also pull real-time premiums from multiple carriers simultaneously, which is often the fastest route to an accurate side-by-side Medigap comparison."
+      },
+      {
+        "question": "Can I see multiple Medicare Part D drug plan quotes in one place?",
+        "answer": "Yes. The Medicare.gov Plan Finder evaluates your specific medication list against every Part D plan operating in your zip code and calculates an estimated annual drug cost for each. This is one of its strongest features - it personalizes the quote rather than giving you a generic plan premium."
+      },
+      {
+        "question": "Does Medicare.gov show all carriers or just some?",
+        "answer": "Medicare.gov lists all carriers participating in Medicare, making it comprehensive by design. Private comparison websites, by contrast, feature only the carriers with whom they have established distribution agreements. For a complete market view, CMS-approved resources like Medicare.gov are the most reliable option."
+      },
+      {
+        "question": "How often do comparison tool quotes change?",
+        "answer": "Plan benefits and premiums update every January 1st for the new plan year. Carriers announce their changes in the fall, which is why the Annual Enrollment Period from October 15 through December 7 is the critical window to review and switch plans. Quotes you see outside of that window reflect the current year's benefits."
+      },
+      {
+        "question": "Can a broker help me interpret these multi-carrier quotes?",
+        "answer": "Absolutely. An independent broker can pull quotes from the carriers they represent and explain what the numbers mean for your specific health needs. For fully unbiased guidance with no sales pressure, a SHIP counselor offers the same interpretation help at no cost and without any affiliation to specific carriers."
+      }
+    ]
+  }
+],
     relatedSlugs: [
       "medicare-supplement-vs-medicare-advantage-coverage-transparency-explained",
       "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them",
@@ -12431,11 +12604,11 @@ imageAlt: "Older couple link arms drinking champagne at a party with bunting and
       ogImage: "https://images.pexels.com/photos/3943716/pexels-photo-3943716.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
     },
     title: "Why Two Medigap Plan G Policies Can Cost Completely Different Amounts",
-    excerpt: "A woman in Ohio pays $118 a month for Medigap Plan G. Her neighbor, same age, same zip code, pays $189 for the exact same plan letter. Here is why that happens and what it means for your decision.",
+    excerpt: "Plan G premiums can differ even when standardized benefits match. Learn how rating methods, discounts and quote assumptions affect your comparison, and what to verify before switching.",
     category: "Medicare Supplement",
     categoryColor: "#4F46E5",
     date: "July 29, 2026",
-    dateUpdated: "July 29, 2026",
+    dateUpdated: "October 6, 2026",
     author: "David Haass",
     reviewer: "Ashlee Zareczny",
     readTime: "7 min read",
@@ -12451,43 +12624,227 @@ imageAlt: "Older couple link arms drinking champagne at a party with bunting and
       { id: "faq", title: "Frequently Asked Questions" },
     ],
     keyTakeaways: [
-      "Plan G benefits are standardized nationwide (except MA, MN, WI), so coverage is identical no matter which insurer sells it",
-      "Only pricing varies between carriers, based on rating method, claims history, and business strategy",
-      "Insurers use one of three rating methods (attained-age, issue-age, or community-rated), which affects how premiums rise over time",
-      "Attained-age policies may look cheaper at 65 but can become more expensive than community-rated plans by your mid-70s",
-      "Requesting a carrier rate increase history and comparing during your Medigap Open Enrollment Period can help you avoid overpaying",
-    ],
+  "Standard Plan G benefits are standardized in most states; compare high-deductible and SELECT options separately",
+  "Premiums, rating methods, discounts and availability can vary by insurer and applicant",
+  "Issue-age pricing does not lock your premium permanently; non-age factors can still raise it",
+  "Historical rate changes are context, not a guarantee of future premiums",
+  "Confirm purchase protections and replacement eligibility before switching policies"
+],
     sections: [
-      { type: "heading", level: 2, text: "Why Medigap Plan G Premiums Vary So Much Between Companies", id: "why-medigap-plan-g-premiums-vary-so-much-between-companies" },
-      { type: "paragraph", content: "A woman in Ohio pays $118 a month for Medigap Plan G. Her neighbor, same age, same zip code, pays $189 for the exact same plan letter. Both policies cover the identical benefits required by federal law, yet one costs 60% more than the other for no medical reason at all." },
-      { type: "paragraph", content: "This price gap surprises a lot of people shopping for [Medicare Supplement coverage](/medicare-supplement-plans/) for the first time. Plan G is Plan G no matter which company sells it, since benefits are standardized by the federal government. What is not standardized is the price, and that difference comes down to how each insurance company sets its rates." },
-      { type: "callout", calloutType: "info", calloutTitle: "Why Standardization Does Not Mean Same Price", calloutText: "Medicare requires that Plan G cover the same benefits regardless of insurer. Pricing, however, is set independently by each company based on their own rating method, claims history, and business strategy. That is why identical coverage can carry very different price tags." },
-      { type: "heading", level: 2, text: "What Makes Plan G the Same Everywhere", id: "plan-g-standardized" },
-      { type: "paragraph", content: "Every [Plan G](/medicare-supplement-plans/plan-g) policy sold in the United States, aside from Massachusetts, Minnesota, and Wisconsin which use their own standardized formats, covers the same list of benefits. That includes your Part A deductible, Part B coinsurance, skilled nursing coinsurance, and foreign travel emergency care." },
-      { type: "paragraph", content: "The only thing Plan G does not cover is the Part B deductible, which sits at $283 in 2026. Beyond that single gap, a $118 Plan G policy and a $189 Plan G policy will pay claims identically." },
-      { type: "list", ordered: false, items: ["Part A deductible ($1,736 in 2026)", "Part A coinsurance for hospital stays beyond day 60", "Part B coinsurance, typically 20% of approved charges", "Skilled nursing facility coinsurance ($217 per day in 2026)", "First three pints of blood", "Foreign travel emergency care (80% up to plan limits)"] },
-      { type: "heading", level: 3, text: "The Three Pricing Methods That Create Cost Gaps", id: "rating-methods" },
-      { type: "paragraph", content: "Insurance companies use one of three rating methods to price Medigap plans. This single decision drives most of the price variation you see between carriers, and it also determines how your premium will behave as you age." },
-      { type: "table", title: "Medigap Rating Methods Compared", headers: ["Rating Method", "How It Works", "What Happens Over Time"], rows: [["Community-rated", "Everyone pays the same premium regardless of age", "Increases only from inflation and claims trends, not age"], ["Issue-age-rated", "Premium is locked in based on your age when you buy the policy", "Never increases due to age, but starts higher for older buyers"], ["Attained-age-rated", "Premium is based on your current age each year", "Increases every year as you get older, often the cheapest at first"]] },
-      { type: "callout", calloutType: "warning", calloutTitle: "The Cheap Policy Trap", calloutText: "Attained-age-rated policies often look like the best deal at 65, but the premium climbs every year simply because you are aging. A policy that is $30 cheaper today could cost more than a community-rated option by your mid-70s." },
-      { type: "heading", level: 2, text: "Other Reasons Premiums Differ Between Companies", id: "other-factors" },
-      { type: "paragraph", content: "Rating method explains a lot, but not everything. Insurers also factor in their own claims experience, administrative costs, profit margins, and how aggressively they want to grow in your state." },
-      { type: "paragraph", content: "A company with a large, healthy pool of policyholders in your area may price more competitively than a smaller carrier still building its book of business. Household discounts, payment method discounts, and underwriting practices at the time you applied can also shift your rate." },
-      { type: "list", ordered: false, items: ["Company size and claims pool: larger, more stable pools tend to have steadier pricing", "Household or multi-policy discounts: some insurers reduce premiums when a spouse also enrolls", "Underwriting timing: rates locked in during open enrollment vs. later medical underwriting can differ", "Geographic rating areas: some states allow zip-code-level pricing within the same state", "Company profit targets and reserves: some insurers price conservatively, others compete harder on price"] },
-      { type: "eddie-pro-tip", content: "I tell clients to ask every carrier one specific question: what rating method do you use, and what has this exact plan rate increase looked like over the past five years? Most people only compare today premium, but the company rate increase history tells you far more about what you will actually pay long term. A slightly higher premium today from a company with a stable increase history often beats a cheap policy that jumps every renewal." },
-      { type: "image", src: "/images/cta-banner-find-plan.jpg", alt: "Find the Right Medicare Plan for You", link: "zip-form-modal" },
-      { type: "heading", level: 2, text: "Common Mistakes When Comparing Medigap Quotes", id: "common-mistakes" },
-      { type: "paragraph", content: "Shoppers often compare Plan G quotes the same way they would compare car insurance, focusing only on the sticker price. That approach misses the factors that determine your total cost over the years you will hold the policy." },
-      { type: "callout", calloutType: "warning", calloutTitle: "Look Beyond the First-Year Price", calloutText: "Request each carrier rate increase history for the past three to five years before deciding. A licensed agent can pull this information and show you a side-by-side comparison so you are not guessing." },
-      { type: "list", ordered: false, items: ["Choosing the lowest premium without checking the rating method", "Not asking about the company history of rate increases", "Assuming a well-known brand name automatically means better pricing", "Skipping the medical underwriting window and paying more later", "Forgetting that switching plans later may require answering health questions"] },
-      { type: "callout", calloutType: "info", calloutTitle: "Medical Underwriting After Your First Six Months", calloutText: "Your Medigap Open Enrollment Period lasts six months starting the month you are 65 and enrolled in Part B. After that window closes, switching to a different Plan G carrier usually requires medical underwriting, and a health condition could mean denial or a higher rate." },
-      { type: "heading", level: 2, text: "How to Compare Plan G Quotes the Right Way", id: "how-to-compare" },
-      { type: "paragraph", content: "A fair comparison looks at more than the monthly number on the quote sheet. Since coverage is identical, your job is to evaluate the company behind the policy, not the benefits." },
-      { type: "list", ordered: false, items: ["Confirm the rating method used by each carrier you are considering", "Request rate history for the specific plan over the last three to five years", "Check financial strength ratings from independent agencies like AM Best", "Ask about available discounts, including household and payment discounts", "Review customer service reputation, since you will be dealing with this company for claims and renewals", "Compare the total premium, not just an introductory or first-year rate"] },
-      { type: "paragraph", content: "Working with a [licensed Medicare agent](/contact/) who represents multiple carriers can simplify this process significantly. Instead of calling five companies yourself, one licensed agent can pull quotes, rating methods, and rate histories side by side so you can compare apples to apples." },
-      { type: "heading", level: 2, text: "Frequently Asked Questions", id: "faq" },
-      { type: "faq", faqs: [{ question: "If Plan G covers the same benefits everywhere, does the company I choose even matter?", answer: "Yes, significantly. The company determines how your premium will change over time, how quickly claims are processed, and whether you will face rate increases that outpace inflation. Coverage is identical, but your long-term cost and experience depend entirely on the carrier." }, { question: "Will a licensed agent push me toward the most expensive plan?", answer: "A licensed agent who represents multiple carriers is compensated similarly regardless of which plan you choose. Their incentive is to match you with a plan you will keep, which means finding one that fits your budget and has a stable rate history." }, { question: "Can I switch to a cheaper Plan G later if I find a better rate?", answer: "In most states, switching after your Medigap Open Enrollment Period requires medical underwriting. A health condition could result in a higher rate or denial. Some states have birthday rules that allow annual switching without underwriting, but these vary by state." }, { question: "Is a community-rated Plan G always the better choice?", answer: "Not necessarily. Community-rated plans start at a higher premium and may not be available in your state. The right choice depends on your age, health, budget, and how long you plan to keep the policy. An attained-age plan can still be the better value if the carrier has a strong rate increase history." }, { question: "How much can Plan G premiums vary between companies in the same area?", answer: "It is common to see a 30 to 60 percent spread between the lowest and highest Plan G premiums in the same zip code for the same age. The variation is driven almost entirely by rating method and the carrier pricing strategy, not by any difference in benefits." }] },
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "Why Medigap Plan G Premiums Vary So Much Between Companies",
+    "id": "why-medigap-plan-g-premiums-vary-so-much-between-companies"
+  },
+  {
+    "type": "paragraph",
+    "content": "Two people comparing Plan G can receive different premiums even when the standardized benefits match. To understand the difference, compare written quotes using the same ZIP code, age, tobacco status, policy type, coverage start date and discount assumptions. An advertised starting price is not a personal quote."
+  },
+  {
+    "type": "paragraph",
+    "content": "This price difference surprises many people shopping for [Medicare Supplement coverage](/medicare-supplement-plans/). In most states, standard Plan G medical benefits match across insurers, but premiums and policy terms still need a local comparison. [Medicare.gov's cost guidance](https://www.medicare.gov/health-drug-plans/medigap/basics/costs) explains why you should compare the same plan letter and confirm an accurate price with each insurer."
+  },
+  {
+    "type": "callout",
+    "calloutType": "info",
+    "calloutTitle": "Why Standardization Does Not Mean Same Price",
+    "calloutText": "Standard Plan G medical benefits match across insurers in most states, but that does not make every quote equivalent. Match the policy type and applicant assumptions before comparing premiums, discounts and service."
+  },
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "What Makes Plan G the Same Everywhere",
+    "id": "plan-g-standardized"
+  },
+  {
+    "type": "paragraph",
+    "content": "Every [Plan G](/medicare-supplement-plans/plan-g) policy sold in the United States, aside from Massachusetts, Minnesota, and Wisconsin which use their own standardized formats, covers the same list of benefits. That includes your Part A deductible, Part B coinsurance, skilled nursing coinsurance, and foreign travel emergency care."
+  },
+  {
+    "type": "paragraph",
+    "content": "Standard Plan G leaves the annual Part B deductible to you ($283 in 2026), and its benefits apply to covered services subject to policy limits. It does not cover every health expense, such as routine dental care or outpatient prescriptions. Compare standard Plan G separately from high-deductible or Medicare SELECT policies. See [CMS's 2026 cost figures](https://www.cms.gov/newsroom/fact-sheets/2026-medicare-parts-b-premiums-deductibles) and the [official Medigap guide](https://www.medicare.gov/publications/02110-choosing-a-medigap-policy.pdf)."
+  },
+  {
+    "type": "list",
+    "ordered": false,
+    "items": [
+      "Part A deductible ($1,736 in 2026)",
+      "Part A coinsurance for hospital stays beyond day 60",
+      "Part B coinsurance, typically 20% of approved charges",
+      "Skilled nursing facility coinsurance ($217 per day in 2026)",
+      "First three pints of blood",
+      "Foreign travel emergency care (80% up to plan limits)"
+    ]
+  },
+  {
+    "type": "heading",
+    "level": 3,
+    "text": "The Three Pricing Methods That Create Cost Gaps",
+    "id": "rating-methods"
+  },
+  {
+    "type": "paragraph",
+    "content": "The rating method is one factor in the premium you pay now and how it may change later. Ask which method applies to the exact policy quoted. Medicare's [Medigap buying guide](https://www.medicare.gov/publications/02110-choosing-a-medigap-policy.pdf) explains the three methods below."
+  },
+  {
+    "type": "table",
+    "title": "Medigap Rating Methods Compared",
+    "headers": [
+      "Rating Method",
+      "How It Works",
+      "What Happens Over Time"
     ],
+    "rows": [
+      [
+        "Community-rated",
+        "Age does not determine the base premium",
+        "Premiums can still increase for inflation and other factors"
+      ],
+      [
+        "Issue-age-rated",
+        "Pricing uses your age when you buy",
+        "No increases because you grow older; inflation and other factors can still raise premiums"
+      ],
+      [
+        "Attained-age-rated",
+        "Pricing uses your current age",
+        "Premiums can rise as you age and for inflation or other factors"
+      ]
+    ]
+  },
+  {
+    "type": "callout",
+    "calloutType": "warning",
+    "calloutTitle": "A Lower Starting Premium Is Not a Forecast",
+    "calloutText": "Compare the current price and rating method, but do not assume one method or company will always cost less. Ask how premiums and discounts may change. Past rate history provides context, not a guarantee of future prices."
+  },
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "Other Reasons Premiums Differ Between Companies",
+    "id": "other-factors"
+  },
+  {
+    "type": "paragraph",
+    "content": "A quote can reflect more than the rating method. Check the applicant details, policy type and discount terms instead of assuming the difference comes from one factor."
+  },
+  {
+    "type": "paragraph",
+    "content": "Company size alone does not establish future premium stability. Compare the exact insurer and policy form available in your state. If someone claims a company has steadier increases, ask for the underlying records and the period covered."
+  },
+  {
+    "type": "list",
+    "ordered": false,
+    "items": [
+      "Confirm the same ZIP code, age and tobacco assumptions for every quote",
+      "Check household and payment discounts and when they can change",
+      "Ask whether medical underwriting applies or purchase protections are available",
+      "Compare the same deductible option and any SELECT provider requirements",
+      "Ask the insurer to explain the rating method and any proposed premium change"
+    ]
+  },
+  {
+    "type": "eddie-pro-tip",
+    "content": "Ask for the rating method and any available rate history for the same insurer, policy form and state. Save the source and dates with your quote. Historical increases cannot tell you exactly what you will pay in future years."
+  },
+  {
+    "type": "image",
+    "src": "/images/cta-banner-find-plan.jpg",
+    "alt": "Find the Right Medicare Plan for You",
+    "link": "zip-form-modal"
+  },
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "Common Mistakes When Comparing Medigap Quotes",
+    "id": "common-mistakes"
+  },
+  {
+    "type": "paragraph",
+    "content": "Shoppers often compare Plan G quotes the same way they would compare car insurance, focusing only on the sticker price. That approach misses the factors that determine your total cost over the years you will hold the policy."
+  },
+  {
+    "type": "callout",
+    "calloutType": "warning",
+    "calloutTitle": "Look Beyond the First-Year Price",
+    "calloutText": "Ask the insurer, licensed agent or state insurance department about available rate history for the same policy form and state. Record the period covered and any missing information. History alone cannot predict future premiums."
+  },
+  {
+    "type": "list",
+    "ordered": false,
+    "items": [
+      "Choosing the lowest premium without checking the rating method",
+      "Not asking about the company history of rate increases",
+      "Assuming a well-known brand name automatically means better pricing",
+      "Assuming open enrollment locks in your premium permanently",
+      "Forgetting that switching plans later may require answering health questions"
+    ]
+  },
+  {
+    "type": "callout",
+    "calloutType": "info",
+    "calloutTitle": "Medical Underwriting After Your First Six Months",
+    "calloutText": "Your federal Medigap Open Enrollment Period generally begins the first month you are 65 or older and enrolled in Part B and lasts six months. Outside this period, medical underwriting may apply unless a guaranteed-issue right or state protection applies. Confirm eligibility before replacing coverage. See [Medicare's buying guidance](https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy)."
+  },
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "How to Compare Plan G Quotes the Right Way",
+    "id": "how-to-compare"
+  },
+  {
+    "type": "paragraph",
+    "content": "Start by matching the policy type and quote assumptions, then compare the insurer, premium and discount terms. Use our [five-step Plan G quote comparison guide and worksheet](/blog/best-medicare-supplement-plan-g-companies/#compare-local-quotes) to keep the offers side by side."
+  },
+  {
+    "type": "list",
+    "ordered": false,
+    "items": [
+      "Confirm the rating method used by each carrier you are considering",
+      "Request rate history for the specific plan over the last three to five years",
+      "Check financial strength ratings from independent agencies like AM Best",
+      "Ask about available discounts, including household and payment discounts",
+      "Review customer service reputation, since you will be dealing with this company for claims and renewals",
+      "Compare the total premium, not just an introductory or first-year rate"
+    ]
+  },
+  {
+    "type": "paragraph",
+    "content": "A [licensed Medicare agent](/contact/) can help obtain quotes from the companies they represent. Ask which insurers are included, which are not, and whether available rate-history records match the policy you are considering."
+  },
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "Frequently Asked Questions",
+    "id": "faq"
+  },
+  {
+    "type": "faq",
+    "faqs": [
+      {
+        "question": "If Plan G covers the same benefits everywhere, does the company I choose even matter?",
+        "answer": "Yes. Standardized benefits do not make premiums, discount terms, billing support and service processes identical. Compare the actual policy and insurer. No company can be assumed to have the lowest future increases based only on its size or name."
+      },
+      {
+        "question": "Will a licensed agent push me toward the most expensive plan?",
+        "answer": "Ask which insurers the agent represents and how they are paid. Request matching written quotes and an explanation of the options. Do not assume compensation or recommendations are identical across agents, insurers or products."
+      },
+      {
+        "question": "Can I switch to a cheaper Plan G later if I find a better rate?",
+        "answer": "You may be able to switch, but medical underwriting may apply outside protected enrollment situations. Guaranteed-issue rights and state rules can affect your options. Confirm approval and the new effective date before cancelling current coverage."
+      },
+      {
+        "question": "Is a community-rated Plan G always the better choice?",
+        "answer": "No pricing method guarantees the lowest current or future premium. Community-rated premiums can still increase for inflation and other factors. Compare current local quotes, discount terms and policy details rather than assuming one method always wins."
+      },
+      {
+        "question": "How much can Plan G premiums vary between companies in the same area?",
+        "answer": "Premium differences vary by insurer, location and applicant details. We have not established a typical percentage range for every market. Obtain matching local quotes to measure the difference for your situation."
+      }
+    ]
+  }
+],
     showInlineCta: true,
     buzzsproutUrl: "",
     relatedSlugs: ["finding-your-best-medigap-plan", "understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "how-medigap-plans-affect-your-overall-medicare-costs", "how-the-medigap-free-look-period-protects-you", "your-guide-to-medicare-enrollment-periods-when-to-sign-up"],
@@ -13764,7 +14121,7 @@ imageAlt: "Older couple link arms drinking champagne at a party with bunting and
   "category": "Medicare Supplement",
   "categoryColor": "#4F46E5",
   "date": "August 13, 2026",
-  "dateUpdated": "September 18, 2026",
+  "dateUpdated": "October 6, 2026",
   "author": "David Haass",
   "reviewer": "Ashlee Zareczny",
   "readTime": "15 min read",
@@ -13779,340 +14136,485 @@ imageAlt: "Older couple link arms drinking champagne at a party with bunting and
     "Your Medigap Open Enrollment Period is usually the strongest time to compare Plan G companies because you have important purchase protections."
   ],
   "tableOfContents": [
-    {
-      "id": "why-company-matters",
-      "title": "Why the Plan G Company Still Matters"
-    },
-    {
-      "id": "methodology",
-      "title": "How We Evaluate Plan G Companies"
-    },
-    {
-      "id": "comparison-factors",
-      "title": "Company Comparison Factors"
-    },
-    {
-      "id": "companies-to-compare",
-      "title": "Plan G Companies to Compare"
-    },
-    {
-      "id": "compare-local-quotes",
-      "title": "How to Compare Local Plan G Quotes"
-    },
-    {
-      "id": "enrollment-timing",
-      "title": "When to Buy or Switch Plan G"
-    },
-    {
-      "id": "plan-g-vs-plan-n",
-      "title": "Plan G vs. Plan N"
-    },
-    {
-      "id": "bottom-line",
-      "title": "The Bottom Line"
-    },
-    {
-      "id": "faq",
-      "title": "Frequently Asked Questions"
-    }
-  ],
+  {
+    "id": "why-company-matters",
+    "title": "Why the Plan G Company Still Matters"
+  },
+  {
+    "id": "methodology",
+    "title": "How We Evaluate Plan G Companies"
+  },
+  {
+    "id": "comparison-factors",
+    "title": "Company Comparison Factors"
+  },
+  {
+    "id": "companies-to-compare",
+    "title": "Plan G Companies to Compare"
+  },
+  {
+    "id": "compare-local-quotes",
+    "title": "How to Compare Local Plan G Quotes"
+  },
+  {
+    "id": "plan-g-quote-worksheet",
+    "title": "Plan G Quote Comparison Worksheet"
+  },
+  {
+    "id": "enrollment-timing",
+    "title": "When to Buy or Switch Plan G"
+  },
+  {
+    "id": "plan-g-vs-plan-n",
+    "title": "Plan G vs. Plan N"
+  },
+  {
+    "id": "bottom-line",
+    "title": "The Bottom Line"
+  },
+  {
+    "id": "faq",
+    "title": "Frequently Asked Questions"
+  }
+],
   "sections": [
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Why the Plan G Company Still Matters",
-      "id": "why-company-matters"
-    },
-    {
-      "type": "paragraph",
-      "content": "When checking a company's reputation, use our [Plan G reviews guide](/faqs/medicare-plan-g-reviews/) to distinguish customer opinions from regulator complaint records and evaluate service quality."
-    },
-    {
-      "type": "paragraph",
-      "content": "A Medicare Supplement Plan G can look identical across insurers because, in most states, its core medical benefits are standardized. Plan G helps with Medicare-approved cost sharing such as the Part A deductible, Part B coinsurance, skilled nursing facility coinsurance, Part B excess charges, and foreign travel emergency benefits up to plan limits. It does not pay the annual Part B deductible. You can review the standardized benefit chart directly through [Medicare.gov](https://www.medicare.gov/health-drug-plans/medigap/basics/compare-plan-benefits)."
-    },
-    {
-      "type": "paragraph",
-      "content": "That standardized coverage does not make every policy the same value. The premium you pay, the way the company sets and adjusts rates, available discounts, the legal underwriting entity, and the policy choices in your ZIP code can all differ. Our [Plan G guide](/medicare-supplement-plans/plan-g/) explains the covered benefits. This article focuses on the next question: how to compare the companies selling those benefits."
-    },
-    {
-      "type": "callout",
-      "calloutType": "info",
-      "calloutTitle": "The most important comparison rule",
-      "calloutText": "Compare like-for-like Plan G quotes in your own market. A carrier that is a strong option in one ZIP code may not be available or competitively priced in another."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "How MedicareFAQ Evaluates Plan G Companies",
-      "id": "methodology"
-    },
-    {
-      "type": "paragraph",
-      "content": "This is a Plan G company shortlist, not a scored national ranking. The carrier descriptions identify features to verify in official materials; they do not establish a lowest-price or best-service winner. We have not supplied matched personal quotes or entity-specific complaint scores for these companies, so the checks below are your evaluation checklist, not claims that each carrier has passed them."
-    },
-    {
-      "type": "list",
-      "items": [
-        "Local Plan G availability confirmed for the shopper's state and ZIP code.",
-        "A like-for-like quote basis, including the same age, tobacco status, household assumptions, effective date, and plan letter.",
-        "The exact underwriting company named in quote and policy materials, not only the parent brand.",
-        "The policy's rating method, such as attained-age, issue-age, or community-rated, and the company explanation of how premiums may change.",
-        "Verified discount terms, including eligibility rules and whether the quote already reflects the discount.",
-        "Relevant complaint information reviewed for the correct insurer and reporting period through the [NAIC complaint research guidance](https://content.naic.org/article/how-file-complaint-and-research-complaints-against-insurance-carriers).",
-        "A dated source record so readers know when a designation was last reviewed."
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": "This approach is intentionally more useful than a one-size-fits-all ranking. It gives a shopper a repeatable way to assess the companies actually available to them. It also avoids implying that a national company is automatically the lowest-cost option or the right option in every state."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "What to Compare Before Calling Any Plan G Company Reliable",
-      "id": "comparison-factors"
-    },
-    {
-      "type": "table",
-      "headers": [
-        "Comparison factor",
-        "Why it matters",
-        "Question to ask"
+  {
+    "type": "callout",
+    "calloutType": "info",
+    "calloutTitle": "Ready to compare Plan G quotes?",
+    "calloutText": "<a href=\"#compare-local-quotes\">How to compare Plan G quotes</a>: follow the five steps, then use the <a href=\"#plan-g-quote-worksheet\">side-by-side quote worksheet</a> to record matching offers."
+  },
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "Why the Plan G Company Still Matters",
+    "id": "why-company-matters"
+  },
+  {
+    "type": "paragraph",
+    "content": "When checking a company's reputation, use our [Plan G reviews guide](/faqs/medicare-plan-g-reviews/) to distinguish customer opinions from regulator complaint records and evaluate service quality."
+  },
+  {
+    "type": "paragraph",
+    "content": "A Medicare Supplement Plan G can look identical across insurers because, in most states, its core medical benefits are standardized. Plan G helps with Medicare-approved cost sharing such as the Part A deductible, Part B coinsurance, skilled nursing facility coinsurance, Part B excess charges, and foreign travel emergency benefits up to plan limits. It does not pay the annual Part B deductible. You can review the standardized benefit chart directly through [Medicare.gov](https://www.medicare.gov/health-drug-plans/medigap/basics/compare-plan-benefits)."
+  },
+  {
+    "type": "paragraph",
+    "content": "That standardized coverage does not make every policy the same value. The premium you pay, the way the company sets and adjusts rates, available discounts, the legal underwriting entity, and the policy choices in your ZIP code can all differ. Our [Plan G guide](/medicare-supplement-plans/plan-g/) explains the covered benefits. This article focuses on the next question: how to compare the companies selling those benefits."
+  },
+  {
+    "type": "callout",
+    "calloutType": "info",
+    "calloutTitle": "The most important comparison rule",
+    "calloutText": "Compare like-for-like Plan G quotes in your own market. A carrier that is a strong option in one ZIP code may not be available or competitively priced in another."
+  },
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "How MedicareFAQ Evaluates Plan G Companies",
+    "id": "methodology"
+  },
+  {
+    "type": "paragraph",
+    "content": "This is a Plan G company shortlist, not a scored national ranking. The carrier descriptions identify features to verify in official materials; they do not establish a lowest-price or best-service winner. We have not supplied matched personal quotes or entity-specific complaint scores for these companies, so the checks below are your evaluation checklist, not claims that each carrier has passed them."
+  },
+  {
+    "type": "list",
+    "items": [
+      "Local Plan G availability confirmed for the shopper's state and ZIP code.",
+      "A like-for-like quote basis, including the same age, tobacco status, household assumptions, effective date, and plan letter.",
+      "The exact underwriting company named in quote and policy materials, not only the parent brand.",
+      "The policy's rating method, such as attained-age, issue-age, or community-rated, and the company explanation of how premiums may change.",
+      "Verified discount terms, including eligibility rules and whether the quote already reflects the discount.",
+      "Relevant complaint information reviewed for the correct insurer and reporting period through the [NAIC complaint research guidance](https://content.naic.org/article/how-file-complaint-and-research-complaints-against-insurance-carriers).",
+      "A dated source record so readers know when a designation was last reviewed."
+    ]
+  },
+  {
+    "type": "paragraph",
+    "content": "This approach is intentionally more useful than a one-size-fits-all ranking. It gives a shopper a repeatable way to assess the companies actually available to them. It also avoids implying that a national company is automatically the lowest-cost option or the right option in every state."
+  },
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "What to Compare Before Calling Any Plan G Company Reliable",
+    "id": "comparison-factors"
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Comparison factor",
+      "Why it matters",
+      "Question to ask"
+    ],
+    "rows": [
+      [
+        "Local premium",
+        "The same Plan G benefit can have a different monthly premium by ZIP code and applicant profile.",
+        "Is this quote for my exact ZIP code and effective date?"
       ],
-      "rows": [
-        [
-          "Local premium",
-          "The same Plan G benefit can have a different monthly premium by ZIP code and applicant profile.",
-          "Is this quote for my exact ZIP code and effective date?"
-        ],
-        [
-          "Rating method",
-          "The way a policy is rated can affect how premiums change over time.",
-          "Is this policy attained-age, issue-age, or community-rated?"
-        ],
-        [
-          "Underwriting entity",
-          "A parent brand can use different legal insurers by state.",
-          "Which company name appears on the policy and rate materials?"
-        ],
-        [
-          "Discount terms",
-          "A household or enrollment discount can change the quote comparison.",
-          "Does the displayed price include a discount, and can it change?"
-        ],
-        [
-          "Complaint information",
-          "Complaint data is a useful signal when reviewed for the right insurer and period.",
-          "Which insurer and reporting period does this information cover?"
-        ],
-        [
-          "Enrollment timing",
-          "Outside protected periods, switching may involve medical underwriting.",
-          "Am I eligible to buy or change without health questions?"
-        ]
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": "For a deeper explanation of why rates differ even when benefits match, read about [Plan G premium differences](/blog/why-two-medigap-plan-g-policies-cost-different-amounts/). You can also review the three core [Medigap pricing methods](/faqs/medicare-supplement-plans-medigap-pricing-methods/) before comparing a lower first-year premium with a higher one."
-    },
-    {
-      "type": "eddie-pro-tip",
-      "content": "I would ask the agent or carrier to write down the underwriting company, rating method, discount assumptions, and quote effective date. Save that page with your quote. It prevents a common mistake: comparing two prices that were calculated using different assumptions."
-    },
-    {
-      "type": "zip-cta",
-      "headline": "Compare Plan G Options Available in Your Area",
-      "subtext": "Answer a few questions to explore Medicare Supplement options and compare plans available where you live. Free, no obligation.",
-      "buttonLabel": "Compare Plans"
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Plan G Companies to Compare in Your Market",
-      "id": "companies-to-compare"
-    },
-    {
-      "type": "paragraph",
-      "content": "The companies below are names you may encounter while comparing Plan G coverage, not a ranking or an exhaustive list. Availability, policy forms, underwriting entities, premiums, discounts, and extras vary. Use this table to decide what to verify, then request matching quotes. For research across different Medigap plan letters, use our [broader Medicare Supplement company guide](/faqs/top-10-medicare-supplement-insurance-companies/)."
-    },
-    {
-      "type": "table",
-      "title": "Plan G Company Comparison at a Glance",
-      "headers": ["Company or program", "Detail to investigate", "Evidence to request"],
-      "rows": [
-        ["Humana", "Whether an online-enrollment discount applies", "Written eligibility terms and the premium before and after the discount"],
-        ["AARP / UnitedHealthcare", "Membership requirements and the full premium", "Membership terms, the exact insurer, and any changing enrollment discounts"],
-        ["Anthem / Blue Cross Blue Shield companies", "Which independent company issues the policy", "The local issuer's Plan G Outline of Coverage and optional-extra terms"],
-        ["Mutual of Omaha", "The affiliate issuing the quoted policy", "Legal insurer name, policy form, rating method, and discount details"]
+      [
+        "Rating method",
+        "The way a policy is rated can affect how premiums change over time.",
+        "Is this policy attained-age, issue-age, or community-rated?"
       ],
-      "footnote": "These are comparison prompts, not ratings. Confirm current Plan G availability and a personal quote before selecting any company. Company disclosures are linked below."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "Humana: Verify Online-Enrollment Discount Eligibility",
-      "id": "humana-plan-g"
-    },
-    {
-      "type": "paragraph",
-      "content": "Humana is a company to compare when its Plan G policy is offered in your state and its current quote is competitive with other like-for-like options. Humana states that an online-enrollment discount may be available in eligible states, with exclusions that depend on location. Confirm the exact policy issuer, discount eligibility, rating method, and final quote before treating that feature as a value advantage. [Humana's Plan G information](https://www.humana.com/medicare/medicare-supplement-plans/plan-g) also identifies the state-specific underwriting companies used for its policies."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "AARP / UnitedHealthcare: Check Membership and Pricing Terms",
-      "id": "uhc-plan-g"
-    },
-    {
-      "type": "paragraph",
-      "content": "AARP Medicare Supplement Insurance Plans from UnitedHealthcare may be worth comparing for shoppers who are eligible for the program and want to evaluate that policy alongside other local Plan G quotes. UnitedHealthcare states that AARP membership is required to enroll in these Medicare Supplement plans, and that plan availability depends on the state. Confirm your membership requirement, the legal insurer, wellness extras if any, and the local premium before deciding whether the program is the better fit for you. Review [UnitedHealthcare's Medicare Supplement details](https://www.uhc.com/medicare/shop/medicare-supplement-plans.html) for its current disclosures."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "Anthem and Blue Cross Blue Shield: Identify the Local Issuer",
-      "id": "bcbs-plan-g"
-    },
-    {
-      "type": "paragraph",
-      "content": "Anthem and Blue Cross Blue Shield companies can be relevant comparisons when their state-specific Medigap policies are available where you live. Anthem notes that plan options and extra programs can vary by state and that Wisconsin uses a different standardized Medigap approach. Treat non-insurance extras separately from the standardized Plan G benefits, then compare the actual premium and policy terms against other local carriers. [Anthem's Medigap overview](https://www.anthem.com/medicare/medicare-supplement-plans-medigap) is a helpful starting point for checking current state availability."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "Mutual of Omaha: Confirm the Underwriting Affiliate",
-      "id": "mutual-of-omaha-plan-g"
-    },
-    {
-      "type": "paragraph",
-      "content": "Mutual of Omaha and other carriers can be appropriate comparisons when their exact underwriting entity offers Plan G in your location. Because a large brand can have different availability and policy details by state, do not assume a company listed in a national article is available to you. Use the [official Medicare Medigap policy finder](https://www.medicare.gov/medigap-supplemental-insurance-plans/) and request local materials before adding any carrier to your shortlist."
-    },
-    {
-      "type": "callout",
-      "calloutType": "warning",
-      "calloutTitle": "Do not confuse extras with Plan G medical benefits",
-      "calloutText": "A fitness program, discount service, or member perk can be useful, but it is not a substitute for comparing the standardized Plan G medical benefits, local premium, rating method, and enrollment protections."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "How to Compare Local Plan G Quotes in Five Steps",
-      "id": "compare-local-quotes"
-    },
-    {
-      "type": "paragraph",
-      "content": "Before comparing premiums, confirm which kind of Plan G each quote describes. A lower price can reflect a different deductible or provider restriction, not simply a less expensive company. Medicare's [Medigap cost comparison guidance](https://www.medicare.gov/health-drug-plans/medigap/basics/costs) identifies high-deductible and SELECT policies as important cost differences."
-    },
-    {
-      "type": "table",
-      "title": "Keep These Plan G Quotes Separate",
-      "headers": ["Policy type", "What to check", "Fair comparison"],
-      "rows": [
-        ["Standard Plan G", "The standardized benefits; the Part B deductible remains your responsibility", "Compare with other standard Plan G quotes using matching applicant details"],
-        ["High-deductible Plan G", "The annual high deductible you must meet before policy benefits begin", "Compare with other high-deductible quotes and budget for covered cost sharing"],
-        ["Medicare SELECT Plan G, if offered", "Provider requirements for full benefits", "Check the network rules before comparing it with a non-SELECT policy"]
+      [
+        "Underwriting entity",
+        "A parent brand can use different legal insurers by state.",
+        "Which company name appears on the policy and rate materials?"
       ],
-      "footnote": "Confirm the policy type in the Outline of Coverage. Availability varies, and a lower premium alone does not make unlike policies equivalent."
-    },
-    {
-      "type": "list",
-      "ordered": true,
-      "items": [
-        "**Confirm that every quote is for the same plan letter, ZIP code, effective date, age, tobacco status, and household assumptions.**",
-        "**Ask for the precise underwriting company and policy form for each quote.**",
-        "**Identify the rating method and ask how the carrier explains future premium changes.**",
-        "**Verify discount eligibility in writing and compare the price with and without the discount if possible.**",
-        "**Review complaint information, enrollment protections, and the company's service process before choosing only on the first-year premium.**"
+      [
+        "Discount terms",
+        "A household or enrollment discount can change the quote comparison.",
+        "Does the displayed price include a discount, and can it change?"
+      ],
+      [
+        "Complaint information",
+        "Complaint data is a useful signal when reviewed for the right insurer and period.",
+        "Which insurer and reporting period does this information cover?"
+      ],
+      [
+        "Enrollment timing",
+        "Outside protected periods, switching may involve medical underwriting.",
+        "Am I eligible to buy or change without health questions?"
       ]
-    },
-    {
-      "type": "paragraph",
-      "content": "A useful comparison is not only a list of monthly premiums. It is a documented record of what each price assumes and what could change. Our [top Medicare Supplement company guide](/faqs/top-10-medicare-supplement-insurance-companies/) can help you build a broader carrier shortlist, while your local Plan G quotes determine which options deserve serious consideration."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "When to Buy or Switch Plan G",
-      "id": "enrollment-timing"
-    },
-    {
-      "type": "paragraph",
-      "content": "The timing of your application can matter as much as the company you choose. Your Medigap Open Enrollment Period generally starts when you are 65 or older and enrolled in Part B. During this window, you have important protections when buying a Medigap policy sold in your state. Outside that period, insurers may use medical underwriting unless you have a guaranteed-issue right or a state protection that applies to you. Read our [Medigap open enrollment guide](/faqs/medicare-supplement-open-enrollment/) before replacing an existing policy."
-    },
-    {
-      "type": "paragraph",
-      "content": "Some states provide additional switching protections, including birthday-rule opportunities. Those rules are state-specific, so use the MedicareFAQ [Medigap plans by state hub](/medicare-supplement-plans/) to find the rules and carrier context that may apply where you live."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Should You Compare Plan G With Plan N Instead?",
-      "id": "plan-g-vs-plan-n"
-    },
-    {
-      "type": "paragraph",
-      "content": "You should compare Plan G with Plan N if the premium difference is meaningful in your area. Plan G generally offers more predictable medical cost sharing because it covers Part B excess charges and does not use Plan N's office and emergency room copayment structure. Plan N can be attractive when its lower premium offsets the cost sharing you are comfortable accepting. See the [Plan G versus Plan N comparison](/medicare-supplement-plans/plan-n/) before choosing a carrier based only on a Plan G quote."
-    },
-    {
-      "type": "paragraph",
-      "content": "You may also want to compare the Medigap path with Medicare Advantage before enrolling. The two coverage approaches work differently, particularly around provider access, cost sharing, and plan rules. Our [Medigap versus Medicare Advantage guide](/faqs/medigap-vs-medicare-advantage/) explains those distinctions."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "The Bottom Line on the Best Plan G Companies",
-      "id": "bottom-line"
-    },
-    {
-      "type": "paragraph",
-      "content": "The best Medicare Supplement Plan G company is the one that offers a competitively priced, properly documented policy in your market and matches your enrollment situation. Start with standardized benefits, then compare local premium, rating method, discount assumptions, underwriting entity, complaint information, and service process. That is a stronger decision than choosing a company because it appears first in a national list."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Frequently Asked Questions About Plan G Companies",
-      "id": "faq"
-    },
-    {
-      "type": "faq",
-      "faqs": [
-        {
-          "question": "Is Medicare Supplement Plan G the same with every insurance company?",
-          "answer": "Standard Plan G medical benefits are identical across insurers in most states. Premiums, pricing methods, discounts, service, and underwriting companies can differ. Compare standard policies separately from high-deductible or SELECT options. Massachusetts, Minnesota, and Wisconsin standardize Medigap differently, so use the applicable state guidance there."
-        },
-        {
-          "question": "Which company has the lowest Plan G premium in my state?",
-          "answer": "The company with the lowest Plan G premium depends on your ZIP code, age, tobacco status, household-discount eligibility, rating method, and the date coverage starts. Compare like-for-like quotes from the actual underwriting companies available where you live instead of relying on a national carrier ranking."
-        },
-        {
-          "question": "How does MedicareFAQ decide whether a Plan G company is reliable?",
-          "answer": "This article provides a comparison checklist rather than reliability scores or a national winner. Before choosing a company, verify the exact insurer, matching Plan G quote, rating method, discounts, complaint record, and enrollment requirements. Brand recognition alone is not evidence that a policy is the best value for you."
-        },
-        {
-          "question": "Why does the underwriting company matter when I compare Plan G carriers?",
-          "answer": "The underwriting company is the legal insurer named on the policy and can be more important than the parent brand when you compare complaint information, rate materials, and availability. Check your policy or quote materials for the exact insurer before relying on brand-level information."
-        },
-        {
-          "question": "Can a household discount make one Plan G company a better value?",
-          "answer": "Yes. A household discount can change the price comparison between otherwise similar Plan G quotes, but eligibility and availability can vary by company and state. Ask whether the discount applies to your situation, whether it can change, and whether the quote already includes it before deciding which policy has the better value."
-        },
-        {
-          "question": "Does a complaint index tell me everything about a Plan G company?",
-          "answer": "No. Complaint information can be a useful signal, but it does not tell the entire story about a Plan G company. Review the complaint data for the correct underwriting entity and reporting period, then compare it alongside the company's local price, pricing method, discount rules, policy availability, and service experience."
-        },
-        {
-          "question": "Can I switch Plan G companies later?",
-          "answer": "You may be able to switch Plan G companies later, but you can face medical underwriting or fewer choices outside protected enrollment situations. Before replacing a policy, confirm your eligibility, compare the new policy carefully, and do not cancel current coverage until the replacement policy is approved and you have confirmed its effective date."
-        },
-        {
-          "question": "Is Plan G or Plan N a better fit for me?",
-          "answer": "Plan G may fit people who prefer more predictable medical cost sharing, while Plan N may fit people who are comfortable with some cost sharing in exchange for a potentially lower premium. The better fit depends on the actual premium difference in your area, how often you expect to use care, and your comfort with the trade-offs."
-        }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "content": "For a deeper explanation of why rates differ even when benefits match, read about [Plan G premium differences](/blog/why-two-medigap-plan-g-policies-cost-different-amounts/). You can also review the three core [Medigap pricing methods](/faqs/medicare-supplement-plans-medigap-pricing-methods/) before comparing a lower first-year premium with a higher one."
+  },
+  {
+    "type": "eddie-pro-tip",
+    "content": "I would ask the agent or carrier to write down the underwriting company, rating method, discount assumptions, and quote effective date. Save that page with your quote. It prevents a common mistake: comparing two prices that were calculated using different assumptions."
+  },
+  {
+    "type": "zip-cta",
+    "headline": "Compare Plan G Options Available in Your Area",
+    "subtext": "Answer a few questions to explore Medicare Supplement options and compare plans available where you live. Free, no obligation.",
+    "buttonLabel": "Compare Plans"
+  },
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "Plan G Companies to Compare in Your Market",
+    "id": "companies-to-compare"
+  },
+  {
+    "type": "paragraph",
+    "content": "The companies below are names you may encounter while comparing Plan G coverage, not a ranking or an exhaustive list. Availability, policy forms, underwriting entities, premiums, discounts, and extras vary. Use this table to decide what to verify, then request matching quotes. For research across different Medigap plan letters, use our [broader Medicare Supplement company guide](/faqs/top-10-medicare-supplement-insurance-companies/)."
+  },
+  {
+    "type": "table",
+    "title": "Plan G Company Comparison at a Glance",
+    "headers": [
+      "Company or program",
+      "Detail to investigate",
+      "Evidence to request"
+    ],
+    "rows": [
+      [
+        "Humana",
+        "Whether an online-enrollment discount applies",
+        "Written eligibility terms and the premium before and after the discount"
+      ],
+      [
+        "AARP / UnitedHealthcare",
+        "Membership requirements and the full premium",
+        "Membership terms, the exact insurer, and any changing enrollment discounts"
+      ],
+      [
+        "Anthem / Blue Cross Blue Shield companies",
+        "Which independent company issues the policy",
+        "The local issuer's Plan G Outline of Coverage and optional-extra terms"
+      ],
+      [
+        "Mutual of Omaha",
+        "The affiliate issuing the quoted policy",
+        "Legal insurer name, policy form, rating method, and discount details"
       ]
-    }
-  ],
+    ],
+    "footnote": "These are comparison prompts, not ratings. Confirm current Plan G availability and a personal quote before selecting any company. Company disclosures are linked below."
+  },
+  {
+    "type": "heading",
+    "level": 3,
+    "text": "Humana: Verify Online-Enrollment Discount Eligibility",
+    "id": "humana-plan-g"
+  },
+  {
+    "type": "paragraph",
+    "content": "Humana is a company to compare when its Plan G policy is offered in your state and its current quote is competitive with other like-for-like options. Humana states that an online-enrollment discount may be available in eligible states, with exclusions that depend on location. Confirm the exact policy issuer, discount eligibility, rating method, and final quote before treating that feature as a value advantage. [Humana's Plan G information](https://www.humana.com/medicare/medicare-supplement-plans/plan-g) also identifies the state-specific underwriting companies used for its policies."
+  },
+  {
+    "type": "heading",
+    "level": 3,
+    "text": "AARP / UnitedHealthcare: Check Membership and Pricing Terms",
+    "id": "uhc-plan-g"
+  },
+  {
+    "type": "paragraph",
+    "content": "AARP Medicare Supplement Insurance Plans from UnitedHealthcare may be worth comparing for shoppers who are eligible for the program and want to evaluate that policy alongside other local Plan G quotes. UnitedHealthcare states that AARP membership is required to enroll in these Medicare Supplement plans, and that plan availability depends on the state. Confirm your membership requirement, the legal insurer, wellness extras if any, and the local premium before deciding whether the program is the better fit for you. Review [UnitedHealthcare's Medicare Supplement details](https://www.uhc.com/medicare/shop/medicare-supplement-plans.html) for its current disclosures."
+  },
+  {
+    "type": "heading",
+    "level": 3,
+    "text": "Anthem and Blue Cross Blue Shield: Identify the Local Issuer",
+    "id": "bcbs-plan-g"
+  },
+  {
+    "type": "paragraph",
+    "content": "Anthem and Blue Cross Blue Shield companies can be relevant comparisons when their state-specific Medigap policies are available where you live. Anthem notes that plan options and extra programs can vary by state and that Wisconsin uses a different standardized Medigap approach. Treat non-insurance extras separately from the standardized Plan G benefits, then compare the actual premium and policy terms against other local carriers. [Anthem's Medigap overview](https://www.anthem.com/medicare/medicare-supplement-plans-medigap) is a helpful starting point for checking current state availability."
+  },
+  {
+    "type": "heading",
+    "level": 3,
+    "text": "Mutual of Omaha: Confirm the Underwriting Affiliate",
+    "id": "mutual-of-omaha-plan-g"
+  },
+  {
+    "type": "paragraph",
+    "content": "Mutual of Omaha and other carriers can be appropriate comparisons when their exact underwriting entity offers Plan G in your location. Because a large brand can have different availability and policy details by state, do not assume a company listed in a national article is available to you. Use the [official Medicare Medigap policy finder](https://www.medicare.gov/medigap-supplemental-insurance-plans/) and request local materials before adding any carrier to your shortlist."
+  },
+  {
+    "type": "callout",
+    "calloutType": "warning",
+    "calloutTitle": "Do not confuse extras with Plan G medical benefits",
+    "calloutText": "A fitness program, discount service, or member perk can be useful, but it is not a substitute for comparing the standardized Plan G medical benefits, local premium, rating method, and enrollment protections."
+  },
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "How to Compare Local Plan G Quotes in Five Steps",
+    "id": "compare-local-quotes"
+  },
+  {
+    "type": "paragraph",
+    "content": "Before comparing premiums, confirm which kind of Plan G each quote describes. A lower price can reflect a different deductible or provider restriction, not simply a less expensive company. Medicare's [Medigap cost comparison guidance](https://www.medicare.gov/health-drug-plans/medigap/basics/costs) identifies high-deductible and SELECT policies as important cost differences."
+  },
+  {
+    "type": "table",
+    "title": "Keep These Plan G Quotes Separate",
+    "headers": [
+      "Policy type",
+      "What to check",
+      "Fair comparison"
+    ],
+    "rows": [
+      [
+        "Standard Plan G",
+        "The standardized benefits; the Part B deductible remains your responsibility",
+        "Compare with other standard Plan G quotes using matching applicant details"
+      ],
+      [
+        "High-deductible Plan G",
+        "The annual high deductible you must meet before policy benefits begin",
+        "Compare with other high-deductible quotes and budget for covered cost sharing"
+      ],
+      [
+        "Medicare SELECT Plan G, if offered",
+        "Provider requirements for full benefits",
+        "Check the network rules before comparing it with a non-SELECT policy"
+      ]
+    ],
+    "footnote": "Confirm the policy type in the Outline of Coverage. Availability varies, and a lower premium alone does not make unlike policies equivalent."
+  },
+  {
+    "type": "list",
+    "ordered": true,
+    "items": [
+      "**Confirm that every quote is for the same plan letter, ZIP code, effective date, age, tobacco status, and household assumptions.**",
+      "**Ask for the precise underwriting company and policy form for each quote.**",
+      "**Identify the rating method and ask how the carrier explains future premium changes.**",
+      "**Verify discount eligibility in writing and compare the price with and without the discount if possible.**",
+      "**Review complaint information, enrollment protections, and the company's service process before choosing only on the first-year premium.**"
+    ]
+  },
+  {
+    "type": "paragraph",
+    "content": "A useful comparison is not only a list of monthly premiums. It is a documented record of what each price assumes and what could change. Our [top Medicare Supplement company guide](/faqs/top-10-medicare-supplement-insurance-companies/) can help you build a broader carrier shortlist, while your local Plan G quotes determine which options deserve serious consideration."
+  },
+  {
+    "type": "heading",
+    "level": 3,
+    "text": "Plan G Quote Comparison Worksheet",
+    "id": "plan-g-quote-worksheet"
+  },
+  {
+    "type": "paragraph",
+    "content": "Copy this worksheet into your notes or print it and fill in one column for each written quote. Use the same applicant details and coverage start date throughout. These are blank comparison fields, not sample premiums or insurer ratings."
+  },
+  {
+    "type": "table",
+    "title": "Record Your Plan G Quotes Side by Side",
+    "headers": [
+      "What to record",
+      "Insurer A",
+      "Insurer B",
+      "Insurer C"
+    ],
+    "rows": [
+      [
+        "Legal insurer and policy form",
+        "________",
+        "________",
+        "________"
+      ],
+      [
+        "Policy type: standard, high-deductible or SELECT",
+        "________",
+        "________",
+        "________"
+      ],
+      [
+        "State / ZIP code and applicant age",
+        "________",
+        "________",
+        "________"
+      ],
+      [
+        "Tobacco status and household assumptions",
+        "________",
+        "________",
+        "________"
+      ],
+      [
+        "Quote date / proposed coverage start date",
+        "________",
+        "________",
+        "________"
+      ],
+      [
+        "Monthly premium before discounts",
+        "________",
+        "________",
+        "________"
+      ],
+      [
+        "Discount amount, eligibility and expiration terms",
+        "________",
+        "________",
+        "________"
+      ],
+      [
+        "Monthly premium after discounts",
+        "________",
+        "________",
+        "________"
+      ],
+      [
+        "Rating method",
+        "________",
+        "________",
+        "________"
+      ],
+      [
+        "Available rate history: same policy form and state",
+        "________",
+        "________",
+        "________"
+      ],
+      [
+        "Underwriting / guaranteed-issue requirements",
+        "________",
+        "________",
+        "________"
+      ],
+      [
+        "Service contact and quote reference",
+        "________",
+        "________",
+        "________"
+      ]
+    ],
+    "footnote": "Ask the insurer to confirm the final premium and eligibility. Keep different policy types separate. Past rate changes do not guarantee future premiums."
+  },
+  {
+    "type": "paragraph",
+    "content": "[Medicare.gov explains](https://www.medicare.gov/health-drug-plans/medigap/basics/costs) that Medigap estimates should be confirmed with the insurer. A completed worksheet helps you see whether a lower premium depends on a different policy type, applicant profile or discount."
+  },
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "When to Buy or Switch Plan G",
+    "id": "enrollment-timing"
+  },
+  {
+    "type": "paragraph",
+    "content": "The timing of your application can matter as much as the company you choose. Your Medigap Open Enrollment Period generally starts when you are 65 or older and enrolled in Part B. During this window, you have important protections when buying a Medigap policy sold in your state. Outside that period, insurers may use medical underwriting unless you have a guaranteed-issue right or a state protection that applies to you. Read our [Medigap open enrollment guide](/faqs/medicare-supplement-open-enrollment/) before replacing an existing policy."
+  },
+  {
+    "type": "paragraph",
+    "content": "Some states provide additional switching protections, including birthday-rule opportunities. Those rules are state-specific, so use the MedicareFAQ [Medigap plans by state hub](/medicare-supplement-plans/) to find the rules and carrier context that may apply where you live."
+  },
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "Should You Compare Plan G With Plan N Instead?",
+    "id": "plan-g-vs-plan-n"
+  },
+  {
+    "type": "paragraph",
+    "content": "You should compare Plan G with Plan N if the premium difference is meaningful in your area. Plan G generally offers more predictable medical cost sharing because it covers Part B excess charges and does not use Plan N's office and emergency room copayment structure. Plan N can be attractive when its lower premium offsets the cost sharing you are comfortable accepting. See the [Plan G versus Plan N comparison](/medicare-supplement-plans/plan-n/) before choosing a carrier based only on a Plan G quote."
+  },
+  {
+    "type": "paragraph",
+    "content": "You may also want to compare the Medigap path with Medicare Advantage before enrolling. The two coverage approaches work differently, particularly around provider access, cost sharing, and plan rules. Our [Medigap versus Medicare Advantage guide](/faqs/medigap-vs-medicare-advantage/) explains those distinctions."
+  },
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "The Bottom Line on the Best Plan G Companies",
+    "id": "bottom-line"
+  },
+  {
+    "type": "paragraph",
+    "content": "The best Medicare Supplement Plan G company is the one that offers a competitively priced, properly documented policy in your market and matches your enrollment situation. Start with standardized benefits, then compare local premium, rating method, discount assumptions, underwriting entity, complaint information, and service process. That is a stronger decision than choosing a company because it appears first in a national list."
+  },
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "Frequently Asked Questions About Plan G Companies",
+    "id": "faq"
+  },
+  {
+    "type": "faq",
+    "faqs": [
+      {
+        "question": "Is Medicare Supplement Plan G the same with every insurance company?",
+        "answer": "Standard Plan G medical benefits are identical across insurers in most states. Premiums, pricing methods, discounts, service, and underwriting companies can differ. Compare standard policies separately from high-deductible or SELECT options. Massachusetts, Minnesota, and Wisconsin standardize Medigap differently, so use the applicable state guidance there."
+      },
+      {
+        "question": "Which company has the lowest Plan G premium in my state?",
+        "answer": "The company with the lowest Plan G premium depends on your ZIP code, age, tobacco status, household-discount eligibility, rating method, and the date coverage starts. Compare like-for-like quotes from the actual underwriting companies available where you live instead of relying on a national carrier ranking."
+      },
+      {
+        "question": "How does MedicareFAQ decide whether a Plan G company is reliable?",
+        "answer": "This article provides a comparison checklist rather than reliability scores or a national winner. Before choosing a company, verify the exact insurer, matching Plan G quote, rating method, discounts, complaint record, and enrollment requirements. Brand recognition alone is not evidence that a policy is the best value for you."
+      },
+      {
+        "question": "Why does the underwriting company matter when I compare Plan G carriers?",
+        "answer": "The underwriting company is the legal insurer named on the policy and can be more important than the parent brand when you compare complaint information, rate materials, and availability. Check your policy or quote materials for the exact insurer before relying on brand-level information."
+      },
+      {
+        "question": "Can a household discount make one Plan G company a better value?",
+        "answer": "Yes. A household discount can change the price comparison between otherwise similar Plan G quotes, but eligibility and availability can vary by company and state. Ask whether the discount applies to your situation, whether it can change, and whether the quote already includes it before deciding which policy has the better value."
+      },
+      {
+        "question": "Does a complaint index tell me everything about a Plan G company?",
+        "answer": "No. Complaint information can be a useful signal, but it does not tell the entire story about a Plan G company. Review the complaint data for the correct underwriting entity and reporting period, then compare it alongside the company's local price, pricing method, discount rules, policy availability, and service experience."
+      },
+      {
+        "question": "Can I switch Plan G companies later?",
+        "answer": "You may be able to switch Plan G companies later, but you can face medical underwriting or fewer choices outside protected enrollment situations. Before replacing a policy, confirm your eligibility, compare the new policy carefully, and do not cancel current coverage until the replacement policy is approved and you have confirmed its effective date."
+      },
+      {
+        "question": "Is Plan G or Plan N a better fit for me?",
+        "answer": "Plan G may fit people who prefer more predictable medical cost sharing, while Plan N may fit people who are comfortable with some cost sharing in exchange for a potentially lower premium. The better fit depends on the actual premium difference in your area, how often you expect to use care, and your comfort with the trade-offs."
+      }
+    ]
+  }
+],
   "relatedSlugs": [
     "finding-your-best-medigap-plan",
     "why-two-medigap-plan-g-policies-cost-different-amounts",
