@@ -45,7 +45,7 @@ export default function AEPStickyBanner({
   return (
     <aside
       aria-label="Medicare Annual Enrollment announcement"
-      className="border-b border-white/20 bg-[#0D9488] text-white"
+      className="border-b border-white/20 bg-[#F97316] text-white"
     >
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-center gap-2 px-4 py-[22px] text-center sm:min-h-[76px] sm:flex-row sm:gap-5 sm:px-6 sm:py-5 lg:px-8">
         <div className="flex items-center justify-center gap-2">
@@ -61,7 +61,7 @@ export default function AEPStickyBanner({
           type="button"
           disabled
           title="CTA destination coming soon"
-          className="inline-flex shrink-0 items-center justify-center gap-1.5 rounded-md bg-[#C41230] px-4 py-2 text-sm font-bold text-white shadow-sm disabled:cursor-default disabled:opacity-100"
+          className="inline-flex shrink-0 items-center justify-center gap-1.5 rounded-md bg-[#112858] px-4 py-2 text-sm font-bold text-white shadow-sm disabled:cursor-default disabled:opacity-100"
         >
           {content.cta}
           <ArrowRight aria-hidden="true" className="h-4 w-4" />
