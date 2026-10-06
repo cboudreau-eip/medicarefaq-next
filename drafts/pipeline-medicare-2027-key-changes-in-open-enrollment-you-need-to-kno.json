@@ -1,7 +1,22 @@
 {
   "title": "Medicare Open Enrollment 2027: What Changed",
+  "rawContent": "",
   "slug": "medicare-2027-key-changes-in-open-enrollment-you-need-to-kno",
+  "excerpt": "Medicare Advantage plan exits, new drug pricing rules, and updated cost limits are reshaping 2027 enrollment decisions. Here is what actually changed and how to compare plans wisely.",
   "category": "enrollment",
+  "author": "David Haass",
+  "reviewer": "Ashlee Zareczny",
+  "image": "/images/generated/medicare-2027-key-changes-in-open-enrollment-you-f204332.png",
+  "imageAlt": "",
+  "keyTakeaways": [
+    "The 2027 Medicare Advantage maximum out-of-pocket limit is capped at $9,250",
+    "Several Medicare Advantage plans are exiting counties or discontinuing entirely for 2027, triggering non-renewal notices",
+    "Members losing a plan are guaranteed the chance to enroll in new coverage before their old plan ends",
+    "Original Medicare offers nationwide provider access, while Medicare Advantage generally limits care to in-network providers",
+    "Check your Annual Notice of Change letter or Medicare's plan comparison tool to confirm your plan status"
+  ],
+  "seoTitle": "Medicare Open Enrollment 2027: What Changed",
+  "seoDescription": "Medicare open enrollment 2027 brings plan exits, new costs, and formulary changes. Learn what shifted and how to compare plans with confidence.",
   "sections": [
     {
       "type": "heading",
@@ -11,7 +26,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Something feels different about this year's enrollment season. Prescription drug pricing rules have shifted again, several Medicare Advantage plans are pulling out of certain counties, and the annual cost figures have moved just enough to catch people off guard."
+      "content": "Something feels different about this year's enrollment season. Prescription drug pricing rules have shifted again, several [Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included/) are pulling out of certain counties, and the annual cost figures have moved just enough to catch people off guard."
     },
     {
       "type": "paragraph",
@@ -53,7 +68,7 @@
     },
     {
       "type": "paragraph",
-      "content": "What has not changed is the core split between the two paths: you still choose one primary structure and build coverage around it. The 2027 Medicare Advantage maximum out-of-pocket limit is capped at $9,250, a detail worth knowing before you assume Original Medicare with a supplement is automatically the pricier route."
+      "content": "What has not changed is the core split between the two paths: you still choose one primary structure and build coverage around it. The 2027 Medicare Advantage [maximum out-of-pocket limit](/faqs/medicare-maximum-out-of-pocket/) is capped at $9,250, a detail worth knowing before you assume Original Medicare with a supplement is automatically the pricier route."
     },
     {
       "type": "heading",
@@ -63,7 +78,7 @@
     },
     {
       "type": "paragraph",
-      "content": "A noticeable number of Medicare Advantage plans are exiting counties or discontinuing entirely for 2027. If your plan is one of them, you will typically receive a non-renewal notice by early fall, giving you time to choose something new before your coverage ends."
+      "content": "A noticeable number of [Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included/) are exiting counties or discontinuing entirely for 2027. If your plan is one of them, you will typically receive a non-renewal notice by early fall, giving you time to choose something new before your coverage ends."
     },
     {
       "type": "callout",
@@ -77,7 +92,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Start by checking your Annual Notice of Change letter, calling your plan directly, or reviewing your plan status through <a href=\"https://www.medicare.gov/plan-compare\">Medicare's plan comparison tool</a>. Confirming early gives you more time to compare replacement options calmly instead of scrambling in December.</p>"
+      "content": "Start by checking your [Annual Notice of Change letter](/faqs/medicare-annual-notice-of-change-letter/), calling your plan directly, or reviewing your plan status through <a href=\"https://www.medicare.gov/plan-compare\">Medicare's plan comparison tool</a>. Confirming early gives you more time to compare replacement options calmly instead of scrambling in December.</p>"
     },
     {
       "type": "heading",
@@ -139,7 +154,7 @@
     },
     {
       "type": "paragraph",
-      "content": "The Medicare Open Enrollment Period runs from October 15 through December 7, with changes taking effect January 1, 2027. Miss this window, and you may be locked into your current plan for another year unless you qualify for a Special Enrollment Period.</p>"
+      "content": "The Medicare Open Enrollment Period runs from October 15 through December 7, with changes taking effect January 1, 2027. Miss this window, and you may be locked into your current plan for another year unless you qualify for a [Special Enrollment Period](/faqs/medicare-special-enrollment-period/).</p>"
     },
     {
       "type": "callout",
@@ -151,7 +166,7 @@
       "type": "list",
       "ordered": false,
       "items": [
-        "Review your Annual Notice of Change letter for cost and coverage updates",
+        "Review your [Annual Notice of Change letter](/faqs/medicare-annual-notice-of-change-letter/) for cost and coverage updates",
         "Confirm your doctors and pharmacies are in-network for 2027",
         "Check your medications against each plan's updated formulary",
         "Compare total annual costs, not just the monthly premium",
@@ -230,21 +245,67 @@
       "content": "A clear, unhurried process is what leads to a plan you feel confident about, not one you second-guess in February. Take the time this season deserves.</p>"
     }
   ],
-  "seoTitle": "Medicare Open Enrollment 2027: What Changed",
-  "seoDescription": "Medicare open enrollment 2027 brings plan exits, new costs, and formulary changes. Learn what shifted and how to compare plans with confidence.",
-  "excerpt": "Medicare Advantage plan exits, new drug pricing rules, and updated cost limits are reshaping 2027 enrollment decisions. Here is what actually changed and how to compare plans wisely.",
-  "keyTakeaways": [
-    "The 2027 Medicare Advantage maximum out-of-pocket limit is capped at $9,250",
-    "Several Medicare Advantage plans are exiting counties or discontinuing entirely for 2027, triggering non-renewal notices",
-    "Members losing a plan are guaranteed the chance to enroll in new coverage before their old plan ends",
-    "Original Medicare offers nationwide provider access, while Medicare Advantage generally limits care to in-network providers",
-    "Check your Annual Notice of Change letter or Medicare's plan comparison tool to confirm your plan status"
+  "relatedSlugs": [
+    "2027-medicare-advantage-enroll-early-to-avoid-county-caps",
+    "medicare-part-d-premiums-to-increase-in-2027-key-details",
+    "medicare-maximum-out-of-pocket",
+    "medicare-changes-2027"
   ],
-  "image": "/images/generated/medicare-2027-key-changes-in-open-enrollment-you-f204332.png",
-  "relatedSlugs": [],
-  "sourceUrl": "https://www.globenewswire.com/news-release/2026/09/16/3363383/0/en/medicare-open-enrollment-2027-higher-drug-costs-and-plan-changes-make-shopping-around-important.html",
-  "pipelineId": "disc-a3d2f8d4b2f30bfea57f330532600fad64c13c2ffc90e42f6fc8dde583b49a19",
+  "linkSuggestions": [
+    {
+      "phrase": "Part D costs",
+      "url": "/faqs/how-is-medicare-part-d-changing-in-2026/",
+      "title": "How is Medicare Part D Changing in 2026?",
+      "reason": "This link offers insights into the changes in Part D costs, which are crucial for understanding the financial implications mentioned in the article."
+    },
+    {
+      "phrase": "comparing plans",
+      "url": "/faqs/medicare-advantage-vs-medicare-supplement/",
+      "title": "Medicare Advantage vs. Medicare Supplement: Which Is Right for You?",
+      "reason": "This link helps readers understand the differences between Medicare Advantage and Medicare Supplement plans, aiding in their comparison process."
+    },
+    {
+      "phrase": "Part D or Medicare Advantage drug coverage",
+      "url": "/faqs/medicare-part-d-six-protected-classes/",
+      "title": "Medicare Part D Six Protected Drug Classes",
+      "reason": "This link provides details on protected drug classes under Part D, which is important for understanding drug coverage options."
+    },
+    {
+      "phrase": "Medicare Advantage plans are exiting counties",
+      "url": "/faqs/medicare-advantage-open-enrollment-period/",
+      "title": "Medicare Advantage Open Enrollment Period",
+      "reason": "This link discusses the implications of Medicare Advantage plans exiting certain areas, which is crucial for beneficiaries affected by these changes."
+    },
+    {
+      "phrase": "reviewing your Part D",
+      "url": "/faqs/part-d-plans-what-you-need-to-know-to-minimize-costs/",
+      "title": "Part D Plans: What You Need to Know to Minimize Costs",
+      "reason": "This link offers guidance on reviewing Part D plans, which is essential for beneficiaries to manage their medication costs effectively."
+    }
+  ],
+  "acceptedLinks": [
+    {
+      "phrase": "Medicare Advantage plans",
+      "url": "/faqs/medicare-advantage-extra-benefits-explained-whats-really-included/",
+      "title": "Medicare Advantage Extra Benefits Explained: What's Really Included"
+    },
+    {
+      "phrase": "maximum out-of-pocket limit",
+      "url": "/faqs/medicare-maximum-out-of-pocket/",
+      "title": "Medicare Maximum Out-of-Pocket"
+    },
+    {
+      "phrase": "Annual Notice of Change letter",
+      "url": "/faqs/medicare-annual-notice-of-change-letter/",
+      "title": "Medicare Annual Notice of Change (ANOC) Letter"
+    },
+    {
+      "phrase": "Special Enrollment Period",
+      "url": "/faqs/medicare-special-enrollment-period/",
+      "title": "Medicare Special Enrollment Period"
+    }
+  ],
   "id": "pipeline-medicare-2027-key-changes-in-open-enrollment-you-need-to-kno",
-  "updatedAt": "2026-09-23T15:50:59.862Z",
-  "createdAt": "2026-09-23T15:50:59.862Z"
+  "updatedAt": "2026-10-06T16:01:14.003Z",
+  "createdAt": "2026-10-06T16:01:14.003Z"
 }
