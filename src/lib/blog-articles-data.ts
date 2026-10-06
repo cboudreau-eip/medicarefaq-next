@@ -15,6 +15,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "medicare-options-cover-hospital",
     seo: {
+      focusKeyword: "",
       title: "Medicare Plans That Cover It All: What You Need to Know",
       description: "Learn how Medicare Advantage or Original Medicare plus Part D can combine hospital, doctor, and prescription drug coverage into one simple planT.",
       canonical: "https://www.medicarefaq.com/blog/medicare-options-cover-hospital/",
@@ -29,7 +30,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "11 min read",
     featured: false,
-    image: "/images/generated/medicare-options-cover-hospital-4975925284bf.png",
+    image: "/images/generated/medicare-options-cover-hospital-f663b3bc3222.png",
     imageAlt: "What Medicare options cover hospital, doctor, and prescriptions together?",
     keyTakeaways: ["Original Medicare (Parts A and B) covers hospital and doctor visits but never includes prescription drug coverage", "Part D drug coverage must always be purchased separately, whether through a standalone plan or bundled into Medicare Advantage", "Medicare Advantage (Part C) plans, often called MA-PD plans, typically combine hospital, medical, and drug coverage into one plan with a network", "Pairing Original Medicare with a Medigap policy and a standalone Part D plan offers more provider flexibility but requires managing three separate pieces", "Before enrolling in Medicare Advantage, confirm your doctors, specialists, and hospital are in the plan's network"],
     tableOfContents: [
