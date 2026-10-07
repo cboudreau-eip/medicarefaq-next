@@ -47,15 +47,19 @@ export default async function AEPBannerTestPage({ searchParams }: PageProps) {
 
   return (
     <div className="flex min-h-screen flex-col pb-[129px] sm:pb-[77px]">
-      <header className="sticky top-0 z-50 hidden bg-white shadow-sm lg:block">
-        <UtilityBar />
-        <HeaderBar />
-        <MegaMenu />
-      </header>
+      <div className="sticky top-0 z-50 bg-white shadow-sm">
+        <AEPStickyBanner stage={stage} placement="top" />
 
-      <header className="sticky top-0 z-50 bg-white shadow-sm lg:hidden">
-        <MobileNav />
-      </header>
+        <header className="hidden lg:block">
+          <UtilityBar />
+          <HeaderBar />
+          <MegaMenu />
+        </header>
+
+        <header className="lg:hidden">
+          <MobileNav />
+        </header>
+      </div>
 
       <main className="flex-1">
         <HeroSection />
@@ -68,7 +72,7 @@ export default async function AEPBannerTestPage({ searchParams }: PageProps) {
       </main>
 
       <Footer />
-      <AEPStickyBanner stage={stage} />
+      <AEPStickyBanner stage={stage} placement="bottom" />
     </div>
   );
 }
