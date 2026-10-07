@@ -5,11 +5,11 @@ import { Star, ShieldCheck } from "lucide-react";
 import Link from "next/link";
 import { trackNavClick } from "@/lib/analytics";
 
-export default function UtilityBar() {
+export default function UtilityBar({ linksOnly = false }: { linksOnly?: boolean }) {
   return (
     <div className="bg-[#F5F7FA] border-b border-[#E5E7EB] text-sm hidden lg:block">
-      <div className="container flex items-center justify-between h-9">
-        <div className="flex items-center gap-5">
+      <div className={`container flex items-center ${linksOnly ? "justify-end h-8" : "justify-between h-9"}`}>
+        {!linksOnly && <div className="flex items-center gap-5">
           <a href="https://www.bbb.org/us/fl/tampa/profile/insurance-services-office/elite-insurance-partners-llc-0653-90292738" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 text-[#4B5563] font-medium hover:text-[#D97706] transition-colors">
             <Star className="w-3.5 h-3.5 text-[#D97706] fill-[#D97706]" />
             BBB A+ Rated
@@ -18,7 +18,7 @@ export default function UtilityBar() {
             <ShieldCheck className="w-3.5 h-3.5 text-[#059669]" />
             Licensed Agents
           </a>
-        </div>
+        </div>}
         <nav className="flex items-center gap-5">
           {utilityLinks.map((link) => (
             <Link

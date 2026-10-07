@@ -6,6 +6,7 @@ import { ChevronDown, ArrowRight } from "lucide-react";
 import { navigationData, type NavCategory } from "@/lib/navigation-data";
 import { motion, AnimatePresence } from "framer-motion";
 import { trackNavClick } from "@/lib/analytics";
+import ZipFormModal from "@/components/ZipFormModal";
 
 function MegaMenuPanel({
   category,
@@ -117,7 +118,7 @@ function MegaMenuPanel({
   );
 }
 
-export default function MegaMenu() {
+export default function MegaMenu({ lightWithCta = false }: { lightWithCta?: boolean }) {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
   const navRef = useRef<HTMLDivElement>(null);
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -145,20 +146,20 @@ export default function MegaMenu() {
   return (
     <div
       ref={navRef}
-      className="bg-[#1B2A4A] relative"
+      className={lightWithCta ? "bg-white border-b border-[#E5E7EB] relative" : "bg-[#1B2A4A] relative"}
       onMouseLeave={handleMouseLeave}
     >
       <div className="container">
         {/* Nav links centered */}
-        <nav className="flex items-center justify-center h-12">
+        <nav aria-label="Main navigation" className={lightWithCta ? "flex items-center justify-end min-h-[68px] gap-1 xl:gap-3" : "flex items-center justify-center h-12"}>
           {navigationData.map((category, index) => (
             <div
               key={category.title}
               onMouseEnter={() => handleMouseEnter(index)}
             >
               <button
-                className={`flex items-center gap-1.5 px-5 h-12 text-sm font-semibold transition-all duration-150 ${
-                  activeIndex === index
+                className={`flex items-center gap-1.5 ${lightWithCta ? "px-2 xl:px-4 text-sm xl:text-base" : "px-5 text-sm"} h-12 font-semibold transition-all duration-150 ${
+                  lightWithCta ? "text-[#1B2A4A] hover:bg-slate-50" : activeIndex === index
                     ? "bg-white/15 text-white"
                     : "text-white/85 hover:text-white hover:bg-white/10"
                 }`}
@@ -176,6 +177,15 @@ export default function MegaMenu() {
               </button>
             </div>
           ))}
+          {lightWithCta && (
+            <ZipFormModal
+              coverageType="ms"
+              triggerLabel="Get Started Free"
+              triggerClassName="ml-3 shrink-0 bg-[#F97316] hover:bg-[#EA580C] text-white font-bold px-5 py-3 rounded-lg text-sm xl:text-base whitespace-nowrap"
+              triggerId="get-started-menu-test-1"
+              pageSection="header"
+            />
+          )}
         </nav>
       </div>
       {/* Panel always centered relative to the full nav bar */}

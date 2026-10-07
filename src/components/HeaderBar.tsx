@@ -24,7 +24,7 @@ const TYPE_LABELS: Record<string, string> = {
   page: "Page",
 };
 
-export default function HeaderBar() {
+export default function HeaderBar({ centeredLogo = false }: { centeredLogo?: boolean }) {
   const [query, setQuery] = useState("");
   const [showDropdown, setShowDropdown] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(-1);
@@ -110,18 +110,18 @@ export default function HeaderBar() {
 
   return (
     <div className="bg-white border-b border-[#E5E7EB]">
-      <div className="container flex items-center justify-between h-[72px] gap-4">
+      <div className={centeredLogo ? "container grid grid-cols-3 items-center h-[116px] gap-8" : "container flex items-center justify-between h-[72px] gap-4"}>
         {/* Logo */}
-        <Link href="/" className="shrink-0">
+        <Link href="/" className={centeredLogo ? "col-start-2 row-start-1 justify-self-center min-w-0" : "shrink-0"}>
           <img
             src={LOGO_URL}
             alt="MedicareFAQ.com - Powered by Elite Insurance Partners"
-            className="h-12 w-auto"
+            className={centeredLogo ? "w-full max-w-[390px] h-auto" : "h-12 w-auto"}
           />
         </Link>
 
         {/* Search Bar */}
-        <div ref={searchRef} className="hidden md:block relative flex-1 max-w-lg mx-6">
+        <div ref={searchRef} className={centeredLogo ? "relative col-start-1 row-start-1 w-full max-w-[420px]" : "hidden md:block relative flex-1 max-w-lg mx-6"}>
           <div className="relative w-full">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
             <input
@@ -225,25 +225,25 @@ export default function HeaderBar() {
         </div>
 
         {/* Phone + CTA */}
-        <div className="flex items-center gap-4">
+        <div className={centeredLogo ? "col-start-3 row-start-1 flex justify-end items-center" : "flex items-center gap-4"}>
           <a
             id="callInNum"
             href="tel:+18883358996"  data-invoca-phone-number="18883358996"
             onClick={() =>
               trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "header" })
             }
-            className="invoca-phone hidden lg:flex items-center gap-2 text-[#1B2A4A] font-bold text-lg hover:text-[#0D9488] transition-colors duration-150"
+            className={`invoca-phone hidden lg:flex items-center gap-2 text-[#1B2A4A] font-bold hover:text-[#0D9488] transition-colors duration-150 whitespace-nowrap ${centeredLogo ? "text-xl xl:text-2xl" : "text-lg"}`}
           >
             <Phone className="w-5 h-5" />
             (888) 335-8996
           </a>
-          <ZipFormModal
+          {!centeredLogo && <ZipFormModal
             coverageType="ms"
             triggerLabel="Get Started Free"
             triggerClassName="bg-[#F97316] hover:bg-[#EA580C] text-white font-bold px-5 py-2.5 rounded-lg text-sm transition-all duration-150 shadow-sm hover:shadow-md whitespace-nowrap"
             triggerId="get-started-free-header"
             pageSection="header"
-          />
+          />}
         </div>
       </div>
     </div>

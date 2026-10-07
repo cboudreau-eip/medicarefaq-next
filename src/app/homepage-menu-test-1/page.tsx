@@ -27,9 +27,9 @@ export default function HomepageMenuTest1() {
   return (
     <div className="min-h-screen flex flex-col">
       <header className="hidden lg:block sticky top-0 z-50 bg-white shadow-sm">
-        <UtilityBar />
-        <HeaderBar />
-        <MegaMenu />
+        <UtilityBar linksOnly />
+        <HeaderBar centeredLogo />
+        <MegaMenu lightWithCta />
       </header>
 
       <header className="lg:hidden sticky top-0 z-50 bg-white shadow-sm">
