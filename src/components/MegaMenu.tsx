@@ -7,6 +7,7 @@ import { navigationData, type NavCategory } from "@/lib/navigation-data";
 import { motion, AnimatePresence } from "framer-motion";
 import { trackNavClick } from "@/lib/analytics";
 import ZipFormModal from "@/components/ZipFormModal";
+import MenuSearchDropdown from "@/components/MenuSearchDropdown";
 
 function MegaMenuPanel({
   category,
@@ -118,7 +119,7 @@ function MegaMenuPanel({
   );
 }
 
-export default function MegaMenu({ lightWithCta = false }: { lightWithCta?: boolean }) {
+export default function MegaMenu({ lightWithCta = false, searchVariant = false }: { lightWithCta?: boolean; searchVariant?: boolean }) {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
   const navRef = useRef<HTMLDivElement>(null);
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -151,7 +152,7 @@ export default function MegaMenu({ lightWithCta = false }: { lightWithCta?: bool
     >
       <div className="container">
         {/* Nav links centered */}
-        <nav aria-label="Main navigation" className={lightWithCta ? "flex items-center justify-end min-h-[68px] gap-1 xl:gap-3" : "flex items-center justify-center h-12"}>
+        <nav aria-label="Main navigation" className={searchVariant ? "flex items-center justify-start min-h-[68px] gap-0 xl:gap-2" : lightWithCta ? "flex items-center justify-end min-h-[68px] gap-1 xl:gap-3" : "flex items-center justify-center h-12"}>
           {navigationData.map((category, index) => (
             <div
               key={category.title}
@@ -177,6 +178,7 @@ export default function MegaMenu({ lightWithCta = false }: { lightWithCta?: bool
               </button>
             </div>
           ))}
+          {searchVariant && <div className="ml-auto" onMouseEnter={() => setActiveIndex(null)}><MenuSearchDropdown /></div>}
           {lightWithCta && (
             <ZipFormModal
               coverageType="ms"

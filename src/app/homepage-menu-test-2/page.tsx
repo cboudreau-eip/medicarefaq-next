@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-import UtilityBar from "@/components/UtilityBar";
-import HeaderBar from "@/components/HeaderBar";
+import MenuTestTwoHeader from "@/components/MenuTestTwoHeader";
 import MegaMenu from "@/components/MegaMenu";
 import MobileNav from "@/components/MobileNav";
 import HeroSection from "@/components/HeroSection";
@@ -27,9 +26,8 @@ export default function HomepageMenuTest2() {
   return (
     <div className="min-h-screen flex flex-col">
       <header className="hidden lg:block sticky top-0 z-50 bg-white shadow-sm">
-        <UtilityBar />
-        <HeaderBar />
-        <MegaMenu />
+        <MenuTestTwoHeader />
+        <MegaMenu lightWithCta searchVariant />
       </header>
 
       <header className="lg:hidden sticky top-0 z-50 bg-white shadow-sm">
