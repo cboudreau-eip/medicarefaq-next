@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import MenuTestTwoHeader from "@/components/MenuTestTwoHeader";
+import AEPScrollingBanner from "@/components/AEPScrollingBanner";
+import { isAEPBannerStage, type AEPBannerStage } from "@/components/AEPStickyBanner";
 import MegaMenu from "@/components/MegaMenu";
 import MobileNav from "@/components/MobileNav";
 import HeroSection from "@/components/HeroSection";
@@ -22,17 +24,29 @@ export const metadata: Metadata = {
   },
 };
 
-export default function HomepageMenuTest2() {
+type PageProps = {
+  searchParams: Promise<{ stage?: string | string[] }>;
+};
+
+export default async function HomepageMenuTest2({ searchParams }: PageProps) {
+  const params = await searchParams;
+  const requestedStage = Array.isArray(params.stage) ? params.stage[0] : params.stage;
+  const stage: AEPBannerStage = requestedStage && isAEPBannerStage(requestedStage) ? requestedStage : "oct15";
+
   return (
     <div className="min-h-screen flex flex-col">
-      <header className="hidden lg:block sticky top-0 z-50 bg-white shadow-sm">
-        <MenuTestTwoHeader />
-        <MegaMenu lightWithCta searchVariant />
-      </header>
+      <div className="sticky top-0 z-50 bg-white shadow-sm">
+        <header className="hidden lg:block">
+          <MenuTestTwoHeader />
+          <MegaMenu lightWithCta searchVariant />
+        </header>
 
-      <header className="lg:hidden sticky top-0 z-50 bg-white shadow-sm">
-        <MobileNav />
-      </header>
+        <header className="lg:hidden">
+          <MobileNav />
+        </header>
+
+        <AEPScrollingBanner stage={stage} />
+      </div>
 
       <main className="flex-1">
         <HeroSection />

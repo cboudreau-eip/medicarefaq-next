@@ -1,0 +1,58 @@
+.track {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  height: 24px;
+  overflow: hidden;
+}
+
+.loop {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  display: flex;
+  width: max-content;
+  animation: scroll-right 14s linear infinite;
+}
+
+.message {
+  flex: none;
+  margin: 0;
+  padding-right: 48px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+@keyframes scroll-right {
+  from {
+    transform: translate(-25%, -50%);
+  }
+
+  to {
+    transform: translate(0, -50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .track {
+    height: auto;
+    overflow: visible;
+  }
+
+  .loop {
+    position: static;
+    width: auto;
+    animation: none;
+  }
+
+  .message {
+    padding-right: 0;
+    white-space: normal;
+  }
+
+  .message:not(:first-child) {
+    display: none;
+  }
+}

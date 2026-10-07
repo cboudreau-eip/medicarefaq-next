@@ -7,7 +7,7 @@ type BannerContent = {
   cta: string;
 };
 
-const bannerContent: Record<AEPBannerStage, BannerContent> = {
+export const aepBannerContent: Record<AEPBannerStage, BannerContent> = {
   oct15: {
     message:
       "Annual Enrollment Period is here! Learn more about your options",
@@ -28,7 +28,7 @@ const bannerContent: Record<AEPBannerStage, BannerContent> = {
 };
 
 export const aepBannerStages = Object.keys(
-  bannerContent,
+  aepBannerContent,
 ) as AEPBannerStage[];
 
 export function isAEPBannerStage(value: string): value is AEPBannerStage {
@@ -42,7 +42,7 @@ export default function AEPStickyBanner({
   stage: AEPBannerStage;
   placement?: "top" | "bottom";
 }) {
-  const content = bannerContent[stage];
+  const content = aepBannerContent[stage];
   const isTopBanner = placement === "top";
 
   return (
