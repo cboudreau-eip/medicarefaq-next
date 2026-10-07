@@ -61,9 +61,33 @@ export default function HeroSection({ headline, aepPreview = false }: { headline
             transition={{ duration: 0.5, delay: 0.2, ease: "easeOut" }}
             className="text-white/80 text-lg md:text-xl leading-relaxed mb-8 max-w-xl"
           >
-            Whether you&apos;re approaching 65, still working, or already enrolled, we&apos;ll
-            help you understand your options with clear, unbiased guidance.
+            {aepPreview ? (
+              <>
+                Review your Medicare Advantage and Part D coverage for 2027. Compare your
+                options with clear, unbiased guidance before Annual Enrollment ends December 7.
+              </>
+            ) : (
+              <>
+                Whether you&apos;re approaching 65, still working, or already enrolled, we&apos;ll
+                help you understand your options with clear, unbiased guidance.
+              </>
+            )}
           </motion.p>
+          {aepPreview && (
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.3, ease: "easeOut" }}
+            >
+              <Link
+                href="/medicare-open-enrollment/"
+                onClick={() => trackCtaClick({ button_label: "Learn About Your Options", destination: "/medicare-open-enrollment/", page_section: "hero" })}
+                className="inline-flex items-center justify-center rounded-lg bg-[#F97316] px-6 py-3.5 font-bold text-white shadow-lg transition-colors hover:bg-[#EA580C] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+              >
+                Learn About Your Options
+              </Link>
+            </motion.div>
+          )}
           {/* 3 journey buttons */}
           {!aepPreview && (
           <motion.div
