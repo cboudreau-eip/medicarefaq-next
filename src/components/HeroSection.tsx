@@ -16,7 +16,7 @@ const trustItems = [
 
 const HERO_BG = "/images/hero-bg.webp";
 
-export default function HeroSection({ headline }: { headline?: string } = {}) {
+export default function HeroSection({ headline, aepPreview = false }: { headline?: string; aepPreview?: boolean } = {}) {
   return (
     <section className="relative overflow-hidden">
       {/* Background image with overlay */}
@@ -29,7 +29,7 @@ export default function HeroSection({ headline }: { headline?: string } = {}) {
         <div className="absolute inset-0 bg-gradient-to-r from-[#1B2A4A]/95 via-[#1B2A4A]/80 to-[#1B2A4A]/40" />
       </div>
       {/* Content */}
-      <div className="container relative z-10 pt-14 pb-6 md:pt-20 md:pb-8">
+      <div className={`container relative z-10 pt-14 pb-6 md:pt-20 md:pb-8 ${aepPreview ? "min-h-[629px] sm:min-h-[410px] md:min-h-[487px]" : ""}`}>
         <div className="max-w-3xl">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -45,7 +45,7 @@ export default function HeroSection({ headline }: { headline?: string } = {}) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1, ease: "easeOut" }}
-            className={`text-3xl md:text-4xl ${headline ? "lg:text-[42px]" : "lg:text-[50px]"} font-extrabold text-white leading-[1.15] mb-5`}
+            className={`${aepPreview ? "text-[38px] md:text-[44px] lg:text-[50px] lg:w-[850px]" : `text-3xl md:text-4xl ${headline ? "lg:text-[42px]" : "lg:text-[50px]"}`} font-extrabold text-white leading-[1.15] mb-5`}
           >
             {headline ?? (
               <>
@@ -65,6 +65,7 @@ export default function HeroSection({ headline }: { headline?: string } = {}) {
             help you understand your options with clear, unbiased guidance.
           </motion.p>
           {/* 3 journey buttons */}
+          {!aepPreview && (
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -114,6 +115,7 @@ export default function HeroSection({ headline }: { headline?: string } = {}) {
               }
             />
           </motion.div>
+          )}
         </div>
       </div>
       {/* Trust bar */}
