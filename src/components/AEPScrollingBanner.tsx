@@ -7,7 +7,7 @@ export default function AEPScrollingBanner({ stage }: { stage: AEPBannerStage })
   const { message } = aepBannerContent[stage];
 
   return (
-    <aside aria-label="Medicare Annual Enrollment announcement" className="border-t border-white/20 bg-[#112858] text-white">
+    <aside aria-label="Medicare Annual Enrollment announcement" className="border-t border-white/20 bg-[#315A8C] text-white">
       <div className="flex min-h-14 items-center px-4 py-2 sm:px-6 lg:px-8">
         <Link
           href="/contact/"
