@@ -38,7 +38,7 @@ export default function MobileNav() {
           <ZipFormModal
             coverageType="ms"
             triggerLabel="Get Started"
-            triggerClassName="bg-[#C41230] text-white font-bold px-3 py-1.5 rounded-md text-xs"
+            triggerClassName="bg-[#F97316] text-white font-bold px-3 py-1.5 rounded-md text-xs"
             pageSection="mobile_nav"
             triggerId="get-started-mobile-nav"
           />

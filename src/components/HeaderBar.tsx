@@ -240,7 +240,7 @@ export default function HeaderBar() {
           <ZipFormModal
             coverageType="ms"
             triggerLabel="Get Started Free"
-            triggerClassName="bg-[#C41230] hover:bg-[#A30F28] text-white font-bold px-5 py-2.5 rounded-lg text-sm transition-all duration-150 shadow-sm hover:shadow-md whitespace-nowrap"
+            triggerClassName="bg-[#F97316] hover:bg-[#EA580C] text-white font-bold px-5 py-2.5 rounded-lg text-sm transition-all duration-150 shadow-sm hover:shadow-md whitespace-nowrap"
             triggerId="get-started-free-header"
             pageSection="header"
           />
