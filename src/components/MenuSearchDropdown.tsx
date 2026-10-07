@@ -32,8 +32,8 @@ export default function MenuSearchDropdown({ dark = false }: { dark?: boolean })
 
   return (
     <div ref={wrapper} className="relative" onBlur={event => { if (!event.currentTarget.contains(event.relatedTarget)) setOpen(false); }}>
-      <button ref={trigger} type="button" aria-label={open ? "Close search" : "Open search"} aria-expanded={open} aria-controls="menu-test-two-search" onClick={() => setOpen(!open)} className={`flex items-center justify-center focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#0D9488] ${dark ? "h-[65.6px] w-16 text-black hover:bg-black/5" : "h-12 w-12 rounded-lg text-[#1B2A4A] hover:bg-slate-100"}`}>
-        {open ? <X aria-hidden="true" className={dark ? "h-[22.4px] w-[22.4px]" : "h-7 w-7"} /> : <Search aria-hidden="true" className={dark ? "h-[22.4px] w-[22.4px]" : "h-7 w-7"} />}
+      <button ref={trigger} type="button" aria-label={open ? "Close search" : "Open search"} aria-expanded={open} aria-controls="menu-test-two-search" onClick={() => setOpen(!open)} className={`flex items-center justify-center focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#0D9488] ${dark ? "h-[39px] w-12 text-black hover:bg-black/5" : "h-12 w-12 rounded-lg text-[#1B2A4A] hover:bg-slate-100"}`}>
+        {open ? <X aria-hidden="true" className={dark ? "h-5 w-5" : "h-7 w-7"} /> : <Search aria-hidden="true" className={dark ? "h-5 w-5" : "h-7 w-7"} />}
       </button>
       {open && (
         <div id="menu-test-two-search" className="absolute right-0 top-full z-[60] mt-2 w-[420px] max-w-[calc(100vw-32px)] rounded-xl border border-slate-200 bg-white p-4 shadow-xl">
