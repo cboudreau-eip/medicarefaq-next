@@ -19,7 +19,9 @@ export default function AEPScrollingBanner({ stage }: { stage: AEPBannerStage })
               <p key={index} className={styles.message}>
                 <CalendarDays aria-hidden="true" className="h-4 w-4 shrink-0" />
                 <span>{message}</span>
-                <span className="underline underline-offset-2">Talk to a Medicare Specialist</span>
+                <span className="inline-flex shrink-0 items-center rounded-full bg-white px-2.5 py-[3px] text-xs font-bold leading-4 text-[#112858]">
+                  Talk to a Medicare Specialist
+                </span>
               </p>
             ))}
           </div>
