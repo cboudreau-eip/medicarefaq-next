@@ -163,7 +163,7 @@ export default function MegaMenu({ lightWithCta = false, searchVariant = false, 
                 onClick={dividedNavy ? () => handleMouseEnter(index) : undefined}
                 aria-expanded={dividedNavy ? activeIndex === index : undefined}
                 onKeyDown={dividedNavy ? event => { if (event.key === "Escape") setActiveIndex(null); } : undefined}
-                className={dividedNavy ? `relative flex h-8 items-center gap-[9.6px] whitespace-nowrap px-[9.6px] text-[12.8px] xl:text-base font-semibold text-white after:absolute after:-bottom-[3.2px] after:left-[9.6px] after:right-[9.6px] after:h-[3.2px] after:bg-[#F97316] after:transition-opacity ${activeIndex === index || (activeIndex === null && index === 1) ? "after:opacity-100" : "after:opacity-0"}` : `flex items-center gap-1.5 ${lightWithCta ? "px-2 xl:px-4 text-sm xl:text-base" : "px-5 text-sm"} h-12 font-semibold transition-all duration-150 ${
+                className={dividedNavy ? `relative flex h-8 items-center gap-[9.6px] whitespace-nowrap px-[9.6px] text-[12.8px] xl:text-base font-semibold text-white after:absolute after:-bottom-[3.2px] after:left-[9.6px] after:right-[9.6px] after:h-[3.2px] after:bg-[#F97316] after:transition-opacity hover:after:opacity-100 focus-visible:after:opacity-100 ${activeIndex === index ? "after:opacity-100" : "after:opacity-0"}` : `flex items-center gap-1.5 ${lightWithCta ? "px-2 xl:px-4 text-sm xl:text-base" : "px-5 text-sm"} h-12 font-semibold transition-all duration-150 ${
                   lightWithCta ? "text-[#1B2A4A] hover:bg-slate-50" : activeIndex === index
                     ? "bg-white/15 text-white"
                     : "text-white/85 hover:text-white hover:bg-white/10"

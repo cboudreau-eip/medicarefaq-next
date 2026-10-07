@@ -16,7 +16,7 @@ export default function MenuTestThreeHeader() {
         <div className="flex shrink-0 items-center gap-[9.6px] xl:gap-[12.8px]">
           <nav aria-label="About and resources" className="flex items-center divide-x divide-slate-300">
             {utilityLinks.map(link => (
-              <Link key={link.title} href={link.href} className="px-[6.4px] xl:px-[9.6px] whitespace-nowrap text-[11.2px] leading-4 font-medium text-[#1B2A4A] hover:underline" onClick={() => trackNavClick({link_text: link.title, destination: link.href, nav_section: "utility_bar"})}>
+              <Link key={link.title} href={link.href} className="px-[6.4px] xl:px-[9.6px] whitespace-nowrap text-sm leading-5 font-medium text-[#1B2A4A] hover:underline" onClick={() => trackNavClick({link_text: link.title, destination: link.href, nav_section: "utility_bar"})}>
                 {link.title}
               </Link>
             ))}
