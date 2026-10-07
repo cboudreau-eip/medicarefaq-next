@@ -50,7 +50,7 @@ export default async function HomepageMenuTest2({ searchParams }: PageProps) {
       </div>
 
       <main className="flex-1">
-        <HeroSection />
+        <HeroSection headline="Medicare Annual Enrollment Is Open. Explore Your 2027 Options." />
         <JourneySection />
         <TopicSection />
         <ZipFinderSection />

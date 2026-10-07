@@ -16,7 +16,7 @@ const trustItems = [
 
 const HERO_BG = "/images/hero-bg.webp";
 
-export default function HeroSection() {
+export default function HeroSection({ headline }: { headline?: string } = {}) {
   return (
     <section className="relative overflow-hidden">
       {/* Background image with overlay */}
@@ -45,11 +45,15 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1, ease: "easeOut" }}
-            className="text-3xl md:text-4xl lg:text-[50px] font-extrabold text-white leading-[1.15] mb-5"
+            className={`text-3xl md:text-4xl ${headline ? "lg:text-[42px]" : "lg:text-[50px]"} font-extrabold text-white leading-[1.15] mb-5`}
           >
-            Understanding Medicare
-            <br />
-            <span className="text-white" style={{ textShadow: '0 1px 4px rgba(0,0,0,0.35)' }}>Doesn&apos;t Have to be Confusing.</span>
+            {headline ?? (
+              <>
+                Understanding Medicare
+                <br />
+                <span className="text-white" style={{ textShadow: '0 1px 4px rgba(0,0,0,0.35)' }}>Doesn&apos;t Have to be Confusing.</span>
+              </>
+            )}
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
