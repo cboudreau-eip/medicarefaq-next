@@ -36,6 +36,8 @@ export default async function HomepageMenuTest2({ searchParams }: PageProps) {
   return (
     <div className="min-h-screen flex flex-col">
       <div className="sticky top-0 z-50 bg-white shadow-sm">
+        <AEPScrollingBanner stage={stage} />
+
         <header className="hidden lg:block">
           <MenuTestTwoHeader />
           <MegaMenu lightWithCta searchVariant />
@@ -45,7 +47,6 @@ export default async function HomepageMenuTest2({ searchParams }: PageProps) {
           <MobileNav />
         </header>
 
-        <AEPScrollingBanner stage={stage} />
       </div>
 
       <main className="flex-1">
