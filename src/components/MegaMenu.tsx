@@ -119,7 +119,7 @@ function MegaMenuPanel({
   );
 }
 
-export default function MegaMenu({ lightWithCta = false, searchVariant = false }: { lightWithCta?: boolean; searchVariant?: boolean }) {
+export default function MegaMenu({ lightWithCta = false, searchVariant = false, dividedNavy = false }: { lightWithCta?: boolean; searchVariant?: boolean; dividedNavy?: boolean }) {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
   const navRef = useRef<HTMLDivElement>(null);
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -147,28 +147,32 @@ export default function MegaMenu({ lightWithCta = false, searchVariant = false }
   return (
     <div
       ref={navRef}
-      className={lightWithCta ? "bg-white border-b border-[#E5E7EB] relative" : "bg-[#1B2A4A] relative"}
+      className={dividedNavy ? "bg-[#112E50] relative" : lightWithCta ? "bg-white border-b border-[#E5E7EB] relative" : "bg-[#1B2A4A] relative"}
       onMouseLeave={handleMouseLeave}
     >
       <div className="container">
         {/* Nav links centered */}
-        <nav aria-label="Main navigation" className={searchVariant ? "flex items-center justify-start min-h-[68px] gap-0 xl:gap-2" : lightWithCta ? "flex items-center justify-end min-h-[68px] gap-1 xl:gap-3" : "flex items-center justify-center h-12"}>
+        <nav aria-label="Main navigation" className={dividedNavy ? "flex items-center h-[82px]" : searchVariant ? "flex items-center justify-start min-h-[68px] gap-0 xl:gap-2" : lightWithCta ? "flex items-center justify-end min-h-[68px] gap-1 xl:gap-3" : "flex items-center justify-center h-12"}>
           {navigationData.map((category, index) => (
             <div
               key={category.title}
+              className={dividedNavy ? "flex flex-1 justify-center border-r border-[#567A99]" : undefined}
               onMouseEnter={() => handleMouseEnter(index)}
             >
               <button
-                className={`flex items-center gap-1.5 ${lightWithCta ? "px-2 xl:px-4 text-sm xl:text-base" : "px-5 text-sm"} h-12 font-semibold transition-all duration-150 ${
+                onClick={dividedNavy ? () => handleMouseEnter(index) : undefined}
+                aria-expanded={dividedNavy ? activeIndex === index : undefined}
+                onKeyDown={dividedNavy ? event => { if (event.key === "Escape") setActiveIndex(null); } : undefined}
+                className={dividedNavy ? `relative flex h-10 items-center gap-3 whitespace-nowrap px-3 text-base xl:text-xl font-semibold text-white after:absolute after:-bottom-1 after:left-3 after:right-3 after:h-1 after:bg-[#F97316] after:transition-opacity ${activeIndex === index || (activeIndex === null && index === 1) ? "after:opacity-100" : "after:opacity-0"}` : `flex items-center gap-1.5 ${lightWithCta ? "px-2 xl:px-4 text-sm xl:text-base" : "px-5 text-sm"} h-12 font-semibold transition-all duration-150 ${
                   lightWithCta ? "text-[#1B2A4A] hover:bg-slate-50" : activeIndex === index
                     ? "bg-white/15 text-white"
                     : "text-white/85 hover:text-white hover:bg-white/10"
                 }`}
               >
-                <span
+                {!dividedNavy && <span
                   className="w-1.5 h-1.5 rounded-full mr-1"
                   style={{ backgroundColor: category.color }}
-                />
+                />}
                 {category.title}
                 <ChevronDown
                   className={`w-3.5 h-3.5 transition-transform duration-150 ${
@@ -178,6 +182,7 @@ export default function MegaMenu({ lightWithCta = false, searchVariant = false }
               </button>
             </div>
           ))}
+          {dividedNavy && <div onMouseEnter={() => setActiveIndex(null)}><MenuSearchDropdown dark /></div>}
           {searchVariant && <div className="ml-auto" onMouseEnter={() => setActiveIndex(null)}><MenuSearchDropdown /></div>}
           {lightWithCta && (
             <ZipFormModal

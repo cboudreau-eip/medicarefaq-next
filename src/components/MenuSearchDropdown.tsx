@@ -5,7 +5,7 @@ import { Search, X } from "lucide-react";
 import Link from "next/link";
 import { searchContent } from "@/lib/search-index";
 
-export default function MenuSearchDropdown() {
+export default function MenuSearchDropdown({ dark = false }: { dark?: boolean }) {
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
   const wrapper = useRef<HTMLDivElement>(null);
@@ -32,7 +32,7 @@ export default function MenuSearchDropdown() {
 
   return (
     <div ref={wrapper} className="relative" onBlur={event => { if (!event.currentTarget.contains(event.relatedTarget)) setOpen(false); }}>
-      <button ref={trigger} type="button" aria-label={open ? "Close search" : "Open search"} aria-expanded={open} aria-controls="menu-test-two-search" onClick={() => setOpen(!open)} className="flex h-12 w-12 items-center justify-center rounded-lg text-[#1B2A4A] hover:bg-slate-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#0D9488]">
+      <button ref={trigger} type="button" aria-label={open ? "Close search" : "Open search"} aria-expanded={open} aria-controls="menu-test-two-search" onClick={() => setOpen(!open)} className={`flex items-center justify-center focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#0D9488] ${dark ? "h-[82px] w-20 text-white hover:bg-white/10" : "h-12 w-12 rounded-lg text-[#1B2A4A] hover:bg-slate-100"}`}>
         {open ? <X aria-hidden="true" className="h-7 w-7" /> : <Search aria-hidden="true" className="h-7 w-7" />}
       </button>
       {open && (
