@@ -110,13 +110,13 @@ export default function HeaderBar({ centeredLogo = false }: { centeredLogo?: boo
 
   return (
     <div className="bg-white border-b border-[#E5E7EB]">
-      <div className={centeredLogo ? "container grid grid-cols-3 items-center h-[116px] gap-8" : "container flex items-center justify-between h-[72px] gap-4"}>
+      <div className={centeredLogo ? "container grid grid-cols-3 items-center h-[72px] gap-8" : "container flex items-center justify-between h-[72px] gap-4"}>
         {/* Logo */}
-        <Link href="/" className={centeredLogo ? "col-start-2 row-start-1 justify-self-center min-w-0" : "shrink-0"}>
+        <Link href="/" className={centeredLogo ? "col-start-2 row-start-1 justify-self-center min-w-0 w-3/5 max-w-[234px]" : "shrink-0"}>
           <img
             src={LOGO_URL}
             alt="MedicareFAQ.com - Powered by Elite Insurance Partners"
-            className={centeredLogo ? "w-full max-w-[390px] h-auto" : "h-12 w-auto"}
+            className={centeredLogo ? "w-full h-auto" : "h-12 w-auto"}
           />
         </Link>
 
