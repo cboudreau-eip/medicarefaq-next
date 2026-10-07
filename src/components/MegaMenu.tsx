@@ -147,7 +147,7 @@ export default function MegaMenu({ lightWithCta = false, searchVariant = false, 
   return (
     <div
       ref={navRef}
-      className={dividedNavy ? "bg-[#112E50] relative" : lightWithCta ? "bg-white border-b border-[#E5E7EB] relative" : "bg-[#1B2A4A] relative"}
+      className={dividedNavy ? "bg-[#E5E7EB] relative" : lightWithCta ? "bg-white border-b border-[#E5E7EB] relative" : "bg-[#1B2A4A] relative"}
       onMouseLeave={handleMouseLeave}
     >
       <div className="container">
@@ -156,14 +156,14 @@ export default function MegaMenu({ lightWithCta = false, searchVariant = false, 
           {navigationData.map((category, index) => (
             <div
               key={category.title}
-              className={dividedNavy ? "flex flex-1 justify-center border-r border-[#567A99]" : undefined}
+              className={dividedNavy ? "flex flex-1 justify-center border-r border-[#CBD5E1]" : undefined}
               onMouseEnter={() => handleMouseEnter(index)}
             >
               <button
                 onClick={dividedNavy ? () => handleMouseEnter(index) : undefined}
                 aria-expanded={dividedNavy ? activeIndex === index : undefined}
                 onKeyDown={dividedNavy ? event => { if (event.key === "Escape") setActiveIndex(null); } : undefined}
-                className={dividedNavy ? `relative flex h-8 items-center gap-[9.6px] whitespace-nowrap px-[9.6px] text-[12.8px] xl:text-base font-semibold text-white after:absolute after:-bottom-[3.2px] after:left-[9.6px] after:right-[9.6px] after:h-[3.2px] after:bg-[#F97316] after:transition-opacity hover:after:opacity-100 focus-visible:after:opacity-100 ${activeIndex === index ? "after:opacity-100" : "after:opacity-0"}` : `flex items-center gap-1.5 ${lightWithCta ? "px-2 xl:px-4 text-sm xl:text-base" : "px-5 text-sm"} h-12 font-semibold transition-all duration-150 ${
+                className={dividedNavy ? `relative flex h-8 items-center gap-[9.6px] whitespace-nowrap px-[9.6px] text-[12.8px] xl:text-base font-semibold text-black after:absolute after:-bottom-[3.2px] after:left-[9.6px] after:right-[9.6px] after:h-[3.2px] after:bg-[#F97316] after:transition-opacity hover:after:opacity-100 focus-visible:after:opacity-100 ${activeIndex === index ? "after:opacity-100" : "after:opacity-0"}` : `flex items-center gap-1.5 ${lightWithCta ? "px-2 xl:px-4 text-sm xl:text-base" : "px-5 text-sm"} h-12 font-semibold transition-all duration-150 ${
                   lightWithCta ? "text-[#1B2A4A] hover:bg-slate-50" : activeIndex === index
                     ? "bg-white/15 text-white"
                     : "text-white/85 hover:text-white hover:bg-white/10"
