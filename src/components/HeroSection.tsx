@@ -63,8 +63,8 @@ export default function HeroSection({ headline, aepPreview = false }: { headline
           >
             {aepPreview ? (
               <>
-                Review your Medicare Advantage and Part D coverage for 2027. Compare your
-                options with clear, unbiased guidance before Annual Enrollment ends December 7.
+                Review your Medicare Advantage and Part D options for 2027 before Annual
+                Enrollment ends December 7.
               </>
             ) : (
               <>
