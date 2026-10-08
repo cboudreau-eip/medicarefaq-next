@@ -14765,167 +14765,256 @@ export const coverageArticles: CoverageArticleData[] = [
 
   // ── Varicose Veins ─────────────────────────────────────────────────────────
   {
-    slug: "does-medicare-cover-varicose-veins",
-    seo: {
-      title: "Does Medicare Cover Varicose Vein Treatment?",
-      description: "Medicare covers varicose vein treatment when medically necessary - not cosmetic. Learn which procedures are covered, what you pay, and when Medicare will deny your claim.",
-      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-varicose-veins/",
-      ogImage: "/images/medicarefaq-cover.jpg",
-    },
+  slug: "does-medicare-cover-varicose-veins",
+  seo: {
     title: "Does Medicare Cover Varicose Vein Treatment?",
-    subtitle: "Medicare covers varicose vein treatment only when it is medically necessary - not for cosmetic reasons. Learn which procedures qualify, what you pay, and how to document medical necessity.",
-    category: "Medicare Coverage",
-    dateUpdated: "April 14, 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
-    },
-    readTime: "5 min read",
-    quickAnswer: {
-      text: "Medicare covers varicose vein treatment when it is medically necessary - meaning your veins are causing symptoms such as pain, swelling, skin ulcers, or blood clots. Cosmetic treatment of varicose veins (to improve appearance only) is not covered. When medically necessary, treatment falls under Medicare Part B: Medicare pays 80% after your $283 deductible, and you pay 20% coinsurance.",
-      badges: [
-        { plan: "Medicare Part B", status: "partial" },
-        { plan: "Medicare Advantage", status: "partial" },
-        { plan: "Medigap", status: "partial" }],
-    },
-    comparisonTable: [
-      { planType: "Medicare Part B (Medically Necessary)", coverage: "Covered", icon: "shield", notes: "80% after $283 deductible; symptoms like pain, ulcers, or clots required" },
-      { planType: "Medicare Part B (Cosmetic)", coverage: "Not Covered", icon: "shield", notes: "Treatment for appearance only is explicitly excluded from Medicare" },
-      { planType: "Medicare Advantage (Part C)", coverage: "Covered (Medically Necessary)", icon: "heart", notes: "Must cover same services as Original Medicare; cost-sharing varies" },
-      { planType: "Medicare Supplement (Medigap)", coverage: "Varies by Plan", icon: "users", notes: "Covers some or all of the 20% coinsurance when treatment is covered" }],
-    planBreakdowns: [
-      {
-        planName: "Original Medicare (Part B)",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Covered (Medically Necessary Only)",
-        coverageType: "partial",
-        statusBadge: "Covered when causing symptoms; not covered for cosmetic reasons",
-        paragraphs: [
-          "[Medicare Part B](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers varicose vein treatment when it is medically necessary. Medicare defines medically necessary as treatment required to diagnose or treat a health condition - not to improve appearance. For varicose veins, this means your veins must be causing symptoms that affect your health or daily functioning.",
-          "Qualifying symptoms include chronic pain or aching in the legs, significant swelling (edema), skin changes such as discoloration or thickening, venous skin ulcers, superficial thrombophlebitis (inflammation and clotting), or bleeding from varicose veins. Medicare typically requires documentation of conservative treatment (such as compression stockings) before approving more invasive procedures.",
-          "Covered procedures include endovenous laser ablation (EVLA), radiofrequency ablation (RFA), sclerotherapy for symptomatic veins, and surgical stripping when medically necessary. All procedures must be performed by a Medicare-participating provider."],
-        whatItCovers: [
-          "Endovenous laser ablation (EVLA) for symptomatic varicose veins",
-          "Radiofrequency ablation (RFA) for symptomatic veins",
-          "Sclerotherapy when veins are causing symptoms",
-          "Surgical stripping when medically necessary",
-          "Diagnostic ultrasound to evaluate venous insufficiency",
-          "Office visits and consultations for symptomatic varicose veins"],
-        whatItDoesntCover: [
-          "Treatment for cosmetic reasons only (appearance improvement)",
-          "Sclerotherapy for spider veins without symptoms",
-          "Treatment without documented symptoms or failed conservative therapy",
-          "Procedures by non-Medicare-participating providers"],
-        costNote: "Part B: You pay 20% coinsurance after the $283 annual deductible (2026). Varicose vein procedures typically cost $1,500–$5,000, so your 20% share could be $300–$1,000.",
-      },
-      {
-        planName: "Medicare Advantage (Part C)",
-        icon: "heart",
-        iconColor: "#059669",
-        coverageLabel: "Covered (Medically Necessary Only)",
-        coverageType: "partial",
-        statusBadge: "Covered when medically necessary - cost-sharing varies",
-        paragraphs: [
-          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) cover medically necessary varicose vein treatment at the same level as Original Medicare. However, your plan may require prior authorization before approving treatment, and you must use in-network providers to receive the lowest cost-sharing.",
-          "Some Medicare Advantage plans have additional requirements for varicose vein treatment - such as requiring documentation of failed conservative therapy (compression stockings for 3–6 months) before approving ablation or surgery. Check your plan's prior authorization requirements before scheduling treatment."],
-        whatItCovers: [
-          "All medically necessary varicose vein treatments covered by Original Medicare",
-          "Diagnostic ultrasound and consultations"],
-        whatItDoesntCover: [
-          "Cosmetic treatment for appearance only",
-          "Out-of-network providers (unless plan has out-of-network benefits)",
-          "Treatment without required prior authorization"],
-        callout: {
-          type: "warning",
-          title: "Prior Authorization May be Required",
-          text: "Many Medicare Advantage plans require prior authorization for varicose vein procedures. Submit your documentation of symptoms and failed conservative therapy before scheduling treatment to avoid a denied claim.",
-        },
-      },
-      {
-        planName: "Medicare Supplement (Medigap)",
-        icon: "users",
-        iconColor: "#7C3AED",
-        coverageLabel: "Varies by Plan",
-        coverageType: "partial",
-        statusBadge: "Covers some or all of Original Medicare's cost-sharing",
-        paragraphs: [
-          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cover the 20% Part B coinsurance for medically necessary varicose vein treatment. [Medigap Plan G](/medicare-supplement-plans/plan-g/) covers the coinsurance in full after you meet the annual Part B deductible.",
-          "Medigap does not add coverage for cosmetic varicose vein treatment - it only covers the cost-sharing for services that Original Medicare covers. Unlike Medicare Advantage, Medigap has no provider network restrictions."],
-        whatItCovers: [
-          "Part B coinsurance (20%) for medically necessary varicose vein treatment",
-          "Diagnostic ultrasound and consultation fees"],
-        whatItDoesntCover: [
-          "Cosmetic treatment not covered by Original Medicare",
-          "Treatment without documented medical necessity"],
-        costNote: "With Medigap Plan G, your only out-of-pocket cost for covered varicose vein treatment is the $283 Part B deductible (2026). After that, Plan G covers the 20% coinsurance.",
-      }],
-    exceptionsSection: {
-      title: "Cosmetic vs. Medical: The Key Distinction",
-      items: [
-        {
-          title: "What Makes Varicose Vein Treatment 'Medically Necessary'",
-          text: "Medicare requires documented symptoms to approve varicose vein treatment. Symptoms that qualify include: chronic leg pain or aching, significant swelling (edema), skin ulcers or skin changes (lipodermatosclerosis), superficial thrombophlebitis, or bleeding from varicose veins. Treatment purely for cosmetic improvement - with no documented symptoms - will be denied.",
-          highlight: "Keep a symptom diary and ask your doctor to document all symptoms in your medical record. This documentation is critical if Medicare reviews your claim.",
-        },
-        {
-          title: "Conservative Therapy May be Required First",
-          text: "Medicare and many Medicare Advantage plans require documentation that conservative therapy (such as wearing compression stockings for 3–6 months) failed before approving more invasive procedures. Make sure your doctor documents your trial of conservative therapy and the reasons it was insufficient.",
-        }],
-    },
-    faqs: [
-      {
-        question: "Does Medicare Cover Varicose Vein Surgery?",
-        answer: "Yes - Medicare Part B covers varicose vein surgery (including surgical stripping and endovenous ablation) when it is medically necessary. You must have documented symptoms such as pain, swelling, or skin ulcers. Cosmetic surgery for appearance only is not covered.",
-      },
-      {
-        question: "Does Medicare Cover Sclerotherapy for Varicose Veins?",
-        answer: "Medicare covers sclerotherapy for varicose veins when they are causing symptoms. Sclerotherapy for spider veins or purely cosmetic purposes is not covered. Your doctor must document the medical necessity.",
-      },
-      {
-        question: "Does Medicare Cover Compression Stockings for Varicose Veins?",
-        answer: "Medicare does not typically cover compression stockings for varicose veins. However, compression stockings prescribed for venous ulcers or lymphedema may be covered as DME under Part B. Check with your doctor and supplier.",
-      },
-      {
-        question: "How Much Does Varicose Vein Treatment Cost with Medicare?",
-        answer: "With Original Medicare, you pay 20% coinsurance after the $283 Part B deductible. Varicose vein procedures typically cost $1,500–$5,000, so your 20% share could be $300–$1,000. Medigap Plan G covers the 20% coinsurance after the deductible.",
-      },
-      {
-        question: "Will Medicare Pay for Laser Vein Treatment?",
-        answer: "Yes - Medicare covers endovenous laser ablation (EVLA) when it is medically necessary for symptomatic varicose veins. The procedure must be performed by a Medicare-participating provider, and you must have documented symptoms and typically a failed trial of conservative therapy.",
-      }],
-    quickReference: [
-      { icon: "check", text: "<strong>Medically necessary</strong> varicose vein treatment is covered by Medicare Part B" },
-      { icon: "x", text: "<strong>Cosmetic treatment</strong> for appearance only is NOT covered" },
-      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> after the $283 Part B deductible" },
-      { icon: "info", text: "Document <strong>symptoms and failed conservative therapy</strong> to support your claim" },
-      { icon: "alert", text: "Medicare Advantage may require <strong>prior authorization</strong>" },
-      { icon: "check", text: "<strong>Medigap Plan G</strong> covers the 20% coinsurance after the deductible" }],
-    relatedTopics: [
-      { title: "Medicare Coverage for Plastic Surgery", description: "Learn when Medicare covers reconstructive vs. cosmetic procedures.", slug: "medicare-coverage-for-plastic-surgery" },
-      { title: "Does Medicare Cover Surgery?", description: "Learn how Medicare covers inpatient and outpatient surgical procedures.", slug: "will-medicare-cover-my-surgery" },
-      { title: "What is Medicare Part B?", description: "Understand what Medicare Part B covers and what you pay.", slug: "what-is-medicare-part-b" },
-      { title: "Medicare Supplement Plan G", description: "See how Plan G covers the 20% coinsurance and other out-of-pocket costs.", slug: "plan-g" }],
-    sidebarRelatedLinks: [
-      "medicare-coverage-for-plastic-surgery",
-      "will-medicare-cover-my-surgery",
-      "what-is-medicare-part-b",
-      "plan-g"],
-    ctaBanner: {
-      title: "Facing Varicose Vein Treatment?",
-      text: "Medigap Plan G can cover your 20% coinsurance for medically necessary varicose vein procedures. Compare plans in your area today.",
-    },
-    relatedSlugs: ["medicare-coverage-for-plastic-surgery", "will-medicare-cover-my-surgery", "what-is-medicare-part-b", "plan-g"],
+    description: "See which varicose vein procedures Medicare covers, what you'll pay out of pocket, and the documentation needed to avoid a denied claim.",
+    canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-varicose-veins/",
+    ogImage: "/images/medicarefaq-cover.jpg",
   },
+  title: "Does Medicare Cover Varicose Vein Treatment?",
+  subtitle: "Medicare covers varicose vein treatment only when it is medically necessary - not for cosmetic reasons. Learn which procedures qualify, what you pay, and how to document medical necessity.",
+  category: "Medicare Coverage",
+  dateUpdated: "April 14, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+  },
+  readTime: "5 min read",
+  quickAnswer: {
+    text: "Yes, Medicare covers varicose vein treatment, but only when it is medically necessary - meaning your veins are causing symptoms such as pain, swelling, skin ulcers, or blood clots. Cosmetic treatment of varicose veins (to improve appearance only) is not covered. When medically necessary, treatment falls under Medicare Part B: Medicare pays 80% after your $283 deductible, and you pay 20% coinsurance.",
+    badges: [
+      {
+        plan: "Medicare Part B",
+        status: "partial",
+      },
+      {
+        plan: "Medicare Advantage",
+        status: "partial",
+      },
+      {
+        plan: "Medigap",
+        status: "partial",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Medicare Part B (Medically Necessary)",
+      coverage: "Covered",
+      icon: "shield",
+      notes: "80% after $283 deductible; symptoms like pain, ulcers, or clots required",
+    },
+    {
+      planType: "Medicare Part B (Cosmetic)",
+      coverage: "Not Covered",
+      icon: "shield",
+      notes: "Treatment for appearance only is explicitly excluded from Medicare",
+    },
+    {
+      planType: "Medicare Advantage (Part C)",
+      coverage: "Covered (Medically Necessary)",
+      icon: "heart",
+      notes: "Must cover same services as Original Medicare; cost-sharing varies",
+    },
+    {
+      planType: "Medicare Supplement (Medigap)",
+      coverage: "Varies by Plan",
+      icon: "users",
+      notes: "Covers some or all of the 20% coinsurance when treatment is covered",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "Original Medicare (Part B)",
+      icon: "shield",
+      iconColor: "#1B2A4A",
+      coverageLabel: "Covered (Medically Necessary Only)",
+      coverageType: "partial",
+      statusBadge: "Covered when causing symptoms; not covered for cosmetic reasons",
+      paragraphs: [
+      "[Medicare Part B](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers varicose vein treatment when it is medically necessary. Medicare defines medically necessary as treatment required to diagnose or treat a health condition - not to improve appearance. For varicose veins, this means your veins must be causing symptoms that affect your health or daily functioning.",
+      "Qualifying symptoms include chronic pain or aching in the legs, significant swelling (edema), skin changes such as discoloration or thickening, venous skin ulcers, superficial thrombophlebitis (inflammation and clotting), or bleeding from varicose veins. Medicare typically requires documentation of conservative treatment (such as compression stockings) before approving more invasive procedures.",
+      "Covered procedures include endovenous laser ablation (EVLA), radiofrequency ablation (RFA), sclerotherapy for symptomatic veins, and surgical stripping when medically necessary. All procedures must be performed by a Medicare-participating provider.",
+    ],
+      whatItCovers: [
+      "Endovenous laser ablation (EVLA) for symptomatic varicose veins",
+      "Radiofrequency ablation (RFA) for symptomatic veins",
+      "Sclerotherapy when veins are causing symptoms",
+      "Surgical stripping when medically necessary",
+      "Diagnostic ultrasound to evaluate venous insufficiency",
+      "Office visits and consultations for symptomatic varicose veins",
+    ],
+      whatItDoesntCover: [
+      "Treatment for cosmetic reasons only (appearance improvement)",
+      "Sclerotherapy for spider veins without symptoms",
+      "Treatment without documented symptoms or failed conservative therapy",
+      "Procedures by non-Medicare-participating providers",
+    ],
+      costNote: "Part B: You pay 20% coinsurance after the $283 annual deductible (2026). Varicose vein procedures typically cost $1,500–$5,000, so your 20% share could be $300–$1,000.",
+    },
+    {
+      planName: "Medicare Advantage (Part C)",
+      icon: "heart",
+      iconColor: "#059669",
+      coverageLabel: "Covered (Medically Necessary Only)",
+      coverageType: "partial",
+      statusBadge: "Covered when medically necessary - cost-sharing varies",
+      paragraphs: [
+      "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) cover medically necessary varicose vein treatment at the same level as Original Medicare. However, your plan may require prior authorization before approving treatment, and you must use in-network providers to receive the lowest cost-sharing.",
+      "Some Medicare Advantage plans have additional requirements for varicose vein treatment - such as requiring documentation of failed conservative therapy (compression stockings for 3–6 months) before approving ablation or surgery. Check your plan's prior authorization requirements before scheduling treatment.",
+    ],
+      whatItCovers: [
+      "All medically necessary varicose vein treatments covered by Original Medicare",
+      "Diagnostic ultrasound and consultations",
+    ],
+      whatItDoesntCover: [
+      "Cosmetic treatment for appearance only",
+      "Out-of-network providers (unless plan has out-of-network benefits)",
+      "Treatment without required prior authorization",
+    ],
+      callout: {
+      type: "warning",
+      title: "Prior Authorization May be Required",
+      text: "Many Medicare Advantage plans require prior authorization for varicose vein procedures. Submit your documentation of symptoms and failed conservative therapy before scheduling treatment to avoid a denied claim.",
+    },
+    },
+    {
+      planName: "Medicare Supplement (Medigap)",
+      icon: "users",
+      iconColor: "#7C3AED",
+      coverageLabel: "Varies by Plan",
+      coverageType: "partial",
+      statusBadge: "Covers some or all of Original Medicare's cost-sharing",
+      paragraphs: [
+      "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cover the 20% Part B coinsurance for medically necessary varicose vein treatment. [Medigap Plan G](/medicare-supplement-plans/plan-g/) covers the coinsurance in full after you meet the annual Part B deductible.",
+      "Medigap does not add coverage for cosmetic varicose vein treatment - it only covers the cost-sharing for services that Original Medicare covers. Unlike Medicare Advantage, Medigap has no provider network restrictions.",
+    ],
+      whatItCovers: [
+      "Part B coinsurance (20%) for medically necessary varicose vein treatment",
+      "Diagnostic ultrasound and consultation fees",
+    ],
+      whatItDoesntCover: [
+      "Cosmetic treatment not covered by Original Medicare",
+      "Treatment without documented medical necessity",
+    ],
+      costNote: "With Medigap Plan G, your only out-of-pocket cost for covered varicose vein treatment is the $283 Part B deductible (2026). After that, Plan G covers the 20% coinsurance.",
+    },
+  ],
+  exceptionsSection: {
+    title: "Cosmetic vs. Medical: The Key Distinction",
+    items: [
+      {
+        title: "What Makes Varicose Vein Treatment 'Medically Necessary'",
+        text: "Medicare requires documented symptoms to approve varicose vein treatment. Symptoms that qualify include: chronic leg pain or aching, significant swelling (edema), skin ulcers or skin changes (lipodermatosclerosis), superficial thrombophlebitis, or bleeding from varicose veins. Treatment purely for cosmetic improvement - with no documented symptoms - will be denied.",
+        highlight: "Keep a symptom diary and ask your doctor to document all symptoms in your medical record. This documentation is critical if Medicare reviews your claim.",
+      },
+      {
+        title: "Conservative Therapy May be Required First",
+        text: "Medicare and many Medicare Advantage plans require documentation that conservative therapy (such as wearing compression stockings for 3–6 months) failed before approving more invasive procedures. Make sure your doctor documents your trial of conservative therapy and the reasons it was insufficient.",
+      },
+    ],
+  },
+  faqs: [
+    {
+      question: "Does Medicare Cover Varicose Vein Surgery?",
+      answer: "Yes - Medicare Part B covers varicose vein surgery (including surgical stripping and endovenous ablation) when it is medically necessary. You must have documented symptoms such as pain, swelling, or skin ulcers. Cosmetic surgery for appearance only is not covered.",
+    },
+    {
+      question: "Does Medicare Cover Sclerotherapy for Varicose Veins?",
+      answer: "Medicare covers sclerotherapy for varicose veins when they are causing symptoms. Sclerotherapy for spider veins or purely cosmetic purposes is not covered. Your doctor must document the medical necessity.",
+    },
+    {
+      question: "Does Medicare Cover Compression Stockings for Varicose Veins?",
+      answer: "Medicare does not typically cover compression stockings for varicose veins. However, compression stockings prescribed for venous ulcers or lymphedema may be covered as DME under Part B. Check with your doctor and supplier.",
+    },
+    {
+      question: "How Much Does Varicose Vein Treatment Cost with Medicare?",
+      answer: "With Original Medicare, you pay 20% coinsurance after the $283 Part B deductible. Varicose vein procedures typically cost $1,500–$5,000, so your 20% share could be $300–$1,000. Medigap Plan G covers the 20% coinsurance after the deductible.",
+    },
+    {
+      question: "Will Medicare Pay for Laser Vein Treatment?",
+      answer: "Yes - Medicare covers endovenous laser ablation (EVLA) when it is medically necessary for symptomatic varicose veins. The procedure must be performed by a Medicare-participating provider, and you must have documented symptoms and typically a failed trial of conservative therapy.",
+    },
+    {
+      question: "What Documentation Does Medicare Require to Prove Varicose Vein Treatment Is Medically Necessary?",
+      answer: "To document medical necessity, your doctor typically needs to record your symptoms (such as pain, swelling, or skin changes), show that conservative treatments like compression stockings were tried fi",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "check",
+      text: "<strong>Medically necessary</strong> varicose vein treatment is covered by Medicare Part B",
+    },
+    {
+      icon: "x",
+      text: "<strong>Cosmetic treatment</strong> for appearance only is NOT covered",
+    },
+    {
+      icon: "dollar",
+      text: "You pay <strong>20% coinsurance</strong> after the $283 Part B deductible",
+    },
+    {
+      icon: "info",
+      text: "Document <strong>symptoms and failed conservative therapy</strong> to support your claim",
+    },
+    {
+      icon: "alert",
+      text: "Medicare Advantage may require <strong>prior authorization</strong>",
+    },
+    {
+      icon: "check",
+      text: "<strong>Medigap Plan G</strong> covers the 20% coinsurance after the deductible",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Medicare Coverage for Plastic Surgery",
+      description: "Learn when Medicare covers reconstructive vs. cosmetic procedures.",
+      slug: "medicare-coverage-for-plastic-surgery",
+    },
+    {
+      title: "Does Medicare Cover Surgery?",
+      description: "Learn how Medicare covers inpatient and outpatient surgical procedures.",
+      slug: "will-medicare-cover-my-surgery",
+    },
+    {
+      title: "What is Medicare Part B?",
+      description: "Understand what Medicare Part B covers and what you pay.",
+      slug: "what-is-medicare-part-b",
+    },
+    {
+      title: "Medicare Supplement Plan G",
+      description: "See how Plan G covers the 20% coinsurance and other out-of-pocket costs.",
+      slug: "plan-g",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "medicare-coverage-for-plastic-surgery",
+    "will-medicare-cover-my-surgery",
+    "what-is-medicare-part-b",
+    "plan-g",
+  ],
+  ctaBanner: {
+    title: "Facing Varicose Vein Treatment?",
+    text: "Medigap Plan G can cover your 20% coinsurance for medically necessary varicose vein procedures. Compare plans in your area today.",
+  },
+  relatedSlugs: [
+    "medicare-coverage-for-plastic-surgery",
+    "will-medicare-cover-my-surgery",
+    "what-is-medicare-part-b",
+    "plan-g",
+  ],
+},
 
   // ── Wegovy ─────────────────────────────────────────────────────────────────
   {
