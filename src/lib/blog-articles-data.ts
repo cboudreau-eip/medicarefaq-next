@@ -13,11 +13,12 @@ import { preventiveServicesArticle } from "./blog-article-preventive-services";
 import { medicareScamsArticle } from "./blog-article-medicare-scams";
 export const blogArticles: BlogArticleData[] = [
   {
-    slug: "medicare-2027-key-changes-in-open-enrollment-you-need-to-kno",
+    slug: "medicare-2027-key-changes-in-open-enrollment-you-need-to-know",
     seo: {
+      focusKeyword: "",
       title: "Medicare Open Enrollment 2027: What Changed",
       description: "Medicare open enrollment 2027 brings plan exits, new costs, and formulary changes. Learn what shifted and how to compare plans with confidence.",
-      canonical: "https://www.medicarefaq.com/blog/medicare-2027-key-changes-in-open-enrollment-you-need-to-kno/",
+      canonical: "https://www.medicarefaq.com/blog/medicare-2027-key-changes-in-open-enrollment-you-need-to-know/",
       ogImage: "/images/generated/medicare-2027-key-changes-in-open-enrollment-you-f204332.png",
     },
     title: "Medicare Open Enrollment 2027: What Changed",
