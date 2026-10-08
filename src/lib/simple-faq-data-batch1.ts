@@ -167,12 +167,13 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
   {
     slug: 'medicare-part-d-part-b-vaccines',
     seo: {
-      title: 'What Vaccines Does Medicare Cover? Part B vs. Part D (2026)',
-      description: 'Medicare covers most recommended vaccines at no cost. Learn which vaccines are covered under Part B vs. Part D, including flu, shingles, RSV, COVID-19, and more.',
+      focusKeyword: "",
+      title: "What Vaccines Does Medicare Cover? Part B vs. Part D (2026)",
+      description: "Medicare covers most recommended vaccines at no cost. Learn which vaccines are covered under Part B vs. Part D, including flu, shingles, RSV, COVID-19, and more.",
       canonical: 'https://www.medicarefaq.com/faqs/medicare-part-d-part-b-vaccines/',
-      ogImage: '/images/medicarefaq-cover.jpg',
+      ogImage: "/images/medicarefaq-cover.jpg",
     },
-    title: 'What Vaccines Does Medicare Cover? Part B vs. Part D',
+    title: "What Vaccines Does Medicare Cover? Part B vs. Part D",
     summary: 'Medicare covers most recommended vaccines at no cost to you, but which part of Medicare pays depends on the vaccine. Some are covered under Part B, others under Part D. Knowing the difference helps you avoid unexpected bills.',
     category: 'Prescription Drugs',
     dateUpdated: 'May 12, 2026',
@@ -204,6 +205,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       ]},
     ],
     relatedSlugs: ["medicare-parts-a-b-c-and-d-explained-simply", "medicare-preventive-services", "how-is-medicare-part-d-changing-in-2026", "is-medicare-free", "medicare-and-prescription-drugs-whats-covered-and-whats-not", "part-b-excess-charges-medicare-overcharge-measure", "what-to-do-if-your-medicare-plan-suddenly-drops-a-drug-or-doctor"],
+    youtubeVideoId: "GdIEAasM5Co",
   },
   {
     slug: 'medicare-advantage-over-the-counter-cards',
