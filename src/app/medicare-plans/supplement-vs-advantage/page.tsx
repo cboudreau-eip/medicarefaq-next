@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Medicare Supplement vs. Medicare Advantage | Which is Better?",
     description: "Should you choose Medicare Supplement (Medigap) or Medicare Advantage? Compare costs, coverage, flexibility, and networks to find the right plan for you.",
-    url: "https://www.medicarefaq.com/medicare-supplement-plans/supplement-vs-advantage/",
+    url: "https://www.medicarefaq.com/medicare-plans/supplement-vs-advantage/",
     type: "website",
   },
   alternates: {
-    canonical: "https://www.medicarefaq.com/medicare-supplement-plans/supplement-vs-advantage/",
+    canonical: "https://www.medicarefaq.com/medicare-plans/supplement-vs-advantage/",
   },
 };
 
@@ -22,7 +22,7 @@ export default function Page() {
     "@type": "Article",
     "headline": "Medicare Supplement vs. Medicare Advantage | Which is Better?",
     "description": "Should you choose Medicare Supplement (Medigap) or Medicare Advantage? Compare costs, coverage, flexibility, and networks to find the right plan for you.",
-    "url": "https://www.medicarefaq.com/medicare-supplement-plans/supplement-vs-advantage/",
+    "url": "https://www.medicarefaq.com/medicare-plans/supplement-vs-advantage/",
     "dateModified": "2026-06-15",
     "author": { "@type": "Organization", "name": "MedicareFAQ" },
     "publisher": {
@@ -36,7 +36,7 @@ export default function Page() {
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.medicarefaq.com/" },
         { "@type": "ListItem", "position": 2, "name": "Medicare Supplement Plans", "item": "https://www.medicarefaq.com/medicare-supplement-plans/" },
-        { "@type": "ListItem", "position": 3, "name": "Medicare Supplement vs. Medicare Advantage", "item": "https://www.medicarefaq.com/medicare-supplement-plans/supplement-vs-advantage/" }
+        { "@type": "ListItem", "position": 3, "name": "Medicare Supplement vs. Medicare Advantage", "item": "https://www.medicarefaq.com/medicare-plans/supplement-vs-advantage/" }
       ]
     }
   };
