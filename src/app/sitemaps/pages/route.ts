@@ -5,7 +5,7 @@ const lastModified = new Date("2026-06-15").toISOString();
 
 const pages = [
   // Core
-  { url: BASE_URL, priority: "1.0", changefreq: "daily" },
+  { url: `${BASE_URL}/`, priority: "1.0", changefreq: "daily" },
   { url: `${BASE_URL}/contact/`, priority: "0.8", changefreq: "monthly" },
   { url: `${BASE_URL}/about-us/`, priority: "0.6", changefreq: "monthly" },
   { url: `${BASE_URL}/about-us/jagger-esch/`, priority: "0.5", changefreq: "monthly" },
@@ -19,7 +19,6 @@ const pages = [
   // New To Medicare
   { url: `${BASE_URL}/medicare-101/`, priority: "0.9", changefreq: "monthly" },
   { url: `${BASE_URL}/new-to-medicare/eligibility/`, priority: "0.8", changefreq: "monthly" },
-  { url: `${BASE_URL}/new-to-medicare/turning-65/`, priority: "0.8", changefreq: "monthly" },
   { url: `${BASE_URL}/new-to-medicare/costs/`, priority: "0.8", changefreq: "monthly" },
   { url: `${BASE_URL}/new-to-medicare/checklist/`, priority: "0.7", changefreq: "monthly" },
   // Supplement index pages
@@ -37,10 +36,7 @@ const pages = [
   { url: `${BASE_URL}/medicare-part-c/medicare-advantage-plan-types/`, priority: "0.7", changefreq: "monthly" },
   // Library / Resources
   { url: `${BASE_URL}/faqs/`, priority: "0.8", changefreq: "weekly" },
-  { url: `${BASE_URL}/blog/`, priority: "0.7", changefreq: "weekly" },
-  { url: `${BASE_URL}/library/`, priority: "0.6", changefreq: "monthly" },
   { url: `${BASE_URL}/library/guides/`, priority: "0.6", changefreq: "monthly" },
-  { url: `${BASE_URL}/library/about/`, priority: "0.5", changefreq: "monthly" },
   { url: `${BASE_URL}/podcasts/`, priority: "0.6", changefreq: "monthly" },
   { url: `${BASE_URL}/videos/`, priority: "0.6", changefreq: "monthly" },
   { url: `${BASE_URL}/search/`, priority: "0.5", changefreq: "monthly" },

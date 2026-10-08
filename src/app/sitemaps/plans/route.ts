@@ -63,7 +63,7 @@ export function GET() {
   }
 
   // Medicare Advantage sub-pages
-  for (const page of MEDICARE_ADVANTAGE_PAGES) {
+  for (const page of MEDICARE_ADVANTAGE_PAGES.filter((p) => p.slug !== "")) {
     entries.push({
       url: `${BASE_URL}/medicare-part-c/${page.slug}/`,
       priority: "0.7",

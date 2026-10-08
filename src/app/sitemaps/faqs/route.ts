@@ -65,8 +65,11 @@ export function GET() {
     });
   }
 
-  // Simple FAQ articles (every batch) — use dateUpdated
+  // Simple FAQ articles (every batch) — skip slugs already served by coverage articles
+  const seenSlugs = new Set(uniqueCoverageSlugs);
   for (const article of simpleFAQArticles) {
+    if (seenSlugs.has(article.slug)) continue;
+    seenSlugs.add(article.slug);
     entries.push({
       url: `${BASE_URL}/faqs/${article.slug}/`,
       lastmod: toISODate(article.dateUpdated),

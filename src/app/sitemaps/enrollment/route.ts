@@ -29,7 +29,6 @@ ${urls}
 
 export function GET() {
   const entries: SitemapEntry[] = [
-    { url: `${BASE_URL}/medicare-enrollment/`, priority: "0.8", changefreq: "monthly" },
     { url: `${BASE_URL}/medicare-enrollment/turning-65/`, priority: "0.8", changefreq: "monthly" },
     { url: `${BASE_URL}/medicare-enrollment/working-past-65/`, priority: "0.8", changefreq: "monthly" },
     { url: `${BASE_URL}/medicare-enrollment/annual-changes/`, priority: "0.7", changefreq: "monthly" },
