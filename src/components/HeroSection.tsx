@@ -15,6 +15,7 @@ const trustItems = [
 ];
 
 const HERO_BG = "/images/hero-bg.webp";
+const AEP_TEST_HERO_BG = "/images/hero-aep-couple.jpg";
 
 export default function HeroSection({ headline, aepPreview = false }: { headline?: string; aepPreview?: boolean } = {}) {
   return (
@@ -22,9 +23,9 @@ export default function HeroSection({ headline, aepPreview = false }: { headline
       {/* Background image with overlay */}
       <div className="absolute inset-0">
         <img
-          src={HERO_BG}
+          src={aepPreview ? AEP_TEST_HERO_BG : HERO_BG}
           alt=""
-          className="w-full h-full object-cover"
+          className={`w-full h-full object-cover ${aepPreview ? "object-[35%_center] md:object-center" : ""}`}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#1B2A4A]/95 via-[#1B2A4A]/80 to-[#1B2A4A]/40" />
       </div>
