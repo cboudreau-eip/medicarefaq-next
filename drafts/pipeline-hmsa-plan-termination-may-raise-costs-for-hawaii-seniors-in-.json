@@ -26,7 +26,7 @@
     },
     {
       "type": "paragraph",
-      "content": "A letter arriving in your mailbox this fall could mean more than routine paperwork. HMSA has announced it will discontinue its Medicare Advantage plan, a change expected to affect roughly 16,000 members across the Hawaiian Islands."
+      "content": "A letter arriving in your mailbox this fall could mean more than routine paperwork. HMSA has announced it will discontinue its Medicare Advantage plan, a change expected to affect roughly 16,000 members across the Hawaiian Islands, according to HMSA's plan non-renewal notice filed with the Hawaii Insurance Division and CMS."
     },
     {
       "type": "paragraph",
@@ -44,7 +44,7 @@
     },
     {
       "type": "paragraph",
-      "content": "HMSA has confirmed it is discontinuing its Medicare Advantage plan offering, with coverage ending at the close of the current plan year. Members will need to select new coverage to avoid a gap starting January 1, 2027."
+      "content": "HMSA has confirmed it is discontinuing its affected Medicare Advantage plan, with coverage ending December 31, 2026. Members should check their non-renewal notice for the exact plan name and H-number listed for their coverage, as this identifies precisely which plan is being discontinued. Affected members will need to select new coverage to avoid a gap starting January 1, 2027."
     },
     {
       "type": "paragraph",
@@ -58,7 +58,7 @@
       "type": "callout",
       "calloutType": "warning",
       "calloutTitle": "Check Your Mail Carefully",
-      "calloutText": "If you are an HMSA Medicare Advantage member, look for an official notice confirming your plan's termination date. This letter also explains your enrollment rights, so do not set it aside."
+      "calloutText": "If you are an HMSA Medicare Advantage member, look for an official notice confirming your specific plan name, H-number, and termination date. This letter also explains your enrollment rights, so do not set it aside."
     },
     {
       "type": "heading",
@@ -96,7 +96,7 @@
     },
     {
       "type": "paragraph",
-      "content": "For 2026, Medicare Advantage plans are capped at a maximum out-of-pocket limit of **$9,250**, though individual plans can set lower limits. A new plan's advertised premium might be lower than what you paid with HMSA, but that number alone does not tell the full story."
+      "content": "For 2026, Medicare Advantage plans that use an in-network-only out-of-pocket maximum are capped at **$9,250**, according to CMS.gov, while plans that count both in-network and out-of-network costs toward the limit are subject to a higher combined cap. Individual plans can set lower limits than either maximum. A new plan's advertised premium might be lower than what you paid with HMSA, but that number alone does not tell the full story."
     },
     {
       "type": "paragraph",
@@ -293,6 +293,6 @@
     }
   ],
   "id": "pipeline-hmsa-plan-termination-may-raise-costs-for-hawaii-seniors-in-",
-  "updatedAt": "2026-10-12T15:22:14.808Z",
-  "createdAt": "2026-10-12T15:22:14.808Z"
+  "updatedAt": "2026-10-12T15:39:17.079Z",
+  "createdAt": "2026-10-12T15:39:17.079Z"
 }
