@@ -85,6 +85,7 @@ export const blogArticles: BlogArticleData[] = [
       { type: "paragraph", content: "Take time to compare your options and ask questions before enrolling in any plan. When you are ready, licensed guidance is available to help you review coverage, costs, and timing without pressure. Moving forward with clear information is the best way to choose coverage you feel good about." },
     ],
     relatedSlugs: ["how-to-enroll-in-medigap-and-avoid-common-mistakes", "top-10-medicare-supplement-insurance-companies", "best-medicare-supplement-plan-g-companies"],
+    buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/19949821-how-medigap-underwriting-works.mp3?download=true",
   },
 
   {
