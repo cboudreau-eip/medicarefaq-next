@@ -36,7 +36,7 @@
       "type": "callout",
       "calloutType": "info",
       "calloutTitle": "Key Takeaways",
-      "calloutText": "Medigap underwriting means an insurer reviews your [[health history](/faqs/medicare-supplement-plans-and-pre-existing-conditions/)](/faqs/medicare-and-prescription-drugs-whats-covered-and-whats-not/) before approving your application outside of [guaranteed issue periods](/faqs/medicare-guaranteed-issue/).\nYour six-month [Medigap open enrollment period](/faqs/medicare-supplement-open-enrollment/), which starts when you are 65 or older and enrolled in Part B, guarantees acceptance regardless of [health conditions](/faqs/does-medicare-cover-pre-existing-conditions/).\nHealth conditions, medications, age, and [tobacco use](/faqs/medicare-part-d-late-enrollment-penalty/) can all influence approval and pricing once underwriting applies.\nThe clearest next step is comparing plans and timing your application before your guaranteed issue window closes."
+      "calloutText": "Medigap underwriting means an insurer reviews your [[health history](/faqs/medicare-supplement-plans-and-pre-existing-conditions/)](/faqs/medicare-and-prescription-drugs-whats-covered-and-whats-not/) before approving your application for plan letters such as Plan G or Plan N outside of [guaranteed issue periods](/faqs/medicare-guaranteed-issue/).\nYour six-month [Medigap open enrollment period](/faqs/medicare-supplement-open-enrollment/), which starts when you are 65 or older and enrolled in Part B, guarantees acceptance regardless of [health conditions](/faqs/does-medicare-cover-pre-existing-conditions/).\nHealth conditions, medications, age, and [tobacco use](/faqs/medicare-part-d-late-enrollment-penalty/) can all influence approval and pricing once underwriting applies.\nThe clearest next step is comparing plans, such as Plan G and Plan N, and timing your application before your guaranteed issue window closes."
     },
     {
       "type": "heading",
@@ -46,11 +46,41 @@
     },
     {
       "type": "paragraph",
-      "content": "Medical underwriting is the process an insurance company uses to evaluate your health before deciding whether to offer you a policy. For Medigap, this often means answering detailed questions about your medical history, current conditions, and prescriptions. The insurer uses this information to decide whether to approve your application, charge a higher premium, or in some cases decline coverage."
+      "content": "Medical underwriting is the process an insurance company uses to evaluate your health before deciding whether to offer you a policy. For Medigap, this often means answering detailed questions about your medical history, current conditions, and prescriptions. The insurer uses this information to decide whether to approve your application, charge a higher premium, or in some cases decline coverage. According to CMS.gov, Medigap insurers use medical underwriting to evaluate applications outside of federally protected enrollment periods."
     },
     {
       "type": "paragraph",
       "content": "This differs from how Medicare Advantage and Part D plans typically work. Most Medicare Advantage and Part D enrollments do not require health underwriting, since these plans generally must accept anyone eligible for Medicare who applies during a valid enrollment period. Medigap insurers rely on underwriting outside of specific protected windows because, unlike those plans, Medigap carries fewer federal protections limiting how companies price or accept applicants."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Feature",
+        "Medigap",
+        "Medicare Advantage / Part D"
+      ],
+      "rows": [
+        [
+          "Health underwriting required?",
+          "Yes, outside guaranteed issue periods",
+          "Generally no"
+        ],
+        [
+          "Acceptance guaranteed during enrollment?",
+          "Only during Medigap open enrollment or guaranteed issue periods",
+          "Yes, during valid enrollment periods"
+        ],
+        [
+          "Can premiums vary by health history?",
+          "Yes, outside protected periods",
+          "No, premiums are not based on health history"
+        ],
+        [
+          "Can you be denied coverage?",
+          "Yes, outside protected periods",
+          "Generally no, if eligible and applying during a valid enrollment period"
+        ]
+      ]
     },
     {
       "type": "heading",
@@ -60,7 +90,7 @@
     },
     {
       "type": "paragraph",
-      "content": "To apply for a [Medigap policy](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one/), you generally need to be enrolled in both Medicare Part A and Part B. Coverage rules and available plan letters can vary somewhat depending on your state, so it helps to check what is offered where you live. Some states also have additional consumer protections that go beyond federal minimums."
+      "content": "To apply for a [Medigap policy](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one/), you generally need to be enrolled in both Medicare Part A and Part B. Coverage rules and available plan letters, such as Plan G and Plan N, can vary somewhat depending on your state, so it helps to check what is offered where you live, including through a [state-specific Medigap guide](/medicare-supplement/) for your area. Some states also have additional consumer protections that go beyond federal minimums, and the National Association of Insurance Commissioners (NAIC) publishes consumer resources describing how these state-level protections work."
     },
     {
       "type": "heading",
@@ -79,7 +109,7 @@
     {
       "type": "callout",
       "calloutType": "tip",
-      "calloutText": "Because underwriting standards vary by company, being declined or quoted a higher premium by one insurer does not mean every insurer will respond the same way. Comparing multiple carriers can make a meaningful difference."
+      "calloutText": "Because underwriting standards vary by company, being declined or quoted a higher premium by one insurer does not mean every insurer will respond the same way. Comparing multiple carriers can make a meaningful difference. A [Medigap plan comparison tool](/medicare-supplement-plans/) can help you see how different carriers and plan letters, such as Plan G and Plan N, stack up side by side."
     },
     {
       "type": "heading",
@@ -89,7 +119,21 @@
     },
     {
       "type": "paragraph",
-      "content": "This is one of the most common worries among people exploring Medigap, and it is a valid concern. Outside of [guaranteed issue periods](/faqs/medicare-guaranteed-issue/), insurers can legally deny coverage or charge more based on your health. Conditions that are sometimes flagged during underwriting include certain heart conditions, diabetes with complications, cancer treated within a recent period, and some chronic respiratory or kidney conditions."
+      "content": "This is one of the most common worries among people exploring Medigap, and it is a valid concern. Outside of [guaranteed issue periods](/faqs/medicare-guaranteed-issue/), insurers can legally deny coverage or charge more based on your health. Conditions that are sometimes flagged during underwriting include certain heart conditions, diabetes with complications, cancer treated within a recent period, and some chronic respiratory or kidney conditions. The NAIC outlines how guaranteed-issue exceptions apply in situations such as losing other coverage involuntarily or moving out of a plan's service area, which can allow you to bypass underwriting even outside your initial enrollment window."
+    },
+    {
+      "type": "paragraph",
+      "content": "Common guaranteed-issue triggers include:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Losing other health coverage involuntarily, such as when an employer group plan ends",
+        "Moving out of your current plan's service area",
+        "Your Medigap insurer becoming insolvent or going bankrupt",
+        "Your Medicare Advantage plan leaving Medicare or no longer serving your area",
+        "Other specific circumstances outlined by CMS.gov and the NAIC"
+      ]
     },
     {
       "type": "paragraph",
@@ -123,7 +167,7 @@
     },
     {
       "type": "paragraph",
-      "content": "The application process generally starts with choosing a plan type, completing the insurer's application, and answering health questions if you are outside a guaranteed issue period. From there, the insurer reviews your information and issues a decision. Working with a licensed agent can help you understand each step, avoid missteps on the application, and compare how different insurers might view your specific [health history](/faqs/medicare-supplement-plans-and-pre-existing-conditions/)."
+      "content": "The application process generally starts with choosing a plan type, such as Plan G or Plan N, completing the insurer's application, and answering health questions if you are outside a guaranteed issue period. From there, the insurer reviews your information and issues a decision. Working with a licensed agent can help you understand each step, avoid missteps on the application, and compare how different insurers might view your specific [health history](/faqs/medicare-supplement-plans-and-pre-existing-conditions/). You can also use a [Medigap plan comparison tool](/medicare-supplement-plans/) to see available plan letters and carriers in your area before you apply."
     },
     {
       "type": "eddie-pro-tip",
@@ -141,7 +185,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Missing this window does not mean you are without options, but it does mean future applications may involve underwriting. According to the <a href=\"https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics/parts-of-medicare/whats-medicare-supplement-insurance-medigap\">federal rules on Medigap enrollment</a>, guaranteed issue rights outside this period are more limited and tied to specific circumstances. Common triggers that signal it is time to act include turning 65, receiving enrollment paperwork in the mail, or losing other coverage unexpectedly."
+      "content": "Missing this window does not mean you are without options, but it does mean future applications may involve underwriting. According to the <a href=\"https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics/parts-of-medicare/whats-medicare-supplement-insurance-medigap\">federal rules on Medigap enrollment</a>, guaranteed issue rights outside this period are more limited and tied to specific circumstances. CMS.gov and the NAIC both outline these guaranteed-issue situations in more detail, including scenarios involving involuntary loss of coverage or insurer insolvency. Say you just turned 65 and received your Welcome to Medicare packet in the mail. That moment is a common trigger for people to start comparing Medigap plans, such as Plan G and Plan N, since it marks the beginning of your six-month open enrollment window. Other common triggers that signal it is time to act include receiving enrollment paperwork in the mail or losing other coverage unexpectedly. Reviewing a [state-specific Medigap guide](/medicare-supplement/) can also help you understand how these triggers apply where you live."
     },
     {
       "type": "callout",
@@ -157,11 +201,11 @@
     },
     {
       "type": "paragraph",
-      "content": "Your underwriting outcome can directly affect your Medigap premium. Two people applying for the same plan letter may receive different quotes depending on [health history](/faqs/medicare-supplement-plans-and-pre-existing-conditions/), age, tobacco use, and the pricing method the insurer uses. This is why comparing a single premium number without context can be misleading."
+      "content": "Your underwriting outcome can directly affect your Medigap premium. Two people applying for the same plan letter, such as Plan G, may receive different quotes depending on [health history](/faqs/medicare-supplement-plans-and-pre-existing-conditions/), age, tobacco use, and the pricing method the insurer uses. This is why comparing a single premium number without context can be misleading."
     },
     {
       "type": "paragraph",
-      "content": "A stronger approach is comparing total coverage and long-term value rather than the lowest monthly price alone. A plan with a slightly higher premium might offer more predictable out-of-pocket costs over time. Taking a clear, needs-based comparison approach, rather than rushing toward the cheapest option, can reduce the chance of regret after you have already enrolled."
+      "content": "A stronger approach is comparing total coverage and long-term value rather than the lowest monthly price alone. A plan with a slightly higher premium, such as Plan G compared to Plan N, might offer more predictable out-of-pocket costs over time. Taking a clear, needs-based comparison approach, rather than rushing toward the cheapest option, can reduce the chance of regret after you have already enrolled. A [Medigap plan comparison tool](/medicare-supplement-plans/) can help you weigh these tradeoffs across carriers before making a final decision."
     },
     {
       "type": "heading",
@@ -194,7 +238,7 @@
         },
         {
           "question": "Will my premium always be higher if I go through underwriting?",
-          "answer": "Not necessarily, but it is possible. Pricing depends on your health history, age, tobacco use, and the specific insurer's guidelines, so comparing multiple carriers can help you find more favorable terms."
+          "answer": "Not necessarily, but it is possible. Pricing depends on your health history, age, tobacco use, and the specific insurer's guidelines, so comparing multiple carriers and plan letters, such as Plan G and Plan N, can help you find more favorable terms."
         }
       ]
     },
@@ -306,6 +350,6 @@
     }
   ],
   "id": "can-you-pass-medigap-underwriting-what-to-know-before-you-ap-mv57t3pd",
-  "updatedAt": "2026-10-12T12:27:54.750Z",
-  "createdAt": "2026-10-12T12:27:54.750Z"
+  "updatedAt": "2026-10-12T12:44:09.834Z",
+  "createdAt": "2026-10-12T12:44:09.834Z"
 }
