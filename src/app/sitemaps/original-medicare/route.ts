@@ -1,35 +1,18 @@
+import { buildXml, recordContentDate, type SitemapEntry } from "@/lib/sitemap";
 import { NextResponse } from "next/server";
 import { partDSubPages } from "@/lib/part-d-sub-data";
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.medicarefaq.com";
-const lastModified = new Date("2026-06-15").toISOString();
 
-type SitemapEntry = {
-  url: string;
-  priority: string;
-  changefreq: string;
-};
 
-function buildXml(entries: SitemapEntry[]): string {
-  const urls = entries
-    .map(
-      (e) => `  <url>
-    <loc>${e.url}</loc>
-    <lastmod>${lastModified}</lastmod>
-    <changefreq>${e.changefreq}</changefreq>
-    <priority>${e.priority}</priority>
-  </url>`
-    )
-    .join("\n");
-
-  return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${urls}
-</urlset>`;
-}
 
 export function GET() {
   const entries: SitemapEntry[] = [
+    { url: `${BASE_URL}/original-medicare/medicare-costs/`, priority: "0.7", changefreq: "monthly" },
+    { url: `${BASE_URL}/original-medicare/medicare-coverage/`, priority: "0.7", changefreq: "monthly" },
+    { url: `${BASE_URL}/original-medicare/medicare-eligibility/`, priority: "0.7", changefreq: "monthly" },
+    { url: `${BASE_URL}/original-medicare/medicare-enrollment-periods/`, priority: "0.7", changefreq: "monthly" },
+    { url: `${BASE_URL}/original-medicare/medicare-parts/medicare-part-b-enrollment/`, priority: "0.7", changefreq: "monthly" },
     // Original Medicare overview
     { url: `${BASE_URL}/original-medicare/`, priority: "0.8", changefreq: "monthly" },
     // Part A
@@ -47,6 +30,7 @@ export function GET() {
   for (const page of partDSubPages.filter((p) => p.slug !== "mutual-of-omaha")) {
     entries.push({
       url: `${BASE_URL}/original-medicare/medicare-parts/medicare-part-d/${page.slug}/`,
+      lastmod: recordContentDate(page),
       priority: "0.7",
       changefreq: "monthly",
     });

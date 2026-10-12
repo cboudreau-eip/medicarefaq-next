@@ -1,4 +1,7 @@
+import { generateSitemapDates } from "./scripts/generate-sitemap-dates.mjs";
 import type { NextConfig } from "next";
+
+generateSitemapDates();
 
 const securityHeaders = [
   {

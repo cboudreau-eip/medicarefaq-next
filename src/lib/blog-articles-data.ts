@@ -9642,7 +9642,7 @@ export const blogArticles: BlogArticleData[] = [
     seo: {
       title: "Medicare Supplements: Cost vs. Value Explained",
       description: "Is a Medicare Supplement plan worth the premium? We break down the cost vs. value equation to help you decide if Medigap is right for you.",
-      canonical: "https://www.medicarefaq.com/blog/medicare-supplement-plans-cost-vs-value-explained/",
+      canonical: "https://www.medicarefaq.com/blog/medicare-supplements-cost-vs-value-explained/",
       ogImage: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg",
     },
     title: "Medicare Supplements: Cost vs. Value Explained",

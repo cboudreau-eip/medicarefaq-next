@@ -1,34 +1,13 @@
+import { buildXml, type SitemapEntry } from "@/lib/sitemap";
 import { NextResponse } from "next/server";
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.medicarefaq.com";
-const lastModified = new Date("2026-06-15").toISOString();
 
-type SitemapEntry = {
-  url: string;
-  priority: string;
-  changefreq: string;
-};
 
-function buildXml(entries: SitemapEntry[]): string {
-  const urls = entries
-    .map(
-      (e) => `  <url>
-    <loc>${e.url}</loc>
-    <lastmod>${lastModified}</lastmod>
-    <changefreq>${e.changefreq}</changefreq>
-    <priority>${e.priority}</priority>
-  </url>`
-    )
-    .join("\n");
-
-  return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${urls}
-</urlset>`;
-}
 
 export function GET() {
   const entries: SitemapEntry[] = [
+    { url: `${BASE_URL}/medicare-open-enrollment/`, priority: "0.7", changefreq: "monthly" },
     { url: `${BASE_URL}/medicare-enrollment/turning-65/`, priority: "0.8", changefreq: "monthly" },
     { url: `${BASE_URL}/medicare-enrollment/working-past-65/`, priority: "0.8", changefreq: "monthly" },
     { url: `${BASE_URL}/medicare-enrollment/annual-changes/`, priority: "0.7", changefreq: "monthly" },

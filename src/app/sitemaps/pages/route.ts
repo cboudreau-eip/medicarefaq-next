@@ -1,9 +1,23 @@
+import { buildXml } from "@/lib/sitemap";
 import { NextResponse } from "next/server";
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.medicarefaq.com";
-const lastModified = new Date("2026-06-15").toISOString();
 
 const pages = [
+    { url: `${BASE_URL}/about-us/david-haass/`, priority: "0.7", changefreq: "monthly" },
+    { url: `${BASE_URL}/medicare-101-course/coverage-gaps/`, priority: "0.7", changefreq: "monthly" },
+    { url: `${BASE_URL}/medicare-101-course/choosing-a-medigap-plan/`, priority: "0.7", changefreq: "monthly" },
+    { url: `${BASE_URL}/medicare-101-course/`, priority: "0.7", changefreq: "monthly" },
+    { url: `${BASE_URL}/medicare-101-course/enrollment-windows/`, priority: "0.7", changefreq: "monthly" },
+    { url: `${BASE_URL}/medicare-101-course/medigap-vs-advantage/`, priority: "0.7", changefreq: "monthly" },
+    { url: `${BASE_URL}/medicare-101-course/next-steps/`, priority: "0.7", changefreq: "monthly" },
+    { url: `${BASE_URL}/medicare-101-course/parts-of-medicare/`, priority: "0.7", changefreq: "monthly" },
+    { url: `${BASE_URL}/medicare-101-course/what-is-medicare/`, priority: "0.7", changefreq: "monthly" },
+    { url: `${BASE_URL}/medicare-advantage-plans/`, priority: "0.7", changefreq: "monthly" },
+    { url: `${BASE_URL}/medicare-by-state/`, priority: "0.7", changefreq: "monthly" },
+    { url: `${BASE_URL}/medigap-plans/`, priority: "0.7", changefreq: "monthly" },
+    { url: `${BASE_URL}/sitemap-page/`, priority: "0.7", changefreq: "monthly" },
+    { url: `${BASE_URL}/tools/decision-kit/`, priority: "0.7", changefreq: "monthly" },
   // Core
   { url: `${BASE_URL}/`, priority: "1.0", changefreq: "daily" },
   { url: `${BASE_URL}/contact/`, priority: "0.8", changefreq: "monthly" },
@@ -46,23 +60,6 @@ const pages = [
   { url: `${BASE_URL}/seniors-guide-to-medicare-gov/tools-and-resources/`, priority: "0.6", changefreq: "monthly" },
 ];
 
-function buildXml(entries: typeof pages): string {
-  const urls = entries
-    .map(
-      (e) => `  <url>
-    <loc>${e.url}</loc>
-    <lastmod>${lastModified}</lastmod>
-    <changefreq>${e.changefreq}</changefreq>
-    <priority>${e.priority}</priority>
-  </url>`
-    )
-    .join("\n");
-
-  return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${urls}
-</urlset>`;
-}
 
 export function GET() {
   return new NextResponse(buildXml(pages), {
