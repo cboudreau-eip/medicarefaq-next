@@ -1,7 +1,7 @@
 {
   "title": "HMSA Medicare Plan Changes: 2027 Guide for Seniors",
   "rawContent": "",
-  "slug": "hmsa-plan-termination-may-raise-costs-for-hawaii-seniors-in-",
+  "slug": "hmsa-plan-termination-may-raise-costs-for-hawaii-seniors",
   "excerpt": "HMSA is discontinuing its Medicare Advantage plan, affecting about 16,000 Hawaii members who must choose new coverage before 2027 to avoid a gap.",
   "category": "enrollment",
   "author": "David Haass",
@@ -52,7 +52,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Affected members should be receiving a formal non-renewal notice by mail. This notice outlines your coverage end date and confirms that you qualify for a Special Enrollment Period to choose new coverage without penalty."
+      "content": "Affected members should be receiving a formal non-renewal notice by mail. This notice outlines your [coverage end date](/faqs/medicare-annual-enrollment-period/) and confirms that you qualify for a Special Enrollment Period to choose new coverage without penalty."
     },
     {
       "type": "callout",
@@ -68,11 +68,11 @@
     },
     {
       "type": "paragraph",
-      "content": "Medicare Advantage, Medicare Supplement, and Original Medicare are not interchangeable terms, even though they often get lumped together. Original Medicare, administered by the federal government, covers hospital care under Part A and outpatient care under Part B. Medicare Advantage plans, offered by private insurers like HMSA, bundle those benefits together, often with extra coverage like prescriptions."
+      "content": "Medicare Advantage, [Medicare Supplement](/faqs/medicare-supplement-vs-medicare-advantage/), and Original Medicare are not interchangeable terms, even though they often get lumped together. Original Medicare, administered by the federal government, covers hospital care under Part A and outpatient care under Part B. Medicare Advantage plans, offered by private insurers like HMSA, bundle those benefits together, often with extra coverage like prescriptions."
     },
     {
       "type": "paragraph",
-      "content": "Medicare Supplement, also called Medigap, works differently. It pairs with Original Medicare to help cover deductibles and coinsurance rather than replacing your benefits entirely."
+      "content": "[Medicare Supplement](/faqs/medicare-supplement-vs-medicare-advantage/), also called Medigap, works differently. It pairs with Original Medicare to help cover deductibles and coinsurance rather than replacing your benefits entirely."
     },
     {
       "type": "paragraph",
@@ -82,7 +82,7 @@
       "type": "callout",
       "calloutType": "info",
       "calloutTitle": "Three Paths, Not One",
-      "calloutText": "Original Medicare, Medicare Advantage, and Medicare Supplement plans each handle costs and provider networks differently. Knowing which category a replacement plan falls into is the first step in any fair comparison."
+      "calloutText": "Original Medicare, Medicare Advantage, and [Medicare Supplement](/faqs/medicare-supplement-vs-medicare-advantage/) plans each handle costs and provider networks differently. Knowing which category a replacement plan falls into is the first step in any fair comparison."
     },
     {
       "type": "heading",
@@ -92,7 +92,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Losing a Medicare Advantage plan can shift more than just your monthly premium. Copays, deductibles, and your annual out-of-pocket maximum can all look different under a new plan, even one that seems similar on paper."
+      "content": "Losing a Medicare Advantage plan can shift more than just your monthly premium. Copays, deductibles, and your annual [out-of-pocket maximum](/faqs/medicare-maximum-out-of-pocket/) can all look different under a new plan, even one that seems similar on paper."
     },
     {
       "type": "paragraph",
@@ -100,13 +100,13 @@
     },
     {
       "type": "paragraph",
-      "content": "A plan with a lower premium can carry higher copays for specialist visits, imaging, or hospital stays, which adds up quickly if you need regular care. Before enrolling, ask how much you would pay for a typical doctor visit, a hospital admission, and your current prescriptions under each plan you are considering."
+      "content": "A plan with a lower premium can carry higher copays for specialist visits, imaging, or hospital stays, which adds up quickly if you need regular care. Before enrolling, ask how much you would pay for a typical [doctor visit](/faqs/does-medicare-cover-physical-therapy/), a hospital admission, and your current [prescriptions under each plan](/faqs/medicare-and-prescription-drugs-whats-covered-and-whats-not/) you are considering."
     },
     {
       "type": "callout",
       "calloutType": "tip",
       "calloutTitle": "Compare Total Cost, Not Just Premium",
-      "calloutText": "Ask each plan for its out-of-pocket maximum, specialist copay, and drug tier pricing for your medications. A side-by-side comparison of these numbers tells you far more than the premium alone."
+      "calloutText": "Ask each plan for its [out-of-pocket maximum](/faqs/medicare-maximum-out-of-pocket/), specialist copay, and drug tier pricing for your medications. A side-by-side comparison of these numbers tells you far more than the premium alone."
     },
     {
       "type": "eddie-pro-tip",
@@ -218,7 +218,7 @@
     },
     {
       "type": "paragraph",
-      "content": "HMSA's decision to discontinue its Medicare Advantage plan is a significant shift, but it does not have to mean uncertainty about your care. Confirm your coverage end date, verify your doctors and prescriptions, and compare total costs across your available options."
+      "content": "HMSA's decision to discontinue its Medicare Advantage plan is a significant shift, but it does not have to mean uncertainty about your care. Confirm your [coverage end date](/faqs/medicare-annual-enrollment-period/), verify your doctors and prescriptions, and compare total costs across your available options."
     },
     {
       "type": "paragraph",
@@ -247,18 +247,6 @@
       "reason": "This link explains the Special Enrollment Period, which is crucial for affected members to understand their options after losing their current plan."
     },
     {
-      "phrase": "Medicare Supplement",
-      "url": "/faqs/medicare-supplement-vs-medicare-advantage/",
-      "title": "Medicare Supplement vs Medicare Advantage: Crucial Questions to Ask before Enrolling",
-      "reason": "This link provides insights into the differences between Medicare Supplement and Medicare Advantage plans, helping readers make informed decisions on their next steps."
-    },
-    {
-      "phrase": "out-of-pocket maximum",
-      "url": "/faqs/medicare-maximum-out-of-pocket/",
-      "title": "Medicare Maximum Out-of-Pocket",
-      "reason": "This link offers detailed information about out-of-pocket maximums, which is essential for understanding potential costs under new plans."
-    },
-    {
       "phrase": "Medicare Advantage plans",
       "url": "/faqs/medicare-advantage-plans-are-bad/",
       "title": "Understanding the Disadvantages of Medicare Advantage Plans in 2026",
@@ -271,31 +259,40 @@
       "reason": "This link helps readers compare their options between Medicare Advantage and Medicare Supplement plans, which is vital after losing their current coverage."
     },
     {
-      "phrase": "coverage end date",
-      "url": "/faqs/medicare-annual-enrollment-period/",
-      "title": "Medicare Annual Enrollment Period (AEP)",
-      "reason": "This link provides information on the annual enrollment period, which is important for understanding deadlines related to the coverage end date."
-    },
-    {
-      "phrase": "doctor visit",
-      "url": "/faqs/does-medicare-cover-physical-therapy/",
-      "title": "Does Medicare Cover Physical Therapy?",
-      "reason": "This link addresses coverage for physical therapy, which may be relevant for readers concerned about maintaining their healthcare access post-plan change."
-    },
-    {
-      "phrase": "prescriptions under each plan",
-      "url": "/faqs/medicare-and-prescription-drugs-whats-covered-and-whats-not/",
-      "title": "Medicare and Prescription Drugs: What Is Covered and What Is Not?",
-      "reason": "This link provides essential information about prescription coverage, helping readers understand what to expect with new plans."
-    },
-    {
       "phrase": "Medicare Advantage plans",
       "url": "/faqs/average-cost-of-medicare-advantage/",
       "title": "Average Cost of Medicare Advantage Plans",
       "reason": "This link gives readers insight into the costs associated with Medicare Advantage plans, which is crucial for making informed decisions after losing their current plan."
     }
   ],
+  "acceptedLinks": [
+    {
+      "phrase": "doctor visit",
+      "url": "/faqs/does-medicare-cover-physical-therapy/",
+      "title": "Does Medicare Cover Physical Therapy?"
+    },
+    {
+      "phrase": "coverage end date",
+      "url": "/faqs/medicare-annual-enrollment-period/",
+      "title": "Medicare Annual Enrollment Period (AEP)"
+    },
+    {
+      "phrase": "prescriptions under each plan",
+      "url": "/faqs/medicare-and-prescription-drugs-whats-covered-and-whats-not/",
+      "title": "Medicare and Prescription Drugs: What Is Covered and What Is Not?"
+    },
+    {
+      "phrase": "Medicare Supplement",
+      "url": "/faqs/medicare-supplement-vs-medicare-advantage/",
+      "title": "Medicare Supplement vs Medicare Advantage: Crucial Questions to Ask before Enrolling"
+    },
+    {
+      "phrase": "out-of-pocket maximum",
+      "url": "/faqs/medicare-maximum-out-of-pocket/",
+      "title": "Medicare Maximum Out-of-Pocket"
+    }
+  ],
   "id": "pipeline-hmsa-plan-termination-may-raise-costs-for-hawaii-seniors-in-",
-  "updatedAt": "2026-10-12T15:21:30.756Z",
-  "createdAt": "2026-10-12T15:21:30.756Z"
+  "updatedAt": "2026-10-12T15:22:14.808Z",
+  "createdAt": "2026-10-12T15:22:14.808Z"
 }
