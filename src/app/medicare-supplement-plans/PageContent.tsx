@@ -196,6 +196,16 @@ export default function MedicareSupplement() {
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
                   What Is Medicare Supplement (Medigap)?
                 </h2>
+                <p className="mb-6">
+                  <Link href="/medigap-plans/" className="text-teal-700 underline hover:text-teal-900">
+                    Explore all 10 Medigap plan letters and their coverage
+                  </Link>
+                </p>
+                <p className="mb-6">
+                  <Link href="/medicare-supplement-plans/medigap-by-state/" className="text-teal-700 underline hover:text-teal-900">
+                    Compare Medicare Supplement plans and rules by state
+                  </Link>
+                </p>
                 <p className="text-slate-600 leading-relaxed mb-6">
                   <strong>Medicare Supplement Insurance (Medigap)</strong> is a type of private health insurance that works alongside Original Medicare (Parts A & B) to help pay for out-of-pocket costs that Medicare doesn't cover - including deductibles, coinsurance, and copayments.
                 </p>

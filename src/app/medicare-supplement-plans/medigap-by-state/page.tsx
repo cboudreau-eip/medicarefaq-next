@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import SiteLayout from "@/components/SiteLayout";
 import PageContent from "./PageContent";
+import { STATE_DATA } from "@/lib/medigap-state-data";
 
 export const metadata: Metadata = {
   title: "Medigap Plans by State 2026 | Medicare Supplement State Guide",
@@ -52,7 +53,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
-      <PageContent />
+      <PageContent stateOverviews={STATE_DATA.map(({ name, slug }) => ({ name, slug })).sort((a, b) => a.name.localeCompare(b.name))} />
     </SiteLayout>
   );
 }

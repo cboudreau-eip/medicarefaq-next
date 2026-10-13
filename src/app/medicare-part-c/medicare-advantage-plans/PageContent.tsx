@@ -226,6 +226,11 @@ export default function MedicareAdvantage() {
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
                   What Is Medicare Part C (Medicare Advantage)?
                 </h2>
+                <p className="mb-6">
+                  <Link href="/medicare-advantage-plans/" className="text-teal-700 underline hover:text-teal-900">
+                    Explore Medicare Advantage plan types, benefits, and coverage
+                  </Link>
+                </p>
                 <p className="text-slate-600 leading-relaxed mb-6">
                   <strong>Medicare Part C</strong> is the official designation from the Centers for Medicare &amp; Medicaid Services (CMS) for what most people know as <strong>Medicare Advantage</strong>. This name comes from the original Medicare legislation that created different parts of the Medicare program. Part C and Medicare Advantage are the same thing, and both terms are used interchangeably.
                 </p>

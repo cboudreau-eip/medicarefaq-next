@@ -303,6 +303,11 @@ export default function PageContent() {
                   </li>
                 ))}
               </ol>
+              <p className="mt-5">
+                <Link href="/original-medicare/medicare-parts/medicare-part-b-enrollment/" className="text-teal-700 underline hover:text-teal-900">
+                  How to enroll in Medicare Part B: applications, documents, and enrollment periods
+                </Link>
+              </p>
             </section>
 
             {/* Penalty */}

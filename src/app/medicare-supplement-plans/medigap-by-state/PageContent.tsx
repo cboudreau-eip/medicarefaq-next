@@ -99,7 +99,7 @@ function getTagStyles(tag: StateEntry["tag"]) {
   }
 }
 
-export default function PageContent() {
+export default function PageContent({ stateOverviews }: { stateOverviews: { name: string; slug: string }[] }) {
   const specialStates = ALL_STATES.filter((s) => s.tag !== "standard");
   const standardStates = ALL_STATES.filter((s) => s.tag === "standard");
 
@@ -179,6 +179,11 @@ export default function PageContent() {
             <p className="text-slate-500 mb-6">
               These states have birthday rules, anniversary rules, guaranteed issue protections, or unique plan structures that give enrollees additional flexibility.
             </p>
+            <p className="mb-6">
+              <Link href="/medicare-by-state/" className="text-teal-700 underline hover:text-teal-900">
+                Compare Medigap birthday rules by state
+              </Link>
+            </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {specialStates.map((state) => {
                 const tagStyles = getTagStyles(state.tag);
@@ -233,6 +238,24 @@ export default function PageContent() {
               ))}
             </div>
           </div>
+
+          <section id="state-overviews" className="mt-14 pt-10 border-t border-slate-200">
+            <h2 className="text-2xl font-bold text-slate-900 mb-3" style={{ fontFamily: "'Merriweather', serif" }}>
+              State Rules and Carrier Overviews
+            </h2>
+            <p className="text-slate-600 mb-6">
+              Explore these state summaries for enrollment rules, plan structures, and carrier options. For detailed plan comparisons, choose a state in the directory above.
+            </p>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 list-none">
+              {stateOverviews.map((state) => (
+                <li key={state.slug}>
+                  <Link href={`/medicare-supplement-plans/medigap-by-state/${state.slug}/`} className="block p-4 border border-slate-200 rounded-lg font-medium text-blue-900 hover:border-blue-300 hover:bg-blue-50 transition-colors">
+                    {state.name} Medigap Overview
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
 
           {/* CTA */}
           <div className="mt-16 p-8 bg-gradient-to-br from-blue-900 to-slate-900 rounded-2xl text-white text-center">
