@@ -6,9 +6,15 @@ import SimpleFAQContent from "./SimpleFAQContent";
 import { coverageArticles } from "@/lib/coverage-data";
 import { simpleFAQArticles } from "@/lib/simple-faq-data";
 import { blogArticles } from "@/lib/blog-articles-data";
+import { createRelatedArticleResolver } from "@/lib/related-article-links";
 
 /* Blog slug set computed server-side at build time — zero client bundle cost */
 const blogSlugs = new Set(blogArticles.map((a) => a.slug));
+const resolveSidebarTopic = createRelatedArticleResolver([
+  ...coverageArticles.map((article) => ({ slug: article.slug, title: article.title, href: `/faqs/${article.slug}/` })),
+  ...simpleFAQArticles.map((article) => ({ slug: article.slug, title: article.title, href: `/faqs/${article.slug}/` })),
+  ...blogArticles.map((article) => ({ slug: article.slug, title: article.title, href: `/blog/${article.slug}/` })),
+]);
 
 const BASE_URL = "https://www.medicarefaq.com";
 
@@ -309,7 +315,10 @@ export default async function FAQArticlePage({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
-        <CoverageArticleContent article={coverageArticle} />
+        <CoverageArticleContent article={coverageArticle} sidebarLinks={coverageArticle.sidebarRelatedLinks.flatMap((topic) => {
+          const link = resolveSidebarTopic(topic);
+          return link ? [link] : [];
+        })} />
       </SiteLayout>
     );
   }

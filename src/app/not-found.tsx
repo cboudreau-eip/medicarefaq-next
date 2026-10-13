@@ -65,7 +65,7 @@ export default function NotFound() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (query.trim()) {
-      router.push(`/search?q=${encodeURIComponent(query.trim())}`);
+      router.push(`/search/?q=${encodeURIComponent(query.trim())}`);
     }
   };
 

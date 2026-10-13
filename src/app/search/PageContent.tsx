@@ -1,7 +1,7 @@
 "use client";
 
 /**
- * Search Results Page — /search?q=...
+ * Search Results Page — /search/?q=...
  * Design: Clean results layout with type filters, result cards, and search refinement.
  * Follows the Clarity System design language.
  */
@@ -96,7 +96,7 @@ export default function SearchResults() {
       e.preventDefault();
       const trimmed = query.trim();
       if (trimmed) {
-        window.history.replaceState(null, "", `/search?q=${encodeURIComponent(trimmed)}`);
+        window.history.replaceState(null, "", `/search/?q=${encodeURIComponent(trimmed)}`);
       }
     },
     [query]
@@ -105,13 +105,13 @@ export default function SearchResults() {
   const handlePopularSearch = useCallback((term: string) => {
     setQuery(term);
     setActiveFilter("all");
-    window.history.replaceState(null, "", `/search?q=${encodeURIComponent(term)}`);
+    window.history.replaceState(null, "", `/search/?q=${encodeURIComponent(term)}`);
   }, []);
 
   const clearSearch = useCallback(() => {
     setQuery("");
     setActiveFilter("all");
-    window.history.replaceState(null, "", "/search");
+    window.history.replaceState(null, "", "/search/");
   }, []);
 
   return (

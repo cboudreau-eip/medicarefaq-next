@@ -63,7 +63,7 @@ export default function HeaderBar({ centeredLogo = false }: { centeredLogo?: boo
     if (e.key === "Enter" && selectedIndex < 0 && query.trim().length >= 2) {
       // Submit to search page if no item is selected
       e.preventDefault();
-      window.location.href = `/search?q=${encodeURIComponent(query.trim())}`;
+      window.location.href = `/search/?q=${encodeURIComponent(query.trim())}`;
       return;
     }
 
@@ -196,7 +196,7 @@ export default function HeaderBar({ centeredLogo = false }: { centeredLogo?: boo
                   {/* View all results link */}
                   <div className="border-t border-slate-100 px-4 py-2.5">
                     <Link
-                      href={`/search?q=${encodeURIComponent(query.trim())}`}
+                      href={`/search/?q=${encodeURIComponent(query.trim())}`}
                       onClick={() => setShowDropdown(false)}
                       className="text-xs font-medium text-[#0D9488] hover:text-[#0B7C72] transition-colors"
                     >

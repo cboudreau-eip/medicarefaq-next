@@ -55,7 +55,6 @@ const pages = [
   { url: `${BASE_URL}/library/guides/`, priority: "0.6", changefreq: "monthly" },
   { url: `${BASE_URL}/podcasts/`, priority: "0.6", changefreq: "monthly" },
   { url: `${BASE_URL}/videos/`, priority: "0.6", changefreq: "monthly" },
-  { url: `${BASE_URL}/search/`, priority: "0.5", changefreq: "monthly" },
   // Caregiver Guide
   { url: `${BASE_URL}/guide-to-being-a-caregiver/`, priority: "0.7", changefreq: "monthly" },
   // Seniors Guide

@@ -21,7 +21,7 @@ export default function MobileNav() {
     e.preventDefault();
     const trimmed = searchQuery.trim();
     if (trimmed) {
-      router.push(`/search?q=${encodeURIComponent(trimmed)}`);
+      router.push(`/search/?q=${encodeURIComponent(trimmed)}`);
       setSearchQuery("");
       setIsOpen(false);
     }

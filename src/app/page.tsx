@@ -61,7 +61,7 @@ export default function HomePage() {
     },
     potentialAction: {
       "@type": "SearchAction",
-      target: "https://www.medicarefaq.com/search?q={search_term_string}",
+      target: "https://www.medicarefaq.com/search/?q={search_term_string}",
       "query-input": "required name=search_term_string",
     },
   };

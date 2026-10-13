@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Search Medicare Topics",
   description: "Search MedicareFAQ for answers to your Medicare questions. Find articles, guides, and FAQs on Medicare plans, enrollment, costs, and more.",
   alternates: { canonical: "https://www.medicarefaq.com/search/" },
+  robots: { index: false, follow: true },
   openGraph: {
     title: "Search Medicare Topics",
     description: "Search MedicareFAQ for answers to your Medicare questions. Find articles, guides, and FAQs on Medicare plans, enrollment, costs, and more.",

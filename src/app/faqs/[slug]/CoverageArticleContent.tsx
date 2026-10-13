@@ -9,6 +9,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { repairInternalHref } from "@/lib/broken-link-repairs";
+import type { RelatedTopicLink } from "@/lib/related-article-links";
 import {
   Clock,
   User,
@@ -308,7 +309,7 @@ function buildTOC(article: CoverageArticleData) {
 }
 
 /* ─── Main Component ─── */
-export default function CoverageArticleContent({ article }: { article: CoverageArticleData }) {
+export default function CoverageArticleContent({ article, sidebarLinks }: { article: CoverageArticleData; sidebarLinks: RelatedTopicLink[] }) {
   const [activeSection, setActiveSection] = useState("");
   const [helpfulVote, setHelpfulVote] = useState<"yes" | "no" | null>(null);
 
@@ -951,8 +952,8 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
             </article>
 
             {/* ─── Sidebar ─── */}
-            <aside className="hidden lg:block w-[280px] shrink-0">
-              <div className="sticky top-[180px] space-y-6">
+            <aside aria-label="Article navigation and related topics" className="hidden lg:block w-[280px] shrink-0">
+              <div className="sticky top-[180px] max-h-[calc(100dvh-200px)] overflow-y-auto pr-1 space-y-6">
                 {/* CTA Sidebar */}
                 <div className="bg-[#1B2A4A] rounded-xl p-5 text-center">
                   <p className="text-white font-bold text-sm mb-1">Have Questions?</p>
@@ -992,11 +993,11 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
                 <div className="bg-white border border-[#E5E7EB] rounded-xl p-5 shadow-sm">
                   <h3 className="text-xs font-bold tracking-wider text-[#6B7280] uppercase mb-4">Related Topics</h3>
                   <ul className="space-y-2">
-                    {article.sidebarRelatedLinks.map((topic, i) => (
+                    {sidebarLinks.map((topic, i) => (
                       <li key={i}>
-                        <a href={`/search?q=${encodeURIComponent(topic)}`} className="text-sm text-[#2563EB] hover:text-[#1B2A4A] hover:underline transition-colors flex items-center gap-1">
-                          <ChevronRight className="w-3 h-3" /> {topic}
-                        </a>
+                        <Link href={topic.href} className="text-sm text-[#2563EB] hover:text-[#1B2A4A] hover:underline transition-colors flex items-center gap-1">
+                          <ChevronRight className="w-3 h-3" /> {topic.label}
+                        </Link>
                       </li>
                     ))}
                   </ul>
