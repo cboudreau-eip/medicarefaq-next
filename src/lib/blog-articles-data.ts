@@ -13,11 +13,12 @@ import { preventiveServicesArticle } from "./blog-article-preventive-services";
 import { medicareScamsArticle } from "./blog-article-medicare-scams";
 export const blogArticles: BlogArticleData[] = [
   {
-    slug: "medicare-plans-for-seniors",
+    slug: "best-medicare-plans-for-seniors",
     seo: {
+      focusKeyword: "",
       title: "Find the Best Medicare Plans for Seniors in 2027",
       description: "Compare Medicare plans for seniors in 2027, including Original Medicare, Medigap, and Medicare Advantage, to find the right coverage for your needs.",
-      canonical: "https://www.medicarefaq.com/blog/medicare-plans-for-seniors/",
+      canonical: "https://www.medicarefaq.com/blog/best-medicare-plans-for-seniors/",
       ogImage: "/images/generated/medicare-best-plans-for-seniors-e573d04c76fb.png",
     },
     title: "Best Medicare Plans for Seniors in 2026: A Clear Guide to Choosing the Right Coverage",
