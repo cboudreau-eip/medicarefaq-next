@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Suspense } from "react";
 import SiteLayout from "@/components/SiteLayout";
 import Coverage from "./PageContent";
 
@@ -43,9 +42,7 @@ export default function Page() {
     <SiteLayout>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
-      <Suspense fallback={null}>
-        <Coverage />
-      </Suspense>
+      <Coverage />
     </SiteLayout>
   );
 }

@@ -1,13 +1,11 @@
 "use client";
 
 /**
- * FAQ Landing Page — Grouped Category Sections with Visible Pill Filter Bar
- * Default view: grouped sections (3 featured articles per category + "See all" link)
- * When a category pill is clicked or search is active: flat filtered grid
+ * FAQ directory and category pages share the same article cards and styling.
+ * Category links and article grids render in the initial server response.
  */
 
-import { useState, useMemo, useEffect, useRef } from "react";
-import { useSearchParams, useRouter } from "next/navigation";
+import { useState, useMemo, useEffect } from "react";
 import Link from "next/link";
 import {
   Clock,
@@ -28,6 +26,7 @@ import { motion } from "framer-motion";
 import { coverageArticles } from "@/lib/coverage-data";
 import { simpleFAQArticles } from "@/lib/simple-faq-data";
 import { trackPhoneClick } from "@/lib/analytics";
+import { FAQ_CATEGORIES, faqCategoryHref, getFaqCategoryBySlug, getFaqCategoryLabel } from "@/lib/faq-categories";
 
 /* ─── Unified article type for display ─── */
 interface FAQCard {
@@ -63,66 +62,24 @@ const allArticles: FAQCard[] = [
     readTime: a.readTime,
     source: "simple" as const,
   })),
-];
+].filter((article, index, articles) =>
+  articles.findIndex((candidate) => candidate.slug === article.slug) === index
+);
 
 /* ─── Consolidated parent category groups ─── */
-const CATEGORY_GROUPS: {
-  label: string;
-  color: string;
-  bgColor: string;
-  icon: typeof Shield;
-  matches: string[];
-}[] = [
-  {
-    label: "Coverage",
-    color: "#059669",
-    bgColor: "#D1FAE5",
-    icon: Shield,
-    matches: ["Medicare Coverage", "Coverage", "General Medicare", "Medicare FAQ", "Coverage Q&A", "Medicare Basics", "Medicare Benefits"],
-  },
-  {
-    label: "Plans & Supplements",
-    color: "#7C3AED",
-    bgColor: "#EDE9FE",
-    icon: Heart,
-    matches: ["Medicare Supplements", "Medicare Supplement (Medigap)", "Medicare Advantage"],
-  },
-  {
-    label: "Enrollment",
-    color: "#2563EB",
-    bgColor: "#DBEAFE",
-    icon: ClipboardList,
-    matches: ["Medicare Enrollment", "Enrollment", "Medicare Eligibility"],
-  },
-  {
-    label: "Costs & Drugs",
-    color: "#DC2626",
-    bgColor: "#FEE2E2",
-    icon: DollarSign,
-    matches: ["Prescription Drugs", "Medicare Part D", "Costs & Savings", "Medicare Costs"],
-  },
-  {
-    label: "Dental, Vision & Hearing",
-    color: "#0891B2",
-    bgColor: "#CFFAFE",
-    icon: Eye,
-    matches: ["Dental, Vision & Hearing"],
-  },
-  {
-    label: "Special Situations",
-    color: "#6B7280",
-    bgColor: "#F3F4F6",
-    icon: Accessibility,
-    matches: ["Medicaid & Assistance", "Medicare & Disability", "Medicare Part A", "Medicare Part B", "Medicare News"],
-  },
-];
+const CATEGORY_ICONS: Record<string, typeof Shield> = {
+  coverage: Shield,
+  "plans-supplements": Heart,
+  enrollment: ClipboardList,
+  "costs-drugs": DollarSign,
+  "dental-vision-hearing": Eye,
+  "special-situations": Accessibility,
+};
+const CATEGORY_GROUPS = FAQ_CATEGORIES.map((group) => ({ ...group, icon: CATEGORY_ICONS[group.slug] ?? HelpCircle }));
 
 /* Map raw category → parent group label */
 function getGroupLabel(rawCategory: string): string {
-  for (const group of CATEGORY_GROUPS) {
-    if (group.matches.includes(rawCategory)) return group.label;
-  }
-  return "Coverage";
+  return getFaqCategoryLabel(rawCategory);
 }
 
 function getGroupMeta(groupLabel: string) {
@@ -150,7 +107,7 @@ function ArticleCard({ article }: { article: FAQCard }) {
   const IconComponent = meta.icon;
   return (
     <Link
-      href={`/faqs/${article.slug}`}
+      href={`/faqs/${article.slug}/`}
       className="group block bg-white border border-[#E5E7EB] rounded-xl overflow-hidden hover:shadow-lg hover:shadow-black/5 hover:border-[#C41230]/20 transition-all duration-200 h-full"
     >
       <div className="h-1" style={{ backgroundColor: meta.color }} />
@@ -195,37 +152,24 @@ function ArticleCard({ article }: { article: FAQCard }) {
   );
 }
 
-export default function FAQIndex() {
-  const searchParams = useSearchParams();
-  const router = useRouter();
-  const [searchQuery, setSearchQuery] = useState(() => searchParams.get("q") ?? "");
-  const [activeCategory, setActiveCategory] = useState(() => searchParams.get("cat") ?? "All Topics");
-  const sectionRefs = useRef<Record<string, HTMLElement | null>>({});
+export default function FAQIndex({ categorySlug }: { categorySlug?: string }) {
+  const category = categorySlug ? getFaqCategoryBySlug(categorySlug) : undefined;
+  const activeCategory = category?.label ?? "All Topics";
+  const [searchQuery, setSearchQuery] = useState("");
 
-  // Sync state when URL changes
+  // Search stays interactive; the complete directory is present before hydration.
   useEffect(() => {
-    setSearchQuery(searchParams.get("q") ?? "");
-    setActiveCategory(searchParams.get("cat") ?? "All Topics");
-  }, [searchParams]);
+    const syncSearch = () => setSearchQuery(new URLSearchParams(window.location.search).get("q") ?? "");
+    syncSearch();
+    window.addEventListener("popstate", syncSearch);
+    return () => window.removeEventListener("popstate", syncSearch);
+  }, [categorySlug]);
 
   function handleSearchChange(value: string) {
     setSearchQuery(value);
-    const params = new URLSearchParams(searchParams.toString());
-    if (value) params.set("q", value); else params.delete("q");
-    router.replace(`/faqs?${params.toString()}`, { scroll: false });
-  }
-
-  function handleCategoryChange(cat: string) {
-    setActiveCategory(cat);
-    const params = new URLSearchParams(searchParams.toString());
-    if (cat !== "All Topics") params.set("cat", cat); else params.delete("cat");
-    router.replace(`/faqs?${params.toString()}`, { scroll: false });
-    // If selecting a specific category in grouped view, scroll to that section
-    if (cat !== "All Topics" && !searchQuery) {
-      setTimeout(() => {
-        sectionRefs.current[cat]?.scrollIntoView({ behavior: "smooth", block: "start" });
-      }, 50);
-    }
+    const url = new URL(window.location.href);
+    if (value) url.searchParams.set("q", value); else url.searchParams.delete("q");
+    window.history.replaceState(null, "", url);
   }
 
   const categories = useMemo(() => buildFilterPills(allArticles), []);
@@ -263,30 +207,36 @@ export default function FAQIndex() {
         <section className="bg-[#1B2A4A] py-12 md:py-16">
           <div className="container max-w-6xl mx-auto">
             <motion.div
-              initial={{ opacity: 0, y: 15 }}
+              initial={false}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4 }}
             >
-              <nav className="text-sm text-white/50 mb-4 flex items-center gap-2">
+              <nav aria-label="Breadcrumb" className="text-sm text-white/50 mb-4 flex items-center gap-2">
                 <Link href="/" className="hover:text-white/80 transition-colors">Home</Link>
                 <ChevronRight className="w-3.5 h-3.5" aria-hidden="true" />
-                <span className="text-white/80">Medicare FAQs</span>
+                {category ? (
+                  <>
+                    <Link href="/faqs/" className="hover:text-white/80 transition-colors">Medicare FAQs</Link>
+                    <ChevronRight className="w-3.5 h-3.5" aria-hidden="true" />
+                    <span className="text-white/80">{category.label}</span>
+                  </>
+                ) : <span className="text-white/80">Medicare FAQs</span>}
               </nav>
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center">
                   <HelpCircle className="w-5 h-5 text-white" aria-hidden="true" />
                 </div>
                 <h1 className="text-3xl md:text-4xl lg:text-[42px] font-extrabold text-white">
-                  Medicare FAQs
+                  {category?.heading ?? "Medicare FAQs"}
                 </h1>
               </div>
               <p className="text-white/70 text-lg max-w-2xl">
-                Browse over 200 expert-written articles covering Medicare plans, enrollment, costs, coverage, and more. Find clear, unbiased answers to your Medicare questions.
+                {category?.description ?? "Browse over 200 expert-written articles covering Medicare plans, enrollment, costs, coverage, and more. Find clear, unbiased answers to your Medicare questions."}
               </p>
               <div className="flex items-center gap-6 mt-6 text-sm text-white/50">
                 <span className="flex items-center gap-1.5">
                   <BookOpen className="w-4 h-4" aria-hidden="true" />
-                  {allArticles.length} Articles
+                  {(category ? allArticles.filter((article) => getGroupLabel(article.category) === category.label) : allArticles).length} Articles
                 </span>
                 <span className="flex items-center gap-1.5">
                   <User className="w-4 h-4" aria-hidden="true" />
@@ -306,6 +256,7 @@ export default function FAQIndex() {
               <input
                 type="text"
                 placeholder="Search articles..."
+                aria-label="Search FAQ articles"
                 value={searchQuery}
                 onChange={(e) => handleSearchChange(e.target.value)}
                 className="w-full pl-10 pr-4 py-2.5 bg-[#F5F7FA] border border-[#E5E7EB] rounded-lg text-sm text-[#1B2A4A] placeholder:text-[#9CA3AF] focus:outline-none focus:ring-2 focus:ring-[#C41230]/30 focus:border-[#C41230]/50 transition-all"
@@ -328,9 +279,10 @@ export default function FAQIndex() {
                 const IconComp = meta ? meta.icon : HelpCircle;
                 const color = meta ? meta.color : "#1B2A4A";
                 return (
-                  <button
+                  <Link
                     key={cat.name}
-                    onClick={() => handleCategoryChange(cat.name)}
+                    href={faqCategoryHref(cat.name)}
+                    aria-current={isActive ? "page" : undefined}
                     className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-semibold border transition-all duration-150 whitespace-nowrap"
                     style={
                       isActive
@@ -350,15 +302,15 @@ export default function FAQIndex() {
                     >
                       {cat.count}
                     </span>
-                  </button>
+                  </Link>
                 );
               })}
-              {isFiltered && (
+              {searchQuery && (
                 <button
-                  onClick={() => { handleSearchChange(""); handleCategoryChange("All Topics"); }}
+                  onClick={() => handleSearchChange("")}
                   className="inline-flex items-center gap-1 px-3 py-1.5 rounded-full text-sm font-semibold border border-[#E5E7EB] text-[#C41230] hover:bg-[#FEF2F2] transition-colors"
                 >
-                  Clear filters
+                  Clear search
                 </button>
               )}
             </div>
@@ -372,6 +324,9 @@ export default function FAQIndex() {
             {/* ── FILTERED VIEW (search active or specific category selected) ── */}
             {isFiltered && (
               <>
+                <h2 className="text-xl font-extrabold mb-2" style={{ color: category?.color ?? "#1B2A4A" }}>
+                  {category ? `${category.label} articles` : "Search results"}
+                </h2>
                 <p className="text-sm text-[#6B7280] mb-6">
                   Showing{" "}
                   <span className="font-semibold text-[#1B2A4A]">{filteredArticles.length}</span>{" "}
@@ -394,7 +349,7 @@ export default function FAQIndex() {
                     {filteredArticles.map((article, index) => (
                       <motion.div
                         key={article.slug}
-                        initial={{ opacity: 0, y: 15 }}
+                        initial={false}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.25, delay: Math.min(index * 0.02, 0.3) }}
@@ -411,7 +366,6 @@ export default function FAQIndex() {
             {!isFiltered && groupedArticles.map(({ group, articles }, sectionIndex) => (
               <section
                 key={group.label}
-                ref={(el) => { sectionRefs.current[group.label] = el; }}
                 className={sectionIndex > 0 ? "mt-12 pt-10 border-t border-[#E5E7EB]" : ""}
               >
                 {/* Section header */}
@@ -430,14 +384,14 @@ export default function FAQIndex() {
                       <p className="text-sm text-[#9CA3AF]">{articles.length} articles</p>
                     </div>
                   </div>
-                  <button
-                    onClick={() => handleCategoryChange(group.label)}
+                  <Link
+                    href={faqCategoryHref(group.label)}
                     className="inline-flex items-center gap-1.5 text-sm font-bold transition-colors hover:opacity-80"
                     style={{ color: group.color }}
                   >
                     See all {articles.length} articles
                     <ArrowRight className="w-4 h-4" aria-hidden="true" />
-                  </button>
+                  </Link>
                 </div>
 
                 {/* 3 featured articles */}
@@ -445,7 +399,7 @@ export default function FAQIndex() {
                   {articles.slice(0, 3).map((article, index) => (
                     <motion.div
                       key={article.slug}
-                      initial={{ opacity: 0, y: 15 }}
+                      initial={false}
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
                       transition={{ duration: 0.25, delay: index * 0.06 }}
@@ -458,14 +412,14 @@ export default function FAQIndex() {
                 {/* "See all" footer link if more than 3 */}
                 {articles.length > 3 && (
                   <div className="mt-4 text-center">
-                    <button
-                      onClick={() => handleCategoryChange(group.label)}
+                    <Link
+                      href={faqCategoryHref(group.label)}
                       className="inline-flex items-center gap-1.5 text-sm font-semibold px-5 py-2 rounded-lg border transition-all hover:opacity-80"
                       style={{ borderColor: group.color, color: group.color, background: group.bgColor }}
                     >
                       View all {articles.length} {group.label} articles
                       <ArrowRight className="w-3.5 h-3.5" aria-hidden="true" />
-                    </button>
+                    </Link>
                   </div>
                 )}
               </section>

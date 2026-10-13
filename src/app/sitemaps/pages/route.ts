@@ -1,5 +1,6 @@
 import { buildXml } from "@/lib/sitemap";
 import { NextResponse } from "next/server";
+import { FAQ_CATEGORIES } from "@/lib/faq-categories";
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.medicarefaq.com";
 
@@ -50,6 +51,7 @@ const pages = [
   { url: `${BASE_URL}/medicare-part-c/medicare-advantage-plan-types/`, priority: "0.7", changefreq: "monthly" },
   // Library / Resources
   { url: `${BASE_URL}/faqs/`, priority: "0.8", changefreq: "weekly" },
+  ...FAQ_CATEGORIES.map(({ slug }) => ({ url: `${BASE_URL}/faqs/categories/${slug}/`, priority: "0.7", changefreq: "weekly" })),
   { url: `${BASE_URL}/library/guides/`, priority: "0.6", changefreq: "monthly" },
   { url: `${BASE_URL}/podcasts/`, priority: "0.6", changefreq: "monthly" },
   { url: `${BASE_URL}/videos/`, priority: "0.6", changefreq: "monthly" },

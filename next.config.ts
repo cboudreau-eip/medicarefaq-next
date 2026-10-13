@@ -1,4 +1,5 @@
 import { BROKEN_LINK_REPAIRS } from "./src/lib/broken-link-repairs";
+import { FAQ_CATEGORIES } from "./src/lib/faq-categories";
 import { generateSitemapDates } from "./scripts/generate-sitemap-dates.mjs";
 import type { NextConfig } from "next";
 
@@ -59,6 +60,13 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   async redirects() {
     return [
+      // Keep existing category-filter bookmarks working with the new directories.
+      ...FAQ_CATEGORIES.map(({ label, slug }) => ({
+        source: "/faqs",
+        has: [{ type: "query" as const, key: "cat", value: label }],
+        destination: `/faqs/categories/${slug}/`,
+        permanent: true,
+      })),
       ...Object.entries(BROKEN_LINK_REPAIRS)
         .filter((entry): entry is [string, string] => entry[1] !== null)
         .map(([source, destination]) => ({ source, destination, permanent: true })),
