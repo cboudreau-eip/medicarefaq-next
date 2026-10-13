@@ -30,7 +30,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "11 min read",
     featured: false,
-    image: "/images/generated/medicare-best-plans-for-seniors-e573d04c76fb.png",
+    image: "/images/generated/best-medicare-plans-for-seniors-e40a85fad520.png",
     imageAlt: "Best Medicare Plans for Seniors in 2026: A Clear Guide to Choosing the Right Coverage",
     keyTakeaways: ["Original Medicare (Part A and Part B) covers hospital and doctor costs but has no out-of-pocket cap and excludes dental, vision, hearing, and prescription drugs", "Medigap pairs with Original Medicare to cover cost-sharing gaps, offers standardized benefits nationwide, and requires no referrals, but comes with an added monthly premium", "Medicare Advantage bundles hospital, medical, and often drug coverage through private insurers, frequently with low or $0 premiums and extra benefits like dental and vision", "Medicare Advantage plans typically use provider networks and may require referrals, trading some flexibility for lower costs and added perks", "Part D prescription drug coverage can stand alone with Original Medicare or be built into a Medicare Advantage plan"],
     tableOfContents: [
