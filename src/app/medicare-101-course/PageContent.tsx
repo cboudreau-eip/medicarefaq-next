@@ -3,11 +3,10 @@
  * Medicare 101 Course — Index / Overview Page
  * Route: /medicare-101-course/
  *
- * Shows onboarding questions on first visit, then the course overview.
+ * Renders the course overview and lesson links immediately, with optional personalization.
  */
-import { useState, useEffect } from "react";
+import { useRef } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import {
   BookOpen,
   Clock,
@@ -22,7 +21,7 @@ import {
 import ZipFormModal from "@/components/ZipFormModal";
 import { trackPhoneClick } from "@/lib/analytics";
 import { COURSE_LESSONS } from "@/components/CourseLayout";
-import CourseOnboarding, { getCourseProfile } from "@/components/CourseOnboarding";
+import CourseOnboarding from "@/components/CourseOnboarding";
 
 const LESSON_DESCRIPTIONS = [
   "Understand what Medicare is, what it costs, and the two paths to coverage.",
@@ -35,32 +34,8 @@ const LESSON_DESCRIPTIONS = [
 ];
 
 export default function PageContent() {
-  const router = useRouter();
-  const [showOnboarding, setShowOnboarding] = useState(false);
-  const [checked, setChecked] = useState(false);
-
-  useEffect(() => {
-    // Check if user has already completed onboarding
-    const profile = getCourseProfile();
-    if (!profile) {
-      setShowOnboarding(true);
-    }
-    setChecked(true);
-  }, []);
-
-  // Show nothing until we've checked localStorage (prevents flash)
-  if (!checked) return null;
-
-  // Show onboarding if user hasn't completed it
-  if (showOnboarding) {
-    return (
-      <CourseOnboarding
-        onComplete={() => {
-          setShowOnboarding(false);
-        }}
-      />
-    );
-  }
+  const onboardingRef = useRef<HTMLDetailsElement>(null);
+  const onboardingSummaryRef = useRef<HTMLElement>(null);
 
   return (
     <article className="min-h-screen bg-white">
@@ -105,6 +80,24 @@ export default function PageContent() {
         </div>
       </section>
 
+      {/* Personalization is optional; lesson navigation never depends on it. */}
+      <section className="py-8 border-b border-slate-100">
+        <div className="container max-w-4xl">
+          <details ref={onboardingRef} className="border border-slate-200 rounded-xl overflow-hidden">
+            <summary ref={onboardingSummaryRef} className="cursor-pointer p-5 font-semibold text-blue-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-teal-600">
+              Personalize your action plan (optional)
+            </summary>
+            <p className="px-5 pb-4 text-sm text-slate-600">
+              Answer two quick questions to tailor your next steps, or choose any lesson below to start learning.
+            </p>
+            <CourseOnboarding onComplete={() => {
+              if (onboardingRef.current) onboardingRef.current.open = false;
+              onboardingSummaryRef.current?.focus();
+            }} />
+          </details>
+        </div>
+      </section>
+
       {/* What You'll Learn */}
       <section className="py-12 border-b border-slate-100">
         <div className="container max-w-4xl">
@@ -146,7 +139,7 @@ export default function PageContent() {
             {COURSE_LESSONS.map((lesson, i) => (
               <Link
                 key={lesson.slug}
-                href={`/medicare-101-course/${lesson.slug}`}
+                href={`/medicare-101-course/${lesson.slug}/`}
                 className="group flex items-center gap-5 p-5 border-2 border-slate-200 rounded-xl hover:border-blue-300 hover:bg-blue-50/50 transition-all"
               >
                 <div className="w-12 h-12 bg-blue-900 rounded-xl flex items-center justify-center shrink-0">

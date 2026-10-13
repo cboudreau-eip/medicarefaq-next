@@ -1,10 +1,9 @@
 "use client";
 /**
- * CourseOnboarding — 2-question intake screen shown before Lesson 1.
+ * CourseOnboarding — Optional 2-question intake form on the course overview.
  * Stores answers in localStorage to personalize Lesson 7 and CTAs.
  */
 import { useState } from "react";
-import { useRouter } from "next/navigation";
 import { GraduationCap, ArrowRight, User, Shield } from "lucide-react";
 
 export type MedicareProfile = "turning-65" | "on-medicare" | "has-plan";
@@ -56,7 +55,7 @@ export default function CourseOnboarding({ onComplete }: CourseOnboardingProps) 
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-900 via-blue-800 to-slate-900 flex items-center justify-center px-4 py-12">
+    <div className="bg-slate-50 flex items-center justify-center px-4 py-8">
       <div className="w-full max-w-lg bg-white rounded-2xl shadow-2xl overflow-hidden">
         {/* Header */}
         <div className="bg-gradient-to-r from-teal-600 to-teal-500 px-6 py-5">
