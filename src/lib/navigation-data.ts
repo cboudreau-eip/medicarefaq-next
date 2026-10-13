@@ -180,7 +180,7 @@ export const navigationData: NavCategory[] = [
   },
   {
     title: "Enrollment",
-    href: "/enrollment",
+    href: "/original-medicare/medicare-enrollment-periods/",
     color: "#D97706",
     items: [
       {

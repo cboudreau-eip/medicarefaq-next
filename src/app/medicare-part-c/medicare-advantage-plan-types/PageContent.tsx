@@ -285,7 +285,7 @@ export default function PageContent() {
                       <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-green-500 mt-0.5 shrink-0" aria-hidden="true" />2026 premium: $202.90/month</li>
                       <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-green-500 mt-0.5 shrink-0" aria-hidden="true" />2026 deductible: $283/year</li>
                     </ul>
-                    <Link href="/faqs/what-does-medicare-part-b-cover/" className="inline-flex items-center gap-1 text-sm font-semibold text-teal-700 hover:text-teal-800 mt-3">
+                    <Link href="/original-medicare/medicare-parts/medicare-part-b/" className="inline-flex items-center gap-1 text-sm font-semibold text-teal-700 hover:text-teal-800 mt-3">
                       What does Part B cover? <ArrowRight className="w-3 h-3" aria-hidden="true" />
                     </Link>
                   </div>
@@ -303,7 +303,7 @@ export default function PageContent() {
                   Medicare Advantage Plans (Part C)
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-6">
-                  <Link href="/faqs/what-is-medicare-advantage/" className="text-teal-700 underline hover:text-teal-900">Medicare Advantage</Link> plans are offered by private insurance companies approved by Medicare. They provide all Part A and Part B benefits through a managed care network, and most plans bundle prescription drug coverage (MAPD) along with extra benefits like dental, vision, hearing, and fitness programs.
+                  <Link href="/medicare-part-c/medicare-advantage-plans/" className="text-teal-700 underline hover:text-teal-900">Medicare Advantage</Link> plans are offered by private insurance companies approved by Medicare. They provide all Part A and Part B benefits through a managed care network, and most plans bundle prescription drug coverage (MAPD) along with extra benefits like dental, vision, hearing, and fitness programs.
                 </p>
                 <ul className="space-y-2 mb-6 list-none">
                   {[

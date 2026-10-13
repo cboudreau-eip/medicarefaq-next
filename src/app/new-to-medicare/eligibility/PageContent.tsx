@@ -1216,7 +1216,7 @@ export default function Eligibility() {
                 Several common life situations can affect your Medicare
                 eligibility and enrollment timing. Whether you are{" "}
                 <Link
-                  href="/blog/when-should-you-enroll-in-medicare-if-still-working/"
+                  href="/faqs/when-should-you-enroll-in-medicare-if-still-working/"
                   className="text-teal-700 underline hover:text-teal-900"
                 >
                   still working past 65

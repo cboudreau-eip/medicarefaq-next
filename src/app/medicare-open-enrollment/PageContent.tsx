@@ -112,7 +112,7 @@ export default function PageContent() {
                 <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
               </li>
               <li>
-                <Link href="/enrollment" className="hover:text-white transition-colors">Enrollment</Link>
+                <Link href="/original-medicare/medicare-enrollment-periods/" className="hover:text-white transition-colors">Enrollment</Link>
               </li>
               <li aria-hidden="true">
                 <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />

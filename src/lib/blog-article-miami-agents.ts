@@ -430,7 +430,7 @@ export const miamiAgentsArticle: BlogArticleData = {
     {
       type: "paragraph",
       content:
-        "For more information on choosing between plan types, see our guides on [What Is Medicare Advantage](/faqs/what-is-medicare-advantage/), [Medicare HMO vs. PPO](/faqs/medicare-hmo-vs-ppo/), [Medicare Advantage vs. Medicare Supplement](/faqs/medicare-advantage-vs-medicare-supplement/), [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period/), and [Medicare Part D Coverage](/faqs/medicare-part-d-prescription-drug-coverage/).",
+        "For more information on choosing between plan types, see our guides on [What Is Medicare Advantage](/medicare-part-c/medicare-advantage-plans/), [Medicare HMO vs. PPO](/faqs/medicare-hmo-vs-ppo/), [Medicare Advantage vs. Medicare Supplement](/faqs/medicare-advantage-vs-medicare-supplement/), [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period/), and [Medicare Part D Coverage](/original-medicare/medicare-parts/medicare-part-d/).",
     },
   ],
   faqs: [

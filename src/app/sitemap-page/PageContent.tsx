@@ -96,11 +96,11 @@ const sitemapSections = [
   {
     title: "Enrollment",
     links: [
-      { label: "Enrollment Overview", href: "/enrollment" },
+      { label: "Enrollment Overview", href: "/original-medicare/medicare-enrollment-periods/" },
       { label: "Turning 65 Enrollment", href: "/medicare-enrollment/turning-65" },
       { label: "Late Enrollment Penalties", href: "/medicare-enrollment/late-penalties" },
-      { label: "Employer Coverage & Medicare", href: "/medicare-enrollment/employer-coverage" },
-      { label: "Special Enrollment Periods", href: "/medicare-enrollment/special-enrollment-periods" },
+      { label: "Employer Coverage & Medicare", href: "/faqs/medicare-and-employer-coverage/" },
+      { label: "Special Enrollment Periods", href: "/faqs/medicare-special-enrollment-periods/" },
     ],
   },
   {

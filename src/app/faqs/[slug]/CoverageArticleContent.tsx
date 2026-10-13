@@ -8,6 +8,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import { repairInternalHref } from "@/lib/broken-link-repairs";
 import {
   Clock,
   User,
@@ -924,12 +925,14 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
                 </h2>
                 <div className="grid sm:grid-cols-2 gap-4">
                   {article.relatedTopics.map((topic, i) => {
+                    const href = repairInternalHref(blogSlugSet.has(topic.slug) ? `/blog/${topic.slug}` : `/faqs/${topic.slug}`);
+                    if (href === null) return null;
                     const colors = ["#1B2A4A", "#059669", "#D97706", "#7C3AED"];
                     const icons = [Stethoscope, Eye, Ear, FileText];
                     const TopicIcon = icons[i % icons.length];
                     const color = colors[i % colors.length];
                     return (
-                      <Link key={i} href={blogSlugSet.has(topic.slug) ? `/blog/${topic.slug}` : `/faqs/${topic.slug}`} className="group bg-white border border-[#E5E7EB] rounded-xl p-5 shadow-sm hover:shadow-md hover:border-[#C41230]/30 transition-all">
+                      <Link key={i} href={href} className="group bg-white border border-[#E5E7EB] rounded-xl p-5 shadow-sm hover:shadow-md hover:border-[#C41230]/30 transition-all">
                         <div className="flex items-start gap-3">
                           <div className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0" style={{ backgroundColor: `${color}10` }}>
                             <TopicIcon className="w-5 h-5" style={{ color }} />

@@ -603,7 +603,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       },
       {
         type: 'paragraph',
-        content: 'If you are transitioning from employer coverage to Medicare as a retiree, understanding your [enrollment periods](/faqs/medicare-enrollment-periods) is critical to avoiding [late enrollment penalties](/blog/1-key-reason-sicker-seniors-disenroll-from-medicare-advantag/). You have an 8-month [Special Enrollment Period](/faqs/medicare-special-enrollment-period) after your employer coverage ends to sign up for Part B without penalty.',
+        content: 'If you are transitioning from employer coverage to Medicare as a retiree, understanding your [enrollment periods](/original-medicare/medicare-enrollment-periods/) is critical to avoiding [late enrollment penalties](/blog/1-key-reason-sicker-seniors-disenroll-from-medicare-advantag/). You have an 8-month [Special Enrollment Period](/faqs/medicare-special-enrollment-period) after your employer coverage ends to sign up for Part B without penalty.',
       },
       {
         type: 'heading',

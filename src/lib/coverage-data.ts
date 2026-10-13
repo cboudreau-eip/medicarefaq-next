@@ -1989,7 +1989,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "Most Medicare Advantage vision benefits include a routine eye exam (typically one per year) and an annual eyewear allowance. The eyewear allowance is a fixed dollar amount you can apply toward glasses frames, prescription lenses, or contact lenses from an in-network provider. Common allowance amounts range from $100 to $400 per year, with some premium plans offering up to $500.",
       "The eyewear allowance typically resets each calendar year. If you do not use it, you lose it. The allowance usually cannot be combined across years or applied to non-vision purchases. Some plans require you to use specific optical retailers (like a plan-affiliated network), while others provide more flexibility.",
       "When comparing Medicare Advantage plans for vision benefits, pay attention to these details: the annual eyewear allowance amount, whether the plan covers progressive or bifocal lenses within the allowance, the copay for routine eye exams, the optical network (which stores and providers are included), and whether contacts are covered as an alternative to glasses. Plans in the same area can differ by hundreds of dollars in vision benefits.",
-      "Some Medicare Advantage plans also cover medically necessary contact lenses (for conditions like keratoconus or post-surgical correction) beyond the routine eyewear allowance. Check your plan's [Evidence of Coverage](/faqs/medicare-evidence-of-coverage) document for the specific terms of your vision benefit.",
+      "Some Medicare Advantage plans also cover medically necessary contact lenses (for conditions like keratoconus or post-surgical correction) beyond the routine eyewear allowance. Check your plan's Evidence of Coverage document for the specific terms of your vision benefit.",
     ],
       whatItCovers: [
       "Routine eye exam (typically 1 per year, $0 to $40 copay)",
@@ -33352,7 +33352,7 @@ export const coverageArticles: CoverageArticleData[] = [
       coverageLabel: "For Some Drugs",
       coverageType: "partial",
       paragraphs: [
-      "[Part D plans](/faqs/medicare-part-d-explained) use prior authorization for certain drugs on their formulary - typically high-cost, specialty, or brand-name medications. Your doctor must submit clinical documentation showing the drug is medically necessary for your condition.",
+      "[Part D plans](/original-medicare/medicare-parts/medicare-part-d/) use prior authorization for certain drugs on their formulary - typically high-cost, specialty, or brand-name medications. Your doctor must submit clinical documentation showing the drug is medically necessary for your condition.",
       "Step therapy is a related requirement where you must try a lower-cost drug first before the plan will approve a more expensive alternative. If the first-line drug fails or is contraindicated, your doctor can request a PA exception.",
     ],
       whatItCovers: [

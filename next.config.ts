@@ -1,3 +1,4 @@
+import { BROKEN_LINK_REPAIRS } from "./src/lib/broken-link-repairs";
 import { generateSitemapDates } from "./scripts/generate-sitemap-dates.mjs";
 import type { NextConfig } from "next";
 
@@ -58,6 +59,9 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   async redirects() {
     return [
+      ...Object.entries(BROKEN_LINK_REPAIRS)
+        .filter((entry): entry is [string, string] => entry[1] !== null)
+        .map(([source, destination]) => ({ source, destination, permanent: true })),
       {
         source: "/compare-rates",
         destination: "/medicare-supplement-plans",
@@ -117,7 +121,6 @@ const nextConfig: NextConfig = {
       { source: "/faqs/medicare-part-d-enrollment", destination: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-enrollment-periods", permanent: true },
       { source: "/faqs/does-medicare-cover-diabetic-supplies", destination: "/faqs/medicare-diabetes", permanent: true },
       { source: "/faqs/does-medicare-cover-skilled-nursing", destination: "/faqs/medicare-coverage-for-skilled-nursing-facilities", permanent: true },
-      { source: "/faqs/does-medicare-cover-wound-care", destination: "/faqs/medicare-and-wound-care-coverage", permanent: true },
       { source: "/faqs/medicare-supplement-plan-g", destination: "/medicare-supplement-plans/plan-g", permanent: true },
       { source: "/faqs/plan-g", destination: "/medicare-supplement-plans/plan-g", permanent: true },
       { source: "/faqs/what-does-medicare-part-a-cover", destination: "/original-medicare/medicare-parts/medicare-part-a", permanent: true },

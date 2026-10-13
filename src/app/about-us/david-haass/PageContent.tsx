@@ -103,7 +103,7 @@ export default function PageContent() {
                   </li>
                   <li className="flex items-start gap-2 text-gray-700 text-sm">
                     <CheckCircle2 className="text-teal-500 mt-0.5 shrink-0" size={14} />
-                    <Link href="/blog/medicare-costs-in-2026-premiums-deductibles-and-key-changes" className="text-teal-600 hover:underline">Medicare Costs in 2026: Premiums, Deductibles, and Key Changes</Link>
+                    <Link href="/faqs/medicare-costs-in-2026-premiums-deductibles-and-key-changes/" className="text-teal-600 hover:underline">Medicare Costs in 2026: Premiums, Deductibles, and Key Changes</Link>
                   </li>
                   <li className="flex items-start gap-2 text-gray-700 text-sm">
                     <CheckCircle2 className="text-teal-500 mt-0.5 shrink-0" size={14} />
@@ -115,7 +115,7 @@ export default function PageContent() {
                   </li>
                   <li className="flex items-start gap-2 text-gray-700 text-sm">
                     <CheckCircle2 className="text-teal-500 mt-0.5 shrink-0" size={14} />
-                    <Link href="/faqs/what-is-medicare-advantage" className="text-teal-600 hover:underline">What Is Medicare Advantage?</Link>
+                    <Link href="/medicare-part-c/medicare-advantage-plans/" className="text-teal-600 hover:underline">What Is Medicare Advantage?</Link>
                   </li>
                 </ul>
                 <Link href="/blog" className="inline-flex items-center gap-1 text-teal-600 hover:text-teal-700 font-semibold text-sm">

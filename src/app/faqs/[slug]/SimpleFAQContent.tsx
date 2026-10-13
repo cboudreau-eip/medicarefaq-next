@@ -9,6 +9,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import { repairInternalHref } from "@/lib/broken-link-repairs";
 import {
   Clock,
   User,
@@ -628,10 +629,13 @@ export default function SimpleFAQContent({ article, blogSlugs }: { article: Simp
                     Related Articles
                   </h3>
                   <div className="grid gap-3">
-                    {article.relatedSlugs.map((slug, i) => (
+                    {article.relatedSlugs.map((slug, i) => {
+                      const href = repairInternalHref(blogSlugs.has(slug) ? `/blog/${slug}` : `/faqs/${slug}`);
+                      if (href === null) return null;
+                      return (
                       <Link
                         key={i}
-                        href={blogSlugs.has(slug) ? `/blog/${slug}` : `/faqs/${slug}`}
+                        href={href}
                         className="flex items-center gap-3 p-4 bg-white border border-[#E5E7EB] rounded-lg hover:border-[#C41230]/30 hover:shadow-sm transition-all group"
                       >
                         <ArrowRight className="w-4 h-4 text-[#C41230] shrink-0 group-hover:translate-x-1 transition-transform" />
@@ -641,7 +645,8 @@ export default function SimpleFAQContent({ article, blogSlugs }: { article: Simp
                             .replace(/\b\w/g, (c) => c.toUpperCase())}
                         </span>
                       </Link>
-                    ))}
+                      );
+                    })}
                   </div>
                 </div>
               )}

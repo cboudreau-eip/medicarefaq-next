@@ -972,7 +972,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         type: 'list',
         ordered: false,
         items: [
-          '**[Original Medicare](/faqs/what-is-original-medicare) (Part A and Part B):** Original Medicare covers you anywhere in the U.S., so your coverage does not change when you move. However, you should still update your address to ensure accurate billing and to receive important communications.',
+          '**[Original Medicare](/original-medicare/) (Part A and Part B):** Original Medicare covers you anywhere in the U.S., so your coverage does not change when you move. However, you should still update your address to ensure accurate billing and to receive important communications.',
           '**Medicare Advantage and Part D Plans:** These plans are county-specific. Moving to a new area could mean your current plan is no longer available. If that happens, you will need to select a new plan to continue coverage.',
           '**Medicare Supplement (Medigap) Plans:** Medigap plans are regulated at the state level. Moving to a new state may affect your ability to keep your current Medigap policy or require you to choose a new plan.',
         ],
@@ -1649,7 +1649,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         type: 'list',
         ordered: true,
         items: [
-          '[Medigap Plan F](/faqs/what-does-medicare-supplement-plan-f-cover) - the most comprehensive option, covering 100% of Medicare-approved costs',
+          '[Medigap Plan F](/medicare-supplement-plans/plan-f/) - the most comprehensive option, covering 100% of Medicare-approved costs',
           '[Medigap Plan G](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one/) - the most popular plan for new enrollees, covering everything except the Part B deductible',
           '[Medigap Plan N](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one/) - the most budget-friendly option with small copays at the doctor and ER',
         ],
