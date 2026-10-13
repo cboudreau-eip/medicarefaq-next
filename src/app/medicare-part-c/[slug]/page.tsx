@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 import SiteLayout from "@/components/SiteLayout";
 import MedicareAdvantagePageContent from "../MedicareAdvantagePageContent";
 import { MEDICARE_ADVANTAGE_PAGES } from "@/lib/medicare-advantage-sub-data";
@@ -16,6 +17,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const page = MEDICARE_ADVANTAGE_PAGES.find((p) => p.slug === slug);
+  if (!page) notFound();
   return {
     title: page ? page.title : "Medicare Advantage",
     description: page?.heroDescription ?? "",
@@ -31,7 +33,8 @@ export default async function Page({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const page = MEDICARE_ADVANTAGE_PAGES.find((p) => p.slug === slug)!;
+  const page = MEDICARE_ADVANTAGE_PAGES.find((p) => p.slug === slug);
+  if (!page) notFound();
 
   const articleSchema = {
     "@context": "https://schema.org",

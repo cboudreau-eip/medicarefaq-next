@@ -2,6 +2,8 @@
  * Null entries have no verified equivalent; related cards for them are omitted.
  */
 export const BROKEN_LINK_REPAIRS: Readonly<Record<string, string | null>> = {
+  "/medicare-part-c/medicare-advantage-enrollment": "/medicare-part-c/medicare-advantage-enrollment-periods/",
+  "/medicare-part-c/medicare-advantage-give-back-benefit": "/faqs/medicare-part-b-give-back-plan/",
   "/faqs/what-is-medicare-advantage": "/medicare-part-c/medicare-advantage-plans/",
   "/medicare-enrollment/special-enrollment-periods": "/faqs/medicare-special-enrollment-periods/",
   "/enrollment": "/original-medicare/medicare-enrollment-periods/",

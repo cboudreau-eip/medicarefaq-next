@@ -370,7 +370,7 @@ export default function MedicareAdvantage() {
                 <aside aria-label="Give Back Benefit tip" className="bg-teal-50 border-l-4 border-teal-400 p-5 rounded-r-xl">
                   <p className="font-semibold text-teal-900 mb-1">Give Back Benefit</p>
                   <p className="text-sm text-teal-800">
-                    Some Medicare Advantage plans offer a <strong>Part B premium reduction</strong> (also called the &ldquo;<Link href="/medicare-part-c/medicare-advantage-give-back-benefit" className="text-teal-700 underline hover:text-teal-900">Give Back Benefit</Link>&rdquo;), which can reduce your monthly Part B premium by up to $202.90/month. Not all plans offer this, and availability varies by area.
+                    Some Medicare Advantage plans offer a <strong>Part B premium reduction</strong> (also called the &ldquo;<Link href="/faqs/medicare-part-b-give-back-plan/" className="text-teal-700 underline hover:text-teal-900">Give Back Benefit</Link>&rdquo;), which can reduce your monthly Part B premium by up to $202.90/month. Not all plans offer this, and availability varies by area.
                   </p>
                 </aside>
               </section>

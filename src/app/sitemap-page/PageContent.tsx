@@ -89,7 +89,7 @@ const sitemapSections = [
       { label: "SNP Plans", href: "/medicare-part-c/medicare-advantage-plan-snp" },
       { label: "Medicare Advantage Costs", href: "/medicare-part-c/medicare-advantage-costs" },
       { label: "Medicare Advantage Eligibility", href: "/medicare-part-c/medicare-advantage-eligibility" },
-      { label: "Medicare Advantage Enrollment", href: "/medicare-part-c/medicare-advantage-enrollment" },
+      { label: "Medicare Advantage Enrollment", href: "/medicare-part-c/medicare-advantage-enrollment-periods/" },
       { label: "Medicare Advantage vs Original Medicare", href: "/medicare-part-c/medicare-advantage-vs-original-medicare" },
     ],
   },

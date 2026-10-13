@@ -7,19 +7,6 @@ import type { MedicareAdvantageSubPage } from "@/lib/medicare-advantage-sub-data
 import { trackPhoneClick } from "@/lib/analytics";
 
 export default function MedicareAdvantagePageContent({ page, slug }: { page: MedicareAdvantageSubPage; slug: string }) {
-  if (!page) {
-    return (
-      <main className="flex-1 flex items-center justify-center">
-        <div className="text-center py-20">
-          <h1 className="text-2xl font-bold text-gray-800 mb-4">Page not Found</h1>
-          <Link href="/medicare-part-c/medicare-advantage-plans" className="text-teal-600 underline">
-            Back to Medicare Advantage
-          </Link>
-        </div>
-      </main>
-    );
-  }
-
   return (
     <>
       {/* Hero */}
