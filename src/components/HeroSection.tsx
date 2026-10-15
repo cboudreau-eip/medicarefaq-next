@@ -81,6 +81,8 @@ export default function HeroSection({ headline, aepPreview = false }: { headline
               transition={{ duration: 0.5, delay: 0.3, ease: "easeOut" }}
             >
               <Link
+                id="aep-hero-options"
+                data-track-button="aep-hero-options"
                 href="/medicare-open-enrollment/"
                 onClick={() => trackCtaClick({ button_label: "Learn About Your Options", destination: "/medicare-open-enrollment/", page_section: "hero" })}
                 className="inline-flex items-center justify-center rounded-lg bg-[#F97316] px-6 py-3.5 font-bold text-white shadow-lg transition-colors hover:bg-[#EA580C] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"

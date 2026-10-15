@@ -45,6 +45,7 @@ interface PageviewEvent {
   device_type?: string;
   session_id?: string;
   referrer?: string;
+  tracked_buttons?: unknown;
 }
 
 interface TrackPayload {
@@ -185,10 +186,11 @@ export async function POST(request: NextRequest) {
       for (const pv of pageviews) {
         if (!isValidPagePath(pv.page_path)) continue;
         await sql`
-          INSERT INTO heatmap_pageviews (page_path, device_type, session_id, referrer)
+          INSERT INTO heatmap_pageviews (page_path, device_type, session_id, referrer, tracked_buttons)
           VALUES (
             ${pv.page_path}, ${sanitizeString(pv.device_type) ?? "unknown"},
-            ${sanitizeString(pv.session_id)}, ${sanitizeString(pv.referrer)}
+            ${sanitizeString(pv.session_id)}, ${sanitizeString(pv.referrer)},
+            ${Array.isArray(pv.tracked_buttons) ? [...new Set(pv.tracked_buttons.filter((id): id is string => typeof id === "string" && /^[a-z0-9-]{1,80}$/.test(id)))].slice(0,20) : []}::text[]
           )
         `;
       }

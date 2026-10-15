@@ -95,7 +95,8 @@ export default function HeatmapTracker() {
       // Clicks usually land on an inner wrapper (a bare <div>/<span>), so walk up
       // to the nearest meaningful element and record THAT, so the analytics show
       // the button/link/heading instead of an unnamed container.
-      const target =
+      const trackedButton = raw?.closest?.("[data-track-button]") as HTMLElement | null;
+      const target = trackedButton ||
         (raw?.closest?.(
           "a, button, [role], [aria-label], input, select, textarea, label, summary, h1, h2, h3, h4, h5, h6"
         ) as HTMLElement | null) || raw;
@@ -112,7 +113,7 @@ export default function HeatmapTracker() {
         viewport_width: window.innerWidth,
         viewport_height: window.innerHeight,
         element_tag: target.tagName.toLowerCase(),
-        element_id: target.id || "",
+        element_id: trackedButton?.getAttribute("data-track-button") || target.id || "",
         element_class: target.className?.toString().slice(0, 200) || "",
         element_text: (
           target.getAttribute?.("aria-label") ||
@@ -128,7 +129,10 @@ export default function HeatmapTracker() {
 
       // Debounce flush
       if (flushTimeout.current) clearTimeout(flushTimeout.current);
-      flushTimeout.current = setTimeout(flush, 3000);
+      // Send the tracked CTA before navigation; flush drains the buffer, so
+      // route cleanup cannot send the same click again.
+      if (trackedButton) void flush();
+      else flushTimeout.current = setTimeout(flush, 3000);
     };
 
     const handleScroll = () => {
@@ -177,6 +181,8 @@ export default function HeatmapTracker() {
             device_type: getDeviceType(),
             session_id: getSessionId(),
             referrer: typeof document !== "undefined" ? document.referrer || "" : "",
+            tracked_buttons: Array.from(document.querySelectorAll("[data-track-button]"))
+              .map(element => element.getAttribute("data-track-button")).filter(Boolean),
           },
         ],
       }),

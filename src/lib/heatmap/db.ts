@@ -73,4 +73,5 @@ export async function initHeatmapSchema() {
   await sql`
     CREATE INDEX IF NOT EXISTS idx_pageviews_created_at ON heatmap_pageviews(created_at)
   `;
+  await sql`ALTER TABLE heatmap_pageviews ADD COLUMN IF NOT EXISTS tracked_buttons TEXT[] NOT NULL DEFAULT '{}'`;
 }
