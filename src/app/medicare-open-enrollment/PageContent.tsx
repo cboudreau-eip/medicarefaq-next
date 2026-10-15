@@ -24,7 +24,7 @@ import { trackPhoneClick } from "@/lib/analytics";
 
 const tableOfContents = [
   { id: "what-is", label: "What Is Open Enrollment?" },
-  { id: "dates", label: "2026 Dates & Deadlines" },
+  { id: "dates", label: "2026–2027 Dates & Deadlines" },
   { id: "what-you-can-do", label: "What You Can Change" },
   { id: "all-periods", label: "All Enrollment Periods" },
   { id: "tips", label: "Tips for Open Enrollment" },
@@ -47,7 +47,7 @@ const faqs = [
     a: (
       <>
         No. The Annual Enrollment Period does not apply to{" "}
-        <Link href="/medigap-plans" className="text-teal-700 underline hover:text-teal-900">Medigap plans</Link>. You can apply to change your Medigap plan at any time, but outside of your initial Medigap Open Enrollment Period (when you first turn 65), insurance companies can use medical underwriting.
+        <Link href="/medigap-plans" className="text-teal-700 underline hover:text-teal-900">Medigap plans</Link>. You can apply to change your Medigap plan at any time. Outside the six-month Medigap Open Enrollment Period that begins when you&apos;re at least 65 and enrolled in Part B, an insurer may use medical underwriting unless you have another guaranteed-issue right or state protection.
       </>
     ),
   },
@@ -236,7 +236,7 @@ export default function PageContent() {
                   What Is Medicare Open Enrollment?
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  Medicare Open Enrollment \u2014 officially called the <strong>Annual Enrollment Period (AEP)</strong> \u2014 is the yearly window when Medicare beneficiaries can make changes to their health and drug coverage. It&apos;s the primary time each year when you can switch plans, add coverage, or change how you receive your Medicare benefits.
+                  Medicare Open Enrollment \u2014 officially called the <strong>Annual Enrollment Period (AEP)</strong> \u2014 is the yearly window for people with Medicare to review and change their health or drug coverage for the following year. If you&apos;re newly eligible for Medicare, your Initial Enrollment Period is generally your first chance to enroll.
                 </p>
                 <p className="text-slate-600 leading-relaxed mb-4">
                   Outside of this period (and a few other special enrollment windows), your Medicare coverage is generally locked in for the year. That&apos;s why it&apos;s important to review your options each fall and make sure your current plan still meets your needs.
@@ -250,16 +250,16 @@ export default function PageContent() {
                 </p>
               </section>
 
-              {/* 2026 Dates & Deadlines */}
+              {/* 2026–2027 Dates & Deadlines */}
               <section id="dates" className="mb-16">
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
-                  2026 Medicare Enrollment Dates &amp; Deadlines
+                  2026–2027 Medicare Enrollment Dates &amp; Deadlines
                 </h2>
                 <ul className="space-y-4 list-none">
                   {[
                     { title: "Annual Enrollment Period (AEP)", dates: "October 15 \u2013 December 7, 2026", desc: "The main enrollment window. Changes take effect January 1, 2027.", icon: Calendar, color: "amber" as const },
-                    { title: "Medicare Advantage Open Enrollment (MA OEP)", dates: "January 1 \u2013 March 31, 2026", desc: "Only for people already in a Medicare Advantage plan. Switch MA plans or return to Original Medicare + Part D.", icon: Clock, color: "blue" as const },
-                    { title: "General Enrollment Period (GEP)", dates: "January 1 \u2013 March 31, 2026", desc: "For people who missed their Initial Enrollment Period. Sign up for Part A and/or Part B. Coverage begins July 1.", icon: Star, color: "slate" as const },
+                    { title: "Medicare Advantage Open Enrollment (MA OEP)", dates: "January 1 \u2013 March 31, 2027", desc: "Only for people already in a Medicare Advantage plan. Switch MA plans or return to Original Medicare and, if needed, join a Part D plan.", icon: Clock, color: "blue" as const },
+                    { title: "General Enrollment Period (GEP)", dates: "January 1 \u2013 March 31, 2027", desc: "For people who missed their Initial Enrollment Period. Sign up for Part B and, if you must buy it, Part A. Coverage starts the month after you sign up.", icon: Star, color: "slate" as const },
                   ].map((period) => {
                     const isHighlight = period.color === "amber";
                     return (
@@ -313,13 +313,13 @@ export default function PageContent() {
                   </div>
                   <div className="bg-red-50 border border-red-200 rounded-xl p-5">
                     <h3 className="font-bold text-red-800 mb-3 flex items-center gap-2">
-                      <XCircle className="w-5 h-5" aria-hidden="true" /> You CANNOT
+                      <XCircle className="w-5 h-5" aria-hidden="true" /> AEP DOES NOT
                     </h3>
                     <ul className="space-y-2 text-sm text-slate-700 list-none">
                       {[
-                        "Buy or switch Medigap plans (separate rules)",
-                        "Enroll in Medicare Part A or Part B for the first time",
-                        "Make changes to employer/union group coverage",
+                        "Provide guaranteed-issue rights for Medigap",
+                        "Enroll you in Medicare Part A or Part B",
+                        "Govern changes to employer or union group coverage",
                       ].map((item, i) => (
                         <li key={i} className="flex items-start gap-2">
                           <XCircle className="w-4 h-4 text-red-500 mt-0.5 shrink-0" aria-hidden="true" /> {item}
@@ -328,6 +328,9 @@ export default function PageContent() {
                     </ul>
                   </div>
                 </div>
+                <p className="text-sm text-slate-600">
+                  Medigap follows separate enrollment rules. You may apply for a policy outside AEP, but an insurer may use medical underwriting unless you qualify for protected enrollment rights.
+                </p>
               </section>
 
               {/* All Enrollment Periods */}
@@ -349,7 +352,7 @@ export default function PageContent() {
                     </thead>
                     <tbody>
                       {[
-                        ["Annual Enrollment (AEP)", "Oct 15 \u2013 Dec 7", "All Medicare beneficiaries", true],
+                        ["Annual Enrollment (AEP)", "Oct 15 \u2013 Dec 7", "People with Medicare changing next year\u2019s health or drug coverage", true],
                         ["MA Open Enrollment (OEP)", "Jan 1 \u2013 Mar 31", "Current MA plan members only", false],
                         ["Initial Enrollment (IEP)", "7-month window around 65th birthday", "People newly eligible for Medicare", false],
                         ["General Enrollment (GEP)", "Jan 1 \u2013 Mar 31", "Those who missed IEP", false],
@@ -379,7 +382,7 @@ export default function PageContent() {
                 </h2>
                 <ol className="space-y-3 list-none">
                   {[
-                    { num: "1", title: "Review Your Annual Notice of Change (ANOC)", desc: "Your plan mails this in September. It details any changes to premiums, copays, covered drugs, or provider networks for the upcoming year." },
+                    { num: "1", title: "Review Your Annual Notice of Change (ANOC)", desc: "Your plan must provide this by September 30, either on paper or electronically. It explains changes to costs and coverage for the coming year. If you do not receive it, contact your plan." },
                     { num: "2", title: "Check Your Medications", desc: "Make sure your prescriptions are still on your plan\u2019s formulary. Drug tiers and costs can change annually." },
                     { num: "3", title: "Verify Your Doctors Are Still In-Network", desc: "Provider networks change every year. Confirm your doctors, specialists, and preferred hospitals are still covered." },
                     { num: "4", title: "Compare Total Costs, Not Just Premiums", desc: "A $0 <strong>premium</strong> plan may cost more overall if it has high copays for services you use frequently." },
@@ -407,8 +410,8 @@ export default function PageContent() {
                   {[
                     { mistake: "Assuming your plan stays the same", fix: "Plans change benefits, costs, and networks annually. Always review your ANOC." },
                     { mistake: "Only comparing premiums", fix: "Factor in deductibles, copays, drug costs, and out-of-pocket maximums for a true cost picture." },
-                    { mistake: "Ignoring the Star Rating", fix: "Medicare rates plans 1-5 stars. Higher-rated plans typically provide better care coordination and customer service." },
-                    { mistake: "Forgetting about Part D coverage gaps", fix: "Check if your medications hit the coverage gap (donut hole) and what your plan charges during that phase." },
+                    { mistake: "Relying only on the Star Rating", fix: "CMS Star Ratings summarize quality and performance across multiple measures, but do not guarantee your individual experience. Compare benefits, costs, networks, and drug coverage too." },
+                    { mistake: "Overlooking total prescription costs", fix: "The Part D coverage gap ended in 2025. Compare each plan's formulary, drug tiers, deductible, pharmacy network, and estimated annual costs for your medications." },
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-4 p-5 rounded-xl border border-amber-200 bg-amber-50/50">
                       <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
@@ -419,6 +422,10 @@ export default function PageContent() {
                     </li>
                   ))}
                 </ul>
+                <p className="text-sm text-slate-600 mt-4">
+                  For covered Part D drugs, the annual out-of-pocket threshold is $2,100 in 2026 and $2,400 in 2027. After you reach it, you pay nothing out of pocket for covered Part D drugs for the rest of that calendar year. See{" "}
+                  <a href="https://www.medicare.gov/health-drug-plans/part-d/basics/costs" className="text-teal-700 underline hover:text-teal-900">Medicare&apos;s Part D cost guide</a>.
+                </p>
               </section>
 
               {/* FAQs */}
