@@ -20402,174 +20402,289 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedSlugs: ["does-medicare-cover-acupuncture", "does-medicare-cover-chiropractic-care", "does-medicare-cover-a-nutritionist", "medicare-coverage-for-lower-back-pain-management"],
   },
   {
-    slug: "will-medicare-pay-for-a-nebulizer-machine",
-    seo: {
-      title: "Does Medicare Cover Nebulizer Machines?",
-      description: "Medicare Part B covers nebulizer machines as durable medical equipment when medically necessary. Learn about coverage, costs, medications, and replacement rules.",
-      canonical: "https://www.medicarefaq.com/faqs/will-medicare-pay-for-a-nebulizer-machine/",
-      ogImage: "/images/medicarefaq-cover.jpg",
-    },
+  slug: "will-medicare-pay-for-a-nebulizer-machine",
+  seo: {
     title: "Does Medicare Cover Nebulizer Machines?",
-    subtitle: "Medicare Part B covers nebulizer machines as durable medical equipment (DME) when prescribed by a doctor for conditions like COPD or asthma. Learn about coverage, costs, medications, replacement rules, and how Medigap can help.",
-    category: "Medicare Coverage",
-    dateUpdated: "April 15, 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare.",
-    },
-    readTime: "7 min read",
-    quickAnswer: {
-      text: "Yes. <strong>Medicare Part B covers nebulizer machines</strong> as durable medical equipment (DME) when prescribed by a doctor for conditions like COPD or asthma. You pay <strong>20% coinsurance</strong> after the Part B deductible. Medicare Part D covers nebulizer medications like albuterol.",
-      badges: [
-        { plan: "Original Medicare", status: "covered" },
-        { plan: "Medicare Advantage", status: "covered" },
-        { plan: "Medigap", status: "covered" }],
-    },
-    comparisonTable: [
-      { planType: "Original Medicare (Part B)", coverage: "Covered (DME)", icon: "shield", notes: "Covers nebulizer machines at 80% as durable medical equipment" },
-      { planType: "Medicare Advantage", coverage: "Covered", icon: "heart", notes: "Must cover same DME benefits; network supplier rules apply" },
-      { planType: "Medigap", coverage: "Covers Cost-Sharing", icon: "plus", notes: "Covers the 20% coinsurance for nebulizer equipment" },
-      { planType: "Medicare Part D", coverage: "Rx Coverage", icon: "pill", notes: "Covers nebulizer medications (albuterol, steroids, antibiotics)" }],
-    planBreakdowns: [
-      {
-        planName: "Original Medicare (Part a & B)",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Covered",
-        coverageType: "covered",
-        paragraphs: [
-          "Medicare Part B covers nebulizer machines as durable medical equipment (DME) when a doctor prescribes one for a medical condition such as COPD, asthma, or other respiratory ailments. Your doctor must accept Medicare assignment and the equipment must be obtained from a Medicare-enrolled supplier.",
-          "You pay 20% of the Medicare-approved amount after meeting the annual Part B deductible. Medicare may cover the nebulizer as a rental or purchase, depending on the equipment's expected lifespan. For rentals, you pay 20% of the rental fee each month.",
-          "Medicare also covers nebulizer supplies and accessories included in your doctor's prescription. Nebulizer medications such as antibiotics and steroids administered through the device may be covered under Part B or Part D depending on the specific medication."],
-        whatItCovers: [
-          "Nebulizer machines when prescribed for COPD, asthma, or respiratory conditions",
-          "Nebulizer supplies and accessories included in the prescription",
-          "Equipment rental or purchase from Medicare-enrolled suppliers",
-          "Replacement equipment after 5 years of use (or sooner if lost/stolen/damaged)"],
-        whatItDoesntCover: [
-          "Nebulizers not prescribed by a Medicare-enrolled doctor",
-          "Equipment from suppliers who do not accept Medicare",
-          "Nebulizers purchased without a medical necessity determination"],
-        costNote: "20% coinsurance after $283 annual Part B deductible (2025). Medigap covers the 20% coinsurance.",
-      },
-      {
-        planName: "Medicare Advantage (Part C)",
-        icon: "heart",
-        iconColor: "#059669",
-        coverageLabel: "Covered",
-        coverageType: "covered",
-        paragraphs: [
-          "Medicare Advantage plans must cover nebulizer machines and DME at least as well as Original Medicare. Many plans include prescription drug coverage for nebulizer medications. You may need to use in-network DME suppliers to receive the best coverage.",
-          "Some Medicare Advantage plans may have different cost-sharing structures or lower out-of-pocket maximums for DME, which can provide savings compared to Original Medicare alone."],
-      },
-      {
-        planName: "Medicare Supplement (Medigap)",
-        icon: "plus",
-        iconColor: "#2563EB",
-        coverageLabel: "Covers Cost-Sharing",
-        coverageType: "covered",
-        paragraphs: [
-          "Medigap plans cover the 20% coinsurance that Medicare Part B does not pay for nebulizer equipment. With a Medigap plan, your out-of-pocket cost for a nebulizer could be reduced to zero beyond your monthly premium and Part B deductible.",
-          "Medigap also covers coinsurance for nebulizer supplies and any medications administered through the device that are covered under Part B. However, Medigap does not cover Part D prescription medications."],
-      },
-      {
-        planName: "Medicare Part D",
-        icon: "pill",
-        iconColor: "#7C3AED",
-        coverageLabel: "Prescription Coverage",
-        coverageType: "covered",
-        paragraphs: [
-          "Medicare Part D covers nebulizer medications including albuterol, steroids, and antibiotics used in the device. Most Part D plans include albuterol on their formulary. Your costs depend on your plan's tier structure and whether generic options are available.",
-          "Part D also covers nebulizer solutions when administered through a metered-dose inhaler or similar device. Check your plan's formulary to confirm coverage for your specific medications."],
-      }],
-    costTable: {
-      title: "Nebulizer Machine Costs with Medicare",
-      headers: ["Item", "Typical Cost", "Medicare Coverage"],
-      rows: [
-        { "Item": "Nebulizer machine (purchase)", "Typical Cost": "$50 - $300", "Medicare Coverage": "Covered at 80% (Part B DME)" },
-        { "Item": "Nebulizer machine (monthly rental)", "Typical Cost": "$20 - $50/month", "Medicare Coverage": "Covered at 80% (Part B DME)" },
-        { "Item": "Nebulizer supplies/accessories", "Typical Cost": "$10 - $50", "Medicare Coverage": "Covered at 80% (Part B)" },
-        { "Item": "Albuterol solution", "Typical Cost": "$10 - $50", "Medicare Coverage": "Covered (Part D)" },
-        { "Item": "Nebulizer steroids", "Typical Cost": "$20 - $100", "Medicare Coverage": "Covered (Part D)" },
-        { "Item": "Replacement nebulizer (after 5 years)", "Typical Cost": "$50 - $300", "Medicare Coverage": "Covered at 80% (Part B DME)" }],
-    },
-    exceptionsSection: {
-      title: "Exceptions and Limitations",
-      items: [
-        {
-          title: "Supplier Requirements",
-          text: "Your nebulizer must be obtained from a Medicare-enrolled DME supplier who accepts Medicare assignment. Equipment from non-participating suppliers may not be covered.",
-        },
-        {
-          title: "Replacement Rules",
-          text: "Medicare only replaces nebulizer equipment after 5 years of use. Earlier replacement is covered only if the equipment is lost, stolen, or damaged beyond repair due to a natural disaster or accident.",
-        },
-        {
-          title: "Prescription Requirement",
-          text: "A doctor must prescribe the nebulizer and determine it is medically necessary. Medicare will not cover a nebulizer purchased without a valid prescription from a Medicare-enrolled provider.",
-        },
-        {
-          title: "Rental vs. Purchase",
-          text: "Medicare may cover your nebulizer as a rental or purchase depending on the equipment's expected lifespan. For equipment with a life expectancy of 3 years or more, Medicare typically covers it as a purchase after a rental period.",
-        }],
-    },
-    faqs: [
-      {
-        question: "Does Medicare Cover Nebulizers for Asthma?",
-        answer: "Yes. When a doctor who accepts Medicare prescribes a nebulizer for asthma treatment, Medicare Part B covers the equipment as durable medical equipment at 80% after the deductible.",
-      },
-      {
-        question: "Does Medicare Part D Cover Albuterol for a Nebulizer?",
-        answer: "Yes. Most Medicare Part D plans cover albuterol. Check your plan's formulary to confirm coverage and determine your copay or coinsurance amount.",
-      },
-      {
-        question: "Does a Medigap Plan Pay for a Nebulizer?",
-        answer: "Yes. If Medicare covers the nebulizer, your Medigap plan will cover the remaining 20% coinsurance. Medigap also covers coinsurance for nebulizer supplies covered under Part B.",
-      },
-      {
-        question: "How Often Will Medicare Replace a Nebulizer?",
-        answer: "Medicare replaces nebulizer equipment after 5 years of use. Earlier replacement is covered only if the equipment is lost, stolen, or damaged beyond repair due to a natural disaster or accident.",
-      },
-      {
-        question: "Does Medicare Cover Nebulizer Supplies?",
-        answer: "Yes. Medicare covers nebulizer supplies and accessories that your doctor includes in your prescription. This includes tubing, masks, and mouthpieces from Medicare-enrolled suppliers.",
-      },
-      {
-        question: "When Does Medicare Part D Cover Nebulizer Solution?",
-        answer: "Part D covers nebulizer solutions when administered through a device such as a metered-dose inhaler. The equipment must have a life expectancy of 3 years or more and be sold or rented by an approved supplier.",
-      }],
-    quickReference: [
-      { icon: "check", text: "Medicare Part B covers <strong>nebulizer machines</strong> as DME" },
-      { icon: "check", text: "<strong>Nebulizer supplies</strong> and accessories are covered" },
-      { icon: "check", text: "<strong>Part D</strong> covers nebulizer medications like albuterol" },
-      { icon: "info", text: "Must use a <strong>Medicare-enrolled DME supplier</strong>" },
-      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> after Part B deductible" },
-      { icon: "info", text: "Replacement covered after <strong>5 years</strong> (or sooner if lost/stolen/damaged)" }],
-    relatedTopics: [
-      { title: "Medicare Coverage for Oxygen Therapy", description: "Learn about Medicare's coverage for oxygen equipment.", slug: "medicare-coverage-for-oxygen-therapy" },
-      { title: "Medicare Coverage for Asthma Inhalers", description: "Learn about Medicare's coverage for asthma medications.", slug: "does-medicare-cover-asthma-inhalers" },
-      { title: "Durable Medical Equipment Covered by Medicare", description: "Learn about all DME covered by Medicare Part B.", slug: "durable-medical-equipment" },
-      { title: "Medicare Coverage for COPD", description: "Learn about Medicare's coverage for COPD treatment.", slug: "does-medicare-cover-copd" }],
-    sidebarRelatedLinks: [
-      "Medicare Coverage for Oxygen Therapy",
-      "Does Medicare Cover Asthma Inhalers",
-      "Durable Medical Equipment Covered by Medicare",
-      "Medicare Coverage for COPD"],
-    ctaBanner: {
-      title: "Need Help Covering Nebulizer Costs?",
-      text: "Our licensed Medicare agents can help you find a Medigap plan that covers your Part B coinsurance for nebulizer equipment and a Part D plan for your medications. Compare plans in your area for free.",
-    },
-    relatedSlugs: ["medicare-coverage-for-oxygen-therapy", "does-medicare-cover-asthma-inhalers", "durable-medical-equipment", "does-medicare-cover-copd"],
+    description: "Medicare Part B covers nebulizer machines as durable medical equipment when medically necessary. Learn about coverage, costs, medications, and replacement rules.",
+    canonical: "https://www.medicarefaq.com/faqs/will-medicare-pay-for-a-nebulizer-machine/",
+    ogImage: "/images/medicarefaq-cover.jpg",
   },
+  title: "Does Medicare Cover Nebulizer Machines?",
+  subtitle: "Medicare Part B covers nebulizer machines as durable medical equipment (DME) when prescribed by a doctor for conditions like COPD or asthma. Learn about coverage, costs, medications, replacement rules, and how Medigap can help.",
+  category: "Medicare Coverage",
+  dateUpdated: "April 15, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare.",
+  },
+  readTime: "7 min read",
+  quickAnswer: {
+    text: "Yes. <strong>Medicare Part B covers nebulizer machines</strong> as durable medical equipment (DME) when a doctor prescribes one for a condition like COPD or asthma and you get it from a Medicare-enrolled supplier. You pay <strong>20% coinsurance</strong> after the Part B deductible, and Medicare Part D covers the nebulizer medications themselves, such as albuterol.",
+    badges: [
+      {
+        plan: "Original Medicare",
+        status: "covered",
+      },
+      {
+        plan: "Medicare Advantage",
+        status: "covered",
+      },
+      {
+        plan: "Medigap",
+        status: "covered",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Original Medicare (Part B)",
+      coverage: "Covered (DME)",
+      icon: "shield",
+      notes: "Covers nebulizer machines at 80% as durable medical equipment",
+    },
+    {
+      planType: "Medicare Advantage",
+      coverage: "Covered",
+      icon: "heart",
+      notes: "Must cover same DME benefits; network supplier rules apply",
+    },
+    {
+      planType: "Medigap",
+      coverage: "Covers Cost-Sharing",
+      icon: "plus",
+      notes: "Covers the 20% coinsurance for nebulizer equipment",
+    },
+    {
+      planType: "Medicare Part D",
+      coverage: "Rx Coverage",
+      icon: "pill",
+      notes: "Covers nebulizer medications (albuterol, steroids, antibiotics)",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "Original Medicare (Part a & B)",
+      icon: "shield",
+      iconColor: "#1B2A4A",
+      coverageLabel: "Covered",
+      coverageType: "covered",
+      paragraphs: [
+      "Medicare Part B covers nebulizer machines as durable medical equipment (DME) when a doctor prescribes one for a medical condition such as COPD, asthma, or other respiratory ailments. Your doctor must accept Medicare assignment and the equipment must be obtained from a Medicare-enrolled supplier.",
+      "You pay 20% of the Medicare-approved amount after meeting the annual Part B deductible. Medicare may cover the nebulizer as a rental or purchase, depending on the equipment's expected lifespan. For rentals, you pay 20% of the rental fee each month.",
+      "Medicare also covers nebulizer supplies and accessories included in your doctor's prescription. Nebulizer medications such as antibiotics and steroids administered through the device may be covered under Part B or Part D depending on the specific medication.",
+    ],
+      whatItCovers: [
+      "Nebulizer machines when prescribed for COPD, asthma, or respiratory conditions",
+      "Nebulizer supplies and accessories included in the prescription",
+      "Equipment rental or purchase from Medicare-enrolled suppliers",
+      "Replacement equipment after 5 years of use (or sooner if lost/stolen/damaged)",
+    ],
+      whatItDoesntCover: [
+      "Nebulizers not prescribed by a Medicare-enrolled doctor",
+      "Equipment from suppliers who do not accept Medicare",
+      "Nebulizers purchased without a medical necessity determination",
+    ],
+      costNote: "20% coinsurance after $283 annual Part B deductible (2025). Medigap covers the 20% coinsurance.",
+    },
+    {
+      planName: "Medicare Advantage (Part C)",
+      icon: "heart",
+      iconColor: "#059669",
+      coverageLabel: "Covered",
+      coverageType: "covered",
+      paragraphs: [
+      "Medicare Advantage plans must cover nebulizer machines and DME at least as well as Original Medicare. Many plans include prescription drug coverage for nebulizer medications. You may need to use in-network DME suppliers to receive the best coverage.",
+      "Some Medicare Advantage plans may have different cost-sharing structures or lower out-of-pocket maximums for DME, which can provide savings compared to Original Medicare alone.",
+    ],
+    },
+    {
+      planName: "Medicare Supplement (Medigap)",
+      icon: "plus",
+      iconColor: "#2563EB",
+      coverageLabel: "Covers Cost-Sharing",
+      coverageType: "covered",
+      paragraphs: [
+      "Medigap plans cover the 20% coinsurance that Medicare Part B does not pay for nebulizer equipment. With a Medigap plan, your out-of-pocket cost for a nebulizer could be reduced to zero beyond your monthly premium and Part B deductible.",
+      "Medigap also covers coinsurance for nebulizer supplies and any medications administered through the device that are covered under Part B. However, Medigap does not cover Part D prescription medications.",
+    ],
+    },
+    {
+      planName: "Medicare Part D",
+      icon: "pill",
+      iconColor: "#7C3AED",
+      coverageLabel: "Prescription Coverage",
+      coverageType: "covered",
+      paragraphs: [
+      "Medicare Part D covers nebulizer medications including albuterol, steroids, and antibiotics used in the device. Most Part D plans include albuterol on their formulary. Your costs depend on your plan's tier structure and whether generic options are available.",
+      "Part D also covers nebulizer solutions when administered through a metered-dose inhaler or similar device. Check your plan's formulary to confirm coverage for your specific medications.",
+    ],
+    },
+  ],
+  costTable: {
+    title: "Nebulizer Machine Costs with Medicare",
+    headers: [
+    "Item",
+    "Typical Cost",
+    "Medicare Coverage",
+  ],
+    rows: [
+      {
+        "Item": "Nebulizer machine (purchase)",
+        "Typical Cost": "$50 - $300",
+        "Medicare Coverage": "Covered at 80% (Part B DME)",
+      },
+      {
+        "Item": "Nebulizer machine (monthly rental)",
+        "Typical Cost": "$20 - $50/month",
+        "Medicare Coverage": "Covered at 80% (Part B DME)",
+      },
+      {
+        "Item": "Nebulizer supplies/accessories",
+        "Typical Cost": "$10 - $50",
+        "Medicare Coverage": "Covered at 80% (Part B)",
+      },
+      {
+        "Item": "Albuterol solution",
+        "Typical Cost": "$10 - $50",
+        "Medicare Coverage": "Covered (Part D)",
+      },
+      {
+        "Item": "Nebulizer steroids",
+        "Typical Cost": "$20 - $100",
+        "Medicare Coverage": "Covered (Part D)",
+      },
+      {
+        "Item": "Replacement nebulizer (after 5 years)",
+        "Typical Cost": "$50 - $300",
+        "Medicare Coverage": "Covered at 80% (Part B DME)",
+      },
+    ],
+  },
+  exceptionsSection: {
+    title: "Exceptions and Limitations",
+    items: [
+      {
+        title: "Supplier Requirements",
+        text: "Your nebulizer must be obtained from a Medicare-enrolled DME supplier who accepts Medicare assignment. Equipment from non-participating suppliers may not be covered.",
+      },
+      {
+        title: "Replacement Rules",
+        text: "Medicare only replaces nebulizer equipment after 5 years of use. Earlier replacement is covered only if the equipment is lost, stolen, or damaged beyond repair due to a natural disaster or accident.",
+      },
+      {
+        title: "Prescription Requirement",
+        text: "A doctor must prescribe the nebulizer and determine it is medically necessary. Medicare will not cover a nebulizer purchased without a valid prescription from a Medicare-enrolled provider.",
+      },
+      {
+        title: "Rental vs. Purchase",
+        text: "Medicare may cover your nebulizer as a rental or purchase depending on the equipment's expected lifespan. For equipment with a life expectancy of 3 years or more, Medicare typically covers it as a purchase after a rental period.",
+      },
+    ],
+  },
+  faqs: [
+    {
+      question: "Does Medicare Cover Nebulizers for Asthma?",
+      answer: "Yes. When a doctor who accepts Medicare prescribes a nebulizer for asthma treatment, Medicare Part B covers the equipment as durable medical equipment at 80% after the deductible.",
+    },
+    {
+      question: "Does Medicare Part D Cover Albuterol for a Nebulizer?",
+      answer: "Yes. Most Medicare Part D plans cover albuterol. Check your plan's formulary to confirm coverage and determine your copay or coinsurance amount.",
+    },
+    {
+      question: "Does a Medigap Plan Pay for a Nebulizer?",
+      answer: "Yes. If Medicare covers the nebulizer, your Medigap plan will cover the remaining 20% coinsurance. Medigap also covers coinsurance for nebulizer supplies covered under Part B.",
+    },
+    {
+      question: "How Often Will Medicare Replace a Nebulizer?",
+      answer: "Medicare replaces nebulizer equipment after 5 years of use. Earlier replacement is covered only if the equipment is lost, stolen, or damaged beyond repair due to a natural disaster or accident.",
+    },
+    {
+      question: "Does Medicare Cover Nebulizer Supplies?",
+      answer: "Yes. Medicare covers nebulizer supplies and accessories that your doctor includes in your prescription. This includes tubing, masks, and mouthpieces from Medicare-enrolled suppliers.",
+    },
+    {
+      question: "When Does Medicare Part D Cover Nebulizer Solution?",
+      answer: "Part D covers nebulizer solutions when administered through a device such as a metered-dose inhaler. The equipment must have a life expectancy of 3 years or more and be sold or rented by an approved supplier.",
+    },
+    {
+      question: "Does Medicare Rent or Buy Nebulizer Machines?",
+      answer: "Medicare typically covers nebulizer machines as a rental for a set period before you own the equipment outright, though in some cases you may be able to purchase it directly. Your supplier and your do",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "check",
+      text: "Medicare Part B covers <strong>nebulizer machines</strong> as DME",
+    },
+    {
+      icon: "check",
+      text: "<strong>Nebulizer supplies</strong> and accessories are covered",
+    },
+    {
+      icon: "check",
+      text: "<strong>Part D</strong> covers nebulizer medications like albuterol",
+    },
+    {
+      icon: "info",
+      text: "Must use a <strong>Medicare-enrolled DME supplier</strong>",
+    },
+    {
+      icon: "dollar",
+      text: "You pay <strong>20% coinsurance</strong> after Part B deductible",
+    },
+    {
+      icon: "info",
+      text: "Replacement covered after <strong>5 years</strong> (or sooner if lost/stolen/damaged)",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Medicare Coverage for Oxygen Therapy",
+      description: "Learn about Medicare's coverage for oxygen equipment.",
+      slug: "medicare-coverage-for-oxygen-therapy",
+    },
+    {
+      title: "Medicare Coverage for Asthma Inhalers",
+      description: "Learn about Medicare's coverage for asthma medications.",
+      slug: "does-medicare-cover-asthma-inhalers",
+    },
+    {
+      title: "Durable Medical Equipment Covered by Medicare",
+      description: "Learn about all DME covered by Medicare Part B.",
+      slug: "durable-medical-equipment",
+    },
+    {
+      title: "Medicare Coverage for COPD",
+      description: "Learn about Medicare's coverage for COPD treatment.",
+      slug: "does-medicare-cover-copd",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "Medicare Coverage for Oxygen Therapy",
+    "Does Medicare Cover Asthma Inhalers",
+    "Durable Medical Equipment Covered by Medicare",
+    "Medicare Coverage for COPD",
+  ],
+  ctaBanner: {
+    title: "Need Help Covering Nebulizer Costs?",
+    text: "Our licensed Medicare agents can help you find a Medigap plan that covers your Part B coinsurance for nebulizer equipment and a Part D plan for your medications. Compare plans in your area for free.",
+  },
+  relatedSlugs: [
+    "medicare-coverage-for-oxygen-therapy",
+    "does-medicare-cover-asthma-inhalers",
+    "durable-medical-equipment",
+    "does-medicare-cover-copd",
+  ],
+},
   {
     slug: "does-medicare-pay-for-emergency-medical-transport-from-one-hospital-to-another",
     seo: {
