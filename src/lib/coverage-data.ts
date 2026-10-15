@@ -12627,7 +12627,7 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   readTime: "9 min read",
   quickAnswer: {
-    text: "Yes, Medicare Part B covers one screening mammogram every 12 months for women age 40 and older at $0 cost (no deductible, no coinsurance) when your provider accepts Medicare Assignment, with no upper age limit. Diagnostic mammograms are covered at 80% after the Part B deductible ($283 in 2026). Medicare also covers 3D mammograms (digital breast tomosynthesis) at the same rates as 2D mammograms, breast ultrasounds, and breast MRIs when medically necessary.",
+    text: "Yes, Medicare Part B covers one screening mammogram every 12 months for women age 40 and older at $0 cost (no deductible, no coinsurance) when your provider accepts Medicare Assignment, with no upper age limit and no referral required. Diagnostic mammograms are covered at 80% after the Part B deductible ($283 in 2026). Medicare also covers 3D mammograms (digital breast tomosynthesis) at the same rates as 2D mammograms, breast ultrasounds, and breast MRIs when medically necessary. Medicare Advantage plans must cover the same mammogram benefits as Original Medicare, though plan rules on network ",
     badges: [
       {
         plan: "Original Medicare",
@@ -12875,6 +12875,10 @@ export const coverageArticles: CoverageArticleData[] = [
     {
       question: "Do I need a doctor's referral for a mammogram with Medicare?",
       answer: "No, Medicare does not require a doctor's referral or written order for an annual screening mammogram. You can schedule your screening mammogram directly with a Medicare-participating facility. A diagn",
+    },
+    {
+      question: "What if my mammogram provider doesn't accept Medicare assignment?",
+      answer: "If your mammogram provider does not accept Medicare assignment, you could be charged more than the Medicare-approved amount for the service, and you may need to pay the difference out of pocket. To av",
     },
   ],
   quickReference: [
