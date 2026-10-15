@@ -22402,117 +22402,186 @@ export const coverageArticles: CoverageArticleData[] = [
       "does-medicare-cover-durable-medical-equipment"],
   },
   {
-    slug: "medicare-part-d-six-protected-classes",
-    seo: {
-      title: "Medicare Part D Six Protected Drug Classes",
-      description: "Medicare Part D plans must cover all or substantially all drugs in six protected classes, including antidepressants, antipsychotics, anticonvulsants, and more. Learn what this means for you.",
-      canonical: "https://www.medicarefaq.com/faqs/medicare-part-d-six-protected-classes/",
-      ogImage: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg",
-    },
+  slug: "medicare-part-d-six-protected-classes",
+  seo: {
     title: "Medicare Part D Six Protected Drug Classes",
-    subtitle: "Medicare Part D plans are required to cover all or substantially all drugs in six protected classes. This rule ensures that beneficiaries with complex conditions - such as mental illness, epilepsy, HIV/AIDS, cancer, and organ transplants - have access to the specific medications they need.",
-    category: "Medicare Coverage",
-    dateUpdated: "April 24, 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
-    },
-    readTime: "3 min read",
-    quickAnswer: {
-      text: "Medicare Part D plans must cover all or substantially all drugs in six protected classes: antidepressants, antipsychotics, anticonvulsants, antiretrovirals (HIV/AIDS), immunosuppressants for organ transplants, and antineoplastics (cancer). This protection ensures that beneficiaries who rely on specific medications in these categories cannot be denied coverage by their Part D plan, even if the drug is not on the plan's standard formulary.",
-      badges: [
-        { plan: "Original Medicare", status: "not-covered" },
-        { plan: "Medicare Advantage", status: "covered" },
-        { plan: "Medicare Part D", status: "covered" }],
-    },
-    comparisonTable: [
-      { planType: "Medicare Part D (Standalone)", coverage: "Covered", icon: "filetext", notes: "Must cover all or substantially all drugs in the six protected classes" },
-      { planType: "Medicare Advantage with Part D (MAPD)", coverage: "Covered", icon: "heart", notes: "Same protected class requirements apply to MA-PD plans" },
-      { planType: "Original Medicare (Part A & B)", coverage: "Not Applicable", icon: "shield", notes: "Part A and B do not cover outpatient prescription drugs; Part D applies" },
-      { planType: "Medicare Supplement (Medigap)", coverage: "Not Applicable", icon: "users", notes: "Medigap does not cover prescription drugs; you need a separate Part D plan" }],
-    planBreakdowns: [
-      {
-        planName: "The Six Protected Classes",
-        icon: "filetext",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Covered",
-        coverageType: "covered",
-        paragraphs: [
-          "All Medicare Part D plans - including standalone Prescription Drug Plans (PDPs) and Medicare Advantage plans with drug coverage (MA-PDs) - must cover all or substantially all drugs in these six categories: (1) antidepressants, (2) antipsychotics, (3) anticonvulsants, (4) antiretrovirals for HIV/AIDS, (5) immunosuppressants for organ and tissue transplants, and (6) antineoplastics for cancer treatment.",
-          "This protection means your plan cannot remove a drug in one of these classes from its formulary mid-year without CMS approval, and cannot require you to try a different drug first (step therapy) for these classes in most circumstances."],
-      },
-      {
-        planName: "What this Means for You",
-        icon: "shield",
-        iconColor: "#059669",
-        coverageLabel: "Protected",
-        coverageType: "covered",
-        paragraphs: [
-          "If you take a medication in one of the six protected classes, your Part D plan is required to cover it. If your plan denies coverage, you have the right to appeal. You can also request a formulary exception if your specific drug is not listed, and your plan must give it serious consideration given the protected class rules.",
-          "When comparing [Part D plans](/faqs/what-is-a-medicare-part-d-formulary), always verify that your specific medication is on the plan's formulary and at what cost tier. Even within protected classes, cost-sharing (copays and coinsurance) can vary significantly between plans."],
-      },
-      {
-        planName: "Medicare Advantage with Drug Coverage (MA-PD)",
-        icon: "heart",
-        iconColor: "#7C3AED",
-        coverageLabel: "Covered",
-        coverageType: "covered",
-        paragraphs: [
-          "[Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans/) that include prescription drug coverage (MA-PD plans) must follow the same six protected class rules as standalone Part D plans. If you are enrolled in an MA-PD plan, your protected class drugs must be covered."],
-      }],
-    faqs: [
-      {
-        question: "What are the Six Protected Drug Classes in Medicare Part D?",
-        answer: "Antidepressants, antipsychotics, anticonvulsants, antiretrovirals (HIV/AIDS), immunosuppressants (organ transplants), and antineoplastics (cancer).",
-      },
-      {
-        question: "Can My Part D Plan Remove a Protected Class Drug from its Formulary?",
-        answer: "Not mid-year without CMS approval. Protected class drugs have stronger formulary stability protections than other medications.",
-      },
-      {
-        question: "What Can I do if My Part D Plan Denies a Protected Class Drug?",
-        answer: "You can file a coverage determination request or appeal. Given the protected class rules, your plan must have a strong justification to deny coverage.",
-      },
-      {
-        question: "Does the Protected Class Rule Apply to Medicare Advantage Drug Plans?",
-        answer: "Yes. Medicare Advantage plans with prescription drug coverage (MA-PD) must follow the same six protected class requirements as standalone Part D plans.",
-      }],
-    quickReference: [
-      { icon: "check", text: "Part D must cover <strong>all or substantially all</strong> drugs in the six protected classes" },
-      { icon: "check", text: "Protected classes: antidepressants, antipsychotics, anticonvulsants, antiretrovirals, immunosuppressants, antineoplastics" },
-      { icon: "info", text: "Plans <strong>cannot remove</strong> protected class drugs mid-year without CMS approval" },
-      { icon: "info", text: "You can <strong>appeal</strong> if your plan denies a protected class medication" }],
-    relatedTopics: [
-      { title: "What is a Medicare Part D Formulary?", description: "Learn how Medicare Part D drug formularies work and how to compare plans.", slug: "what-is-a-medicare-part-d-formulary" },
-      { title: "Does Medicare Cover Mental Health Services?", description: "Learn what Medicare covers for mental health, including psychiatric medications.", slug: "medicare-coverage-for-mental-health" },
-      { title: "Does Medicare Cover Cancer?", description: "Learn what Medicare covers for cancer treatment, including chemotherapy.", slug: "medicare-coverage-for-cancer" },
-      { title: "Your Medicare Rights and Protections", description: "Learn about your rights as a Medicare beneficiary, including appeal rights.", slug: "your-medicare-rights-and-protections" }],
-    sidebarRelatedLinks: [
-      "What Is a Medicare Part D Formulary",
-      "Does Medicare Cover Mental Health Services",
-      "Does Medicare Cover Cancer",
-      "Your Medicare Rights and Protections"],
-    ctaBanner: {
-      title: "Need Help Choosing the Right Part D Plan?",
-      text: "Our licensed agents can help you find a plan that covers your medications, including protected class drugs.",
-    },
-    relatedSlugs: [
-      "what-is-a-medicare-part-d-formulary",
-      "medicare-coverage-for-mental-health",
-      "medicare-coverage-for-cancer",
-      "your-medicare-rights-and-protections",
-      "medicare-coverage-for-disabled-under-65",
-      "does-medicare-cover-end-stage-renal-disease"],
+    description: "Medicare Part D plans must cover all or substantially all drugs in six protected classes, including antidepressants, antipsychotics, anticonvulsants, and more",
+    canonical: "https://www.medicarefaq.com/faqs/medicare-part-d-six-protected-classes/",
+    ogImage: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg",
   },
+  title: "Medicare Part D Six Protected Drug Classes",
+  subtitle: "Medicare Part D plans are required to cover all or substantially all drugs in six protected classes. This rule ensures that beneficiaries with complex conditions - such as mental illness, epilepsy, HIV/AIDS, cancer, and organ transplants - have access to the specific medications they need.",
+  category: "Medicare Coverage",
+  dateUpdated: "April 24, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+  },
+  readTime: "3 min read",
+  quickAnswer: {
+    text: "Medicare Part D plans must cover all or substantially all drugs in six protected classes: antidepressants, antipsychotics, anticonvulsants, antiretrovirals (HIV/AIDS), immunosuppressants for organ transplants, and antineoplastics (cancer). This protection ensures that beneficiaries who rely on specific medications in these categories cannot be denied coverage by their Part D plan, even if the drug is not on the plan's standard formulary.",
+    badges: [
+      {
+        plan: "Original Medicare",
+        status: "not-covered",
+      },
+      {
+        plan: "Medicare Advantage",
+        status: "covered",
+      },
+      {
+        plan: "Medicare Part D",
+        status: "covered",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Medicare Part D (Standalone)",
+      coverage: "Covered",
+      icon: "filetext",
+      notes: "Must cover all or substantially all drugs in the six protected classes",
+    },
+    {
+      planType: "Medicare Advantage with Part D (MAPD)",
+      coverage: "Covered",
+      icon: "heart",
+      notes: "Same protected class requirements apply to MA-PD plans",
+    },
+    {
+      planType: "Original Medicare (Part A & B)",
+      coverage: "Not Applicable",
+      icon: "shield",
+      notes: "Part A and B do not cover outpatient prescription drugs; Part D applies",
+    },
+    {
+      planType: "Medicare Supplement (Medigap)",
+      coverage: "Not Applicable",
+      icon: "users",
+      notes: "Medigap does not cover prescription drugs; you need a separate Part D plan",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "The Six Protected Classes",
+      icon: "filetext",
+      iconColor: "#1B2A4A",
+      coverageLabel: "Covered",
+      coverageType: "covered",
+      paragraphs: [
+      "All Medicare Part D plans - including standalone Prescription Drug Plans (PDPs) and Medicare Advantage plans with drug coverage (MA-PDs) - must cover all or substantially all drugs in these six categories: (1) antidepressants, (2) antipsychotics, (3) anticonvulsants, (4) antiretrovirals for HIV/AIDS, (5) immunosuppressants for organ and tissue transplants, and (6) antineoplastics for cancer treatment.",
+      "This protection means your plan cannot remove a drug in one of these classes from its formulary mid-year without CMS approval, and cannot require you to try a different drug first (step therapy) for these classes in most circumstances.",
+    ],
+    },
+    {
+      planName: "What this Means for You",
+      icon: "shield",
+      iconColor: "#059669",
+      coverageLabel: "Protected",
+      coverageType: "covered",
+      paragraphs: [
+      "If you take a medication in one of the six protected classes, your Part D plan is required to cover it. If your plan denies coverage, you have the right to appeal. You can also request a formulary exception if your specific drug is not listed, and your plan must give it serious consideration given the protected class rules.",
+      "When comparing [Part D plans](/faqs/what-is-a-medicare-part-d-formulary), always verify that your specific medication is on the plan's formulary and at what cost tier. Even within protected classes, cost-sharing (copays and coinsurance) can vary significantly between plans.",
+    ],
+    },
+    {
+      planName: "Medicare Advantage with Drug Coverage (MA-PD)",
+      icon: "heart",
+      iconColor: "#7C3AED",
+      coverageLabel: "Covered",
+      coverageType: "covered",
+      paragraphs: [
+      "[Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans/) that include prescription drug coverage (MA-PD plans) must follow the same six protected class rules as standalone Part D plans. If you are enrolled in an MA-PD plan, your protected class drugs must be covered.",
+    ],
+    },
+  ],
+  faqs: [
+    {
+      question: "What are the Six Protected Drug Classes in Medicare Part D?",
+      answer: "Antidepressants, antipsychotics, anticonvulsants, antiretrovirals (HIV/AIDS), immunosuppressants (organ transplants), and antineoplastics (cancer).",
+    },
+    {
+      question: "Can My Part D Plan Remove a Protected Class Drug from its Formulary?",
+      answer: "Not mid-year without CMS approval. Protected class drugs have stronger formulary stability protections than other medications.",
+    },
+    {
+      question: "What Can I do if My Part D Plan Denies a Protected Class Drug?",
+      answer: "You can file a coverage determination request or appeal. Given the protected class rules, your plan must have a strong justification to deny coverage.",
+    },
+    {
+      question: "Does the Protected Class Rule Apply to Medicare Advantage Drug Plans?",
+      answer: "Yes. Medicare Advantage plans with prescription drug coverage (MA-PD) must follow the same six protected class requirements as standalone Part D plans.",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "check",
+      text: "Part D must cover <strong>all or substantially all</strong> drugs in the six protected classes",
+    },
+    {
+      icon: "check",
+      text: "Protected classes: antidepressants, antipsychotics, anticonvulsants, antiretrovirals, immunosuppressants, antineoplastics",
+    },
+    {
+      icon: "info",
+      text: "Plans <strong>cannot remove</strong> protected class drugs mid-year without CMS approval",
+    },
+    {
+      icon: "info",
+      text: "You can <strong>appeal</strong> if your plan denies a protected class medication",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "What is a Medicare Part D Formulary?",
+      description: "Learn how Medicare Part D drug formularies work and how to compare plans.",
+      slug: "what-is-a-medicare-part-d-formulary",
+    },
+    {
+      title: "Does Medicare Cover Mental Health Services?",
+      description: "Learn what Medicare covers for mental health, including psychiatric medications.",
+      slug: "medicare-coverage-for-mental-health",
+    },
+    {
+      title: "Does Medicare Cover Cancer?",
+      description: "Learn what Medicare covers for cancer treatment, including chemotherapy.",
+      slug: "medicare-coverage-for-cancer",
+    },
+    {
+      title: "Your Medicare Rights and Protections",
+      description: "Learn about your rights as a Medicare beneficiary, including appeal rights.",
+      slug: "your-medicare-rights-and-protections",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "What Is a Medicare Part D Formulary",
+    "Does Medicare Cover Mental Health Services",
+    "Does Medicare Cover Cancer",
+    "Your Medicare Rights and Protections",
+  ],
+  ctaBanner: {
+    title: "Need Help Choosing the Right Part D Plan?",
+    text: "Our licensed agents can help you find a plan that covers your medications, including protected class drugs.",
+  },
+  relatedSlugs: [
+    "what-is-a-medicare-part-d-formulary",
+    "medicare-coverage-for-mental-health",
+    "medicare-coverage-for-cancer",
+    "your-medicare-rights-and-protections",
+    "medicare-coverage-for-disabled-under-65",
+    "does-medicare-cover-end-stage-renal-disease",
+  ],
+  youtubeVideoId: "sCdAfk-zQFU",
+},
   {
     slug: "what-is-a-medicare-part-d-formulary",
     seo: {
