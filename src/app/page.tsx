@@ -1,16 +1,10 @@
 import type { Metadata } from "next";
-import UtilityBar from "@/components/UtilityBar";
-import HeaderBar from "@/components/HeaderBar";
-import MegaMenu from "@/components/MegaMenu";
-import MobileNav from "@/components/MobileNav";
-import HeroSection from "@/components/HeroSection";
-import JourneySection from "@/components/JourneySection";
-import TopicSection from "@/components/TopicSection";
-import ZipFinderSection from "@/components/ZipFinderSection";
-import ResourcesSection from "@/components/ResourcesSection";
-import TestimonialsSection from "@/components/TestimonialsSection";
-import CTABanner from "@/components/CTABanner";
-import Footer from "@/components/Footer";
+import AEPHomePage from "@/components/AEPHomePage";
+import OriginalHomePage from "@/components/OriginalHomePage";
+import { getAEPHomepageStage } from "@/lib/aep-homepage";
+
+// Re-evaluate the Eastern-time AEP dates per request, not just at build time.
+export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "MedicareFAQ | Your Supplemental Medicare Resource Center",
@@ -28,6 +22,7 @@ export const metadata: Metadata = {
 };
 
 export default function HomePage() {
+  const aepStage = getAEPHomepageStage();
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -67,7 +62,7 @@ export default function HomePage() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
@@ -76,30 +71,7 @@ export default function HomePage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webSiteSchema) }}
       />
-      {/* Navigation — Desktop */}
-      <header className="hidden lg:block sticky top-0 z-50 bg-white shadow-sm">
-        <UtilityBar />
-        <HeaderBar />
-        <MegaMenu />
-      </header>
-
-      {/* Navigation — Mobile */}
-      <header className="lg:hidden sticky top-0 z-50 bg-white shadow-sm">
-        <MobileNav />
-      </header>
-
-      {/* Main Content */}
-      <main className="flex-1">
-        <HeroSection />
-        <JourneySection />
-        <TopicSection />
-        <ZipFinderSection />
-        <ResourcesSection />
-        <TestimonialsSection />
-        <CTABanner />
-      </main>
-
-      <Footer />
-    </div>
+      {aepStage ? <AEPHomePage stage={aepStage} /> : <OriginalHomePage />}
+    </>
   );
 }
