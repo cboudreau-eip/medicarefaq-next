@@ -10,6 +10,8 @@ export default function AEPScrollingBanner({ stage }: { stage: AEPBannerStage })
     <aside aria-label="Medicare Annual Enrollment announcement" className="border-t border-white/20 bg-[#214172] text-white">
       <div className="flex min-h-14 items-center px-4 py-2 sm:px-6 lg:px-8">
         <Link
+          id="aep-scrolling-specialist"
+          data-track-button="aep-scrolling-specialist"
           href="/contact/"
           aria-label={`${message}. ${cta}`}
           className={styles.track}

@@ -22,6 +22,9 @@ test('tracked CTA sends one immediate click, stable identity and tagged pageview
   cleanup.forEach(fn=>fn?.());assert.equal(requests.filter(r=>r.clicks?.length).length,1);
   const hero=fs.readFileSync(new URL('../src/components/HeroSection.tsx',import.meta.url),'utf8');assert.match(hero,/data-track-button="aep-hero-options"/);
   const enrollment=fs.readFileSync(new URL('../src/app/medicare-open-enrollment/PageContent.tsx',import.meta.url),'utf8');
+  for(const component of ['HeaderBar','MegaMenu','MobileNav'])assert.match(fs.readFileSync(new URL(`../src/components/${component}.tsx`,import.meta.url),'utf8'),/trackingId="header-get-started"/);
+  assert.match(fs.readFileSync(new URL('../src/components/ZipFormModal.tsx',import.meta.url),'utf8'),/data-track-button=\{trackingId\}/);
+  assert.equal((fs.readFileSync(new URL('../src/components/AEPScrollingBanner.tsx',import.meta.url),'utf8').match(/data-track-button="aep-scrolling-specialist"/g)||[]).length,1);
   for(const id of ['enrollment-hero-compare','enrollment-hero-agent']){
     assert.ok(enrollment.includes(`data-track-button="${id}"`));
     button.getAttribute=key=>key==='data-track-button'?id:null;

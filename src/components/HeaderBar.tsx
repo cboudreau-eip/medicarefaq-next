@@ -242,6 +242,7 @@ export default function HeaderBar({ centeredLogo = false }: { centeredLogo?: boo
             triggerLabel="Get Started Free"
             triggerClassName="bg-[#F97316] hover:bg-[#EA580C] text-white font-bold px-5 py-2.5 rounded-lg text-sm transition-all duration-150 shadow-sm hover:shadow-md whitespace-nowrap"
             triggerId="get-started-free-header"
+            trackingId="header-get-started"
             pageSection="header"
           />}
         </div>

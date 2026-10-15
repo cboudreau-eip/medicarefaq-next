@@ -41,6 +41,7 @@ export default function MobileNav() {
             triggerClassName="bg-[#F97316] text-white font-bold px-3 py-1.5 rounded-md text-xs"
             pageSection="mobile_nav"
             triggerId="get-started-mobile-nav"
+            trackingId="header-get-started"
           />
           <button
             onClick={() => setIsOpen(!isOpen)}

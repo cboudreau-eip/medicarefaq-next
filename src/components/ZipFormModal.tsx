@@ -61,6 +61,7 @@ interface ZipFormModalProps {
    * Useful for GTM click tracking.
    */
   triggerId?: string;
+  trackingId?: string;
   /** Modal headline */
   title?: string;
   /** Modal subtitle / context line */
@@ -84,6 +85,7 @@ export default function ZipFormModal({
   triggerLabel,
   triggerClassName,
   triggerId,
+  trackingId,
   title = "Compare Medicare Plans",
   subtitle = "Enter your ZIP code to see rates from top carriers in your area — free, no obligation.",
   buttonLabel = "Compare Plans",
@@ -221,7 +223,7 @@ export default function ZipFormModal({
     trigger != null ? (
       trigger
     ) : (
-      <button type="button" id={triggerId} className={triggerClassName ?? ""}>
+      <button type="button" id={triggerId} data-track-button={trackingId} className={triggerClassName ?? ""}>
         {triggerLabel}
       </button>
     );

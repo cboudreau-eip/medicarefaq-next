@@ -190,6 +190,7 @@ export default function MegaMenu({ lightWithCta = false, searchVariant = false, 
               triggerLabel="Get Started Free"
               triggerClassName="ml-3 shrink-0 bg-[#F97316] hover:bg-[#EA580C] text-white font-bold px-5 py-3 rounded-lg text-sm xl:text-base whitespace-nowrap"
               triggerId="get-started-menu-test-1"
+              trackingId="header-get-started"
               pageSection="header"
             />
           )}
