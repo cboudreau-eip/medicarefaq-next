@@ -143,12 +143,12 @@ export default function PageContent() {
               subtitle="Enter your ZIP code to see all available plans in your area."
               buttonLabel="Compare Plans"
               trigger={
-                <button className="inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-400 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+                <button id="enrollment-hero-compare" data-track-button="enrollment-hero-compare" className="inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-400 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
                   Compare Plans in Your Area <ArrowRight className="w-4 h-4" aria-hidden="true" />
                 </button>
               }
             />
-            <a href="tel:+18883358996"  data-invoca-phone-number="18883358996"
+            <a id="enrollment-hero-agent" data-track-button="enrollment-hero-agent" href="tel:+18883358996"  data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "open-enrollment-hero" })}
               className="invoca-phone inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
               <Phone className="w-4 h-4" aria-hidden="true" /> Talk to an Agent
