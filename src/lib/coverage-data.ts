@@ -22580,7 +22580,7 @@ export const coverageArticles: CoverageArticleData[] = [
     "medicare-coverage-for-disabled-under-65",
     "does-medicare-cover-end-stage-renal-disease",
   ],
-  youtubeVideoId: "sCdAfk-zQFU",
+  youtubeVideoId: "LLYeBnkbBs0",
 },
   {
     slug: "what-is-a-medicare-part-d-formulary",
