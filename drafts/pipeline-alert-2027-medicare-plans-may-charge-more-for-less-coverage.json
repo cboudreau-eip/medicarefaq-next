@@ -1,7 +1,22 @@
 {
   "title": "2027 Medicare Plans: Higher Costs, Fewer Benefits",
+  "rawContent": "",
   "slug": "alert-2027-medicare-plans-may-charge-more-for-less-coverage",
+  "excerpt": "2027 Medicare Advantage and Part D plans may bring higher premiums, deductibles, and copays, along with narrower networks. Reviewing your ANOC letter closely can help you avoid surprises.",
   "category": "costs",
+  "author": "David Haass",
+  "reviewer": "Ashlee Zareczny",
+  "image": "/images/generated/alert-2027-medicare-plans-may-charge-more-for-less-coverage-225542b1115d.png",
+  "imageAlt": "",
+  "keyTakeaways": [
+    "Many 2027 Medicare Advantage and Part D plans are raising premiums, deductibles, or copays while trimming provider networks and supplemental benefits",
+    "Taking no action during Annual Enrollment Period means your current plan automatically renews, even with significant cost or coverage changes",
+    "Your Annual Notice of Change (ANOC) letter is the most important document for spotting cost increases, so read it fully instead of just checking the premium",
+    "A low monthly premium does not guarantee lower overall costs if deductibles, copays, or drug tiers have increased",
+    "Confirm your doctors remain in-network and check updated drug formularies for your exact medications before deciding to stay or switch plans"
+  ],
+  "seoTitle": "2027 Medicare Plans: Higher Costs, Fewer Benefits",
+  "seoDescription": "2027 Medicare plans may bring higher costs and fewer benefits. Learn how to review your ANOC letter and avoid costly surprises this enrollment season.",
   "sections": [
     {
       "type": "heading",
@@ -11,7 +26,7 @@
     },
     {
       "type": "paragraph",
-      "content": "If your Annual Notice of Change letter looks different this year, you're not imagining it. Many Medicare Advantage and Part D plans are adjusting their 2027 pricing, and for a lot of plans, that means higher premiums, higher deductibles, or bigger copays for the same services you used in 2026. Some insurers are also narrowing their provider networks or dropping coverage for certain drugs and supplemental benefits like dental or vision allowances."
+      "content": "If your Annual Notice of Change letter looks different this year, you're not imagining it. Many Medicare Advantage and Part D plans are adjusting their 2027 pricing, and for a lot of plans, that means higher premiums, higher deductibles, or bigger copays for the same services you used in 2026. Some insurers are also narrowing their provider networks or dropping [coverage for certain drugs](/faqs/medicare-and-prescription-drugs-whats-covered-and-whats-not/) and supplemental benefits like dental or vision allowances."
     },
     {
       "type": "paragraph",
@@ -20,7 +35,7 @@
     {
       "type": "callout",
       "calloutType": "warning",
-      "calloutText": "If you take no action during Medicare's Annual Enrollment Period, your current plan typically renews automatically, even if its costs or coverage have changed significantly for 2027.",
+      "calloutText": "If you take no action during Medicare's [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period/), your current plan typically renews automatically, even if its costs or coverage have changed significantly for 2027.",
       "calloutTitle": "Don't let autorenewal catch you off guard"
     },
     {
@@ -53,7 +68,7 @@
       "items": [
         "Compare this year's Summary of Benefits against last year's, not just the current premium",
         "Look for reduced coverage on dental, vision, hearing, or over-the-counter allowances, which are common areas for cuts",
-        "Check whether your plan's maximum out-of-pocket limit increased, since Medicare Advantage plans can have a MOOP as high as $9,250 in 2026",
+        "Check whether your plan's maximum out-of-pocket limit increased, since [Medicare Advantage plans](/faqs/original-medicare-vs-medicare-advantage/) can have a MOOP as high as $9,250 in 2026",
         "Add up your realistic total yearly cost, including premiums, expected copays, and drug costs, rather than judging the plan on the monthly payment alone"
       ]
     },
@@ -115,11 +130,11 @@
     },
     {
       "type": "paragraph",
-      "content": "Medicare's Annual Enrollment Period runs from October 15 to December 7 each year, and any changes you make take effect January 1, according to [Medicare's enrollment period guidelines](https://www.medicare.gov/). Miss this window, and you'll generally need to wait for the next enrollment opportunity, which could leave you stuck in a plan with reduced benefits for the full year."
+      "content": "Medicare's [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period/) runs from October 15 to December 7 each year, and any changes you make take effect January 1, according to [Medicare's enrollment period guidelines](https://www.medicare.gov/). Miss this window, and you'll generally need to wait for the next enrollment opportunity, which could leave you stuck in a plan with reduced benefits for the full year."
     },
     {
       "type": "paragraph",
-      "content": "If you enroll in a Medicare Advantage plan during Annual Enrollment and later realize it isn't the right fit, the Medicare Advantage Open Enrollment Period from January 1 to March 31 gives you a one-time chance to switch to a different Medicare Advantage plan or return to Original Medicare."
+      "content": "If you enroll in a Medicare Advantage plan during Annual Enrollment and later realize it isn't the right fit, the [Medicare Advantage Open Enrollment Period](/faqs/medicare-advantage-open-enrollment-period/) from January 1 to March 31 gives you a one-time chance to switch to a different Medicare Advantage plan or return to Original Medicare."
     },
     {
       "type": "callout",
@@ -169,21 +184,72 @@
       "content": "Taking this step now means you'll head into January knowing you reviewed your coverage deliberately, rather than letting your plan renew automatically without a second look."
     }
   ],
-  "seoTitle": "2027 Medicare Plans: Higher Costs, Fewer Benefits",
-  "seoDescription": "2027 Medicare plans may bring higher costs and fewer benefits. Learn how to review your ANOC letter and avoid costly surprises this enrollment season.",
-  "excerpt": "2027 Medicare Advantage and Part D plans may bring higher premiums, deductibles, and copays, along with narrower networks. Reviewing your ANOC letter closely can help you avoid surprises.",
-  "keyTakeaways": [
-    "Many 2027 Medicare Advantage and Part D plans are raising premiums, deductibles, or copays while trimming provider networks and supplemental benefits",
-    "Taking no action during Annual Enrollment Period means your current plan automatically renews, even with significant cost or coverage changes",
-    "Your Annual Notice of Change (ANOC) letter is the most important document for spotting cost increases, so read it fully instead of just checking the premium",
-    "A low monthly premium does not guarantee lower overall costs if deductibles, copays, or drug tiers have increased",
-    "Confirm your doctors remain in-network and check updated drug formularies for your exact medications before deciding to stay or switch plans"
+  "relatedSlugs": [
+    "medicare-annual-notice-of-change-letter",
+    "medicare-part-d-premiums-to-increase-in-2027-key-details",
+    "evaluating-your-medicare-advantage-plan-as-satisfaction-decl"
   ],
-  "image": "/images/generated/alert-2027-medicare-plans-may-charge-more-for-less-coverage-225542b1115d.png",
-  "relatedSlugs": [],
-  "sourceUrl": "https://www.wsj.com/health/healthcare/buyer-beware-new-medicare-plans-have-fewer-benefits-higher-costs-fc013cff",
-  "pipelineId": "disc-c801bb9e181d0124ff4e5ce427f9a3290770cc55afe645701e4b4119a98f3d34",
+  "linkSuggestions": [
+    {
+      "phrase": "maximum out-of-pocket limit",
+      "url": "/faqs/medicare-maximum-out-of-pocket/",
+      "title": "Medicare Maximum Out-of-Pocket",
+      "reason": "Provides context on what the maximum out-of-pocket limit means for beneficiaries, which is crucial for understanding potential costs."
+    },
+    {
+      "phrase": "prior authorization requirement",
+      "url": "/faqs/medicare-prior-authorization/",
+      "title": "Medicare Prior Authorization",
+      "reason": "Explains the prior authorization process, which is important for readers to know how it may affect their access to medications."
+    },
+    {
+      "phrase": "cost-sharing structure",
+      "url": "/faqs/what-is-medicare-cost-sharing/",
+      "title": "Medicare Cost-Sharing: Deductibles, Copays, Coinsurance & Medigap Plans Explained",
+      "reason": "Provides detailed information about cost-sharing, which is essential for understanding how costs are calculated under different plans."
+    },
+    {
+      "phrase": "dental or vision allowances",
+      "url": "/faqs/medicare-and-vision-dental-and-hearing-what-are-your-options/",
+      "title": "Medicare and Vision, Dental, and Hearing: What are Your Options?",
+      "reason": "Links to information about dental and vision coverage options, which are often affected by changes in Medicare plans."
+    },
+    {
+      "phrase": "drug formulary",
+      "url": "/faqs/what-is-a-medicare-part-d-formulary/",
+      "title": "What is a Medicare Part D Formulary?",
+      "reason": "Explains the concept of a drug formulary, which is crucial for understanding medication coverage under Medicare."
+    },
+    {
+      "phrase": "higher premiums",
+      "url": "/faqs/medicare-part-b-premiums/",
+      "title": "Medicare Part B Premiums 2026: What You'll Pay and How to Save",
+      "reason": "Provides context on potential premium increases, helping readers understand their financial responsibilities."
+    }
+  ],
+  "acceptedLinks": [
+    {
+      "phrase": "Annual Enrollment Period",
+      "url": "/faqs/medicare-annual-enrollment-period/",
+      "title": "Medicare Annual Enrollment Period (AEP)"
+    },
+    {
+      "phrase": "Medicare Advantage plans",
+      "url": "/faqs/original-medicare-vs-medicare-advantage/",
+      "title": "Medicare Advantage vs. Original Medicare"
+    },
+    {
+      "phrase": "Medicare Advantage Open Enrollment Period",
+      "url": "/faqs/medicare-advantage-open-enrollment-period/",
+      "title": "Medicare Advantage Open Enrollment Period"
+    },
+    {
+      "phrase": "coverage for certain drugs",
+      "url": "/faqs/medicare-and-prescription-drugs-whats-covered-and-whats-not/",
+      "title": "Medicare and Prescription Drugs: What Is Covered and What Is Not?"
+    }
+  ],
   "id": "pipeline-alert-2027-medicare-plans-may-charge-more-for-less-coverage",
-  "updatedAt": "2026-10-19T14:08:54.002Z",
-  "createdAt": "2026-10-19T14:08:54.002Z"
+  "updatedAt": "2026-10-19T15:17:58.687Z",
+  "createdAt": "2026-10-19T15:17:58.687Z"
 }
