@@ -11491,7 +11491,7 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   readTime: "8 min read",
   quickAnswer: {
-    text: "No, Original Medicare does not cover Life Alert or medical alert systems. Life Alert costs $49.95 to $89.85 per month with a 3-year contract. Other providers like Medical Guardian ($27.95 to $39.95/mo) and Bay Alarm Medical ($24.95 to $34.95/mo) offer similar monitoring without long-term contracts. Some Medicare Advantage plans include medical alert devices as supplemental benefits at no extra cost. Check your plan's Summary of Benefits or call your carrier to confirm before you enroll. If your plan does not include this benefit, you pay the full cost out of pocket.",
+    text: "No, Original Medicare does not cover Life Alert or any medical alert system. Life Alert costs $49.95 to $89.85 per month with a 3-year contract, while competitors like Medical Guardian ($27.95 to $39.95/mo) and Bay Alarm Medical ($24.95 to $34.95/mo) offer similar monitoring with no long-term contract. Some Medicare Advantage plans cover medical alert devices as a supplemental benefit at no extra cost, so check your plan's Summary of Benefits or call your carrier before you enroll. Without that benefit, you pay the full monthly cost out of pocket.",
     badges: [
       {
         plan: "Original Medicare",
@@ -11719,6 +11719,10 @@ export const coverageArticles: CoverageArticleData[] = [
     {
       question: "Is a Medical Alert System Tax Deductible?",
       answer: "Medical alert systems may be tax deductible if a doctor prescribes the device as medically necessary, since the IRS allows deductions for certain medical equipment that exceeds a percentage of your ad",
+    },
+    {
+      question: "Do You Need Professional Installation for a Medical Alert System?",
+      answer: "Most medical alert systems are designed for self-installation and don't require a technician visit. In-home base station units typically just need to be plugged into a power outlet and, for landline-b",
     },
   ],
   quickReference: [
