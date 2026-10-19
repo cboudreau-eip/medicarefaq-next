@@ -8603,336 +8603,310 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedSlugs: ["deductible-copay-coinsurance-premium", "medicare-cost-sharing-plans", "medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling", "medicare-advantage-uncovering-the-unexpected-out-of-pocket-expenses"],
   },
   {
-  slug: "medicare-annual-enrollment-period",
-  seo: {
-    title: "Medicare Annual Enrollment Period 2026: Dates, Rules & What You Can Change",
-    description: "The Medicare Annual Enrollment Period (AEP) runs October 15 to December 7. Learn what changes you can make, key deadlines, and common mistakes to avoid for 2027 coverage.",
-    canonical: "https://www.medicarefaq.com/faqs/medicare-annual-enrollment-period/",
-    ogImage: "/images/medicarefaq-cover.jpg",
-    focusKeyword: "medicare annual enrollment period",
+  "slug": "medicare-annual-enrollment-period",
+  "seo": {
+    "title": "Medicare Annual Enrollment Period 2026: Your 2027 Plan Checklist",
+    "description": "Review your Medicare Advantage or Part D options October 15 through December 7, 2026. Compare 2027 costs, doctors and prescriptions before you choose.",
+    "canonical": "https://www.medicarefaq.com/faqs/medicare-annual-enrollment-period/",
+    "ogImage": "/images/medicarefaq-cover.jpg",
+    "focusKeyword": "medicare annual enrollment period"
   },
-  title: "Medicare Annual Enrollment Period (AEP): Your Complete 2026 Guide",
-  subtitle: "The Medicare Annual Enrollment Period, also called the Annual Election Period or Medicare AEP, runs from October 15 to December 7 every year. During this window, you can switch Medicare Advantage plans, change Part D prescription drug plans, drop Medicare Advantage and return to Original Medicare, or enroll in Part D for the first time. Any changes you make take effect January 1 of the following year.",
-  category: "Medicare Enrollment",
-  dateUpdated: "July 14, 2026",
-  lastReviewed: "2026-07-14",
-  author: {
-    name: "David Haass",
-    initials: "DH",
-    role: "CTO & Co-Founder",
-    bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
+  "title": "Medicare Annual Enrollment Period 2026: Compare Your Options for 2027",
+  "subtitle": "Use the October 15 through December 7, 2026 enrollment window to review your Medicare Advantage or Part D coverage for 2027. Start with the coverage you have, compare what matters to you, and decide whether to keep your plan or make a change.",
+  "category": "Medicare Enrollment",
+  "dateUpdated": "October 19, 2026",
+  "lastReviewed": "2026-07-14",
+  "author": {
+    "name": "David Haass",
+    "initials": "DH",
+    "role": "CTO & Co-Founder",
+    "bio": "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade."
   },
-  reviewer: {
-    name: "Ashlee Zareczny",
-    initials: "AZ",
-    role: "Reviewer",
-    bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
+  "reviewer": {
+    "name": "Ashlee Zareczny",
+    "initials": "AZ",
+    "role": "Reviewer",
+    "bio": "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options."
   },
-  readTime: "12 min read",
-  quickAnswer: {
-    text: "Medicare AEP runs October 15 to December 7 every year. During this window you can switch Medicare Advantage plans, change your Part D drug plan, drop Medicare Advantage for Original Medicare, or enroll in Part D for the first time. AEP cannot be used to enroll in Medicare for the first time, switch Medigap plans with guaranteed issue rights, or sign up for Part A or Part B. All AEP changes take effect January 1.",
-    badges: [
+  "readTime": "8 min read",
+  "quickAnswer": {
+    "text": "The Annual Enrollment Period (AEP), also called Medicare Open Enrollment or the Annual Election Period, runs October 15 through December 7. Elections made during the 2026 AEP take effect January 1, 2027. You can join, switch or drop Medicare Advantage or Part D coverage, subject to eligibility. You do not have to change plans if your existing coverage will continue and still fits your needs. AEP does not itself create a Part A, Part B or Medigap enrollment right.",
+    "badges": [
       {
-        plan: "Switch MA Plans",
-        status: "covered",
+        "plan": "Enrollment",
+        "status": "covered",
+        "statusText": "Oct 15 through Dec 7, 2026"
       },
       {
-        plan: "Switch Part D Plans",
-        status: "covered",
+        "plan": "New coverage",
+        "status": "covered",
+        "statusText": "Jan 1, 2027"
       },
       {
-        plan: "Drop MA to Original",
-        status: "covered",
-      },
-      {
-        plan: "Enroll in Medigap",
-        status: "not-covered",
-      },
-    ],
+        "plan": "Medigap",
+        "status": "partial",
+        "statusText": "Separate enrollment rules"
+      }
+    ]
   },
-  comparisonTable: [
+  "comparisonTable": [
     {
-      planType: "Switch to a different Medicare Advantage plan",
-      coverage: "Allowed",
-      icon: "check-circle",
-      notes: "Can change to any MA plan available in your area",
+      "planType": "Medicare Advantage",
+      "coverage": "Keep, switch or leave",
+      "icon": "check-circle",
+      "notes": "Compare eligible plans in your area, or return to Original Medicare. Coordinate Part D and any Medigap application before leaving."
     },
     {
-      planType: "Switch to a different Part D plan",
-      coverage: "Allowed",
-      icon: "check-circle",
-      notes: "Compare formularies to ensure your drugs are covered",
+      "planType": "Original Medicare with Part D",
+      "coverage": "Review your drug plan",
+      "icon": "check-circle",
+      "notes": "Keep, switch or drop Part D, or join an eligible Medicare Advantage plan. Compare your actual medications and pharmacies."
     },
     {
-      planType: "Drop MA and return to Original Medicare",
-      coverage: "Allowed",
-      icon: "check-circle",
-      notes: "Can add a standalone Part D plan at the same time",
+      "planType": "Original Medicare with Medigap",
+      "coverage": "Review Part D separately",
+      "icon": "check-circle",
+      "notes": "AEP does not require a Medigap change. Keep it if it still fits. Applying for another Medigap policy follows separate rules."
     },
     {
-      planType: "Join a Medicare Advantage plan from Original Medicare",
-      coverage: "Allowed",
-      icon: "check-circle",
-      notes: "MA plan replaces Original Medicare coverage",
+      "planType": "Original Medicare without drug coverage",
+      "coverage": "Consider Part D",
+      "icon": "check-circle",
+      "notes": "A penalty may apply after 63 or more consecutive days without Part D or other creditable drug coverage following your initial enrollment window."
     },
     {
-      planType: "Enroll in Part D for the first time",
-      coverage: "Allowed",
-      icon: "check-circle",
-      notes: "Late enrollment penalty may apply if gap exceeds 63 days",
-    },
-    {
-      planType: "Switch Medigap plans (guaranteed issue)",
-      coverage: "Not Allowed",
-      icon: "x-circle",
-      notes: "Medigap changes require medical underwriting outside OEP",
-    },
-    {
-      planType: "Enroll in Medicare Part A or Part B",
-      coverage: "Not Allowed",
-      icon: "x-circle",
-      notes: "Use the Initial Enrollment Period or General Enrollment Period",
-    },
-    {
-      planType: "Drop Medicare coverage entirely",
-      coverage: "Not Allowed",
-      icon: "x-circle",
-      notes: "You cannot voluntarily disenroll from Medicare during AEP",
-    },
+      "planType": "Employer, union or retiree coverage",
+      "coverage": "Rules vary",
+      "icon": "info",
+      "notes": "Ask the benefits administrator before enrolling. A new Medicare plan could affect coverage for you or your dependents."
+    }
   ],
-  planBreakdowns: [
+  "planBreakdowns": [
     {
-      planName: "What You Can Do During AEP",
-      icon: "check-circle",
-      iconColor: "#0D9488",
-      coverageLabel: "Allowed Changes",
-      coverageType: "covered",
-      paragraphs: [
-      "The Annual Enrollment Period (also called the Annual Election Period or Medicare AEP) gives you the opportunity to make specific changes to your Medicare coverage. These changes all take effect on January 1 of the following year, regardless of when during the AEP window you make them.",
-      "You can switch from one [Medicare Advantage](/medicare-part-c/medicare-advantage-plans/) plan to another Medicare Advantage plan. This is the most common AEP action. If your current MA plan is raising premiums, narrowing its network, removing your doctors, or changing drug coverage for 2027, you can move to a different plan that better fits your needs.",
-      "You can switch from one standalone [Part D prescription drug plan](/original-medicare/medicare-parts/medicare-part-d/) to another. Drug plan formularies change every year, and a medication that was Tier 2 this year might move to Tier 3 or be removed entirely. Comparing Part D plans annually is one of the most impactful things you can do to control costs.",
-      "You can drop your Medicare Advantage plan and return to [Original Medicare](/original-medicare/) (Parts A and B). If you make this switch, you can also enroll in a standalone Part D plan at the same time. However, you will not have guaranteed issue rights to purchase a [Medigap plan](/medicare-supplement-plans/), which means you may face medical underwriting.",
-      "You can join a Medicare Advantage plan if you are currently on Original Medicare. Your MA plan will replace your Part A and Part B coverage and typically includes Part D drug coverage built in.",
-      "You can enroll in a standalone Part D plan for the first time if you have been on Original Medicare without drug coverage. Be aware that if you went more than 63 consecutive days without creditable drug coverage, you may owe a [Part D late enrollment penalty](/faqs/medicare-part-d-penalty).",
-    ],
+      "planName": "1. Read your plan's changes for 2027",
+      "icon": "filetext",
+      "iconColor": "#0D9488",
+      "coverageLabel": "Action checklist",
+      "coverageType": "covered",
+      "paragraphs": [
+        "Gather your plan card, Annual Notice of Change (ANOC), medication list with dosages, preferred pharmacies, and doctors. Your plan must provide the ANOC by September 30, on paper or electronically; contact the plan if you did not receive it.",
+        "Compare premiums, benefits and cost sharing with this year's coverage. Read any nonrenewal notice carefully. Use the Evidence of Coverage, provider directory and formulary for details beyond the ANOC summary."
+      ]
     },
     {
-      planName: "What You Cannot Do During AEP",
-      icon: "x-circle",
-      iconColor: "#DC2626",
-      coverageLabel: "Not Allowed",
-      coverageType: "not-covered",
-      paragraphs: [
-      "AEP is not a universal open season for all Medicare decisions. Several important actions cannot be taken during this window.",
-      "You cannot enroll in Medicare Part A or Part B for the first time during AEP. Initial enrollment happens during your [Initial Enrollment Period](/faqs/medicare-initial-enrollment-period) (the 7-month window around your 65th birthday) or the [General Enrollment Period](/faqs/medicare-general-enrollment-period) (January 1 to March 31 each year).",
-      "You cannot switch Medigap (Medicare Supplement) plans with guaranteed issue rights during AEP. Medigap enrollment is governed by its own rules. Your guaranteed issue period is the 6-month window that starts when your Part B begins. Outside that window, insurers can use medical underwriting and may deny your application based on health conditions.",
-      "You cannot drop Medicare coverage entirely during AEP. If you want to disenroll from Part B, that is a separate process handled through Social Security.",
-      "You cannot use AEP to enroll in an employer group health plan or COBRA. Those are governed by separate enrollment rules tied to your employment status.",
-    ],
+      "planName": "2. Confirm your doctors and hospitals",
+      "icon": "filetext",
+      "iconColor": "#0D9488",
+      "coverageLabel": "Action checklist",
+      "coverageType": "covered",
+      "paragraphs": [
+        "For Medicare Advantage, check the exact 2027 plan with both the insurer and your providers. Confirm your specialists, hospital and ongoing treatment, along with referral and prior authorization requirements.",
+        "Check out-of-network rules and coverage when traveling. For Original Medicare, confirm that your providers accept Medicare and ask whether they accept assignment."
+      ]
     },
     {
-      planName: "Key Dates and Timeline for AEP 2026",
-      icon: "calendar",
-      iconColor: "#1B2A4A",
-      coverageLabel: "Important Dates",
-      coverageType: "partial",
-      paragraphs: [
-      "**September 2026:** Your current Medicare Advantage or Part D plan mails you an Annual Notice of Change (ANOC) letter. This document details every change to your plan for 2027, including premium changes, formulary updates, network modifications, and benefit adjustments. Read this letter carefully.",
-      "**October 1, 2026:** The Medicare Plan Finder tool at [Medicare.gov](https://www.medicare.gov/) updates with all 2027 plan options. You can begin comparing plans, checking drug formularies, and verifying provider networks for the upcoming year.",
-      "**October 15, 2026:** AEP officially opens. You can now make plan changes. There is no advantage to changing on the first day versus the last day. All changes take effect January 1, 2027 regardless of when you submit them.",
-      "**December 7, 2026:** AEP closes at 11:59 PM in your local time zone. After this deadline, you cannot make changes until the next enrollment period (either the Medicare Advantage Open Enrollment Period in January through March, or the next AEP in October 2027).",
-      "**January 1, 2027:** All AEP changes take effect. Your new plan, new premiums, new formulary, and new network are now active.",
-    ],
+      "planName": "3. Check every prescription and your pharmacy",
+      "icon": "filetext",
+      "iconColor": "#0D9488",
+      "coverageLabel": "Action checklist",
+      "coverageType": "covered",
+      "paragraphs": [
+        "Enter each drug, dosage and refill frequency in [Medicare Plan Finder](https://www.medicare.gov/plan-compare/). Compare formularies, tiers, preferred pharmacies, prior authorization, step therapy and quantity limits for 2027.",
+        "Compare the estimated annual total using the pharmacies you would actually use. A lower premium does not necessarily mean lower drug costs."
+      ]
     },
     {
-      planName: "Common AEP Mistakes to Avoid",
-      icon: "alert-triangle",
-      iconColor: "#D97706",
-      coverageLabel: "Watch Out",
-      coverageType: "partial",
-      paragraphs: [
-      "**Not reading your ANOC letter.** This is the single biggest mistake. Your plan can change premiums, drop drugs from its formulary, remove doctors from its network, and alter cost-sharing, all without your explicit consent. If you do not read the ANOC, you will not know what changed until you get an unexpected bill in January.",
-      "**Assuming your plan is the same year to year.** Medicare Advantage and Part D plans are re-filed with CMS annually. Even if the plan name stays the same, the benefits, costs, and network can change significantly. A plan that was excellent in 2026 may not be the best option for 2027.",
-      "**Missing the December 7 deadline.** AEP is a hard deadline. If you miss it, your next opportunity to make changes is the [Medicare Advantage Open Enrollment Period](/faqs/medicare-advantage-open-enrollment-period) (January 1 to March 31), which only allows you to switch MA plans or drop MA to Original Medicare. It does not allow standalone Part D changes.",
-      "**Not checking your drug formulary.** Even if your plan's premium stays the same, your drug costs can change dramatically if medications move to higher tiers or are removed from the formulary entirely. Always run your medications through the Medicare Plan Finder to compare total annual costs.",
-      "**Dropping MA without understanding Medigap underwriting.** If you drop your Medicare Advantage plan and return to Original Medicare during AEP, you do not automatically get guaranteed issue rights for a Medigap plan. In most states, you will face medical underwriting, which means you could be denied coverage or charged higher premiums based on your health. This is one of the most consequential and least understood annual enrollment period decisions. Learn more about [switching from Medicare Advantage to Original Medicare](/blog/switching-from-medicare-advantage-to-original-medicare-what-you-need-to-know/).",
-    ],
+      "planName": "4. Compare the full year's costs",
+      "icon": "filetext",
+      "iconColor": "#0D9488",
+      "coverageLabel": "Action checklist",
+      "coverageType": "covered",
+      "paragraphs": [
+        "Compare annual premiums plus expected deductibles, copayments and coinsurance. For Medicare Advantage, compare the medical out-of-pocket limit and costs for services you expect to need. Drug and medical spending have separate limits.",
+        "Use Star Ratings as one quality indicator alongside costs and coverage needs. A high rating does not guarantee your personal experience. Keeping your current plan can be a good choice when the 2027 benefits and costs still fit."
+      ],
+      "callout": {
+        "type": "tip",
+        "title": "Pro tip: Compare the same needs in every plan",
+        "text": "Use the same medications, pharmacies, doctors and expected services for each comparison. A $0 plan premium does not mean $0 total healthcare costs, and you generally still pay your Part B premium."
+      }
     },
+    {
+      "planName": "5. Confirm your decision and coverage dates",
+      "icon": "filetext",
+      "iconColor": "#0D9488",
+      "coverageLabel": "Action checklist",
+      "coverageType": "covered",
+      "paragraphs": [
+        "If you make an AEP change, the plan must receive your enrollment request by December 7. Start early enough to resolve questions and save your confirmation number, plan name and effective date.",
+        "Confirm acceptance and the January 1, 2027 start date with the plan. Coordinate Medigap and drug coverage before ending existing coverage. If you keep your plan, verify that it is renewing and review any notices requiring action."
+      ]
+    }
   ],
-  costTable: {
-    title: "2026 Medicare Costs (Current Year)",
-    headers: [
-    "Cost Component",
-    "2026 Amount",
-    "Notes",
-  ],
-    rows: [
-      {
-        "Cost Component": "Part B Monthly Premium",
-        "2026 Amount": "$202.90",
-        "Notes": "Standard premium; higher earners pay IRMAA surcharge",
-      },
-      {
-        "Cost Component": "Part B Annual Deductible",
-        "2026 Amount": "$283.00",
-        "Notes": "Must be met before Medicare pays 80%",
-      },
-      {
-        "Cost Component": "Part A Inpatient Deductible",
-        "2026 Amount": "$1,736 per benefit period",
-        "Notes": "Applies each time you are admitted to a hospital",
-      },
-      {
-        "Cost Component": "Part D Base Premium",
-        "2026 Amount": "Varies by plan",
-        "Notes": "National average is approximately $40/month",
-      },
-      {
-        "Cost Component": "Part D Maximum Out-of-Pocket",
-        "2026 Amount": "$2,000",
-        "Notes": "New cap effective 2025; includes the Medicare Prescription Payment Plan option",
-      },
-      {
-        "Cost Component": "MA Maximum Out-of-Pocket",
-        "2026 Amount": "Varies by plan",
-        "Notes": "CMS sets annual cap; check your specific plan",
-      },
+  "costTable": {
+    "title": "Confirmed Part D Changes for 2027",
+    "headers": [
+      "What to compare",
+      "2026",
+      "2027"
     ],
-    footnote: "2027 costs will be announced by CMS in the fall of 2026. Review your ANOC letter for plan-specific 2027 pricing.",
+    "rows": [
+      {
+        "2026": "$615",
+        "2027": "$700; some plans charge less or no deductible",
+        "What to compare": "Maximum annual Part D deductible"
+      },
+      {
+        "2026": "$2,100",
+        "2027": "$2,400; then $0 out of pocket for covered Part D drugs for the rest of the year",
+        "What to compare": "Annual out-of-pocket threshold for covered Part D drugs"
+      },
+      {
+        "2026": "$38.99/month",
+        "2027": "$41.33/month; this is not your plan premium",
+        "What to compare": "National base beneficiary premium (calculation benchmark)"
+      },
+      {
+        "2026": "Your current plan terms",
+        "2027": "Check the specific plan's 2027 documents and your personal drug-cost estimate",
+        "What to compare": "Your plan premium, drug costs and pharmacy options"
+      }
+    ],
+    "footnote": "Premiums and noncovered drugs do not count toward the Part D out-of-pocket threshold. The Medicare Prescription Payment Plan spreads payments over the year; it does not reduce total costs."
   },
-  exceptionsSection: {
-    title: "AEP vs. Other Medicare Enrollment Periods",
-    items: [
+  "exceptionsSection": {
+    "title": "Before You Switch: Three Important Checks",
+    "items": [
       {
-        title: "AEP vs. Medicare Advantage Open Enrollment Period (MA OEP)",
-        text: "The MA OEP runs January 1 to March 31 each year. It is only available to people already enrolled in a Medicare Advantage plan. During MA OEP, you can switch to a different MA plan or drop MA and return to Original Medicare (with a Part D plan). You cannot use MA OEP to enroll in a standalone Part D plan if you are on Original Medicare.",
+        "title": "Confirm your Medigap options before leaving Medicare Advantage",
+        "text": "AEP alone does not guarantee acceptance for Medigap. You may have a separate guaranteed-issue right, a Medicare Advantage trial right or additional state protections. Otherwise, medical underwriting may apply. Your federal Medigap Open Enrollment Period lasts six months starting the first month you are 65 or older and enrolled in Part B. Confirm eligibility, acceptance and effective dates before ending existing coverage.",
+        "highlight": "Medigap applications follow separate rules."
       },
       {
-        title: "AEP vs. Initial Enrollment Period (IEP)",
-        text: "Your IEP is the 7-month window around your 65th birthday (3 months before, your birthday month, and 3 months after). This is when you first enroll in Medicare Part A and Part B. AEP is for people who are already enrolled in Medicare and want to change their plan selections.",
+        "title": "Coordinate Medicare Advantage and Part D",
+        "text": "Most people in an HMO or PPO must get drug coverage through their Medicare Advantage plan; joining standalone Part D can disenroll you from that plan. MSA plans and certain PFFS plans allow separate Part D coverage. Check the exact plan type before enrolling."
       },
       {
-        title: "AEP vs. Special Enrollment Period (SEP)",
-        text: "SEPs are triggered by qualifying life events such as moving to a new area, losing employer coverage, or qualifying for Extra Help. SEPs allow plan changes outside of AEP. If you have a qualifying event, you do not need to wait for AEP to make changes.",
-      },
-      {
-        title: "AEP vs. Medigap Open Enrollment Period",
-        text: "Your Medigap OEP is the one-time 6-month window that starts when your Part B begins. During this period, insurers must sell you any Medigap plan regardless of health. This is completely separate from AEP and does not recur annually.",
-      },
-    ],
+        "title": "Check employer or retiree benefits first",
+        "text": "Contact your benefits administrator before joining Medicare Advantage or Part D. Changing coverage could affect your existing benefits or your dependents' coverage, and you may not be able to get those benefits back."
+      }
+    ]
   },
-  faqs: [
+  "faqs": [
     {
-      question: "What is the Medicare Annual Enrollment Period?",
-      answer: "The Medicare Annual Enrollment Period (AEP) is the yearly window from October 15 to December 7 during which Medicare beneficiaries can make changes to their Medicare Advantage plans, Part D prescription drug plans, or switch between Original Medicare and Medicare Advantage. Changes made during AEP take effect January 1 of the following year.",
+      "question": "Is AEP the same as Medicare Open Enrollment?",
+      "answer": "Yes. Medicare Open Enrollment, the Annual Enrollment Period and the Annual Election Period refer to October 15 through December 7. Medicare Advantage Open Enrollment is a separate January 1 through March 31 window for people already enrolled in Medicare Advantage."
     },
     {
-      question: "What is the difference between AEP and Open Enrollment?",
-      answer: "AEP (October 15 to December 7) and the Medicare Advantage Open Enrollment Period (January 1 to March 31) are two different windows. AEP allows the broadest range of changes including Part D switches. The MA OEP is limited to people already in Medicare Advantage who want to switch MA plans or drop to Original Medicare.",
+      "question": "Can I switch Medigap plans during AEP?",
+      "answer": "You can apply during this time, but AEP itself does not guarantee acceptance or prevent medical underwriting. Your six-month Medigap Open Enrollment Period, separate guaranteed-issue protections, trial rights and state rules may affect your options. Confirm those protections and the new policy's effective date before ending existing coverage."
     },
     {
-      question: "Can I switch Medigap plans during AEP?",
-      answer: "No. AEP does not provide guaranteed issue rights for Medigap plans. If you want to switch Medigap plans outside your initial 6-month Open Enrollment Period, you will need to pass medical underwriting in most states. Some states have additional protections, but AEP itself does not grant Medigap switching rights.",
+      "question": "What happens if I miss December 7?",
+      "answer": "Your options depend on your coverage and whether you qualify for a Special Enrollment Period. Existing Medicare Advantage members generally have one change available January 1 through March 31, including returning to Original Medicare and adding Part D. That window does not let someone already on Original Medicare simply switch standalone drug plans."
     },
     {
-      question: "What happens if I miss the AEP deadline?",
-      answer: "If you miss the December 7 deadline, you are generally locked into your current plan until the next enrollment opportunity. If you are in a Medicare Advantage plan, you can make one change during the MA OEP (January 1 to March 31). If you are on Original Medicare with a standalone Part D plan, you will need to wait until the next AEP unless you qualify for a Special Enrollment Period.",
+      "question": "Does my plan automatically renew if I do nothing?",
+      "answer": "Generally, enrollment continues if the plan renews and you remain eligible. Costs, benefits and networks may change. If your plan is ending or leaving your area, follow the nonrenewal notice and check your enrollment options. Always review notices even if you intend to keep your plan."
     },
     {
-      question: "Do I need to do anything during AEP if I am happy with my plan?",
-      answer: "You are not required to make changes during AEP. If you do nothing, your current plan will automatically renew for the next year. However, you should still read your Annual Notice of Change letter to confirm that your plan's benefits, costs, formulary, and network have not changed in ways that affect you.",
+      "question": "Can I enroll in Part A or Part B during these dates?",
+      "answer": "AEP itself is not a Part A or Part B enrollment period. You can enroll if you have a separate eligible window, such as an Initial or Special Enrollment Period, that overlaps these dates. General Enrollment runs January 1 through March 31, with coverage starting the month after you sign up. Premium-free Part A has separate enrollment rules."
     },
     {
-      question: "Can I enroll in Medicare for the first time during AEP?",
-      answer: "No. AEP is only for people who are already enrolled in Medicare. If you are enrolling in Medicare for the first time, you use your Initial Enrollment Period (the 7-month window around your 65th birthday) or the General Enrollment Period (January 1 to March 31, with coverage starting July 1).",
+      "question": "Can I have Medicare Advantage and a separate Part D plan?",
+      "answer": "It depends on your plan type. Most HMO and PPO members cannot add standalone Part D without leaving their Medicare Advantage plan. MSA plans and PFFS plans without drug coverage can allow a separate drug plan. Confirm the rules with your current plan before submitting an application."
     },
     {
-      question: "When do AEP changes take effect?",
-      answer: "All changes made during the Annual Enrollment Period take effect on January 1 of the following year. It does not matter whether you make your change on October 15 or December 7. The effective date is always January 1.",
+      "question": "Can I change my selection more than once during AEP?",
+      "answer": "You can make another election during AEP if you change your mind. Generally, your last valid election received by December 7 determines your coverage for January 1. Confirm the final enrollment with the plan and retain the confirmation so you know which coverage will take effect."
     },
     {
-      question: "Can I switch from Medicare Advantage back to Original Medicare during AEP?",
-      answer: "Yes. During AEP, you can drop your Medicare Advantage plan and return to Original Medicare. You can also enroll in a standalone Part D plan at the same time. However, you will not have guaranteed issue rights for a Medigap plan, so you may face medical underwriting if you want supplemental coverage.",
-    },
-    {
-      question: "What is the Annual Notice of Change (ANOC)?",
-      answer: "The ANOC is a document your Medicare Advantage or Part D plan must send you by September 30 each year. It details every change to your plan for the upcoming year, including premium changes, formulary updates, network modifications, and benefit adjustments. Reading your ANOC is the most important step in preparing for AEP.",
-    },
-    {
-      question: "Can I have both a Medicare Advantage plan and a standalone Part D plan?",
-      answer: "No. Medicare Advantage plans that include drug coverage (MA-PD plans) replace the need for a standalone Part D plan. If you enroll in a standalone Part D plan while in an MA plan, you will be disenrolled from your MA plan. If your MA plan does not include drug coverage, you can add a standalone Part D plan.",
-    },
-    {
-      question: "Can I change my Medicare plan more than once during AEP?",
-      answer: "Yes. You can make as many plan changes as you want during AEP. Only your final selection submitted before the December 7 deadline will take effect on January 1. If you enroll in a new plan and later c",
-    },
+      "question": "Do I need to change plans this year?",
+      "answer": "No. Review your plan's 2027 changes, doctors, prescriptions and total estimated costs. If the plan is continuing, you remain eligible and it still meets your needs, keeping it may be the right decision. Do not switch solely because another plan advertises a lower premium or an extra benefit."
+    }
   ],
-  quickReference: [
+  "quickReference": [
     {
-      icon: "info",
-      text: "<strong>AEP Dates:</strong> October 15 to December 7 every year",
+      "icon": "info",
+      "text": "<strong>2026 AEP:</strong> October 15 through December 7"
     },
     {
-      icon: "info",
-      text: "<strong>Changes take effect:</strong> January 1 of the following year",
+      "icon": "check",
+      "text": "<strong>Coverage starts:</strong> January 1, 2027"
     },
     {
-      icon: "alert",
-      text: "<strong>ANOC letter arrives:</strong> By September 30 each year",
+      "icon": "dollar",
+      "text": "<strong>2027 Part D threshold:</strong> $2,400 for covered drugs"
     },
     {
-      icon: "dollar",
-      text: "<strong>2026 Part B premium:</strong> $202.90/month standard",
+      "icon": "alert",
+      "text": "<strong>Medigap:</strong> Confirm separate enrollment protections"
     },
     {
-      icon: "info",
-      text: "<strong>Key actions:</strong> Switch MA plans, switch Part D, drop MA to Original, enroll in Part D",
-    },
-    {
-      icon: "alert",
-      text: "<strong>Cannot do during AEP:</strong> Switch Medigap with guaranteed issue, enroll in Part A/B for first time",
-    },
+      "icon": "check",
+      "text": "<strong>Keeping your plan?</strong> Verify renewal and review 2027 changes"
+    }
   ],
-  relatedTopics: [
+  "relatedTopics": [
     {
-      title: "Medicare Advantage Open Enrollment Period",
-      description: "January 1 to March 31 window for MA plan changes.",
-      slug: "medicare-advantage-open-enrollment-period",
+      "title": "Medicare Advantage Open Enrollment Period",
+      "description": "January 1 to March 31 window for MA plan changes.",
+      "slug": "medicare-advantage-open-enrollment-period"
     },
     {
-      title: "Initial Enrollment Period",
-      description: "Your first chance to enroll in Medicare around age 65.",
-      slug: "medicare-initial-enrollment-period",
+      "title": "Initial Enrollment Period",
+      "description": "Your first chance to enroll in Medicare around age 65.",
+      "slug": "medicare-initial-enrollment-period"
     },
     {
-      title: "Special Enrollment Period",
-      description: "Qualifying life events that allow changes outside AEP.",
-      slug: "medicare-special-enrollment-period",
+      "title": "Special Enrollment Period",
+      "description": "Qualifying life events that allow changes outside AEP.",
+      "slug": "medicare-special-enrollment-period"
     },
     {
-      title: "Annual Notice of Change Letter",
-      description: "The document your plan sends each September with next year's changes.",
-      slug: "medicare-annual-notice-of-change-letter",
-    },
+      "title": "Annual Notice of Change Letter",
+      "description": "The document your plan sends each September with next year's changes.",
+      "slug": "medicare-annual-notice-of-change-letter"
+    }
   ],
-  sidebarRelatedLinks: [
+  "sidebarRelatedLinks": [
     "Medicare Advantage Open Enrollment Period",
     "Initial Enrollment Period",
     "Special Enrollment Period",
-    "Annual Notice of Change Letter",
+    "Annual Notice of Change Letter"
   ],
-  ctaBanner: {
-    title: "Need Help Comparing Plans Before December 7?",
-    text: "Our licensed agents can review your current coverage, check your drug formulary, and help you find the best plan for 2027 at no cost to you.",
+  "ctaBanner": {
+    "title": "Compare Your 2027 Options",
+    "text": "Review your prescriptions, doctors and budget with a licensed Medicare agent. Get help deciding whether to keep your coverage or make a change."
   },
-  relatedSlugs: [
+  "relatedSlugs": [
     "medicare-advantage-open-enrollment-period",
     "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them",
     "medicare-initial-enrollment-period",
     "medicare-annual-notice-of-change-letter",
     "your-guide-to-medicare-enrollment-periods-when-to-sign-up",
-    "medicare-special-enrollment-period",
+    "medicare-special-enrollment-period"
   ],
+  "enrollmentYear": 2026,
+  "comparisonTitle": "What Coverage Do You Have Now?",
+  "comparisonTocLabel": "Your Current Coverage",
+  "comparisonHeaders": {
+    "primary": "Your current coverage",
+    "status": "Your AEP options",
+    "notes": "Check before deciding"
+  },
+  "breakdownsTitle": "Your Five-Step AEP Plan Review",
+  "breakdownsTocLabel": "Five-Step Checklist",
+  "relatedEquipment": {
+    "title": "Official Sources and Enrollment Guidance",
+    "paragraphs": [
+      "Review [Medicare's AEP rules](https://www.medicare.gov/health-drug-plans/open-enrollment) and [2026 and 2027 Part D costs](https://www.medicare.gov/health-drug-plans/part-d/basics/costs). CMS confirms the [2027 base beneficiary premium](https://www.cms.gov/newsroom/fact-sheets/medicare-part-d-2027-national-average-monthly-bid-amount-information); it is a benchmark, not an average plan price.",
+      "Check [Medigap enrollment protections](https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy/when), [drug coverage combinations](https://www.medicare.gov/health-drug-plans/part-d/basics/choose-coverage) and [Part A and B start dates](https://www.medicare.gov/basics/get-started-with-medicare/sign-up/when-does-medicare-coverage-start). See our [Medicare Open Enrollment guide](/medicare-open-enrollment/) for a broader overview."
+    ]
+  },
+  "showInlineCta": false,
+  "showMidInlineCta": false
 },
 
 

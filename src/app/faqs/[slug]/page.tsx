@@ -132,7 +132,7 @@ const DEFAULT_IMAGE = `${BASE_URL}/images/medicarefaq-cover.jpg`;
 function buildCoverageArticleSchema(article: (typeof coverageArticles)[0], slug: string) {
   const pageUrl = `${BASE_URL}/faqs/${slug}/`;
   const datePublished = toISO(article.dateUpdated);
-  const dateModified = toISO(article.lastReviewed || article.dateUpdated);
+  const dateModified = toISO(article.enrollmentYear ? article.dateUpdated : article.lastReviewed || article.dateUpdated);
   const imageUrl = article.seo?.ogImage || DEFAULT_IMAGE;
 
   const graph: object[] = [
@@ -150,7 +150,7 @@ function buildCoverageArticleSchema(article: (typeof coverageArticles)[0], slug:
       url: pageUrl,
       name: article.seo?.title || article.title,
       isPartOf: { "@id": `${BASE_URL}/#website` },
-      lastReviewed: dateModified,
+      lastReviewed: article.enrollmentYear ? toISO(article.lastReviewed || article.dateUpdated) : dateModified,
     },
     {
       "@type": "Article",

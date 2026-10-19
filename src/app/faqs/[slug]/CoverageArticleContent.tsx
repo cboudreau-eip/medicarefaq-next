@@ -48,6 +48,7 @@ import type {
   QuickReferenceItem,
 } from "@/lib/article-types";
 import PodcastPlayer from "@/components/PodcastPlayer";
+import AepGuideTimeline from "@/components/AepGuideTimeline";
 import MedicareTaxCalculator from "@/components/MedicareTaxCalculator";
 import { trackPhoneClick, trackCtaClick } from "@/lib/analytics";
 import { getAuthorPhoto } from "@/lib/authors";
@@ -295,9 +296,9 @@ function buildTOC(article: CoverageArticleData) {
     { id: "plan-breakdowns", label: article.breakdownsTocLabel || "Understanding Coverage" },
   ];
   if (article.advantageSteps) toc.push({ id: "advantage-steps", label: "Finding the Right Plan" });
-  if (article.costTable) toc.push({ id: "costs", label: "Costs & Pricing" });
+  if (article.costTable) toc.push({ id: "costs", label: article.enrollmentYear ? `${article.enrollmentYear + 1} Drug Costs` : "Costs & Pricing" });
   if (article.slug === "medicare-tax-rate") toc.push({ id: "tax-calculator", label: "Tax Calculator" });
-  if (article.exceptionsSection) toc.push({ id: "exceptions", label: "Important Exceptions" });
+  if (article.exceptionsSection) toc.push({ id: "exceptions", label: article.enrollmentYear ? "Before You Switch" : "Important Exceptions" });
   if (article.legislativeUpdate) toc.push({ id: "legislative-update", label: "Legislative Update" });
   if (article.alternativesSection) toc.push({ id: "alternatives", label: "Alternatives" });
   if (article.relatedEquipment) toc.push({ id: "related-equipment", label: article.relatedEquipment.title });
@@ -353,7 +354,7 @@ export default function CoverageArticleContent({ article, sidebarLinks }: { arti
         <div className="container max-w-6xl mx-auto">
           <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.4 }}>
             <div className="flex items-center gap-3 mb-5">
-              <span className="bg-[#059669] text-white text-xs font-bold px-3 py-1 rounded-full tracking-wide uppercase">Coverage Q&A</span>
+              <span className="bg-[#059669] text-white text-xs font-bold px-3 py-1 rounded-full tracking-wide uppercase">{article.enrollmentYear ? "Enrollment Guide" : "Coverage Q&A"}</span>
             </div>
             <nav className="text-sm text-white/50 mb-5 flex items-center gap-2 flex-wrap">
               <Link href="/" className="hover:text-white/80 transition-colors">Home</Link>
@@ -515,6 +516,7 @@ export default function CoverageArticleContent({ article, sidebarLinks }: { arti
               )}
 
               {/* Quick Answer */}
+              {article.enrollmentYear && <AepGuideTimeline year={article.enrollmentYear} />}
               <div id="quick-answer" className="bg-white border border-[#E5E7EB] rounded-xl p-6 mb-8 shadow-sm">
                 <div className="flex items-center gap-2 mb-4">
                   <div className="w-8 h-8 rounded-full bg-[#1B2A4A] flex items-center justify-center">
@@ -579,7 +581,14 @@ export default function CoverageArticleContent({ article, sidebarLinks }: { arti
                   <Shield className="w-5 h-5 text-white" />
                   <h2 className="font-bold text-white text-lg">{article.comparisonTitle || (article.slug === "medicare-tax-rate" ? "Detailed Rate Breakdown" : "Coverage Comparison by Plan Type")}</h2>
                 </div>
-                <div className="overflow-x-auto">
+                {article.enrollmentYear && <div className="sm:hidden divide-y divide-[#E5E7EB]">
+                  {article.comparisonTable.map(row => <div key={row.planType} className="p-5">
+                    <h3 className="font-bold text-[#1B2A4A]">{row.planType}</h3>
+                    <p className="text-sm font-semibold text-teal-800 mt-2">{row.coverage}</p>
+                    <p className="text-sm text-slate-600 leading-relaxed mt-2">{row.notes}</p>
+                  </div>)}
+                </div>}
+                <div className={article.enrollmentYear ? "hidden sm:block overflow-x-auto" : "overflow-x-auto"}>
                   <table className="w-full text-sm">
                     <thead>
                       <tr className="bg-[#F5F7FA] border-b border-[#E5E7EB]">
@@ -662,7 +671,18 @@ export default function CoverageArticleContent({ article, sidebarLinks }: { arti
                     <DollarSign className="w-5 h-5 text-white" />
                     <h2 className="font-bold text-white text-lg">{article.costTable.title}</h2>
                   </div>
-                  <div className="overflow-x-auto">
+                  {article.enrollmentYear && <div className="sm:hidden divide-y divide-[#E5E7EB]">
+                    {article.costTable.rows.map((row, i) => <div key={i} className="p-5">
+                      <h3 className="font-bold text-[#1B2A4A] mb-3">{row[article.costTable!.headers[0]]}</h3>
+                      <dl className="space-y-3 text-sm">
+                        {article.costTable!.headers.slice(1).map(header => <div key={header} className="grid grid-cols-[3rem_1fr] gap-3">
+                          <dt className="font-semibold text-[#1B2A4A]">{header}</dt>
+                          <dd className="text-slate-600 leading-relaxed">{row[header]}</dd>
+                        </div>)}
+                      </dl>
+                    </div>)}
+                  </div>}
+                  <div className={article.enrollmentYear ? "hidden sm:block overflow-x-auto" : "overflow-x-auto"}>
                     <table className="w-full text-sm">
                       <thead>
                         <tr className="bg-[#F5F7FA] border-b border-[#E5E7EB]">
@@ -1019,13 +1039,21 @@ export default function CoverageArticleContent({ article, sidebarLinks }: { arti
               <Phone className="w-5 h-5" /> Call (888) 335-8996
             </a>
             <ZipFormModal
-              coverageType="ms"
-              triggerLabel="Compare Plans"
+              coverageType={article.enrollmentYear ? "ma" : "ms"}
+              triggerLabel={article.enrollmentYear ? `Compare ${article.enrollmentYear + 1} Advantage Plans` : "Compare Plans"}
               triggerClassName="flex items-center gap-2 border-2 border-white text-white font-bold px-6 py-3 rounded-lg hover:bg-white/10 transition-colors"
               pageSection="faq_coverage_article"
                 triggerId="compare-plans-faq-coverage"
             />
+            {article.enrollmentYear && <ZipFormModal
+              coverageType="pdp"
+              triggerLabel={`Compare ${article.enrollmentYear + 1} Drug Plans`}
+              triggerClassName="border-2 border-white text-white font-bold px-6 py-3 rounded-lg hover:bg-white/10 transition-colors"
+              pageSection="faq_aep_drug_plans"
+              triggerId="compare-drug-plans-faq-aep"
+            />}
           </div>
+          {article.enrollmentYear && <a href="https://www.medicare.gov/plan-compare/" className="inline-block text-white underline underline-offset-4 mt-6">Compare directly with Medicare Plan Finder</a>}
         </div>
       </section>
     </main>

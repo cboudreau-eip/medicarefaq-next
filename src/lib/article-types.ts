@@ -106,6 +106,8 @@ export interface CoverageArticleData {
   author: AuthorData;
   reviewer: AuthorData;
   readTime: string;
+  /** Enables the dated AEP timeline and enrollment-specific presentation. */
+  enrollmentYear?: number;
   youtubeVideoId?: string;
   youtubeVideoTitle?: string;
   buzzsproutUrl?: string;    // Direct MP3 URL from Buzzsprout for podcast player
