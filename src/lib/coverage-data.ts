@@ -13377,189 +13377,313 @@ export const coverageArticles: CoverageArticleData[] = [
   },
 
   {
-    slug: "medicare-coverage-for-stem-cell-treatments",
-    seo: {
-      title: "Does Medicare Cover Stem Cell Therapy?",
-      description: "Medicare covers FDA-approved stem cell transplants for certain cancers and blood disorders. Learn which therapies qualify and what you will pay.",
-      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-stem-cell-treatments/",
-      ogImage: "/images/medicarefaq-cover.jpg",
-    },
+  slug: "medicare-coverage-for-stem-cell-treatments",
+  seo: {
     title: "Does Medicare Cover Stem Cell Therapy?",
-    subtitle: "Medicare covers stem cell therapy only when it is FDA-approved and deemed medically necessary. Learn which conditions qualify, what Medicare pays, and why most stem cell therapies are not covered.",
-    category: "Medicare Coverage",
-    dateUpdated: "April 14, 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
-    },
-    readTime: "6 min read",
-    quickAnswer: {
-      text: "Medicare covers stem cell therapy only when it is FDA-approved and deemed medically necessary. The two approved therapies are Hematopoietic Stem Cell Transplantation (HSCT) and Autologous Stem Cell Transplantation (AuSCT), primarily for certain cancers and blood disorders. Stem cell therapy for knees, hips, back pain, arthritis, COPD, or cosmetic purposes is **not covered** because the FDA has not approved these applications.",
-      badges: [
-        { plan: "Part A", status: "covered" },
-        { plan: "Part B", status: "partial" },
-        { plan: "Medicare Advantage", status: "covered" },
-        { plan: "Medigap", status: "covered" }],
-    },
-    comparisonTable: [
-      { planType: "Original Medicare (Part A)", coverage: "Covered - inpatient transplant", icon: "shield", notes: "Covers inpatient stem cell transplant hospital stay after Part A deductible" },
-      { planType: "Original Medicare (Part B)", coverage: "Partial - outpatient only", icon: "activity", notes: "Covers outpatient stem cell therapy sessions at 80% after Part B deductible" },
-      { planType: "Medicare Advantage", coverage: "Covered - same as A+B", icon: "heart", notes: "Must cover same FDA-approved therapies as Original Medicare; prior auth required" },
-      { planType: "Medigap (Plan G)", coverage: "Covered - cost-sharing", icon: "users", notes: "Covers Part A/B deductibles and coinsurance; reduces your cost to near $0" }],
-    planBreakdowns: [
-      {
-        planName: "Original Medicare (Parts a & B)",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Covered - FDA-approved therapies only",
-        coverageType: "covered",
-        statusBadge: "Covered - HSCT and AuSCT for qualifying conditions",
-        paragraphs: [
-          "[Medicare Part A](/original-medicare/medicare-parts/medicare-part-a/) covers inpatient stem cell transplants during a hospital stay. The transplant process - which can last 3 to 4 weeks as an inpatient - is covered after you meet the Part A deductible ($1,736 in 2026). Part A also covers any [skilled nursing facility care](/faqs/medicare-coverage-for-skilled-nursing-facilities) needed after discharge.",
-          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) covers outpatient stem cell therapy sessions. You pay 20% of the Medicare-approved amount after meeting the Part B deductible ($283 in 2026). Given the high cost of stem cell treatments ($5,000–$50,000+), this 20% can be substantial.",
-          "The critical requirement is FDA approval. Medicare only covers stem cell therapies approved by the FDA - specifically HSCT and AuSCT for certain cancers, blood disorders, and immune system conditions. Any non-FDA-approved therapy will be denied."],
-        whatItCovers: [
-          "Hematopoietic Stem Cell Transplantation (HSCT) for certain cancers and blood disorders",
-          "Autologous Stem Cell Transplantation (AuSCT) for qualifying cancer conditions",
-          "Inpatient hospital stay during the transplant process",
-          "Outpatient follow-up sessions covered under Part B",
-          "FDA-approved stem cell therapy through eligible clinical trials"],
-        whatItDoesntCover: [
-          "Stem cell therapy for knees, hips, or joint pain (not FDA-approved)",
-          "Stem cell therapy for COPD, back pain, or arthritis (not FDA-approved)",
-          "Cosmetic or regenerative stem cell therapies",
-          "Non-FDA-approved experimental applications"],
-        callout: {
-          type: "tip",
-          title: "Clinical Trials May Expand Coverage",
-          text: "Medicare may also cover FDA-approved stem cell therapy through eligible clinical trials. Ask your oncologist if you qualify for a covered clinical trial.",
-        },
-        costNote: "Stem cell therapy costs range from $5,000 to $50,000+. With Original Medicare only, you pay 20% of outpatient costs and the Part A deductible for inpatient stays.",
-      },
-      {
-        planName: "Medicare Advantage",
-        icon: "heart",
-        iconColor: "#059669",
-        coverageLabel: "Covered - same as Original Medicare",
-        coverageType: "covered",
-        statusBadge: "Covered - prior authorization required",
-        paragraphs: [
-          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) must provide the same coverage as Original Medicare Parts A and B. Therefore, FDA-approved stem cell therapies covered by Original Medicare are also covered by Medicare Advantage plans.",
-          "Some Advantage plans may offer additional benefits, but non-FDA-approved stem cell therapies remain excluded regardless of plan type. Prior authorization is commonly required for stem cell transplants under Advantage plans.",
-          "Network restrictions may require you to use specific oncology centers or hospitals. Verify that your preferred cancer treatment center is in-network before proceeding."],
-        callout: {
-          type: "warning",
-          title: "Prior Authorization is Almost Always Required",
-          text: "Prior authorization is almost always required for stem cell transplants under Medicare Advantage. Contact your plan immediately after your oncologist recommends treatment.",
-        },
-        costNote: "Cost-sharing varies by plan. Review your Evidence of Coverage for specific stem cell transplant cost details.",
-      },
-      {
-        planName: "Medigap (Medicare Supplement)",
-        icon: "users",
-        iconColor: "#7C3AED",
-        coverageLabel: "Covers your cost-sharing",
-        coverageType: "covered",
-        statusBadge: "Covers Part A deductible and Part B coinsurance",
-        paragraphs: [
-          "A [Medigap Plan G](/medicare-supplement-plans/plan-g/) covers the Part A deductible and the 20% Part B coinsurance for Medicare-approved stem cell therapy. Given the high cost of these treatments, Medigap can save you thousands of dollars.",
-          "Medigap covers any service that Original Medicare approves - so if Medicare approves a stem cell therapy, your Medigap plan will cover your share of the cost. This provides significant financial protection for expensive cancer treatments.",
-          "If you have a Medicare Advantage plan, you cannot use Medigap. Medigap only supplements Original Medicare (Parts A and B)."],
-        costNote: "With Plan G: pay only the Part B deductible ($283 in 2026). Without Medigap: 20% of all outpatient costs plus the Part A deductible for inpatient stays.",
-      }],
-    costTable: {
-      title: "Stem Cell Therapy Coverage by Condition",
-      headers: ["Condition/Application", "FDA Approved?", "Medicare Covers?", "Estimated Cost Without Coverage"],
-      rows: [
-        { "Condition/Application": "Certain cancers (lymphoma, leukemia)", "FDA Approved?": "Yes (HSCT/AuSCT)", "Medicare Covers?": "Yes", "Estimated Cost Without Coverage": "$50,000–$200,000+" },
-        { "Condition/Application": "Blood/immune disorders", "FDA Approved?": "Yes (HSCT)", "Medicare Covers?": "Yes", "Estimated Cost Without Coverage": "$50,000–$150,000+" },
-        { "Condition/Application": "Knee/hip/joint pain", "FDA Approved?": "No", "Medicare Covers?": "No", "Estimated Cost Without Coverage": "$3,000–$10,000 per joint" },
-        { "Condition/Application": "Back pain", "FDA Approved?": "No", "Medicare Covers?": "No", "Estimated Cost Without Coverage": "$5,000–$7,000" },
-        { "Condition/Application": "COPD", "FDA Approved?": "No", "Medicare Covers?": "No", "Estimated Cost Without Coverage": "$10,000–$35,000" },
-        { "Condition/Application": "Arthritis, neuropathy, shoulders", "FDA Approved?": "No", "Medicare Covers?": "No", "Estimated Cost Without Coverage": "$1,500–$10,000" }],
-      footnote: "Only FDA-approved stem cell therapies are covered by Medicare. Non-approved therapies are entirely out-of-pocket and may carry legal and safety risks.",
-    },
-    exceptionsSection: {
-      title: "Stem Cell Therapies Medicare Does not Cover",
-      items: [
-        {
-          title: "Non-FDA-Approved Applications",
-          text: "The vast majority of stem cell therapy applications - including for knees, hips, back pain, arthritis, COPD, neuropathy, and cosmetic purposes - are not FDA-approved and therefore not covered by Medicare. Clinics advertising these treatments may be operating illegally.",
-        },
-        {
-          title: "Multiple Myeloma",
-          text: "Despite being a blood cancer, stem cell transplants for multiple myeloma do not currently have Medicare coverage because they lack FDA approval for this specific indication.",
-        },
-        {
-          title: "Regenerative Medicine",
-          text: "Regenerative stem cell therapies (including exosome products) are not FDA-approved and are not covered by Medicare. The FDA has issued consumer alerts warning about unapproved regenerative medicine products.",
-        },
-        {
-          title: "Experimental Applications",
-          text: "Experimental applications of stem cell therapy, including for COVID-19, epilepsy, and many other conditions, are not FDA-approved and are not covered by Medicare.",
-        }],
-    },
-    faqs: [
-      {
-        question: "Does Medicare Cover Stem Cell Therapy for Cancer?",
-        answer: "Yes, Medicare covers FDA-approved stem cell therapy for certain cancers, including lymphoma and leukemia. The two approved therapies are HSCT and AuSCT. Medicare may also cover stem cell therapy through eligible clinical trials for other cancer types.",
-      },
-      {
-        question: "Does Medicare Cover Stem Cell Therapy for Knees or Hips?",
-        answer: "No. The FDA has not approved stem cell therapy for knee or hip conditions. Because Medicare only covers FDA-approved treatments, stem cell therapy for joints is not covered. Medicare does cover [knee replacements](/faqs/does-medicare-cover-knee-replacement) and hip replacements when medically necessary.",
-      },
-      {
-        question: "Does Medicare Cover Autologous Stem Cell Transplants?",
-        answer: "Yes. Medicare covers Autologous Stem Cell Transplantation (AuSCT) for conditions such as acute leukemia in remission and advanced Hodgkin's Disease, as well as to replenish stem cells destroyed during cancer treatment.",
-      },
-      {
-        question: "How Much Does Stem Cell Therapy Cost with Medicare?",
-        answer: "With Original Medicare, you pay the Part A deductible ($1,736 in 2026) for inpatient transplants and 20% of outpatient costs. A [Medigap Plan G](/medicare-supplement-plans/plan-g/) can reduce your share to just the annual Part B deductible ($283 in 2026).",
-      },
-      {
-        question: "Does Medicare Cover Stem Cell Therapy for COPD?",
-        answer: "No. Stem cell therapy for COPD is not FDA-approved and is not covered by Medicare. Costs can range from $10,000 to $35,000 and the procedures may carry significant health risks.",
-      },
-      {
-        question: "Can Medicare Cover Stem Cell Therapy through a Clinical Trial?",
-        answer: "Yes. If you qualify for an eligible clinical trial that meets CMS criteria, Medicare may cover the routine costs associated with the trial, including stem cell therapy. Ask your oncologist about available clinical trials.",
-      },
-      {
-        question: "Does Medicare Advantage Cover Stem Cell Therapy?",
-        answer: "Yes. Medicare Advantage plans must cover the same services as Original Medicare, including FDA-approved stem cell therapies. Prior authorization is typically required. Contact your plan before treatment.",
-      }],
-    quickReference: [
-      { icon: "check", text: "<strong>Medicare covers</strong> FDA-approved HSCT and AuSCT for certain cancers and blood disorders" },
-      { icon: "x", text: "Stem cell therapy for joints, back pain, COPD, and arthritis is <strong>NOT covered</strong>" },
-      { icon: "dollar", text: "Inpatient transplant: Part A deductible + coinsurance; Outpatient: 20% coinsurance" },
-      { icon: "check", text: "Medigap Plan G covers your share of Medicare-approved stem cell therapy" },
-      { icon: "alert", text: "Non-FDA-approved stem cell clinics may be operating illegally - verify with FDA" },
-      { icon: "info", text: "Clinical trials may provide Medicare coverage for additional stem cell applications" }],
-    relatedTopics: [
-      { title: "Medicare Coverage for Cancer", description: "Learn how Medicare covers chemotherapy, radiation, immunotherapy, and cancer screenings.", slug: "medicare-coverage-for-cancer" },
-      { title: "Does Medicare Cover End Stage Renal Disease?", description: "Understand Medicare's ESRD program and how it covers dialysis and kidney transplants.", slug: "does-medicare-cover-end-stage-renal-disease" },
-      { title: "Medicare Supplement Plan G", description: "See how Plan G covers your share of expensive Medicare-approved treatments.", slug: "plan-g" },
-      { title: "Does Medicare Cover a Biopsy?", description: "Learn how Medicare covers diagnostic biopsies used to detect cancer.", slug: "does-medicare-cover-a-biopsy" }],
-    sidebarRelatedLinks: [
-      "Medicare Coverage for Cancer",
-      "Medicare Supplement Plan G",
-      "Does Medicare Cover a Biopsy",
-      "Does Medicare Cover End Stage Renal Disease"],
-    ctaBanner: {
-      title: "Facing a Costly Cancer Treatment?",
-      text: "A Medigap Plan G can cover your 20% coinsurance for Medicare-approved stem cell therapy and other cancer treatments. Compare plans in your area for free.",
-    },
-    relatedSlugs: ["medicare-coverage-for-cancer", "does-medicare-cover-end-stage-renal-disease", "plan-g", "does-medicare-cover-a-biopsy"],
+    description: "Medicare covers FDA-approved stem cell transplants for certain cancers and blood disorders. Learn which therapies qualify and what you will pay.",
+    canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-stem-cell-treatments/",
+    ogImage: "/images/medicarefaq-cover.jpg",
   },
+  title: "Does Medicare Cover Stem Cell Therapy?",
+  subtitle: "Medicare covers stem cell therapy only when it is FDA-approved and deemed medically necessary. Learn which conditions qualify, what Medicare pays, and why most stem cell therapies are not covered.",
+  category: "Medicare Coverage",
+  dateUpdated: "April 14, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+  },
+  readTime: "6 min read",
+  quickAnswer: {
+    text: "Medicare covers stem cell therapy only when it is FDA-approved and deemed medically necessary. The two approved therapies are Hematopoietic Stem Cell Transplantation (HSCT) and Autologous Stem Cell Transplantation (AuSCT), primarily for certain cancers and blood disorders. Like other covered treatments, you'll still owe applicable Part A or Part B cost-sharing unless you have supplemental coverage. Stem cell therapy for knees, hips, back pain, arthritis, COPD, or cosmetic purposes is **not covered** because the FDA has not approved these applications.",
+    badges: [
+      {
+        plan: "Part A",
+        status: "covered",
+      },
+      {
+        plan: "Part B",
+        status: "partial",
+      },
+      {
+        plan: "Medicare Advantage",
+        status: "covered",
+      },
+      {
+        plan: "Medigap",
+        status: "covered",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Original Medicare (Part A)",
+      coverage: "Covered - inpatient transplant",
+      icon: "shield",
+      notes: "Covers inpatient stem cell transplant hospital stay after Part A deductible",
+    },
+    {
+      planType: "Original Medicare (Part B)",
+      coverage: "Partial - outpatient only",
+      icon: "activity",
+      notes: "Covers outpatient stem cell therapy sessions at 80% after Part B deductible",
+    },
+    {
+      planType: "Medicare Advantage",
+      coverage: "Covered - same as A+B",
+      icon: "heart",
+      notes: "Must cover same FDA-approved therapies as Original Medicare; prior auth required",
+    },
+    {
+      planType: "Medigap (Plan G)",
+      coverage: "Covered - cost-sharing",
+      icon: "users",
+      notes: "Covers Part A/B deductibles and coinsurance; reduces your cost to near $0",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "Original Medicare (Parts a & B)",
+      icon: "shield",
+      iconColor: "#1B2A4A",
+      coverageLabel: "Covered - FDA-approved therapies only",
+      coverageType: "covered",
+      statusBadge: "Covered - HSCT and AuSCT for qualifying conditions",
+      paragraphs: [
+      "[Medicare Part A](/original-medicare/medicare-parts/medicare-part-a/) covers inpatient stem cell transplants during a hospital stay. The transplant process - which can last 3 to 4 weeks as an inpatient - is covered after you meet the Part A deductible ($1,736 in 2026). Part A also covers any [skilled nursing facility care](/faqs/medicare-coverage-for-skilled-nursing-facilities) needed after discharge.",
+      "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) covers outpatient stem cell therapy sessions. You pay 20% of the Medicare-approved amount after meeting the Part B deductible ($283 in 2026). Given the high cost of stem cell treatments ($5,000–$50,000+), this 20% can be substantial.",
+      "The critical requirement is FDA approval. Medicare only covers stem cell therapies approved by the FDA - specifically HSCT and AuSCT for certain cancers, blood disorders, and immune system conditions. Any non-FDA-approved therapy will be denied.",
+    ],
+      whatItCovers: [
+      "Hematopoietic Stem Cell Transplantation (HSCT) for certain cancers and blood disorders",
+      "Autologous Stem Cell Transplantation (AuSCT) for qualifying cancer conditions",
+      "Inpatient hospital stay during the transplant process",
+      "Outpatient follow-up sessions covered under Part B",
+      "FDA-approved stem cell therapy through eligible clinical trials",
+    ],
+      whatItDoesntCover: [
+      "Stem cell therapy for knees, hips, or joint pain (not FDA-approved)",
+      "Stem cell therapy for COPD, back pain, or arthritis (not FDA-approved)",
+      "Cosmetic or regenerative stem cell therapies",
+      "Non-FDA-approved experimental applications",
+    ],
+      callout: {
+      type: "tip",
+      title: "Clinical Trials May Expand Coverage",
+      text: "Medicare may also cover FDA-approved stem cell therapy through eligible clinical trials. Ask your oncologist if you qualify for a covered clinical trial.",
+    },
+      costNote: "Stem cell therapy costs range from $5,000 to $50,000+. With Original Medicare only, you pay 20% of outpatient costs and the Part A deductible for inpatient stays.",
+    },
+    {
+      planName: "Medicare Advantage",
+      icon: "heart",
+      iconColor: "#059669",
+      coverageLabel: "Covered - same as Original Medicare",
+      coverageType: "covered",
+      statusBadge: "Covered - prior authorization required",
+      paragraphs: [
+      "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) must provide the same coverage as Original Medicare Parts A and B. Therefore, FDA-approved stem cell therapies covered by Original Medicare are also covered by Medicare Advantage plans.",
+      "Some Advantage plans may offer additional benefits, but non-FDA-approved stem cell therapies remain excluded regardless of plan type. Prior authorization is commonly required for stem cell transplants under Advantage plans.",
+      "Network restrictions may require you to use specific oncology centers or hospitals. Verify that your preferred cancer treatment center is in-network before proceeding.",
+    ],
+      callout: {
+      type: "warning",
+      title: "Prior Authorization is Almost Always Required",
+      text: "Prior authorization is almost always required for stem cell transplants under Medicare Advantage. Contact your plan immediately after your oncologist recommends treatment.",
+    },
+      costNote: "Cost-sharing varies by plan. Review your Evidence of Coverage for specific stem cell transplant cost details.",
+    },
+    {
+      planName: "Medigap (Medicare Supplement)",
+      icon: "users",
+      iconColor: "#7C3AED",
+      coverageLabel: "Covers your cost-sharing",
+      coverageType: "covered",
+      statusBadge: "Covers Part A deductible and Part B coinsurance",
+      paragraphs: [
+      "A [Medigap Plan G](/medicare-supplement-plans/plan-g/) covers the Part A deductible and the 20% Part B coinsurance for Medicare-approved stem cell therapy. Given the high cost of these treatments, Medigap can save you thousands of dollars.",
+      "Medigap covers any service that Original Medicare approves - so if Medicare approves a stem cell therapy, your Medigap plan will cover your share of the cost. This provides significant financial protection for expensive cancer treatments.",
+      "If you have a Medicare Advantage plan, you cannot use Medigap. Medigap only supplements Original Medicare (Parts A and B).",
+    ],
+      costNote: "With Plan G: pay only the Part B deductible ($283 in 2026). Without Medigap: 20% of all outpatient costs plus the Part A deductible for inpatient stays.",
+    },
+  ],
+  costTable: {
+    title: "Stem Cell Therapy Coverage by Condition",
+    headers: [
+    "Condition/Application",
+    "FDA Approved?",
+    "Medicare Covers?",
+    "Estimated Cost Without Coverage",
+  ],
+    rows: [
+      {
+        "Condition/Application": "Certain cancers (lymphoma, leukemia)",
+        "FDA Approved?": "Yes (HSCT/AuSCT)",
+        "Medicare Covers?": "Yes",
+        "Estimated Cost Without Coverage": "$50,000–$200,000+",
+      },
+      {
+        "Condition/Application": "Blood/immune disorders",
+        "FDA Approved?": "Yes (HSCT)",
+        "Medicare Covers?": "Yes",
+        "Estimated Cost Without Coverage": "$50,000–$150,000+",
+      },
+      {
+        "Condition/Application": "Knee/hip/joint pain",
+        "FDA Approved?": "No",
+        "Medicare Covers?": "No",
+        "Estimated Cost Without Coverage": "$3,000–$10,000 per joint",
+      },
+      {
+        "Condition/Application": "Back pain",
+        "FDA Approved?": "No",
+        "Medicare Covers?": "No",
+        "Estimated Cost Without Coverage": "$5,000–$7,000",
+      },
+      {
+        "Condition/Application": "COPD",
+        "FDA Approved?": "No",
+        "Medicare Covers?": "No",
+        "Estimated Cost Without Coverage": "$10,000–$35,000",
+      },
+      {
+        "Condition/Application": "Arthritis, neuropathy, shoulders",
+        "FDA Approved?": "No",
+        "Medicare Covers?": "No",
+        "Estimated Cost Without Coverage": "$1,500–$10,000",
+      },
+    ],
+    footnote: "Only FDA-approved stem cell therapies are covered by Medicare. Non-approved therapies are entirely out-of-pocket and may carry legal and safety risks.",
+  },
+  exceptionsSection: {
+    title: "Stem Cell Therapies Medicare Does not Cover",
+    items: [
+      {
+        title: "Non-FDA-Approved Applications",
+        text: "The vast majority of stem cell therapy applications - including for knees, hips, back pain, arthritis, COPD, neuropathy, and cosmetic purposes - are not FDA-approved and therefore not covered by Medicare. Clinics advertising these treatments may be operating illegally.",
+      },
+      {
+        title: "Multiple Myeloma",
+        text: "Despite being a blood cancer, stem cell transplants for multiple myeloma do not currently have Medicare coverage because they lack FDA approval for this specific indication.",
+      },
+      {
+        title: "Regenerative Medicine",
+        text: "Regenerative stem cell therapies (including exosome products) are not FDA-approved and are not covered by Medicare. The FDA has issued consumer alerts warning about unapproved regenerative medicine products.",
+      },
+      {
+        title: "Experimental Applications",
+        text: "Experimental applications of stem cell therapy, including for COVID-19, epilepsy, and many other conditions, are not FDA-approved and are not covered by Medicare.",
+      },
+    ],
+  },
+  faqs: [
+    {
+      question: "Does Medicare Cover Stem Cell Therapy for Cancer?",
+      answer: "Yes, Medicare covers FDA-approved stem cell therapy for certain cancers, including lymphoma and leukemia. The two approved therapies are HSCT and AuSCT. Medicare may also cover stem cell therapy through eligible clinical trials for other cancer types.",
+    },
+    {
+      question: "Does Medicare Cover Stem Cell Therapy for Knees or Hips?",
+      answer: "No. The FDA has not approved stem cell therapy for knee or hip conditions. Because Medicare only covers FDA-approved treatments, stem cell therapy for joints is not covered. Medicare does cover [knee replacements](/faqs/does-medicare-cover-knee-replacement) and hip replacements when medically necessary.",
+    },
+    {
+      question: "Does Medicare Cover Autologous Stem Cell Transplants?",
+      answer: "Yes. Medicare covers Autologous Stem Cell Transplantation (AuSCT) for conditions such as acute leukemia in remission and advanced Hodgkin's Disease, as well as to replenish stem cells destroyed during cancer treatment.",
+    },
+    {
+      question: "How Much Does Stem Cell Therapy Cost with Medicare?",
+      answer: "With Original Medicare, you pay the Part A deductible ($1,736 in 2026) for inpatient transplants and 20% of outpatient costs. A [Medigap Plan G](/medicare-supplement-plans/plan-g/) can reduce your share to just the annual Part B deductible ($283 in 2026).",
+    },
+    {
+      question: "Does Medicare Cover Stem Cell Therapy for COPD?",
+      answer: "No. Stem cell therapy for COPD is not FDA-approved and is not covered by Medicare. Costs can range from $10,000 to $35,000 and the procedures may carry significant health risks.",
+    },
+    {
+      question: "Can Medicare Cover Stem Cell Therapy through a Clinical Trial?",
+      answer: "Yes. If you qualify for an eligible clinical trial that meets CMS criteria, Medicare may cover the routine costs associated with the trial, including stem cell therapy. Ask your oncologist about available clinical trials.",
+    },
+    {
+      question: "Does Medicare Advantage Cover Stem Cell Therapy?",
+      answer: "Yes. Medicare Advantage plans must cover the same services as Original Medicare, including FDA-approved stem cell therapies. Prior authorization is typically required. Contact your plan before treatment.",
+    },
+    {
+      question: "Does Medicare Cover Stem Cell Therapy at Private Clinics?",
+      answer: "Private stem cell clinics that offer unapproved treatments for joints, pain, or anti-aging purposes are not covered by Medicare because these therapies lack FDA approval. Patients who choose to pursue",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "check",
+      text: "<strong>Medicare covers</strong> FDA-approved HSCT and AuSCT for certain cancers and blood disorders",
+    },
+    {
+      icon: "x",
+      text: "Stem cell therapy for joints, back pain, COPD, and arthritis is <strong>NOT covered</strong>",
+    },
+    {
+      icon: "dollar",
+      text: "Inpatient transplant: Part A deductible + coinsurance; Outpatient: 20% coinsurance",
+    },
+    {
+      icon: "check",
+      text: "Medigap Plan G covers your share of Medicare-approved stem cell therapy",
+    },
+    {
+      icon: "alert",
+      text: "Non-FDA-approved stem cell clinics may be operating illegally - verify with FDA",
+    },
+    {
+      icon: "info",
+      text: "Clinical trials may provide Medicare coverage for additional stem cell applications",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Medicare Coverage for Cancer",
+      description: "Learn how Medicare covers chemotherapy, radiation, immunotherapy, and cancer screenings.",
+      slug: "medicare-coverage-for-cancer",
+    },
+    {
+      title: "Does Medicare Cover End Stage Renal Disease?",
+      description: "Understand Medicare's ESRD program and how it covers dialysis and kidney transplants.",
+      slug: "does-medicare-cover-end-stage-renal-disease",
+    },
+    {
+      title: "Medicare Supplement Plan G",
+      description: "See how Plan G covers your share of expensive Medicare-approved treatments.",
+      slug: "plan-g",
+    },
+    {
+      title: "Does Medicare Cover a Biopsy?",
+      description: "Learn how Medicare covers diagnostic biopsies used to detect cancer.",
+      slug: "does-medicare-cover-a-biopsy",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "Medicare Coverage for Cancer",
+    "Medicare Supplement Plan G",
+    "Does Medicare Cover a Biopsy",
+    "Does Medicare Cover End Stage Renal Disease",
+  ],
+  ctaBanner: {
+    title: "Facing a Costly Cancer Treatment?",
+    text: "A Medigap Plan G can cover your 20% coinsurance for Medicare-approved stem cell therapy and other cancer treatments. Compare plans in your area for free.",
+  },
+  relatedSlugs: [
+    "medicare-coverage-for-cancer",
+    "does-medicare-cover-end-stage-renal-disease",
+    "plan-g",
+    "does-medicare-cover-a-biopsy",
+  ],
+},
 
   {
     slug: "medicare-coverage-for-botox-treatments",
