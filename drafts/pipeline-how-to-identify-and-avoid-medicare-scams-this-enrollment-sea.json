@@ -15,7 +15,7 @@
     "Legitimate agents only contact you if you have given prior consent, and no real agent requires upfront payment or home visits without invitation",
     "Protect your Medicare number like your Social Security number and verify any coverage questions directly through Medicare.gov or your plan carrier"
   ],
-  "seoTitle": "Spot and Avoid Medicare Open Enrollment Scams",
+  "seoTitle": "How to Spot and Avoid Medicare Open Enrollment Scams",
   "seoDescription": "Protect yourself from Medicare open enrollment scams with tips on spotting fake calls, emails, and offers during this year's enrollment season.",
   "sections": [
     {
@@ -26,11 +26,11 @@
     },
     {
       "type": "paragraph",
-      "content": "Every year between October 15 and December 7, millions of Medicare beneficiaries review their coverage and consider switching plans. Scammers know this window well, and they use it to their advantage by impersonating Medicare, plan carriers, or licensed agents to appear trustworthy. Because many older adults may be less familiar with digital verification tools or newer scam tactics, they are frequently targeted during this period."
+      "content": "Every year between October 15 and December 7, millions of Medicare beneficiaries review their coverage and consider switching plans. Scammers know this window well, and they use it to their advantage by impersonating Medicare, plan carriers, or licensed agents to appear trustworthy. Because many older adults may be less familiar with digital verification tools or newer scam tactics, they are frequently targeted during this period. According to fraud alerts from the Office of Inspector General at OIG.hhs.gov and consumer data from the Federal Trade Commission, Medicare-related scams tend to increase during open enrollment season as fraudsters take advantage of the volume of legitimate plan marketing taking place."
     },
     {
       "type": "paragraph",
-      "content": "Recognizing this seasonal pattern does not mean you need to treat every phone call or email with suspicion. It simply means knowing what to watch for so you can make enrollment decisions with confidence instead of worry."
+      "content": "Recognizing this seasonal pattern does not mean you need to treat every phone call or email with suspicion. It simply means knowing what to watch for so you can make enrollment decisions with confidence instead of worry. With a few simple verification habits, most beneficiaries can navigate this season without issue."
     },
     {
       "type": "heading",
@@ -44,7 +44,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Be cautious of callers who pressure you to decide immediately or who threaten that your coverage will be cancelled if you do not act right away. Scammers rely on urgency to prevent you from pausing to verify who they really are. It also helps to know that caller ID can be spoofed, so a call that appears to come from a government number is not proof that it actually is one."
+      "content": "Be cautious of callers who pressure you to decide immediately or who threaten that your coverage will be cancelled if you do not act right away. Taking a moment to pause and verify who you're speaking with is one of the simplest ways to stay protected. It also helps to know that caller ID can be spoofed, so a call that appears to come from a government number is not proof that it actually is one."
     },
     {
       "type": "heading",
@@ -83,7 +83,7 @@
     },
     {
       "type": "paragraph",
-      "content": "If you want to check something related to your coverage, go directly to a trusted source such as [Medicare.gov](https://www.medicare.gov/) or the verified website of your plan carrier rather than following a link sent to you."
+      "content": "If you want to check something related to your coverage, go directly to a trusted source such as [[Medicare.gov](/faqs/what-is-medicare/)](https://www.medicare.gov/) or the verified website of your plan carrier rather than following a link sent to you."
     },
     {
       "type": "heading",
@@ -93,7 +93,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Scammers use several recurring tactics each fall, and recognizing them can help you avoid becoming a target. Some offer \"free\" genetic testing, braces, or medical equipment as a way to collect your Medicare number for fraudulent billing. Others show up at your door or call unsolicited, offering to \"help\" you enroll in a plan on the spot."
+      "content": "Scammers use several recurring tactics each fall, and recognizing them can help you avoid becoming a target. Some offer \"free\" genetic testing, braces, or medical equipment as a way to collect your Medicare number for fraudulent billing. Others show up at your door or call unsolicited, offering to \"help\" you enroll in a plan on the spot. The Senior Medicare Patrol national resource center at smpresource.org tracks these patterns each year and publishes updated alerts as new tactics emerge."
     },
     {
       "type": "list",
@@ -111,6 +111,26 @@
     {
       "type": "heading",
       "level": 2,
+      "id": "red-flags-checklist",
+      "text": "Red Flags Checklist"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Unsolicited call, text, or email asking for your Medicare number, Social Security number, or banking information",
+        "Pressure to decide immediately or threats that your coverage will be cancelled if you do not act right away",
+        "Claims of a \"new Medicare card\" that requires you to verify personal details",
+        "Offers of free genetic testing, braces, or medical equipment in exchange for your Medicare number",
+        "Door-to-door visits or unsolicited calls from someone offering to enroll you in a plan on the spot",
+        "Requests for upfront payment before your enrollment is actually complete",
+        "Links in unexpected texts or emails asking you to \"confirm\" your Medicare information",
+        "Generic greetings like \"Dear Member\" instead of your actual name, or misspellings and odd domain names in the sender's address"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
       "id": "how-to-protect-your-personal-information-while-comparing-plans",
       "text": "How to Protect Your Personal Information While Comparing Plans"
     },
@@ -120,7 +140,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Before sharing any details with someone claiming to be a licensed Medicare agent, you can verify their license through your state insurance department. When comparing plans, rely on official sources like Medicare.gov or a transparent, verified helpline rather than information from an unsolicited call or ad."
+      "content": "Before sharing any details with someone claiming to be a licensed Medicare agent, you can verify their license through your state insurance department. When comparing plans, rely on official sources like [Medicare.gov](/faqs/what-is-medicare/) or a transparent, verified helpline rather than information from an unsolicited call or ad."
     },
     {
       "type": "paragraph",
@@ -138,20 +158,20 @@
     },
     {
       "type": "paragraph",
-      "content": "If something about a call, text, or email feels off, stop responding right away. Hang up the phone or close the message without confirming any personal details, even if the caller pushes back or asks you to stay on the line."
+      "content": "If something about a call, text, or email feels off, stop responding right away. Hang up the phone or close the message without confirming any personal details, even if the caller pushes back or asks you to stay on the line. Reporting channels exist specifically to help you resolve situations like this, so there is a clear path forward if you ever need it."
     },
     {
       "type": "list",
       "ordered": true,
       "items": [
-        "Report suspicious activity to the Medicare fraud line at 1-800-MEDICARE or contact your state's Senior Medicare Patrol (SMP)",
+        "Report suspicious activity to the [Medicare fraud line](/faqs/report-medicare-fraud/) at 1-800-MEDICARE or contact your state's Senior Medicare Patrol (SMP)",
         "File a report with the Federal Trade Commission at ReportFraud.ftc.gov if you shared money or personal information",
         "Review your Medicare Summary Notices regularly for unfamiliar charges or services you do not recognize"
       ]
     },
     {
       "type": "paragraph",
-      "content": "Acting quickly after a suspected scam can limit the damage and help investigators flag the activity for other beneficiaries. The [Senior Medicare Patrol program](https://www.ssa.gov/) and your Medicare account are both useful resources for catching unfamiliar billing early."
+      "content": "Acting quickly after a suspected scam can limit the damage and help investigators flag the activity for other beneficiaries. The [Senior Medicare Patrol program](https://www.smpresource.org/) and your Medicare account are both useful resources for catching unfamiliar billing early."
     },
     {
       "type": "heading",
@@ -190,7 +210,7 @@
         },
         {
           "question": "What if I already shared personal information with someone I now think was a scammer?",
-          "answer": "Contact 1-800-MEDICARE and your state's Senior Medicare Patrol right away, and consider alerting the major credit bureaus if financial information was shared. Acting quickly limits potential damage, and this is a manageable, fairly common situation that fraud reporting channels are built to handle."
+          "answer": "Contact 1-800-MEDICARE and your state's Senior Medicare Patrol right away, and consider alerting the major credit bureaus if financial information was shared. Acting quickly limits potential damage, and fraud reporting channels such as the FTC and Senior Medicare Patrol are specifically built to help you resolve situations like this. For example, if you're 66 and just received a call about a new Medicare card and gave the caller your Medicare number before realizing something felt wrong, these same steps apply: report it immediately and monitor your accounts closely afterward."
         }
       ]
     },
@@ -202,7 +222,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Protecting your Medicare coverage during open enrollment starts with verifying who you're talking to before sharing any personal details. Whenever possible, review plan options directly through Medicare.gov or a transparent, licensed resource rather than responding to unsolicited calls or messages."
+      "content": "Protecting your Medicare coverage during open enrollment starts with verifying who you're talking to before sharing any personal details. Whenever possible, review plan options directly through [Medicare.gov](/faqs/what-is-medicare/) or a transparent, licensed resource rather than responding to unsolicited calls or messages."
     },
     {
       "type": "paragraph",
@@ -217,7 +237,57 @@
     "medicare-part-d-enrollment-deadlines",
     "medicare-annual-notice-of-change-letter"
   ],
+  "linkSuggestions": [
+    {
+      "phrase": "licensed agent",
+      "url": "/faqs/medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling/",
+      "title": "Medicare Supplement vs Medicare Advantage: Crucial Questions to Ask before Enrolling",
+      "reason": "This link offers deeper insights into what to expect from licensed agents, helping readers understand how to verify their credentials."
+    },
+    {
+      "phrase": "report suspicious activity",
+      "url": "/faqs/report-medicare-fraud/",
+      "title": "How to Report Medicare Fraud, Abuse, and Waste",
+      "reason": "This link provides essential steps for reporting suspicious activity, which is vital for protecting oneself from scams."
+    },
+    {
+      "phrase": "Medicare Summary Notices",
+      "url": "/faqs/what-to-do-if-your-medicare-plan-suddenly-drops-a-drug-or-doctor/",
+      "title": "What to Do If Your Medicare Plan Suddenly Drops a Drug or Doctor",
+      "reason": "Linking to this page helps readers understand how to manage their Medicare Summary Notices and what actions to take if they notice discrepancies."
+    },
+    {
+      "phrase": "verify their license",
+      "url": "/faqs/when-should-you-enroll-in-medicare-if-still-working/",
+      "title": "When Should You Enroll in Medicare if Still Working?",
+      "reason": "This link provides context on when to enroll and the importance of verifying agents, which ties into the overall theme of protecting personal information."
+    },
+    {
+      "phrase": "comparing plans",
+      "url": "/faqs/medicare-advantage-vs-medicare-supplement/",
+      "title": "Medicare Advantage vs. Medicare Supplement: Which Is Right for You?",
+      "reason": "Linking to this page helps readers understand the differences between plan types, which is essential when comparing options."
+    },
+    {
+      "phrase": "legitimate licensed agents",
+      "url": "/faqs/medicare-supplement-vs-medicare-advantage/",
+      "title": "Medicare Supplement vs. Medicare Advantage: Key Differences Explained",
+      "reason": "This link provides clarity on the roles of licensed agents and how they differ between Medicare Supplement and Advantage plans."
+    }
+  ],
+  "acceptedLinks": [
+    {
+      "phrase": "Medicare fraud line",
+      "url": "/faqs/report-medicare-fraud/",
+      "title": "How to Report Medicare Fraud, Abuse, and Waste"
+    },
+    {
+      "phrase": "Medicare.gov",
+      "url": "/faqs/what-is-medicare/",
+      "title": "What Is Medicare?"
+    }
+  ],
   "id": "pipeline-how-to-identify-and-avoid-medicare-scams-this-enrollment-sea",
-  "updatedAt": "2026-10-19T14:18:03.682Z",
-  "createdAt": "2026-10-19T14:18:03.682Z"
+  "updatedAt": "2026-10-19T15:09:03.013Z",
+  "createdAt": "2026-10-19T15:09:03.013Z"
 }
