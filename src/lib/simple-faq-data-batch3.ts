@@ -161,8 +161,8 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
   {
     slug: 'medicare-paperless-billing',
     seo: {
-      title: 'Medicare Paperless Premium Billing',
-      description: 'Medicare has been improving its paperless billing options. You can now choose to receive your Medicare Summary Notices and the Medicare and You handbook electronically.',
+      title: "Medicare Paperless Premium Billing: How to Go Paperless in 2026",
+      description: "Switch to paperless Medicare billing in minutes. Get your Medicare Summary Notices and Medicare and You handbook delivered electronically and skip the paper clutter.",
       canonical: 'https://www.medicarefaq.com/faqs/medicare-paperless-billing/',
       ogImage: '/images/medicarefaq-cover.jpg',
     },
