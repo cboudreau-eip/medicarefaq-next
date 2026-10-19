@@ -30,11 +30,11 @@
     },
     {
       "type": "paragraph",
-      "content": "During this period, you can switch from Original Medicare to a Medicare Advantage plan, move from Medicare Advantage back to Original Medicare, change from one Medicare Advantage plan to another, or join, drop, or switch a Part D drug plan. Any changes you make take effect on January 1."
+      "content": "During this period, you can switch from Original Medicare to a Medicare Advantage plan, move from Medicare Advantage back to Original Medicare, change from one Medicare Advantage plan to another, or join, drop, or switch a [Part D drug plan](/faqs/medicare-part-d-late-enrollment-penalty/). Any changes you make take effect on January 1."
     },
     {
       "type": "paragraph",
-      "content": "This is different from the Medicare Advantage Open Enrollment Period, which runs January 1 to March 31 and only allows one Advantage-to-Advantage or Advantage-to-Original switch. It also differs from your Initial Enrollment Period, which applies when you first become eligible. If you are already on Medicare and want to compare or change plans for next year, fall Open Enrollment is your window."
+      "content": "This is different from the Medicare Advantage Open Enrollment Period, which runs January 1 to March 31 and only allows one Advantage-to-Advantage or Advantage-to-Original switch. It also differs from your [Initial Enrollment Period](/faqs/medicare-initial-enrollment-period/), which applies when you first become eligible. If you are already on Medicare and want to compare or change plans for next year, fall Open Enrollment is your window."
     },
     {
       "type": "heading",
@@ -98,7 +98,7 @@
     },
     {
       "type": "paragraph",
-      "content": "A typical SHIP session reviews the cost structure of each plan you are considering, including monthly premiums, annual deductibles, copays for office visits and specialists, and the plan's maximum out-of-pocket limit. For 2026, Medicare Advantage plans have a maximum out-of-pocket limit of $9,250, and understanding how a plan's design compares to that ceiling can clarify your worst-case financial exposure."
+      "content": "A typical SHIP session reviews the cost structure of each plan you are considering, including monthly premiums, annual deductibles, copays for office visits and specialists, and the plan's [maximum out-of-pocket limit](/faqs/medicare-maximum-out-of-pocket/). For 2026, Medicare Advantage plans have a maximum out-of-pocket limit of $9,250, and understanding how a plan's design compares to that ceiling can clarify your worst-case financial exposure."
     },
     {
       "type": "paragraph",
@@ -144,7 +144,7 @@
       "type": "callout",
       "calloutType": "warning",
       "calloutTitle": "Late Enrollment Penalties Add Up",
-      "calloutText": "If you go without creditable Part D drug coverage for 63 days or more after your Initial Enrollment Period ends, you may face a late enrollment penalty based on the national base beneficiary premium of $38.99, added to your monthly premium for as long as you have Part D coverage."
+      "calloutText": "If you go without creditable Part D drug coverage for 63 days or more after your [Initial Enrollment Period](/faqs/medicare-initial-enrollment-period/) ends, you may face a late enrollment penalty based on the national base beneficiary premium of $38.99, added to your monthly premium for as long as you have Part D coverage."
     },
     {
       "type": "paragraph",
@@ -229,7 +229,62 @@
     "medicare-2027-key-changes-in-open-enrollment-you-need-to-know",
     "medicare-part-d-enrollment-deadlines"
   ],
+  "linkSuggestions": [
+    {
+      "phrase": "Medicare Advantage plan",
+      "url": "/faqs/medicare-advantage-vs-medicare-supplement/",
+      "title": "Medicare Advantage vs. Medicare Supplement: Which Is Right for You?",
+      "reason": "This link provides a comparison between Medicare Advantage and Medicare Supplement plans, which is relevant for readers considering their options during Open Enrollment."
+    },
+    {
+      "phrase": "free counseling session",
+      "url": "/faqs/medicare-savings-programs/",
+      "title": "Medicare Savings Programs: QMB, SLMB, QI, and QDWI Explained (2026)",
+      "reason": "Linking to Medicare Savings Programs can provide readers with options for financial assistance that may be relevant when considering counseling services."
+    },
+    {
+      "phrase": "Special Enrollment Period",
+      "url": "/faqs/medicare-special-enrollment-period/",
+      "title": "Medicare Special Enrollment Period",
+      "reason": "Providing information on Special Enrollment Periods is valuable for readers who may qualify for changes outside the standard enrollment windows."
+    },
+    {
+      "phrase": "Medicare Advantage Open Enrollment Period",
+      "url": "/faqs/medicare-advantage-open-enrollment-period/",
+      "title": "Medicare Advantage Open Enrollment Period",
+      "reason": "This link clarifies the specifics of the Medicare Advantage Open Enrollment Period, which is important for understanding plan changes."
+    },
+    {
+      "phrase": "network restriction",
+      "url": "/faqs/medicare-and-employer-coverage/",
+      "title": "Understanding Employer Insurance and Medicare",
+      "reason": "This link helps clarify how network restrictions can affect individuals who have employer coverage alongside Medicare."
+    },
+    {
+      "phrase": "Annual Notice of Change",
+      "url": "/faqs/medicare-annual-notice-of-change-letter/",
+      "title": "Medicare Annual Notice of Change (ANOC) Letter",
+      "reason": "Providing information about the Annual Notice of Change is essential for readers to understand updates to their plans each year."
+    }
+  ],
+  "acceptedLinks": [
+    {
+      "phrase": "Part D drug plan",
+      "url": "/faqs/medicare-part-d-late-enrollment-penalty/",
+      "title": "Medicare Part D Late Enrollment Penalty"
+    },
+    {
+      "phrase": "maximum out-of-pocket limit",
+      "url": "/faqs/medicare-maximum-out-of-pocket/",
+      "title": "Medicare Maximum Out-of-Pocket"
+    },
+    {
+      "phrase": "Initial Enrollment Period",
+      "url": "/faqs/medicare-initial-enrollment-period/",
+      "title": "Medicare Initial Enrollment Period"
+    }
+  ],
   "id": "pipeline-medicare-open-enrollment-2027-free-resources-for-seniors",
-  "updatedAt": "2026-10-19T15:12:44.075Z",
-  "createdAt": "2026-10-19T15:12:44.075Z"
+  "updatedAt": "2026-10-19T15:14:44.691Z",
+  "createdAt": "2026-10-19T15:14:44.691Z"
 }
