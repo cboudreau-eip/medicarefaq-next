@@ -39,12 +39,43 @@
     {
       "type": "heading",
       "level": 2,
+      "id": "the-15-point-checklist-at-a-glance",
+      "text": "The 15-Point Checklist at a Glance"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here is the complete checklist in one place. Each item is covered in more detail in the sections below."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Your current Medicare card and any plan ID cards",
+        "A list of medications with exact dosages and frequency",
+        "A list of current doctors, specialists, and facilities you use",
+        "Your most recent Annual Notice of Change (ANOC) letter",
+        "A summary of your 2026 out-of-pocket costs for comparison",
+        "Monthly premium amount for each plan you are considering",
+        "Annual deductible for medical and drug coverage",
+        "Copay or coinsurance amounts for office visits, specialists, and hospital stays",
+        "Maximum out-of-pocket limit for the plans you are comparing",
+        "Provider directory check confirming your doctors and specialists are in-network",
+        "Pharmacy network list showing where you can fill prescriptions at the best price",
+        "Part D formulary review to confirm your medications are covered and at what tier",
+        "A calendar marking the October 15 to December 7, 2026 enrollment window",
+        "Notes on whether you qualify for a Special Enrollment Period outside the standard window",
+        "A written list of questions to ask before enrolling, covering costs, networks, and coverage gaps"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
       "id": "making-sense-of-medicare-terms",
       "text": "Making Sense of Medicare Terms Before You Compare Plans"
     },
     {
       "type": "paragraph",
-      "content": "Medicare terminology trips up even experienced beneficiaries. Original Medicare refers to Part A (hospital coverage) and Part B (medical coverage), administered directly by the federal government. [Medicare Advantage](/faqs/medicare-advantage-vs-medicare-supplement/), also called Part C, bundles those benefits through a private insurer and often adds extras like dental or vision. Part D is prescription drug coverage, either standalone or built into an Advantage plan."
+      "content": "Medicare terminology trips up even experienced beneficiaries. Original Medicare refers to Part A (hospital coverage) and Part B (medical coverage), administered directly by the federal government. [Medicare Advantage](/faqs/medicare-advantage-vs-medicare-supplement/), also called Part C, bundles those benefits through a private insurer and often adds extras like dental or vision. Part D is prescription drug coverage, either standalone or built into an Advantage plan. Reviewing your [Part D formulary](/faqs/part-d-formulary/) each year is one of the clearest ways to see how your plan's drug coverage may have changed."
     },
     {
       "type": "paragraph",
@@ -88,8 +119,12 @@
       "content": "One of the most common regrets beneficiaries report is skipping a side-by-side cost comparison and simply renewing the same plan out of habit. Plans change their networks, formularies, and costs every year, even when the plan name stays the same. What worked well in 2026 may look very different in 2027."
     },
     {
-      "type": "paragraph",
-      "content": "Gathering the right information upfront, rather than reacting to a sales call or a confusing mailer, protects you from rushed decisions. When you have your documents organized, you can evaluate options calmly instead of under pressure near the December 7 deadline."
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Gathering the right information upfront, rather than reacting to a sales call or a confusing mailer, protects you from rushed decisions",
+        "When your documents are organized, you can evaluate options calmly instead of under pressure near the December 7 deadline"
+      ]
     },
     {
       "type": "callout",
@@ -98,7 +133,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Reviewing annually, even when nothing feels urgent, is how experienced Medicare beneficiaries avoid surprises in January."
+      "content": "Reviewing annually, even when nothing feels urgent, is how experienced Medicare beneficiaries avoid surprises in January. Research from KFF, a nonpartisan source of health policy analysis, has consistently found that many beneficiaries do not compare plans during open enrollment, often missing opportunities to lower their costs."
     },
     {
       "type": "heading",
@@ -108,16 +143,36 @@
     },
     {
       "type": "paragraph",
-      "content": "Costs are where most plan comparisons go wrong. Essentials #6 through #9 cover the full financial picture: your monthly premium, annual deductible, copay or coinsurance amounts for common services, and your plan's maximum out-of-pocket limit."
+      "content": "Costs are where most plan comparisons go wrong. Essentials #6 through #9 cover the full financial picture: your monthly premium, annual deductible, copay or coinsurance amounts for common services, and your plan's maximum out-of-pocket limit. The table below summarizes each cost component and what to check for it."
     },
     {
-      "type": "list",
-      "ordered": false,
-      "items": [
-        "Essential #6: Monthly premium amount for each plan you are considering",
-        "Essential #7: Annual deductible for medical and drug coverage",
-        "Essential #8: Copay or coinsurance amounts for office visits, specialists, and hospital stays",
-        "Essential #9: Maximum out-of-pocket limit, which for [Medicare Advantage](/faqs/medicare-advantage-vs-medicare-supplement/) plans is capped at $9,250 in 2026"
+      "type": "table",
+      "headers": [
+        "Essential",
+        "Cost Component",
+        "What to Check"
+      ],
+      "rows": [
+        [
+          "#6",
+          "Monthly Premium",
+          "The amount charged each month for each plan you are considering"
+        ],
+        [
+          "#7",
+          "Annual Deductible",
+          "The amount you pay out of pocket before medical and drug coverage begins"
+        ],
+        [
+          "#8",
+          "Copay/Coinsurance",
+          "Amounts owed for office visits, specialists, and hospital stays"
+        ],
+        [
+          "#9",
+          "Maximum Out-of-Pocket (MOOP)",
+          "For Medicare Advantage plans, this cannot exceed $9,250 in 2026, according to CMS.gov, though many individual plans set their limits lower than this cap"
+        ]
       ]
     },
     {
@@ -127,7 +182,7 @@
     {
       "type": "callout",
       "calloutType": "warning",
-      "calloutText": "The 2026 Part B standard premium is $202.90 per month, up from $185 in 2025, with an annual deductible of $283. Factor these base costs into every comparison, regardless of which plan type you choose."
+      "calloutText": "The 2026 Part B standard premium is <a href=\"https://www.cms.gov\">$202.90 per month, up from $185 in 2025, with an annual Part B deductible of $283, according to CMS.gov</a>. Factor these base costs into every comparison, regardless of which plan type you choose."
     },
     {
       "type": "paragraph",
@@ -149,7 +204,7 @@
       "items": [
         "Essential #10: Provider directory check confirming your doctors and specialists are in-network",
         "Essential #11: Pharmacy network list showing where you can fill prescriptions at the best price",
-        "Essential #12: Part D formulary review to confirm your medications are covered and at what tier"
+        "Essential #12: [Part D formulary](/faqs/part-d-formulary/) review to confirm your medications are covered and at what tier"
       ]
     },
     {
@@ -172,14 +227,14 @@
     },
     {
       "type": "paragraph",
-      "content": "Essentials #13 through #15 round out your checklist: an enrollment deadline calendar, a note of any Special Enrollment Period you may qualify for, and a list of questions ready for a licensed agent."
+      "content": "Essentials #13 through #15 round out your checklist: an enrollment deadline calendar, a note of any [Special Enrollment Period](/faqs/special-enrollment-period/) you may qualify for, and a list of questions ready for a licensed agent."
     },
     {
       "type": "list",
       "ordered": false,
       "items": [
         "Essential #13: A calendar marking the October 15 to December 7, 2026 enrollment window",
-        "Essential #14: Notes on whether you qualify for a Special Enrollment Period outside the standard window",
+        "Essential #14: Notes on whether you qualify for a [Special Enrollment Period](/faqs/special-enrollment-period/) outside the standard window",
         "Essential #15: A written list of questions to ask before enrolling, covering costs, networks, and coverage gaps"
       ]
     },
@@ -190,8 +245,14 @@
       "calloutTitle": "Mark Your Calendar"
     },
     {
-      "type": "paragraph",
-      "content": "Late enrollment penalties can also affect your budget long-term. For example, delaying Part D enrollment without other creditable coverage can add a lasting surcharge to your monthly premium, calculated using the national base beneficiary premium of $38.99 in 2026, according to <a href=\"https://www.medicare.gov/basics/costs/medicare-costs\">Medicare's official cost guidance</a>. Acting during the right window protects you from these added costs."
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Late enrollment penalties can also affect your budget long-term",
+        "Delaying Part D enrollment without other creditable coverage can add a lasting surcharge to your monthly premium, calculated using the national base beneficiary premium of $38.99 in 2026, according to <a href=\"https://www.medicare.gov/basics/costs/medicare-costs\">Medicare's official cost guidance</a>",
+        "You can read more about how this works on our [late enrollment penalty](/faqs/late-enrollment-penalty/) page",
+        "Acting during the right window protects you from these added costs"
+      ]
     },
     {
       "type": "heading",
@@ -306,6 +367,6 @@
     }
   ],
   "id": "pipeline-15-essentials-for-medicare-open-enrollment-2027-preparation",
-  "updatedAt": "2026-10-19T13:16:37.471Z",
-  "createdAt": "2026-10-19T13:16:37.471Z"
+  "updatedAt": "2026-10-19T13:50:28.683Z",
+  "createdAt": "2026-10-19T13:50:28.683Z"
 }
