@@ -9817,230 +9817,339 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedSlugs: ["does-medicare-cover-copd", "will-medicare-pay-for-a-nebulizer-machine", "part-d-formulary", "medicare-part-d-late-enrollment-penalty", "medicare-part-d-explained", "what-does-medicare-part-a-cover", "what-is-medicare-part-d"],
   },
   {
-    slug: "does-medicare-cover-atrial-fibrillation-afib",
-    seo: {
-      title: "Does Medicare Cover Atrial Fibrillation (AFib)?",
-      description:
-        "Medicare covers AFib treatments including cardioversion, catheter ablation, EKGs, and prescription drugs like Eliquis. Learn what Original Medicare, Advantage, and Medigap cover.",
-      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-atrial-fibrillation-afib/",
-      ogImage: "/images/medicarefaq-cover.jpg",
-    },
+  slug: "does-medicare-cover-atrial-fibrillation-afib",
+  seo: {
     title: "Does Medicare Cover Atrial Fibrillation (AFib)?",
-    subtitle:
-      "Yes - Medicare covers AFib treatments including cardioversion, catheter ablation, EKGs, and heart monitors when medically necessary. Learn what each part of Medicare covers and how to reduce your out-of-pocket costs.",
-    category: "Medicare Coverage",
-    dateUpdated: "April 14, 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
-    },
-    readTime: "7 min read",
-    quickAnswer: {
-      text: "Yes, Medicare covers AFib treatments including cardioversion, catheter ablation, EKGs, and heart monitors when medically necessary. Part A covers inpatient hospital stays for AFib procedures. Part B covers outpatient services including cardiologist visits, EKGs, and catheter ablation. Prescription drugs like Eliquis are covered under Part D.",
-      badges: [
-        { plan: "Original Medicare", status: "covered" },
-        { plan: "Medicare Advantage", status: "covered" },
-        { plan: "Medigap", status: "partial" }],
-    },
-    comparisonTable: [
-      { planType: "Medicare Part A (Inpatient)", coverage: "Covered", icon: "shield", notes: "Covers inpatient hospital stays for cardioversion, surgical ablation, and cardiac procedures" },
-      { planType: "Medicare Part B (Outpatient)", coverage: "Covered", icon: "shield", notes: "Covers cardiologist visits, EKGs, heart monitors, outpatient cardioversion, catheter ablation" },
-      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same services as Original Medicare; usually includes Part D drug coverage for Eliquis" },
-      { planType: "Medicare Supplement (Medigap)", coverage: "Varies by Plan", icon: "users", notes: "Fills gaps in Original Medicare - covers Part A deductible, Part B coinsurance, and excess charges" }],
-    planBreakdowns: [
-      {
-        planName: "Original Medicare (Parts a & B)",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Covered",
-        coverageType: "covered",
-        statusBadge: "Covered when medically necessary",
-        paragraphs: [
-          "[Original Medicare](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers a wide range of AFib treatments when [medically necessary](/faqs/what-does-medically-necessary-mean). Atrial fibrillation affects an estimated 2.7 million U.S. adults and can lead to stroke or blood clots, making prompt diagnosis and treatment essential.",
-          "**Medicare Part A** covers inpatient hospital stays for AFib procedures including cardioversion, surgical ablation, and the Maze procedure. **Medicare Part B** covers outpatient services including cardiologist visits, EKGs, Holter monitors, event monitors, and catheter ablation performed in an outpatient setting.",
-          "Prescription blood thinners like Eliquis, Xarelto, and Warfarin are not covered under Part A or Part B - these require a separate [Medicare Part D](/faqs/medicare-and-prescription-drugs-whats-covered-and-whats-not) prescription drug plan."],
-        whatItCovers: [
-          "Inpatient hospital stays for AFib procedures (Part A)",
-          "Cardioversion - both electrical and chemical",
-          "Catheter ablation (outpatient or inpatient)",
-          "EKGs and cardiac diagnostic tests",
-          "Heart monitors (Holter monitors, event monitors)",
-          "Cardiologist visits and specialist consultations",
-          "Cardiac rehabilitation programs"],
-        whatItDoesntCover: [
-          "Prescription drugs like Eliquis (covered under Part D)",
-          "Routine checkups not related to AFib diagnosis",
-          "Experimental or non-FDA-approved AFib treatments"],
-        costNote: "Part B: You pay 20% coinsurance after the $283 annual deductible (2026). Part A: You pay $0 after the $1,736 per-benefit-period deductible for days 1–60 of a hospital stay.",
-      },
-      {
-        planName: "Medicare Advantage (Part C)",
-        icon: "heart",
-        iconColor: "#059669",
-        coverageLabel: "Covered",
-        coverageType: "covered",
-        statusBadge: "Covered - cost-sharing varies by plan",
-        paragraphs: [
-          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) are required by law to cover everything that Original Medicare covers, including all AFib treatments. Many Advantage plans also include Part D drug coverage, which is critical for AFib patients who take daily blood thinners like Eliquis.",
-          "Without insurance, one month of Eliquis can cost $499. Most Medicare Advantage plans that include drug coverage (MAPD) cover Eliquis at a significantly lower cost. However, Advantage plans use provider networks - confirm your cardiologist and ablation specialist are in-network before scheduling procedures."],
-        whatItCovers: [
-          "All Original Medicare AFib benefits (Parts A & B)",
-          "Usually includes prescription drug coverage for Eliquis, Xarelto, and other blood thinners",
-          "May include additional cardiac wellness benefits",
-          "Special Needs Plans (SNPs) available for chronic conditions"],
-        whatItDoesntCover: [
-          "Out-of-network providers unless your plan allows it",
-          "Services requiring prior authorization that was denied"],
-        callout: {
-          type: "warning",
-          title: "Verify Your Cardiologist is In-network",
-          text: "Medicare Advantage plans require you to use in-network providers for the lowest costs. If your cardiologist or ablation specialist is out-of-network, your costs could be significantly higher. Always verify before scheduling.",
-        },
-        costNote: "Costs vary by plan. Most Advantage plans have lower premiums but higher out-of-pocket costs for specialist visits and procedures compared to Medigap.",
-      },
-      {
-        planName: "Medicare Supplement (Medigap)",
-        icon: "users",
-        iconColor: "#7C3AED",
-        coverageLabel: "Varies by Plan",
-        coverageType: "partial",
-        statusBadge: "Covers some or all of Original Medicare's cost-sharing",
-        paragraphs: [
-          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) pay the out-of-pocket costs that Original Medicare leaves behind - including the 20% Part B coinsurance and the Part A deductible. For AFib patients who may need multiple procedures and frequent specialist visits, Medigap can provide significant financial protection.",
-          "[Medigap Plan G](/medicare-supplement-plans/plan-g/) is the most popular option for AFib patients. It covers all Medicare-approved costs except the Part B deductible ($283 in 2026). Unlike Medicare Advantage, Medigap has no provider networks - any doctor who accepts Medicare will also accept your Medigap plan.",
-          "**Important:** If you are diagnosed with AFib before enrolling in Medicare, you can still get a Medigap plan - but only during your Open Enrollment Period or when you have a guaranteed issue right. Outside these windows, insurers can deny coverage or charge higher premiums due to your pre-existing condition."],
-        whatItCovers: [
-          "Part A hospital deductible and coinsurance",
-          "Part B coinsurance (20%) for all AFib outpatient services",
-          "Part B excess charges (Plan F and Plan G)",
-          "Foreign travel emergency coverage (Plans C, D, F, G, M, N)"],
-        whatItDoesntCover: [
-          "Prescription drugs - you need a separate Part D plan",
-          "Dental, vision, or hearing benefits"],
-        costNote: "Plan G covers all Medicare-approved costs except the Part B deductible ($283 in 2026). Monthly premiums vary by age, location, and insurer.",
-      }],
-    costTable: {
-      title: "Estimated AFib Treatment Costs with Medicare",
-      headers: ["Procedure", "Medicare Part", "Without Supplement", "With Plan G"],
-      rows: [
-        { "Procedure": "EKG (outpatient)", "Medicare Part": "Part B", "Without Supplement": "~$20–$40 (20% of approved amount)", "With Plan G": "$0 after Part B deductible" },
-        { "Procedure": "Cardioversion (outpatient)", "Medicare Part": "Part B", "Without Supplement": "~$200–$400 (20% of approved amount)", "With Plan G": "$0 after Part B deductible" },
-        { "Procedure": "Catheter ablation", "Medicare Part": "Part A or B", "Without Supplement": "$3,200–$4,400 (20% of $16K–$22K)", "With Plan G": "$0 after Part B deductible" },
-        { "Procedure": "Inpatient hospital stay", "Medicare Part": "Part A", "Without Supplement": "$1,736 deductible per benefit period", "With Plan G": "$0" },
-        { "Procedure": "Eliquis (monthly)", "Medicare Part": "Part D", "Without Supplement": "$0–$47 (varies by plan tier)", "With Plan G": "Part D plan required (separate)" }],
-    },
-    exceptionsSection: {
-      title: "Important Coverage Rules for AFib",
-      items: [
-        {
-          title: "Medical Necessity Requirement",
-          text: "All AFib treatments must be deemed medically necessary by your doctor. Medicare will not cover procedures ordered purely for preventive or elective reasons without a documented diagnosis.",
-        },
-        {
-          title: "Medigap Enrollment Timing",
-          text: "If you are diagnosed with AFib before enrolling in Medicare, you can still get a Medigap plan - but only during your Open Enrollment Period or when you have a guaranteed issue right. Outside these windows, insurers can deny coverage or charge higher premiums due to your pre-existing condition.",
-        },
-        {
-          title: "Medicare Advantage Network Restrictions",
-          text: "Medicare Advantage plans require you to use in-network providers for the lowest costs. If your cardiologist or ablation specialist is out-of-network, your costs could be significantly higher.",
-        },
-        {
-          title: "Part D Drug Formularies",
-          text: "Not all Part D plans cover every AFib medication at the same tier. Eliquis, Xarelto, and Warfarin may be covered at different cost levels. Always check your plan's formulary before enrolling.",
-        }],
-    },
-    alternativesSection: {
-      title: "AFib Treatments Medicare Covers",
-      paragraphs: [
-        "Medicare covers a broad range of treatments for atrial fibrillation. Here is a checklist of procedures and services that are typically covered when medically necessary:"],
-      checklist: {
-        title: "Covered AFib Treatments",
-        type: "info",
-        items: [
-          "Electrical cardioversion (low-voltage shock to restore rhythm)",
-          "Chemical cardioversion (IV medications in a hospital setting)",
-          "Catheter ablation (minimally invasive, blocks abnormal electrical signals)",
-          "Surgical ablation / Maze procedure (open-heart surgery for complex cases)",
-          "Cox-Maze and Mini-Maze surgeries",
-          "Hybrid ablation surgery",
-          "EKGs and cardiac monitoring (Holter monitors, event monitors)",
-          "Cardiologist visits and specialist consultations",
-          "Cardiac rehabilitation programs",
-          "Prescription blood thinners (Eliquis, Xarelto, Warfarin) via Part D"],
-      },
-    },
-    faqs: [
-      {
-        question: "Does Medicare Cover Cardiac Ablation for AFib?",
-        answer:
-          "Yes. Catheter ablation is covered under Part A for inpatient procedures and Part B for outpatient procedures. It is a minimally invasive procedure that blocks the abnormal electrical signals causing irregular heart rhythms. Costs can range from $16,000–$22,000, with Medicare covering 80% of the approved amount after your deductible.",
-      },
-      {
-        question: "Does Medicare Cover Cardioversion?",
-        answer:
-          "Yes. Medicare Part A covers cardioversion when performed as an inpatient procedure. Both electrical cardioversion (low-voltage shock) and chemical cardioversion (IV medications) are covered when medically necessary.",
-      },
-      {
-        question: "Does Medicare Cover Heart Monitors for AFib?",
-        answer:
-          "Yes. Medicare Part B covers heart monitoring devices including Holter monitors and event monitors. Your doctor must document that you are high-risk to qualify for a heart monitor. Cardiac screenings are also covered as part of your health visits.",
-      },
-      {
-        question: "Does Medicare Cover Eliquis for AFib?",
-        answer:
-          "Eliquis is not covered under Part A or Part B. It is covered under Medicare Part D prescription drug plans and Medicare Advantage plans that include drug coverage. Without insurance, a one-month supply of Eliquis can cost $499. Most Part D plans cover Eliquis, though your cost-sharing depends on the plan's formulary tier.",
-      },
-      {
-        question: "Can I Get a Medigap Plan if I Have AFib?",
-        answer:
-          "Yes, but timing matters. During your Medigap Open Enrollment Period (the 6 months starting when you turn 65 and enroll in Part B), you have guaranteed issue rights - insurers cannot deny you or charge higher premiums due to AFib. Outside this window, insurers in most states can use medical underwriting and may deny coverage or charge more.",
-      },
-      {
-        question: "Does Medicare Advantage Cover AFib Treatments?",
-        answer:
-          "Yes. By law, Medicare Advantage plans must cover all AFib treatments that Original Medicare covers. Many Advantage plans also include Part D drug coverage for Eliquis and other blood thinners. However, you must use in-network providers and may need prior authorization for procedures like catheter ablation.",
-      },
-      {
-        question: "Does Medicare Cover the Watchman Device for AFib?",
-        answer:
-          "Yes. Medicare covers the Watchman left atrial appendage closure (LAAC) device for AFib patients who are at high risk for stroke and cannot tolerate long-term blood thinners. Coverage is subject to specific criteria established by CMS, including a multidisciplinary team evaluation.",
-      }],
-    quickReference: [
-      { icon: "check", text: "Catheter ablation covered under Part A (inpatient) or Part B (outpatient)" },
-      { icon: "check", text: "Cardioversion, EKGs, and heart monitors covered by Original Medicare" },
-      { icon: "alert", text: "Eliquis and other blood thinners require a separate Part D plan" },
-      { icon: "alert", text: "Medigap enrollment timing is critical if you have a pre-existing AFib diagnosis" },
-      { icon: "check", text: "Medicare Advantage plans must cover all AFib treatments Original Medicare covers" },
-      { icon: "info", text: "Watchman LAAC device covered by Medicare for eligible high-risk patients" }],
-    relatedTopics: [
-      { title: "Does Medicare Cover an Echocardiogram?", description: "Learn about Medicare coverage for echocardiograms and cardiac diagnostic tests.", slug: "does-medicare-cover-an-echocardiogram" },
-      { title: "Medicare Coverage for Cardiovascular Disease", description: "Explore Medicare's coverage for heart disease, cardiologist visits, and cardiac procedures.", slug: "medicare-coverage-for-cardiovascular-disease" },
-      { title: "Does Medicare Cover a Biopsy?", description: "Learn about Medicare coverage for different types of biopsies.", slug: "does-medicare-cover-a-biopsy" },
-      { title: "What is a Medicare Supplement Plan?", description: "Understand how Medigap plans work and who needs one.", slug: "what-is-a-medicare-supplement-plan-and-who-needs-one" }],
-    sidebarRelatedLinks: [
-      "Does Medicare Cover an Echocardiogram?",
-      "Medicare Coverage for Cardiovascular Disease",
-      "Does Medicare Cover a Biopsy?",
-      "What Is a Medicare Supplement Plan?"],
-    ctaBanner: {
-      title: "Need Help Finding Medicare Coverage for AFib?",
-      text: "Managing atrial fibrillation is challenging enough without worrying about coverage gaps. Our licensed Medicare agents can help you find the right plan - whether Original Medicare with Medigap or a Medicare Advantage plan with drug coverage. Compare options in your area for free.",
-    },
-    relatedSlugs: [
-      "does-medicare-cover-an-echocardiogram",
-      "medicare-coverage-for-cardiovascular-disease",
-      "medicare-preventive-services",
-      "what-is-a-medicare-supplement-plan-and-who-needs-one"],
+    description: "See exactly what Medicare pays for AFib care, from cardioversion and ablation to Eliquis, plus how to lower your out-of-pocket costs with Medigap or Advantage.",
+    canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-atrial-fibrillation-afib/",
+    ogImage: "/images/medicarefaq-cover.jpg",
   },
+  title: "Does Medicare Cover Atrial Fibrillation (AFib)?",
+  subtitle: "Yes - Medicare covers AFib treatments including cardioversion, catheter ablation, EKGs, and heart monitors when medically necessary. Learn what each part of Medicare covers and how to reduce your out-of-pocket costs.",
+  category: "Medicare Coverage",
+  dateUpdated: "April 14, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+  },
+  readTime: "7 min read",
+  quickAnswer: {
+    text: "Yes, Medicare covers AFib treatments including cardioversion, catheter ablation, EKGs, and heart monitors when medically necessary. Part A covers inpatient hospital stays for AFib procedures. Part B covers outpatient services including cardiologist visits, EKGs, and catheter ablation, and you're typically responsible for applicable deductibles and coinsurance. Prescription drugs like Eliquis are covered under Part D, with costs varying by plan formulary.",
+    badges: [
+      {
+        plan: "Original Medicare",
+        status: "covered",
+      },
+      {
+        plan: "Medicare Advantage",
+        status: "covered",
+      },
+      {
+        plan: "Medigap",
+        status: "partial",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Medicare Part A (Inpatient)",
+      coverage: "Covered",
+      icon: "shield",
+      notes: "Covers inpatient hospital stays for cardioversion, surgical ablation, and cardiac procedures",
+    },
+    {
+      planType: "Medicare Part B (Outpatient)",
+      coverage: "Covered",
+      icon: "shield",
+      notes: "Covers cardiologist visits, EKGs, heart monitors, outpatient cardioversion, catheter ablation",
+    },
+    {
+      planType: "Medicare Advantage (Part C)",
+      coverage: "Covered",
+      icon: "heart",
+      notes: "Must cover same services as Original Medicare; usually includes Part D drug coverage for Eliquis",
+    },
+    {
+      planType: "Medicare Supplement (Medigap)",
+      coverage: "Varies by Plan",
+      icon: "users",
+      notes: "Fills gaps in Original Medicare - covers Part A deductible, Part B coinsurance, and excess charges",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "Original Medicare (Parts a & B)",
+      icon: "shield",
+      iconColor: "#1B2A4A",
+      coverageLabel: "Covered",
+      coverageType: "covered",
+      statusBadge: "Covered when medically necessary",
+      paragraphs: [
+      "[Original Medicare](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers a wide range of AFib treatments when [medically necessary](/faqs/what-does-medically-necessary-mean). Atrial fibrillation affects an estimated 2.7 million U.S. adults and can lead to stroke or blood clots, making prompt diagnosis and treatment essential.",
+      "**Medicare Part A** covers inpatient hospital stays for AFib procedures including cardioversion, surgical ablation, and the Maze procedure. **Medicare Part B** covers outpatient services including cardiologist visits, EKGs, Holter monitors, event monitors, and catheter ablation performed in an outpatient setting.",
+      "Prescription blood thinners like Eliquis, Xarelto, and Warfarin are not covered under Part A or Part B - these require a separate [Medicare Part D](/faqs/medicare-and-prescription-drugs-whats-covered-and-whats-not) prescription drug plan.",
+    ],
+      whatItCovers: [
+      "Inpatient hospital stays for AFib procedures (Part A)",
+      "Cardioversion - both electrical and chemical",
+      "Catheter ablation (outpatient or inpatient)",
+      "EKGs and cardiac diagnostic tests",
+      "Heart monitors (Holter monitors, event monitors)",
+      "Cardiologist visits and specialist consultations",
+      "Cardiac rehabilitation programs",
+    ],
+      whatItDoesntCover: [
+      "Prescription drugs like Eliquis (covered under Part D)",
+      "Routine checkups not related to AFib diagnosis",
+      "Experimental or non-FDA-approved AFib treatments",
+    ],
+      costNote: "Part B: You pay 20% coinsurance after the $283 annual deductible (2026). Part A: You pay $0 after the $1,736 per-benefit-period deductible for days 1–60 of a hospital stay.",
+    },
+    {
+      planName: "Medicare Advantage (Part C)",
+      icon: "heart",
+      iconColor: "#059669",
+      coverageLabel: "Covered",
+      coverageType: "covered",
+      statusBadge: "Covered - cost-sharing varies by plan",
+      paragraphs: [
+      "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) are required by law to cover everything that Original Medicare covers, including all AFib treatments. Many Advantage plans also include Part D drug coverage, which is critical for AFib patients who take daily blood thinners like Eliquis.",
+      "Without insurance, one month of Eliquis can cost $499. Most Medicare Advantage plans that include drug coverage (MAPD) cover Eliquis at a significantly lower cost. However, Advantage plans use provider networks - confirm your cardiologist and ablation specialist are in-network before scheduling procedures.",
+    ],
+      whatItCovers: [
+      "All Original Medicare AFib benefits (Parts A & B)",
+      "Usually includes prescription drug coverage for Eliquis, Xarelto, and other blood thinners",
+      "May include additional cardiac wellness benefits",
+      "Special Needs Plans (SNPs) available for chronic conditions",
+    ],
+      whatItDoesntCover: [
+      "Out-of-network providers unless your plan allows it",
+      "Services requiring prior authorization that was denied",
+    ],
+      callout: {
+      type: "warning",
+      title: "Verify Your Cardiologist is In-network",
+      text: "Medicare Advantage plans require you to use in-network providers for the lowest costs. If your cardiologist or ablation specialist is out-of-network, your costs could be significantly higher. Always verify before scheduling.",
+    },
+      costNote: "Costs vary by plan. Most Advantage plans have lower premiums but higher out-of-pocket costs for specialist visits and procedures compared to Medigap.",
+    },
+    {
+      planName: "Medicare Supplement (Medigap)",
+      icon: "users",
+      iconColor: "#7C3AED",
+      coverageLabel: "Varies by Plan",
+      coverageType: "partial",
+      statusBadge: "Covers some or all of Original Medicare's cost-sharing",
+      paragraphs: [
+      "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) pay the out-of-pocket costs that Original Medicare leaves behind - including the 20% Part B coinsurance and the Part A deductible. For AFib patients who may need multiple procedures and frequent specialist visits, Medigap can provide significant financial protection.",
+      "[Medigap Plan G](/medicare-supplement-plans/plan-g/) is the most popular option for AFib patients. It covers all Medicare-approved costs except the Part B deductible ($283 in 2026). Unlike Medicare Advantage, Medigap has no provider networks - any doctor who accepts Medicare will also accept your Medigap plan.",
+      "**Important:** If you are diagnosed with AFib before enrolling in Medicare, you can still get a Medigap plan - but only during your Open Enrollment Period or when you have a guaranteed issue right. Outside these windows, insurers can deny coverage or charge higher premiums due to your pre-existing condition.",
+    ],
+      whatItCovers: [
+      "Part A hospital deductible and coinsurance",
+      "Part B coinsurance (20%) for all AFib outpatient services",
+      "Part B excess charges (Plan F and Plan G)",
+      "Foreign travel emergency coverage (Plans C, D, F, G, M, N)",
+    ],
+      whatItDoesntCover: [
+      "Prescription drugs - you need a separate Part D plan",
+      "Dental, vision, or hearing benefits",
+    ],
+      costNote: "Plan G covers all Medicare-approved costs except the Part B deductible ($283 in 2026). Monthly premiums vary by age, location, and insurer.",
+    },
+  ],
+  costTable: {
+    title: "Estimated AFib Treatment Costs with Medicare",
+    headers: [
+    "Procedure",
+    "Medicare Part",
+    "Without Supplement",
+    "With Plan G",
+  ],
+    rows: [
+      {
+        "Procedure": "EKG (outpatient)",
+        "Medicare Part": "Part B",
+        "Without Supplement": "~$20–$40 (20% of approved amount)",
+        "With Plan G": "$0 after Part B deductible",
+      },
+      {
+        "Procedure": "Cardioversion (outpatient)",
+        "Medicare Part": "Part B",
+        "Without Supplement": "~$200–$400 (20% of approved amount)",
+        "With Plan G": "$0 after Part B deductible",
+      },
+      {
+        "Procedure": "Catheter ablation",
+        "Medicare Part": "Part A or B",
+        "Without Supplement": "$3,200–$4,400 (20% of $16K–$22K)",
+        "With Plan G": "$0 after Part B deductible",
+      },
+      {
+        "Procedure": "Inpatient hospital stay",
+        "Medicare Part": "Part A",
+        "Without Supplement": "$1,736 deductible per benefit period",
+        "With Plan G": "$0",
+      },
+      {
+        "Procedure": "Eliquis (monthly)",
+        "Medicare Part": "Part D",
+        "Without Supplement": "$0–$47 (varies by plan tier)",
+        "With Plan G": "Part D plan required (separate)",
+      },
+    ],
+  },
+  exceptionsSection: {
+    title: "Important Coverage Rules for AFib",
+    items: [
+      {
+        title: "Medical Necessity Requirement",
+        text: "All AFib treatments must be deemed medically necessary by your doctor. Medicare will not cover procedures ordered purely for preventive or elective reasons without a documented diagnosis.",
+      },
+      {
+        title: "Medigap Enrollment Timing",
+        text: "If you are diagnosed with AFib before enrolling in Medicare, you can still get a Medigap plan - but only during your Open Enrollment Period or when you have a guaranteed issue right. Outside these windows, insurers can deny coverage or charge higher premiums due to your pre-existing condition.",
+      },
+      {
+        title: "Medicare Advantage Network Restrictions",
+        text: "Medicare Advantage plans require you to use in-network providers for the lowest costs. If your cardiologist or ablation specialist is out-of-network, your costs could be significantly higher.",
+      },
+      {
+        title: "Part D Drug Formularies",
+        text: "Not all Part D plans cover every AFib medication at the same tier. Eliquis, Xarelto, and Warfarin may be covered at different cost levels. Always check your plan's formulary before enrolling.",
+      },
+    ],
+  },
+  alternativesSection: {
+    title: "AFib Treatments Medicare Covers",
+    paragraphs: [
+    "Medicare covers a broad range of treatments for atrial fibrillation. Here is a checklist of procedures and services that are typically covered when medically necessary:",
+  ],
+    checklist: {
+    title: "Covered AFib Treatments",
+    items: [
+    "Electrical cardioversion (low-voltage shock to restore rhythm)",
+    "Chemical cardioversion (IV medications in a hospital setting)",
+    "Catheter ablation (minimally invasive, blocks abnormal electrical signals)",
+    "Surgical ablation / Maze procedure (open-heart surgery for complex cases)",
+    "Cox-Maze and Mini-Maze surgeries",
+    "Hybrid ablation surgery",
+    "EKGs and cardiac monitoring (Holter monitors, event monitors)",
+    "Cardiologist visits and specialist consultations",
+    "Cardiac rehabilitation programs",
+    "Prescription blood thinners (Eliquis, Xarelto, Warfarin) via Part D",
+  ],
+    type: "info",
+  },
+  },
+  faqs: [
+    {
+      question: "Does Medicare Cover Cardiac Ablation for AFib?",
+      answer: "Yes. Catheter ablation is covered under Part A for inpatient procedures and Part B for outpatient procedures. It is a minimally invasive procedure that blocks the abnormal electrical signals causing irregular heart rhythms. Costs can range from $16,000–$22,000, with Medicare covering 80% of the approved amount after your deductible.",
+    },
+    {
+      question: "Does Medicare Cover Cardioversion?",
+      answer: "Yes. Medicare Part A covers cardioversion when performed as an inpatient procedure. Both electrical cardioversion (low-voltage shock) and chemical cardioversion (IV medications) are covered when medically necessary.",
+    },
+    {
+      question: "Does Medicare Cover Heart Monitors for AFib?",
+      answer: "Yes. Medicare Part B covers heart monitoring devices including Holter monitors and event monitors. Your doctor must document that you are high-risk to qualify for a heart monitor. Cardiac screenings are also covered as part of your health visits.",
+    },
+    {
+      question: "Does Medicare Cover Eliquis for AFib?",
+      answer: "Eliquis is not covered under Part A or Part B. It is covered under Medicare Part D prescription drug plans and Medicare Advantage plans that include drug coverage. Without insurance, a one-month supply of Eliquis can cost $499. Most Part D plans cover Eliquis, though your cost-sharing depends on the plan's formulary tier.",
+    },
+    {
+      question: "Can I Get a Medigap Plan if I Have AFib?",
+      answer: "Yes, but timing matters. During your Medigap Open Enrollment Period (the 6 months starting when you turn 65 and enroll in Part B), you have guaranteed issue rights - insurers cannot deny you or charge higher premiums due to AFib. Outside this window, insurers in most states can use medical underwriting and may deny coverage or charge more.",
+    },
+    {
+      question: "Does Medicare Advantage Cover AFib Treatments?",
+      answer: "Yes. By law, Medicare Advantage plans must cover all AFib treatments that Original Medicare covers. Many Advantage plans also include Part D drug coverage for Eliquis and other blood thinners. However, you must use in-network providers and may need prior authorization for procedures like catheter ablation.",
+    },
+    {
+      question: "Does Medicare Cover the Watchman Device for AFib?",
+      answer: "Yes. Medicare covers the Watchman left atrial appendage closure (LAAC) device for AFib patients who are at high risk for stroke and cannot tolerate long-term blood thinners. Coverage is subject to specific criteria established by CMS, including a multidisciplinary team evaluation.",
+    },
+    {
+      question: "Does Medicare Cover Ongoing Cardiologist Visits for AFib?",
+      answer: "Yes, Medicare Part B covers medically necessary follow-up visits with a cardiologist to monitor your AFib condition, adjust medications, and review test results. These visits are typically subject to ",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "check",
+      text: "Catheter ablation covered under Part A (inpatient) or Part B (outpatient)",
+    },
+    {
+      icon: "check",
+      text: "Cardioversion, EKGs, and heart monitors covered by Original Medicare",
+    },
+    {
+      icon: "alert",
+      text: "Eliquis and other blood thinners require a separate Part D plan",
+    },
+    {
+      icon: "alert",
+      text: "Medigap enrollment timing is critical if you have a pre-existing AFib diagnosis",
+    },
+    {
+      icon: "check",
+      text: "Medicare Advantage plans must cover all AFib treatments Original Medicare covers",
+    },
+    {
+      icon: "info",
+      text: "Watchman LAAC device covered by Medicare for eligible high-risk patients",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Does Medicare Cover an Echocardiogram?",
+      description: "Learn about Medicare coverage for echocardiograms and cardiac diagnostic tests.",
+      slug: "does-medicare-cover-an-echocardiogram",
+    },
+    {
+      title: "Medicare Coverage for Cardiovascular Disease",
+      description: "Explore Medicare's coverage for heart disease, cardiologist visits, and cardiac procedures.",
+      slug: "medicare-coverage-for-cardiovascular-disease",
+    },
+    {
+      title: "Does Medicare Cover a Biopsy?",
+      description: "Learn about Medicare coverage for different types of biopsies.",
+      slug: "does-medicare-cover-a-biopsy",
+    },
+    {
+      title: "What is a Medicare Supplement Plan?",
+      description: "Understand how Medigap plans work and who needs one.",
+      slug: "what-is-a-medicare-supplement-plan-and-who-needs-one",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "Does Medicare Cover an Echocardiogram?",
+    "Medicare Coverage for Cardiovascular Disease",
+    "Does Medicare Cover a Biopsy?",
+    "What Is a Medicare Supplement Plan?",
+  ],
+  ctaBanner: {
+    title: "Need Help Finding Medicare Coverage for AFib?",
+    text: "Managing atrial fibrillation is challenging enough without worrying about coverage gaps. Our licensed Medicare agents can help you find the right plan - whether Original Medicare with Medigap or a Medicare Advantage plan with drug coverage. Compare options in your area for free.",
+  },
+  relatedSlugs: [
+    "does-medicare-cover-an-echocardiogram",
+    "medicare-coverage-for-cardiovascular-disease",
+    "medicare-preventive-services",
+    "what-is-a-medicare-supplement-plan-and-who-needs-one",
+  ],
+},
   {
     slug: "does-medicare-cover-cologuard",
     seo: {
