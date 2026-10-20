@@ -1630,6 +1630,8 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         type: 'paragraph',
         content: 'Switching from a Medicare Advantage plan to a Medicare Supplement (Medigap) plan is one of the most common coverage changes Medicare beneficiaries consider -- and one of the most misunderstood. The process involves two separate steps: first, disenrolling from your Medicare Advantage plan during an eligible enrollment window; and second, applying for and being approved for a Medigap policy. The second step is where most people encounter obstacles.',
       },
+{"type":"heading","level":2,"id":"audit-section-6f591771bf-1","text":"Quick Answer: How to Switch from Medicare Advantage to Medigap"},
+{"type":"paragraph","content":"**Quick answer:** To switch from Medicare Advantage to a Medicare Supplement (Medigap) plan, you must disenroll from your Medicare Advantage plan during an eligible enrollment window (such as the Medicare Advantage Open Enrollment Period, the Annual Enrollment Period, or a qualifying Special Enrollment Period), and separately apply for and be approved for a Medigap policy, ideally before you disenroll. Outside a guaranteed issue window, insurers in most states can use medical underwriting and may charge higher premiums or deny coverage based on your health ([Medicare.gov](https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy)); if you qualify for a guaranteed issue right -- for example, within your first 12 months on Medicare Advantage -- an insurer must sell you a Medigap policy at standard rates regardless of your health ([Medicare.gov](https://www.medicare.gov/health-drug-plans/medigap/basics/how-medigap-works))."},
       {
         type: 'callout',
         calloutType: 'warning',
