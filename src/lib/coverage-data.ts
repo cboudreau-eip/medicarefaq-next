@@ -10975,201 +10975,296 @@ export const coverageArticles: CoverageArticleData[] = [
 
 // ─── Does Medicare Cover Leqembi ────────────────────────────────────────────
   {
-    slug: "does-medicare-cover-leqembi",
-    seo: {
-      title: "Does Medicare Cover Leqembi? 2026 Coverage & Cost Guide",
-      description: "Medicare covers Leqembi (lecanemab) for early Alzheimer's disease under Part B with a doctor-supervised infusion. Learn about eligibility, costs, and what Medigap covers.",
-      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-leqembi/",
-      ogImage: "/images/medicarefaq-cover.jpg",
-    },
-    title: "Does Medicare Cover Leqembi?",
-    subtitle: "Yes - Medicare Part B covers Leqembi (lecanemab) for early-stage Alzheimer's disease when specific eligibility criteria are met. Learn what you need to qualify, what you'll pay, and how supplemental coverage can reduce your costs.",
-    category: "Medicare Coverage",
-    dateUpdated: "April 14, 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
-    },
-    readTime: "7 min read",
-    quickAnswer: {
-      text: "Yes, Medicare Part B covers Leqembi (lecanemab) for beneficiaries with early-stage Alzheimer's disease who meet CMS eligibility criteria. Coverage requires a confirmed Alzheimer's diagnosis, evidence of amyloid plaques, and treatment through a provider enrolled in a qualifying registry or clinical study. You pay 20% coinsurance after your Part B deductible. A Medigap plan can cover that 20%, significantly reducing your out-of-pocket costs for this expensive treatment.",
-      badges: [
-        { plan: "Medicare Part B", status: "covered" },
-        { plan: "Medicare Advantage", status: "covered" },
-        { plan: "Medigap", status: "partial" }],
-    },
-    comparisonTable: [
-      { planType: "Medicare Part B (Outpatient)", coverage: "Covered", icon: "shield", notes: "Covers 80% of infusion cost after $283 Part B deductible; you pay 20% coinsurance" },
-      { planType: "Medicare Part A (Inpatient)", coverage: "Not Covered", icon: "x", notes: "Leqembi is an outpatient infusion - Part A does not apply" },
-      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same services as Original Medicare; cost-sharing varies by plan" },
-      { planType: "Medicare Supplement (Medigap)", coverage: "Varies by Plan", icon: "users", notes: "Covers some or all of the 20% coinsurance left by Part B" }],
-    planBreakdowns: [
-      {
-        planName: "Original Medicare (Part B)",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Covered",
-        coverageType: "covered",
-        statusBadge: "Covered with eligibility requirements",
-        paragraphs: [
-          "[Medicare Part B](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers Leqembi as a physician-administered drug under its outpatient drug benefit. Because Leqembi is given as an intravenous infusion in a clinical setting, it falls under Part B rather than [Part D](/original-medicare/medicare-parts/medicare-part-d/) (which covers self-administered drugs).",
-          "CMS expanded coverage for Leqembi in 2023 following its traditional FDA approval, requiring that treatment occur through a provider participating in a qualifying registry. Patients must have a confirmed diagnosis of mild cognitive impairment or mild dementia due to Alzheimer's disease, along with confirmed amyloid pathology (typically via PET scan or cerebrospinal fluid test).",
-          "Leqembi is administered as an IV infusion every two weeks. The drug's list price is approximately $26,500 per year, making the 20% Part B coinsurance a significant expense without supplemental coverage."],
-        whatItCovers: [
-          "Leqembi (lecanemab) infusions every two weeks",
-          "Amyloid PET scan or CSF test to confirm diagnosis (when medically necessary)",
-          "MRI monitoring scans required during treatment",
-          "Physician supervision and administration fees",
-          "Related infusion center facility fees"],
-        whatItDoesntCover: [
-          "Treatment for moderate or severe Alzheimer's disease",
-          "Leqembi for patients without confirmed amyloid pathology",
-          "Treatment outside of a qualifying registry or clinical study (prior to full CMS approval)",
-          "Self-administered Alzheimer's medications (covered under Part D instead)"],
-        costNote: "Leqembi costs approximately $26,500/year. With Part B, you pay 20% coinsurance (~$5,300/year) after the $283 annual deductible. Medigap Plan G would cover the 20%, leaving only the $283 deductible.",
-      },
-      {
-        planName: "Medicare Advantage (Part C)",
-        icon: "heart",
-        iconColor: "#059669",
-        coverageLabel: "Covered",
-        coverageType: "covered",
-        statusBadge: "Covered - cost-sharing varies by plan",
-        paragraphs: [
-          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) are required to cover Leqembi under the same rules as Original Medicare. However, your actual out-of-pocket costs depend on your specific plan's cost-sharing structure, and you must use in-network providers and infusion centers.",
-          "Some Medicare Advantage plans may require prior authorization before approving Leqembi treatment. Contact your plan before beginning treatment to understand the approval process and confirm that your neurologist and infusion center are in-network."],
-        whatItCovers: [
-          "Leqembi infusions at in-network facilities",
-          "Required monitoring scans and physician visits",
-          "Infusion administration fees"],
-        whatItDoesntCover: [
-          "Out-of-network infusion centers (unless plan has out-of-network benefits)",
-          "Treatment not pre-authorized by the plan"],
-        callout: {
-          type: "warning",
-          title: "Prior Authorization May be Required",
-          text: "Many Medicare Advantage plans require prior authorization for Leqembi. Contact your plan before scheduling your first infusion to avoid unexpected denials or costs.",
-        },
-      },
-      {
-        planName: "Medicare Supplement (Medigap)",
-        icon: "users",
-        iconColor: "#7C3AED",
-        coverageLabel: "Varies by Plan",
-        coverageType: "partial",
-        statusBadge: "Covers some or all of Original Medicare's cost-sharing",
-        paragraphs: [
-          "[Medigap plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) can dramatically reduce the out-of-pocket cost of Leqembi treatment. Because Leqembi is covered by Part B, Medigap plans that cover Part B coinsurance will pay the 20% that Original Medicare leaves behind.",
-          "[Medigap Plan G](/medicare-supplement-plans/plan-g/) is the most comprehensive plan available to new Medicare enrollees. After you pay the $283 annual Part B deductible, Plan G covers 100% of the Part B coinsurance - meaning your annual Leqembi cost could be as low as $283 instead of over $5,000."],
-        whatItCovers: [
-          "Part B coinsurance (20%) - covered by most Medigap plans",
-          "Part B deductible - covered by Plan C and Plan F (for those eligible before Jan 1, 2020)",
-          "Excess charges - covered by Plans F and G"],
-        whatItDoesntCover: [
-          "Services not covered by Original Medicare",
-          "Part D prescription drugs (Medigap does not cover Part D)"],
-        costNote: "With Medigap Plan G, your annual out-of-pocket cost for Leqembi infusions is just the $283 Part B deductible. Without a supplement, you could owe over $5,000 per year in coinsurance.",
-      }],
-    costTable: {
-      title: "Estimated Leqembi Costs under Medicare (2026)",
-      headers: ["Cost Item", "Annual Amount", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
-      rows: [
-        {
-          "Cost Item": "Leqembi drug cost (list price)",
-          "Annual Amount": "~$26,500/year",
-          "Your Cost (No Supplement)": "20% coinsurance = ~$5,300/year",
-          "Your Cost (With Plan G)": "$283 deductible only",
-        },
-        {
-          "Cost Item": "Amyloid PET scan (initial diagnosis)",
-          "Annual Amount": "~$3,000–$5,000",
-          "Your Cost (No Supplement)": "20% coinsurance after deductible",
-          "Your Cost (With Plan G)": "$0 after deductible",
-        },
-        {
-          "Cost Item": "MRI monitoring scans (required during treatment)",
-          "Annual Amount": "~$500–$1,500/year",
-          "Your Cost (No Supplement)": "20% coinsurance after deductible",
-          "Your Cost (With Plan G)": "$0 after deductible",
-        },
-        {
-          "Cost Item": "Infusion administration fees",
-          "Annual Amount": "Varies by facility",
-          "Your Cost (No Supplement)": "20% coinsurance after deductible",
-          "Your Cost (With Plan G)": "$0 after deductible",
-        }],
-      footnote: "Costs based on 2026 Medicare figures. Leqembi list price is approximately $26,500/year as of 2026. Part B deductible: $283/year. Actual costs vary by provider and location.",
-    },
-    exceptionsSection: {
-      title: "Eligibility Requirements for Medicare Coverage of Leqembi",
-      items: [
-        {
-          title: "Who Qualifies for Medicare Coverage",
-          text: "To receive Medicare coverage for Leqembi, you must have a confirmed diagnosis of mild cognitive impairment (MCI) or mild dementia due to Alzheimer's disease, confirmed amyloid pathology (via PET scan or cerebrospinal fluid test), and treatment must be provided through a qualifying registry or CMS-approved clinical study. Patients with moderate or severe Alzheimer's disease do not currently qualify.",
-          highlight: "CMS coverage requirements for Leqembi may change as more clinical data becomes available. Always confirm current eligibility criteria with your neurologist and Medicare plan before beginning treatment.",
-        },
-        {
-          title: "ARIA: A Key Safety Consideration",
-          text: "Leqembi carries a risk of amyloid-related imaging abnormalities (ARIA), which are brain swelling or microbleeds that can occur during treatment. Medicare covers the MRI monitoring scans required to detect ARIA. Patients with certain genetic profiles (APOE4 carriers) have a higher risk of ARIA and should discuss this with their neurologist before starting treatment.",
-        }],
-    },
-    faqs: [
-      {
-        question: "Does Medicare Cover Leqembi?",
-        answer: "Yes. Medicare Part B covers Leqembi for beneficiaries with early-stage Alzheimer's disease who meet CMS eligibility criteria, including confirmed amyloid pathology and treatment through a qualifying registry. You pay 20% coinsurance after the $283 Part B deductible.",
-      },
-      {
-        question: "How Much Does Leqembi Cost with Medicare?",
-        answer: "Leqembi's list price is approximately $26,500 per year. With Medicare Part B, you pay 20% coinsurance, which is about $5,300 per year, plus the $283 annual Part B deductible. With a Medigap Plan G, your cost drops to just the $283 deductible per year.",
-      },
-      {
-        question: "Does Medicare Cover the Amyloid PET Scan Needed to Qualify for Leqembi?",
-        answer: "Medicare Part B covers amyloid PET scans when they are medically necessary to confirm an Alzheimer's diagnosis for Leqembi eligibility. Coverage is limited to one scan per patient. You pay 20% coinsurance after the Part B deductible.",
-      },
-      {
-        question: "Does Medicare Advantage Cover Leqembi?",
-        answer: "Yes. Medicare Advantage plans are required to cover Leqembi under the same rules as Original Medicare. However, your plan may require prior authorization, and you must use in-network providers. Contact your plan before scheduling treatment.",
-      },
-      {
-        question: "Does Medicare cover other Alzheimer's drugs like Aduhelm?",
-        answer: "Medicare Part B previously covered Aduhelm (aducanumab) under the same registry requirement. However, Biogen withdrew Aduhelm from the market in 2024. Leqembi is currently the primary FDA-approved amyloid-targeting therapy with Medicare coverage. Other Alzheimer's medications (such as Aricept or Namenda) are covered under Medicare Part D.",
-      },
-      {
-        question: "What is the Difference between Leqembi and Kisunla?",
-        answer: "Both Leqembi (lecanemab) and Kisunla (donanemab) are FDA-approved amyloid-targeting therapies for early Alzheimer's disease. As of 2026, Medicare covers Leqembi under Part B. Coverage for Kisunla may vary - check with your Medicare plan for the latest coverage status.",
-      }],
-    quickReference: [
-      { icon: "check", text: "<strong>Medicare Part B</strong> covers Leqembi infusions for eligible early-stage Alzheimer's patients" },
-      { icon: "check", text: "Confirmed <strong>amyloid pathology</strong> (PET scan or CSF test) is required to qualify" },
-      { icon: "alert", text: "Treatment must occur through a <strong>qualifying registry</strong> or CMS-approved study" },
-      { icon: "dollar", text: "Drug costs ~$26,500/year; your 20% coinsurance = <strong>~$5,300/year</strong> without a supplement" },
-      { icon: "dollar", text: "With <strong>Medigap Plan G</strong>, your cost drops to just the $283 Part B deductible" },
-      { icon: "info", text: "Medicare Advantage plans must cover Leqembi - <strong>prior authorization</strong> may be required" }],
-    relatedTopics: [
-      { title: "Does Medicare Cover Alzheimer's Care?", description: "Learn how Medicare covers memory care, cognitive assessments, and Alzheimer's-related services.", slug: "does-medicare-cover-alzheimers-care" },
-      { title: "What is Medicare Part B?", description: "Understand what Medicare Part B covers, including outpatient services and physician-administered drugs.", slug: "what-is-medicare-part-b" },
-      { title: "Medicare Supplement Plan G", description: "See how Medigap Plan G can cover the 20% coinsurance that Part B leaves behind.", slug: "plan-g" },
-      { title: "Does Medicare Cover Memory Care?", description: "Find out what Medicare covers for memory care facilities and cognitive decline.", slug: "does-medicare-cover-memory-care" }],
-    sidebarRelatedLinks: [
-      "Does Medicare Cover Alzheimers Care",
-      "What Is Medicare Part B",
-      "Medicare Supplement Plan G",
-      "Does Medicare Cover Memory Care"],
-    ctaBanner: {
-      title: "Worried about Leqembi Costs?",
-      text: "A Medigap plan can cover the 20% Part B coinsurance for Leqembi, potentially saving you thousands per year. Our licensed agents can help you compare plans in your area for free.",
-    },
-    relatedSlugs: ["does-medicare-cover-alzheimers-care", "what-is-medicare-part-b", "plan-g", "does-medicare-cover-memory-care", "does-medicare-cover-leqembi", "medicare-part-d-penalty", "what-does-medicare-part-a-cover"],
+  slug: "does-medicare-cover-leqembi",
+  seo: {
+    title: "Does Medicare Cover Leqembi? 2026 Coverage & Cost Guide",
+    description: "Medicare covers Leqembi (lecanemab) for early Alzheimer's disease under Part B with a doctor-supervised infusion. Learn what Medigap covers.",
+    canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-leqembi/",
+    ogImage: "/images/medicarefaq-cover.jpg",
   },
+  title: "Does Medicare Cover Leqembi?",
+  subtitle: "Yes - Medicare Part B covers Leqembi (lecanemab) for early-stage Alzheimer's disease when specific eligibility criteria are met. Learn what you need to qualify, what you'll pay, and how supplemental coverage can reduce your costs.",
+  category: "Medicare Coverage",
+  dateUpdated: "April 14, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+  },
+  readTime: "7 min read",
+  quickAnswer: {
+    text: "Yes, Medicare Part B covers Leqembi (lecanemab) for beneficiaries with early-stage Alzheimer's disease who meet CMS eligibility criteria. Coverage requires a confirmed Alzheimer's diagnosis, evidence of amyloid plaques, and treatment through a provider enrolled in a qualifying registry or clinical study. You pay 20% coinsurance after your Part B deductible. A Medigap plan can cover that 20%, significantly reducing your out-of-pocket costs for this expensive treatment.",
+    badges: [
+      {
+        plan: "Medicare Part B",
+        status: "covered",
+      },
+      {
+        plan: "Medicare Advantage",
+        status: "covered",
+      },
+      {
+        plan: "Medigap",
+        status: "partial",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Medicare Part B (Outpatient)",
+      coverage: "Covered",
+      icon: "shield",
+      notes: "Covers 80% of infusion cost after $283 Part B deductible; you pay 20% coinsurance",
+    },
+    {
+      planType: "Medicare Part A (Inpatient)",
+      coverage: "Not Covered",
+      icon: "x",
+      notes: "Leqembi is an outpatient infusion - Part A does not apply",
+    },
+    {
+      planType: "Medicare Advantage (Part C)",
+      coverage: "Covered",
+      icon: "heart",
+      notes: "Must cover same services as Original Medicare; cost-sharing varies by plan",
+    },
+    {
+      planType: "Medicare Supplement (Medigap)",
+      coverage: "Varies by Plan",
+      icon: "users",
+      notes: "Covers some or all of the 20% coinsurance left by Part B",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "Original Medicare (Part B)",
+      icon: "shield",
+      iconColor: "#1B2A4A",
+      coverageLabel: "Covered",
+      coverageType: "covered",
+      statusBadge: "Covered with eligibility requirements",
+      paragraphs: [
+      "[Medicare Part B](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers Leqembi as a physician-administered drug under its outpatient drug benefit. Because Leqembi is given as an intravenous infusion in a clinical setting, it falls under Part B rather than [Part D](/original-medicare/medicare-parts/medicare-part-d/) (which covers self-administered drugs).",
+      "CMS expanded coverage for Leqembi in 2023 following its traditional FDA approval, requiring that treatment occur through a provider participating in a qualifying registry. Patients must have a confirmed diagnosis of mild cognitive impairment or mild dementia due to Alzheimer's disease, along with confirmed amyloid pathology (typically via PET scan or cerebrospinal fluid test).",
+      "Leqembi is administered as an IV infusion every two weeks. The drug's list price is approximately $26,500 per year, making the 20% Part B coinsurance a significant expense without supplemental coverage.",
+    ],
+      whatItCovers: [
+      "Leqembi (lecanemab) infusions every two weeks",
+      "Amyloid PET scan or CSF test to confirm diagnosis (when medically necessary)",
+      "MRI monitoring scans required during treatment",
+      "Physician supervision and administration fees",
+      "Related infusion center facility fees",
+    ],
+      whatItDoesntCover: [
+      "Treatment for moderate or severe Alzheimer's disease",
+      "Leqembi for patients without confirmed amyloid pathology",
+      "Treatment outside of a qualifying registry or clinical study (prior to full CMS approval)",
+      "Self-administered Alzheimer's medications (covered under Part D instead)",
+    ],
+      costNote: "Leqembi costs approximately $26,500/year. With Part B, you pay 20% coinsurance (~$5,300/year) after the $283 annual deductible. Medigap Plan G would cover the 20%, leaving only the $283 deductible.",
+    },
+    {
+      planName: "Medicare Advantage (Part C)",
+      icon: "heart",
+      iconColor: "#059669",
+      coverageLabel: "Covered",
+      coverageType: "covered",
+      statusBadge: "Covered - cost-sharing varies by plan",
+      paragraphs: [
+      "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) are required to cover Leqembi under the same rules as Original Medicare. However, your actual out-of-pocket costs depend on your specific plan's cost-sharing structure, and you must use in-network providers and infusion centers.",
+      "Some Medicare Advantage plans may require prior authorization before approving Leqembi treatment. Contact your plan before beginning treatment to understand the approval process and confirm that your neurologist and infusion center are in-network.",
+    ],
+      whatItCovers: [
+      "Leqembi infusions at in-network facilities",
+      "Required monitoring scans and physician visits",
+      "Infusion administration fees",
+    ],
+      whatItDoesntCover: [
+      "Out-of-network infusion centers (unless plan has out-of-network benefits)",
+      "Treatment not pre-authorized by the plan",
+    ],
+      callout: {
+      type: "warning",
+      title: "Prior Authorization May be Required",
+      text: "Many Medicare Advantage plans require prior authorization for Leqembi. Contact your plan before scheduling your first infusion to avoid unexpected denials or costs.",
+    },
+    },
+    {
+      planName: "Medicare Supplement (Medigap)",
+      icon: "users",
+      iconColor: "#7C3AED",
+      coverageLabel: "Varies by Plan",
+      coverageType: "partial",
+      statusBadge: "Covers some or all of Original Medicare's cost-sharing",
+      paragraphs: [
+      "[Medigap plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) can dramatically reduce the out-of-pocket cost of Leqembi treatment. Because Leqembi is covered by Part B, Medigap plans that cover Part B coinsurance will pay the 20% that Original Medicare leaves behind.",
+      "[Medigap Plan G](/medicare-supplement-plans/plan-g/) is the most comprehensive plan available to new Medicare enrollees. After you pay the $283 annual Part B deductible, Plan G covers 100% of the Part B coinsurance - meaning your annual Leqembi cost could be as low as $283 instead of over $5,000.",
+    ],
+      whatItCovers: [
+      "Part B coinsurance (20%) - covered by most Medigap plans",
+      "Part B deductible - covered by Plan C and Plan F (for those eligible before Jan 1, 2020)",
+      "Excess charges - covered by Plans F and G",
+    ],
+      whatItDoesntCover: [
+      "Services not covered by Original Medicare",
+      "Part D prescription drugs (Medigap does not cover Part D)",
+    ],
+      costNote: "With Medigap Plan G, your annual out-of-pocket cost for Leqembi infusions is just the $283 Part B deductible. Without a supplement, you could owe over $5,000 per year in coinsurance.",
+    },
+  ],
+  costTable: {
+    title: "Estimated Leqembi Costs under Medicare (2026)",
+    headers: [
+    "Cost Item",
+    "Annual Amount",
+    "Your Cost (No Supplement)",
+    "Your Cost (With Plan G)",
+  ],
+    rows: [
+      {
+        "Cost Item": "Leqembi drug cost (list price)",
+        "Annual Amount": "~$26,500/year",
+        "Your Cost (No Supplement)": "20% coinsurance = ~$5,300/year",
+        "Your Cost (With Plan G)": "$283 deductible only",
+      },
+      {
+        "Cost Item": "Amyloid PET scan (initial diagnosis)",
+        "Annual Amount": "~$3,000–$5,000",
+        "Your Cost (No Supplement)": "20% coinsurance after deductible",
+        "Your Cost (With Plan G)": "$0 after deductible",
+      },
+      {
+        "Cost Item": "MRI monitoring scans (required during treatment)",
+        "Annual Amount": "~$500–$1,500/year",
+        "Your Cost (No Supplement)": "20% coinsurance after deductible",
+        "Your Cost (With Plan G)": "$0 after deductible",
+      },
+      {
+        "Cost Item": "Infusion administration fees",
+        "Annual Amount": "Varies by facility",
+        "Your Cost (No Supplement)": "20% coinsurance after deductible",
+        "Your Cost (With Plan G)": "$0 after deductible",
+      },
+    ],
+    footnote: "Costs based on 2026 Medicare figures. Leqembi list price is approximately $26,500/year as of 2026. Part B deductible: $283/year. Actual costs vary by provider and location.",
+  },
+  exceptionsSection: {
+    title: "Eligibility Requirements for Medicare Coverage of Leqembi",
+    items: [
+      {
+        title: "Who Qualifies for Medicare Coverage",
+        text: "To receive Medicare coverage for Leqembi, you must have a confirmed diagnosis of mild cognitive impairment (MCI) or mild dementia due to Alzheimer's disease, confirmed amyloid pathology (via PET scan or cerebrospinal fluid test), and treatment must be provided through a qualifying registry or CMS-approved clinical study. Patients with moderate or severe Alzheimer's disease do not currently qualify.",
+        highlight: "CMS coverage requirements for Leqembi may change as more clinical data becomes available. Always confirm current eligibility criteria with your neurologist and Medicare plan before beginning treatment.",
+      },
+      {
+        title: "ARIA: A Key Safety Consideration",
+        text: "Leqembi carries a risk of amyloid-related imaging abnormalities (ARIA), which are brain swelling or microbleeds that can occur during treatment. Medicare covers the MRI monitoring scans required to detect ARIA. Patients with certain genetic profiles (APOE4 carriers) have a higher risk of ARIA and should discuss this with their neurologist before starting treatment.",
+      },
+    ],
+  },
+  faqs: [
+    {
+      question: "Does Medicare Cover Leqembi?",
+      answer: "Yes. Medicare Part B covers Leqembi for beneficiaries with early-stage Alzheimer's disease who meet CMS eligibility criteria, including confirmed amyloid pathology and treatment through a qualifying registry. You pay 20% coinsurance after the $283 Part B deductible.",
+    },
+    {
+      question: "How Much Does Leqembi Cost with Medicare?",
+      answer: "Leqembi's list price is approximately $26,500 per year. With Medicare Part B, you pay 20% coinsurance, which is about $5,300 per year, plus the $283 annual Part B deductible. With a Medigap Plan G, your cost drops to just the $283 deductible per year.",
+    },
+    {
+      question: "Does Medicare Cover the Amyloid PET Scan Needed to Qualify for Leqembi?",
+      answer: "Medicare Part B covers amyloid PET scans when they are medically necessary to confirm an Alzheimer's diagnosis for Leqembi eligibility. Coverage is limited to one scan per patient. You pay 20% coinsurance after the Part B deductible.",
+    },
+    {
+      question: "Does Medicare Advantage Cover Leqembi?",
+      answer: "Yes. Medicare Advantage plans are required to cover Leqembi under the same rules as Original Medicare. However, your plan may require prior authorization, and you must use in-network providers. Contact your plan before scheduling treatment.",
+    },
+    {
+      question: "Does Medicare cover other Alzheimer's drugs like Aduhelm?",
+      answer: "Medicare Part B previously covered Aduhelm (aducanumab) under the same registry requirement. However, Biogen withdrew Aduhelm from the market in 2024. Leqembi is currently the primary FDA-approved amyloid-targeting therapy with Medicare coverage. Other Alzheimer's medications (such as Aricept or Namenda) are covered under Medicare Part D.",
+    },
+    {
+      question: "What is the Difference between Leqembi and Kisunla?",
+      answer: "Both Leqembi (lecanemab) and Kisunla (donanemab) are FDA-approved amyloid-targeting therapies for early Alzheimer's disease. As of 2026, Medicare covers Leqembi under Part B. Coverage for Kisunla may vary - check with your Medicare plan for the latest coverage status.",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "check",
+      text: "<strong>Medicare Part B</strong> covers Leqembi infusions for eligible early-stage Alzheimer's patients",
+    },
+    {
+      icon: "check",
+      text: "Confirmed <strong>amyloid pathology</strong> (PET scan or CSF test) is required to qualify",
+    },
+    {
+      icon: "alert",
+      text: "Treatment must occur through a <strong>qualifying registry</strong> or CMS-approved study",
+    },
+    {
+      icon: "dollar",
+      text: "Drug costs ~$26,500/year; your 20% coinsurance = <strong>~$5,300/year</strong> without a supplement",
+    },
+    {
+      icon: "dollar",
+      text: "With <strong>Medigap Plan G</strong>, your cost drops to just the $283 Part B deductible",
+    },
+    {
+      icon: "info",
+      text: "Medicare Advantage plans must cover Leqembi - <strong>prior authorization</strong> may be required",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Does Medicare Cover Alzheimer's Care?",
+      description: "Learn how Medicare covers memory care, cognitive assessments, and Alzheimer's-related services.",
+      slug: "does-medicare-cover-alzheimers-care",
+    },
+    {
+      title: "What is Medicare Part B?",
+      description: "Understand what Medicare Part B covers, including outpatient services and physician-administered drugs.",
+      slug: "what-is-medicare-part-b",
+    },
+    {
+      title: "Medicare Supplement Plan G",
+      description: "See how Medigap Plan G can cover the 20% coinsurance that Part B leaves behind.",
+      slug: "plan-g",
+    },
+    {
+      title: "Does Medicare Cover Memory Care?",
+      description: "Find out what Medicare covers for memory care facilities and cognitive decline.",
+      slug: "does-medicare-cover-memory-care",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "Does Medicare Cover Alzheimers Care",
+    "What Is Medicare Part B",
+    "Medicare Supplement Plan G",
+    "Does Medicare Cover Memory Care",
+  ],
+  ctaBanner: {
+    title: "Worried about Leqembi Costs?",
+    text: "A Medigap plan can cover the 20% Part B coinsurance for Leqembi, potentially saving you thousands per year. Our licensed agents can help you compare plans in your area for free.",
+  },
+  relatedSlugs: [
+    "does-medicare-cover-alzheimers-care",
+    "what-is-medicare-part-b",
+    "plan-g",
+    "does-medicare-cover-memory-care",
+    "does-medicare-cover-leqembi",
+    "medicare-part-d-penalty",
+    "what-does-medicare-part-a-cover",
+  ],
+  youtubeVideoId: "rFmBXqyE6FA",
+},
 
   // ─── Does Medicare Cover Macular Degeneration ───────────────────────────────
   {
