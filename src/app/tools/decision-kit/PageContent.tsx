@@ -10,7 +10,7 @@ export default function DecisionKitPage() {
   const [year, setYear] = useState("");
   const [firstName, setFirstName] = useState("");
   const [email, setEmail] = useState("");
-  const [generated, setGenerated] = useState(false);
+  const [generated, setGenerated] = useState<{ url: string; filename: string } | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
 
@@ -18,9 +18,24 @@ export default function DecisionKitPage() {
   const isFormValid = month && day && year && year.length === 4 && isEmailValid && firstName.trim().length > 0;
 
   const handleGenerate = async () => {
-    if (!isFormValid) return;
+    if (!isFormValid || loading) return;
     setLoading(true);
     setError(false);
+    setGenerated(null);
+
+    // Reserve the tab during the click, before the asynchronous request, so
+    // browsers do not treat the eventual PDF navigation as an unsolicited popup.
+    let guideTab: Window | null = null;
+    try {
+      guideTab = window.open("about:blank", "_blank");
+      if (guideTab) {
+        guideTab.opener = null;
+        guideTab.document.title = "Preparing your Medicare Decision Kit";
+        guideTab.document.body.textContent = "Preparing your guide… You can return to the form if this tab does not update.";
+      }
+    } catch {
+      // A blocked tab must not prevent generation or the fallback links.
+    }
 
     try {
       const response = await fetch("/api/decision-kit", {
@@ -39,7 +54,7 @@ export default function DecisionKitPage() {
 
       const data = await response.json();
 
-      // Convert base64 to blob and trigger download
+      // Keep the PDF available to both the viewer and the fallback links.
       const byteCharacters = atob(data.pdf);
       const byteNumbers = new Array(byteCharacters.length);
       for (let i = 0; i < byteCharacters.length; i++) {
@@ -48,15 +63,16 @@ export default function DecisionKitPage() {
       const byteArray = new Uint8Array(byteNumbers);
       const blob = new Blob([byteArray], { type: "application/pdf" });
       const url = URL.createObjectURL(blob);
-      const link = document.createElement("a");
-      link.href = url;
-      link.download = data.filename;
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-      URL.revokeObjectURL(url);
-      setGenerated(true);
+      // Do not revoke while a PDF tab may still be using it. The browser
+      // releases this document's object URLs when the document is unloaded.
+      setGenerated({ url, filename: data.filename });
+      try {
+        if (guideTab && !guideTab.closed) guideTab.location.replace(url);
+      } catch {
+        // The guide is still available via the explicit links below.
+      }
     } catch {
+      if (guideTab && !guideTab.closed) guideTab.close();
       setError(true);
     } finally {
       setLoading(false);
@@ -212,7 +228,7 @@ export default function DecisionKitPage() {
                   ) : generated ? (
                     <>
                       <CheckCircle2 className="w-5 h-5" />
-                      Download Again
+                      Generate Again
                     </>
                   ) : (
                     <>
@@ -221,6 +237,17 @@ export default function DecisionKitPage() {
                     </>
                   )}
                 </button>
+
+                {generated && (
+                  <div role="status" className="rounded-md border border-teal-200 bg-teal-50 p-4 text-sm text-slate-800">
+                    <p className="font-semibold">Your guide is ready.</p>
+                    <p className="mt-1">If it did not open automatically, use the links below. Your browser settings may download PDFs instead of displaying them.</p>
+                    <div className="mt-3 flex flex-wrap gap-4">
+                      <a href={generated.url} target="_blank" rel="noopener noreferrer" className="font-semibold text-teal-800 underline underline-offset-2">Open Your Guide (new tab)</a>
+                      <a href={generated.url} download={generated.filename} className="font-semibold text-teal-800 underline underline-offset-2">Download PDF</a>
+                    </div>
+                  </div>
+                )}
 
                 {error && (
                   <p className="text-sm text-red-600 mt-2">
