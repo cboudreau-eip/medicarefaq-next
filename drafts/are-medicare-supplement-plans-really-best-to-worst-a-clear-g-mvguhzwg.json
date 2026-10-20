@@ -720,7 +720,22 @@
     },
     {
       "type": "paragraph",
-      "content": "The benefits that vary from letter to letter generally fall into a few categories: Part A hospital coinsurance and costs after you use up your Medicare benefits, Part B coinsurance (your share of outpatient and doctor costs), skilled nursing facility coinsurance, the Part A and Part B deductibles, and foreign travel emergency care. Some plans cover all of these in full, while others cover only a portion or leave certain costs to you."
+      "content": "The benefits that vary from letter to letter generally fall into a few categories:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Part A hospital coinsurance and costs after you use up your Medicare benefits",
+        "Part B coinsurance (your share of outpatient and doctor costs)",
+        "Skilled nursing facility coinsurance",
+        "The Part A and Part B deductibles",
+        "Foreign travel emergency care"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Some plans cover all of these in full, while others cover only a portion or leave certain costs to you."
     },
     {
       "type": "heading",
@@ -763,6 +778,77 @@
     {
       "type": "paragraph",
       "content": "High-deductible versions of certain plans, such as High-Deductible Plan G, work differently. You pay a lower monthly premium but agree to cover a set deductible amount out of pocket before the plan starts paying. For 2026, the high-deductible Plan G deductible is $2,950. This option suits beneficiaries who are financially prepared to pay more upfront in exchange for a lower premium over the course of a healthy year."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "plan-comparison-table",
+      "text": "Plan F, G, C, N, K, L, and A Compared"
+    },
+    {
+      "type": "paragraph",
+      "content": "The table below summarizes how these commonly compared plan letters differ in coverage level and cost structure. Check the [official Medigap benefits chart](https://www.medicare.gov/health-drug-plans/medigap/basics/compare-plan-benefits) for the complete, current breakdown by benefit."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Plan",
+        "Coverage Level",
+        "Monthly Premium",
+        "Out-of-Pocket Exposure",
+        "New Enrollees Allowed?"
+      ],
+      "rows": [
+        [
+          "Plan F",
+          "Most comprehensive",
+          "Highest",
+          "Very low",
+          "No, closed to those eligible on or after 1/1/2020"
+        ],
+        [
+          "Plan G",
+          "Most comprehensive (excludes Part B deductible)",
+          "High",
+          "Low",
+          "Yes"
+        ],
+        [
+          "Plan C",
+          "Most comprehensive",
+          "High",
+          "Very low",
+          "No, closed to those eligible on or after 1/1/2020"
+        ],
+        [
+          "Plan N",
+          "Mid-range",
+          "Moderate",
+          "Moderate (small copays apply)",
+          "Yes"
+        ],
+        [
+          "Plan K",
+          "Basic with cost-sharing",
+          "Lower",
+          "Capped by annual out-of-pocket limit",
+          "Yes"
+        ],
+        [
+          "Plan L",
+          "Basic with cost-sharing",
+          "Lower",
+          "Capped by annual out-of-pocket limit (lower limit than Plan K)",
+          "Yes"
+        ],
+        [
+          "Plan A",
+          "Core benefits only",
+          "Lowest among standard plans",
+          "Higher",
+          "Yes"
+        ]
+      ]
     },
     {
       "type": "heading",
@@ -870,6 +956,35 @@
     {
       "type": "paragraph",
       "content": "The most important timing consideration in Medigap is your [Medigap Open Enrollment Period](/faqs/medigap-supplement-open-enrollment/), a six-month window that starts when you are both 65 or older and enrolled in Part B. During this period, you have guaranteed issue rights, meaning an insurer must sell you any Medigap policy it offers at that time, regardless of your health history."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Question",
+        "Answer"
+      ],
+      "rows": [
+        [
+          "Who qualifies?",
+          "Anyone who is 65 or older and enrolled in Medicare Part B"
+        ],
+        [
+          "When does it start?",
+          "The month you are both 65 or older and enrolled in Part B"
+        ],
+        [
+          "How long does it last?",
+          "Six months"
+        ],
+        [
+          "Guaranteed issue during this window?",
+          "Yes, insurers must sell you any Medigap policy they offer, regardless of health history"
+        ],
+        [
+          "What happens after it ends?",
+          "Insurers can generally use medical underwriting unless another guaranteed issue situation applies"
+        ]
+      ]
     },
     {
       "type": "callout",
@@ -1087,6 +1202,6 @@
     }
   ],
   "id": "are-medicare-supplement-plans-really-best-to-worst-a-clear-g-mvguhzwg",
-  "updatedAt": "2026-10-20T15:46:41.421Z",
-  "createdAt": "2026-10-20T15:46:41.421Z"
+  "updatedAt": "2026-10-20T15:58:26.540Z",
+  "createdAt": "2026-10-20T15:58:26.540Z"
 }
