@@ -239,7 +239,7 @@ async function sendDecisionKitNotification(data: {
           </tr>
           <tr>
             <td style="padding: 8px 12px; font-weight: 600; color: #475569;">Email marketing</td>
-            <td style="padding: 8px 12px; color: #1e293b;">${data.consent.optedIn ? "OPTED IN" : "NOT OPTED IN — do not add to marketing campaigns"}</td>
+            <td style="padding: 8px 12px; color: #1e293b;">${data.consent.optedIn ? "CHECKED — preselected email preference, not an affirmative opt-in" : "UNCHECKED — do not add to marketing campaigns"}</td>
           </tr>
           <tr>
             <td style="padding: 8px 12px; font-weight: 600; color: #475569;">Preference recorded (UTC)</td>
@@ -247,7 +247,7 @@ async function sendDecisionKitNotification(data: {
           </tr>
           <tr style="background: #f8fafc;">
             <td style="padding: 8px 12px; font-weight: 600; color: #475569;">Disclosure</td>
-            <td style="padding: 8px 12px; color: #1e293b;">${data.consent.source} | Version ${data.consent.version}<br />${data.consent.text}</td>
+            <td style="padding: 8px 12px; color: #1e293b;">${data.consent.source} | Version ${data.consent.version}<br />${data.consent.method}<br />${data.consent.text}</td>
           </tr>
         </table>
         <hr style="border: none; border-top: 1px solid #e2e8f0; margin: 20px 0;" />
@@ -268,7 +268,7 @@ async function sendDecisionKitNotification(data: {
       body: JSON.stringify({
         from: "MedicareFAQ <onboarding@resend.dev>",
         to: ["cboudreau@teameip.com"],
-        subject: `Decision Kit: ${data.consent.optedIn ? "Email opt-in" : "No marketing opt-in"}`,
+        subject: `Decision Kit: ${data.consent.optedIn ? "Prechecked email preference" : "No marketing emails"}`,
         html: htmlBody,
       }),
     });

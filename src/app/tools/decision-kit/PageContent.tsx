@@ -11,7 +11,7 @@ export default function DecisionKitPage() {
   const [year, setYear] = useState("");
   const [firstName, setFirstName] = useState("");
   const [email, setEmail] = useState("");
-  const [emailMarketingConsent, setEmailMarketingConsent] = useState(false);
+  const [emailMarketingConsent, setEmailMarketingConsent] = useState(true);
   const [generated, setGenerated] = useState<{ url: string; filename: string } | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
@@ -218,21 +218,18 @@ export default function DecisionKitPage() {
                   </div>
                 </div>
 
-                <div className="space-y-3 rounded-md border border-slate-200 bg-slate-50 p-4 text-sm text-slate-700">
-                  <p>
-                    We collect your name, email address, and date of birth to process your request and generate your personalized kit. Your name, email, and email preference are sent to our team. Your birth date is used to calculate your enrollment dates.
-                  </p>
-                  <label className="flex items-start gap-3 cursor-pointer">
+                <div className="space-y-1 text-sm leading-5 text-slate-600">
+                  <label className="flex items-start gap-2 cursor-pointer">
                     <input
                       type="checkbox"
                       checked={emailMarketingConsent}
                       onChange={(e) => setEmailMarketingConsent(e.target.checked)}
-                      className="mt-1 h-5 w-5 shrink-0 accent-teal-700"
+                      className="mt-0.5 h-4 w-4 shrink-0 accent-teal-700"
                     />
                     <span>{DECISION_KIT_CONSENT_TEXT}</span>
                   </label>
                   <p>
-                    Marketing emails are optional. You can get your free kit without opting in. Read our <Link href="/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-teal-800 underline underline-offset-2">Privacy Policy</Link>.
+                    Optional—uncheck to receive only the kit. <Link href="/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-teal-800 underline underline-offset-2">Privacy Policy</Link>
                   </p>
                 </div>
 

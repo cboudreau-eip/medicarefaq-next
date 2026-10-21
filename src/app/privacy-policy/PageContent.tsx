@@ -64,8 +64,9 @@ export default function PrivacyPolicy() {
                 to process your request and generate a personalized PDF. Your birth date is used to
                 calculate enrollment dates. Our internal notification includes your name, email address,
                 and email-marketing preference, but not your birth date or calculated enrollment dates.
-                Our email service provider processes that notification. If you choose the optional
-                email opt-in, MedicareFAQ, operated by Elite Insurance Partners, may send you Medicare
+                Our email service provider processes that notification. The optional email checkbox is
+                preselected; you can uncheck it before submitting. If submitted checked,
+                MedicareFAQ, operated by Elite Insurance Partners, may send you Medicare
                 tips, enrollment reminders, and marketing information about insurance options.
                 The notification records your preference, submission time, source page, and disclosure
                 version. You can receive the kit without opting in and unsubscribe from marketing
