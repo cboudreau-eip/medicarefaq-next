@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { X } from "lucide-react";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 interface SlideInCTAProps {
   /** Scroll percentage (0-100) at which the panel slides in */
@@ -13,7 +14,15 @@ interface SlideInCTAProps {
   dismissDurationHours?: number;
 }
 
-export default function SlideInCTA({
+export default function SlideInCTA(props: SlideInCTAProps) {
+  const pathname = usePathname();
+  // Unmount the entire panel and its scroll listener on its own signup page,
+  // including client-side navigation while the panel is already open.
+  if (pathname?.replace(/\/+$/, "") === "/tools/decision-kit") return null;
+  return <SlideInCTAPanel {...props} />;
+}
+
+function SlideInCTAPanel({
   scrollPercent = 40,
   storageKey = "slideInCTA_dismissed",
   dismissDurationHours = 120,
