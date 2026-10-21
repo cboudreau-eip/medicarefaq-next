@@ -13,7 +13,7 @@ export default function PrivacyPolicy() {
         <section className="bg-[#1B2A4A] text-white py-12">
           <div className="container">
             <h1 className="text-3xl md:text-4xl font-bold">Privacy Policy</h1>
-            <p className="mt-2 text-white/70 text-sm">Last updated: January 1, 2026</p>
+            <p className="mt-2 text-white/70 text-sm">Last updated: October 21, 2026</p>
           </div>
         </section>
 
@@ -58,6 +58,20 @@ export default function PrivacyPolicy() {
                 <li>Comply with legal obligations</li>
               </ul>
 
+              <h3>Medicare Decision Kit and Optional Emails</h3>
+              <p>
+                For the Medicare Decision Kit, we collect your name, email address, and date of birth
+                to process your request and generate a personalized PDF. Your birth date is used to
+                calculate enrollment dates. Our internal notification includes your name, email address,
+                and email-marketing preference, but not your birth date or calculated enrollment dates.
+                Our email service provider processes that notification. If you choose the optional
+                email opt-in, MedicareFAQ, operated by Elite Insurance Partners, may send you Medicare
+                tips, enrollment reminders, and marketing information about insurance options.
+                The notification records your preference, submission time, source page, and disclosure
+                version. You can receive the kit without opting in and unsubscribe from marketing
+                emails using the unsubscribe link in those emails. This opt-in is for our email
+                communications, not permission for other agencies to market to you.
+              </p>
               <h2>4. Sharing Your Information</h2>
               <p>
                 We may share your information with licensed insurance agents and carriers for the purpose

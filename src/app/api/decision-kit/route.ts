@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { decisionKitConsent } from "@/lib/decision-kit-consent";
 import { PDFDocument, StandardFonts, rgb } from "pdf-lib";
 import fs from "fs";
 import path from "path";
@@ -188,10 +189,7 @@ export async function POST(request: NextRequest) {
     sendDecisionKitNotification({
       firstName: firstName || "Not provided",
       email: email || "Not provided",
-      dob: formatDate(dob),
-      birthday65: formatDate(dates.birthday65),
-      iepStart: formatDate(dates.iepStart),
-      iepEnd: formatDate(dates.iepEnd),
+      consent: decisionKitConsent(body.emailMarketingConsent),
     }).catch((err) => console.error("[Decision Kit] Email notification failed:", err));
 
     return NextResponse.json({
@@ -215,10 +213,7 @@ export async function POST(request: NextRequest) {
 async function sendDecisionKitNotification(data: {
   firstName: string;
   email: string;
-  dob: string;
-  birthday65: string;
-  iepStart: string;
-  iepEnd: string;
+  consent: ReturnType<typeof decisionKitConsent>;
 }) {
   const resendApiKey = process.env.RESEND_LEAD_GEN_API_KEY;
   if (!resendApiKey) {
@@ -236,23 +231,23 @@ async function sendDecisionKitNotification(data: {
         <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
           <tr>
             <td style="padding: 8px 12px; font-weight: 600; color: #475569; width: 140px;">First Name</td>
-            <td style="padding: 8px 12px; color: #1e293b;">${data.firstName}</td>
+            <td style="padding: 8px 12px; color: #1e293b;">${escapeHtml(data.firstName)}</td>
           </tr>
           <tr style="background: #f8fafc;">
             <td style="padding: 8px 12px; font-weight: 600; color: #475569;">Email</td>
-            <td style="padding: 8px 12px; color: #1e293b;">${data.email}</td>
+            <td style="padding: 8px 12px; color: #1e293b;">${escapeHtml(data.email)}</td>
           </tr>
           <tr>
-            <td style="padding: 8px 12px; font-weight: 600; color: #475569;">Date of Birth</td>
-            <td style="padding: 8px 12px; color: #1e293b;">${data.dob}</td>
+            <td style="padding: 8px 12px; font-weight: 600; color: #475569;">Email marketing</td>
+            <td style="padding: 8px 12px; color: #1e293b;">${data.consent.optedIn ? "OPTED IN" : "NOT OPTED IN — do not add to marketing campaigns"}</td>
           </tr>
           <tr>
-            <td style="padding: 8px 12px; font-weight: 600; color: #475569;">65th Birthday</td>
-            <td style="padding: 8px 12px; color: #1e293b;">${data.birthday65}</td>
+            <td style="padding: 8px 12px; font-weight: 600; color: #475569;">Preference recorded (UTC)</td>
+            <td style="padding: 8px 12px; color: #1e293b;">${data.consent.recordedAt}</td>
           </tr>
           <tr style="background: #f8fafc;">
-            <td style="padding: 8px 12px; font-weight: 600; color: #475569;">IEP Window</td>
-            <td style="padding: 8px 12px; color: #1e293b;">${data.iepStart} - ${data.iepEnd}</td>
+            <td style="padding: 8px 12px; font-weight: 600; color: #475569;">Disclosure</td>
+            <td style="padding: 8px 12px; color: #1e293b;">${data.consent.source} | Version ${data.consent.version}<br />${data.consent.text}</td>
           </tr>
         </table>
         <hr style="border: none; border-top: 1px solid #e2e8f0; margin: 20px 0;" />
@@ -273,7 +268,7 @@ async function sendDecisionKitNotification(data: {
       body: JSON.stringify({
         from: "MedicareFAQ <onboarding@resend.dev>",
         to: ["cboudreau@teameip.com"],
-        subject: `Decision Kit Download: ${data.firstName} (65 in ${data.birthday65.split(",")[0]?.trim() || ""})`,
+        subject: `Decision Kit: ${data.consent.optedIn ? "Email opt-in" : "No marketing opt-in"}`,
         html: htmlBody,
       }),
     });
@@ -285,4 +280,8 @@ async function sendDecisionKitNotification(data: {
   } catch (error) {
     console.error("[Decision Kit] Email send failed:", error);
   }
+}
+
+function escapeHtml(value: string) {
+  return String(value).replace(/[&<>"']/g, (character) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[character]!);
 }

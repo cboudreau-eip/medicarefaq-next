@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { DECISION_KIT_CONSENT_TEXT } from "@/lib/decision-kit-consent";
 import { FileDown, Calendar, Shield, Clock, Loader2, CheckCircle2 } from "lucide-react";
 
 export default function DecisionKitPage() {
@@ -10,6 +11,7 @@ export default function DecisionKitPage() {
   const [year, setYear] = useState("");
   const [firstName, setFirstName] = useState("");
   const [email, setEmail] = useState("");
+  const [emailMarketingConsent, setEmailMarketingConsent] = useState(false);
   const [generated, setGenerated] = useState<{ url: string; filename: string } | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
@@ -47,6 +49,7 @@ export default function DecisionKitPage() {
           year: parseInt(year),
           firstName,
           email,
+          emailMarketingConsent,
         }),
       });
 
@@ -215,6 +218,24 @@ export default function DecisionKitPage() {
                   </div>
                 </div>
 
+                <div className="space-y-3 rounded-md border border-slate-200 bg-slate-50 p-4 text-sm text-slate-700">
+                  <p>
+                    We collect your name, email address, and date of birth to process your request and generate your personalized kit. Your name, email, and email preference are sent to our team. Your birth date is used to calculate your enrollment dates.
+                  </p>
+                  <label className="flex items-start gap-3 cursor-pointer">
+                    <input
+                      type="checkbox"
+                      checked={emailMarketingConsent}
+                      onChange={(e) => setEmailMarketingConsent(e.target.checked)}
+                      className="mt-1 h-5 w-5 shrink-0 accent-teal-700"
+                    />
+                    <span>{DECISION_KIT_CONSENT_TEXT}</span>
+                  </label>
+                  <p>
+                    Marketing emails are optional. You can get your free kit without opting in. Read our <Link href="/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-teal-800 underline underline-offset-2">Privacy Policy</Link>.
+                  </p>
+                </div>
+
                 <button
                   onClick={handleGenerate}
                   disabled={!isFormValid || loading}
@@ -343,8 +364,8 @@ export default function DecisionKitPage() {
         {/* Trust indicators */}
         <div className="mt-8 pb-12 text-center">
           <p className="text-sm text-slate-500">
-            Your information is never stored or shared. This tool runs entirely on our secure server
-            and generates a fresh PDF each time.
+            Your date of birth helps us calculate your enrollment dates. Marketing emails are optional,
+            and you can unsubscribe at any time.
           </p>
           <div className="mt-6">
             <Link href="/new-to-medicare/eligibility/" className="text-sm text-teal-600 hover:text-teal-700 font-medium">
