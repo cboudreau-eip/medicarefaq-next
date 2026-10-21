@@ -226,7 +226,7 @@ export default function DecisionKitPage() {
                       onChange={(e) => setEmailMarketingConsent(e.target.checked)}
                       className="mt-0.5 h-4 w-4 shrink-0 accent-teal-700"
                     />
-                    <span>{DECISION_KIT_CONSENT_TEXT}</span>
+                    <span className="text-[13px]">{DECISION_KIT_CONSENT_TEXT}</span>
                   </label>
                   <p className="!text-[13px] leading-4">
                     Optional—uncheck to receive only the kit. <Link href="/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-teal-800 underline underline-offset-2">Privacy Policy</Link>
