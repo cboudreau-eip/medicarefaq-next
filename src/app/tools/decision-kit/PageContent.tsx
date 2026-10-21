@@ -228,7 +228,7 @@ export default function DecisionKitPage() {
                     />
                     <span>{DECISION_KIT_CONSENT_TEXT}</span>
                   </label>
-                  <p>
+                  <p className="!text-[13px] leading-4">
                     Optional—uncheck to receive only the kit. <Link href="/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-teal-800 underline underline-offset-2">Privacy Policy</Link>
                   </p>
                 </div>
