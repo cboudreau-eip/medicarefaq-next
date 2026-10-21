@@ -1,5 +1,5 @@
-export const DECISION_KIT_CONSENT_VERSION = "2026-10-21-prechecked";
-export const DECISION_KIT_CONSENT_TEXT = "Send me Medicare tips and marketing emails from MedicareFAQ / Elite Insurance Partners. Unsubscribe anytime.";
+export const DECISION_KIT_CONSENT_VERSION = "2026-10-21-prechecked-v2";
+export const DECISION_KIT_CONSENT_TEXT = "Send me Medicare tips, helpful articles, and enrollment reminders from MedicareFAQ / Elite Insurance Partners. Unsubscribe anytime.";
 
 export function decisionKitConsent(value: unknown) {
   return {

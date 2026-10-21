@@ -13,7 +13,7 @@ test("preference evidence uses server-owned disclosure and source", () => {
   const record = decisionKitConsent(true);
   assert.equal(record.text, DECISION_KIT_CONSENT_TEXT);
   assert.equal(record.source, "/tools/decision-kit/");
-  assert.equal(record.version, "2026-10-21-prechecked");
+  assert.equal(record.version, "2026-10-21-prechecked-v2");
   assert.match(record.method, /Prechecked checkbox/);
   assert.ok(Number.isFinite(Date.parse(record.recordedAt)));
 });
