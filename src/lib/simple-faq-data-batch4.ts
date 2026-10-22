@@ -450,7 +450,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
     slug: 'medicare-covered-alternatives-to-knee-replacement',
     seo: {
       title: 'Medicare-Covered Alternatives to Knee Replacement Surgery (2026)',
-      description: 'Medicare covers several non-surgical knee treatments in 2026, including cortisone injections, hyaluronic acid injections, physical therapy, acupuncture, and genicular nerve blocks. Learn what is covered, what is not, and how to avoid out-of-pocket surprises.',
+      description: "Considering options before knee surgery? See which non-surgical treatments Medicare covers, what is excluded, and how to avoid unexpected costs.",
       canonical: 'https://www.medicarefaq.com/faqs/medicare-covered-alternatives-to-knee-replacement/',
       ogImage: '/images/medicarefaq-cover.jpg',
     },
