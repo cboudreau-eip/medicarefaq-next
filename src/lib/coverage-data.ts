@@ -12638,149 +12638,267 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedSlugs: ["does-medicare-cover-ostomy-supplies", "does-medicare-cover-medical-alert-systems", "durable-medical-equipment", "medicare-coverage-for-wheelchairs-and-scooters", "does-medicare-cover-durable-medical-equipment", "does-medicare-cover-diabetic-supplies", "medicare-coverage-for-bathroom-safety-devices"],
   },
   {
-    slug: "medicare-coverage-for-my-children",
-    seo: {
-      title: "Medicare Coverage for Disabled Dependents",
-      description: "You cannot add dependents to Medicare, but children may qualify individually in certain situations. Learn when children can get Medicare coverage.",
-      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-my-children/",
-      ogImage: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg",
-    },
-    title: "Medicare Coverage for My Children and Dependents",
-    subtitle: "Medicare is an individual program - you cannot add dependents to your coverage. However, children may qualify for Medicare in certain situations involving disability, ESRD, or ALS.",
-    category: "Medicare Coverage",
-    dateUpdated: "May 5, 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
-    },
-    readTime: "7 min read",
-    quickAnswer: {
-      text: "You cannot add dependents or children to your Medicare coverage. Medicare is an individual program - each person must qualify on their own. However, children may qualify for Medicare individually if they have End-Stage Renal Disease (ESRD), ALS, or a qualifying disability (once they turn 18 and receive SSDI for 24 months).",
-      badges: [
-        { plan: "Original Medicare", status: "partial" },
-        { plan: "Medicare Advantage", status: "partial" },
-        { plan: "Medigap", status: "not-covered" }],
-    },
-    comparisonTable: [
-      { planType: "Dependents on Your Medicare", coverage: "Not Allowed", icon: "shield", notes: "Medicare is individual - dependents cannot be added to your plan" },
-      { planType: "Child with ESRD (any age)", coverage: "May Qualify", icon: "heart", notes: "Child may qualify if parent has sufficient Social Security work credits" },
-      { planType: "Child with ALS (age 18+)", coverage: "May Qualify", icon: "heart", notes: "Must first qualify for SSDI, which requires age 18+" },
-      { planType: "Disabled Adult Child (DAC)", coverage: "May Qualify After 24 Months SSDI", icon: "filetext", notes: "Disability must have begun before age 22; qualifies for Medicare after 24 months of SSDI" }],
-    planBreakdowns: [
-      {
-        planName: "Can You Add Dependents to Medicare?",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Not Allowed",
-        coverageType: "not-covered",
-        paragraphs: [
-          "You cannot add dependents - such as your children or spouse - to your Medicare coverage. Medicare is a federal health insurance program for individuals, not families. For your dependents to receive Medicare, they must be individually eligible based on their own age, disability status, or qualifying condition.",
-          "If you have dependents covered under your employer group health plan and you are switching to Medicare, your dependents will need to find other healthcare coverage. Options include CHIP (Children's Health Insurance Program), Medicaid, or a marketplace plan through [Healthcare.gov](https://www.healthcare.gov/)."],
-      },
-      {
-        planName: "When Can a Child Qualify for Medicare?",
-        icon: "heart",
-        iconColor: "#059669",
-        coverageLabel: "Specific Conditions Only",
-        coverageType: "partial",
-        paragraphs: [
-          "Though Medicare is generally a program for people 65 and older, children can qualify in specific situations. A child of any age can qualify for Medicare if they are diagnosed with [End-Stage Renal Disease (ESRD)](/faqs/does-medicare-cover-end-stage-renal-disease), provided the parent has earned at least 6 Social Security credits in the last 3 years and the child needs regular dialysis or has had a kidney transplant.",
-          "Children with ALS can qualify for Medicare, but only once they turn 18 - because they must first qualify for SSDI, which is only available to adults. If your child has a disability and your household has limited income, they may qualify for Supplemental Security Income (SSI) now, and potentially SSDI and Medicare once they turn 18."],
-      },
-      {
-        planName: "Disabled Adult Children (DAC)",
-        icon: "users",
-        iconColor: "#7C3AED",
-        coverageLabel: "Eligible After 24 Months of SSDI",
-        coverageType: "partial",
-        paragraphs: [
-          "A Disabled Adult Child (DAC) is someone 18 or older whose qualifying disability began before age 22. These individuals can qualify for SSDI benefits based on a parent's Social Security earnings record - meaning the child doesn't need to have worked to receive benefits. A DAC can be a biological child, adopted child, stepchild, grandchild, or step-grandchild.",
-          "Once a DAC receives SSDI benefits for 24 months, they qualify for Medicare coverage. The exception is ALS - individuals with ALS qualify for Medicare immediately upon receiving SSDI. Note that DAC benefits typically end if the individual gets married; contact the Social Security Administration at 1-800-772-1213 for specific questions."],
-      }],
-    costTable: {
-      title: "Medicare Eligibility for Children: Quick Reference",
-      headers: ["Situation", "Eligible?", "Age Requirement", "Key Condition"],
-      rows: [
-        { "Situation": "Child as dependent on parent's Medicare", "Eligible?": "No", "Age Requirement": "Any age", "Key Condition": "Not permitted - Medicare is individual" },
-        { "Situation": "Child with ESRD", "Eligible?": "Yes", "Age Requirement": "Any age", "Key Condition": "Parent must have sufficient SS work credits" },
-        { "Situation": "Child with ALS", "Eligible?": "Yes (at 18+)", "Age Requirement": "Must be 18+", "Key Condition": "Must qualify for SSDI first" },
-        { "Situation": "Disabled Adult Child (DAC)", "Eligible?": "Yes (after 24 months SSDI)", "Age Requirement": "Must be 18+", "Key Condition": "Disability began before age 22" },
-        { "Situation": "Child receiving auxiliary SSDI benefits", "Eligible?": "No", "Age Requirement": "Any age", "Key Condition": "Auxiliary benefits don't count as SSDI" }],
-      footnote: "ESRD coverage ends 12 months after the last month of dialysis, or 36 months after a kidney transplant, unless the child qualifies for Medicare for another reason.",
-    },
-    exceptionsSection: {
-      title: "Alternative Coverage Options for Children",
-      items: [
-        {
-          title: "CHIP (Children's Health Insurance Program)",
-          text: "CHIP provides low-cost health coverage to children in families that earn too much to qualify for Medicaid but can't afford private insurance. Coverage varies by state. Visit Healthcare.gov to learn about CHIP options in your area.",
-        },
-        {
-          title: "Medicaid",
-          text: "If your household has limited income, your children may qualify for Medicaid coverage. Medicaid eligibility and benefits vary by state. If you are qualifying for Medicare due to a disability, your dependents may be able to get Medicaid coverage.",
-        },
-        {
-          title: "Medicare Advantage Special Needs Plans (SNP)",
-          text: "If your child qualifies for Medicare due to ESRD or disability, they may be eligible for a Medicare Advantage Special Needs Plan designed for individuals with specific chronic conditions, which can provide enhanced benefits.",
-        }],
-    },
-    faqs: [
-      {
-        question: "Can I Add My Child to My Medicare Plan?",
-        answer: "No. Medicare is an individual program - you cannot add dependents to your coverage. Your child must qualify for Medicare on their own based on age, disability, ESRD, or ALS.",
-      },
-      {
-        question: "Can a Child Get Medicare Due to a Disability?",
-        answer: "Children under 18 cannot qualify for Medicare based on disability alone. However, once they turn 18, they may qualify for SSDI based on their own disability or as a Disabled Adult Child (DAC) based on a parent's work record. After 24 months of SSDI, they qualify for Medicare.",
-      },
-      {
-        question: "What is a Disabled Adult Child (DAC)?",
-        answer: "A Disabled Adult Child is someone 18 or older whose qualifying disability began before age 22. They can receive SSDI benefits based on a parent's Social Security record, and after 24 months of SSDI, they qualify for Medicare. The parent must be receiving Social Security retirement or disability benefits, or have died with sufficient work credits.",
-      },
-      {
-        question: "Does My Child Lose Medicare if They Get a Job?",
-        answer: "Not immediately. Your child will have a 9-month trial work period during which they receive full SSDI benefits regardless of earnings. If they continue working after the trial period, Medicare coverage continues for 93 months (over 7 years). After that, they may need to purchase Medicare Part A by paying a monthly premium.",
-      },
-      {
-        question: "What happens to my child's ESRD Medicare coverage if they recover?",
-        answer: "ESRD-based Medicare coverage ends 12 months after the last month of dialysis treatment, or 36 months after a kidney transplant, unless the child qualifies for Medicare for another reason (such as disability or age).",
-      },
-      {
-        question: "What coverage options exist for children who don't qualify for Medicare?",
-        answer: "Children who don't qualify for Medicare may be eligible for CHIP (Children's Health Insurance Program), Medicaid, or coverage through a parent's employer group health plan. Visit Healthcare.gov to explore options in your state.",
-      }],
-    quickReference: [
-      { icon: "x", text: "You <strong>cannot add dependents</strong> to your Medicare coverage" },
-      { icon: "check", text: "Children with <strong>ESRD</strong> may qualify for Medicare at any age" },
-      { icon: "check", text: "Children with <strong>ALS</strong> may qualify for Medicare at age 18+ after receiving SSDI" },
-      { icon: "check", text: "<strong>Disabled Adult Children</strong> (DAC) qualify for Medicare after 24 months of SSDI" },
-      { icon: "info", text: "Auxiliary SSDI benefits paid to your child <strong>do not</strong> qualify them for Medicare" },
-      { icon: "info", text: "<strong>CHIP and Medicaid</strong> are the primary coverage options for children who don't qualify for Medicare" }],
-    relatedTopics: [
-      { title: "Does Medicare Cover End-Stage Renal Disease?", description: "Learn about Medicare's comprehensive ESRD coverage, including dialysis and kidney transplants.", slug: "does-medicare-cover-end-stage-renal-disease" },
-      { title: "Medicare Coverage for In-Home Caregivers", description: "Find out what home care services Medicare covers for beneficiaries.", slug: "medicare-coverage-for-in-home-caregivers" },
-      { title: "Does Medicare Cover Amyotrophic Lateral Sclerosis (ALS)?", description: "Learn about Medicare's special rules for ALS patients.", slug: "medicare-coverage-for-amyotrophic-lateral-sclerosis-als" },
-      { title: "What Dental Services are Covered by Medicare?", description: "Learn what dental expenses Medicare covers and how to get dental coverage.", slug: "what-dental-expenses-does-medicare-cover" }],
-    sidebarRelatedLinks: [
-      "Does Medicare Cover End-Stage Renal Disease",
-      "Medicare Coverage for In-Home Caregivers",
-      "Medicare Coverage for ALS",
-      "What Dental Services Are Covered by Medicare"],
-    ctaBanner: {
-      title: "Questions about Medicare Eligibility?",
-      text: "Our licensed Medicare agents can help you understand eligibility rules for yourself and your family members, and find the right coverage options for your situation.",
-    },
-    relatedSlugs: ["does-medicare-cover-end-stage-renal-disease", "medicare-coverage-for-in-home-caregivers", "medicare-coverage-for-amyotrophic-lateral-sclerosis-als", "what-dental-expenses-does-medicare-cover", "do-disposable-adult-diaper-manufacturers-have-assistance-programs-for-free-or-reduced-cost-depends", "home-safety-assessment-for-the-elderly", "medicare-coverage-for-blood-pressure-monitors", "medicare-coverage-for-my-children"],
+  slug: "medicare-coverage-for-my-children",
+  seo: {
+    title: "Can You Add Children or Dependents to Medicare?",
+    description: "Medicare won't cover dependents automatically, but children with ESRD, ALS, or a qualifying disability may get coverage on their own. See how it works.",
+    canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-my-children/",
+    ogImage: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg",
   },
+  title: "Medicare Coverage for My Children and Dependents",
+  subtitle: "Medicare is an individual program - you cannot add dependents to your coverage. However, children may qualify for Medicare in certain situations involving disability, ESRD, or ALS.",
+  category: "Medicare Coverage",
+  dateUpdated: "May 5, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
+  },
+  readTime: "7 min read",
+  quickAnswer: {
+    text: "No, you cannot add dependents or children to your Medicare coverage. Unlike employer health insurance, Medicare is an individual program, so each person must qualify on their own. Children may still qualify for their own Medicare coverage if they have End-Stage Renal Disease (ESRD), ALS, or a qualifying disability (generally after turning 18 and receiving SSDI for a required waiting period).",
+    badges: [
+      {
+        plan: "Original Medicare",
+        status: "partial",
+      },
+      {
+        plan: "Medicare Advantage",
+        status: "partial",
+      },
+      {
+        plan: "Medigap",
+        status: "not-covered",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Dependents on Your Medicare",
+      coverage: "Not Allowed",
+      icon: "shield",
+      notes: "Medicare is individual - dependents cannot be added to your plan",
+    },
+    {
+      planType: "Child with ESRD (any age)",
+      coverage: "May Qualify",
+      icon: "heart",
+      notes: "Child may qualify if parent has sufficient Social Security work credits",
+    },
+    {
+      planType: "Child with ALS (age 18+)",
+      coverage: "May Qualify",
+      icon: "heart",
+      notes: "Must first qualify for SSDI, which requires age 18+",
+    },
+    {
+      planType: "Disabled Adult Child (DAC)",
+      coverage: "May Qualify After 24 Months SSDI",
+      icon: "filetext",
+      notes: "Disability must have begun before age 22; qualifies for Medicare after 24 months of SSDI",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "Can You Add Dependents to Medicare?",
+      icon: "shield",
+      iconColor: "#1B2A4A",
+      coverageLabel: "Not Allowed",
+      coverageType: "not-covered",
+      paragraphs: [
+      "You cannot add dependents - such as your children or spouse - to your Medicare coverage. Medicare is a federal health insurance program for individuals, not families. For your dependents to receive Medicare, they must be individually eligible based on their own age, disability status, or qualifying condition.",
+      "If you have dependents covered under your employer group health plan and you are switching to Medicare, your dependents will need to find other healthcare coverage. Options include CHIP (Children's Health Insurance Program), Medicaid, or a marketplace plan through [Healthcare.gov](https://www.healthcare.gov/).",
+    ],
+    },
+    {
+      planName: "When Can a Child Qualify for Medicare?",
+      icon: "heart",
+      iconColor: "#059669",
+      coverageLabel: "Specific Conditions Only",
+      coverageType: "partial",
+      paragraphs: [
+      "Though Medicare is generally a program for people 65 and older, children can qualify in specific situations. A child of any age can qualify for Medicare if they are diagnosed with [End-Stage Renal Disease (ESRD)](/faqs/does-medicare-cover-end-stage-renal-disease), provided the parent has earned at least 6 Social Security credits in the last 3 years and the child needs regular dialysis or has had a kidney transplant.",
+      "Children with ALS can qualify for Medicare, but only once they turn 18 - because they must first qualify for SSDI, which is only available to adults. If your child has a disability and your household has limited income, they may qualify for Supplemental Security Income (SSI) now, and potentially SSDI and Medicare once they turn 18.",
+    ],
+    },
+    {
+      planName: "Disabled Adult Children (DAC)",
+      icon: "users",
+      iconColor: "#7C3AED",
+      coverageLabel: "Eligible After 24 Months of SSDI",
+      coverageType: "partial",
+      paragraphs: [
+      "A Disabled Adult Child (DAC) is someone 18 or older whose qualifying disability began before age 22. These individuals can qualify for SSDI benefits based on a parent's Social Security earnings record - meaning the child doesn't need to have worked to receive benefits. A DAC can be a biological child, adopted child, stepchild, grandchild, or step-grandchild.",
+      "Once a DAC receives SSDI benefits for 24 months, they qualify for Medicare coverage. The exception is ALS - individuals with ALS qualify for Medicare immediately upon receiving SSDI. Note that DAC benefits typically end if the individual gets married; contact the Social Security Administration at 1-800-772-1213 for specific questions.",
+    ],
+    },
+  ],
+  costTable: {
+    title: "Medicare Eligibility for Children: Quick Reference",
+    headers: [
+    "Situation",
+    "Eligible?",
+    "Age Requirement",
+    "Key Condition",
+  ],
+    rows: [
+      {
+        "Situation": "Child as dependent on parent's Medicare",
+        "Eligible?": "No",
+        "Age Requirement": "Any age",
+        "Key Condition": "Not permitted - Medicare is individual",
+      },
+      {
+        "Situation": "Child with ESRD",
+        "Eligible?": "Yes",
+        "Age Requirement": "Any age",
+        "Key Condition": "Parent must have sufficient SS work credits",
+      },
+      {
+        "Situation": "Child with ALS",
+        "Eligible?": "Yes (at 18+)",
+        "Age Requirement": "Must be 18+",
+        "Key Condition": "Must qualify for SSDI first",
+      },
+      {
+        "Situation": "Disabled Adult Child (DAC)",
+        "Eligible?": "Yes (after 24 months SSDI)",
+        "Age Requirement": "Must be 18+",
+        "Key Condition": "Disability began before age 22",
+      },
+      {
+        "Situation": "Child receiving auxiliary SSDI benefits",
+        "Eligible?": "No",
+        "Age Requirement": "Any age",
+        "Key Condition": "Auxiliary benefits don't count as SSDI",
+      },
+    ],
+    footnote: "ESRD coverage ends 12 months after the last month of dialysis, or 36 months after a kidney transplant, unless the child qualifies for Medicare for another reason.",
+  },
+  exceptionsSection: {
+    title: "Alternative Coverage Options for Children",
+    items: [
+      {
+        title: "CHIP (Children's Health Insurance Program)",
+        text: "CHIP provides low-cost health coverage to children in families that earn too much to qualify for Medicaid but can't afford private insurance. Coverage varies by state. Visit Healthcare.gov to learn about CHIP options in your area.",
+      },
+      {
+        title: "Medicaid",
+        text: "If your household has limited income, your children may qualify for Medicaid coverage. Medicaid eligibility and benefits vary by state. If you are qualifying for Medicare due to a disability, your dependents may be able to get Medicaid coverage.",
+      },
+      {
+        title: "Medicare Advantage Special Needs Plans (SNP)",
+        text: "If your child qualifies for Medicare due to ESRD or disability, they may be eligible for a Medicare Advantage Special Needs Plan designed for individuals with specific chronic conditions, which can provide enhanced benefits.",
+      },
+    ],
+  },
+  faqs: [
+    {
+      question: "Can I Add My Child to My Medicare Plan?",
+      answer: "No. Medicare is an individual program - you cannot add dependents to your coverage. Your child must qualify for Medicare on their own based on age, disability, ESRD, or ALS.",
+    },
+    {
+      question: "Can a Child Get Medicare Due to a Disability?",
+      answer: "Children under 18 cannot qualify for Medicare based on disability alone. However, once they turn 18, they may qualify for SSDI based on their own disability or as a Disabled Adult Child (DAC) based on a parent's work record. After 24 months of SSDI, they qualify for Medicare.",
+    },
+    {
+      question: "What is a Disabled Adult Child (DAC)?",
+      answer: "A Disabled Adult Child is someone 18 or older whose qualifying disability began before age 22. They can receive SSDI benefits based on a parent's Social Security record, and after 24 months of SSDI, they qualify for Medicare. The parent must be receiving Social Security retirement or disability benefits, or have died with sufficient work credits.",
+    },
+    {
+      question: "Does My Child Lose Medicare if They Get a Job?",
+      answer: "Not immediately. Your child will have a 9-month trial work period during which they receive full SSDI benefits regardless of earnings. If they continue working after the trial period, Medicare coverage continues for 93 months (over 7 years). After that, they may need to purchase Medicare Part A by paying a monthly premium.",
+    },
+    {
+      question: "What happens to my child's ESRD Medicare coverage if they recover?",
+      answer: "ESRD-based Medicare coverage ends 12 months after the last month of dialysis treatment, or 36 months after a kidney transplant, unless the child qualifies for Medicare for another reason (such as disability or age).",
+    },
+    {
+      question: "What coverage options exist for children who don't qualify for Medicare?",
+      answer: "Children who don't qualify for Medicare may be eligible for CHIP (Children's Health Insurance Program), Medicaid, or coverage through a parent's employer group health plan. Visit Healthcare.gov to explore options in your state.",
+    },
+    {
+      question: "How Do I Enroll My Child in Medicare Once They Qualify?",
+      answer: "If your child qualifies for Medicare due to ESRD, ALS, or a disability, enrollment typically happens through the Social Security Administration rather than through your own Medicare plan. In most case",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "x",
+      text: "You <strong>cannot add dependents</strong> to your Medicare coverage",
+    },
+    {
+      icon: "check",
+      text: "Children with <strong>ESRD</strong> may qualify for Medicare at any age",
+    },
+    {
+      icon: "check",
+      text: "Children with <strong>ALS</strong> may qualify for Medicare at age 18+ after receiving SSDI",
+    },
+    {
+      icon: "check",
+      text: "<strong>Disabled Adult Children</strong> (DAC) qualify for Medicare after 24 months of SSDI",
+    },
+    {
+      icon: "info",
+      text: "Auxiliary SSDI benefits paid to your child <strong>do not</strong> qualify them for Medicare",
+    },
+    {
+      icon: "info",
+      text: "<strong>CHIP and Medicaid</strong> are the primary coverage options for children who don't qualify for Medicare",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Does Medicare Cover End-Stage Renal Disease?",
+      description: "Learn about Medicare's comprehensive ESRD coverage, including dialysis and kidney transplants.",
+      slug: "does-medicare-cover-end-stage-renal-disease",
+    },
+    {
+      title: "Medicare Coverage for In-Home Caregivers",
+      description: "Find out what home care services Medicare covers for beneficiaries.",
+      slug: "medicare-coverage-for-in-home-caregivers",
+    },
+    {
+      title: "Does Medicare Cover Amyotrophic Lateral Sclerosis (ALS)?",
+      description: "Learn about Medicare's special rules for ALS patients.",
+      slug: "medicare-coverage-for-amyotrophic-lateral-sclerosis-als",
+    },
+    {
+      title: "What Dental Services are Covered by Medicare?",
+      description: "Learn what dental expenses Medicare covers and how to get dental coverage.",
+      slug: "what-dental-expenses-does-medicare-cover",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "Does Medicare Cover End-Stage Renal Disease",
+    "Medicare Coverage for In-Home Caregivers",
+    "Medicare Coverage for ALS",
+    "What Dental Services Are Covered by Medicare",
+  ],
+  ctaBanner: {
+    title: "Questions about Medicare Eligibility?",
+    text: "Our licensed Medicare agents can help you understand eligibility rules for yourself and your family members, and find the right coverage options for your situation.",
+  },
+  relatedSlugs: [
+    "does-medicare-cover-end-stage-renal-disease",
+    "medicare-coverage-for-in-home-caregivers",
+    "medicare-coverage-for-amyotrophic-lateral-sclerosis-als",
+    "what-dental-expenses-does-medicare-cover",
+    "do-disposable-adult-diaper-manufacturers-have-assistance-programs-for-free-or-reduced-cost-depends",
+    "home-safety-assessment-for-the-elderly",
+    "medicare-coverage-for-blood-pressure-monitors",
+    "medicare-coverage-for-my-children",
+  ],
+},
   {
   slug: "medicare-coverage-for-mammograms",
   seo: {
