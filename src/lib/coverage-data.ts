@@ -13399,195 +13399,320 @@ export const coverageArticles: CoverageArticleData[] = [
 // Format: CoverageArticleData (correct format matching article-types.ts)
 
   {
-    slug: "medicare-coverage-for-skilled-nursing-facilities",
-    seo: {
-      title: "Medicare Coverage for Skilled Nursing Facilities",
-      description: "Medicare covers up to 100 days in a skilled nursing facility per benefit period. Learn the eligibility rules, daily costs, and how Medigap can cover your share.",
-      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-skilled-nursing-facilities/",
-      ogImage: "/images/medicarefaq-cover.jpg",
-    },
+  slug: "medicare-coverage-for-skilled-nursing-facilities",
+  seo: {
     title: "Medicare Coverage for Skilled Nursing Facilities",
-    subtitle: "Medicare Part A covers up to 100 days in a skilled nursing facility per benefit period - but only after a qualifying 3-day hospital stay. Learn the eligibility rules, daily costs, and how Medigap can eliminate your out-of-pocket expenses.",
-    category: "Medicare Coverage",
-    dateUpdated: "April 14, 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
-    },
-    readTime: "7 min read",
-    quickAnswer: {
-      text: "Medicare Part A covers up to 100 days in a skilled nursing facility (SNF) per benefit period - but only after a qualifying 3-day inpatient hospital stay. Days 1–20 are fully covered. Days 21–100 require a daily coinsurance payment ($217 in 2026). After day 100, Medicare pays nothing. A [Medigap plan](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) can cover the daily coinsurance and extend your financial protection.",
-      badges: [
-        { plan: "Part A", status: "covered" },
-        { plan: "Part B", status: "partial" },
-        { plan: "Medicare Advantage", status: "partial" },
-        { plan: "Medigap", status: "covered" }],
-    },
-    comparisonTable: [
-      { planType: "Original Medicare (Part A)", coverage: "Covered - up to 100 days/benefit period", icon: "shield", notes: "Days 1–20 free; days 21–100 cost $217/day (2024); nothing after day 100" },
-      { planType: "Medicare Part B", coverage: "Partial - outpatient therapy only", icon: "activity", notes: "Covers outpatient physical, occupational, and speech therapy after SNF discharge" },
-      { planType: "Medicare Advantage", coverage: "Covered - varies by plan", icon: "heart", notes: "Must match Original Medicare minimum; prior authorization almost always required" },
-      { planType: "Medigap (Plan G/N)", coverage: "Covered - cost-sharing", icon: "users", notes: "Covers Part A coinsurance for days 21–100; reduces your cost to $0 with Plan G" }],
-    planBreakdowns: [
-      {
-        planName: "Original Medicare (Part A)",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Covered",
-        coverageType: "covered",
-        statusBadge: "Covered - up to 100 days per benefit period",
-        paragraphs: [
-          "[Medicare Part A](/original-medicare/medicare-parts/medicare-part-a/) is the primary payer for skilled nursing facility care. To qualify, you must have had a qualifying inpatient hospital stay of at least 3 consecutive days (not counting the discharge day). The SNF admission must occur within 30 days of your hospital discharge.",
-          "Days 1–20 are covered at 100% - you pay nothing. Days 21–100 require a daily coinsurance of $217 in 2026. After day 100, Medicare pays nothing and you are responsible for the full daily rate, which can exceed $300–$500 per day at many facilities.",
-          "Each benefit period resets when you have been out of a hospital or SNF for 60 consecutive days, meaning you can receive another 100-day benefit if you are re-hospitalized."],
-        whatItCovers: [
-          "Semi-private room and board",
-          "Skilled nursing care (wound care, IV therapy, injections)",
-          "Physical, occupational, and speech therapy",
-          "Medical social services",
-          "Medications, medical supplies, and equipment used in the facility",
-          "Dietary counseling"],
-        whatItDoesntCover: [
-          "Custodial care only (bathing, dressing, eating - with no skilled care)",
-          "Private room (unless medically necessary)",
-          "Personal items (TV, phone, toiletries)",
-          "Care in a non-Medicare-certified facility"],
-        callout: {
-          type: "warning",
-          title: "Observation Status Does not Count",
-          text: "The 3-day hospital stay rule is strict - observation status does not count. Always confirm with your hospital that you are admitted as an inpatient, not under observation.",
-        },
-        costNote: "2024 SNF coinsurance: $0/day (Days 1–20), $217/day (Days 21–100), 100% out-of-pocket (Day 101+).",
-      },
-      {
-        planName: "Medicare Advantage",
-        icon: "heart",
-        iconColor: "#059669",
-        coverageLabel: "Covered - varies by plan",
-        coverageType: "partial",
-        statusBadge: "Covered - prior authorization required",
-        paragraphs: [
-          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) must cover the same SNF benefits as Original Medicare, but the cost-sharing structure can differ significantly. Some plans offer lower daily coinsurance for days 21–100, while others may extend SNF coverage beyond 100 days.",
-          "Most Advantage plans require prior authorization for SNF admission. Without prior authorization, your claim may be denied. Always contact your plan before or immediately after a SNF admission.",
-          "Network restrictions may also apply - you may need to use an in-network SNF to receive full benefits. Out-of-network SNF care may result in higher costs or no coverage at all."],
-        callout: {
-          type: "warning",
-          title: "Always Get Prior Authorization",
-          text: "Always verify prior authorization requirements with your Medicare Advantage plan before or immediately after a SNF admission. Failure to do so can result in claim denial.",
-        },
-        costNote: "Costs vary by plan. Review your plan's Evidence of Coverage (EOC) for exact SNF cost-sharing details.",
-      },
-      {
-        planName: "Medigap (Medicare Supplement)",
-        icon: "users",
-        iconColor: "#7C3AED",
-        coverageLabel: "Covers Part A coinsurance",
-        coverageType: "covered",
-        statusBadge: "Covers days 21–100 coinsurance with Plan G",
-        paragraphs: [
-          "A [Medigap Plan G](/medicare-supplement-plans/plan-g/) or Plan N will cover the daily coinsurance for SNF days 21–100, reducing your out-of-pocket cost to $0 for those days. This can save you over $16,760 if you use the full 80 days of coinsurance coverage.",
-          "Medigap does not extend the 100-day benefit period - after day 100, you are still responsible for all costs. However, for most SNF stays, the 100-day benefit is sufficient.",
-          "If you are enrolled in a Medicare Advantage plan, you cannot use a Medigap policy. Medigap only works alongside Original Medicare (Parts A and B)."],
-        whatItCovers: [
-          "Part A coinsurance for SNF days 21–100 ($0/day with Plan G)",
-          "Part A deductible (covered by Plan G)",
-          "Excess charges (covered by Plan G)"],
-        whatItDoesntCover: [
-          "SNF care beyond day 100",
-          "Custodial care not covered by Medicare"],
-        costNote: "With Plan G: $0 for SNF days 1–100 (after Part A deductible). Without Medigap: up to $16,760 in coinsurance for days 21–100.",
-      }],
-    costTable: {
-      title: "SNF Daily Cost Breakdown (2024)",
-      headers: ["Days in SNF", "Medicare Pays", "You Pay (No Supplement)", "You Pay (With Plan G)"],
-      rows: [
-        { "Days in SNF": "Days 1–20", "Medicare Pays": "100%", "You Pay (No Supplement)": "$0", "You Pay (With Plan G)": "$0" },
-        { "Days in SNF": "Days 21–100", "Medicare Pays": "All but $217/day", "You Pay (No Supplement)": "$217/day", "You Pay (With Plan G)": "$0" },
-        { "Days in SNF": "Day 101+", "Medicare Pays": "$0", "You Pay (No Supplement)": "Full daily rate", "You Pay (With Plan G)": "Full daily rate" },
-        { "Days in SNF": "Max 80-day coinsurance exposure", "Medicare Pays": "-", "You Pay (No Supplement)": "Up to $16,760", "You Pay (With Plan G)": "$0" }],
-      footnote: "2026 figures. The Part A deductible ($1,736 in 2026) applies to the qualifying hospital stay, not the SNF stay itself.",
-    },
-    exceptionsSection: {
-      title: "When Medicare Won't Cover SNF Care",
-      items: [
-        {
-          title: "Custodial Care Only",
-          text: "Medicare does not cover custodial care - help with activities of daily living (bathing, dressing, eating) when no skilled nursing or therapy services are needed. If you only need custodial care, Medicare will not pay, even if you are in a SNF.",
-        },
-        {
-          title: "No Qualifying Hospital Stay",
-          text: "If you were not admitted as an inpatient for at least 3 consecutive days before your SNF admission, Medicare will not cover the SNF stay. Observation status days do not count toward the 3-day requirement.",
-        },
-        {
-          title: "SNF not Medicare-Certified",
-          text: "The skilled nursing facility must be Medicare-certified for Medicare to pay. Always confirm the facility's certification status before admission.",
-        },
-        {
-          title: "Improvement No Longer Expected",
-          text: "Medicare covers SNF care as long as you need skilled services and are making progress. If your condition plateaus and no further improvement is expected, Medicare may stop covering the stay - even before day 100.",
-        }],
-    },
-    faqs: [
-      {
-        question: "Does Medicare Cover 100% of Skilled Nursing Facility Costs?",
-        answer: "Medicare covers 100% of SNF costs for the first 20 days. Days 21–100 require a daily coinsurance ($217 in 2026). After day 100, Medicare pays nothing. A [Medigap Plan G](/medicare-supplement-plans/plan-g/) can cover the daily coinsurance for days 21–100.",
-      },
-      {
-        question: "What is the 3-day Hospital Stay Rule for SNF Coverage?",
-        answer: "To qualify for Medicare SNF coverage, you must have been admitted as an inpatient at a hospital for at least 3 consecutive days (not counting the discharge day). Observation status does not count. The SNF admission must occur within 30 days of hospital discharge.",
-      },
-      {
-        question: "Does Medicare Cover Long-term Care in a Nursing Home?",
-        answer: "No. Medicare does not cover long-term custodial care in a nursing home. Medicare only covers skilled nursing care - services like wound care, IV therapy, or physical therapy provided by licensed professionals. For long-term care, you would need Medicaid or a long-term care insurance policy.",
-      },
-      {
-        question: "How Does a Medicare Benefit Period Work for SNF Care?",
-        answer: "A benefit period begins the day you are admitted to a hospital or SNF and ends when you have been out of a hospital or SNF for 60 consecutive days. Each new benefit period gives you a fresh 100-day SNF benefit, but you must have a new qualifying 3-day hospital stay.",
-      },
-      {
-        question: "Can Medicare Advantage Cover More than 100 Days in a SNF?",
-        answer: "Some Medicare Advantage plans do offer extended SNF benefits beyond 100 days. Review your plan's Evidence of Coverage or call your plan to confirm. Prior authorization is typically required.",
-      },
-      {
-        question: "What is the Difference between a SNF and a Nursing Home?",
-        answer: "A skilled nursing facility (SNF) provides short-term, medically necessary skilled care after a hospital stay. A nursing home provides long-term custodial care. Medicare covers SNF care; it does not cover long-term nursing home care.",
-      },
-      {
-        question: "Does Medicare Cover Physical Therapy in a SNF?",
-        answer: "Yes. Physical therapy, occupational therapy, and speech-language pathology services provided in a SNF are covered under Part A during the benefit period. Outpatient therapy after discharge is covered under [Medicare Part B](/faqs/medicare-coverage-for-physical-therapy).",
-      }],
-    quickReference: [
-      { icon: "check", text: "<strong>Part A</strong> covers SNF days 1–20 at 100% after a qualifying 3-day hospital stay" },
-      { icon: "dollar", text: "Days 21–100: <strong>$217/day</strong> coinsurance in 2024" },
-      { icon: "x", text: "No Medicare coverage after day 100" },
-      { icon: "alert", text: "Observation status does <strong>not</strong> count toward the 3-day hospital requirement" },
-      { icon: "check", text: "Medigap Plan G covers the full days 21–100 coinsurance" },
-      { icon: "info", text: "Benefit period resets after 60 consecutive days out of a hospital or SNF" }],
-    relatedTopics: [
-      { title: "Medicare Coverage for Physical Therapy", description: "Learn how Medicare covers inpatient and outpatient physical therapy services.", slug: "medicare-coverage-for-physical-therapy" },
-      { title: "Does Medicare Cover Hospice?", description: "Understand Medicare's hospice benefit and how it differs from SNF care.", slug: "does-medicare-cover-hospice" },
-      { title: "Medicare Supplement Plan G", description: "See how Plan G covers SNF coinsurance and other Medicare cost-sharing.", slug: "plan-g" },
-      { title: "What Does Medicare Part a Cover?", description: "Explore the full scope of Medicare Part A hospital and SNF benefits.", slug: "what-does-medicare-part-a-cover" }],
-    sidebarRelatedLinks: [
-      "What Does Medicare Part A Cover",
-      "Medicare Supplement Plan G",
-      "Medicare Coverage for Physical Therapy",
-      "Does Medicare Cover Hospice"],
-    ctaBanner: {
-      title: "Worried about Skilled Nursing Facility Costs?",
-      text: "A Medigap Plan G can eliminate your skilled nursing facility coinsurance for days 21–100, saving you up to $16,760 per benefit period. Compare plans in your area today.",
-    },
-    relatedSlugs: ["does-medicare-cover-hospice", "medicare-coverage-for-physical-therapy", "plan-g", "what-does-medicare-part-a-cover", "does-medicare-cover-knee-replacement", "medicare-coverage-for-skilled-nursing-facilities", "medicare-8-minute-rule", "medicare-coverage-for-lower-back-pain-management", "does-medicare-cover-hormone-therapy-for-menopause", "medicare-coverage-for-blood-pressure-monitors", "medicare-coverage-for-oxygen-therapy", "medicare-part-d-penalty", "what-is-medicare-part-d"],
+    description: "See how many days Medicare pays for skilled nursing care, what triggers coverage, and how a Medigap plan can erase your daily coinsurance costs.",
+    canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-skilled-nursing-facilities/",
+    ogImage: "/images/medicarefaq-cover.jpg",
   },
+  title: "Medicare Coverage for Skilled Nursing Facilities",
+  subtitle: "Medicare Part A covers up to 100 days in a skilled nursing facility per benefit period - but only after a qualifying 3-day hospital stay. Learn the eligibility rules, daily costs, and how Medigap can eliminate your out-of-pocket expenses.",
+  category: "Medicare Coverage",
+  dateUpdated: "April 14, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+  },
+  readTime: "7 min read",
+  quickAnswer: {
+    text: "Medicare Part A covers up to 100 days in a skilled nursing facility (SNF) per benefit period, but only after a qualifying 3-day inpatient hospital stay. Days 1-20 are fully covered. Days 21-100 require a daily coinsurance payment (cite the current amount). After day 100, Medicare pays nothing until a new benefit period begins. A [Medigap plan](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) can cover the daily coinsurance and extend your financial protection.",
+    badges: [
+      {
+        plan: "Part A",
+        status: "covered",
+      },
+      {
+        plan: "Part B",
+        status: "partial",
+      },
+      {
+        plan: "Medicare Advantage",
+        status: "partial",
+      },
+      {
+        plan: "Medigap",
+        status: "covered",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Original Medicare (Part A)",
+      coverage: "Covered - up to 100 days/benefit period",
+      icon: "shield",
+      notes: "Days 1–20 free; days 21–100 cost $217/day (2024); nothing after day 100",
+    },
+    {
+      planType: "Medicare Part B",
+      coverage: "Partial - outpatient therapy only",
+      icon: "activity",
+      notes: "Covers outpatient physical, occupational, and speech therapy after SNF discharge",
+    },
+    {
+      planType: "Medicare Advantage",
+      coverage: "Covered - varies by plan",
+      icon: "heart",
+      notes: "Must match Original Medicare minimum; prior authorization almost always required",
+    },
+    {
+      planType: "Medigap (Plan G/N)",
+      coverage: "Covered - cost-sharing",
+      icon: "users",
+      notes: "Covers Part A coinsurance for days 21–100; reduces your cost to $0 with Plan G",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "Original Medicare (Part A)",
+      icon: "shield",
+      iconColor: "#1B2A4A",
+      coverageLabel: "Covered",
+      coverageType: "covered",
+      statusBadge: "Covered - up to 100 days per benefit period",
+      paragraphs: [
+      "[Medicare Part A](/original-medicare/medicare-parts/medicare-part-a/) is the primary payer for skilled nursing facility care. To qualify, you must have had a qualifying inpatient hospital stay of at least 3 consecutive days (not counting the discharge day). The SNF admission must occur within 30 days of your hospital discharge.",
+      "Days 1–20 are covered at 100% - you pay nothing. Days 21–100 require a daily coinsurance of $217 in 2026. After day 100, Medicare pays nothing and you are responsible for the full daily rate, which can exceed $300–$500 per day at many facilities.",
+      "Each benefit period resets when you have been out of a hospital or SNF for 60 consecutive days, meaning you can receive another 100-day benefit if you are re-hospitalized.",
+    ],
+      whatItCovers: [
+      "Semi-private room and board",
+      "Skilled nursing care (wound care, IV therapy, injections)",
+      "Physical, occupational, and speech therapy",
+      "Medical social services",
+      "Medications, medical supplies, and equipment used in the facility",
+      "Dietary counseling",
+    ],
+      whatItDoesntCover: [
+      "Custodial care only (bathing, dressing, eating - with no skilled care)",
+      "Private room (unless medically necessary)",
+      "Personal items (TV, phone, toiletries)",
+      "Care in a non-Medicare-certified facility",
+    ],
+      callout: {
+      type: "warning",
+      title: "Observation Status Does not Count",
+      text: "The 3-day hospital stay rule is strict - observation status does not count. Always confirm with your hospital that you are admitted as an inpatient, not under observation.",
+    },
+      costNote: "2024 SNF coinsurance: $0/day (Days 1–20), $217/day (Days 21–100), 100% out-of-pocket (Day 101+).",
+    },
+    {
+      planName: "Medicare Advantage",
+      icon: "heart",
+      iconColor: "#059669",
+      coverageLabel: "Covered - varies by plan",
+      coverageType: "partial",
+      statusBadge: "Covered - prior authorization required",
+      paragraphs: [
+      "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) must cover the same SNF benefits as Original Medicare, but the cost-sharing structure can differ significantly. Some plans offer lower daily coinsurance for days 21–100, while others may extend SNF coverage beyond 100 days.",
+      "Most Advantage plans require prior authorization for SNF admission. Without prior authorization, your claim may be denied. Always contact your plan before or immediately after a SNF admission.",
+      "Network restrictions may also apply - you may need to use an in-network SNF to receive full benefits. Out-of-network SNF care may result in higher costs or no coverage at all.",
+    ],
+      callout: {
+      type: "warning",
+      title: "Always Get Prior Authorization",
+      text: "Always verify prior authorization requirements with your Medicare Advantage plan before or immediately after a SNF admission. Failure to do so can result in claim denial.",
+    },
+      costNote: "Costs vary by plan. Review your plan's Evidence of Coverage (EOC) for exact SNF cost-sharing details.",
+    },
+    {
+      planName: "Medigap (Medicare Supplement)",
+      icon: "users",
+      iconColor: "#7C3AED",
+      coverageLabel: "Covers Part A coinsurance",
+      coverageType: "covered",
+      statusBadge: "Covers days 21–100 coinsurance with Plan G",
+      paragraphs: [
+      "A [Medigap Plan G](/medicare-supplement-plans/plan-g/) or Plan N will cover the daily coinsurance for SNF days 21–100, reducing your out-of-pocket cost to $0 for those days. This can save you over $16,760 if you use the full 80 days of coinsurance coverage.",
+      "Medigap does not extend the 100-day benefit period - after day 100, you are still responsible for all costs. However, for most SNF stays, the 100-day benefit is sufficient.",
+      "If you are enrolled in a Medicare Advantage plan, you cannot use a Medigap policy. Medigap only works alongside Original Medicare (Parts A and B).",
+    ],
+      whatItCovers: [
+      "Part A coinsurance for SNF days 21–100 ($0/day with Plan G)",
+      "Part A deductible (covered by Plan G)",
+      "Excess charges (covered by Plan G)",
+    ],
+      whatItDoesntCover: [
+      "SNF care beyond day 100",
+      "Custodial care not covered by Medicare",
+    ],
+      costNote: "With Plan G: $0 for SNF days 1–100 (after Part A deductible). Without Medigap: up to $16,760 in coinsurance for days 21–100.",
+    },
+  ],
+  costTable: {
+    title: "SNF Daily Cost Breakdown (2024)",
+    headers: [
+    "Days in SNF",
+    "Medicare Pays",
+    "You Pay (No Supplement)",
+    "You Pay (With Plan G)",
+  ],
+    rows: [
+      {
+        "Days in SNF": "Days 1–20",
+        "Medicare Pays": "100%",
+        "You Pay (No Supplement)": "$0",
+        "You Pay (With Plan G)": "$0",
+      },
+      {
+        "Days in SNF": "Days 21–100",
+        "Medicare Pays": "All but $217/day",
+        "You Pay (No Supplement)": "$217/day",
+        "You Pay (With Plan G)": "$0",
+      },
+      {
+        "Days in SNF": "Day 101+",
+        "Medicare Pays": "$0",
+        "You Pay (No Supplement)": "Full daily rate",
+        "You Pay (With Plan G)": "Full daily rate",
+      },
+      {
+        "Days in SNF": "Max 80-day coinsurance exposure",
+        "Medicare Pays": "-",
+        "You Pay (No Supplement)": "Up to $16,760",
+        "You Pay (With Plan G)": "$0",
+      },
+    ],
+    footnote: "2026 figures. The Part A deductible ($1,736 in 2026) applies to the qualifying hospital stay, not the SNF stay itself.",
+  },
+  exceptionsSection: {
+    title: "When Medicare Won't Cover SNF Care",
+    items: [
+      {
+        title: "Custodial Care Only",
+        text: "Medicare does not cover custodial care - help with activities of daily living (bathing, dressing, eating) when no skilled nursing or therapy services are needed. If you only need custodial care, Medicare will not pay, even if you are in a SNF.",
+      },
+      {
+        title: "No Qualifying Hospital Stay",
+        text: "If you were not admitted as an inpatient for at least 3 consecutive days before your SNF admission, Medicare will not cover the SNF stay. Observation status days do not count toward the 3-day requirement.",
+      },
+      {
+        title: "SNF not Medicare-Certified",
+        text: "The skilled nursing facility must be Medicare-certified for Medicare to pay. Always confirm the facility's certification status before admission.",
+      },
+      {
+        title: "Improvement No Longer Expected",
+        text: "Medicare covers SNF care as long as you need skilled services and are making progress. If your condition plateaus and no further improvement is expected, Medicare may stop covering the stay - even before day 100.",
+      },
+    ],
+  },
+  faqs: [
+    {
+      question: "Does Medicare Cover 100% of Skilled Nursing Facility Costs?",
+      answer: "Medicare covers 100% of SNF costs for the first 20 days. Days 21–100 require a daily coinsurance ($217 in 2026). After day 100, Medicare pays nothing. A [Medigap Plan G](/medicare-supplement-plans/plan-g/) can cover the daily coinsurance for days 21–100.",
+    },
+    {
+      question: "What is the 3-day Hospital Stay Rule for SNF Coverage?",
+      answer: "To qualify for Medicare SNF coverage, you must have been admitted as an inpatient at a hospital for at least 3 consecutive days (not counting the discharge day). Observation status does not count. The SNF admission must occur within 30 days of hospital discharge.",
+    },
+    {
+      question: "Does Medicare Cover Long-term Care in a Nursing Home?",
+      answer: "No. Medicare does not cover long-term custodial care in a nursing home. Medicare only covers skilled nursing care - services like wound care, IV therapy, or physical therapy provided by licensed professionals. For long-term care, you would need Medicaid or a long-term care insurance policy.",
+    },
+    {
+      question: "How Does a Medicare Benefit Period Work for SNF Care?",
+      answer: "A benefit period begins the day you are admitted to a hospital or SNF and ends when you have been out of a hospital or SNF for 60 consecutive days. Each new benefit period gives you a fresh 100-day SNF benefit, but you must have a new qualifying 3-day hospital stay.",
+    },
+    {
+      question: "Can Medicare Advantage Cover More than 100 Days in a SNF?",
+      answer: "Some Medicare Advantage plans do offer extended SNF benefits beyond 100 days. Review your plan's Evidence of Coverage or call your plan to confirm. Prior authorization is typically required.",
+    },
+    {
+      question: "What is the Difference between a SNF and a Nursing Home?",
+      answer: "A skilled nursing facility (SNF) provides short-term, medically necessary skilled care after a hospital stay. A nursing home provides long-term custodial care. Medicare covers SNF care; it does not cover long-term nursing home care.",
+    },
+    {
+      question: "Does Medicare Cover Physical Therapy in a SNF?",
+      answer: "Yes. Physical therapy, occupational therapy, and speech-language pathology services provided in a SNF are covered under Part A during the benefit period. Outpatient therapy after discharge is covered under [Medicare Part B](/faqs/medicare-coverage-for-physical-therapy).",
+    },
+    {
+      question: "What Happens If I Need SNF Care Again After Using All 100 Days?",
+      answer: "If you use all 100 days of SNF coverage in a benefit period, Medicare will not pay for additional skilled nursing care until you start a new benefit period. A new benefit period begins after you have ",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "check",
+      text: "<strong>Part A</strong> covers SNF days 1–20 at 100% after a qualifying 3-day hospital stay",
+    },
+    {
+      icon: "dollar",
+      text: "Days 21–100: <strong>$217/day</strong> coinsurance in 2024",
+    },
+    {
+      icon: "x",
+      text: "No Medicare coverage after day 100",
+    },
+    {
+      icon: "alert",
+      text: "Observation status does <strong>not</strong> count toward the 3-day hospital requirement",
+    },
+    {
+      icon: "check",
+      text: "Medigap Plan G covers the full days 21–100 coinsurance",
+    },
+    {
+      icon: "info",
+      text: "Benefit period resets after 60 consecutive days out of a hospital or SNF",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Medicare Coverage for Physical Therapy",
+      description: "Learn how Medicare covers inpatient and outpatient physical therapy services.",
+      slug: "medicare-coverage-for-physical-therapy",
+    },
+    {
+      title: "Does Medicare Cover Hospice?",
+      description: "Understand Medicare's hospice benefit and how it differs from SNF care.",
+      slug: "does-medicare-cover-hospice",
+    },
+    {
+      title: "Medicare Supplement Plan G",
+      description: "See how Plan G covers SNF coinsurance and other Medicare cost-sharing.",
+      slug: "plan-g",
+    },
+    {
+      title: "What Does Medicare Part a Cover?",
+      description: "Explore the full scope of Medicare Part A hospital and SNF benefits.",
+      slug: "what-does-medicare-part-a-cover",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "What Does Medicare Part A Cover",
+    "Medicare Supplement Plan G",
+    "Medicare Coverage for Physical Therapy",
+    "Does Medicare Cover Hospice",
+  ],
+  ctaBanner: {
+    title: "Worried about Skilled Nursing Facility Costs?",
+    text: "A Medigap Plan G can eliminate your skilled nursing facility coinsurance for days 21–100, saving you up to $16,760 per benefit period. Compare plans in your area today.",
+  },
+  relatedSlugs: [
+    "does-medicare-cover-hospice",
+    "medicare-coverage-for-physical-therapy",
+    "plan-g",
+    "what-does-medicare-part-a-cover",
+    "does-medicare-cover-knee-replacement",
+    "medicare-coverage-for-skilled-nursing-facilities",
+    "medicare-8-minute-rule",
+    "medicare-coverage-for-lower-back-pain-management",
+    "does-medicare-cover-hormone-therapy-for-menopause",
+    "medicare-coverage-for-blood-pressure-monitors",
+    "medicare-coverage-for-oxygen-therapy",
+    "medicare-part-d-penalty",
+    "what-is-medicare-part-d",
+  ],
+},
 
   {
   slug: "medicare-coverage-for-stem-cell-treatments",
