@@ -26728,8 +26728,8 @@ export const coverageArticles: CoverageArticleData[] = [
   {
   slug: "medicare-low-income-subsidy",
   seo: {
-    title: "Medicare Low Income Subsidy (Extra Help): Eligibility & Benefits | MedicareFAQ",
-    description: "The Medicare Low Income Subsidy (LIS), also called Extra Help, reduces Part D drug costs for people with limited income. Learn eligibility, income limits, and how to apply.",
+    title: "Extra Help (LIS) for Medicare: Eligibility, Benefits & Savings | MedicareFAQ",
+    description: "Extra Help can cut your Part D premiums, deductibles, and copays. See if you qualify for the Low Income Subsidy and how to apply in just a few steps.",
     canonical: "https://www.medicarefaq.com/faqs/medicare-low-income-subsidy/",
     ogImage: "/images/medicarefaq-cover.jpg",
   },
@@ -26752,7 +26752,7 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   readTime: "6 min read",
   quickAnswer: {
-    text: "Extra Help (Low Income Subsidy) is a federal program that helps people with limited income and resources pay for Medicare Part D prescription drug costs, including premiums, deductibles, and copays. In 2026, individuals with monthly income up to $2,015 may qualify.",
+    text: "Extra Help (Low Income Subsidy) is a federal program that helps people with limited income and resources pay for Medicare Part D prescription drug costs, including premiums, deductibles, and copays. Eligibility is based on current income and resource limits set each year, and you can qualify automatically or apply through Social Security or Medicaid.",
     badges: [
       {
         plan: "Part D",
@@ -27008,6 +27008,10 @@ export const coverageArticles: CoverageArticleData[] = [
     {
       question: "What if My Income is Slightly Above the Limit?",
       answer: "You may still qualify for partial Extra Help, which provides reduced premiums and copays. Also check if your state has a State Pharmaceutical Assistance Program (SPAP) for additional help.",
+    },
+    {
+      question: "Will Extra Help Automatically Enroll Me in a Part D Plan?",
+      answer: "If you qualify for Extra Help but are not already enrolled in a Medicare Part D plan, Medicare may automatically enroll you in a benchmark plan with no premium or a low premium. You can always switch ",
     },
   ],
   quickReference: [
