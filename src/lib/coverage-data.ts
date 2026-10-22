@@ -18019,208 +18019,307 @@ export const coverageArticles: CoverageArticleData[] = [
 
   // ─── Medicare Coverage for Diabetic Shoes ──────────────────────────────────
   {
-    slug: "medicare-coverage-for-diabetic-shoes",
-    seo: {
-      title: "Does Medicare Cover Diabetic Shoes?",
-      description: "Medicare Part B covers diabetic shoes and inserts when medically necessary. Learn about eligibility requirements, the Therapeutic Shoe Bill, costs, and how to get your shoes covered.",
-      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-diabetic-shoes/",
-      ogImage: "/images/medicarefaq-cover.jpg",
-    },
+  slug: "medicare-coverage-for-diabetic-shoes",
+  seo: {
     title: "Does Medicare Cover Diabetic Shoes?",
-    subtitle: "Medicare Part B covers therapeutic shoes and inserts for beneficiaries with diabetes who meet specific eligibility requirements. Learn what's covered, how much you'll pay, and where to buy Medicare-approved diabetic shoes.",
-    category: "Medicare Coverage",
-    dateUpdated: "April 15, 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
-    },
-    readTime: "5 min read",
-    quickAnswer: {
-      text: "Yes, Medicare Part B covers therapeutic shoes and inserts for beneficiaries with diabetes who meet specific eligibility requirements. Medicare covers one pair of custom-molded shoes with inserts or one pair of extra-depth shoes per calendar year, plus additional inserts. Your doctor must verify the shoes are medically necessary, and you must use a Medicare-enrolled supplier. You pay 20% coinsurance after your Part B deductible.",
-      badges: [
-        { plan: "Medicare Part B", status: "covered" },
-        { plan: "Medicare Advantage", status: "covered" },
-        { plan: "Medigap", status: "partial" }],
-    },
-    comparisonTable: [
-      { planType: "Medicare Part B", coverage: "Covered", icon: "shield", notes: "Covers therapeutic shoes, inserts, and modifications when medically necessary for diabetes" },
-      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same benefits as Original Medicare; cost-sharing varies by plan" },
-      { planType: "Medicare Supplement (Medigap)", coverage: "Partial", icon: "users", notes: "Covers Part B coinsurance (20%) for diabetic shoes, reducing out-of-pocket costs" },
-      { planType: "Medicare Part D", coverage: "Not Applicable", icon: "filetext", notes: "Part D covers prescription drugs; shoes are covered under Part B" }],
-    planBreakdowns: [
-      {
-        planName: "Original Medicare (Part B)",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Covered",
-        coverageType: "covered",
-        statusBadge: "Covers therapeutic shoes and inserts for diabetic patients",
-        paragraphs: [
-          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) covers both the fitting and the footwear for therapeutic diabetic shoes. The Therapeutic Shoe Bill (TSB) provides Part B reimbursement for therapeutic shoes, inserts, and modifications for beneficiaries with diabetes who meet specific eligibility requirements. Coverage includes one pair of custom-molded shoes with inserts or one pair of extra-depth shoes per calendar year.",
-          "Medicare also covers inserts separately: two extra pairs of inserts per calendar year for custom-molded shoes, or three pairs of inserts per calendar year for extra-depth shoes - for a total of up to five pairs of inserts per year. Medicare can also cover modifications to your shoes in place of inserts.",
-          "To qualify, your doctor must verify that the shoes are [medically necessary](/faqs/what-does-medically-necessary-mean/). You must have diabetes and meet at least one additional condition: foot deformity, nerve damage caused by diabetes, [foot ulcers](/faqs/does-medicare-cover-wound-care), amputation of part or all of the foot, poor blood circulation, or a history of pre-ulcerative calluses. The doctor who treats your diabetes must certify your need, and a podiatrist or other qualified provider must prescribe the shoes."],
-        whatItCovers: [
-          "One pair of custom-molded shoes with inserts per calendar year",
-          "One pair of extra-depth shoes per calendar year",
-          "Two extra pairs of inserts per year (custom-molded shoes)",
-          "Three pairs of inserts per year (extra-depth shoes)",
-          "Shoe modifications in place of inserts",
-          "Professional fitting by a podiatrist or qualified provider"],
-        whatItDoesntCover: [
-          "Regular shoes or non-therapeutic footwear",
-          "Shoes from suppliers who do not accept Medicare assignment",
-          "More than one pair of therapeutic shoes per calendar year",
-          "Shoes for patients who do not meet the eligibility requirements"],
-        costNote: "You pay 20% coinsurance after the $283 annual Part B deductible (2026). Diabetic shoes typically cost $50–$200 per pair before Medicare's share.",
-      },
-      {
-        planName: "Medicare Advantage (Part C)",
-        icon: "heart",
-        iconColor: "#059669",
-        coverageLabel: "Covered",
-        coverageType: "covered",
-        statusBadge: "Covered - same benefits as Original Medicare",
-        paragraphs: [
-          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) must cover all services that Original Medicare covers, including therapeutic diabetic shoes and inserts. Since Medicare Part B covers diabetic shoes, Medicare Advantage plans will also cover them as long as you meet the same eligibility requirements.",
-          "However, Medicare Advantage plans use provider networks. You must verify that your podiatrist and shoe supplier are in-network before purchasing diabetic shoes. If your plan's network doesn't include your provider, you may not have coverage for the shoes or the fitting visit."],
-        whatItCovers: [
-          "All diabetic shoe benefits covered by Original Medicare",
-          "Some plans may offer additional foot care benefits"],
-        whatItDoesntCover: [
-          "Out-of-network providers or suppliers (unless your plan allows out-of-network benefits)",
-          "Shoes purchased without meeting eligibility requirements"],
-        callout: {
-          type: "warning",
-          title: "Verify Your Supplier is In-network",
-          text: "Medicare Advantage plans require you to use in-network providers and suppliers. Before purchasing diabetic shoes, confirm that both your podiatrist and the shoe supplier are in your plan's network to avoid paying the full cost out of pocket.",
-        },
-      },
-      {
-        planName: "Medicare Supplement (Medigap)",
-        icon: "users",
-        iconColor: "#7C3AED",
-        coverageLabel: "Covers Cost-Sharing",
-        coverageType: "partial",
-        statusBadge: "Covers Part B coinsurance for diabetic shoes",
-        paragraphs: [
-          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cover the out-of-pocket costs that Original Medicare leaves behind. For diabetic shoes covered under Part B, Medigap can cover the 20% coinsurance. With Medigap Plan G, your only cost for diabetic shoes is the annual $283 Part B deductible.",
-          "Medigap plans are a valuable asset for covering the extra costs of diabetic shoes and other diabetes-related supplies. Because Medigap covers the balance of what Medicare pays, your out-of-pocket expenses for therapeutic footwear can be minimal."],
-        whatItCovers: [
-          "Part B coinsurance (20%) for covered diabetic shoes and inserts",
-          "Part B coinsurance for podiatrist fitting visits"],
-        whatItDoesntCover: [
-          "Shoes or inserts not covered by Original Medicare",
-          "Non-therapeutic footwear"],
-        costNote: "With Medigap Plan G, your only cost for diabetic shoes is the $283 annual Part B deductible.",
-      }],
-    costTable: {
-      title: "Diabetic Shoe Costs under Medicare (2026)",
-      headers: ["Item", "Medicare Coverage", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
-      rows: [
-        {
-          "Item": "Custom-molded shoes with inserts (1 pair/year)",
-          "Medicare Coverage": "80% after deductible",
-          "Your Cost (No Supplement)": "20% + $283 deductible",
-          "Your Cost (With Plan G)": "$283 deductible only",
-        },
-        {
-          "Item": "Extra-depth shoes (1 pair/year)",
-          "Medicare Coverage": "80% after deductible",
-          "Your Cost (No Supplement)": "20% + $283 deductible",
-          "Your Cost (With Plan G)": "$283 deductible only",
-        },
-        {
-          "Item": "Inserts (up to 5 pairs/year)",
-          "Medicare Coverage": "80% after deductible",
-          "Your Cost (No Supplement)": "20% + $283 deductible",
-          "Your Cost (With Plan G)": "$283 deductible only",
-        },
-        {
-          "Item": "Shoe modifications (in place of inserts)",
-          "Medicare Coverage": "80% after deductible",
-          "Your Cost (No Supplement)": "20% + $283 deductible",
-          "Your Cost (With Plan G)": "$283 deductible only",
-        },
-        {
-          "Item": "Podiatrist fitting visit",
-          "Medicare Coverage": "80% after deductible",
-          "Your Cost (No Supplement)": "20% + $283 deductible",
-          "Your Cost (With Plan G)": "$283 deductible only",
-        }],
-      footnote: "Costs based on 2026 Medicare figures. Diabetic shoes typically cost $50–$200 per pair retail. Part B deductible: $283/year.",
-    },
-    exceptionsSection: {
-      title: "Eligibility Requirements for Diabetic Shoe Coverage",
-      items: [
-        {
-          title: "The Therapeutic Shoe Bill (TSB) Requirements",
-          text: "Congress passed the Therapeutic Shoe Bill to provide Part B reimbursement for therapeutic shoes, inserts, and modifications for Medicare beneficiaries with diabetes. To qualify under the TSB, you must have diabetes, documentation from a qualified physician, and at least one of the following conditions: amputation of all or part of either foot, foot deformity, poor blood circulation, history of ulcers, history of pre-ulcerative calluses, or diabetic neuropathy with evidence of callus formation.",
-          highlight: "Your diabetes doctor must certify your need for therapeutic shoes, and a podiatrist or other qualified provider must prescribe them. The supplier must accept Medicare assignment.",
-        },
-        {
-          title: "Where to Buy Medicare-Approved Diabetic Shoes",
-          text: "You can purchase diabetic shoes from your podiatrist, medical supply carriers, or online suppliers - but the supplier must accept Medicare assignment. If you purchase from a supplier who does not accept Medicare, Medicare will not cover any of the cost. Your healthcare provider can give you a list of local approved suppliers, or you can search for Medicare-enrolled suppliers on [Medicare.gov](https://www.medicare.gov/).",
-        }],
-    },
-    faqs: [
-      {
-        question: "Does Medicare Cover Shoes for Diabetic Neuropathy?",
-        answer: "Yes. Medicare can cover extra-depth shoes for diabetic neuropathy. You can get one pair of extra-depth shoes and three pairs of inserts per calendar year. You must meet the eligibility requirements and use a Medicare-enrolled supplier.",
-      },
-      {
-        question: "Can Nurse Practitioners Prescribe Diabetic Shoes?",
-        answer: "Yes. Nurse practitioners, physician assistants, nurse specialists, and podiatrists can prescribe diabetic shoes. The prescribing provider must provide proper documentation that the patient's feet have been thoroughly examined.",
-      },
-      {
-        question: "Are Diabetic Shoes Considered Durable Medical Equipment?",
-        answer: "Diabetic shoes fall under Medicare Part B benefits, similar to most durable medical equipment. They are covered as therapeutic shoes under the Therapeutic Shoe Bill, which provides Part B reimbursement for qualifying beneficiaries with diabetes.",
-      },
-      {
-        question: "How Much do Diabetic Shoes Cost with Medicare?",
-        answer: "Diabetic shoes typically cost $50–$200 per pair retail. With Medicare Part B, you pay 20% coinsurance after your annual $283 deductible (2026). With Medigap Plan G, your only cost is the $283 annual deductible. The exact amount depends on the type of shoe and your supplier's charges.",
-      },
-      {
-        question: "How Many Pairs of Diabetic Shoes Does Medicare Cover per Year?",
-        answer: "Medicare covers one pair of custom-molded shoes with inserts or one pair of extra-depth shoes per calendar year. Medicare also covers up to five pairs of inserts per year (two extra pairs for custom-molded shoes, three pairs for extra-depth shoes). Shoe modifications may be covered in place of inserts.",
-      },
-      {
-        question: "Does Medicare Advantage Cover Diabetic Shoes?",
-        answer: "Yes. Medicare Advantage plans must cover all services that Original Medicare covers, including therapeutic diabetic shoes and inserts. You must meet the same eligibility requirements and use an in-network supplier. Cost-sharing may vary by plan.",
-      }],
-    quickReference: [
-      { icon: "check", text: "<strong>Therapeutic diabetic shoes</strong> covered under Part B when medically necessary" },
-      { icon: "check", text: "<strong>One pair</strong> of custom-molded or extra-depth shoes per calendar year" },
-      { icon: "check", text: "<strong>Up to 5 pairs of inserts</strong> per calendar year" },
-      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> after $283 Part B deductible (2026)" },
-      { icon: "info", text: "<strong>Supplier must accept Medicare</strong> - non-participating suppliers will not be reimbursed" },
-      { icon: "info", text: "<strong>Medigap Plan G</strong> covers the 20% coinsurance for diabetic shoes" }],
-    relatedTopics: [
-      { title: "Does Medicare Cover Diabetes Supplies?", description: "Learn about Medicare's coverage for glucose monitors, test strips, and insulin.", slug: "medicare-diabetes" },
-      { title: "What is Durable Medical Equipment (DME)?", description: "Learn how Medicare defines and covers durable medical equipment.", slug: "durable-medical-equipment" },
-      { title: "Does Medicare Cover Podiatry?", description: "Learn about Medicare's coverage for podiatrist visits and foot care.", slug: "does-medicare-cover-chiropractic-care" },
-      { title: "Medicare Supplement Plan G", description: "Learn how Plan G can cover your Part B coinsurance for diabetic shoes.", slug: "plan-g" },
-    
-      { title: "Does Medicare Cover Diabetic Supplies?", description: "Find out which diabetic testing supplies, insulin, and equipment Medicare covers.", slug: "medicare-coverage-for-diabetic-shoes" }],
-    sidebarRelatedLinks: [
-      "Does Medicare Cover Diabetes Supplies",
-      "What Is Durable Medical Equipment",
-      "Does Medicare Cover Podiatry",
-      "Medicare Supplement Plan G"],
-    ctaBanner: {
-      title: "Need Help Covering Your Diabetic Shoe Costs?",
-      text: "Our licensed Medicare agents can help you find a Medigap or Medicare Advantage plan that minimizes your out-of-pocket costs for diabetic shoes and other diabetes supplies. Compare plans in your area for free.",
-    },
-    relatedSlugs: ["medicare-diabetes", "durable-medical-equipment", "does-medicare-cover-chiropractic-care", "plan-g", "medicare-coverage-for-diabetic-shoes"],
+    description: "Medicare Part B covers diabetic shoes and inserts when medically necessary. See eligibility rules, your out-of-pocket cost, and how to find an approved supplier.",
+    canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-diabetic-shoes/",
+    ogImage: "/images/medicarefaq-cover.jpg",
   },
+  title: "Does Medicare Cover Diabetic Shoes?",
+  subtitle: "Medicare Part B covers therapeutic shoes and inserts for beneficiaries with diabetes who meet specific eligibility requirements. Learn what's covered, how much you'll pay, and where to buy Medicare-approved diabetic shoes.",
+  category: "Medicare Coverage",
+  dateUpdated: "April 15, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+  },
+  readTime: "5 min read",
+  quickAnswer: {
+    text: "Yes, Medicare Part B covers therapeutic shoes and inserts for beneficiaries with diabetes who have a qualifying foot condition and meet other eligibility requirements. Medicare covers one pair of custom-molded shoes with inserts or one pair of extra-depth shoes per calendar year, plus additional inserts. Your doctor must document medical necessity and certify your treatment plan, and you must get your shoes from a Medicare-enrolled supplier. You pay 20% coinsurance after your Part B deductible.",
+    badges: [
+      {
+        plan: "Medicare Part B",
+        status: "covered",
+      },
+      {
+        plan: "Medicare Advantage",
+        status: "covered",
+      },
+      {
+        plan: "Medigap",
+        status: "partial",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Medicare Part B",
+      coverage: "Covered",
+      icon: "shield",
+      notes: "Covers therapeutic shoes, inserts, and modifications when medically necessary for diabetes",
+    },
+    {
+      planType: "Medicare Advantage (Part C)",
+      coverage: "Covered",
+      icon: "heart",
+      notes: "Must cover same benefits as Original Medicare; cost-sharing varies by plan",
+    },
+    {
+      planType: "Medicare Supplement (Medigap)",
+      coverage: "Partial",
+      icon: "users",
+      notes: "Covers Part B coinsurance (20%) for diabetic shoes, reducing out-of-pocket costs",
+    },
+    {
+      planType: "Medicare Part D",
+      coverage: "Not Applicable",
+      icon: "filetext",
+      notes: "Part D covers prescription drugs; shoes are covered under Part B",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "Original Medicare (Part B)",
+      icon: "shield",
+      iconColor: "#1B2A4A",
+      coverageLabel: "Covered",
+      coverageType: "covered",
+      statusBadge: "Covers therapeutic shoes and inserts for diabetic patients",
+      paragraphs: [
+      "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) covers both the fitting and the footwear for therapeutic diabetic shoes. The Therapeutic Shoe Bill (TSB) provides Part B reimbursement for therapeutic shoes, inserts, and modifications for beneficiaries with diabetes who meet specific eligibility requirements. Coverage includes one pair of custom-molded shoes with inserts or one pair of extra-depth shoes per calendar year.",
+      "Medicare also covers inserts separately: two extra pairs of inserts per calendar year for custom-molded shoes, or three pairs of inserts per calendar year for extra-depth shoes - for a total of up to five pairs of inserts per year. Medicare can also cover modifications to your shoes in place of inserts.",
+      "To qualify, your doctor must verify that the shoes are [medically necessary](/faqs/what-does-medically-necessary-mean/). You must have diabetes and meet at least one additional condition: foot deformity, nerve damage caused by diabetes, [foot ulcers](/faqs/does-medicare-cover-wound-care), amputation of part or all of the foot, poor blood circulation, or a history of pre-ulcerative calluses. The doctor who treats your diabetes must certify your need, and a podiatrist or other qualified provider must prescribe the shoes.",
+    ],
+      whatItCovers: [
+      "One pair of custom-molded shoes with inserts per calendar year",
+      "One pair of extra-depth shoes per calendar year",
+      "Two extra pairs of inserts per year (custom-molded shoes)",
+      "Three pairs of inserts per year (extra-depth shoes)",
+      "Shoe modifications in place of inserts",
+      "Professional fitting by a podiatrist or qualified provider",
+    ],
+      whatItDoesntCover: [
+      "Regular shoes or non-therapeutic footwear",
+      "Shoes from suppliers who do not accept Medicare assignment",
+      "More than one pair of therapeutic shoes per calendar year",
+      "Shoes for patients who do not meet the eligibility requirements",
+    ],
+      costNote: "You pay 20% coinsurance after the $283 annual Part B deductible (2026). Diabetic shoes typically cost $50–$200 per pair before Medicare's share.",
+    },
+    {
+      planName: "Medicare Advantage (Part C)",
+      icon: "heart",
+      iconColor: "#059669",
+      coverageLabel: "Covered",
+      coverageType: "covered",
+      statusBadge: "Covered - same benefits as Original Medicare",
+      paragraphs: [
+      "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) must cover all services that Original Medicare covers, including therapeutic diabetic shoes and inserts. Since Medicare Part B covers diabetic shoes, Medicare Advantage plans will also cover them as long as you meet the same eligibility requirements.",
+      "However, Medicare Advantage plans use provider networks. You must verify that your podiatrist and shoe supplier are in-network before purchasing diabetic shoes. If your plan's network doesn't include your provider, you may not have coverage for the shoes or the fitting visit.",
+    ],
+      whatItCovers: [
+      "All diabetic shoe benefits covered by Original Medicare",
+      "Some plans may offer additional foot care benefits",
+    ],
+      whatItDoesntCover: [
+      "Out-of-network providers or suppliers (unless your plan allows out-of-network benefits)",
+      "Shoes purchased without meeting eligibility requirements",
+    ],
+      callout: {
+      type: "warning",
+      title: "Verify Your Supplier is In-network",
+      text: "Medicare Advantage plans require you to use in-network providers and suppliers. Before purchasing diabetic shoes, confirm that both your podiatrist and the shoe supplier are in your plan's network to avoid paying the full cost out of pocket.",
+    },
+    },
+    {
+      planName: "Medicare Supplement (Medigap)",
+      icon: "users",
+      iconColor: "#7C3AED",
+      coverageLabel: "Covers Cost-Sharing",
+      coverageType: "partial",
+      statusBadge: "Covers Part B coinsurance for diabetic shoes",
+      paragraphs: [
+      "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cover the out-of-pocket costs that Original Medicare leaves behind. For diabetic shoes covered under Part B, Medigap can cover the 20% coinsurance. With Medigap Plan G, your only cost for diabetic shoes is the annual $283 Part B deductible.",
+      "Medigap plans are a valuable asset for covering the extra costs of diabetic shoes and other diabetes-related supplies. Because Medigap covers the balance of what Medicare pays, your out-of-pocket expenses for therapeutic footwear can be minimal.",
+    ],
+      whatItCovers: [
+      "Part B coinsurance (20%) for covered diabetic shoes and inserts",
+      "Part B coinsurance for podiatrist fitting visits",
+    ],
+      whatItDoesntCover: [
+      "Shoes or inserts not covered by Original Medicare",
+      "Non-therapeutic footwear",
+    ],
+      costNote: "With Medigap Plan G, your only cost for diabetic shoes is the $283 annual Part B deductible.",
+    },
+  ],
+  costTable: {
+    title: "Diabetic Shoe Costs under Medicare (2026)",
+    headers: [
+    "Item",
+    "Medicare Coverage",
+    "Your Cost (No Supplement)",
+    "Your Cost (With Plan G)",
+  ],
+    rows: [
+      {
+        "Item": "Custom-molded shoes with inserts (1 pair/year)",
+        "Medicare Coverage": "80% after deductible",
+        "Your Cost (No Supplement)": "20% + $283 deductible",
+        "Your Cost (With Plan G)": "$283 deductible only",
+      },
+      {
+        "Item": "Extra-depth shoes (1 pair/year)",
+        "Medicare Coverage": "80% after deductible",
+        "Your Cost (No Supplement)": "20% + $283 deductible",
+        "Your Cost (With Plan G)": "$283 deductible only",
+      },
+      {
+        "Item": "Inserts (up to 5 pairs/year)",
+        "Medicare Coverage": "80% after deductible",
+        "Your Cost (No Supplement)": "20% + $283 deductible",
+        "Your Cost (With Plan G)": "$283 deductible only",
+      },
+      {
+        "Item": "Shoe modifications (in place of inserts)",
+        "Medicare Coverage": "80% after deductible",
+        "Your Cost (No Supplement)": "20% + $283 deductible",
+        "Your Cost (With Plan G)": "$283 deductible only",
+      },
+      {
+        "Item": "Podiatrist fitting visit",
+        "Medicare Coverage": "80% after deductible",
+        "Your Cost (No Supplement)": "20% + $283 deductible",
+        "Your Cost (With Plan G)": "$283 deductible only",
+      },
+    ],
+    footnote: "Costs based on 2026 Medicare figures. Diabetic shoes typically cost $50–$200 per pair retail. Part B deductible: $283/year.",
+  },
+  exceptionsSection: {
+    title: "Eligibility Requirements for Diabetic Shoe Coverage",
+    items: [
+      {
+        title: "The Therapeutic Shoe Bill (TSB) Requirements",
+        text: "Congress passed the Therapeutic Shoe Bill to provide Part B reimbursement for therapeutic shoes, inserts, and modifications for Medicare beneficiaries with diabetes. To qualify under the TSB, you must have diabetes, documentation from a qualified physician, and at least one of the following conditions: amputation of all or part of either foot, foot deformity, poor blood circulation, history of ulcers, history of pre-ulcerative calluses, or diabetic neuropathy with evidence of callus formation.",
+        highlight: "Your diabetes doctor must certify your need for therapeutic shoes, and a podiatrist or other qualified provider must prescribe them. The supplier must accept Medicare assignment.",
+      },
+      {
+        title: "Where to Buy Medicare-Approved Diabetic Shoes",
+        text: "You can purchase diabetic shoes from your podiatrist, medical supply carriers, or online suppliers - but the supplier must accept Medicare assignment. If you purchase from a supplier who does not accept Medicare, Medicare will not cover any of the cost. Your healthcare provider can give you a list of local approved suppliers, or you can search for Medicare-enrolled suppliers on [Medicare.gov](https://www.medicare.gov/).",
+      },
+    ],
+  },
+  faqs: [
+    {
+      question: "Does Medicare Cover Shoes for Diabetic Neuropathy?",
+      answer: "Yes. Medicare can cover extra-depth shoes for diabetic neuropathy. You can get one pair of extra-depth shoes and three pairs of inserts per calendar year. You must meet the eligibility requirements and use a Medicare-enrolled supplier.",
+    },
+    {
+      question: "Can Nurse Practitioners Prescribe Diabetic Shoes?",
+      answer: "Yes. Nurse practitioners, physician assistants, nurse specialists, and podiatrists can prescribe diabetic shoes. The prescribing provider must provide proper documentation that the patient's feet have been thoroughly examined.",
+    },
+    {
+      question: "Are Diabetic Shoes Considered Durable Medical Equipment?",
+      answer: "Diabetic shoes fall under Medicare Part B benefits, similar to most durable medical equipment. They are covered as therapeutic shoes under the Therapeutic Shoe Bill, which provides Part B reimbursement for qualifying beneficiaries with diabetes.",
+    },
+    {
+      question: "How Much do Diabetic Shoes Cost with Medicare?",
+      answer: "Diabetic shoes typically cost $50–$200 per pair retail. With Medicare Part B, you pay 20% coinsurance after your annual $283 deductible (2026). With Medigap Plan G, your only cost is the $283 annual deductible. The exact amount depends on the type of shoe and your supplier's charges.",
+    },
+    {
+      question: "How Many Pairs of Diabetic Shoes Does Medicare Cover per Year?",
+      answer: "Medicare covers one pair of custom-molded shoes with inserts or one pair of extra-depth shoes per calendar year. Medicare also covers up to five pairs of inserts per year (two extra pairs for custom-molded shoes, three pairs for extra-depth shoes). Shoe modifications may be covered in place of inserts.",
+    },
+    {
+      question: "Does Medicare Advantage Cover Diabetic Shoes?",
+      answer: "Yes. Medicare Advantage plans must cover all services that Original Medicare covers, including therapeutic diabetic shoes and inserts. You must meet the same eligibility requirements and use an in-network supplier. Cost-sharing may vary by plan.",
+    },
+    {
+      question: "What Happens if My Diabetic Shoe Supplier Isn't Enrolled in Medicare?",
+      answer: "If your supplier isn't enrolled in Medicare, Medicare won't pay for any portion of your diabetic shoes or inserts, even if you otherwise qualify. Before you order, ask the supplier to confirm their Me",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "check",
+      text: "<strong>Therapeutic diabetic shoes</strong> covered under Part B when medically necessary",
+    },
+    {
+      icon: "check",
+      text: "<strong>One pair</strong> of custom-molded or extra-depth shoes per calendar year",
+    },
+    {
+      icon: "check",
+      text: "<strong>Up to 5 pairs of inserts</strong> per calendar year",
+    },
+    {
+      icon: "dollar",
+      text: "You pay <strong>20% coinsurance</strong> after $283 Part B deductible (2026)",
+    },
+    {
+      icon: "info",
+      text: "<strong>Supplier must accept Medicare</strong> - non-participating suppliers will not be reimbursed",
+    },
+    {
+      icon: "info",
+      text: "<strong>Medigap Plan G</strong> covers the 20% coinsurance for diabetic shoes",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Does Medicare Cover Diabetes Supplies?",
+      description: "Learn about Medicare's coverage for glucose monitors, test strips, and insulin.",
+      slug: "medicare-diabetes",
+    },
+    {
+      title: "What is Durable Medical Equipment (DME)?",
+      description: "Learn how Medicare defines and covers durable medical equipment.",
+      slug: "durable-medical-equipment",
+    },
+    {
+      title: "Does Medicare Cover Podiatry?",
+      description: "Learn about Medicare's coverage for podiatrist visits and foot care.",
+      slug: "does-medicare-cover-chiropractic-care",
+    },
+    {
+      title: "Medicare Supplement Plan G",
+      description: "Learn how Plan G can cover your Part B coinsurance for diabetic shoes.",
+      slug: "plan-g",
+    },
+    {
+      title: "Does Medicare Cover Diabetic Supplies?",
+      description: "Find out which diabetic testing supplies, insulin, and equipment Medicare covers.",
+      slug: "medicare-coverage-for-diabetic-shoes",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "Does Medicare Cover Diabetes Supplies",
+    "What Is Durable Medical Equipment",
+    "Does Medicare Cover Podiatry",
+    "Medicare Supplement Plan G",
+  ],
+  ctaBanner: {
+    title: "Need Help Covering Your Diabetic Shoe Costs?",
+    text: "Our licensed Medicare agents can help you find a Medigap or Medicare Advantage plan that minimizes your out-of-pocket costs for diabetic shoes and other diabetes supplies. Compare plans in your area for free.",
+  },
+  relatedSlugs: [
+    "medicare-diabetes",
+    "durable-medical-equipment",
+    "does-medicare-cover-chiropractic-care",
+    "plan-g",
+    "medicare-coverage-for-diabetic-shoes",
+  ],
+},
 
   // ─── Medicare Coverage for Hip Injections ──────────────────────────────────
   {
