@@ -19158,165 +19158,307 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedSlugs: ["medicare-coverage-for-cardiovascular-disease", "medicare-coverage-for-pacemakers", "does-medicare-cover-copd", "medicare-coverage-for-stroke-victims", "medicare-coverage-for-compression-socks"],
   },
   {
-    slug: "medicare-coverage-for-oxygen-therapy",
-    seo: {
-      title: "Medicare Oxygen Therapy Guidelines",
-      description: "Medicare covers portable oxygen concentrators and oxygen therapy when medically necessary. Learn about eligibility, rental guidelines, costs, and coverage rules.",
-      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-oxygen-therapy/",
-      ogImage: "/images/medicarefaq-cover.jpg",
-    },
-    title: "Medicare Coverage for Oxygen Therapy",
-    subtitle: "Medicare Part B covers oxygen therapy equipment and supplies when medically necessary for lung or respiratory conditions. Learn about eligibility requirements, rental guidelines, costs, and how portable oxygen concentrators are covered.",
-    category: "Medicare Coverage",
-    dateUpdated: "April 15, 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare.",
-    },
-    readTime: "5 min read",
-    quickAnswer: {
-      text: "Medicare Part B covers oxygen therapy equipment and supplies as Durable Medical Equipment (DME) when medically necessary. You must have a doctor's prescription, documented lung disorder, and blood oxygen saturation below 88% at rest (or below 90% during activity). Medicare covers 80% of the rental cost after your Part B deductible. Equipment is rented for 36 months, and the supplier must continue providing oxygen for up to 5 years total.",
-      badges: [
-        { plan: "Part B (DME)", status: "covered" },
-        { plan: "Portable Concentrators", status: "covered" },
-        { plan: "Medigap", status: "covered" }],
-    },
-    comparisonTable: [
-      { planType: "Stationary oxygen equipment", coverage: "Covered", icon: "shield", notes: "Covered as DME under Part B; rented for 36 months from approved supplier" },
-      { planType: "Portable oxygen concentrators", coverage: "Covered", icon: "shield", notes: "Covered when doctor states you need constant oxygen therapy outside the home" },
-      { planType: "Oxygen supplies & accessories", coverage: "Covered", icon: "shield", notes: "Tubing, storage containers, and accessories included in rental" },
-      { planType: "Equipment servicing", coverage: "Covered", icon: "shield", notes: "Part B covers servicing every 6 months after the 36-month rental period" },
-      { planType: "Humidifier (with oxygen machine)", coverage: "Covered", icon: "shield", notes: "Covered if the oxygen machine works with a humidifier" },
-      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover at least the same oxygen therapy benefits as Original Medicare" },
-      { planType: "Medicare Supplement (Medigap)", coverage: "Covered", icon: "users", notes: "Covers the 20% Part B coinsurance for oxygen equipment and supplies" }],
-    planBreakdowns: [
-      {
-        planName: "Original Medicare (Part B)",
-        icon: "shield",
-        iconColor: "#2563EB",
-        coverageLabel: "Covered - Oxygen Equipment as DME",
-
-        coverageType: "covered",        paragraphs: [
-          "Covers 80% of the rental cost for oxygen equipment after Part B deductible",
-          "Equipment is rented for 36 months from a Medicare-approved supplier",
-          "After 36 months, supplier must continue providing oxygen for 24 more months",
-          "After 5 years total, you can renew your contract or choose a new supplier",
-          "Covers servicing of oxygen concentrators every 6 months after rental period"],
-      },
-      {
-        planName: "Original Medicare (Part A)",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Covered - Inpatient Oxygen Therapy",
-
-        coverageType: "covered",        paragraphs: [
-          "Covers oxygen therapy during inpatient hospital stays",
-          "Covers oxygen therapy in skilled nursing facilities",
-          "Part A deductible applies ($1,736 in 2025)",
-          "Inpatient oxygen is included in the hospital stay cost"],
-      },
-      {
-        planName: "Medicare Advantage (Part C)",
-        icon: "heart",
-        iconColor: "#DC2626",
-        coverageLabel: "Covered - Per Plan Guidelines",
-
-        coverageType: "partial",        paragraphs: [
-          "Must cover at least the same oxygen therapy benefits as Original Medicare",
-          "May have different copayment or coinsurance amounts",
-          "May require use of specific DME suppliers within the plan's network",
-          "Some plans may offer additional respiratory therapy benefits"],
-      },
-      {
-        planName: "Medicare Supplement (Medigap)",
-        icon: "users",
-        iconColor: "#059669",
-        coverageLabel: "Covered - Fills Cost Gaps",
-
-        coverageType: "covered",        paragraphs: [
-          "Covers the 20% Part B coinsurance for oxygen equipment and supplies",
-          "Depending on plan, may cover the Part B deductible",
-          "No network restrictions - use any Medicare-approved DME supplier",
-          "Provides consistent monthly cost protection for ongoing oxygen therapy"],
-      }],
-    costTable: {
-      title: "Oxygen Therapy Cost Estimates",
-      headers: ["Item", "Estimated Cost"],
-      rows: [
-        { "Item": "Part B deductible (2025)", "Estimated Cost": "$283 annually" },
-        { "Item": "Oxygen equipment rental (your share)", "Estimated Cost": "20% of Medicare-approved amount" },
-        { "Item": "Monthly oxygen supplies", "Estimated Cost": "20% coinsurance (included in rental)" },
-        { "Item": "Equipment servicing (after 36 months)", "Estimated Cost": "20% coinsurance every 6 months" },
-        { "Item": "With Medigap Plan G", "Estimated Cost": "Part B deductible only ($283/year)" },
-        { "Item": "Purchased equipment (not recommended)", "Estimated Cost": "Higher out-of-pocket; rental is more cost-effective" }],
-    },
-    exceptionsSection: {
-      title: "Important Exceptions & Limitations",
-      items: [
-        { title: "Oxygen Saturation Must be Below...", text: "Oxygen saturation must be below 88% at rest or below 90% during activity to qualify" },
-        { title: "You Must Have a Written...", text: "You must have a written prescription from your doctor for oxygen therapy" },
-        { title: "Equipment Must be Rented -...-...", text: "Equipment must be rented - not purchased - from a Medicare-approved supplier" },
-        { title: "Portable Oxygen Concentrators Require Proof...", text: "Portable oxygen concentrators require proof that you need constant oxygen therapy outside the home" },
-        { title: "After 5 Years, Your Need...", text: "After 5 years, your need for oxygen must be reevaluated before renewing" },
-        { title: "Medicare Does not Cover Oxygen...", text: "Medicare does not cover oxygen equipment from non-approved suppliers" }],
-    },
-    faqs: [
-      {
-        question: "Does Medicare Cover Portable Oxygen Concentrators?",
-        answer: "Yes. Medicare Part B covers portable oxygen concentrators when your doctor states you need constant oxygen therapy outside your home. You must meet the same eligibility criteria as stationary oxygen equipment, including oxygen saturation levels below 88% at rest.",
-      },
-      {
-        question: "How Long Does Medicare Cover Oxygen Equipment?",
-        answer: "Medicare covers oxygen equipment rental for 36 months. After that, the supplier must continue providing oxygen for an additional 24 months (5 years total). After 5 years, your need is reevaluated and you can renew or choose a new supplier.",
-      },
-      {
-        question: "How Much Does Oxygen Therapy Cost with Medicare?",
-        answer: "After meeting the Part B deductible ($283 in 2025), you pay 20% of the Medicare-approved rental amount. Your exact cost depends on the equipment type and supplier. A Medigap plan can cover the 20% coinsurance.",
-      },
-      {
-        question: "What Oxygen Saturation Level Qualifies for Medicare Coverage?",
-        answer: "Your oxygen saturation must be below 88% while at rest, or below 90% while engaging in activity. This is measured using a pulse oximeter. Your doctor must document these levels for Medicare to approve coverage.",
-      },
-      {
-        question: "Does Medicare Cover Oxygen Concentrator Servicing?",
-        answer: "Yes. After the 36-month rental period ends, Medicare Part B covers the cost of servicing your oxygen concentrator every six months. This ensures your equipment continues to function properly.",
-      },
-      {
-        question: "Can I Buy My Own Oxygen Equipment with Medicare?",
-        answer: "While you can purchase oxygen equipment, it is more cost-effective to rent through Medicare. Rental payments are covered for up to 36 months, and the supplier must continue providing oxygen for up to 5 years total.",
-      }],
-    quickReference: [
-      { icon: "check", text: "Medicare Part B covers oxygen therapy as <strong>Durable Medical Equipment</strong>" },
-      { icon: "check", text: "Covers stationary and <strong>portable oxygen concentrators</strong>" },
-      { icon: "info", text: "Oxygen saturation must be <strong>below 88% at rest</strong> to qualify" },
-      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> after the Part B deductible" },
-      { icon: "info", text: "Equipment rented for <strong>36 months</strong>; supplier continues for 5 years total" },
-      { icon: "info", text: "Must rent from a <strong>Medicare-approved supplier</strong>" }],
-    relatedTopics: [
-      { title: "What is Durable Medical Equipment (DME)?", description: "Learn how Medicare defines and covers durable medical equipment.", slug: "durable-medical-equipment" },
-      { title: "Does Medicare Cover COPD?", description: "Learn about Medicare's coverage for chronic obstructive pulmonary disease.", slug: "does-medicare-cover-copd" },
-      { title: "Will Medicare Pay for a Nebulizer Machine?", description: "Learn about Medicare's coverage for nebulizer machines and respiratory equipment.", slug: "will-medicare-pay-for-a-nebulizer-machine" },
-      { title: "Medicare Coverage for Lung Transplants", description: "Learn about Medicare's coverage for lung transplant surgery.", slug: "medicare-coverage-for-lung-transplants" }],
-    sidebarRelatedLinks: [
-      "What Is Durable Medical Equipment",
-      "Does Medicare Cover COPD",
-      "Will Medicare Pay for a Nebulizer Machine",
-      "Medicare Coverage for Lung Transplants"],
-    ctaBanner: {
-      title: "Need Help Covering Oxygen Therapy Costs?",
-      text: "Our licensed Medicare agents can help you find a Medigap plan that covers your Part B coinsurance for oxygen equipment and supplies. Compare plans in your area for free.",
-    },
-    relatedSlugs: ["durable-medical-equipment", "does-medicare-cover-copd", "will-medicare-pay-for-a-nebulizer-machine", "medicare-coverage-for-lung-transplants", "does-medicare-cover-asthma-inhalers", "does-medicare-cover-hormone-therapy-for-menopause", "medicare-coverage-for-compression-socks"],
+  slug: "medicare-coverage-for-oxygen-therapy",
+  seo: {
+    title: "Medicare Oxygen Therapy Guidelines",
+    description: "Medicare covers portable oxygen concentrators and oxygen therapy when medically necessary. Learn about eligibility, rental guidelines, costs, and coverage rules.",
+    canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-oxygen-therapy/",
+    ogImage: "/images/medicarefaq-cover.jpg",
   },
+  title: "Medicare Coverage for Oxygen Therapy",
+  subtitle: "Medicare Part B covers oxygen therapy equipment and supplies when medically necessary for lung or respiratory conditions. Learn about eligibility requirements, rental guidelines, costs, and how portable oxygen concentrators are covered.",
+  category: "Medicare Coverage",
+  dateUpdated: "April 15, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare.",
+  },
+  readTime: "5 min read",
+  quickAnswer: {
+    text: "Medicare Part B covers oxygen therapy equipment, such as concentrators, tanks, and tubing, as Durable Medical Equipment (DME) when medically necessary. You must have a doctor's prescription, a documented lung disorder, and blood oxygen saturation below 88% at rest (or below 90% during activity). Medicare covers 80% of the rental cost after you meet your Part B deductible, and a Medigap or Medicare Advantage plan may help cover the remaining cost share. Equipment is rented for 36 months, and the supplier must continue providing oxygen for up to 5 years total.",
+    badges: [
+      {
+        plan: "Part B (DME)",
+        status: "covered",
+      },
+      {
+        plan: "Portable Concentrators",
+        status: "covered",
+      },
+      {
+        plan: "Medigap",
+        status: "covered",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Stationary oxygen equipment",
+      coverage: "Covered",
+      icon: "shield",
+      notes: "Covered as DME under Part B; rented for 36 months from approved supplier",
+    },
+    {
+      planType: "Portable oxygen concentrators",
+      coverage: "Covered",
+      icon: "shield",
+      notes: "Covered when doctor states you need constant oxygen therapy outside the home",
+    },
+    {
+      planType: "Oxygen supplies & accessories",
+      coverage: "Covered",
+      icon: "shield",
+      notes: "Tubing, storage containers, and accessories included in rental",
+    },
+    {
+      planType: "Equipment servicing",
+      coverage: "Covered",
+      icon: "shield",
+      notes: "Part B covers servicing every 6 months after the 36-month rental period",
+    },
+    {
+      planType: "Humidifier (with oxygen machine)",
+      coverage: "Covered",
+      icon: "shield",
+      notes: "Covered if the oxygen machine works with a humidifier",
+    },
+    {
+      planType: "Medicare Advantage (Part C)",
+      coverage: "Covered",
+      icon: "heart",
+      notes: "Must cover at least the same oxygen therapy benefits as Original Medicare",
+    },
+    {
+      planType: "Medicare Supplement (Medigap)",
+      coverage: "Covered",
+      icon: "users",
+      notes: "Covers the 20% Part B coinsurance for oxygen equipment and supplies",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "Original Medicare (Part B)",
+      icon: "shield",
+      iconColor: "#2563EB",
+      coverageLabel: "Covered - Oxygen Equipment as DME",
+      coverageType: "covered",
+      paragraphs: [
+      "Covers 80% of the rental cost for oxygen equipment after Part B deductible",
+      "Equipment is rented for 36 months from a Medicare-approved supplier",
+      "After 36 months, supplier must continue providing oxygen for 24 more months",
+      "After 5 years total, you can renew your contract or choose a new supplier",
+      "Covers servicing of oxygen concentrators every 6 months after rental period",
+    ],
+    },
+    {
+      planName: "Original Medicare (Part A)",
+      icon: "shield",
+      iconColor: "#1B2A4A",
+      coverageLabel: "Covered - Inpatient Oxygen Therapy",
+      coverageType: "covered",
+      paragraphs: [
+      "Covers oxygen therapy during inpatient hospital stays",
+      "Covers oxygen therapy in skilled nursing facilities",
+      "Part A deductible applies ($1,736 in 2025)",
+      "Inpatient oxygen is included in the hospital stay cost",
+    ],
+    },
+    {
+      planName: "Medicare Advantage (Part C)",
+      icon: "heart",
+      iconColor: "#DC2626",
+      coverageLabel: "Covered - Per Plan Guidelines",
+      coverageType: "partial",
+      paragraphs: [
+      "Must cover at least the same oxygen therapy benefits as Original Medicare",
+      "May have different copayment or coinsurance amounts",
+      "May require use of specific DME suppliers within the plan's network",
+      "Some plans may offer additional respiratory therapy benefits",
+    ],
+    },
+    {
+      planName: "Medicare Supplement (Medigap)",
+      icon: "users",
+      iconColor: "#059669",
+      coverageLabel: "Covered - Fills Cost Gaps",
+      coverageType: "covered",
+      paragraphs: [
+      "Covers the 20% Part B coinsurance for oxygen equipment and supplies",
+      "Depending on plan, may cover the Part B deductible",
+      "No network restrictions - use any Medicare-approved DME supplier",
+      "Provides consistent monthly cost protection for ongoing oxygen therapy",
+    ],
+    },
+  ],
+  costTable: {
+    title: "Oxygen Therapy Cost Estimates",
+    headers: [
+    "Item",
+    "Estimated Cost",
+  ],
+    rows: [
+      {
+        "Item": "Part B deductible (2025)",
+        "Estimated Cost": "$283 annually",
+      },
+      {
+        "Item": "Oxygen equipment rental (your share)",
+        "Estimated Cost": "20% of Medicare-approved amount",
+      },
+      {
+        "Item": "Monthly oxygen supplies",
+        "Estimated Cost": "20% coinsurance (included in rental)",
+      },
+      {
+        "Item": "Equipment servicing (after 36 months)",
+        "Estimated Cost": "20% coinsurance every 6 months",
+      },
+      {
+        "Item": "With Medigap Plan G",
+        "Estimated Cost": "Part B deductible only ($283/year)",
+      },
+      {
+        "Item": "Purchased equipment (not recommended)",
+        "Estimated Cost": "Higher out-of-pocket; rental is more cost-effective",
+      },
+    ],
+  },
+  exceptionsSection: {
+    title: "Important Exceptions & Limitations",
+    items: [
+      {
+        title: "Oxygen Saturation Must be Below...",
+        text: "Oxygen saturation must be below 88% at rest or below 90% during activity to qualify",
+      },
+      {
+        title: "You Must Have a Written...",
+        text: "You must have a written prescription from your doctor for oxygen therapy",
+      },
+      {
+        title: "Equipment Must be Rented -...-...",
+        text: "Equipment must be rented - not purchased - from a Medicare-approved supplier",
+      },
+      {
+        title: "Portable Oxygen Concentrators Require Proof...",
+        text: "Portable oxygen concentrators require proof that you need constant oxygen therapy outside the home",
+      },
+      {
+        title: "After 5 Years, Your Need...",
+        text: "After 5 years, your need for oxygen must be reevaluated before renewing",
+      },
+      {
+        title: "Medicare Does not Cover Oxygen...",
+        text: "Medicare does not cover oxygen equipment from non-approved suppliers",
+      },
+    ],
+  },
+  faqs: [
+    {
+      question: "Does Medicare Cover Portable Oxygen Concentrators?",
+      answer: "Yes. Medicare Part B covers portable oxygen concentrators when your doctor states you need constant oxygen therapy outside your home. You must meet the same eligibility criteria as stationary oxygen equipment, including oxygen saturation levels below 88% at rest.",
+    },
+    {
+      question: "How Long Does Medicare Cover Oxygen Equipment?",
+      answer: "Medicare covers oxygen equipment rental for 36 months. After that, the supplier must continue providing oxygen for an additional 24 months (5 years total). After 5 years, your need is reevaluated and you can renew or choose a new supplier.",
+    },
+    {
+      question: "How Much Does Oxygen Therapy Cost with Medicare?",
+      answer: "After meeting the Part B deductible ($283 in 2025), you pay 20% of the Medicare-approved rental amount. Your exact cost depends on the equipment type and supplier. A Medigap plan can cover the 20% coinsurance.",
+    },
+    {
+      question: "What Oxygen Saturation Level Qualifies for Medicare Coverage?",
+      answer: "Your oxygen saturation must be below 88% while at rest, or below 90% while engaging in activity. This is measured using a pulse oximeter. Your doctor must document these levels for Medicare to approve coverage.",
+    },
+    {
+      question: "Does Medicare Cover Oxygen Concentrator Servicing?",
+      answer: "Yes. After the 36-month rental period ends, Medicare Part B covers the cost of servicing your oxygen concentrator every six months. This ensures your equipment continues to function properly.",
+    },
+    {
+      question: "Can I Buy My Own Oxygen Equipment with Medicare?",
+      answer: "While you can purchase oxygen equipment, it is more cost-effective to rent through Medicare. Rental payments are covered for up to 36 months, and the supplier must continue providing oxygen for up to 5 years total.",
+    },
+    {
+      question: "What Happens If My Oxygen Needs Change After Medicare Approves Coverage?",
+      answer: "If your doctor determines that your oxygen needs have changed, such as requiring a higher flow rate or no longer needing therapy, your supplier must update your equipment or documentation accordingly.",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "check",
+      text: "Medicare Part B covers oxygen therapy as <strong>Durable Medical Equipment</strong>",
+    },
+    {
+      icon: "check",
+      text: "Covers stationary and <strong>portable oxygen concentrators</strong>",
+    },
+    {
+      icon: "info",
+      text: "Oxygen saturation must be <strong>below 88% at rest</strong> to qualify",
+    },
+    {
+      icon: "dollar",
+      text: "You pay <strong>20% coinsurance</strong> after the Part B deductible",
+    },
+    {
+      icon: "info",
+      text: "Equipment rented for <strong>36 months</strong>; supplier continues for 5 years total",
+    },
+    {
+      icon: "info",
+      text: "Must rent from a <strong>Medicare-approved supplier</strong>",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "What is Durable Medical Equipment (DME)?",
+      description: "Learn how Medicare defines and covers durable medical equipment.",
+      slug: "durable-medical-equipment",
+    },
+    {
+      title: "Does Medicare Cover COPD?",
+      description: "Learn about Medicare's coverage for chronic obstructive pulmonary disease.",
+      slug: "does-medicare-cover-copd",
+    },
+    {
+      title: "Will Medicare Pay for a Nebulizer Machine?",
+      description: "Learn about Medicare's coverage for nebulizer machines and respiratory equipment.",
+      slug: "will-medicare-pay-for-a-nebulizer-machine",
+    },
+    {
+      title: "Medicare Coverage for Lung Transplants",
+      description: "Learn about Medicare's coverage for lung transplant surgery.",
+      slug: "medicare-coverage-for-lung-transplants",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "What Is Durable Medical Equipment",
+    "Does Medicare Cover COPD",
+    "Will Medicare Pay for a Nebulizer Machine",
+    "Medicare Coverage for Lung Transplants",
+  ],
+  ctaBanner: {
+    title: "Need Help Covering Oxygen Therapy Costs?",
+    text: "Our licensed Medicare agents can help you find a Medigap plan that covers your Part B coinsurance for oxygen equipment and supplies. Compare plans in your area for free.",
+  },
+  relatedSlugs: [
+    "durable-medical-equipment",
+    "does-medicare-cover-copd",
+    "will-medicare-pay-for-a-nebulizer-machine",
+    "medicare-coverage-for-lung-transplants",
+    "does-medicare-cover-asthma-inhalers",
+    "does-medicare-cover-hormone-therapy-for-menopause",
+    "medicare-coverage-for-compression-socks",
+  ],
+},
   {
     slug: "medicare-coverage-for-pacemakers",
     seo: {
