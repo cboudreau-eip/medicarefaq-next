@@ -33049,214 +33049,390 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedSlugs: ["medicare-news", "how-is-medicare-part-d-changing-in-2026", "medicare-part-d-payment-plan-2026", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "new-medicare-changes"],
   },
   {
-    slug: "medicare-and-va-benefits",
-    seo: {
-      title: "Medicare and VA Benefits: Can You Have Both? (2026)",
-      description: "Learn how Medicare and VA benefits work together, which pays first, when you need both, and how to coordinate coverage for the best outcomes.",
-      canonical: "https://www.medicarefaq.com/faqs/medicare-and-va-benefits/",
-      ogImage: "/images/medicarefaq-cover.jpg",
-    },
-    title: "Medicare and VA Benefits",
-    subtitle: "How Medicare and Veterans Benefits Work Together",
-    category: "Medicare FAQ",
-    dateUpdated: "February 16, 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
-    },
-    readTime: "7 min read",
-    quickAnswer: {
-      text: "Yes, you can have both Medicare and VA benefits. They do NOT coordinate - each program pays for its own services independently. VA covers care at VA facilities; Medicare covers care outside the VA. Having both gives you maximum flexibility and access to more providers.",
-      badges: [
-        { plan: "Medicare (Part A & B)", status: "covered" },
-        { plan: "VA Health Benefits", status: "covered" },
-        { plan: "Part D (with VA)", status: "partial" },
-        { plan: "Medigap (with VA)", status: "partial" }],
-    },
-    comparisonTable: [
-      { planType: "VA Health Benefits Only", coverage: "VA facilities only", icon: "shield", notes: "No coverage outside VA network; risk if VA unavailable" },
-      { planType: "Medicare Only", coverage: "Any Medicare provider", icon: "shield", notes: "Full provider access; no VA drug benefit" },
-      { planType: "Both Medicare + VA", coverage: "Maximum flexibility", icon: "check-circle", notes: "Best of both: VA for routine care, Medicare for specialists/emergencies" },
-      { planType: "Medicare + VA + Medigap", coverage: "Comprehensive", icon: "check-circle", notes: "Adds cost protection for Medicare services" }],
-    planBreakdowns: [
-      {
-        planName: "How Medicare and VA Benefits Work Together",
-        icon: "info",
-        iconColor: "#0369A1",
-        coverageLabel: "Independent Programs",
-        coverageType: "covered",
-        paragraphs: [
-          "Medicare and VA benefits are completely separate programs that do not coordinate with each other. Unlike other insurance combinations where one pays first and the other pays second, Medicare and VA benefits each cover their own services independently. VA pays for care received at VA facilities; Medicare pays for care received at non-VA facilities.",
-          "This means you cannot use Medicare to pay for care at a VA facility, and you cannot use VA benefits to pay for care at a non-VA facility (with some exceptions like VA Community Care). Having both programs gives you access to a much wider range of providers and services."],
-        whatItCovers: [
-          "VA: care at VA medical centers, clinics, and VA Community Care (authorized non-VA providers)",
-          "Medicare: care at any Medicare-participating provider (hospitals, doctors, specialists)",
-          "Both: emergency care (VA covers VA-authorized emergencies; Medicare covers all emergencies)",
-          "Having both: maximum provider flexibility and no gaps in coverage"],
-        whatItDoesntCover: [
-          "Medicare does not pay for care at VA facilities",
-          "VA does not pay for care at non-VA facilities (except VA Community Care authorization)",
-          "The two programs do not share deductibles or out-of-pocket costs"],
-      },
-      {
-        planName: "Do You Need Medicare if You Have VA Benefits?",
-        icon: "help-circle",
-        iconColor: "#D97706",
-        coverageLabel: "Recommended to Enroll",
-        coverageType: "partial",
-        paragraphs: [
-          "While VA benefits provide comprehensive care at VA facilities, most experts recommend enrolling in Medicare Part A and Part B when you become eligible at 65. Here's why: VA benefits can change, VA facilities may not always be conveniently located, and Medicare provides access to any Medicare-participating provider nationwide.",
-          "Part A is usually free (premium-free if you have 40+ work quarters) and provides hospital coverage outside the VA. Part B ($202.90/month in 2026) adds outpatient coverage. If you delay Part B without qualifying coverage, you face a permanent 10% penalty per year - VA benefits do NOT qualify as creditable coverage for Part B delay purposes."],
-        whatItCovers: [
-          "Part A (usually free): hospital coverage outside VA - strongly recommended",
-          "Part B: outpatient coverage outside VA - recommended for access to specialists",
-          "Medicare + VA: use VA for routine care (often $0 cost), Medicare for specialists/emergencies",
-          "Medicare provides a safety net if VA benefits change or VA access is limited"],
-        whatItDoesntCover: [
-          "VA benefits do NOT qualify as creditable coverage to delay Part B - penalties apply if you delay",
-          "VA benefits do not cover care at non-VA facilities without prior authorization",
-          "VA benefits can be reduced or changed by Congress"],
-        callout: {
-          type: "warning",
-          title: "VA Benefits do not Qualify for Part B Delay",
-          text: "Unlike employer group coverage, VA benefits do NOT allow you to delay Medicare Part B without penalty. If you delay Part B past your Initial Enrollment Period, you will owe a permanent 10% penalty per year missed.",
-        },
-      },
-      {
-        planName: "VA Drug Coverage and Medicare Part D",
-        icon: "pill",
-        iconColor: "#059669",
-        coverageLabel: "VA = Creditable Coverage",
-        coverageType: "covered",
-        paragraphs: [
-          "VA drug coverage IS considered creditable coverage for Medicare Part D purposes. This means you can delay enrolling in a Part D plan without penalty as long as you have VA drug coverage. If you later lose VA drug coverage, you have a 63-day window to enroll in Part D without penalty.",
-          "Many veterans choose to use VA drug coverage instead of Part D because VA drug prices are often lower, especially for generic medications. However, with the 2026 Part D $2,100 OOP cap and 10 negotiated drug prices, Part D may now be competitive with VA pricing for some medications."],
-        whatItCovers: [
-          "VA drug coverage: prescriptions filled at VA pharmacies, often at very low cost ($0–$11/month copay)",
-          "VA drug coverage is creditable - no Part D penalty for delaying enrollment",
-          "63-day window to enroll in Part D if you lose VA drug coverage",
-          "Part D $2,000 OOP cap may benefit veterans with high-cost specialty drugs"],
-        whatItDoesntCover: [
-          "VA drug coverage only covers VA-approved formulary drugs at VA pharmacies",
-          "VA drug coverage does not count toward Part D OOP cap",
-          "If you enroll in Part D, VA and Part D do not coordinate - use one or the other per fill"],
-      },
-      {
-        planName: "Medigap and VA Benefits",
-        icon: "layers",
-        iconColor: "#7C3AED",
-        coverageLabel: "Optional but Useful",
-        coverageType: "partial",
-        paragraphs: [
-          "Veterans who enroll in Medicare Part B can also purchase a Medigap (Medicare Supplement) plan to cover Part B cost-sharing (deductible, 20% coinsurance). This is particularly valuable for veterans who use non-VA providers frequently.",
-          "However, if you primarily use VA facilities for most of your care, the value of Medigap may be limited. Consider your usage patterns: if you use Medicare providers regularly, Medigap Plan G ($80–$200/month) can eliminate most out-of-pocket costs for Medicare services."],
-        whatItCovers: [
-          "Medigap Plan G: covers Part B deductible ($257), 20% coinsurance, Part A costs",
-          "Medigap provides predictable costs for Medicare services outside the VA",
-          "Medigap can be purchased during your Medigap Open Enrollment Period (6 months after Part B enrollment at 65)",
-          "Medigap + VA: use VA for routine care, Medigap for cost protection on Medicare services"],
-        whatItDoesntCover: [
-          "Medigap does not cover VA services - it only supplements Medicare",
-          "Medigap cannot be used alongside Medicare Advantage",
-          "Medigap does not add dental, vision, or hearing coverage"],
-      },
-      {
-        planName: "VA Community Care and Medicare",
-        icon: "map-pin",
-        iconColor: "#DC2626",
-        coverageLabel: "Non-VA Provider Access",
-        coverageType: "partial",
-        paragraphs: [
-          "VA Community Care allows veterans to receive care from non-VA providers when the VA cannot provide timely or geographically accessible care. When you receive VA Community Care, the VA pays - not Medicare. You cannot bill Medicare for VA Community Care services.",
-          "If you receive care from a non-VA provider that is NOT authorized by VA Community Care, Medicare (if you have it) would be the payer. This is why having Medicare is valuable - it covers non-VA care that is not authorized by VA Community Care."],
-        whatItCovers: [
-          "VA Community Care: non-VA providers authorized by VA - VA pays, not Medicare",
-          "Medicare: non-VA providers NOT authorized by VA - Medicare pays",
-          "Emergency care: VA covers VA-authorized emergencies; Medicare covers all emergencies at Medicare providers",
-          "Having both ensures coverage regardless of which program authorizes the care"],
-        whatItDoesntCover: [
-          "Medicare cannot be billed for VA Community Care services - VA pays",
-          "VA does not pay for non-authorized non-VA care - Medicare would need to cover it",
-          "Neither program covers long-term custodial care"],
-      }],
-    costTable: {
-      title: "Medicare ++ VA Benefits Cost Comparison (2026)",
-      headers: ["Service", "VA Only", "Medicare Only", "Medicare + VA"],
-      rows: [
-        { "Service": "Routine primary care", "VA Only": "$0 (Priority 1-6)", "Medicare Only": "$0 (Annual Wellness Visit) + 20% coinsurance", "Medicare + VA": "Use VA at $0" },
-        { "Service": "Specialist visit", "VA Only": "$0–$50 copay (VA authorized)", "Medicare Only": "20% coinsurance after $257 deductible", "Medicare + VA": "Use Medicare for non-VA specialists" },
-        { "Service": "Hospital stay", "VA Only": "$0–$50/day (VA facility)", "Medicare Only": "$1,732 deductible + daily copays", "Medicare + VA": "Use VA hospital or Medicare - whichever is accessible" },
-        { "Service": "Prescription drugs", "VA Only": "$0–$11/fill", "Medicare Only": "Part D copays (up to $2,000 OOP cap)", "Medicare + VA": "Use VA pharmacy for lowest cost" },
-        { "Service": "Emergency care (non-VA)", "VA Only": "May not cover (authorization needed)", "Medicare Only": "Covered at any Medicare ER", "Medicare + VA": "Medicare covers non-VA emergencies" },
-        { "Service": "Part B premium", "VA Only": "N/A", "Medicare Only": "$202.90/month", "Medicare + VA": "$202.90/month (Part B) + $0 VA" }],
-      footnote: "VA copays depend on priority group and income. Medicare costs are for 2026.",
-    },
-    exceptionsSection: {
-      title: "Important Exceptions and Considerations",
-      items: [
-        { title: "TRICARE for Life (TFL) vs. VA", text: "Military retirees may have TRICARE For Life in addition to VA benefits. TFL wraps around Medicare (pays after Medicare), while VA is separate. Having all three provides maximum coverage." },
-        { title: "VA Aid & Attendance", text: "Veterans who need help with daily activities may qualify for VA Aid & Attendance pension benefits, which can help pay for home care or assisted living costs not covered by Medicare or VA health benefits." },
-        { title: "Service-Connected Disability", text: "Veterans with service-connected disabilities receive VA care at no cost for those conditions, regardless of income or priority group." },
-        { title: "Enrollment in VA Health Care", text: "Having Medicare does not automatically enroll you in VA health care. You must separately apply for VA health benefits at VA.gov or your local VA medical center." }],
-    },
-    legislativeUpdate: {
-      title: "Legislative Updates",
-      items: [
-        { title: "PACT Act (2022)", status: "Passed", description: "The PACT Act expanded VA health care eligibility for veterans exposed to toxic substances (burn pits, Agent Orange). Millions of new veterans became eligible for VA care." },
-        { title: "VA Community Care Expansion", status: "Passed", description: "Ongoing expansion of VA Community Care allows more veterans to receive care from non-VA providers when VA access is limited." },
-        { title: "Part B Premium Increase (2026)", status: "Passed", description: "Part B premium increased to $202.90/month in 2026. Veterans who delay Part B enrollment face permanent penalties - VA benefits do not qualify for penalty-free delay." }],
-    },
-    alternativesSection: {
-      title: "How to Maximize Medicare and VA Benefits Together",
-      paragraphs: [
-        "The best strategy is to use VA benefits for routine care (often at $0 or very low cost) and Medicare for care outside the VA system, emergencies, and specialist access. Enroll in Part A at 65 (usually free) and strongly consider Part B to avoid the permanent late enrollment penalty.",
-        "If you primarily use VA facilities, consider whether Medigap is worth the premium. If you frequently use non-VA providers, Medigap Plan G can eliminate most Medicare cost-sharing and provide peace of mind."],
-      checklist: {
-        title: "Medicare ++ VA Benefits Checklist",
-        items: [
-          "Enroll in Medicare Part A at 65 - it is usually free and provides hospital coverage outside VA",
-          "Enroll in Medicare Part B at 65 - VA benefits do NOT qualify for penalty-free delay",
-          "Apply for VA health care separately at VA.gov if you haven't already",
-          "Use VA pharmacy for prescriptions - VA drug coverage is creditable for Part D delay",
-          "Consider Medigap if you use non-VA providers frequently - Plan G eliminates most cost-sharing",
-          "If you have TRICARE For Life, understand how it coordinates with both Medicare and VA",
-          "Check if you qualify for VA Aid & Attendance if you need help with daily activities"],
-        type: "info",
-      },
-    },
-    faqs: [
-      { question: "Can I Use Both Medicare and VA Benefits?", answer: "Yes. They are separate programs that do not coordinate. Use VA for care at VA facilities and Medicare for non-VA providers." },
-      { question: "Do VA Benefits Count as Creditable Coverage to Delay Medicare Part B?", answer: "No. VA benefits do NOT qualify for penalty-free Part B delay. Enroll in Part B at 65 to avoid the permanent late enrollment penalty." },
-      { question: "Do VA Benefits Count as Creditable Coverage to Delay Part D?", answer: "Yes. VA drug coverage IS creditable for Part D. You can delay Part D without penalty as long as you have VA drug coverage." },
-      { question: "Which Pays First - Medicare or VA?", answer: "They don't coordinate. VA pays for VA facility care; Medicare pays for non-VA care. There is no primary/secondary relationship." },
-      { question: "Should I Get Medigap if I Have VA Benefits?", answer: "It depends on how often you use non-VA providers. If you frequently use Medicare providers, Medigap Plan G can eliminate most cost-sharing." }],
-    quickReference: [
-      { icon: "check", text: "You can have both Medicare and VA benefits - they do not coordinate" },
-      { icon: "alert", text: "VA benefits do NOT qualify for penalty-free Part B delay - enroll at 65" },
-      { icon: "check", text: "VA drug coverage IS creditable - you can delay Part D without penalty" },
-      { icon: "info", text: "Use VA for routine care ($0 cost); Medicare for non-VA specialists and emergencies" },
-      { icon: "check", text: "PACT Act (2022) expanded VA eligibility - check if you qualify for new benefits" }],
-    relatedTopics: [
-      { title: "How TRICARE Works with Medicare", description: "Coordination of TRICARE For Life and Medicare for military retirees.", slug: "how-tricare-works-with-medicare" },
-      { title: "Delaying Medicare", description: "When you can safely delay and when penalties apply.", slug: "delay-medicare" },
-      { title: "Medicare Supplement vs. Medicare Advantage for Veterans", description: "Which supplemental coverage is best for veterans.", slug: "medicare-supplement-vs-medicare-advantage-for-veterans-choosing-the-right-coverage" },
-      { title: "TRICARE, VA Benefits, and Medicare", description: "Understanding all three programs together.", slug: "understanding-the-intersection-of-tricare-va-benefits-and-medicare" }],
-    sidebarRelatedLinks: ["how-tricare-works-with-medicare", "delay-medicare", "understanding-the-intersection-of-tricare-va-benefits-and-medicare"],
-    ctaBanner: {
-      title: "Need Help Coordinating Medicare and VA Benefits?",
-      text: "Our licensed agents specialize in helping veterans navigate Medicare and VA benefits together to maximize coverage and minimize costs.",
-    },
-    relatedSlugs: ["understanding-the-intersection-of-tricare-va-benefits-and-medicare", "medicare-supplement-vs-medicare-advantage-for-veterans-choosing-the-right-coverage", "how-tricare-works-with-medicare", "the-essentials-medicare-supplement-vs-medicare-advantage-explained"],
+  slug: "medicare-and-va-benefits",
+  seo: {
+    title: "Medicare and VA Benefits: Can You Have Both? (2026)",
+    description: "Learn how Medicare and VA benefits work together, which pays first, when you need both, and how to coordinate coverage for the best outcomes.",
+    canonical: "https://www.medicarefaq.com/faqs/medicare-and-va-benefits/",
+    ogImage: "/images/medicarefaq-cover.jpg",
   },
+  title: "Medicare and VA Benefits",
+  subtitle: "How Medicare and Veterans Benefits Work Together",
+  category: "Medicare FAQ",
+  dateUpdated: "February 16, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
+  },
+  readTime: "7 min read",
+  quickAnswer: {
+    text: "Yes, you can have both Medicare and VA benefits at the same time. The two programs do not coordinate benefits or split the bill for the same service - you choose which one to use for each visit. Use your VA benefits at VA facilities and Medicare for care from non-VA doctors and hospitals. Carrying both simply gives you more provider options and a backup if VA care isn't available nearby.",
+    badges: [
+      {
+        plan: "Medicare (Part A & B)",
+        status: "covered",
+      },
+      {
+        plan: "VA Health Benefits",
+        status: "covered",
+      },
+      {
+        plan: "Part D (with VA)",
+        status: "partial",
+      },
+      {
+        plan: "Medigap (with VA)",
+        status: "partial",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "VA Health Benefits Only",
+      coverage: "VA facilities only",
+      icon: "shield",
+      notes: "No coverage outside VA network; risk if VA unavailable",
+    },
+    {
+      planType: "Medicare Only",
+      coverage: "Any Medicare provider",
+      icon: "shield",
+      notes: "Full provider access; no VA drug benefit",
+    },
+    {
+      planType: "Both Medicare + VA",
+      coverage: "Maximum flexibility",
+      icon: "check-circle",
+      notes: "Best of both: VA for routine care, Medicare for specialists/emergencies",
+    },
+    {
+      planType: "Medicare + VA + Medigap",
+      coverage: "Comprehensive",
+      icon: "check-circle",
+      notes: "Adds cost protection for Medicare services",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "How Medicare and VA Benefits Work Together",
+      icon: "info",
+      iconColor: "#0369A1",
+      coverageLabel: "Independent Programs",
+      coverageType: "covered",
+      paragraphs: [
+      "Medicare and VA benefits are completely separate programs that do not coordinate with each other. Unlike other insurance combinations where one pays first and the other pays second, Medicare and VA benefits each cover their own services independently. VA pays for care received at VA facilities; Medicare pays for care received at non-VA facilities.",
+      "This means you cannot use Medicare to pay for care at a VA facility, and you cannot use VA benefits to pay for care at a non-VA facility (with some exceptions like VA Community Care). Having both programs gives you access to a much wider range of providers and services.",
+    ],
+      whatItCovers: [
+      "VA: care at VA medical centers, clinics, and VA Community Care (authorized non-VA providers)",
+      "Medicare: care at any Medicare-participating provider (hospitals, doctors, specialists)",
+      "Both: emergency care (VA covers VA-authorized emergencies; Medicare covers all emergencies)",
+      "Having both: maximum provider flexibility and no gaps in coverage",
+    ],
+      whatItDoesntCover: [
+      "Medicare does not pay for care at VA facilities",
+      "VA does not pay for care at non-VA facilities (except VA Community Care authorization)",
+      "The two programs do not share deductibles or out-of-pocket costs",
+    ],
+    },
+    {
+      planName: "Do You Need Medicare if You Have VA Benefits?",
+      icon: "help-circle",
+      iconColor: "#D97706",
+      coverageLabel: "Recommended to Enroll",
+      coverageType: "partial",
+      paragraphs: [
+      "While VA benefits provide comprehensive care at VA facilities, most experts recommend enrolling in Medicare Part A and Part B when you become eligible at 65. Here's why: VA benefits can change, VA facilities may not always be conveniently located, and Medicare provides access to any Medicare-participating provider nationwide.",
+      "Part A is usually free (premium-free if you have 40+ work quarters) and provides hospital coverage outside the VA. Part B ($202.90/month in 2026) adds outpatient coverage. If you delay Part B without qualifying coverage, you face a permanent 10% penalty per year - VA benefits do NOT qualify as creditable coverage for Part B delay purposes.",
+    ],
+      whatItCovers: [
+      "Part A (usually free): hospital coverage outside VA - strongly recommended",
+      "Part B: outpatient coverage outside VA - recommended for access to specialists",
+      "Medicare + VA: use VA for routine care (often $0 cost), Medicare for specialists/emergencies",
+      "Medicare provides a safety net if VA benefits change or VA access is limited",
+    ],
+      whatItDoesntCover: [
+      "VA benefits do NOT qualify as creditable coverage to delay Part B - penalties apply if you delay",
+      "VA benefits do not cover care at non-VA facilities without prior authorization",
+      "VA benefits can be reduced or changed by Congress",
+    ],
+      callout: {
+      type: "warning",
+      title: "VA Benefits do not Qualify for Part B Delay",
+      text: "Unlike employer group coverage, VA benefits do NOT allow you to delay Medicare Part B without penalty. If you delay Part B past your Initial Enrollment Period, you will owe a permanent 10% penalty per year missed.",
+    },
+    },
+    {
+      planName: "VA Drug Coverage and Medicare Part D",
+      icon: "pill",
+      iconColor: "#059669",
+      coverageLabel: "VA = Creditable Coverage",
+      coverageType: "covered",
+      paragraphs: [
+      "VA drug coverage IS considered creditable coverage for Medicare Part D purposes. This means you can delay enrolling in a Part D plan without penalty as long as you have VA drug coverage. If you later lose VA drug coverage, you have a 63-day window to enroll in Part D without penalty.",
+      "Many veterans choose to use VA drug coverage instead of Part D because VA drug prices are often lower, especially for generic medications. However, with the 2026 Part D $2,100 OOP cap and 10 negotiated drug prices, Part D may now be competitive with VA pricing for some medications.",
+    ],
+      whatItCovers: [
+      "VA drug coverage: prescriptions filled at VA pharmacies, often at very low cost ($0–$11/month copay)",
+      "VA drug coverage is creditable - no Part D penalty for delaying enrollment",
+      "63-day window to enroll in Part D if you lose VA drug coverage",
+      "Part D $2,000 OOP cap may benefit veterans with high-cost specialty drugs",
+    ],
+      whatItDoesntCover: [
+      "VA drug coverage only covers VA-approved formulary drugs at VA pharmacies",
+      "VA drug coverage does not count toward Part D OOP cap",
+      "If you enroll in Part D, VA and Part D do not coordinate - use one or the other per fill",
+    ],
+    },
+    {
+      planName: "Medigap and VA Benefits",
+      icon: "layers",
+      iconColor: "#7C3AED",
+      coverageLabel: "Optional but Useful",
+      coverageType: "partial",
+      paragraphs: [
+      "Veterans who enroll in Medicare Part B can also purchase a Medigap (Medicare Supplement) plan to cover Part B cost-sharing (deductible, 20% coinsurance). This is particularly valuable for veterans who use non-VA providers frequently.",
+      "However, if you primarily use VA facilities for most of your care, the value of Medigap may be limited. Consider your usage patterns: if you use Medicare providers regularly, Medigap Plan G ($80–$200/month) can eliminate most out-of-pocket costs for Medicare services.",
+    ],
+      whatItCovers: [
+      "Medigap Plan G: covers Part B deductible ($257), 20% coinsurance, Part A costs",
+      "Medigap provides predictable costs for Medicare services outside the VA",
+      "Medigap can be purchased during your Medigap Open Enrollment Period (6 months after Part B enrollment at 65)",
+      "Medigap + VA: use VA for routine care, Medigap for cost protection on Medicare services",
+    ],
+      whatItDoesntCover: [
+      "Medigap does not cover VA services - it only supplements Medicare",
+      "Medigap cannot be used alongside Medicare Advantage",
+      "Medigap does not add dental, vision, or hearing coverage",
+    ],
+    },
+    {
+      planName: "VA Community Care and Medicare",
+      icon: "map-pin",
+      iconColor: "#DC2626",
+      coverageLabel: "Non-VA Provider Access",
+      coverageType: "partial",
+      paragraphs: [
+      "VA Community Care allows veterans to receive care from non-VA providers when the VA cannot provide timely or geographically accessible care. When you receive VA Community Care, the VA pays - not Medicare. You cannot bill Medicare for VA Community Care services.",
+      "If you receive care from a non-VA provider that is NOT authorized by VA Community Care, Medicare (if you have it) would be the payer. This is why having Medicare is valuable - it covers non-VA care that is not authorized by VA Community Care.",
+    ],
+      whatItCovers: [
+      "VA Community Care: non-VA providers authorized by VA - VA pays, not Medicare",
+      "Medicare: non-VA providers NOT authorized by VA - Medicare pays",
+      "Emergency care: VA covers VA-authorized emergencies; Medicare covers all emergencies at Medicare providers",
+      "Having both ensures coverage regardless of which program authorizes the care",
+    ],
+      whatItDoesntCover: [
+      "Medicare cannot be billed for VA Community Care services - VA pays",
+      "VA does not pay for non-authorized non-VA care - Medicare would need to cover it",
+      "Neither program covers long-term custodial care",
+    ],
+    },
+  ],
+  costTable: {
+    title: "Medicare ++ VA Benefits Cost Comparison (2026)",
+    headers: [
+    "Service",
+    "VA Only",
+    "Medicare Only",
+    "Medicare + VA",
+  ],
+    rows: [
+      {
+        "Service": "Routine primary care",
+        "VA Only": "$0 (Priority 1-6)",
+        "Medicare Only": "$0 (Annual Wellness Visit) + 20% coinsurance",
+        "Medicare + VA": "Use VA at $0",
+      },
+      {
+        "Service": "Specialist visit",
+        "VA Only": "$0–$50 copay (VA authorized)",
+        "Medicare Only": "20% coinsurance after $257 deductible",
+        "Medicare + VA": "Use Medicare for non-VA specialists",
+      },
+      {
+        "Service": "Hospital stay",
+        "VA Only": "$0–$50/day (VA facility)",
+        "Medicare Only": "$1,732 deductible + daily copays",
+        "Medicare + VA": "Use VA hospital or Medicare - whichever is accessible",
+      },
+      {
+        "Service": "Prescription drugs",
+        "VA Only": "$0–$11/fill",
+        "Medicare Only": "Part D copays (up to $2,000 OOP cap)",
+        "Medicare + VA": "Use VA pharmacy for lowest cost",
+      },
+      {
+        "Service": "Emergency care (non-VA)",
+        "VA Only": "May not cover (authorization needed)",
+        "Medicare Only": "Covered at any Medicare ER",
+        "Medicare + VA": "Medicare covers non-VA emergencies",
+      },
+      {
+        "Service": "Part B premium",
+        "VA Only": "N/A",
+        "Medicare Only": "$202.90/month",
+        "Medicare + VA": "$202.90/month (Part B) + $0 VA",
+      },
+    ],
+    footnote: "VA copays depend on priority group and income. Medicare costs are for 2026.",
+  },
+  exceptionsSection: {
+    title: "Important Exceptions and Considerations",
+    items: [
+      {
+        title: "TRICARE for Life (TFL) vs. VA",
+        text: "Military retirees may have TRICARE For Life in addition to VA benefits. TFL wraps around Medicare (pays after Medicare), while VA is separate. Having all three provides maximum coverage.",
+      },
+      {
+        title: "VA Aid & Attendance",
+        text: "Veterans who need help with daily activities may qualify for VA Aid & Attendance pension benefits, which can help pay for home care or assisted living costs not covered by Medicare or VA health benefits.",
+      },
+      {
+        title: "Service-Connected Disability",
+        text: "Veterans with service-connected disabilities receive VA care at no cost for those conditions, regardless of income or priority group.",
+      },
+      {
+        title: "Enrollment in VA Health Care",
+        text: "Having Medicare does not automatically enroll you in VA health care. You must separately apply for VA health benefits at VA.gov or your local VA medical center.",
+      },
+    ],
+  },
+  legislativeUpdate: {
+    title: "Legislative Updates",
+    items: [
+      {
+        title: "PACT Act (2022)",
+        status: "Passed",
+        description: "The PACT Act expanded VA health care eligibility for veterans exposed to toxic substances (burn pits, Agent Orange). Millions of new veterans became eligible for VA care.",
+      },
+      {
+        title: "VA Community Care Expansion",
+        status: "Passed",
+        description: "Ongoing expansion of VA Community Care allows more veterans to receive care from non-VA providers when VA access is limited.",
+      },
+      {
+        title: "Part B Premium Increase (2026)",
+        status: "Passed",
+        description: "Part B premium increased to $202.90/month in 2026. Veterans who delay Part B enrollment face permanent penalties - VA benefits do not qualify for penalty-free delay.",
+      },
+    ],
+  },
+  alternativesSection: {
+    title: "How to Maximize Medicare and VA Benefits Together",
+    paragraphs: [
+    "The best strategy is to use VA benefits for routine care (often at $0 or very low cost) and Medicare for care outside the VA system, emergencies, and specialist access. Enroll in Part A at 65 (usually free) and strongly consider Part B to avoid the permanent late enrollment penalty.",
+    "If you primarily use VA facilities, consider whether Medigap is worth the premium. If you frequently use non-VA providers, Medigap Plan G can eliminate most Medicare cost-sharing and provide peace of mind.",
+  ],
+    checklist: {
+    title: "Medicare ++ VA Benefits Checklist",
+    items: [
+    "Enroll in Medicare Part A at 65 - it is usually free and provides hospital coverage outside VA",
+    "Enroll in Medicare Part B at 65 - VA benefits do NOT qualify for penalty-free delay",
+    "Apply for VA health care separately at VA.gov if you haven't already",
+    "Use VA pharmacy for prescriptions - VA drug coverage is creditable for Part D delay",
+    "Consider Medigap if you use non-VA providers frequently - Plan G eliminates most cost-sharing",
+    "If you have TRICARE For Life, understand how it coordinates with both Medicare and VA",
+    "Check if you qualify for VA Aid & Attendance if you need help with daily activities",
+  ],
+    type: "info",
+  },
+  },
+  faqs: [
+    {
+      question: "Can I Use Both Medicare and VA Benefits?",
+      answer: "Yes. They are separate programs that do not coordinate. Use VA for care at VA facilities and Medicare for non-VA providers.",
+    },
+    {
+      question: "Do VA Benefits Count as Creditable Coverage to Delay Medicare Part B?",
+      answer: "No. VA benefits do NOT qualify for penalty-free Part B delay. Enroll in Part B at 65 to avoid the permanent late enrollment penalty.",
+    },
+    {
+      question: "Do VA Benefits Count as Creditable Coverage to Delay Part D?",
+      answer: "Yes. VA drug coverage IS creditable for Part D. You can delay Part D without penalty as long as you have VA drug coverage.",
+    },
+    {
+      question: "Which Pays First - Medicare or VA?",
+      answer: "They don't coordinate. VA pays for VA facility care; Medicare pays for non-VA care. There is no primary/secondary relationship.",
+    },
+    {
+      question: "Should I Get Medigap if I Have VA Benefits?",
+      answer: "It depends on how often you use non-VA providers. If you frequently use Medicare providers, Medigap Plan G can eliminate most cost-sharing.",
+    },
+    {
+      question: "Will Enrolling in Medicare Affect My VA Benefits?",
+      answer: "No. Enrolling in Medicare does not reduce or cancel your VA health benefits or disability compensation. The two programs are entirely separate, so signing up for Medicare simply gives you an additiona",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "check",
+      text: "You can have both Medicare and VA benefits - they do not coordinate",
+    },
+    {
+      icon: "alert",
+      text: "VA benefits do NOT qualify for penalty-free Part B delay - enroll at 65",
+    },
+    {
+      icon: "check",
+      text: "VA drug coverage IS creditable - you can delay Part D without penalty",
+    },
+    {
+      icon: "info",
+      text: "Use VA for routine care ($0 cost); Medicare for non-VA specialists and emergencies",
+    },
+    {
+      icon: "check",
+      text: "PACT Act (2022) expanded VA eligibility - check if you qualify for new benefits",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "How TRICARE Works with Medicare",
+      description: "Coordination of TRICARE For Life and Medicare for military retirees.",
+      slug: "how-tricare-works-with-medicare",
+    },
+    {
+      title: "Delaying Medicare",
+      description: "When you can safely delay and when penalties apply.",
+      slug: "delay-medicare",
+    },
+    {
+      title: "Medicare Supplement vs. Medicare Advantage for Veterans",
+      description: "Which supplemental coverage is best for veterans.",
+      slug: "medicare-supplement-vs-medicare-advantage-for-veterans-choosing-the-right-coverage",
+    },
+    {
+      title: "TRICARE, VA Benefits, and Medicare",
+      description: "Understanding all three programs together.",
+      slug: "understanding-the-intersection-of-tricare-va-benefits-and-medicare",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "how-tricare-works-with-medicare",
+    "delay-medicare",
+    "understanding-the-intersection-of-tricare-va-benefits-and-medicare",
+  ],
+  ctaBanner: {
+    title: "Need Help Coordinating Medicare and VA Benefits?",
+    text: "Our licensed agents specialize in helping veterans navigate Medicare and VA benefits together to maximize coverage and minimize costs.",
+  },
+  relatedSlugs: [
+    "understanding-the-intersection-of-tricare-va-benefits-and-medicare",
+    "medicare-supplement-vs-medicare-advantage-for-veterans-choosing-the-right-coverage",
+    "how-tricare-works-with-medicare",
+    "the-essentials-medicare-supplement-vs-medicare-advantage-explained",
+  ],
+},
 
 
   {
