@@ -31068,236 +31068,367 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedSlugs: ["how-the-medicare-part-b-giveback-can-lower-your-monthly-costs", "medicare-costs-2025", "medicare-part-b-premiums", "reduce-medicare-premiums", "medicare-advantage-uncovering-the-unexpected-out-of-pocket-expenses", "why-medicare-advantage-plans-are-bad"],
   },
   {
-    slug: "medicare-savings-programs",
-    seo: {
-      title: "Medicare Savings Programs: QMB, SLMB, QI, and QDWI Explained (2026)",
-      description: "Medicare Savings Programs help low-income beneficiaries pay Part A and Part B premiums, deductibles, and copays. Learn about QMB, SLMB, QI, and QDWI eligibility and how to apply.",
-      canonical: "https://www.medicarefaq.com/faqs/medicare-savings-programs/",
-      ogImage: "/images/medicarefaq-cover.jpg",
-    },
+  slug: "medicare-savings-programs",
+  seo: {
     title: "Medicare Savings Programs: QMB, SLMB, QI, and QDWI Explained (2026)",
-    subtitle: "Medicare Savings Programs (MSPs) are state-run programs that help people with limited income and resources pay for Medicare costs. There are four types: QMB, SLMB, QI, and QDWI.",
-    category: "Costs & Savings",
-    dateUpdated: "April 29, 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is a licensed Medicare expert who helps beneficiaries understand their Medicare options.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
-    },
-    readTime: "7 min read",
-    quickAnswer: {
-      text: "Medicare Savings Programs (MSPs) are state-administered programs funded jointly by states and the federal government. They help people with limited income and resources pay Medicare premiums, deductibles, and copays. In 2026, the four MSP types cover different levels of costs: QMB pays the most (Part A & B premiums + cost-sharing), while QDWI covers only Part A premiums for a narrow group.",
-      badges: [
-        { plan: "QMB", status: "covered" },
-        { plan: "SLMB", status: "partial" },
-        { plan: "QI", status: "partial" },
-        { plan: "QDWI", status: "partial" }],
-    },
-    comparisonTable: [
-      { planType: "QMB (Qualified Medicare Beneficiary)", coverage: "Most Comprehensive", icon: "shield", notes: "Pays Part A & B premiums + deductibles + copays" },
-      { planType: "SLMB (Specified Low-Income Medicare Beneficiary)", coverage: "Part B Premium Only", icon: "shield", notes: "Pays Part B premium only" },
-      { planType: "QI (Qualifying Individual)", coverage: "Part B Premium Only", icon: "shield", notes: "Pays Part B premium; limited slots, first-come basis" },
-      { planType: "QDWI (Qualified Disabled & Working Individual)", coverage: "Part A Premium Only", icon: "shield", notes: "For disabled workers who lost premium-free Part A" }],
-    planBreakdowns: [
-      {
-        planName: "QMB - Qualified Medicare Beneficiary",
-        icon: "shield",
-        iconColor: "#059669",
-        coverageLabel: "Most Comprehensive",
-        coverageType: "covered",
-        paragraphs: [
-          "QMB is the most comprehensive Medicare Savings Program. It pays your Part A premium (if applicable), Part B premium ($202.90/month in 2026), Part A and Part B deductibles, and Part A and Part B copays and coinsurance. QMB enrollees are also automatically enrolled in Extra Help (Low Income Subsidy) for Part D.",
-          "Providers are prohibited by law from billing QMB enrollees for Medicare cost-sharing. If a provider bills you for copays or deductibles and you have QMB, you have the right to refuse payment and report the billing to your State Medical Assistance office."],
-        whatItCovers: [
-          "2026 income limit: $1,255/month (individual), $1,704/month (couple)",
-          "Resource limit: $9,660 (individual), $14,470 (couple) - excludes home, one car, burial funds",
-          "Pays Part A & B premiums, deductibles, copays, and coinsurance",
-          "Providers cannot legally bill QMB enrollees for Medicare cost-sharing",
-          "Automatically qualifies you for Extra Help (Part D LIS)"],
-        whatItDoesntCover: [
-          "Does not cover Part D drug costs (separate Extra Help program applies)",
-          "Does not cover Medigap premiums",
-          "Does not cover Medicare Advantage plan premiums beyond Part B"],
-      },
-      {
-        planName: "SLMB - Specified Low-Income Medicare Beneficiary",
-        icon: "dollar-sign",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Part B Premium Only",
-        coverageType: "partial",
-        paragraphs: [
-          "SLMB pays your Part B premium ($202.90/month in 2026) only. It does not pay deductibles, copays, or coinsurance. Like QMB, SLMB automatically qualifies you for Extra Help for Part D."],
-        whatItCovers: [
-          "2026 income limit: $1,506/month (individual), $2,044/month (couple)",
-          "Resource limit: $9,660 (individual), $14,470 (couple)",
-          "Pays Part B premium only ($202.90/month in 2026)",
-          "Does not cover deductibles, copays, or coinsurance",
-          "Automatically qualifies you for Extra Help (Part D LIS)"],
-        whatItDoesntCover: [
-          "Does not pay Part A premiums or cost-sharing",
-          "Does not cover Part D costs (apply separately for Extra Help)",
-          "Does not cover dental, vision, or hearing services"],
-      },
-      {
-        planName: "QI - Qualifying Individual",
-        icon: "users",
-        iconColor: "#7C3AED",
-        coverageLabel: "Part B Premium Only",
-        coverageType: "partial",
-        paragraphs: [
-          "QI pays your Part B premium only, similar to SLMB, but has a slightly higher income limit. QI funding is limited - states receive a fixed annual allotment and enroll beneficiaries on a first-come, first-served basis. You must reapply each year, and prior QI enrollees get priority.",
-          "Unlike QMB and SLMB, QI does not automatically qualify you for Extra Help, but you can apply for Extra Help separately."],
-        whatItCovers: [
-          "2026 income limit: $1,694/month (individual), $2,298/month (couple)",
-          "Resource limit: $9,660 (individual), $14,470 (couple)",
-          "Pays Part B premium only",
-          "Limited slots - first-come, first-served; reapply annually",
-          "Does NOT automatically qualify for Extra Help"],
-        whatItDoesntCover: [
-          "Does not cover Part A premiums or cost-sharing",
-          "Does not cover Part D costs - apply for Extra Help separately",
-          "Slots are limited - not all eligible applicants may be enrolled"],
-        callout: {
-          type: "warning",
-          title: "Apply Early for QI",
-          text: "QI funding is capped each year. Apply as early as possible - states stop accepting applications once the allotment is exhausted. Prior enrollees get priority.",
-        },
-      },
-      {
-        planName: "QDWI - Qualified Disabled and Working Individual",
-        icon: "activity",
-        iconColor: "#D97706",
-        coverageLabel: "Part A Premium Only",
-        coverageType: "partial",
-        paragraphs: [
-          "QDWI is a narrow program for disabled individuals under 65 who lost premium-free Part A because they returned to work. It pays the Part A premium ($505/month in 2026 for those with fewer than 30 quarters of work). QDWI has stricter income and resource limits than the other MSPs."],
-        whatItCovers: [
-          "2026 income limit: $4,615/month (individual), $6,189/month (couple) - but must not qualify for Medicaid",
-          "Resource limit: $4,000 (individual), $6,000 (couple)",
-          "Pays Part A premium only ($505/month in 2026 for under 30 quarters)",
-          "For disabled workers under 65 who returned to work",
-          "Does NOT pay Part B premium or cost-sharing"],
-        whatItDoesntCover: [
-          "Does not cover Part B premiums or cost-sharing",
-          "Does not cover Part D costs",
-          "Only available to working disabled individuals - not standard retirees"],
-      },
-      {
-        planName: "How to Apply for a Medicare Savings Program",
-        icon: "file-text",
-        iconColor: "#0369A1",
-        coverageLabel: "Apply Through Your State",
-        coverageType: "covered",
-        paragraphs: [
-          "MSPs are administered by state Medicaid agencies, not Medicare directly. To apply, contact your state Medicaid office or call 1-800-MEDICARE (1-800-633-4227). You can also apply online in many states through Benefits.gov.",
-          "If you are already enrolled in Medicaid, you may automatically qualify for QMB. States are required to screen all Medicaid applicants for MSP eligibility."],
-        whatItCovers: [
-          "Apply through your state Medicaid office or Benefits.gov",
-          "Call 1-800-MEDICARE for referral to your state office",
-          "Medicaid enrollees may be auto-enrolled in QMB",
-          "Benefits are retroactive to the month you apply in most states",
-          "Reapply annually - benefits do not automatically renew in all states"],
-        whatItDoesntCover: [
-          "Does not guarantee enrollment - income and resource limits apply",
-          "Does not cover Medigap or Medicare Advantage plan premiums",
-          "Does not provide retroactive coverage before application date"],
-      }],
-    costTable: {
-      title: "2026 Medicare Savings Program Comparison",
-      headers: ["Program", "Income Limit (Individual)", "Income Limit (Couple)", "What It Pays", "Extra Help?"],
-      rows: [
-        { program: "QMB", individual: "$1,255/month", couple: "$1,704/month", pays: "Part A & B premiums + deductibles + copays", extraHelp: "Yes (automatic)" },
-        { program: "SLMB", individual: "$1,506/month", couple: "$2,044/month", pays: "Part B premium only", extraHelp: "Yes (automatic)" },
-        { program: "QI", individual: "$1,694/month", couple: "$2,298/month", pays: "Part B premium only (limited slots)", extraHelp: "No (apply separately)" },
-        { program: "QDWI", individual: "$4,615/month", couple: "$6,189/month", pays: "Part A premium only", extraHelp: "No" }],
-      footnote: "Income limits are approximate 2026 figures. Resource limits: $9,660 (individual) / $14,470 (couple) for QMB/SLMB/QI; $4,000/$6,000 for QDWI. Some states have higher limits.",
-    },
-    exceptionsSection: {
-      title: "Important Exceptions and Notes",
-      items: [
-        {
-          title: "Some States Have Higher Income Limits",
-          text: "Federal rules set minimum income limits, but states can choose to be more generous. Connecticut, Maine, and several other states have higher MSP income thresholds. Always check with your state Medicaid office for the most current limits.",
-        },
-        {
-          title: "QMB Billing Protections",
-          text: "Providers who accept Medicare are prohibited from billing QMB enrollees for Medicare cost-sharing. If you are billed, you can report the provider to your State Medical Assistance office or call 1-800-MEDICARE.",
-        },
-        {
-          title: "Resources That Don't Count",
-          text: "Your primary home, one vehicle, household goods, burial funds (up to $1,500), and life insurance with cash value under $1,500 are generally excluded from resource calculations.",
-        },
-        {
-          title: "MSP and Medigap",
-          text: "If you have QMB, you generally do not need a Medigap plan because QMB covers most cost-sharing. However, if you have SLMB or QI (which only pay Part B premium), a Medigap plan can still help with deductibles and copays.",
-        }],
-    },
-    legislativeUpdate: {
-      title: "Recent Legislative and Regulatory Updates",
-      items: [
-        {
-          title: "2026 MSP Income Limits Updated",
-          status: "Passed",
-          description: "CMS updated MSP income limits for 2026 based on the Federal Poverty Level. QMB individual limit is approximately $1,255/month; SLMB $1,506/month; QI $1,694/month.",
-        },
-        {
-          title: "IRA Expanded Extra Help to 150% FPL",
-          status: "Passed",
-          description: "The Inflation Reduction Act expanded Extra Help eligibility to 150% of the Federal Poverty Level starting in 2024, making more beneficiaries eligible for Part D cost reductions.",
-        },
-        {
-          title: "H.R. 1 Medicaid Work Requirements",
-          status: "Proposed",
-          description: "Proposed legislation would add work requirements for certain Medicaid enrollees. If enacted, this could affect MSP eligibility for some beneficiaries who qualify through Medicaid.",
-        }],
-    },
-    faqs: [
-      {
-        question: "What is the Difference between QMB and SLMB?",
-        answer: "QMB is more comprehensive - it pays Part A and B premiums plus deductibles and copays. SLMB only pays the Part B premium. Both automatically qualify you for Extra Help.",
-      },
-      {
-        question: "Can I Have a Medicare Savings Program and Medigap at the Same Time?",
-        answer: "Yes, but if you have QMB, Medigap is usually unnecessary since QMB covers most cost-sharing. SLMB and QI enrollees may still benefit from Medigap for deductibles and copays.",
-      },
-      {
-        question: "How do I Apply for a Medicare Savings Program?",
-        answer: "Contact your state Medicaid office, visit Benefits.gov, or call 1-800-MEDICARE. Applications are processed by your state, not by Medicare directly.",
-      },
-      {
-        question: "Do Medicare Savings Programs Renew Automatically?",
-        answer: "Not always. Most states require annual reapplication. QI enrollees must reapply each year, and prior enrollees get priority for limited slots.",
-      },
-      {
-        question: "Does Having a Medicare Savings Program Affect My Medicare Coverage?",
-        answer: "No - your Medicare benefits remain the same. MSPs only help pay your costs; they do not change what Medicare covers.",
-      }],
-    quickReference: [
-      { icon: "dollar", text: "QMB pays the most: Part A & B premiums + deductibles + copays" },
-      { icon: "info", text: "SLMB and QI pay Part B premium only ($202.90/month in 2026)" },
-      { icon: "check", text: "QMB and SLMB automatically qualify you for Extra Help (Part D LIS)" },
-      { icon: "alert", text: "QI has limited slots - apply early each year" },
-      { icon: "info", text: "Apply through your state Medicaid office, not Medicare directly" }],
-    relatedTopics: [
-      { title: "Qualified Medicare Beneficiary Program", description: "Deep dive into QMB eligibility and billing protections.", slug: "qualified-medicare-beneficiary-program" },
-      { title: "Medicare Extra Help Program", description: "How Extra Help reduces Part D drug costs.", slug: "medicare-extra-help-program" },
-      { title: "Reduce Medicare Premiums", description: "5 strategies to lower your monthly Medicare costs.", slug: "reduce-medicare-premiums" },
-      { title: "Medicare vs. Medicaid", description: "Key differences between Medicare and Medicaid.", slug: "medicare-vs-medicaid" }],
-    sidebarRelatedLinks: ["qualified-medicare-beneficiary-program", "medicare-extra-help-program", "reduce-medicare-premiums"],
-    ctaBanner: {
-      title: "Think You May Qualify for a Medicare Savings Program?",
-      text: "Our licensed agents can help you determine eligibility and connect you with your state Medicaid office to apply.",
-    },
-    relatedSlugs: ["qualified-medicare-beneficiary-program", "medicare-extra-help-program", "reduce-medicare-premiums", "irmaa", "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs"],
+    description: "Medicare Savings Programs help low-income beneficiaries pay Part A and Part B premiums, deductibles, and copays. Learn about QMB, SLMB, QI, and QDWI eligibility and how to apply.",
+    canonical: "https://www.medicarefaq.com/faqs/medicare-savings-programs/",
+    ogImage: "/images/medicarefaq-cover.jpg",
   },
+  title: "Medicare Savings Programs: QMB, SLMB, QI, and QDWI Explained (2026)",
+  subtitle: "Medicare Savings Programs (MSPs) are state-run programs that help people with limited income and resources pay for Medicare costs. There are four types: QMB, SLMB, QI, and QDWI.",
+  category: "Costs & Savings",
+  dateUpdated: "April 29, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is a licensed Medicare expert who helps beneficiaries understand their Medicare options.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
+  },
+  readTime: "7 min read",
+  quickAnswer: {
+    text: "Medicare Savings Programs (MSPs) are state-administered programs funded jointly by states and the federal government that help people with limited income and resources pay Medicare costs. There are four types: QMB covers Part A and B premiums plus cost-sharing, SLMB covers only the Part B premium, QI also covers the Part B premium but for a slightly higher income group, and QDWI covers only the Part A premium for certain working disabled individuals. Each state sets its own income and resource limits within federal guidelines.",
+    badges: [
+      {
+        plan: "QMB",
+        status: "covered",
+      },
+      {
+        plan: "SLMB",
+        status: "partial",
+      },
+      {
+        plan: "QI",
+        status: "partial",
+      },
+      {
+        plan: "QDWI",
+        status: "partial",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "QMB (Qualified Medicare Beneficiary)",
+      coverage: "Most Comprehensive",
+      icon: "shield",
+      notes: "Pays Part A & B premiums + deductibles + copays",
+    },
+    {
+      planType: "SLMB (Specified Low-Income Medicare Beneficiary)",
+      coverage: "Part B Premium Only",
+      icon: "shield",
+      notes: "Pays Part B premium only",
+    },
+    {
+      planType: "QI (Qualifying Individual)",
+      coverage: "Part B Premium Only",
+      icon: "shield",
+      notes: "Pays Part B premium; limited slots, first-come basis",
+    },
+    {
+      planType: "QDWI (Qualified Disabled & Working Individual)",
+      coverage: "Part A Premium Only",
+      icon: "shield",
+      notes: "For disabled workers who lost premium-free Part A",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "QMB - Qualified Medicare Beneficiary",
+      icon: "shield",
+      iconColor: "#059669",
+      coverageLabel: "Most Comprehensive",
+      coverageType: "covered",
+      paragraphs: [
+      "QMB is the most comprehensive Medicare Savings Program. It pays your Part A premium (if applicable), Part B premium ($202.90/month in 2026), Part A and Part B deductibles, and Part A and Part B copays and coinsurance. QMB enrollees are also automatically enrolled in Extra Help (Low Income Subsidy) for Part D.",
+      "Providers are prohibited by law from billing QMB enrollees for Medicare cost-sharing. If a provider bills you for copays or deductibles and you have QMB, you have the right to refuse payment and report the billing to your State Medical Assistance office.",
+    ],
+      whatItCovers: [
+      "2026 income limit: $1,255/month (individual), $1,704/month (couple)",
+      "Resource limit: $9,660 (individual), $14,470 (couple) - excludes home, one car, burial funds",
+      "Pays Part A & B premiums, deductibles, copays, and coinsurance",
+      "Providers cannot legally bill QMB enrollees for Medicare cost-sharing",
+      "Automatically qualifies you for Extra Help (Part D LIS)",
+    ],
+      whatItDoesntCover: [
+      "Does not cover Part D drug costs (separate Extra Help program applies)",
+      "Does not cover Medigap premiums",
+      "Does not cover Medicare Advantage plan premiums beyond Part B",
+    ],
+    },
+    {
+      planName: "SLMB - Specified Low-Income Medicare Beneficiary",
+      icon: "dollar-sign",
+      iconColor: "#1B2A4A",
+      coverageLabel: "Part B Premium Only",
+      coverageType: "partial",
+      paragraphs: [
+      "SLMB pays your Part B premium ($202.90/month in 2026) only. It does not pay deductibles, copays, or coinsurance. Like QMB, SLMB automatically qualifies you for Extra Help for Part D.",
+    ],
+      whatItCovers: [
+      "2026 income limit: $1,506/month (individual), $2,044/month (couple)",
+      "Resource limit: $9,660 (individual), $14,470 (couple)",
+      "Pays Part B premium only ($202.90/month in 2026)",
+      "Does not cover deductibles, copays, or coinsurance",
+      "Automatically qualifies you for Extra Help (Part D LIS)",
+    ],
+      whatItDoesntCover: [
+      "Does not pay Part A premiums or cost-sharing",
+      "Does not cover Part D costs (apply separately for Extra Help)",
+      "Does not cover dental, vision, or hearing services",
+    ],
+    },
+    {
+      planName: "QI - Qualifying Individual",
+      icon: "users",
+      iconColor: "#7C3AED",
+      coverageLabel: "Part B Premium Only",
+      coverageType: "partial",
+      paragraphs: [
+      "QI pays your Part B premium only, similar to SLMB, but has a slightly higher income limit. QI funding is limited - states receive a fixed annual allotment and enroll beneficiaries on a first-come, first-served basis. You must reapply each year, and prior QI enrollees get priority.",
+      "Unlike QMB and SLMB, QI does not automatically qualify you for Extra Help, but you can apply for Extra Help separately.",
+    ],
+      whatItCovers: [
+      "2026 income limit: $1,694/month (individual), $2,298/month (couple)",
+      "Resource limit: $9,660 (individual), $14,470 (couple)",
+      "Pays Part B premium only",
+      "Limited slots - first-come, first-served; reapply annually",
+      "Does NOT automatically qualify for Extra Help",
+    ],
+      whatItDoesntCover: [
+      "Does not cover Part A premiums or cost-sharing",
+      "Does not cover Part D costs - apply for Extra Help separately",
+      "Slots are limited - not all eligible applicants may be enrolled",
+    ],
+      callout: {
+      type: "warning",
+      title: "Apply Early for QI",
+      text: "QI funding is capped each year. Apply as early as possible - states stop accepting applications once the allotment is exhausted. Prior enrollees get priority.",
+    },
+    },
+    {
+      planName: "QDWI - Qualified Disabled and Working Individual",
+      icon: "activity",
+      iconColor: "#D97706",
+      coverageLabel: "Part A Premium Only",
+      coverageType: "partial",
+      paragraphs: [
+      "QDWI is a narrow program for disabled individuals under 65 who lost premium-free Part A because they returned to work. It pays the Part A premium ($505/month in 2026 for those with fewer than 30 quarters of work). QDWI has stricter income and resource limits than the other MSPs.",
+    ],
+      whatItCovers: [
+      "2026 income limit: $4,615/month (individual), $6,189/month (couple) - but must not qualify for Medicaid",
+      "Resource limit: $4,000 (individual), $6,000 (couple)",
+      "Pays Part A premium only ($505/month in 2026 for under 30 quarters)",
+      "For disabled workers under 65 who returned to work",
+      "Does NOT pay Part B premium or cost-sharing",
+    ],
+      whatItDoesntCover: [
+      "Does not cover Part B premiums or cost-sharing",
+      "Does not cover Part D costs",
+      "Only available to working disabled individuals - not standard retirees",
+    ],
+    },
+    {
+      planName: "How to Apply for a Medicare Savings Program",
+      icon: "file-text",
+      iconColor: "#0369A1",
+      coverageLabel: "Apply Through Your State",
+      coverageType: "covered",
+      paragraphs: [
+      "MSPs are administered by state Medicaid agencies, not Medicare directly. To apply, contact your state Medicaid office or call 1-800-MEDICARE (1-800-633-4227). You can also apply online in many states through Benefits.gov.",
+      "If you are already enrolled in Medicaid, you may automatically qualify for QMB. States are required to screen all Medicaid applicants for MSP eligibility.",
+    ],
+      whatItCovers: [
+      "Apply through your state Medicaid office or Benefits.gov",
+      "Call 1-800-MEDICARE for referral to your state office",
+      "Medicaid enrollees may be auto-enrolled in QMB",
+      "Benefits are retroactive to the month you apply in most states",
+      "Reapply annually - benefits do not automatically renew in all states",
+    ],
+      whatItDoesntCover: [
+      "Does not guarantee enrollment - income and resource limits apply",
+      "Does not cover Medigap or Medicare Advantage plan premiums",
+      "Does not provide retroactive coverage before application date",
+    ],
+    },
+  ],
+  costTable: {
+    title: "2026 Medicare Savings Program Comparison",
+    headers: [
+    "Program",
+    "Income Limit (Individual)",
+    "Income Limit (Couple)",
+    "What It Pays",
+    "Extra Help?",
+  ],
+    rows: [
+      {
+        "program": "QMB",
+        "individual": "$1,255/month",
+        "couple": "$1,704/month",
+        "pays": "Part A & B premiums + deductibles + copays",
+        "extraHelp": "Yes (automatic)",
+      },
+      {
+        "program": "SLMB",
+        "individual": "$1,506/month",
+        "couple": "$2,044/month",
+        "pays": "Part B premium only",
+        "extraHelp": "Yes (automatic)",
+      },
+      {
+        "program": "QI",
+        "individual": "$1,694/month",
+        "couple": "$2,298/month",
+        "pays": "Part B premium only (limited slots)",
+        "extraHelp": "No (apply separately)",
+      },
+      {
+        "program": "QDWI",
+        "individual": "$4,615/month",
+        "couple": "$6,189/month",
+        "pays": "Part A premium only",
+        "extraHelp": "No",
+      },
+    ],
+    footnote: "Income limits are approximate 2026 figures. Resource limits: $9,660 (individual) / $14,470 (couple) for QMB/SLMB/QI; $4,000/$6,000 for QDWI. Some states have higher limits.",
+  },
+  exceptionsSection: {
+    title: "Important Exceptions and Notes",
+    items: [
+      {
+        title: "Some States Have Higher Income Limits",
+        text: "Federal rules set minimum income limits, but states can choose to be more generous. Connecticut, Maine, and several other states have higher MSP income thresholds. Always check with your state Medicaid office for the most current limits.",
+      },
+      {
+        title: "QMB Billing Protections",
+        text: "Providers who accept Medicare are prohibited from billing QMB enrollees for Medicare cost-sharing. If you are billed, you can report the provider to your State Medical Assistance office or call 1-800-MEDICARE.",
+      },
+      {
+        title: "Resources That Don't Count",
+        text: "Your primary home, one vehicle, household goods, burial funds (up to $1,500), and life insurance with cash value under $1,500 are generally excluded from resource calculations.",
+      },
+      {
+        title: "MSP and Medigap",
+        text: "If you have QMB, you generally do not need a Medigap plan because QMB covers most cost-sharing. However, if you have SLMB or QI (which only pay Part B premium), a Medigap plan can still help with deductibles and copays.",
+      },
+    ],
+  },
+  legislativeUpdate: {
+    title: "Recent Legislative and Regulatory Updates",
+    items: [
+      {
+        title: "2026 MSP Income Limits Updated",
+        status: "Passed",
+        description: "CMS updated MSP income limits for 2026 based on the Federal Poverty Level. QMB individual limit is approximately $1,255/month; SLMB $1,506/month; QI $1,694/month.",
+      },
+      {
+        title: "IRA Expanded Extra Help to 150% FPL",
+        status: "Passed",
+        description: "The Inflation Reduction Act expanded Extra Help eligibility to 150% of the Federal Poverty Level starting in 2024, making more beneficiaries eligible for Part D cost reductions.",
+      },
+      {
+        title: "H.R. 1 Medicaid Work Requirements",
+        status: "Proposed",
+        description: "Proposed legislation would add work requirements for certain Medicaid enrollees. If enacted, this could affect MSP eligibility for some beneficiaries who qualify through Medicaid.",
+      },
+    ],
+  },
+  faqs: [
+    {
+      question: "What is the Difference between QMB and SLMB?",
+      answer: "QMB is more comprehensive - it pays Part A and B premiums plus deductibles and copays. SLMB only pays the Part B premium. Both automatically qualify you for Extra Help.",
+    },
+    {
+      question: "Can I Have a Medicare Savings Program and Medigap at the Same Time?",
+      answer: "Yes, but if you have QMB, Medigap is usually unnecessary since QMB covers most cost-sharing. SLMB and QI enrollees may still benefit from Medigap for deductibles and copays.",
+    },
+    {
+      question: "How do I Apply for a Medicare Savings Program?",
+      answer: "Contact your state Medicaid office, visit Benefits.gov, or call 1-800-MEDICARE. Applications are processed by your state, not by Medicare directly.",
+    },
+    {
+      question: "Do Medicare Savings Programs Renew Automatically?",
+      answer: "Not always. Most states require annual reapplication. QI enrollees must reapply each year, and prior enrollees get priority for limited slots.",
+    },
+    {
+      question: "Does Having a Medicare Savings Program Affect My Medicare Coverage?",
+      answer: "No - your Medicare benefits remain the same. MSPs only help pay your costs; they do not change what Medicare covers.",
+    },
+    {
+      question: "What Happens if I No Longer Qualify for a Medicare Savings Program?",
+      answer: "If your income or resources rise above your state's limit, your state Medicaid office will typically notify you and end your Medicare Savings Program coverage. You can reapply later if your circumstan",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "dollar",
+      text: "QMB pays the most: Part A & B premiums + deductibles + copays",
+    },
+    {
+      icon: "info",
+      text: "SLMB and QI pay Part B premium only ($202.90/month in 2026)",
+    },
+    {
+      icon: "check",
+      text: "QMB and SLMB automatically qualify you for Extra Help (Part D LIS)",
+    },
+    {
+      icon: "alert",
+      text: "QI has limited slots - apply early each year",
+    },
+    {
+      icon: "info",
+      text: "Apply through your state Medicaid office, not Medicare directly",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Qualified Medicare Beneficiary Program",
+      description: "Deep dive into QMB eligibility and billing protections.",
+      slug: "qualified-medicare-beneficiary-program",
+    },
+    {
+      title: "Medicare Extra Help Program",
+      description: "How Extra Help reduces Part D drug costs.",
+      slug: "medicare-extra-help-program",
+    },
+    {
+      title: "Reduce Medicare Premiums",
+      description: "5 strategies to lower your monthly Medicare costs.",
+      slug: "reduce-medicare-premiums",
+    },
+    {
+      title: "Medicare vs. Medicaid",
+      description: "Key differences between Medicare and Medicaid.",
+      slug: "medicare-vs-medicaid",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "qualified-medicare-beneficiary-program",
+    "medicare-extra-help-program",
+    "reduce-medicare-premiums",
+  ],
+  ctaBanner: {
+    title: "Think You May Qualify for a Medicare Savings Program?",
+    text: "Our licensed agents can help you determine eligibility and connect you with your state Medicaid office to apply.",
+  },
+  relatedSlugs: [
+    "qualified-medicare-beneficiary-program",
+    "medicare-extra-help-program",
+    "reduce-medicare-premiums",
+    "irmaa",
+    "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs",
+  ],
+},
   {
     slug: "what-is-medicare-cost-sharing",
     seo: {
