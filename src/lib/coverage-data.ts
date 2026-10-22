@@ -36289,216 +36289,344 @@ export const coverageArticles: CoverageArticleData[] = [
   },
 
   {
-    slug: "medicare-replacement-plans",
-    seo: {
-      title: "Medicare Replacement Plans: What They are and How They Work",
-      description: "Medicare replacement plans - officially called Medicare Advantage plans - replace Original Medicare with private insurance coverage. Learn how they work, what they cover, and whether one is right for you.",
-      canonical: "https://www.medicarefaq.com/faqs/medicare-replacement-plans/",
-      ogImage: "/images/medicarefaq-cover.jpg",
-    },
-    title: "What is a Medicare Replacement Plan?",
-    subtitle: "How Medicare Advantage Plans Replace Original Medicare - and What that Means for You",
-    category: "Medicare Advantage",
-    dateUpdated: "April 30, 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is the CTO and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. A Forbes Finance Council member, he leads the technology and editorial strategy behind one of America's most trusted Medicare education resources.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is the Compliance and Editorial Manager at MedicareFAQ, ensuring all Medicare content is accurate, up-to-date, and compliant with CMS guidelines.",
-    },
-    readTime: "8 min read",
-    quickAnswer: {
-      text: "A Medicare replacement plan is an informal term for Medicare Advantage (Part C). These are private insurance plans that replace Original Medicare (Parts A and B) as your primary coverage. You must still pay your Part B premium, and the plan must cover everything Original Medicare covers - but it can also add extra benefits like dental, vision, and hearing. The key trade-off is network restrictions and prior authorization requirements.",
-      badges: [
-        { plan: "Original Medicare", status: "not-covered" },
-        { plan: "Medicare Advantage (Part C)", status: "covered" },
-        { plan: "Medigap", status: "not-covered" },
-        { plan: "Part D", status: "covered" }],
-    },
-    comparisonTable: [
-      { planType: "Original Medicare (Parts A & B)", coverage: "Replaced", icon: "X", notes: "When you enroll in a Medicare Advantage plan, the private plan - not Original Medicare - pays your claims. You keep your Medicare number but the plan manages your benefits." },
-      { planType: "Medicare Advantage (Part C)", coverage: "Replaces Original Medicare", icon: "CheckCircle", notes: "Must cover everything Original Medicare covers, plus often adds dental, vision, hearing, and Part D drug coverage." },
-      { planType: "Medigap (Medicare Supplement)", coverage: "Not Compatible", icon: "X", notes: "You cannot use a Medigap plan with a Medicare Advantage plan. Medigap only works with Original Medicare." },
-      { planType: "Part D (Prescription Drugs)", coverage: "Usually Included", icon: "CheckCircle", notes: "Most Medicare Advantage plans include Part D drug coverage (MAPD). Standalone Part D plans are not needed if your MA plan includes drug coverage." }],
-    planBreakdowns: [
-      {
-        planName: "What 'Replacement' Actually Means",
-        icon: "Shield",
-        iconColor: "text-teal-600",
-        coverageLabel: "Primary Coverage",
-        coverageType: "covered",
-        paragraphs: [
-          "The term 'Medicare replacement plan' is not an official Medicare term - it is a colloquial name used to describe Medicare Advantage plans. When you enroll in a Medicare Advantage plan, you are not leaving Medicare. You remain a Medicare beneficiary and must continue paying your Part B premium. However, the private insurance company - not the federal government - becomes the primary payer for your healthcare claims.",
-          "By law, every Medicare Advantage plan must cover at least the same services as Original Medicare Parts A and B. The plan cannot reduce or eliminate any benefit that Original Medicare provides. What changes is how you access care: through the plan's network, with the plan's cost-sharing structure, and subject to the plan's prior authorization requirements."],
-        whatItCovers: [
-          "All services covered by Original Medicare Parts A and B",
-          "Often includes Part D prescription drug coverage (MAPD)",
-          "Often includes extra benefits: dental, vision, hearing, fitness programs",
-          "Annual out-of-pocket maximum (Original Medicare has no cap)",
-          "May include transportation, meal delivery, and OTC allowances"],
-        whatItDoesntCover: [
-          "Out-of-network care (for HMO plans - PPOs allow it at higher cost)",
-          "Services not covered by Original Medicare or your specific plan",
-          "Medigap cannot be used to fill cost-sharing gaps in MA plans"],
-        callout: {
-          type: "info",
-          title: "You Still Have Medicare",
-          text: "Enrolling in a Medicare Advantage plan does not mean you lose Medicare. You remain a Medicare beneficiary, keep your Medicare number, and can return to Original Medicare during the Annual Enrollment Period. The private plan simply manages your benefits on Medicare's behalf.",
-        },
-      },
-      {
-        planName: "Types of Medicare Replacement Plans",
-        icon: "Users",
-        iconColor: "text-blue-600",
-        coverageLabel: "HMO, PPO, PFFS, SNP",
-        coverageType: "covered",
-        paragraphs: [
-          "Medicare Advantage plans come in several types, each with different network and referral rules. The most common are Health Maintenance Organizations (HMOs) and Preferred Provider Organizations (PPOs). HMOs require you to use in-network providers and typically require referrals to see specialists. PPOs allow you to see out-of-network providers at a higher cost and usually don't require referrals.",
-          "Special Needs Plans (SNPs) are a specialized type of Medicare Advantage plan designed for people with specific conditions or circumstances - such as dual eligibility for Medicare and Medicaid (D-SNPs), chronic conditions like diabetes or heart failure (C-SNPs), or residents of long-term care facilities (I-SNPs). SNPs often provide more tailored benefits for their target populations."],
-        whatItCovers: [
-          "HMO: In-network care only; referrals usually required for specialists",
-          "PPO: In-network and out-of-network care; no referrals required",
-          "PFFS: Private Fee-for-Service; providers must accept plan terms",
-          "SNP: Specialized plans for dual-eligible, chronically ill, or institutionalized beneficiaries",
-          "HMO-POS: HMO with a point-of-service option for some out-of-network care"],
-        whatItDoesntCover: [
-          "HMO plans: Out-of-network care (except emergencies)",
-          "SNPs: Enrollment is restricted to qualifying individuals"],
-        costNote: "$ Cost: Many Medicare Advantage plans have $0 monthly premiums (you still pay your Part B premium). Copays, coinsurance, and deductibles vary by plan. All plans have an annual out-of-pocket maximum.",
-      },
-      {
-        planName: "Medicare Advantage vs. Original Medicare ++ Medigap",
-        icon: "BarChart",
-        iconColor: "text-indigo-600",
-        coverageLabel: "Key Trade-offs",
-        coverageType: "partial",
-        paragraphs: [
-          "The choice between a Medicare replacement plan (Medicare Advantage) and Original Medicare with a Medigap supplement is one of the most important decisions a Medicare beneficiary makes. Both paths have meaningful advantages and trade-offs.",
-          "Medicare Advantage plans often have lower monthly premiums and include extra benefits like dental and vision. However, they come with network restrictions, prior authorization requirements, and variable out-of-pocket costs. Original Medicare with Medigap offers nationwide provider access with predictable costs, but Medigap premiums can be significant and dental/vision coverage requires separate policies."],
-        whatItCovers: [
-          "Medicare Advantage: Lower premiums, extra benefits, annual OOP maximum",
-          "Original Medicare + Medigap: No network restrictions, predictable costs, nationwide access",
-          "Medicare Advantage: Often includes Part D drug coverage",
-          "Original Medicare + Medigap: Works with any Medicare-accepting provider in the U.S."],
-        whatItDoesntCover: [
-          "Medicare Advantage: Out-of-network care (HMO plans), prior authorization delays",
-          "Original Medicare: No OOP maximum, no dental/vision/hearing without add-ons"],
-        callout: {
-          type: "tip",
-          title: "Consider Your Healthcare Needs",
-          text: "If you have preferred doctors or specialists, check whether they are in-network before choosing a Medicare Advantage plan. If you travel frequently or live in multiple states, Original Medicare with Medigap may offer more flexibility.",
-        },
-      }],
-    costTable: {
-      title: "Medicare Advantage vs. Original Medicare ++ Medigap (2026)",
-      headers: ["Feature", "Medicare Advantage", "Original Medicare + Medigap"],
-      rows: [
-        { "Feature": "Monthly premium", "Medicare Advantage": "Often $0 (+ Part B premium)", "Original Medicare + Medigap": "Part B premium + Medigap premium ($100–$300+/mo)" },
-        { "Feature": "Network restrictions", "Medicare Advantage": "Yes - HMOs require in-network", "Original Medicare + Medigap": "No - any Medicare-accepting provider" },
-        { "Feature": "Out-of-pocket maximum", "Medicare Advantage": "Yes - required by law (up to $9,350 in-network in 2026)", "Original Medicare + Medigap": "No OOP max on Original Medicare; Medigap covers most gaps" },
-        { "Feature": "Dental/vision/hearing", "Medicare Advantage": "Often included", "Original Medicare + Medigap": "Not included - requires separate policy" },
-        { "Feature": "Part D drug coverage", "Medicare Advantage": "Usually included (MAPD)", "Original Medicare + Medigap": "Requires separate Part D plan" },
-        { "Feature": "Prior authorization", "Medicare Advantage": "Common for many services", "Original Medicare + Medigap": "Rare" },
-        { "Feature": "Referrals required", "Medicare Advantage": "Yes (HMO); No (PPO)", "Original Medicare + Medigap": "No" },
-        { "Feature": "Nationwide coverage", "Medicare Advantage": "Limited (HMO); Broader (PPO)", "Original Medicare + Medigap": "Yes - any Medicare provider in the U.S." }],
-      footnote: "Costs and benefits vary by plan and location. Compare plans at [Medicare.gov](https://www.medicare.gov/) or speak with a licensed Medicare specialist.",
-    },
-    exceptionsSection: {
-      title: "Important Rules about Medicare Replacement Plans",
-      items: [
-        {
-          title: "You Must Keep Part B",
-          text: "To enroll in a Medicare Advantage plan, you must be enrolled in both Medicare Part A and Part B and continue paying your Part B premium. The Medicare Advantage plan does not replace your Part B premium - it replaces Original Medicare as your primary coverage.",
-          highlight: "Part B premium still applies - typically $202.90/month in 2026",
-        },
-        {
-          title: "You Can Return to Original Medicare",
-          text: "If you enroll in a Medicare Advantage plan and later decide it isn't right for you, you can switch back to Original Medicare during the Annual Enrollment Period (October 15 – December 7) or the Medicare Advantage Open Enrollment Period (January 1 – March 31). However, if you switch back, you may not be able to get a Medigap plan without medical underwriting, depending on your state.",
-          highlight: "Switching back to Original Medicare may make Medigap harder to obtain",
-        },
-        {
-          title: "Emergency Care is Always Covered",
-          text: "Medicare Advantage plans must cover emergency care anywhere in the United States, regardless of network. If you have a medical emergency, you can go to the nearest emergency room and your plan must cover it at in-network cost-sharing rates.",
-          highlight: "Emergency care is always covered - no prior authorization required",
-        }],
-    },
-    decisionSection: {
-      title: "Is a Medicare Replacement Plan Right for You?",
-      paragraphs: [
-        "A Medicare Advantage plan may be a good fit if you want lower monthly premiums, appreciate having dental and vision coverage bundled in, and are comfortable using a network of providers. It works best for people who are generally healthy, have predictable healthcare needs, and live in an area with a strong Medicare Advantage network.",
-        "Original Medicare with a Medigap supplement may be a better fit if you have complex medical needs, see multiple specialists, travel frequently, or want the freedom to see any Medicare-accepting provider without referrals or prior authorization. The higher monthly premiums for Medigap can be offset by more predictable out-of-pocket costs."],
-      checklist: {
-        title: "Questions to Ask before Choosing",
-        type: "search",
-        items: [
-          "Are my current doctors and specialists in the plan's network?",
-          "Does the plan cover my prescription drugs at a reasonable cost?",
-          "What is the plan's annual out-of-pocket maximum?",
-          "Does the plan require referrals for specialist visits?",
-          "What extra benefits (dental, vision, hearing) does the plan include?",
-          "How does the plan handle care when I travel or am away from home?",
-          "What is the plan's star rating from CMS?"],
-      },
-    },
-    faqs: [
-      {
-        question: "Is a Medicare Replacement Plan the Same as Medicare Advantage?",
-        answer: "Yes. 'Medicare replacement plan' is an informal term for Medicare Advantage (Part C). These are private insurance plans approved by Medicare that replace Original Medicare as your primary coverage.",
-      },
-      {
-        question: "Do I Lose My Medicare if I Enroll in a Replacement Plan?",
-        answer: "No. You remain a Medicare beneficiary and keep your Medicare number. The private plan manages your benefits on Medicare's behalf, but you are still enrolled in Medicare and must continue paying your Part B premium.",
-      },
-      {
-        question: "Can I Have Both a Medicare Replacement Plan and a Medigap Plan?",
-        answer: "No. Medigap plans are designed to work with Original Medicare, not Medicare Advantage. You cannot use a Medigap plan to cover cost-sharing in a Medicare Advantage plan. You must choose one path: Original Medicare + Medigap, or Medicare Advantage.",
-      },
-      {
-        question: "What Happens if I See an Out-of-network Doctor with a Medicare Advantage Plan?",
-        answer: "It depends on your plan type. HMO plans generally do not cover out-of-network care except in emergencies. PPO plans allow out-of-network care but at a higher cost-sharing rate. Always check your plan's network before scheduling non-emergency care.",
-      },
-      {
-        question: "Can I Switch from Medicare Advantage Back to Original Medicare?",
-        answer: "Yes, during the Annual Enrollment Period (October 15 – December 7) or the Medicare Advantage Open Enrollment Period (January 1 – March 31). Be aware that if you switch back, you may face medical underwriting to get a Medigap plan in most states.",
-      },
-      {
-        question: "Do Medicare Replacement Plans Cover Prescription Drugs?",
-        answer: "Most Medicare Advantage plans include Part D prescription drug coverage (called MAPD plans). If your plan includes drug coverage, you do not need a separate Part D plan. A small number of Medicare Advantage plans do not include drug coverage - check your plan's details.",
-      }],
-    quickReference: [
-      { icon: "info", text: "'Medicare replacement plan' = Medicare Advantage (Part C)" },
-      { icon: "check", text: "Must cover everything Original Medicare covers" },
-      { icon: "check", text: "Annual out-of-pocket maximum required by law" },
-      { icon: "alert", text: "Cannot be combined with a Medigap plan" },
-      { icon: "alert", text: "Network restrictions apply - check your doctors are in-network" },
-      { icon: "dollar", text: "You still pay your Part B premium even with a $0-premium MA plan" }],
-    relatedTopics: [
-      { title: "Medicare Advantage vs. Medicare Supplement", description: "Side-by-side comparison of the two main ways to supplement Original Medicare.", slug: "the-essentials-medicare-supplement-vs-medicare-advantage-explained" },
-      { title: "Switching from Medicare Advantage to Medigap", description: "What to know before making the switch back to Original Medicare.", slug: "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan" },
-      { title: "Medigap vs. Medicare Advantage", description: "Detailed comparison of costs, coverage, and flexibility.", slug: "medigap-vs-medicare-advantage" },
-      { title: "Medicare Advantage Hidden Costs", description: "Out-of-pocket expenses that Medicare Advantage enrollees often don't expect.", slug: "medicare-advantage-uncovering-the-unexpected-out-of-pocket-expenses" }],
-    sidebarRelatedLinks: [
-      "the-essentials-medicare-supplement-vs-medicare-advantage-explained",
-      "medicare-advantage-uncovering-the-unexpected-out-of-pocket-expenses",
-      "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan",
-      "medigap-vs-medicare-advantage"],
-    ctaBanner: {
-      title: "Comparing Medicare Advantage Plans?",
-      text: "A licensed Medicare specialist can help you compare Medicare replacement plans in your area and find the right coverage for your needs and budget.",
-    },
-    relatedSlugs: [
-      "the-essentials-medicare-supplement-vs-medicare-advantage-explained",
-      "medicare-advantage-uncovering-the-unexpected-out-of-pocket-expenses",
-      "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan",
-      "medigap-vs-medicare-advantage", "what-dental-expenses-does-medicare-cover"],
+  slug: "medicare-replacement-plans",
+  seo: {
+    title: "Medicare Replacement Plan: What It Is & How It Works (2026)",
+    description: "Confused by the term 'Medicare replacement plan'? It's another name for Medicare Advantage. See how it works, what it covers, and the trade-offs before you enroll.",
+    canonical: "https://www.medicarefaq.com/faqs/medicare-replacement-plans/",
+    ogImage: "/images/medicarefaq-cover.jpg",
   },
+  title: "What is a Medicare Replacement Plan?",
+  subtitle: "How Medicare Advantage Plans Replace Original Medicare - and What that Means for You",
+  category: "Medicare Advantage",
+  dateUpdated: "April 30, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is the CTO and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. A Forbes Finance Council member, he leads the technology and editorial strategy behind one of America's most trusted Medicare education resources.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is the Compliance and Editorial Manager at MedicareFAQ, ensuring all Medicare content is accurate, up-to-date, and compliant with CMS guidelines.",
+  },
+  readTime: "8 min read",
+  quickAnswer: {
+    text: "A Medicare replacement plan is simply another name for a Medicare Advantage (Part C) plan. It's a private insurance plan that replaces Original Medicare (Parts A and B) as your primary coverage, while still requiring you to pay your Part B premium. By law, it must cover everything Original Medicare covers, and most add extra benefits like dental, vision, and hearing. The trade-off: you'll likely face network restrictions and prior authorization requirements that Original Medicare doesn't have.",
+    badges: [
+      {
+        plan: "Original Medicare",
+        status: "not-covered",
+      },
+      {
+        plan: "Medicare Advantage (Part C)",
+        status: "covered",
+      },
+      {
+        plan: "Medigap",
+        status: "not-covered",
+      },
+      {
+        plan: "Part D",
+        status: "covered",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Original Medicare (Parts A & B)",
+      coverage: "Replaced",
+      icon: "X",
+      notes: "When you enroll in a Medicare Advantage plan, the private plan - not Original Medicare - pays your claims. You keep your Medicare number but the plan manages your benefits.",
+    },
+    {
+      planType: "Medicare Advantage (Part C)",
+      coverage: "Replaces Original Medicare",
+      icon: "CheckCircle",
+      notes: "Must cover everything Original Medicare covers, plus often adds dental, vision, hearing, and Part D drug coverage.",
+    },
+    {
+      planType: "Medigap (Medicare Supplement)",
+      coverage: "Not Compatible",
+      icon: "X",
+      notes: "You cannot use a Medigap plan with a Medicare Advantage plan. Medigap only works with Original Medicare.",
+    },
+    {
+      planType: "Part D (Prescription Drugs)",
+      coverage: "Usually Included",
+      icon: "CheckCircle",
+      notes: "Most Medicare Advantage plans include Part D drug coverage (MAPD). Standalone Part D plans are not needed if your MA plan includes drug coverage.",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "What 'Replacement' Actually Means",
+      icon: "Shield",
+      iconColor: "text-teal-600",
+      coverageLabel: "Primary Coverage",
+      coverageType: "covered",
+      paragraphs: [
+      "The term 'Medicare replacement plan' is not an official Medicare term - it is a colloquial name used to describe Medicare Advantage plans. When you enroll in a Medicare Advantage plan, you are not leaving Medicare. You remain a Medicare beneficiary and must continue paying your Part B premium. However, the private insurance company - not the federal government - becomes the primary payer for your healthcare claims.",
+      "By law, every Medicare Advantage plan must cover at least the same services as Original Medicare Parts A and B. The plan cannot reduce or eliminate any benefit that Original Medicare provides. What changes is how you access care: through the plan's network, with the plan's cost-sharing structure, and subject to the plan's prior authorization requirements.",
+    ],
+      whatItCovers: [
+      "All services covered by Original Medicare Parts A and B",
+      "Often includes Part D prescription drug coverage (MAPD)",
+      "Often includes extra benefits: dental, vision, hearing, fitness programs",
+      "Annual out-of-pocket maximum (Original Medicare has no cap)",
+      "May include transportation, meal delivery, and OTC allowances",
+    ],
+      whatItDoesntCover: [
+      "Out-of-network care (for HMO plans - PPOs allow it at higher cost)",
+      "Services not covered by Original Medicare or your specific plan",
+      "Medigap cannot be used to fill cost-sharing gaps in MA plans",
+    ],
+      callout: {
+      type: "info",
+      title: "You Still Have Medicare",
+      text: "Enrolling in a Medicare Advantage plan does not mean you lose Medicare. You remain a Medicare beneficiary, keep your Medicare number, and can return to Original Medicare during the Annual Enrollment Period. The private plan simply manages your benefits on Medicare's behalf.",
+    },
+    },
+    {
+      planName: "Types of Medicare Replacement Plans",
+      icon: "Users",
+      iconColor: "text-blue-600",
+      coverageLabel: "HMO, PPO, PFFS, SNP",
+      coverageType: "covered",
+      paragraphs: [
+      "Medicare Advantage plans come in several types, each with different network and referral rules. The most common are Health Maintenance Organizations (HMOs) and Preferred Provider Organizations (PPOs). HMOs require you to use in-network providers and typically require referrals to see specialists. PPOs allow you to see out-of-network providers at a higher cost and usually don't require referrals.",
+      "Special Needs Plans (SNPs) are a specialized type of Medicare Advantage plan designed for people with specific conditions or circumstances - such as dual eligibility for Medicare and Medicaid (D-SNPs), chronic conditions like diabetes or heart failure (C-SNPs), or residents of long-term care facilities (I-SNPs). SNPs often provide more tailored benefits for their target populations.",
+    ],
+      whatItCovers: [
+      "HMO: In-network care only; referrals usually required for specialists",
+      "PPO: In-network and out-of-network care; no referrals required",
+      "PFFS: Private Fee-for-Service; providers must accept plan terms",
+      "SNP: Specialized plans for dual-eligible, chronically ill, or institutionalized beneficiaries",
+      "HMO-POS: HMO with a point-of-service option for some out-of-network care",
+    ],
+      whatItDoesntCover: [
+      "HMO plans: Out-of-network care (except emergencies)",
+      "SNPs: Enrollment is restricted to qualifying individuals",
+    ],
+      costNote: "$ Cost: Many Medicare Advantage plans have $0 monthly premiums (you still pay your Part B premium). Copays, coinsurance, and deductibles vary by plan. All plans have an annual out-of-pocket maximum.",
+    },
+    {
+      planName: "Medicare Advantage vs. Original Medicare ++ Medigap",
+      icon: "BarChart",
+      iconColor: "text-indigo-600",
+      coverageLabel: "Key Trade-offs",
+      coverageType: "partial",
+      paragraphs: [
+      "The choice between a Medicare replacement plan (Medicare Advantage) and Original Medicare with a Medigap supplement is one of the most important decisions a Medicare beneficiary makes. Both paths have meaningful advantages and trade-offs.",
+      "Medicare Advantage plans often have lower monthly premiums and include extra benefits like dental and vision. However, they come with network restrictions, prior authorization requirements, and variable out-of-pocket costs. Original Medicare with Medigap offers nationwide provider access with predictable costs, but Medigap premiums can be significant and dental/vision coverage requires separate policies.",
+    ],
+      whatItCovers: [
+      "Medicare Advantage: Lower premiums, extra benefits, annual OOP maximum",
+      "Original Medicare + Medigap: No network restrictions, predictable costs, nationwide access",
+      "Medicare Advantage: Often includes Part D drug coverage",
+      "Original Medicare + Medigap: Works with any Medicare-accepting provider in the U.S.",
+    ],
+      whatItDoesntCover: [
+      "Medicare Advantage: Out-of-network care (HMO plans), prior authorization delays",
+      "Original Medicare: No OOP maximum, no dental/vision/hearing without add-ons",
+    ],
+      callout: {
+      type: "tip",
+      title: "Consider Your Healthcare Needs",
+      text: "If you have preferred doctors or specialists, check whether they are in-network before choosing a Medicare Advantage plan. If you travel frequently or live in multiple states, Original Medicare with Medigap may offer more flexibility.",
+    },
+    },
+  ],
+  costTable: {
+    title: "Medicare Advantage vs. Original Medicare ++ Medigap (2026)",
+    headers: [
+    "Feature",
+    "Medicare Advantage",
+    "Original Medicare + Medigap",
+  ],
+    rows: [
+      {
+        "Feature": "Monthly premium",
+        "Medicare Advantage": "Often $0 (+ Part B premium)",
+        "Original Medicare + Medigap": "Part B premium + Medigap premium ($100–$300+/mo)",
+      },
+      {
+        "Feature": "Network restrictions",
+        "Medicare Advantage": "Yes - HMOs require in-network",
+        "Original Medicare + Medigap": "No - any Medicare-accepting provider",
+      },
+      {
+        "Feature": "Out-of-pocket maximum",
+        "Medicare Advantage": "Yes - required by law (up to $9,350 in-network in 2026)",
+        "Original Medicare + Medigap": "No OOP max on Original Medicare; Medigap covers most gaps",
+      },
+      {
+        "Feature": "Dental/vision/hearing",
+        "Medicare Advantage": "Often included",
+        "Original Medicare + Medigap": "Not included - requires separate policy",
+      },
+      {
+        "Feature": "Part D drug coverage",
+        "Medicare Advantage": "Usually included (MAPD)",
+        "Original Medicare + Medigap": "Requires separate Part D plan",
+      },
+      {
+        "Feature": "Prior authorization",
+        "Medicare Advantage": "Common for many services",
+        "Original Medicare + Medigap": "Rare",
+      },
+      {
+        "Feature": "Referrals required",
+        "Medicare Advantage": "Yes (HMO); No (PPO)",
+        "Original Medicare + Medigap": "No",
+      },
+      {
+        "Feature": "Nationwide coverage",
+        "Medicare Advantage": "Limited (HMO); Broader (PPO)",
+        "Original Medicare + Medigap": "Yes - any Medicare provider in the U.S.",
+      },
+    ],
+    footnote: "Costs and benefits vary by plan and location. Compare plans at [Medicare.gov](https://www.medicare.gov/) or speak with a licensed Medicare specialist.",
+  },
+  exceptionsSection: {
+    title: "Important Rules about Medicare Replacement Plans",
+    items: [
+      {
+        title: "You Must Keep Part B",
+        text: "To enroll in a Medicare Advantage plan, you must be enrolled in both Medicare Part A and Part B and continue paying your Part B premium. The Medicare Advantage plan does not replace your Part B premium - it replaces Original Medicare as your primary coverage.",
+        highlight: "Part B premium still applies - typically $202.90/month in 2026",
+      },
+      {
+        title: "You Can Return to Original Medicare",
+        text: "If you enroll in a Medicare Advantage plan and later decide it isn't right for you, you can switch back to Original Medicare during the Annual Enrollment Period (October 15 – December 7) or the Medicare Advantage Open Enrollment Period (January 1 – March 31). However, if you switch back, you may not be able to get a Medigap plan without medical underwriting, depending on your state.",
+        highlight: "Switching back to Original Medicare may make Medigap harder to obtain",
+      },
+      {
+        title: "Emergency Care is Always Covered",
+        text: "Medicare Advantage plans must cover emergency care anywhere in the United States, regardless of network. If you have a medical emergency, you can go to the nearest emergency room and your plan must cover it at in-network cost-sharing rates.",
+        highlight: "Emergency care is always covered - no prior authorization required",
+      },
+    ],
+  },
+  decisionSection: {
+    title: "Is a Medicare Replacement Plan Right for You?",
+    paragraphs: [
+    "A Medicare Advantage plan may be a good fit if you want lower monthly premiums, appreciate having dental and vision coverage bundled in, and are comfortable using a network of providers. It works best for people who are generally healthy, have predictable healthcare needs, and live in an area with a strong Medicare Advantage network.",
+    "Original Medicare with a Medigap supplement may be a better fit if you have complex medical needs, see multiple specialists, travel frequently, or want the freedom to see any Medicare-accepting provider without referrals or prior authorization. The higher monthly premiums for Medigap can be offset by more predictable out-of-pocket costs.",
+  ],
+    checklist: {
+    title: "Questions to Ask before Choosing",
+    items: [
+    "Are my current doctors and specialists in the plan's network?",
+    "Does the plan cover my prescription drugs at a reasonable cost?",
+    "What is the plan's annual out-of-pocket maximum?",
+    "Does the plan require referrals for specialist visits?",
+    "What extra benefits (dental, vision, hearing) does the plan include?",
+    "How does the plan handle care when I travel or am away from home?",
+    "What is the plan's star rating from CMS?",
+  ],
+    type: "search",
+  },
+  },
+  faqs: [
+    {
+      question: "Is a Medicare Replacement Plan the Same as Medicare Advantage?",
+      answer: "Yes. 'Medicare replacement plan' is an informal term for Medicare Advantage (Part C). These are private insurance plans approved by Medicare that replace Original Medicare as your primary coverage.",
+    },
+    {
+      question: "Do I Lose My Medicare if I Enroll in a Replacement Plan?",
+      answer: "No. You remain a Medicare beneficiary and keep your Medicare number. The private plan manages your benefits on Medicare's behalf, but you are still enrolled in Medicare and must continue paying your Part B premium.",
+    },
+    {
+      question: "Can I Have Both a Medicare Replacement Plan and a Medigap Plan?",
+      answer: "No. Medigap plans are designed to work with Original Medicare, not Medicare Advantage. You cannot use a Medigap plan to cover cost-sharing in a Medicare Advantage plan. You must choose one path: Original Medicare + Medigap, or Medicare Advantage.",
+    },
+    {
+      question: "What Happens if I See an Out-of-network Doctor with a Medicare Advantage Plan?",
+      answer: "It depends on your plan type. HMO plans generally do not cover out-of-network care except in emergencies. PPO plans allow out-of-network care but at a higher cost-sharing rate. Always check your plan's network before scheduling non-emergency care.",
+    },
+    {
+      question: "Can I Switch from Medicare Advantage Back to Original Medicare?",
+      answer: "Yes, during the Annual Enrollment Period (October 15 – December 7) or the Medicare Advantage Open Enrollment Period (January 1 – March 31). Be aware that if you switch back, you may face medical underwriting to get a Medigap plan in most states.",
+    },
+    {
+      question: "Do Medicare Replacement Plans Cover Prescription Drugs?",
+      answer: "Most Medicare Advantage plans include Part D prescription drug coverage (called MAPD plans). If your plan includes drug coverage, you do not need a separate Part D plan. A small number of Medicare Advantage plans do not include drug coverage - check your plan's details.",
+    },
+    {
+      question: "Why is Medicare Advantage Called a 'Replacement' Plan?",
+      answer: "The term comes from how the plan functions, not an official Medicare name. When you enroll in Medicare Advantage, the private plan takes over administering your Medicare benefits in place of the gover",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "info",
+      text: "'Medicare replacement plan' = Medicare Advantage (Part C)",
+    },
+    {
+      icon: "check",
+      text: "Must cover everything Original Medicare covers",
+    },
+    {
+      icon: "check",
+      text: "Annual out-of-pocket maximum required by law",
+    },
+    {
+      icon: "alert",
+      text: "Cannot be combined with a Medigap plan",
+    },
+    {
+      icon: "alert",
+      text: "Network restrictions apply - check your doctors are in-network",
+    },
+    {
+      icon: "dollar",
+      text: "You still pay your Part B premium even with a $0-premium MA plan",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Medicare Advantage vs. Medicare Supplement",
+      description: "Side-by-side comparison of the two main ways to supplement Original Medicare.",
+      slug: "the-essentials-medicare-supplement-vs-medicare-advantage-explained",
+    },
+    {
+      title: "Switching from Medicare Advantage to Medigap",
+      description: "What to know before making the switch back to Original Medicare.",
+      slug: "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan",
+    },
+    {
+      title: "Medigap vs. Medicare Advantage",
+      description: "Detailed comparison of costs, coverage, and flexibility.",
+      slug: "medigap-vs-medicare-advantage",
+    },
+    {
+      title: "Medicare Advantage Hidden Costs",
+      description: "Out-of-pocket expenses that Medicare Advantage enrollees often don't expect.",
+      slug: "medicare-advantage-uncovering-the-unexpected-out-of-pocket-expenses",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "the-essentials-medicare-supplement-vs-medicare-advantage-explained",
+    "medicare-advantage-uncovering-the-unexpected-out-of-pocket-expenses",
+    "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan",
+    "medigap-vs-medicare-advantage",
+  ],
+  ctaBanner: {
+    title: "Comparing Medicare Advantage Plans?",
+    text: "A licensed Medicare specialist can help you compare Medicare replacement plans in your area and find the right coverage for your needs and budget.",
+  },
+  relatedSlugs: [
+    "the-essentials-medicare-supplement-vs-medicare-advantage-explained",
+    "medicare-advantage-uncovering-the-unexpected-out-of-pocket-expenses",
+    "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan",
+    "medigap-vs-medicare-advantage",
+    "what-dental-expenses-does-medicare-cover",
+  ],
+},
 
   {
   slug: "medical-rides",
