@@ -189,6 +189,8 @@ export async function POST(request: NextRequest) {
     sendDecisionKitNotification({
       firstName: firstName || "Not provided",
       email: email || "Not provided",
+      dob: formatDate(dob),
+      birthday65: formatDate(dates.birthday65),
       consent: decisionKitConsent(body.emailMarketingConsent),
     }).catch((err) => console.error("[Decision Kit] Email notification failed:", err));
 
@@ -213,6 +215,8 @@ export async function POST(request: NextRequest) {
 async function sendDecisionKitNotification(data: {
   firstName: string;
   email: string;
+  dob: string;
+  birthday65: string;
   consent: ReturnType<typeof decisionKitConsent>;
 }) {
   const resendApiKey = process.env.RESEND_LEAD_GEN_API_KEY;
@@ -238,7 +242,15 @@ async function sendDecisionKitNotification(data: {
             <td style="padding: 8px 12px; color: #1e293b;">${escapeHtml(data.email)}</td>
           </tr>
           <tr>
-            <td style="padding: 8px 12px; font-weight: 600; color: #475569;">Email marketing</td>
+            <td style="padding: 8px 12px; font-weight: 600; color: #475569;">Date of Birth</td>
+            <td style="padding: 8px 12px; color: #1e293b;">${escapeHtml(data.dob)}</td>
+          </tr>
+          <tr>
+            <td style="padding: 8px 12px; font-weight: 600; color: #475569;">65th Birthday</td>
+            <td style="padding: 8px 12px; color: #1e293b;">${escapeHtml(data.birthday65)}</td>
+          </tr>
+          <tr>
+            <td style="padding: 8px 12px; font-weight: 600; color: #475569;">Email preference</td>
             <td style="padding: 8px 12px; color: #1e293b;">${data.consent.optedIn ? "CHECKED — preselected email preference, not an affirmative opt-in" : "UNCHECKED — do not add to marketing campaigns"}</td>
           </tr>
           <tr>
@@ -268,7 +280,7 @@ async function sendDecisionKitNotification(data: {
       body: JSON.stringify({
         from: "MedicareFAQ <onboarding@resend.dev>",
         to: ["cboudreau@teameip.com"],
-        subject: `Decision Kit: ${data.consent.optedIn ? "Prechecked email preference" : "No marketing emails"}`,
+        subject: `Decision Kit: ${String(data.firstName).replace(/[\r\n]/g, " ")} (65 on ${data.birthday65}) | ${data.consent.optedIn ? "Prechecked email preference" : "Email preference unchecked"}`,
         html: htmlBody,
       }),
     });
