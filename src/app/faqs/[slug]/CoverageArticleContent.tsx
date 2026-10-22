@@ -221,7 +221,7 @@ function PlanSection({ data }: { data: PlanBreakdownData }) {
             {data.whatItCovers && data.whatItCovers.length > 0 && (
               <div className="bg-emerald-50 border border-emerald-200 rounded-lg p-4">
                 <h4 className="font-bold text-emerald-800 text-sm mb-2 flex items-center gap-1.5">
-                  <CheckCircle2 className="w-4 h-4" /> What It Covers
+                  <CheckCircle2 className="w-4 h-4" /> {data.whatItCoversTitle || "What It Covers"}
                 </h4>
                 <ul className="space-y-1.5">
                   {data.whatItCovers.map((item, i) => (
@@ -236,7 +236,7 @@ function PlanSection({ data }: { data: PlanBreakdownData }) {
             {data.whatItDoesntCover && data.whatItDoesntCover.length > 0 && (
               <div className="bg-red-50 border border-red-200 rounded-lg p-4">
                 <h4 className="font-bold text-red-800 text-sm mb-2 flex items-center gap-1.5">
-                  <XCircle className="w-4 h-4" /> What It Doesn&apos;t Cover
+                  <XCircle className="w-4 h-4" /> {data.whatItDoesntCoverTitle || "What It Doesn't Cover"}
                 </h4>
                 <ul className="space-y-1.5">
                   {data.whatItDoesntCover.map((item, i) => (

@@ -33,6 +33,8 @@ export interface PlanBreakdownData {
   paragraphs: string[];
   whatItCovers?: string[];
   whatItDoesntCover?: string[];
+  whatItCoversTitle?: string;
+  whatItDoesntCoverTitle?: string;
   callout?: {
     type: "warning" | "info" | "success" | "tip";
     title: string;
