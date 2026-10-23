@@ -26,7 +26,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Blue Cross Blue Shield of Texas is discontinuing its [Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included/) effective January 1, 2027. If you are enrolled in one of these plans, you will need to choose a new plan during the fall [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period/) to avoid a gap in your coverage."
+      "content": "Blue Cross Blue Shield of Texas is discontinuing its [Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included/) effective January 1, 2027, according to an official BCBS Texas plan termination notice and plan information filed with the Centers for Medicare & Medicaid Services. This exit affects specific BCBS Texas Medicare Advantage contracts and the plans offered under them in the counties where those contracts are approved to operate. You can review the exact contract IDs, plan names, and counties affected through the Medicare Plan Finder at [CMS.gov](https://www.cms.gov/) or by contacting BCBS Texas directly, since the affected contracts and service areas can vary by region. If you are enrolled in one of these plans, you will need to choose a new plan during the fall [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period/) to avoid a gap in your coverage."
     },
     {
       "type": "paragraph",
@@ -34,7 +34,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Your current BCBS Texas plan continues through December 31, 2026. That gives you time to review your options at a steady pace rather than rushing a decision."
+      "content": "Your current BCBS Texas plan continues through **December 31, 2026**. That gives you time to review your options at a steady pace rather than rushing a decision."
     },
     {
       "type": "heading",
@@ -62,7 +62,7 @@
     },
     {
       "type": "paragraph",
-      "content": "If you do not select a new plan, your BCBS Texas Medicare Advantage coverage will end automatically on December 31, 2026. There is no extension or grace period built into this type of plan termination, so the responsibility to act falls on you."
+      "content": "If you do not select a new plan, your BCBS Texas Medicare Advantage coverage will end automatically on **December 31, 2026**. There is no extension or grace period built into this type of plan termination, so the responsibility to act falls on you."
     },
     {
       "type": "paragraph",
@@ -80,15 +80,69 @@
     },
     {
       "type": "paragraph",
-      "content": "You generally have three paths forward: enroll in a different Medicare Advantage plan offered in your county, switch to Original Medicare and pair it with a Medigap (Medicare Supplement) policy, or add a standalone Part D prescription drug plan if you move to Original Medicare without one."
+      "content": "You generally have three paths forward:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Enroll in a different Medicare Advantage plan offered in your county",
+        "Switch to Original Medicare and pair it with a Medigap (Medicare Supplement) policy",
+        "Add a standalone Part D prescription drug plan if you move to Original Medicare without one"
+      ]
     },
     {
       "type": "paragraph",
-      "content": "Because your plan is leaving the market, you qualify for a [Special Enrollment Period](/faqs/medicare-special-enrollment-period/) tied to the plan's termination, in addition to the standard [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period/) that runs from October 15 to December 7 each year. This Special Enrollment Period gives affected members additional flexibility to make a change outside the usual windows, though enrolling before your coverage ends on December 31, 2026 is still the safer approach."
+      "content": "Because your plan is leaving the market, you qualify for a [Special Enrollment Period](/faqs/medicare-special-enrollment-period/) tied to the plan's termination, in addition to the standard [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period/) that runs from October 15 to **December 7** each year. This Special Enrollment Period gives affected members additional flexibility to make a change outside the usual windows, though enrolling before your coverage ends on **December 31, 2026** is still the safer approach."
     },
     {
       "type": "paragraph",
-      "content": "If you choose Original Medicare, you may also have guaranteed issue rights for a Medigap policy. These rights can let you enroll in certain Medigap plans without medical underwriting when you lose employer or group coverage, or when specific qualifying events like this one occur, according to [Medicare's guaranteed issue rules](https://www.medicare.gov/). Confirm with your State Health Insurance Assistance Program or a licensed agent whether this specific situation qualifies in your case."
+      "content": "If you choose Original Medicare, you may also have guaranteed issue rights for a Medigap policy. When your Medicare Advantage plan is discontinued, you generally have a 63-day window from the date your coverage ends to enroll in a Medigap plan with guaranteed issue rights, meaning you can be approved without medical underwriting, according to [Medicare's guaranteed issue rules](https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics/medigap-guaranteed-issue-rights). Confirm with your State Health Insurance Assistance Program or a licensed agent whether this specific situation qualifies in your case and to verify the exact deadline that applies to you."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "ma-vs-original-medicare-comparison",
+      "text": "MA Replacement vs. Original Medicare + Medigap + Part D"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Factor",
+        "New Medicare Advantage Plan",
+        "Original Medicare + Medigap + Part D"
+      ],
+      "rows": [
+        [
+          "Provider network",
+          "Limited to plan network, such as an HMO or PPO service area (except emergencies)",
+          "Any provider nationwide who accepts Medicare, with no network restrictions"
+        ],
+        [
+          "Monthly premium",
+          "Often $0 to around $50, plus any separate Part D premium if drug coverage is not bundled",
+          "Part B premium (standard amount set annually by CMS), plus a separate Medigap premium that varies by plan letter and insurer, plus a Part D premium"
+        ],
+        [
+          "Out-of-pocket limit",
+          "Capped annually, up to $9,250 for in-network services in 2026 (set by the plan, may be lower)",
+          "No annual cap under Original Medicare alone, but a Medigap plan covers most coinsurance and deductible gaps"
+        ],
+        [
+          "Prescription coverage",
+          "Usually bundled into the plan at no extra premium, with copays based on drug tier",
+          "Requires a standalone Part D plan with its own premium, deductible, and drug tiers"
+        ],
+        [
+          "Extra benefits",
+          "May include dental, vision, or hearing benefits, and sometimes a fitness or over-the-counter allowance",
+          "Not included; would need separate standalone dental, vision, or hearing coverage"
+        ],
+        [
+          "Referrals needed",
+          "May require a referral from a primary care doctor to see specialists, depending on the plan type",
+          "No referrals needed to see any Medicare-participating specialist"
+        ]
+      ]
     },
     {
       "type": "heading",
@@ -102,7 +156,16 @@
     },
     {
       "type": "paragraph",
-      "content": "Compare total costs rather than focusing only on the monthly premium. Look at the deductible, copays for specialist visits, the [maximum out-of-pocket limit](/faqs/medicare-maximum-out-of-pocket/), which is capped at $9,250 for [Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included/) in 2026, and any extra costs for prescriptions at different coverage tiers."
+      "content": "Compare total costs rather than focusing only on the monthly premium. Key items to check:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Deductible amount for the plan",
+        "Copays for primary care and specialist visits",
+        "The [maximum out-of-pocket limit](/faqs/medicare-maximum-out-of-pocket/), which is capped at $9,250 for [Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included/) in 2026",
+        "Prescription drug tiers and any extra costs at each tier"
+      ]
     },
     {
       "type": "heading",
@@ -148,13 +211,13 @@
     },
     {
       "type": "paragraph",
-      "content": "The [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period/) runs from October 15 to December 7 each year, and any plan changes made during this window take effect January 1. If you take no action by December 7 and have not used the plan termination [Special Enrollment Period](/faqs/medicare-special-enrollment-period/), your BCBS Texas coverage still ends on December 31, 2026, potentially leaving you without active coverage in January."
+      "content": "The [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period/) runs from October 15 to **December 7** each year, and any plan changes made during this window take effect January 1. If you take no action by **December 7** and have not used the plan termination [Special Enrollment Period](/faqs/medicare-special-enrollment-period/), your BCBS Texas coverage still ends on **December 31, 2026**, potentially leaving you without active coverage in January."
     },
     {
       "type": "callout",
       "calloutType": "warning",
       "calloutTitle": "Watch the Deadline",
-      "calloutText": "Your plan termination [Special Enrollment Period](/faqs/medicare-special-enrollment-period/) may extend your window beyond December 7, but relying on it adds risk. Enrolling in a new plan before the Annual Enrollment deadline is the more reliable way to avoid any gap in coverage."
+      "calloutText": "Your plan termination [Special Enrollment Period](/faqs/medicare-special-enrollment-period/) may extend your window beyond **December 7**, but relying on it adds risk. Enrolling in a new plan before the Annual Enrollment deadline is the more reliable way to avoid any gap in coverage."
     },
     {
       "type": "paragraph",
@@ -189,7 +252,7 @@
       "faqs": [
         {
           "question": "Do I need to decide on a new plan right away?",
-          "answer": "You have from now until December 7 to enroll during Annual Enrollment, and the plan termination Special Enrollment Period may extend that further. There is time to review your options carefully, though enrolling before December 7 avoids any risk of a coverage gap starting January 1, 2027."
+          "answer": "You have from now until **December 7** to enroll during Annual Enrollment, and the plan termination Special Enrollment Period may extend that further. There is time to review your options carefully, though enrolling before **December 7** avoids any risk of a coverage gap starting January 1, 2027."
         },
         {
           "question": "Will I be pressured into choosing a plan if I ask for help?",
@@ -213,7 +276,7 @@
     },
     {
       "type": "paragraph",
-      "content": "The key action is comparing new coverage before December 7 so you avoid any gap when your BCBS Texas plan ends on December 31, 2026."
+      "content": "The key action is comparing new coverage before **December 7** so you avoid any gap when your BCBS Texas plan ends on **December 31, 2026**."
     },
     {
       "type": "paragraph",
@@ -285,6 +348,6 @@
     }
   ],
   "id": "pipeline-bcbs-texas-ending-medicare-advantage-plans-steps-for-2027",
-  "updatedAt": "2026-10-23T13:55:59.316Z",
-  "createdAt": "2026-10-23T13:55:59.316Z"
+  "updatedAt": "2026-10-23T14:21:52.637Z",
+  "createdAt": "2026-10-23T14:21:52.637Z"
 }
