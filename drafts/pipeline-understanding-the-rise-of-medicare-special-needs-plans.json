@@ -1,7 +1,22 @@
 {
   "title": "Medicare Special Needs Plans: 2026 Guide",
+  "rawContent": "",
   "slug": "understanding-the-rise-of-medicare-special-needs-plans",
+  "excerpt": "Medicare Special Needs Plans tailor coverage, provider networks, and drug formularies to specific groups, such as people with chronic conditions or dual Medicare-Medicaid eligibility.",
   "category": "medicare_advantage",
+  "author": "David Haass",
+  "reviewer": "Ashlee Zareczny",
+  "image": "",
+  "imageAlt": "",
+  "keyTakeaways": [
+    "SNPs are a type of Medicare Advantage plan designed for specific groups, including those with chronic conditions, dual Medicare and Medicaid eligibility, or institutional residents",
+    "There are three categories of Special Needs Plans, each built around a distinct qualifying circumstance",
+    "Enrollment requires Medicare Part A and Part B, residence in the plan's service area, and proof of meeting the specific qualifying requirement",
+    "Eligibility is not permanent and can change if your Medicaid status or diagnosis no longer meets plan criteria",
+    "Many SNPs offer built-in care coordination, tailored drug formularies, and extra benefits like transportation or meal delivery"
+  ],
+  "seoTitle": "Medicare Special Needs Plans: 2026 Guide",
+  "seoDescription": "Learn how Medicare Special Needs Plans work, who qualifies, and what coordinated benefits they offer for chronic conditions and dual eligibility.",
   "sections": [
     {
       "type": "heading",
@@ -197,21 +212,67 @@
       "content": "Before enrolling, compare plan details against your specific providers and medications rather than relying on general descriptions. When you're ready to talk through your options, a licensed agent can walk through SNPs available in your area with no obligation attached."
     }
   ],
-  "seoTitle": "Medicare Special Needs Plans: 2026 Guide",
-  "seoDescription": "Learn how Medicare Special Needs Plans work, who qualifies, and what coordinated benefits they offer for chronic conditions and dual eligibility.",
-  "excerpt": "Medicare Special Needs Plans tailor coverage, provider networks, and drug formularies to specific groups, such as people with chronic conditions or dual Medicare-Medicaid eligibility.",
-  "keyTakeaways": [
-    "SNPs are a type of Medicare Advantage plan designed for specific groups, including those with chronic conditions, dual Medicare and Medicaid eligibility, or institutional residents",
-    "There are three categories of Special Needs Plans, each built around a distinct qualifying circumstance",
-    "Enrollment requires Medicare Part A and Part B, residence in the plan's service area, and proof of meeting the specific qualifying requirement",
-    "Eligibility is not permanent and can change if your Medicaid status or diagnosis no longer meets plan criteria",
-    "Many SNPs offer built-in care coordination, tailored drug formularies, and extra benefits like transportation or meal delivery"
+  "relatedSlugs": [
+    "medicare-advantage-growth-issues",
+    "medicare-annual-enrollment-period",
+    "medicare-open-enrollment-2027-free-resources-for-seniors",
+    "medicare-2027-key-changes-in-open-enrollment-you-need-to-know"
   ],
-  "image": "",
-  "relatedSlugs": [],
-  "sourceUrl": "https://www.modernhealthcare.com/insurance/mh-medicare-advantage-special-needs-plans/",
-  "pipelineId": "disc-32fadb8663776cb8fb53a1198ef6fbf141cf8a812f14443797a3afd29b8c4e04",
+  "linkSuggestions": [
+    {
+      "phrase": "dual eligible SNPs",
+      "url": "/faqs/medicare-vs-medicaid/",
+      "title": "Medicare vs. Medicaid: How to Qualify for Both",
+      "reason": "Offers insights into the relationship between Medicare and Medicaid, which is crucial for understanding Dual Eligible SNPs."
+    },
+    {
+      "phrase": "extra benefits",
+      "url": "/faqs/medicare-advantage-extra-benefits-explained-whats-really-included/",
+      "title": "Medicare Advantage Extra Benefits Explained: What's Really Included",
+      "reason": "Explains the additional benefits that may be available under SNPs, enhancing understanding of what these plans offer."
+    },
+    {
+      "phrase": "cost structures",
+      "url": "/faqs/average-cost-of-medicare-advantage/",
+      "title": "Average Cost of Medicare Advantage Plans",
+      "reason": "Provides detailed information on costs associated with Medicare Advantage plans, which is relevant for those considering SNPs."
+    },
+    {
+      "phrase": "eligibility can change",
+      "url": "/faqs/can-i-cancel-medicare-advantage-plan/",
+      "title": "Can I Cancel My Medicare Advantage Plan?",
+      "reason": "Discusses the implications of changing eligibility, which is relevant for readers considering SNPs."
+    },
+    {
+      "phrase": "long-term care setting",
+      "url": "/faqs/does-medicare-cover-home-health-care/",
+      "title": "Does Medicare Cover Home Health Care?",
+      "reason": "Explains coverage options for those in long-term care, which is pertinent to the discussion of Institutional SNPs."
+    }
+  ],
+  "acceptedLinks": [
+    {
+      "phrase": "chronic condition SNPs",
+      "url": "/faqs/does-medicare-cover-end-stage-renal-disease/",
+      "title": "Does Medicare Cover End-Stage Renal Disease (ESRD)?"
+    },
+    {
+      "phrase": "institutional SNPs",
+      "url": "/faqs/does-medicare-cover-assisted-living/",
+      "title": "Does Medicare Cover Assisted Living?"
+    },
+    {
+      "phrase": "special enrollment period",
+      "url": "/faqs/medicare-special-enrollment-period/",
+      "title": "Medicare Special Enrollment Period"
+    },
+    {
+      "phrase": "prescription drug coverage",
+      "url": "/faqs/medicare-and-prescription-drugs-whats-covered-and-whats-not/",
+      "title": "Medicare and Prescription Drugs: What Is Covered and What Is Not?"
+    }
+  ],
   "id": "pipeline-understanding-the-rise-of-medicare-special-needs-plans",
-  "updatedAt": "2026-10-26T16:34:24.967Z",
-  "createdAt": "2026-10-26T16:34:24.967Z"
+  "updatedAt": "2026-10-26T16:44:12.825Z",
+  "createdAt": "2026-10-26T16:44:12.825Z"
 }
