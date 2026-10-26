@@ -1,7 +1,22 @@
 {
   "title": "2027 Medicare Advantage Cuts: Is Your Plan Affected?",
+  "rawContent": "",
   "slug": "2027-medicare-advantage-cuts-check-if-your-plan-survives",
+  "excerpt": "Some Medicare Advantage plans are being cut or scaled back for 2027. Here's how to check if yours is affected and what steps to take next.",
   "category": "medicare_advantage",
+  "author": "David Haass",
+  "reviewer": "Ashlee Zareczny",
+  "image": "",
+  "imageAlt": "",
+  "keyTakeaways": [
+    "Several insurers are reducing Medicare Advantage plan options or exiting certain counties for 2027",
+    "Original Medicare benefits remain unchanged regardless of private plan availability in your area",
+    "Your Annual Notice of Change (ANOC) letter, mailed each September, will confirm if your plan is non-renewed",
+    "Members with non-renewed plans typically qualify for a Special Enrollment Period to choose new coverage",
+    "Taking no action could result in being defaulted into a different plan or facing coverage gaps"
+  ],
+  "seoTitle": "2027 Medicare Advantage Cuts: Is Your Plan Affected?",
+  "seoDescription": "Learn which Medicare Advantage plans cut 2027 coverage and how to check if yours is affected before the Annual Election Period.",
   "sections": [
     {
       "type": "heading",
@@ -196,21 +211,13 @@
       "content": "Reviewing your options early, rather than waiting for the December 7 deadline, gives you room to ask questions and compare calmly. If you'd like a second set of eyes on your comparison, a licensed agent can walk through it with you without any pressure to enroll on the spot."
     }
   ],
-  "seoTitle": "2027 Medicare Advantage Cuts: Is Your Plan Affected?",
-  "seoDescription": "Learn which Medicare Advantage plans cut 2027 coverage and how to check if yours is affected before the Annual Election Period.",
-  "excerpt": "Some Medicare Advantage plans are being cut or scaled back for 2027. Here's how to check if yours is affected and what steps to take next.",
-  "keyTakeaways": [
-    "Several insurers are reducing Medicare Advantage plan options or exiting certain counties for 2027",
-    "Original Medicare benefits remain unchanged regardless of private plan availability in your area",
-    "Your Annual Notice of Change (ANOC) letter, mailed each September, will confirm if your plan is non-renewed",
-    "Members with non-renewed plans typically qualify for a Special Enrollment Period to choose new coverage",
-    "Taking no action could result in being defaulted into a different plan or facing coverage gaps"
+  "relatedSlugs": [
+    "bcbs-texas-ending-medicare-advantage-plans-steps-for-2027",
+    "2027-medicare-advantage-enroll-early-to-avoid-county-caps",
+    "medicare-annual-notice-of-change-letter",
+    "medicare-open-enrollment-2027-free-resources-for-seniors"
   ],
-  "image": "",
-  "relatedSlugs": [],
-  "sourceUrl": "https://www.consumeraffairs.com/news/major-insurers-are-cutting-medicare-advantage-plans-for-2027-100526.html",
-  "pipelineId": "disc-f3f5bbab0021507f79e44ec88b70c2bc6553d6ecdfb071e1f03a7f8a91d6d17a",
   "id": "pipeline-2027-medicare-advantage-cuts-check-if-your-plan-survives",
-  "updatedAt": "2026-10-26T16:45:48.188Z",
-  "createdAt": "2026-10-26T16:45:48.188Z"
+  "updatedAt": "2026-10-26T18:24:01.229Z",
+  "createdAt": "2026-10-26T18:24:01.229Z"
 }
