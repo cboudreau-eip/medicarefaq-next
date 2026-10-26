@@ -3,6 +3,7 @@ import SiteLayout from "@/components/SiteLayout";
 import SouthCarolinaPageContent from "./PageContent";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.medicarefaq.com/medicare-supplement-plans/south-carolina/" },
   title: "Best Medicare Supplement Plans in South Carolina 2026 | MedicareFAQ",
   description: "Compare the best Medicare Supplement plans in South Carolina. See 2026 rates, carrier rankings, and state-specific rules from MedicareFAQ.",
 };

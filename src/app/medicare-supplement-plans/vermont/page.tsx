@@ -3,6 +3,7 @@ import SiteLayout from "@/components/SiteLayout";
 import PageContent from "./PageContent";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.medicarefaq.com/medicare-supplement-plans/vermont/" },
   title: "Best Medicare Supplement Plans in Vermont (2026) | MedicareFAQ",
   description: "Compare the best Medicare Supplement (Medigap) plans in Vermont for 2026.",
 };

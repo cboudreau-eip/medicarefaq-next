@@ -3,6 +3,7 @@ import SiteLayout from "@/components/SiteLayout";
 import PageContent from "./PageContent";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.medicarefaq.com/medicare-supplement-plans/west-virginia/" },
   title: "Best Medicare Supplement Plans in West Virginia (2026) | MedicareFAQ",
   description: "Compare the best Medicare Supplement (Medigap) plans in West Virginia for 2026.",
 };
