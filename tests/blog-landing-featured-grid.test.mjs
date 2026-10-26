@@ -6,8 +6,10 @@ const pagePath = new URL("../src/app/blog/PageContent.tsx", import.meta.url);
 const source = fs.readFileSync(pagePath, "utf8");
 
 test("blog landing page promotes four latest articles without pagination duplicates", () => {
-  assert.match(source, /allSorted\.slice\(0, 4\)/);
-  assert.match(source, /allSorted\.slice\(4\)/);
+  assert.match(source, /allSorted\.slice\(0, BLOG_FEATURED_COUNT\)/);
+  assert.match(source, /allSorted\.slice\(BLOG_FEATURED_COUNT\)/);
+  const pagination = fs.readFileSync(new URL('../src/lib/blog-pagination.ts', import.meta.url), 'utf8');
+  assert.match(pagination, /BLOG_FEATURED_COUNT = 4/);
   assert.match(source, /grid md:grid-cols-2 gap-6/);
 });
 

@@ -9,73 +9,16 @@
 
 import Link from "next/link";
 import { Clock, ArrowRight, User, ChevronLeft, ChevronRight } from "lucide-react";
-import { blogPosts } from "@/lib/blog-data";
-import { blogArticles } from "@/lib/blog-articles-data";
+import { getBlogListing } from "@/lib/blog-listing";
+import { BLOG_FEATURED_COUNT, BLOG_POSTS_PER_PAGE, effectiveBlogPage, blogPageHref } from "@/lib/blog-pagination";
 
-const POSTS_PER_PAGE = 12;
-
-export default function Blog({ currentPage }: { currentPage: number }) {
-
-  // Parse date string (e.g., "May 15, 2026") into a sortable timestamp
-  const parseDate = (dateStr: string): number => {
-    const parsed = new Date(dateStr);
-    return isNaN(parsed.getTime()) ? 0 : parsed.getTime();
-  };
-
-  // Sort by most recent date (uses dateUpdated if available, otherwise date)
-  const sortByDate = (a: { date: string; dateUpdated?: string }, b: { date: string; dateUpdated?: string }) => {
-    const dateA = parseDate(a.dateUpdated || a.date);
-    const dateB = parseDate(b.dateUpdated || b.date);
-    return dateB - dateA; // newest first
-  };
-
-  // Filter out draft articles
-  const publishedArticles = blogArticles.filter((a) => !a.draft);
-
-  // Merge old static posts with new scraped articles
-  const allPosts = [
-    ...blogPosts.map((p) => ({ ...p, dateUpdated: undefined })),
-    ...publishedArticles.map((a) => ({
-      slug: a.slug,
-      title: a.title,
-      excerpt: a.excerpt,
-      category: a.category,
-      categoryColor: a.categoryColor,
-      date: a.date,
-      dateUpdated: a.dateUpdated,
-      author: a.author,
-      reviewer: a.reviewer,
-      readTime: a.readTime,
-      featured: a.featured,
-      image: a.image,
-      imageAlt: a.imageAlt,
-    })),
-  ];
-
-  // Deduplicate by slug
-  const uniquePosts = allPosts.filter(
-    (post, index, self) => self.findIndex((p) => p.slug === post.slug) === index
-  );
-
-  // Sort all posts by date (newest first)
-  const allSorted = uniquePosts.sort(sortByDate);
-
-  // Latest 4 posts become the "Latest Articles" grid (only on page 1).
-  // remainingPosts always excludes them, on every page -- otherwise pages
-  // after page 1 re-include the featured posts, shifting the grid and
-  // duplicating them onto page 2, and totalPages is computed from a
-  // different-length array depending on which page you're on.
-  const featuredPosts = currentPage === 1 ? allSorted.slice(0, 4) : [];
-  const remainingPosts = allSorted.slice(4);
-
-  // Pagination
-  const totalPages = Math.ceil(remainingPosts.length / POSTS_PER_PAGE);
-  const paginatedPosts = remainingPosts.slice(
-    (currentPage - 1) * POSTS_PER_PAGE,
-    currentPage * POSTS_PER_PAGE
-  );
-
-  const pageHref = (page: number) => (page <= 1 ? "/blog/" : `/blog/?page=${page}`);
+export default function Blog({ currentPage: requestedPage }: { currentPage: number }) {
+  const { allSorted, totalPages } = getBlogListing();
+  const currentPage = effectiveBlogPage(requestedPage, totalPages);
+  const featuredPosts = currentPage === 1 ? allSorted.slice(0, BLOG_FEATURED_COUNT) : [];
+  const remainingPosts = allSorted.slice(BLOG_FEATURED_COUNT);
+  const paginatedPosts = remainingPosts.slice((currentPage - 1) * BLOG_POSTS_PER_PAGE, currentPage * BLOG_POSTS_PER_PAGE);
+  const pageHref = blogPageHref;
 
   // Build page number array with ellipsis
   const getPageNumbers = (): (number | "...")[] => {

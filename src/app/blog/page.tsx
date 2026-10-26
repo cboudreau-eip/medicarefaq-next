@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import SiteLayout from "@/components/SiteLayout";
 import Blog from "./PageContent";
+import { getBlogListing } from "@/lib/blog-listing";
+import { effectiveBlogPage, blogPageHref } from "@/lib/blog-pagination";
 
-export const metadata: Metadata = {
+const baseMetadata: Metadata = {
   title: "Blog",
   description: "Check out our Medicare blog where we answer the most frequently asked questions regarding everything Medicare!",
   alternates: { canonical: "https://www.medicarefaq.com/blog/" },
@@ -33,11 +35,20 @@ type BlogPageProps = {
   searchParams: Promise<{ page?: string | string[] }>;
 };
 
+export async function generateMetadata({ searchParams }: BlogPageProps): Promise<Metadata> {
+  const params = await searchParams;
+  const page = effectiveBlogPage(params.page, getBlogListing().totalPages);
+  const canonical = `https://www.medicarefaq.com${blogPageHref(page)}`;
+  return {
+    ...baseMetadata,
+    alternates: { ...baseMetadata.alternates, canonical },
+    openGraph: { ...baseMetadata.openGraph, url: canonical },
+  };
+}
+
 export default async function Page({ searchParams }: BlogPageProps) {
   const params = await searchParams;
-  const requestedPage = Array.isArray(params.page) ? params.page[0] : params.page;
-  const parsedPage = Number.parseInt(requestedPage ?? "1", 10);
-  const currentPage = Number.isFinite(parsedPage) && parsedPage > 0 ? parsedPage : 1;
+  const currentPage = effectiveBlogPage(params.page, getBlogListing().totalPages);
 
   return (
     <SiteLayout>
