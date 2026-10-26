@@ -11294,7 +11294,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     readTime: "6 min read",
     quickAnswer: {
-      text: "Yes, Medicare Part B covers medically necessary macular degeneration treatments. This includes anti-VEGF injections (such as Eylea, Lucentis, and Avastin), laser photocoagulation, and photodynamic therapy (PDT). Routine eye exams and eyeglasses are not covered by Original Medicare, but treatments for diagnosed eye diseases are. You pay 20% coinsurance after the $283 Part B deductible.",
+      text: "Yes, Medicare Part B covers medically necessary macular degeneration treatments. This includes anti-VEGF injections (such as Eylea, Lucentis, and Avastin), laser photocoagulation, and photodynamic therapy (PDT). Routine eye exams and eyeglasses are not covered by Original Medicare, but treatments for diagnosed eye diseases are. After the $283 Part B deductible, you pay 20% coinsurance of the <a href=\"https://www.medicare.gov/coverage/macular-degeneration-tests-treatment\">Medicare-approved amount</a>, and if you're treated in a hospital outpatient setting, you'll also owe a separate facility copayment.",
       badges: [
         { plan: "Medicare Part B", status: "covered" },
         { plan: "Medicare Advantage", status: "covered" },
@@ -11422,11 +11422,11 @@ export const coverageArticles: CoverageArticleData[] = [
     faqs: [
       {
         question: "Does Medicare Cover Eye Injections for Macular Degeneration?",
-        answer: "Yes. Medicare Part B covers anti-VEGF eye injections for wet macular degeneration, including Eylea, Lucentis, Avastin (off-label), Beovu, and Vabysmo. These are physician-administered drugs covered under Part B, not Part D. You pay 20% coinsurance after the $283 annual deductible.",
+        answer: "Yes. Medicare Part B covers anti-VEGF eye injections for wet macular degeneration, including Eylea, Lucentis, Avastin (off-label), Beovu, and Vabysmo. These are physician-administered drugs covered under Part B, not Part D. After the $283 annual deductible, you pay 20% coinsurance of the Medicare-approved amount, and you may owe an additional facility copayment if the injection is given in a hospital outpatient setting.",
       },
       {
         question: "Does Medicare Cover Eylea Injections?",
-        answer: "Yes. Eylea (aflibercept) is one of the most commonly used anti-VEGF drugs for wet AMD and is covered by Medicare Part B when medically necessary. You pay 20% of the Medicare-approved amount after your Part B deductible. Eylea is one of the more expensive anti-VEGF drugs - a Medigap plan can significantly reduce your costs.",
+        answer: "Yes. Eylea (aflibercept) is one of the most commonly used anti-VEGF drugs for wet AMD and is covered by Medicare Part B when medically necessary. You pay 20% of the Medicare-approved amount after your Part B deductible, plus a separate facility copayment if administered in a hospital outpatient setting. Eylea is one of the more expensive anti-VEGF drugs - a Medigap plan can significantly reduce your costs on the coinsurance portion, though it does not change any separate facility copayment rules under Original Medicare.",
       },
       {
         question: "Does Medicare Cover Routine Eye Exams?",
