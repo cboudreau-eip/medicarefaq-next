@@ -1857,7 +1857,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers dental implants and more.",
     },
-    relatedSlugs: ["what-dental-expenses-does-medicare-cover", "does-medicare-cover-dentures", "does-medicare-cover-root-canals", "medicare-and-vision-dental-and-hearing-what-are-your-options", "will-medicare-supplement-plan-g-pay-for-anesthesia-for-pain-management", "does-medicare-cover-glaucoma", "medicare-coverage-for-botox-treatments", "does-medicare-cover-varicose-veins", "does-medicare-cover-chiropractic-care", "does-medicare-cover-knee-replacement", "will-medicare-cover-naturopathy", "medicare-coverage-for-lower-back-pain-management", "does-medicare-cover-acupuncture", "top-5-dental-insurance-for-seniors", "dental-and-vision-insurance-for-seniors", "medicare-paperless-billing", "all-in-one-medicare-plan", "ambulance-and-medicare-coverage", "average-cost-of-medicare-advantage", "can-you-get-medicare-without-receiving-social-security-benefits", "coverage-gap-discount-program", "delay-medicare", "differences-between-medicare-and-social-security", "do-disposable-adult-diaper-manufacturers-have-assistance-programs-for-free-or-reduced-cost-depends", "do-i-really-need-supplemental-insurance-with-medicare", "does-medicare-cover-a-biopsy", "does-medicare-cover-alzheimers-care", "does-medicare-cover-an-echocardiogram", "does-medicare-cover-asthma-inhalers", "does-medicare-cover-atrial-fibrillation", "does-medicare-cover-atrial-fibrillation-afib", "does-medicare-cover-bathroom-safety-devices", "does-medicare-cover-botox", "does-medicare-cover-cataract-surgery", "does-medicare-cover-cologuard", "does-medicare-cover-copd", "does-medicare-cover-end-stage-renal-disease", "does-medicare-cover-eye-exams", "does-medicare-cover-glasses", "does-medicare-cover-wegovy", "extra-help-low-income-subsidy", "fehb-and-medicare", "medicare-appeals-process", "medicare-benefits", "medicare-changes", "medicare-coverage-for-diabetic-shoes", "does-medicare-cover-hearing-aids", "medicare-diabetes", "medicare-give-back-benefit", "medicare-reimbursement", "medicare-silversneakers-program", "medicare-vision-care-coverage", "medicare-visiting-angels", "what-medicare-doesnt-cover-common-surprises", "will-medicare-pay-for-a-nebulizer-machine"],
+    relatedSlugs: ["what-dental-expenses-does-medicare-cover", "does-medicare-cover-dentures", "does-medicare-cover-root-canals", "medicare-and-vision-dental-and-hearing-what-are-your-options", "will-medicare-supplement-plan-g-pay-for-anesthesia-for-pain-management", "does-medicare-cover-glaucoma", "medicare-coverage-for-botox-treatments", "does-medicare-cover-varicose-veins", "does-medicare-cover-chiropractic-care", "does-medicare-cover-knee-replacement", "will-medicare-cover-naturopathy", "medicare-coverage-for-lower-back-pain-management", "does-medicare-cover-acupuncture", "top-5-dental-insurance-for-seniors", "dental-and-vision-insurance-for-seniors", "medicare-paperless-billing", "all-in-one-medicare-plan", "ambulance-and-medicare-coverage", "average-cost-of-medicare-advantage", "can-you-get-medicare-without-receiving-social-security-benefits", "coverage-gap-discount-program", "delay-medicare", "differences-between-medicare-and-social-security", "do-disposable-adult-diaper-manufacturers-have-assistance-programs-for-free-or-reduced-cost-depends", "do-i-really-need-supplemental-insurance-with-medicare", "does-medicare-cover-a-biopsy", "does-medicare-cover-alzheimers-care", "does-medicare-cover-an-echocardiogram", "does-medicare-cover-asthma-inhalers", "does-medicare-cover-atrial-fibrillation", "does-medicare-cover-atrial-fibrillation-afib", "medicare-coverage-for-bathroom-safety-devices", "does-medicare-cover-botox", "does-medicare-cover-cataract-surgery", "does-medicare-cover-cologuard", "does-medicare-cover-copd", "does-medicare-cover-end-stage-renal-disease", "does-medicare-cover-eye-exams", "does-medicare-cover-glasses", "does-medicare-cover-wegovy", "extra-help-low-income-subsidy", "fehb-and-medicare", "medicare-appeals-process", "medicare-benefits", "medicare-changes", "medicare-coverage-for-diabetic-shoes", "does-medicare-cover-hearing-aids", "medicare-diabetes", "medicare-give-back-benefit", "medicare-reimbursement", "medicare-silversneakers-program", "medicare-vision-care-coverage", "medicare-visiting-angels", "what-medicare-doesnt-cover-common-surprises", "will-medicare-pay-for-a-nebulizer-machine"],
   },
   {
   slug: "does-medicare-cover-glasses",
@@ -7255,7 +7255,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Comparing Your Medicare Options?",
       text: "Our licensed, independent Medicare agents work across multiple carriers and can help you choose coverage that fits both your health and your budget.",
     },
-    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan", "the-hidden-trade-offs-of-0-premium-medicare-advantage-plans", "key-questions-to-ask-when-comparing-medicare-advantage-plans", "medigap-vs-medicare-advantage", "medicare-advantage-denied-claims-crisis", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "does-medicare-cover-speech-therapy", "does-medicare-cover-telehealth", "maryland-medicare-supplement-birthday-rule", "medicare-advantage-benefits", "medicare-part-b-give-back-plan", "medicare-part-d-explained", "medicare-replacement-plans", "top-10-medicare-supplement-insurance-companies", "why-medicare-advantage-plans-are-bad", "will-medicare-supplement-plan-g-pay-for-anesthesia-for-pain-management"],
+    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan", "the-hidden-trade-offs-of-0-premium-medicare-advantage-plans", "key-questions-to-ask-when-comparing-medicare-advantage-plans", "medigap-vs-medicare-advantage", "medicare-advantage-denied-claims-crisis", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "does-medicare-cover-speech-therapy", "does-medicare-cover-telehealth", "maryland-medicare-supplement-birthday-rule", "medicare-advantage-extra-benefits-explained-whats-really-included", "medicare-part-b-give-back-plan", "medicare-part-d-explained", "medicare-replacement-plans", "top-10-medicare-supplement-insurance-companies", "why-medicare-advantage-plans-are-bad", "will-medicare-supplement-plan-g-pay-for-anesthesia-for-pain-management"],
   },
 
   {
@@ -18098,7 +18098,7 @@ export const coverageArticles: CoverageArticleData[] = [
       paragraphs: [
       "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) covers both the fitting and the footwear for therapeutic diabetic shoes. The Therapeutic Shoe Bill (TSB) provides Part B reimbursement for therapeutic shoes, inserts, and modifications for beneficiaries with diabetes who meet specific eligibility requirements. Coverage includes one pair of custom-molded shoes with inserts or one pair of extra-depth shoes per calendar year.",
       "Medicare also covers inserts separately: two extra pairs of inserts per calendar year for custom-molded shoes, or three pairs of inserts per calendar year for extra-depth shoes - for a total of up to five pairs of inserts per year. Medicare can also cover modifications to your shoes in place of inserts.",
-      "To qualify, your doctor must verify that the shoes are [medically necessary](/faqs/what-does-medically-necessary-mean/). You must have diabetes and meet at least one additional condition: foot deformity, nerve damage caused by diabetes, [foot ulcers](/faqs/does-medicare-cover-wound-care), amputation of part or all of the foot, poor blood circulation, or a history of pre-ulcerative calluses. The doctor who treats your diabetes must certify your need, and a podiatrist or other qualified provider must prescribe the shoes.",
+      "To qualify, your doctor must verify that the shoes are [medically necessary](/faqs/what-does-medically-necessary-mean/). You must have diabetes and meet at least one additional condition: foot deformity, nerve damage caused by diabetes, foot ulcers, amputation of part or all of the foot, poor blood circulation, or a history of pre-ulcerative calluses. The doctor who treats your diabetes must certify your need, and a podiatrist or other qualified provider must prescribe the shoes.",
     ],
       whatItCovers: [
       "One pair of custom-molded shoes with inserts per calendar year",
@@ -24646,7 +24646,7 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedTopics: [
       { title: "Medicare Coverage for In-Home Caregivers", description: "Learn when Medicare covers in-home caregiver services.", slug: "medicare-coverage-for-in-home-caregivers" },
       { title: "Durable Medical Equipment", description: "Understand what DME Medicare covers and how to qualify.", slug: "durable-medical-equipment" },
-      { title: "Medicare Coverage for Bathroom Safety Devices", description: "Find out which bathroom safety devices Medicare will pay for.", slug: "does-medicare-cover-bathroom-safety-devices" },
+      { title: "Medicare Coverage for Bathroom Safety Devices", description: "Find out which bathroom safety devices Medicare will pay for.", slug: "medicare-coverage-for-bathroom-safety-devices" },
       { title: "Skilled Nursing vs. Custodial Care", description: "Learn the difference and what Medicare covers.", slug: "how-medicare-handles-skilled-nursing-vs-custodial-care" }],
     sidebarRelatedLinks: [
       "Medicare Coverage for In-Home Caregivers",
@@ -24658,7 +24658,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Medicare Coverage?",
       text: "Our licensed Medicare experts can help you understand what's covered and find the right plan for your needs.",
     },
-    relatedSlugs: ["medicare-coverage-for-in-home-caregivers", "durable-medical-equipment", "does-medicare-cover-bathroom-safety-devices", "how-medicare-handles-skilled-nursing-vs-custodial-care", "does-medicare-cover-medical-alert-systems", "does-medicare-cover-memory-care", "does-medicare-cover-prosthetic-devices", "medicare-coverage-for-bathroom-safety-devices"],
+    relatedSlugs: ["medicare-coverage-for-in-home-caregivers", "durable-medical-equipment", "medicare-coverage-for-bathroom-safety-devices", "how-medicare-handles-skilled-nursing-vs-custodial-care", "does-medicare-cover-medical-alert-systems", "does-medicare-cover-memory-care", "does-medicare-cover-prosthetic-devices", "medicare-coverage-for-bathroom-safety-devices"],
   },
   {
   slug: "medicare-and-employer-coverage",
@@ -30300,7 +30300,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Medicare Home Health Care", description: "What Medicare covers for home health services.", slug: "medicare-coverage-for-in-home-caregivers" },
       { title: "Skilled vs. Custodial Care", description: "The key difference and what Medicare covers.", slug: "how-medicare-handles-skilled-nursing-vs-custodial-care" },
       { title: "Meals on Wheels", description: "Does Medicare cover Meals on Wheels?", slug: "does-medicare-cover-meals-on-wheels" },
-      { title: "Medicare Advantage Benefits", description: "Extra benefits available through MA plans.", slug: "medicare-advantage-benefits" }],
+      { title: "Medicare Advantage Benefits", description: "Extra benefits available through MA plans.", slug: "medicare-advantage-extra-benefits-explained-whats-really-included" }],
     sidebarRelatedLinks: ["Home Health Care", "Skilled vs. Custodial Care", "Meals on Wheels", "MA Benefits"],
     ctaBanner: {
       title: "Questions about Medicare Home Care Coverage?",
@@ -38540,7 +38540,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "2.9% of net self-employment income",
         coverageType: "covered",
         paragraphs: [
-          "Self-employed individuals pay both the employee and employer portions of Medicare tax, totaling 2.9% of net self-employment income. This is part of the self-employment tax (15.3% total: 12.4% Social Security + 2.9% Medicare) reported on Schedule SE of your tax return. For broader guidance on [tax planning for self-employed](/blog/medicare-and-self-employment-tax-planning) individuals approaching Medicare age, see our dedicated guide.",
+          "Self-employed individuals pay both the employee and employer portions of Medicare tax, totaling 2.9% of net self-employment income. This is part of the self-employment tax (15.3% total: 12.4% Social Security + 2.9% Medicare) reported on Schedule SE of your tax return.",
           "The IRS allows you to deduct the employer-equivalent portion (1.45%) of your self-employment Medicare tax as a business expense on your Form 1040. This deduction reduces your adjusted gross income but does not reduce your self-employment tax itself. The calculation is applied to 92.35% of your net self-employment earnings (this adjustment accounts for the fact that employees do not pay FICA on the employer's share).",
           "Self-employed individuals are also subject to the Additional Medicare Tax of 0.9% on self-employment income exceeding the same thresholds ($200,000 single / $250,000 joint / $125,000 married filing separately). This means a self-employed single filer earning $300,000 in net self-employment income would pay 2.9% on the full $300,000 plus an additional 0.9% on the $100,000 above the $200,000 threshold, for a total Medicare tax of $9,600.",
         ],
@@ -38619,17 +38619,17 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     relatedTopics: [
       { title: "IRMAA: Income-Related Monthly Adjustment Amount", description: "Learn how high income in retirement triggers surcharges on Part B and Part D premiums.", slug: "irmaa" },
-      { title: "Medicare Part A Trust Fund", description: "Understand how Medicare tax revenue funds Part A and the projected 2031 depletion.", slug: "medicare-part-a-trust-fund" },
+      { title: "Medicare Part A Trust Fund", description: "Learn how payroll taxes fund Part A and how Medicare trust funds work.", slug: "how-is-medicare-funded" },
       { title: "Medicare Costs in 2026", description: "See the current Part B premiums, deductibles, and other cost-sharing amounts.", slug: "medicare-costs-in-2026-premiums-deductibles-and-key-changes" },
       { title: "Medicare Parts A, B, C, and D Explained", description: "Understand what each part of Medicare covers and how they work together.", slug: "medicare-parts-a-b-c-and-d-explained-simply" },
       { title: "Surprised by Higher Medicare Premiums? It Could Be IRMAA", description: "Find out why your premiums went up and how to appeal.", slug: "surprised-by-higher-medicare-premiums-it-could-be-irmaa" },
     ],
-    sidebarRelatedLinks: ["irmaa", "medicare-part-a-trust-fund", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "medicare-parts-a-b-c-and-d-explained-simply"],
+    sidebarRelatedLinks: ["irmaa", "how-is-medicare-funded", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "medicare-parts-a-b-c-and-d-explained-simply"],
     ctaBanner: {
       title: "Questions About Medicare Costs and Premiums?",
       text: "Understanding how Medicare is funded is just the beginning. Our licensed agents can help you find the right Medicare plan to minimize your out-of-pocket costs in retirement - at no charge to you.",
     },
-    relatedSlugs: ["irmaa", "medicare-part-a-trust-fund", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "medicare-parts-a-b-c-and-d-explained-simply", "surprised-by-higher-medicare-premiums-it-could-be-irmaa", "deductible-copay-coinsurance-premium"],
+    relatedSlugs: ["irmaa", "how-is-medicare-funded", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "medicare-parts-a-b-c-and-d-explained-simply", "surprised-by-higher-medicare-premiums-it-could-be-irmaa", "deductible-copay-coinsurance-premium"],
   },
   // ─── Medicare Grocery Allowance Card ──────────────────────────────────────
   {

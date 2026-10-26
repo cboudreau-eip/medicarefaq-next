@@ -1112,7 +1112,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       },
       {
         type: 'paragraph',
-        content: 'Over a typical course of treatment (12 to 24 sessions), the difference adds up. A beneficiary on Original Medicare alone would pay approximately $235 to $469 in coinsurance. With [Medigap Plan G](/faqs/medicare-supplement-plan-g-benefits), the total out-of-pocket cost for the entire course of therapy is $283 (the annual deductible) regardless of how many sessions you attend.',
+        content: 'Over a typical course of treatment (12 to 24 sessions), the difference adds up. A beneficiary on Original Medicare alone would pay approximately $235 to $469 in coinsurance. With [Medigap Plan G](/medicare-supplement-plans/plan-g/), the total out-of-pocket cost for the entire course of therapy is $283 (the annual deductible) regardless of how many sessions you attend.',
       },
       {
         type: 'heading',

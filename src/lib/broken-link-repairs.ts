@@ -2,6 +2,23 @@
  * Null entries have no verified equivalent; related cards for them are omitted.
  */
 export const BROKEN_LINK_REPAIRS: Readonly<Record<string, string | null>> = {
+  // October 26 audit: also protects legacy related-card slugs and old bookmarks.
+  "/faqs/medicare-advantage-costs": "/medicare-part-c/medicare-advantage-costs/",
+  "/faqs/medigap-supplement-open-enrollment": "/faqs/medicare-supplement-open-enrollment/",
+  "/faqs/medicare-supplement-vs-medicare-advantage": "/medicare-plans/supplement-vs-advantage/",
+  "/faqs/does-medicare-cover-physical-therapy": "/faqs/medicare-coverage-for-physical-therapy/",
+  "/blog/maryland-birthday-rule": "/blog/maryland-medicare-supplement-birthday-rule/",
+  "/faqs/medicare-agents-near-me": null,
+  "/faqs/does-medicare-cover-bathroom-safety-devices": "/faqs/medicare-coverage-for-bathroom-safety-devices/",
+  "/faqs/medicare-long-term-care": "/blog/does-medicare-include-long-term-care-common-misunderstanding/",
+  "/faqs/does-medicare-cover-vision": "/faqs/medicare-vision-care-coverage/",
+  "/faqs/medicare-dental-coverage": "/faqs/what-dental-expenses-does-medicare-cover/",
+  "/faqs/medicare-advantage-benefits": "/faqs/medicare-advantage-extra-benefits-explained-whats-really-included/",
+  "/faqs/medicare-part-a-trust-fund": "/faqs/how-is-medicare-funded/",
+  "/blog/medicare-and-self-employment-tax-planning": null,
+  "/faqs/does-medicare-cover-dental": "/faqs/what-dental-expenses-does-medicare-cover/",
+  "/faqs/medicare-supplement-plan-g-benefits": "/medicare-supplement-plans/plan-g/",
+  "/faqs/does-medicare-cover-wound-care": null,
   "/medicare-part-c/medicare-advantage-enrollment": "/medicare-part-c/medicare-advantage-enrollment-periods/",
   "/medicare-part-c/medicare-advantage-give-back-benefit": "/faqs/medicare-part-b-give-back-plan/",
   "/faqs/what-is-medicare-advantage": "/medicare-part-c/medicare-advantage-plans/",

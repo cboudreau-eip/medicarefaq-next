@@ -291,7 +291,7 @@ export const simpleFAQBatch8: SimpleFAQArticleData[] = [
     relatedSlugs: [
       "does-medicare-cover-macular-degeneration",
       "does-medicare-cover-hearing-aids",
-      "does-medicare-cover-dental",
+      "what-dental-expenses-does-medicare-cover",
       "deductible-copay-coinsurance-premium",
       "medicare-advantage-plans", "does-medicare-cover-varicose-veins", "medicare-and-mail-order-prescriptions", "medicare-coverage-for-stroke-victims", "medicare-qualified-government-wages", "what-is-medicare-assignment"],
   }];

@@ -357,10 +357,10 @@ export const simpleFAQBatch9: SimpleFAQArticleData[] = [
           }],
       }],
     relatedSlugs: [
-      "medicare-dental-coverage",
+      "what-dental-expenses-does-medicare-cover",
       "does-medicare-cover-hearing-aids",
-      "does-medicare-cover-vision",
-      "medicare-long-term-care",
+      "medicare-vision-care-coverage",
+      "does-medicare-include-long-term-care-common-misunderstanding",
       "medicare-part-d", "does-medicare-cover-end-stage-renal-disease", "does-medicare-cover-varicose-veins", "medicare-and-mail-order-prescriptions", "medicare-diabetes", "medicare-reimbursement"],
   },
   {
