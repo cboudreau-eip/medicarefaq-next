@@ -1,7 +1,22 @@
 {
   "title": "2026 Medicare Remote Patient Monitoring Rule Explained",
+  "rawContent": "",
   "slug": "how-cms-proposal-affects-medicare-remote-monitoring-access",
+  "excerpt": "CMS has proposed 2026 changes to Medicare remote patient monitoring billing and reimbursement, which could affect how many providers, especially rural and smaller practices, continue offering RPM services.",
   "category": "general",
+  "author": "David Haass",
+  "reviewer": "Ashlee Zareczny",
+  "image": "/images/generated/how-cms-proposal-affects-medicare-remote-monitoring-access-306de9e5014d.png",
+  "imageAlt": "",
+  "keyTakeaways": [
+    "The 2026 CMS proposal targets RPM billing codes and reimbursement rates, not a ban on remote patient monitoring itself",
+    "The rule is still open for public comment and has not been finalized",
+    "Lower reimbursement could lead some practices, especially small and rural ones, to scale back RPM enrollment",
+    "Patients managing heart disease, diabetes, or COPD may see fewer RPM options if providers cut back",
+    "Rural patients could face longer travel times for in-person monitoring if RPM services are reduced"
+  ],
+  "seoTitle": "2026 Medicare Remote Patient Monitoring Rule Explained",
+  "seoDescription": "Learn how the 2026 Medicare remote patient monitoring rule could change RPM billing, reimbursement, and access to care for beneficiaries.",
   "sections": [
     {
       "type": "heading",
@@ -11,7 +26,7 @@
     },
     {
       "type": "paragraph",
-      "content": "The Centers for Medicare & Medicaid Services (CMS) has proposed changes to how remote patient monitoring (RPM) services are billed and reimbursed under Medicare. RPM allows your provider to track readings like blood pressure, blood glucose, or heart rhythm from a device in your home, without requiring an office visit. The 2026 proposal focuses on the billing codes and reimbursement rates tied to these services, not on banning RPM itself."
+      "content": "The Centers for Medicare & Medicaid Services (CMS) has proposed changes to how [remote patient monitoring](/faqs/does-medicare-cover-telehealth/) (RPM) services are billed and reimbursed under Medicare. RPM allows your provider to track readings like blood pressure, blood glucose, or heart rhythm from a device in your home, without requiring an office visit. The 2026 proposal focuses on the billing codes and reimbursement rates tied to these services, not on banning RPM itself."
     },
     {
       "type": "paragraph",
@@ -25,7 +40,7 @@
     },
     {
       "type": "paragraph",
-      "content": "If reimbursement rates drop or billing requirements become more restrictive, some physician practices may decide RPM is no longer worth offering. Smaller practices in particular may scale back the number of patients they enroll in monitoring programs, even if they do not eliminate the service entirely."
+      "content": "If reimbursement rates drop or billing requirements become more restrictive, some physician practices may decide RPM is no longer worth offering. Smaller practices in particular may scale back the number of patients they enroll in [monitoring programs](/faqs/medicare-coverage-for-mental-health/), even if they do not eliminate the service entirely."
     },
     {
       "type": "paragraph",
@@ -47,7 +62,7 @@
     },
     {
       "type": "paragraph",
-      "content": "There is also a ripple effect to consider. Many rural hospitals and home health agencies already operate on thin margins, and a reduction in RPM reimbursement could affect their broader financial stability, not just their monitoring programs specifically. The Kaiser Family Foundation has tracked how rural providers are often more exposed to Medicare payment changes because they serve a higher share of Medicare beneficiaries relative to urban facilities, according to [KFF analysis of rural health coverage](https://www.kff.org/topic/medicare/)."
+      "content": "There is also a ripple effect to consider. Many rural hospitals and home health agencies already operate on thin margins, and a reduction in RPM reimbursement could affect their broader financial stability, not just their [monitoring programs](/faqs/medicare-coverage-for-mental-health/) specifically. The Kaiser Family Foundation has tracked how rural providers are often more exposed to Medicare payment changes because they serve a higher share of Medicare beneficiaries relative to urban facilities, according to [KFF analysis of rural health coverage](https://www.kff.org/topic/medicare/)."
     },
     {
       "type": "heading",
@@ -79,7 +94,7 @@
     },
     {
       "type": "eddie-pro-tip",
-      "content": "If you rely on RPM for a chronic condition, ask your provider now how they would handle monitoring if reimbursement changed, before any rule is finalized. A proactive answer today gives you time to adjust, rather than finding out during an appointment after a change has already taken effect."
+      "content": "If you rely on RPM for a [chronic condition](/faqs/medicare-coverage-for-disabled-under-65/), ask your provider now how they would handle monitoring if reimbursement changed, before any rule is finalized. A proactive answer today gives you time to adjust, rather than finding out during an appointment after a change has already taken effect."
     },
     {
       "type": "heading",
@@ -89,7 +104,7 @@
     },
     {
       "type": "paragraph",
-      "content": "CMS proposed rules go through a public comment period before becoming final, and Medicare beneficiaries are allowed to submit comments directly. You can do this through the Federal Register's public comment portal, where CMS posts each proposed rule along with its specific comment deadline."
+      "content": "CMS proposed rules go through a [public comment period](/faqs/medicare-special-enrollment-periods/) before becoming final, and Medicare beneficiaries are allowed to submit comments directly. You can do this through the Federal Register's public comment portal, where CMS posts each proposed rule along with its specific comment deadline."
     },
     {
       "type": "list",
@@ -191,21 +206,55 @@
       "content": "Staying engaged during the comment period gives you a direct way to influence how this rule is shaped before it becomes final, particularly if RPM plays a role in managing your health. Bookmark this page for updates as CMS moves toward a decision, and consider talking with a licensed Medicare agent about how your specific plan could be affected if the proposal is finalized."
     }
   ],
-  "seoTitle": "2026 Medicare Remote Patient Monitoring Rule Explained",
-  "seoDescription": "Learn how the 2026 Medicare remote patient monitoring rule could change RPM billing, reimbursement, and access to care for beneficiaries.",
-  "excerpt": "CMS has proposed 2026 changes to Medicare remote patient monitoring billing and reimbursement, which could affect how many providers, especially rural and smaller practices, continue offering RPM services.",
-  "keyTakeaways": [
-    "The 2026 CMS proposal targets RPM billing codes and reimbursement rates, not a ban on remote patient monitoring itself",
-    "The rule is still open for public comment and has not been finalized",
-    "Lower reimbursement could lead some practices, especially small and rural ones, to scale back RPM enrollment",
-    "Patients managing heart disease, diabetes, or COPD may see fewer RPM options if providers cut back",
-    "Rural patients could face longer travel times for in-person monitoring if RPM services are reduced"
+  "relatedSlugs": [
+    "2026-update-medicare-access-challenges-for-seniors-with-comp",
+    "medicare-2027-key-changes-in-open-enrollment-you-need-to-know",
+    "medicare-annual-enrollment-period",
+    "medicare-costs-double-beneficiaries"
   ],
-  "image": "/images/generated/how-cms-proposal-affects-medicare-remote-monitoring-access-306de9e5014d.png",
-  "relatedSlugs": [],
-  "sourceUrl": "https://kffhealthnews.org/medicare/remote-patient-monitoring-cms-medicare-rule-reimbursements-access-rural-health/",
-  "pipelineId": "disc-15e7a79eda81d0a7e8d78bfe4ea48dcc9083a2d1eac083340dee89bb7cbbf0f6",
+  "linkSuggestions": [
+    {
+      "phrase": "billing codes",
+      "url": "/faqs/medicare-reimbursement/",
+      "title": "Medicare Reimbursement",
+      "reason": "Explains how billing codes relate to Medicare reimbursement processes, providing deeper context for the proposal."
+    },
+    {
+      "phrase": "Medicare Advantage plan",
+      "url": "/faqs/medicare-advantage-vs-medicare-supplement/",
+      "title": "Medicare Advantage vs. Medicare Supplement",
+      "reason": "Helps readers understand the differences between Medicare Advantage plans and other options, relevant to RPM discussions."
+    },
+    {
+      "phrase": "reimbursement rates",
+      "url": "/faqs/medicare-cost-sharing/",
+      "title": "Medicare Cost-Sharing: Deductibles, Copays, Coinsurance & Medigap Plans Explained",
+      "reason": "Offers context on how reimbursement rates impact out-of-pocket costs for beneficiaries."
+    }
+  ],
+  "acceptedLinks": [
+    {
+      "phrase": "remote patient monitoring",
+      "url": "/faqs/does-medicare-cover-telehealth/",
+      "title": "Does Medicare Cover Telehealth?"
+    },
+    {
+      "phrase": "chronic condition",
+      "url": "/faqs/medicare-coverage-for-disabled-under-65/",
+      "title": "Medicare Coverage for People under 65 with a Disability"
+    },
+    {
+      "phrase": "public comment period",
+      "url": "/faqs/medicare-special-enrollment-periods/",
+      "title": "Medicare Special Enrollment Periods (SEP): When and How to Use Them"
+    },
+    {
+      "phrase": "monitoring programs",
+      "url": "/faqs/medicare-coverage-for-mental-health/",
+      "title": "Medicare Coverage for Mental Health Services"
+    }
+  ],
   "id": "pipeline-how-cms-proposal-affects-medicare-remote-monitoring-access",
-  "updatedAt": "2026-10-27T11:35:32.480Z",
-  "createdAt": "2026-10-27T11:35:32.480Z"
+  "updatedAt": "2026-10-27T14:16:14.179Z",
+  "createdAt": "2026-10-27T14:16:14.179Z"
 }
