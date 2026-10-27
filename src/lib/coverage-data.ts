@@ -10151,201 +10151,310 @@ export const coverageArticles: CoverageArticleData[] = [
   ],
 },
   {
-    slug: "does-medicare-cover-cologuard",
-    seo: {
-      title: "Does Medicare Cover Cologuard?",
-      description:
-        "Medicare covers Cologuard for eligible beneficiaries as a colorectal cancer screening test. Learn about coverage criteria, frequency limits, costs, and how it compares to a colonoscopy.",
-      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-cologuard/",
-      ogImage: "/images/medicarefaq-cover.jpg",
-    },
-    title: "Does Medicare Cover Cologuard?",
-    subtitle:
-      "Yes - Medicare covers Cologuard as a colorectal cancer screening test for eligible beneficiaries. Learn who qualifies, how often it's covered, and what you'll pay.",
-    category: "Medicare Coverage",
-    dateUpdated: "April 14, 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
-    },
-    readTime: "6 min read",
-    quickAnswer: {
-      text: "Yes, Medicare covers Cologuard as a colorectal cancer screening test for eligible beneficiaries age 45–75 who are at average risk for colorectal cancer. Cologuard is covered at $0 cost under Medicare's preventive services benefit - once every 3 years. If you are at high risk or have symptoms, a colonoscopy is typically recommended instead.",
-      badges: [
-        { plan: "Original Medicare", status: "covered" },
-        { plan: "Medicare Advantage", status: "covered" },
-        { plan: "Medigap", status: "partial" }],
-    },
-    comparisonTable: [
-      { planType: "Medicare Part B (Preventive)", coverage: "Covered at $0", icon: "shield", notes: "Covered as a preventive screening for average-risk beneficiaries ages 45–75; once every 3 years" },
-      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same preventive services as Original Medicare; $0 cost for in-network preventive care" },
-      { planType: "Medicare Supplement (Medigap)", coverage: "Not Needed", icon: "users", notes: "Cologuard is $0 under Medicare preventive benefits; Medigap not needed for this service" },
-      { planType: "Medicare Part D", coverage: "Not Applicable", icon: "filetext", notes: "Cologuard is a lab test, not a prescription drug; not covered under Part D" }],
-    planBreakdowns: [
-      {
-        planName: "Original Medicare (Part B)",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Covered at $0",
-        coverageType: "covered",
-        statusBadge: "Covered - $0 for eligible beneficiaries",
-        paragraphs: [
-          "[Medicare Part B](/blog/understanding-medicare-part-b-premiums-deductibles-and-whats-covered) covers Cologuard as a preventive colorectal cancer screening test. Cologuard is a multitarget stool DNA (mt-sDNA) test that can be completed at home - you collect a stool sample and mail it to a lab for analysis. No bowel prep or sedation is required.",
-          "Medicare covers Cologuard at **$0 cost** (no deductible, no coinsurance) for beneficiaries who meet the eligibility criteria. The test is covered once every 3 years. If your Cologuard result is positive, Medicare will cover a follow-up [colonoscopy](/faqs/medicare-coverage-for-colonoscopy-screenings) at $0 as well - because the colonoscopy is considered a continuation of the screening process.",
-          "**Important:** If you have symptoms of colorectal cancer (rectal bleeding, unexplained weight loss, changes in bowel habits), Medicare will not cover Cologuard as a preventive screening. Instead, your doctor will order a diagnostic colonoscopy, which is covered under different rules."],
-        whatItCovers: [
-          "Cologuard test kit and lab analysis (at $0 for eligible beneficiaries)",
-          "Follow-up colonoscopy after a positive Cologuard result (at $0)",
-          "One test every 3 years for average-risk beneficiaries ages 45–75"],
-        whatItDoesntCover: [
-          "Cologuard for high-risk beneficiaries (colonoscopy is recommended instead)",
-          "Cologuard when ordered for diagnostic (not screening) purposes",
-          "More frequent testing than once every 3 years under the preventive benefit"],
-        costNote: "Cologuard is covered at $0 under Medicare's preventive services benefit. No deductible or coinsurance applies when ordered as a preventive screening.",
-      },
-      {
-        planName: "Medicare Advantage (Part C)",
-        icon: "heart",
-        iconColor: "#059669",
-        coverageLabel: "Covered",
-        coverageType: "covered",
-        statusBadge: "Covered - $0 for in-network preventive care",
-        paragraphs: [
-          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) are required by law to cover all Medicare preventive services at $0 cost when you use in-network providers. Cologuard is a Medicare-covered preventive service, so it is covered at $0 by all Medicare Advantage plans for eligible beneficiaries.",
-          "Some Medicare Advantage plans may have additional colorectal cancer screening benefits beyond what Original Medicare requires. Check your plan's Evidence of Coverage for details."],
-        whatItCovers: [
-          "Cologuard at $0 for eligible beneficiaries (in-network)",
-          "Follow-up colonoscopy after a positive Cologuard result",
-          "All Medicare preventive colorectal cancer screenings"],
-        whatItDoesntCover: [
-          "Out-of-network Cologuard orders (may result in cost-sharing)",
-          "Cologuard ordered for diagnostic purposes (different cost-sharing applies)"],
-        callout: {
-          type: "tip",
-          title: "Confirm Your Ordering Provider is In-network",
-          text: "To ensure $0 cost for Cologuard under Medicare Advantage, confirm that the doctor ordering the test is in your plan's network. Out-of-network orders may result in cost-sharing.",
-        },
-        costNote: "Covered at $0 for in-network preventive care. Costs may apply if ordered out-of-network or for diagnostic purposes.",
-      },
-      {
-        planName: "Medicare Supplement (Medigap)",
-        icon: "users",
-        iconColor: "#7C3AED",
-        coverageLabel: "Not Needed",
-        coverageType: "covered",
-        statusBadge: "Cologuard is already $0 under Medicare",
-        paragraphs: [
-          "Because Cologuard is covered at $0 under Medicare's preventive services benefit, [Medigap plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) are not needed for this specific service. There is no coinsurance or deductible for Medigap to cover.",
-          "However, if your Cologuard result is positive and you need a follow-up colonoscopy, Medigap can help cover any cost-sharing that applies to that procedure. And if you need a diagnostic colonoscopy (due to symptoms), Medigap would cover the 20% Part B coinsurance."],
-        whatItCovers: [
-          "Part B coinsurance for diagnostic colonoscopy following a positive Cologuard result",
-          "Any cost-sharing for related follow-up procedures"],
-        whatItDoesntCover: [
-          "Cologuard itself - it's already $0 under Medicare preventive benefits"],
-        costNote: "No Medigap cost-sharing applies to preventive Cologuard. Medigap is valuable for follow-up diagnostic procedures if your Cologuard result is positive.",
-      }],
-    costTable: {
-      title: "Cologuard vs. Colonoscopy: Medicare Coverage Comparison",
-      headers: ["Test", "Frequency", "Preparation", "Medicare Coverage", "Your Cost"],
-      rows: [
-        { "Test": "Cologuard (mt-sDNA)", "Frequency": "Every 3 years", "Preparation": "No prep required - at-home stool sample", "Medicare Coverage": "Part B preventive benefit", "Your Cost": "$0" },
-        { "Test": "Colonoscopy (screening)", "Frequency": "Every 10 years (average risk)", "Preparation": "Bowel prep + sedation required", "Medicare Coverage": "Part B preventive benefit", "Your Cost": "$0" },
-        { "Test": "Colonoscopy (high risk)", "Frequency": "Every 2 years", "Preparation": "Bowel prep + sedation required", "Medicare Coverage": "Part B preventive benefit", "Your Cost": "$0" },
-        { "Test": "Colonoscopy (diagnostic)", "Frequency": "As needed", "Preparation": "Bowel prep + sedation required", "Medicare Coverage": "Part B (not preventive)", "Your Cost": "20% coinsurance after deductible" },
-        { "Test": "Follow-up colonoscopy (after positive Cologuard)", "Frequency": "As needed", "Preparation": "Bowel prep + sedation required", "Medicare Coverage": "Part B preventive benefit", "Your Cost": "$0" }],
-    },
-    exceptionsSection: {
-      title: "Cologuard Coverage Rules and Exceptions",
-      items: [
-        {
-          title: "Age and Risk Eligibility",
-          text: "Medicare covers Cologuard for beneficiaries ages 45–75 who are at average risk for colorectal cancer. 'Average risk' means no personal or family history of colorectal cancer or polyps, no inflammatory bowel disease, and no symptoms of colorectal cancer.",
-        },
-        {
-          title: "Frequency Limit",
-          text: "Medicare covers Cologuard once every 3 years. If you order Cologuard more frequently, you may be responsible for the full cost. A colonoscopy is covered more frequently for high-risk beneficiaries.",
-        },
-        {
-          title: "Positive Result Follow-Up",
-          text: "If your Cologuard result is positive, Medicare covers a follow-up colonoscopy at $0 - because CMS considers the colonoscopy a continuation of the colorectal cancer screening process, not a separate diagnostic procedure.",
-        },
-        {
-          title: "Symptoms Change Coverage",
-          text: "If you have symptoms of colorectal cancer (rectal bleeding, unexplained weight loss, changes in bowel habits), Cologuard is not appropriate as a screening test. Your doctor will order a diagnostic colonoscopy, which is covered under different rules with standard Part B cost-sharing.",
-        }],
-    },
-    faqs: [
-      {
-        question: "Is Cologuard Covered by Medicare at $0?",
-        answer:
-          "Yes. Medicare covers Cologuard at $0 for eligible beneficiaries ages 45–75 who are at average risk for colorectal cancer. No deductible or coinsurance applies when it is ordered as a preventive screening. The test is covered once every 3 years.",
-      },
-      {
-        question: "How Often Does Medicare Cover Cologuard?",
-        answer:
-          "Medicare covers Cologuard once every 3 years for average-risk beneficiaries. If you need more frequent colorectal cancer screening due to high risk factors, Medicare covers a colonoscopy every 2 years for high-risk beneficiaries.",
-      },
-      {
-        question: "Does Medicare Cover a Colonoscopy after a Positive Cologuard?",
-        answer:
-          "Yes. If your Cologuard result is positive, Medicare covers a follow-up colonoscopy at $0. CMS considers the follow-up colonoscopy a continuation of the colorectal cancer screening process, so standard diagnostic cost-sharing does not apply.",
-      },
-      {
-        question: "Is Cologuard Better than a Colonoscopy?",
-        answer:
-          "Cologuard and colonoscopy serve different purposes. Cologuard is a non-invasive at-home test that detects DNA changes and blood in stool - it requires no prep or sedation. A colonoscopy is more thorough and can both detect and remove polyps in the same procedure. For average-risk beneficiaries, both are valid options. For high-risk beneficiaries, a colonoscopy is generally recommended.",
-      },
-      {
-        question: "Does Medicare Advantage Cover Cologuard?",
-        answer:
-          "Yes. Medicare Advantage plans are required to cover all Medicare preventive services at $0 cost when you use in-network providers. Cologuard is a Medicare-covered preventive service, so it is covered at $0 by all Medicare Advantage plans for eligible beneficiaries.",
-      },
-      {
-        question: "What if I Have Symptoms - Will Medicare Cover Cologuard?",
-        answer:
-          "No. If you have symptoms of colorectal cancer such as rectal bleeding, unexplained weight loss, or changes in bowel habits, Cologuard is not appropriate as a screening test. Your doctor will order a diagnostic colonoscopy instead, which is covered under Part B with standard cost-sharing (20% coinsurance after your deductible).",
-      },
-      {
-        question: "Does Medigap Cover Cologuard?",
-        answer:
-          "Cologuard is already covered at $0 under Medicare's preventive services benefit, so Medigap is not needed for the test itself. However, if your Cologuard result is positive and you need a follow-up colonoscopy, Medigap can help cover any cost-sharing that applies to that procedure.",
-      }],
-    quickReference: [
-      { icon: "check", text: "Cologuard covered at $0 for average-risk beneficiaries ages 45–75" },
-      { icon: "check", text: "Follow-up colonoscopy after positive Cologuard result also covered at $0" },
-      { icon: "info", text: "Covered once every 3 years under Medicare's preventive benefit" },
-      { icon: "alert", text: "Not covered if you have symptoms - diagnostic colonoscopy ordered instead" },
-      { icon: "check", text: "Medicare Advantage plans must cover Cologuard at $0 for eligible beneficiaries" },
-      { icon: "info", text: "High-risk beneficiaries should discuss colonoscopy vs. Cologuard with their doctor" }],
-    relatedTopics: [
-      { title: "Medicare Coverage for Colonoscopy Screenings", description: "Learn about Medicare's coverage for colonoscopy screenings and what you'll pay.", slug: "medicare-coverage-for-colonoscopy-screenings" },
-      { title: "Does Medicare Cover a Biopsy?", description: "Learn about Medicare coverage for different types of biopsies.", slug: "does-medicare-cover-a-biopsy" },
-      { title: "Medicare Preventive Services Guide", description: "Explore the full list of preventive services covered by Medicare at $0.", slug: "medicare-preventive-services" },
-      { title: "What Does Medically Necessary Mean?", description: "Understand what Medicare means by 'medically necessary' and how it affects coverage.", slug: "what-does-medically-necessary-mean" }],
-    sidebarRelatedLinks: [
-      "Medicare Coverage for Colonoscopy Screenings",
-      "Does Medicare Cover a Biopsy?",
-      "Medicare Preventive Services Guide",
-      "What Does Medically Necessary Mean?"],
-    ctaBanner: {
-      title: "Need Help Understanding Your Medicare Preventive Benefits?",
-      text: "Our licensed Medicare agents can help you understand what preventive services are covered at $0 and find the right Medicare plan for your needs. Compare options in your area for free.",
-    },
-    relatedSlugs: [
-      "medicare-coverage-for-colonoscopy-screenings",
-      "medicare-preventive-services",
-      "does-medicare-cover-a-biopsy",
-      "does-medicare-cover-second-opinions-and-when-should-you-get-one"],
+  slug: "does-medicare-cover-cologuard",
+  seo: {
+    title: "Does Medicare Cover Cologuard? Cost & Eligibility Explained",
+    description: "Medicare covers Cologuard at $0 for eligible beneficiaries every 3 years. See age and risk requirements, what happens after a positive result, and how it compares to a colonoscopy.",
+    canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-cologuard/",
+    ogImage: "/images/medicarefaq-cover.jpg",
   },
+  title: "Does Medicare Cover Cologuard?",
+  subtitle: "Yes - Medicare covers Cologuard as a colorectal cancer screening test for eligible beneficiaries. Learn who qualifies, how often it's covered, and what you'll pay.",
+  category: "Medicare Coverage",
+  dateUpdated: "April 14, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+  },
+  readTime: "6 min read",
+  quickAnswer: {
+    text: "Yes. Medicare Part B covers Cologuard as a colorectal cancer screening test at $0 cost for eligible beneficiaries age 45–75 who are at average risk for colorectal cancer, once every 3 years. If you are at high risk or have symptoms, a colonoscopy is typically recommended instead of Cologuard.",
+    badges: [
+      {
+        plan: "Original Medicare",
+        status: "covered",
+      },
+      {
+        plan: "Medicare Advantage",
+        status: "covered",
+      },
+      {
+        plan: "Medigap",
+        status: "partial",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Medicare Part B (Preventive)",
+      coverage: "Covered at $0",
+      icon: "shield",
+      notes: "Covered as a preventive screening for average-risk beneficiaries ages 45–75; once every 3 years",
+    },
+    {
+      planType: "Medicare Advantage (Part C)",
+      coverage: "Covered",
+      icon: "heart",
+      notes: "Must cover same preventive services as Original Medicare; $0 cost for in-network preventive care",
+    },
+    {
+      planType: "Medicare Supplement (Medigap)",
+      coverage: "Not Needed",
+      icon: "users",
+      notes: "Cologuard is $0 under Medicare preventive benefits; Medigap not needed for this service",
+    },
+    {
+      planType: "Medicare Part D",
+      coverage: "Not Applicable",
+      icon: "filetext",
+      notes: "Cologuard is a lab test, not a prescription drug; not covered under Part D",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "Original Medicare (Part B)",
+      icon: "shield",
+      iconColor: "#1B2A4A",
+      coverageLabel: "Covered at $0",
+      coverageType: "covered",
+      statusBadge: "Covered - $0 for eligible beneficiaries",
+      paragraphs: [
+      "[Medicare Part B](/blog/understanding-medicare-part-b-premiums-deductibles-and-whats-covered) covers Cologuard as a preventive colorectal cancer screening test. Cologuard is a multitarget stool DNA (mt-sDNA) test that can be completed at home - you collect a stool sample and mail it to a lab for analysis. No bowel prep or sedation is required.",
+      "Medicare covers Cologuard at **$0 cost** (no deductible, no coinsurance) for beneficiaries who meet the eligibility criteria. The test is covered once every 3 years. If your Cologuard result is positive, Medicare will cover a follow-up [colonoscopy](/faqs/medicare-coverage-for-colonoscopy-screenings) at $0 as well - because the colonoscopy is considered a continuation of the screening process.",
+      "**Important:** If you have symptoms of colorectal cancer (rectal bleeding, unexplained weight loss, changes in bowel habits), Medicare will not cover Cologuard as a preventive screening. Instead, your doctor will order a diagnostic colonoscopy, which is covered under different rules.",
+    ],
+      whatItCovers: [
+      "Cologuard test kit and lab analysis (at $0 for eligible beneficiaries)",
+      "Follow-up colonoscopy after a positive Cologuard result (at $0)",
+      "One test every 3 years for average-risk beneficiaries ages 45–75",
+    ],
+      whatItDoesntCover: [
+      "Cologuard for high-risk beneficiaries (colonoscopy is recommended instead)",
+      "Cologuard when ordered for diagnostic (not screening) purposes",
+      "More frequent testing than once every 3 years under the preventive benefit",
+    ],
+      costNote: "Cologuard is covered at $0 under Medicare's preventive services benefit. No deductible or coinsurance applies when ordered as a preventive screening.",
+    },
+    {
+      planName: "Medicare Advantage (Part C)",
+      icon: "heart",
+      iconColor: "#059669",
+      coverageLabel: "Covered",
+      coverageType: "covered",
+      statusBadge: "Covered - $0 for in-network preventive care",
+      paragraphs: [
+      "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) are required by law to cover all Medicare preventive services at $0 cost when you use in-network providers. Cologuard is a Medicare-covered preventive service, so it is covered at $0 by all Medicare Advantage plans for eligible beneficiaries.",
+      "Some Medicare Advantage plans may have additional colorectal cancer screening benefits beyond what Original Medicare requires. Check your plan's Evidence of Coverage for details.",
+    ],
+      whatItCovers: [
+      "Cologuard at $0 for eligible beneficiaries (in-network)",
+      "Follow-up colonoscopy after a positive Cologuard result",
+      "All Medicare preventive colorectal cancer screenings",
+    ],
+      whatItDoesntCover: [
+      "Out-of-network Cologuard orders (may result in cost-sharing)",
+      "Cologuard ordered for diagnostic purposes (different cost-sharing applies)",
+    ],
+      callout: {
+      type: "tip",
+      title: "Confirm Your Ordering Provider is In-network",
+      text: "To ensure $0 cost for Cologuard under Medicare Advantage, confirm that the doctor ordering the test is in your plan's network. Out-of-network orders may result in cost-sharing.",
+    },
+      costNote: "Covered at $0 for in-network preventive care. Costs may apply if ordered out-of-network or for diagnostic purposes.",
+    },
+    {
+      planName: "Medicare Supplement (Medigap)",
+      icon: "users",
+      iconColor: "#7C3AED",
+      coverageLabel: "Not Needed",
+      coverageType: "covered",
+      statusBadge: "Cologuard is already $0 under Medicare",
+      paragraphs: [
+      "Because Cologuard is covered at $0 under Medicare's preventive services benefit, [Medigap plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) are not needed for this specific service. There is no coinsurance or deductible for Medigap to cover.",
+      "However, if your Cologuard result is positive and you need a follow-up colonoscopy, Medigap can help cover any cost-sharing that applies to that procedure. And if you need a diagnostic colonoscopy (due to symptoms), Medigap would cover the 20% Part B coinsurance.",
+    ],
+      whatItCovers: [
+      "Part B coinsurance for diagnostic colonoscopy following a positive Cologuard result",
+      "Any cost-sharing for related follow-up procedures",
+    ],
+      whatItDoesntCover: [
+      "Cologuard itself - it's already $0 under Medicare preventive benefits",
+    ],
+      costNote: "No Medigap cost-sharing applies to preventive Cologuard. Medigap is valuable for follow-up diagnostic procedures if your Cologuard result is positive.",
+    },
+  ],
+  costTable: {
+    title: "Cologuard vs. Colonoscopy: Medicare Coverage Comparison",
+    headers: [
+    "Test",
+    "Frequency",
+    "Preparation",
+    "Medicare Coverage",
+    "Your Cost",
+  ],
+    rows: [
+      {
+        "Test": "Cologuard (mt-sDNA)",
+        "Frequency": "Every 3 years",
+        "Preparation": "No prep required - at-home stool sample",
+        "Medicare Coverage": "Part B preventive benefit",
+        "Your Cost": "$0",
+      },
+      {
+        "Test": "Colonoscopy (screening)",
+        "Frequency": "Every 10 years (average risk)",
+        "Preparation": "Bowel prep + sedation required",
+        "Medicare Coverage": "Part B preventive benefit",
+        "Your Cost": "$0",
+      },
+      {
+        "Test": "Colonoscopy (high risk)",
+        "Frequency": "Every 2 years",
+        "Preparation": "Bowel prep + sedation required",
+        "Medicare Coverage": "Part B preventive benefit",
+        "Your Cost": "$0",
+      },
+      {
+        "Test": "Colonoscopy (diagnostic)",
+        "Frequency": "As needed",
+        "Preparation": "Bowel prep + sedation required",
+        "Medicare Coverage": "Part B (not preventive)",
+        "Your Cost": "20% coinsurance after deductible",
+      },
+      {
+        "Test": "Follow-up colonoscopy (after positive Cologuard)",
+        "Frequency": "As needed",
+        "Preparation": "Bowel prep + sedation required",
+        "Medicare Coverage": "Part B preventive benefit",
+        "Your Cost": "$0",
+      },
+    ],
+  },
+  exceptionsSection: {
+    title: "Cologuard Coverage Rules and Exceptions",
+    items: [
+      {
+        title: "Age and Risk Eligibility",
+        text: "Medicare covers Cologuard for beneficiaries ages 45–75 who are at average risk for colorectal cancer. 'Average risk' means no personal or family history of colorectal cancer or polyps, no inflammatory bowel disease, and no symptoms of colorectal cancer.",
+      },
+      {
+        title: "Frequency Limit",
+        text: "Medicare covers Cologuard once every 3 years. If you order Cologuard more frequently, you may be responsible for the full cost. A colonoscopy is covered more frequently for high-risk beneficiaries.",
+      },
+      {
+        title: "Positive Result Follow-Up",
+        text: "If your Cologuard result is positive, Medicare covers a follow-up colonoscopy at $0 - because CMS considers the colonoscopy a continuation of the colorectal cancer screening process, not a separate diagnostic procedure.",
+      },
+      {
+        title: "Symptoms Change Coverage",
+        text: "If you have symptoms of colorectal cancer (rectal bleeding, unexplained weight loss, changes in bowel habits), Cologuard is not appropriate as a screening test. Your doctor will order a diagnostic colonoscopy, which is covered under different rules with standard Part B cost-sharing.",
+      },
+    ],
+  },
+  faqs: [
+    {
+      question: "Is Cologuard Covered by Medicare at $0?",
+      answer: "Yes. Medicare covers Cologuard at $0 for eligible beneficiaries ages 45–75 who are at average risk for colorectal cancer. No deductible or coinsurance applies when it is ordered as a preventive screening. The test is covered once every 3 years.",
+    },
+    {
+      question: "How Often Does Medicare Cover Cologuard?",
+      answer: "Medicare covers Cologuard once every 3 years for average-risk beneficiaries. If you need more frequent colorectal cancer screening due to high risk factors, Medicare covers a colonoscopy every 2 years for high-risk beneficiaries.",
+    },
+    {
+      question: "Does Medicare Cover a Colonoscopy after a Positive Cologuard?",
+      answer: "Yes. If your Cologuard result is positive, Medicare covers a follow-up colonoscopy at $0. CMS considers the follow-up colonoscopy a continuation of the colorectal cancer screening process, so standard diagnostic cost-sharing does not apply.",
+    },
+    {
+      question: "Is Cologuard Better than a Colonoscopy?",
+      answer: "Cologuard and colonoscopy serve different purposes. Cologuard is a non-invasive at-home test that detects DNA changes and blood in stool - it requires no prep or sedation. A colonoscopy is more thorough and can both detect and remove polyps in the same procedure. For average-risk beneficiaries, both are valid options. For high-risk beneficiaries, a colonoscopy is generally recommended.",
+    },
+    {
+      question: "Does Medicare Advantage Cover Cologuard?",
+      answer: "Yes. Medicare Advantage plans are required to cover all Medicare preventive services at $0 cost when you use in-network providers. Cologuard is a Medicare-covered preventive service, so it is covered at $0 by all Medicare Advantage plans for eligible beneficiaries.",
+    },
+    {
+      question: "What if I Have Symptoms - Will Medicare Cover Cologuard?",
+      answer: "No. If you have symptoms of colorectal cancer such as rectal bleeding, unexplained weight loss, or changes in bowel habits, Cologuard is not appropriate as a screening test. Your doctor will order a diagnostic colonoscopy instead, which is covered under Part B with standard cost-sharing (20% coinsurance after your deductible).",
+    },
+    {
+      question: "Does Medigap Cover Cologuard?",
+      answer: "Cologuard is already covered at $0 under Medicare's preventive services benefit, so Medigap is not needed for the test itself. However, if your Cologuard result is positive and you need a follow-up colonoscopy, Medigap can help cover any cost-sharing that applies to that procedure.",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "check",
+      text: "Cologuard covered at $0 for average-risk beneficiaries ages 45–75",
+    },
+    {
+      icon: "check",
+      text: "Follow-up colonoscopy after positive Cologuard result also covered at $0",
+    },
+    {
+      icon: "info",
+      text: "Covered once every 3 years under Medicare's preventive benefit",
+    },
+    {
+      icon: "alert",
+      text: "Not covered if you have symptoms - diagnostic colonoscopy ordered instead",
+    },
+    {
+      icon: "check",
+      text: "Medicare Advantage plans must cover Cologuard at $0 for eligible beneficiaries",
+    },
+    {
+      icon: "info",
+      text: "High-risk beneficiaries should discuss colonoscopy vs. Cologuard with their doctor",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Medicare Coverage for Colonoscopy Screenings",
+      description: "Learn about Medicare's coverage for colonoscopy screenings and what you'll pay.",
+      slug: "medicare-coverage-for-colonoscopy-screenings",
+    },
+    {
+      title: "Does Medicare Cover a Biopsy?",
+      description: "Learn about Medicare coverage for different types of biopsies.",
+      slug: "does-medicare-cover-a-biopsy",
+    },
+    {
+      title: "Medicare Preventive Services Guide",
+      description: "Explore the full list of preventive services covered by Medicare at $0.",
+      slug: "medicare-preventive-services",
+    },
+    {
+      title: "What Does Medically Necessary Mean?",
+      description: "Understand what Medicare means by 'medically necessary' and how it affects coverage.",
+      slug: "what-does-medically-necessary-mean",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "Medicare Coverage for Colonoscopy Screenings",
+    "Does Medicare Cover a Biopsy?",
+    "Medicare Preventive Services Guide",
+    "What Does Medically Necessary Mean?",
+  ],
+  ctaBanner: {
+    title: "Need Help Understanding Your Medicare Preventive Benefits?",
+    text: "Our licensed Medicare agents can help you understand what preventive services are covered at $0 and find the right Medicare plan for your needs. Compare options in your area for free.",
+  },
+  relatedSlugs: [
+    "medicare-coverage-for-colonoscopy-screenings",
+    "medicare-preventive-services",
+    "does-medicare-cover-a-biopsy",
+    "does-medicare-cover-second-opinions-and-when-should-you-get-one",
+  ],
+},
   {
     slug: "does-medicare-cover-end-stage-renal-disease",
     seo: {
