@@ -4966,170 +4966,289 @@ export const coverageArticles: CoverageArticleData[] = [
   ],
 },
   {
-    slug: "medicare-advantage-extra-benefits-explained-whats-really-included",
-    seo: {
-      title: "Medicare Advantage Extra Benefits Explained: What’s Really Included",
-      description: "Medicare Advantage plans often include extra benefits like dental, vision, hearing, over-the-counter (OTC) allowances, and transportation services not covered by Original Medicare. These benefits vary by plan and often have limitations such as annual caps or network restrictions.",
-      canonical: "https://medicarefaq.com/medicare-advantage-extra-benefits-explained/",
-      ogImage: "/images/medicarefaq-cover.jpg",
-    },
-    title: "Medicare Advantage Extra Benefits Explained: What's Really Included",
-    subtitle: "Medicare Advantage plans advertise appealing extras like dental, vision, and grocery allowances. Understanding what's actually included and what the limitations are is crucial before making your decision.",
-    category: "Medicare Advantage",
-    dateUpdated: "March 12, 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is the Director of Operations for MedicareFAQ. As a licensed Medicare agent in all 50 states, she is dedicated to educating those eligible for Medicare.",
-    },
-    readTime: "10 min read",
-    quickAnswer: {
-      text: "Medicare Advantage plans include extra benefits like dental, vision, hearing, and OTC allowances, but these benefits vary by plan and often have limitations such as annual caps or network restrictions.",
-      badges: [
-        { plan: "Original Medicare", status: "not-covered" },
-        { plan: "Medicare Advantage", status: "partial" },
-        { plan: "Medigap", status: "not-covered" }],
-    },
-    comparisonTable: [
-      { planType: "Original Medicare", coverage: "Not Included", icon: "shield", notes: "Does not cover dental, vision, hearing, or OTC benefits" },
-      { planType: "Medicare Advantage", coverage: "Varies by Plan", icon: "heart", notes: "Many plans include extras with annual caps and network restrictions" },
-      { planType: "Medigap", coverage: "Not Included", icon: "users", notes: "Supplements Original Medicare; does not add dental/vision/hearing" },
-      { planType: "Standalone Plans", coverage: "Available", icon: "filetext", notes: "Separate dental, vision, hearing plans can be purchased independently" }],
-    planBreakdowns: [
-      {
-        planName: "What are Medicare Advantage Extra Benefits?",
-        icon: "heart",
-        iconColor: "#059669",
-        coverageLabel: "Varies by Plan",
-        coverageType: "partial",
-        paragraphs: [
-          "Medicare Advantage plans are [private insurance alternatives to Original Medicare](/faqs/original-medicare-vs-medicare-advantage) that must cover all the same benefits as Medicare Parts A and B. However, these plans can go beyond the basic requirements by offering supplemental benefits that Original Medicare doesn't cover.",
-          "These extra benefits might include routine dental care, vision services, hearing aids, wellness programs, [prescription drug coverage](/blog/how-is-medicare-part-d-changing-in-2026), and even non-medical services like transportation to appointments.",
-          "The key thing to understand is that these benefits aren't standardized. They [vary significantly from plan to plan and location to location](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans)."],
-      },
-      {
-        planName: "How Allowances and Benefit Limits Work",
-        icon: "dollarsign",
-        iconColor: "#D97706",
-        coverageLabel: "Caps Apply",
-        coverageType: "partial",
-        paragraphs: [
-          "[Supplemental benefits in Medicare Advantage plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) typically operate on fixed allowances or spending caps. These limits reset annually or quarterly, depending on the specific benefit.",
-          "For instance, a plan might provide $50 per quarter for [over-the-counter products](/faqs/medicare-advantage-over-the-counter-cards), giving you $200 total per year to spend on eligible items. If you need $75 worth of OTC products in one quarter, you'd pay the extra $25 out of pocket.",
-          "These allowances are designed to help with routine expenses rather than provide comprehensive coverage."],
-        callout: {
-          type: "info",
-          title: "Example: Vision Benefits",
-          text: "A plan might cover one comprehensive eye exam per year at no cost, plus provide $200 toward glasses or contacts. If your new glasses cost $350, you'd pay the remaining $150 yourself.",
-        },
-      },
-      {
-        planName: "Network Restrictions and Annual Changes",
-        icon: "shield",
-        iconColor: "#DC2626",
-        coverageLabel: "Restrictions Apply",
-        coverageType: "not-covered",
-        paragraphs: [
-          "Many Medicare Advantage plans operate within specific provider networks, particularly HMO and PPO plans. To receive coverage for your supplemental benefits, you typically need to use providers who participate in the plan's network.",
-          "Medicare Advantage plans renew their contracts annually, and supplemental benefits can change from year to year. A benefit that was valuable to you this year might be eliminated or significantly reduced next year.",
-          "This annual variability means you need to review your plan each year to ensure it still meets your needs."],
-        callout: {
-          type: "warning",
-          title: "Benefits Can Change Annually",
-          text: "Review your Annual Notice of Change (ANOC) each fall to understand any updates to your plan's benefits, costs, and coverage rules.",
-        },
-      }],
-    costTable: {
-      title: "Common Medicare Advantage Extra Benefits Comparison",
-      headers: ["Benefit Type", "What's Typically Included", "Common Limitations"],
-      rows: [
-        { "Benefit Type": "Dental", "What's Typically Included": "Cleanings, exams, X-rays, sometimes fillings", "Common Limitations": "Annual caps ($1,000/yr), limited major work, network restrictions" },
-        { "Benefit Type": "Vision", "What's Typically Included": "Annual eye exam, allowance for glasses/contacts", "Common Limitations": "Allowance limits ($200/yr), out-of-pocket above allowance" },
-        { "Benefit Type": "Hearing", "What's Typically Included": "Hearing exam, partial hearing aid coverage", "Common Limitations": "Coverage limits ($500/yr), may not cover full cost" },
-        { "Benefit Type": "OTC Allowance", "What's Typically Included": "Quarterly allowance for health items", "Common Limitations": "Spending caps, limited to approved items/retailers" },
-        { "Benefit Type": "Transportation", "What's Typically Included": "Rides to medical appointments", "Common Limitations": "Limited rides per year, approved providers only" },
-        { "Benefit Type": "Fitness/Wellness", "What's Typically Included": "Gym memberships, wellness programs", "Common Limitations": "Limited to participating facilities" },
-        { "Benefit Type": "Meal Delivery", "What's Typically Included": "Meals after hospital stays", "Common Limitations": "Limited meals/duration, qualifying events only" },
-        { "Benefit Type": "Telehealth", "What's Typically Included": "Virtual doctor visits, mental health", "Common Limitations": "May be limited to certain specialties" }],
-    },
-    alternativesSection: {
-      title: "Medicare Advantage vs. Medicare Supplement Plans",
-      paragraphs: [
-        "Medicare Advantage plans bundle medical coverage with potential supplemental benefits but often come with network restrictions and annual benefit changes.",
-        "Medicare Supplement plans (Medigap) work with Original Medicare to cover out-of-pocket costs like deductibles and coinsurance but typically don't include extras like dental or vision coverage.",
-        "With Medigap, you'd need to purchase separate dental and vision insurance if you want those benefits, but you'd have more freedom to choose providers and wouldn't face annual changes to your coverage."],
-    },
-    decisionSection: {
-      title: "How to Choose the Right Plan for You",
-      paragraphs: [
-        "Start by identifying which supplemental benefits would be most valuable for your specific situation. If you need regular dental care, prioritize plans with good dental coverage.",
-        "Compare plans side by side, looking at both the supplemental benefits and the core medical coverage. The plan's core medical coverage typically has a much bigger impact on your overall healthcare costs."],
-      checklist: {
-        title: "Plan Evaluation Checklist",
-        items: [
-          "Review the Summary of Benefits for exact coverage and allowances",
-          "Check annual limits on dental, vision, and hearing benefits",
-          "Confirm your preferred providers are in the plan's network",
-          "Look for cost-sharing details (coinsurance, copayments)",
-          "Compare plans side by side using your ZIP code",
-          "Read the Annual Notice of Change each fall"],
-        type: "search",
-      },
-    },
-    faqs: [
-      {
-        question: "Do All Medicare Advantage Plans Include Extra Benefits?",
-        answer: "No, supplemental benefits vary by plan and are not guaranteed across all Medicare Advantage options. While many plans offer extras like dental, vision, or wellness benefits, some focus primarily on medical coverage with minimal additional perks.",
-      },
-      {
-        question: "What is the OTC Allowance in Medicare Advantage Plans?",
-        answer: "An OTC allowance is a fixed amount you can spend on over-the-counter health items like vitamins, pain relievers, bandages, or other approved products. Most allowances range from $25 to $100 per quarter.",
-      },
-      {
-        question: "Do Medicare Advantage Dental Benefits Cover Major Procedures?",
-        answer: "Most Medicare Advantage plans cover basic dental services like cleanings, exams, and X-rays, but coverage for major procedures like crowns, root canals, or bridges is often limited or excluded entirely.",
-      },
-      {
-        question: "Can I Keep My Current Dentist with a Medicare Advantage Plan?",
-        answer: "You can only keep your current dentist if they participate in your Medicare Advantage plan's dental network. If your dentist is out-of-network, you might face higher costs or receive no coverage.",
-      },
-      {
-        question: "Can I Switch Plans if My Extra Benefits Change?",
-        answer: "Yes, you can switch Medicare Advantage plans during the Annual Enrollment Period (October 15 - December 7) each year. You might also be eligible to switch during a Special Enrollment Period.",
-      },
-      {
-        question: "Are the Extra Benefits Worth It?",
-        answer: "The value depends on your individual needs and how often you'll actually use them. Evaluate the complete plan package, not just the extra perks, including copayments, deductibles, and provider networks.",
-      }],
-    quickReference: [
-      { icon: "alert", text: "<strong>Extra benefits</strong> vary widely between Medicare Advantage plans" },
-      { icon: "dollar", text: "<strong>Annual caps</strong> limit how much plans will pay for dental, vision, hearing" },
-      { icon: "x", text: "<strong>Network restrictions</strong> may prevent you from seeing preferred providers" },
-      { icon: "info", text: "<strong>Benefits can change</strong> annually; review your ANOC each fall" }],
-    relatedTopics: [
-      { title: "Medicare Supplement vs Medicare Advantage", description: "Crucial questions to ask before enrolling in either plan type.", slug: "medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling" },
-      { title: "When to Enroll in Medicare if Still Working", description: "Understand your enrollment options if you're still employed.", slug: "when-should-you-enroll-in-medicare-if-still-working" },
-      { title: "Medicare Costs in 2026", description: "Latest premiums, deductibles, and key changes for 2026.", slug: "medicare-costs-in-2026-premiums-deductibles-and-key-changes" },
-      { title: "Does Medicare Cover Dental Implants?", description: "Learn about dental coverage options under Medicare.", slug: "does-medicare-cover-dental-implants" }],
-    sidebarRelatedLinks: [
-      "Medicare Supplement vs Advantage",
-      "Medicare Costs in 2026",
-      "Dental Implant Coverage",
-      "Hearing Aid Coverage"],
-    ctaBanner: {
-      title: "Compare Medicare Advantage Plans in Your Area",
-      text: "Our licensed agents can help you evaluate extra benefits and find the right Medicare Advantage plan for your needs.",
-    },
-    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "key-questions-to-ask-when-comparing-medicare-advantage-plans", "medicare-advantage-for-chronic-conditions-what-you-need-to-know", "the-hidden-trade-offs-of-0-premium-medicare-advantage-plans", "medicare-advantage-vs-medicare-supplement", "medicare-advantage-over-the-counter-cards", "silver-sneakers-program"],
+  slug: "medicare-advantage-extra-benefits-explained-whats-really-included",
+  seo: {
+    title: "Medicare Advantage Extra Benefits Explained: What’s Really Included",
+    description: "See which Medicare Advantage extra benefits are real, which have hidden limits, and how to check what your plan actually covers before you enroll.",
+    canonical: "https://medicarefaq.com/medicare-advantage-extra-benefits-explained/",
+    ogImage: "/images/medicarefaq-cover.jpg",
   },
+  title: "Medicare Advantage Extra Benefits Explained: What's Really Included",
+  subtitle: "Medicare Advantage plans advertise appealing extras like dental, vision, and grocery allowances. Understanding what's actually included and what the limitations are is crucial before making your decision.",
+  category: "Medicare Advantage",
+  dateUpdated: "March 12, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is the Director of Operations for MedicareFAQ. As a licensed Medicare agent in all 50 states, she is dedicated to educating those eligible for Medicare.",
+  },
+  readTime: "10 min read",
+  quickAnswer: {
+    text: "Medicare Advantage plans often include extra benefits like dental, vision, hearing, OTC allowances, and transportation, but these aren't guaranteed or standardized. Coverage amounts, networks, and annual caps vary by plan and carrier, so you need to check your plan's Evidence of Coverage or Summary of Benefits to confirm exactly what's included before relying on any extra.",
+    badges: [
+      {
+        plan: "Original Medicare",
+        status: "not-covered",
+      },
+      {
+        plan: "Medicare Advantage",
+        status: "partial",
+      },
+      {
+        plan: "Medigap",
+        status: "not-covered",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Original Medicare",
+      coverage: "Not Included",
+      icon: "shield",
+      notes: "Does not cover dental, vision, hearing, or OTC benefits",
+    },
+    {
+      planType: "Medicare Advantage",
+      coverage: "Varies by Plan",
+      icon: "heart",
+      notes: "Many plans include extras with annual caps and network restrictions",
+    },
+    {
+      planType: "Medigap",
+      coverage: "Not Included",
+      icon: "users",
+      notes: "Supplements Original Medicare; does not add dental/vision/hearing",
+    },
+    {
+      planType: "Standalone Plans",
+      coverage: "Available",
+      icon: "filetext",
+      notes: "Separate dental, vision, hearing plans can be purchased independently",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "What are Medicare Advantage Extra Benefits?",
+      icon: "heart",
+      iconColor: "#059669",
+      coverageLabel: "Varies by Plan",
+      coverageType: "partial",
+      paragraphs: [
+      "Medicare Advantage plans are [private insurance alternatives to Original Medicare](/faqs/original-medicare-vs-medicare-advantage) that must cover all the same benefits as Medicare Parts A and B. However, these plans can go beyond the basic requirements by offering supplemental benefits that Original Medicare doesn't cover.",
+      "These extra benefits might include routine dental care, vision services, hearing aids, wellness programs, [prescription drug coverage](/blog/how-is-medicare-part-d-changing-in-2026), and even non-medical services like transportation to appointments.",
+      "The key thing to understand is that these benefits aren't standardized. They [vary significantly from plan to plan and location to location](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans).",
+    ],
+    },
+    {
+      planName: "How Allowances and Benefit Limits Work",
+      icon: "dollarsign",
+      iconColor: "#D97706",
+      coverageLabel: "Caps Apply",
+      coverageType: "partial",
+      paragraphs: [
+      "[Supplemental benefits in Medicare Advantage plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) typically operate on fixed allowances or spending caps. These limits reset annually or quarterly, depending on the specific benefit.",
+      "For instance, a plan might provide $50 per quarter for [over-the-counter products](/faqs/medicare-advantage-over-the-counter-cards), giving you $200 total per year to spend on eligible items. If you need $75 worth of OTC products in one quarter, you'd pay the extra $25 out of pocket.",
+      "These allowances are designed to help with routine expenses rather than provide comprehensive coverage.",
+    ],
+      callout: {
+      type: "info",
+      title: "Example: Vision Benefits",
+      text: "A plan might cover one comprehensive eye exam per year at no cost, plus provide $200 toward glasses or contacts. If your new glasses cost $350, you'd pay the remaining $150 yourself.",
+    },
+    },
+    {
+      planName: "Network Restrictions and Annual Changes",
+      icon: "shield",
+      iconColor: "#DC2626",
+      coverageLabel: "Restrictions Apply",
+      coverageType: "not-covered",
+      paragraphs: [
+      "Many Medicare Advantage plans operate within specific provider networks, particularly HMO and PPO plans. To receive coverage for your supplemental benefits, you typically need to use providers who participate in the plan's network.",
+      "Medicare Advantage plans renew their contracts annually, and supplemental benefits can change from year to year. A benefit that was valuable to you this year might be eliminated or significantly reduced next year.",
+      "This annual variability means you need to review your plan each year to ensure it still meets your needs.",
+    ],
+      callout: {
+      type: "warning",
+      title: "Benefits Can Change Annually",
+      text: "Review your Annual Notice of Change (ANOC) each fall to understand any updates to your plan's benefits, costs, and coverage rules.",
+    },
+    },
+  ],
+  costTable: {
+    title: "Common Medicare Advantage Extra Benefits Comparison",
+    headers: [
+    "Benefit Type",
+    "What's Typically Included",
+    "Common Limitations",
+  ],
+    rows: [
+      {
+        "Benefit Type": "Dental",
+        "What's Typically Included": "Cleanings, exams, X-rays, sometimes fillings",
+        "Common Limitations": "Annual caps ($1,000/yr), limited major work, network restrictions",
+      },
+      {
+        "Benefit Type": "Vision",
+        "What's Typically Included": "Annual eye exam, allowance for glasses/contacts",
+        "Common Limitations": "Allowance limits ($200/yr), out-of-pocket above allowance",
+      },
+      {
+        "Benefit Type": "Hearing",
+        "What's Typically Included": "Hearing exam, partial hearing aid coverage",
+        "Common Limitations": "Coverage limits ($500/yr), may not cover full cost",
+      },
+      {
+        "Benefit Type": "OTC Allowance",
+        "What's Typically Included": "Quarterly allowance for health items",
+        "Common Limitations": "Spending caps, limited to approved items/retailers",
+      },
+      {
+        "Benefit Type": "Transportation",
+        "What's Typically Included": "Rides to medical appointments",
+        "Common Limitations": "Limited rides per year, approved providers only",
+      },
+      {
+        "Benefit Type": "Fitness/Wellness",
+        "What's Typically Included": "Gym memberships, wellness programs",
+        "Common Limitations": "Limited to participating facilities",
+      },
+      {
+        "Benefit Type": "Meal Delivery",
+        "What's Typically Included": "Meals after hospital stays",
+        "Common Limitations": "Limited meals/duration, qualifying events only",
+      },
+      {
+        "Benefit Type": "Telehealth",
+        "What's Typically Included": "Virtual doctor visits, mental health",
+        "Common Limitations": "May be limited to certain specialties",
+      },
+    ],
+  },
+  alternativesSection: {
+    title: "Medicare Advantage vs. Medicare Supplement Plans",
+    paragraphs: [
+    "Medicare Advantage plans bundle medical coverage with potential supplemental benefits but often come with network restrictions and annual benefit changes.",
+    "Medicare Supplement plans (Medigap) work with Original Medicare to cover out-of-pocket costs like deductibles and coinsurance but typically don't include extras like dental or vision coverage.",
+    "With Medigap, you'd need to purchase separate dental and vision insurance if you want those benefits, but you'd have more freedom to choose providers and wouldn't face annual changes to your coverage.",
+  ],
+  },
+  decisionSection: {
+    title: "How to Choose the Right Plan for You",
+    paragraphs: [
+    "Start by identifying which supplemental benefits would be most valuable for your specific situation. If you need regular dental care, prioritize plans with good dental coverage.",
+    "Compare plans side by side, looking at both the supplemental benefits and the core medical coverage. The plan's core medical coverage typically has a much bigger impact on your overall healthcare costs.",
+  ],
+    checklist: {
+    title: "Plan Evaluation Checklist",
+    items: [
+    "Review the Summary of Benefits for exact coverage and allowances",
+    "Check annual limits on dental, vision, and hearing benefits",
+    "Confirm your preferred providers are in the plan's network",
+    "Look for cost-sharing details (coinsurance, copayments)",
+    "Compare plans side by side using your ZIP code",
+    "Read the Annual Notice of Change each fall",
+  ],
+    type: "search",
+  },
+  },
+  faqs: [
+    {
+      question: "Do All Medicare Advantage Plans Include Extra Benefits?",
+      answer: "No, supplemental benefits vary by plan and are not guaranteed across all Medicare Advantage options. While many plans offer extras like dental, vision, or wellness benefits, some focus primarily on medical coverage with minimal additional perks.",
+    },
+    {
+      question: "What is the OTC Allowance in Medicare Advantage Plans?",
+      answer: "An OTC allowance is a fixed amount you can spend on over-the-counter health items like vitamins, pain relievers, bandages, or other approved products. Most allowances range from $25 to $100 per quarter.",
+    },
+    {
+      question: "Do Medicare Advantage Dental Benefits Cover Major Procedures?",
+      answer: "Most Medicare Advantage plans cover basic dental services like cleanings, exams, and X-rays, but coverage for major procedures like crowns, root canals, or bridges is often limited or excluded entirely.",
+    },
+    {
+      question: "Can I Keep My Current Dentist with a Medicare Advantage Plan?",
+      answer: "You can only keep your current dentist if they participate in your Medicare Advantage plan's dental network. If your dentist is out-of-network, you might face higher costs or receive no coverage.",
+    },
+    {
+      question: "Can I Switch Plans if My Extra Benefits Change?",
+      answer: "Yes, you can switch Medicare Advantage plans during the Annual Enrollment Period (October 15 - December 7) each year. You might also be eligible to switch during a Special Enrollment Period.",
+    },
+    {
+      question: "Are the Extra Benefits Worth It?",
+      answer: "The value depends on your individual needs and how often you'll actually use them. Evaluate the complete plan package, not just the extra perks, including copayments, deductibles, and provider networks.",
+    },
+    {
+      question: "What Is a Medicare Advantage Flex Card or Grocery Allowance?",
+      answer: "Some Medicare Advantage plans offer a prepaid flex card or grocery allowance that can be used for approved food, over-the-counter items, or utility bills. The amount, eligible purchases, and whether u",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "alert",
+      text: "<strong>Extra benefits</strong> vary widely between Medicare Advantage plans",
+    },
+    {
+      icon: "dollar",
+      text: "<strong>Annual caps</strong> limit how much plans will pay for dental, vision, hearing",
+    },
+    {
+      icon: "x",
+      text: "<strong>Network restrictions</strong> may prevent you from seeing preferred providers",
+    },
+    {
+      icon: "info",
+      text: "<strong>Benefits can change</strong> annually; review your ANOC each fall",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Medicare Supplement vs Medicare Advantage",
+      description: "Crucial questions to ask before enrolling in either plan type.",
+      slug: "medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling",
+    },
+    {
+      title: "When to Enroll in Medicare if Still Working",
+      description: "Understand your enrollment options if you're still employed.",
+      slug: "when-should-you-enroll-in-medicare-if-still-working",
+    },
+    {
+      title: "Medicare Costs in 2026",
+      description: "Latest premiums, deductibles, and key changes for 2026.",
+      slug: "medicare-costs-in-2026-premiums-deductibles-and-key-changes",
+    },
+    {
+      title: "Does Medicare Cover Dental Implants?",
+      description: "Learn about dental coverage options under Medicare.",
+      slug: "does-medicare-cover-dental-implants",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "Medicare Supplement vs Advantage",
+    "Medicare Costs in 2026",
+    "Dental Implant Coverage",
+    "Hearing Aid Coverage",
+  ],
+  ctaBanner: {
+    title: "Compare Medicare Advantage Plans in Your Area",
+    text: "Our licensed agents can help you evaluate extra benefits and find the right Medicare Advantage plan for your needs.",
+  },
+  relatedSlugs: [
+    "the-essentials-medicare-supplement-vs-medicare-advantage-explained",
+    "key-questions-to-ask-when-comparing-medicare-advantage-plans",
+    "medicare-advantage-for-chronic-conditions-what-you-need-to-know",
+    "the-hidden-trade-offs-of-0-premium-medicare-advantage-plans",
+    "medicare-advantage-vs-medicare-supplement",
+    "medicare-advantage-over-the-counter-cards",
+    "silver-sneakers-program",
+  ],
+},
   {
     slug: "medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling",
     seo: {
