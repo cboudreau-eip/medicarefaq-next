@@ -1,0 +1,228 @@
+{
+  "id": "mvqseruu-how-cms-proposal-affects-medicare-remote",
+  "title": "2026 Medicare Remote Patient Monitoring Rule Explained",
+  "slug": "how-cms-proposal-affects-medicare-remote-monitoring-access",
+  "publishAt": "2026-10-28T12:34:00.000Z",
+  "status": "pending",
+  "payload": {
+    "title": "2026 Medicare Remote Patient Monitoring Rule Explained",
+    "slug": "how-cms-proposal-affects-medicare-remote-monitoring-access",
+    "excerpt": "CMS has proposed 2026 changes to Medicare remote patient monitoring billing and reimbursement, which could affect how many providers, especially rural and smaller practices, continue offering RPM services.",
+    "category": "general",
+    "author": "David Haass",
+    "reviewer": "Ashlee Zareczny",
+    "image": "/images/generated/how-cms-proposal-affects-medicare-remote-monitoring-access-306de9e5014d.png",
+    "imageAlt": "",
+    "seoTitle": "2026 Medicare Remote Patient Monitoring Rule Explained",
+    "seoDescription": "Learn how the 2026 Medicare remote patient monitoring rule could change RPM billing, reimbursement, and access to care for beneficiaries.",
+    "ogImage": "/images/generated/how-cms-proposal-affects-medicare-remote-monitoring-access-306de9e5014d.png",
+    "structuredSections": [
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "what-is-the-cms-proposed-rule-on-remote-patient-monitoring",
+        "text": "What Is the CMS Proposed Rule on Remote Patient Monitoring?"
+      },
+      {
+        "type": "paragraph",
+        "content": "The Centers for Medicare & Medicaid Services (CMS) has proposed changes to how [remote patient monitoring](/faqs/remote-patient-monitoring-medicare/) (RPM) services are billed and reimbursed under Medicare. RPM allows your provider to track readings like blood pressure, blood glucose, or heart rhythm from a device in your home, without requiring an office visit. The 2026 proposal focuses on the billing codes and reimbursement rates tied to these services, not on banning RPM itself. You can review the proposed rule directly on [CMS.gov](https://www.cms.gov/) or through its official docket on the [Federal Register](https://www.federalregister.gov/), where it is published under its official rule name and docket number as part of the Medicare Physician Fee Schedule rulemaking process."
+      },
+      {
+        "type": "paragraph",
+        "content": "CMS says it is reviewing these rules because RPM use has grown quickly in recent years, and the agency wants reimbursement to reflect how the service is actually being used in practice. This proposal is different from the RPM billing rules already finalized in prior Medicare physician fee schedules. Those earlier rules set the current baseline for coverage; this proposal would adjust that baseline, and it is still open for public input before anything is finalized."
+      },
+      {
+        "type": "paragraph",
+        "content": "RPM billing under Medicare is tied to a specific set of CPT codes: 99453 and 99454 cover the setup and supply of monitoring devices, while 99457 and 99458 cover the clinical time staff spend reviewing your data and communicating with you each month. These are the codes CMS is reviewing as part of this proposal. It is also worth distinguishing RPM from Remote Therapeutic Monitoring (RTM), a related but separate billing category. RTM covers monitoring of non-physiological data, such as therapy adherence, pain levels, or musculoskeletal and respiratory system response, and uses its own set of billing codes. RTM is often discussed alongside RPM because the two programs work similarly, but they are billed and regulated as distinct services, and this proposal is focused specifically on RPM."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "why-this-proposal-has-caregivers-and-seniors-concerned",
+        "text": "Why This Proposal Has Caregivers and Seniors Concerned"
+      },
+      {
+        "type": "paragraph",
+        "content": "If reimbursement rates drop or billing requirements become more restrictive, some physician practices may decide RPM is no longer worth offering. Smaller practices in particular may scale back the number of patients they enroll in [monitoring programs](/faqs/chronic-care-management-medicare/), even if they do not eliminate the service entirely."
+      },
+      {
+        "type": "paragraph",
+        "content": "For people managing heart disease, diabetes, or COPD, this raises a real concern: fewer providers offering RPM could mean fewer options for staying monitored between appointments. Beyond the practical coverage question, there is an emotional weight to this. If RPM has given you or a family member a sense of security, knowing a nurse or doctor is reviewing your numbers regularly, the possibility of losing that service feels personal, not just administrative."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "how-the-rule-could-reduce-access-in-rural-areas",
+        "text": "How the Rule Could Reduce Access in Rural Areas"
+      },
+      {
+        "type": "paragraph",
+        "content": "Rural clinics and smaller independent practices often depend on RPM reimbursement more heavily than urban health systems, since they have fewer service lines to offset a drop in revenue from any single program. When reimbursement tightens, these practices may be the first to cut back monitoring services."
+      },
+      {
+        "type": "paragraph",
+        "content": "This matters because rural patients often face long drives to reach specialists or hospitals capable of in-person monitoring alternatives. Without RPM, a patient who currently checks in remotely each week might instead need to travel an hour or more for the same type of follow-up."
+      },
+      {
+        "type": "paragraph",
+        "content": "There is also a ripple effect to consider. Many rural hospitals and home health agencies already operate on thin margins, and a reduction in RPM reimbursement could affect their broader financial stability, not just their monitoring programs specifically. The Kaiser Family Foundation has tracked how rural providers are often more exposed to Medicare payment changes because they serve a higher share of Medicare beneficiaries relative to urban facilities, according to [KFF's research on rural health and Medicare](https://www.kff.org/medicaid/issue-brief/rural-health-safety-net-providers-and-medicaid/). The Medicare Payment Advisory Commission (MedPAC), which advises Congress on Medicare payment policy, has also weighed in on how RPM and other telehealth services are reimbursed, generally urging CMS to balance program growth with evidence that monitoring is improving outcomes and not just adding cost. You can review MedPAC's commentary on telehealth and RPM payment policy through its official reports at [medpac.gov](https://www.medpac.gov/)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "what-could-change-for-your-current-monitoring-services",
+        "text": "What Could Change for Your Current Monitoring Services"
+      },
+      {
+        "type": "paragraph",
+        "content": "The devices and conditions most likely affected by this proposal include blood pressure cuffs, glucose monitors, and cardiac monitoring equipment, the categories that make up the bulk of current RPM billing. CMS is also reviewing how often clinical staff must review your data and how that review time gets billed, which could change the frequency or format of your check-ins."
+      },
+      {
+        "type": "paragraph",
+        "content": "For now, nothing has changed. Current Medicare RPM coverage rules remain in effect while the proposal moves through the public comment and review process. What is still under CMS review includes the exact reimbursement amounts, the minimum number of days of data required before billing, and whether certain devices will need updated qualification standards."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "how-to-tell-if-your-plan-or-provider-could-be-impacted",
+        "text": "How to Tell If Your Plan or Provider Could Be Impacted"
+      },
+      {
+        "type": "paragraph",
+        "content": "Ask your doctor's office directly whether they plan to continue offering RPM if reimbursement changes take effect, and whether your specific monitoring program depends on the billing codes under review. It also helps to ask whether your practice bills RPM under Original Medicare or through a Medicare Advantage plan's own arrangement, since the answer affects how directly this proposal applies to you."
+      },
+      {
+        "type": "paragraph",
+        "content": "Your coverage type matters here. Original Medicare pays providers using CMS's physician fee schedule, so changes to that schedule apply fairly directly. Medicare Advantage plans have more flexibility in how they structure RPM benefits, so your plan's specific rules may respond differently to a final CMS decision."
+      },
+      {
+        "type": "eddie-pro-tip",
+        "content": "If you rely on RPM for a [chronic condition](/faqs/medicare-coverage-for-disabled-under-65/), ask your provider now how they would handle monitoring if reimbursement changed, before any rule is finalized. A proactive answer today gives you time to adjust, rather than finding out during an appointment after a change has already taken effect."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "how-to-make-your-voice-heard-during-the-cms-comment-period",
+        "text": "How to Make Your Voice Heard During the CMS Comment Period"
+      },
+      {
+        "type": "paragraph",
+        "content": "CMS proposed rules go through a [public comment period](/faqs/medicare-special-enrollment-periods/) before becoming final, and Medicare beneficiaries are allowed to submit comments directly. You can do this through the Federal Register's public comment portal, where CMS posts each proposed rule along with its specific comment deadline."
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "Locate the specific proposed rule on the Federal Register's regulations.gov website.",
+          "Read the summary section to confirm which billing codes or services the rule affects.",
+          "Draft a comment describing your diagnosis, general location (state or region is enough), and how RPM has affected your care.",
+          "Submit your comment before the posted deadline; late submissions are generally not considered.",
+          "Save a copy of your submission for your own records."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "A comment carries more weight when it includes specifics: what condition you manage, how RPM has changed your care experience, and what you worry could happen if access were reduced. General statements of opposition or support are valid, but personal detail helps CMS understand real-world impact."
+      },
+      {
+        "type": "callout",
+        "calloutType": "warning",
+        "calloutText": "Comment periods close on a fixed date set by CMS, and submissions after that deadline typically will not be reviewed. Check the proposed rule's page on the Federal Register for the exact closing date before you plan your comment.",
+        "calloutTitle": "Watch the Deadline"
+      },
+      {
+        "type": "paragraph",
+        "content": "Beyond submitting a formal comment, you can contact your U.S. representatives or senators, who sometimes weigh in on CMS rulemaking that affects their constituents. National and regional patient advocacy groups focused on heart disease, diabetes, or COPD also often track these proposals and may organize collective responses."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "steps-you-can-take-now-to-protect-your-care-access",
+        "text": "Steps You Can Take Now to Protect Your Care Access"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Talk with your provider about a backup monitoring plan in case RPM availability changes, such as more frequent office visits or a different remote option.",
+          "Review your Medicare Advantage plan's remote monitoring benefits during your next enrollment window, since plan details can vary from year to year.",
+          "Keep simple records of how RPM has helped manage your condition, such as how it caught an issue early or reduced hospital visits. These notes can support a public comment or a future appeal if your coverage changes."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "None of these steps require immediate action or a plan change. They simply put you in a better position to respond if CMS finalizes changes that affect your specific monitoring service."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "where-to-get-trustworthy-help-understanding-these-changes",
+        "text": "Where to Get Trustworthy Help Understanding These Changes"
+      },
+      {
+        "type": "paragraph",
+        "content": "A licensed Medicare agent can help you understand how a proposed rule like this one might apply to your specific plan, whether you have Original Medicare, a Medicare Supplement plan, or Medicare Advantage. This is especially useful because RPM billing and benefit structures can differ significantly between plan types."
+      },
+      {
+        "type": "paragraph",
+        "content": "A conversation with a licensed agent about this topic should be low-pressure and focused on your coverage and care needs, not on switching you to a new plan. You are free to ask questions and gather information without any obligation to make changes."
+      },
+      {
+        "type": "paragraph",
+        "content": "MedicareFAQ monitors CMS rulemaking activity and updates its articles as proposals move toward a final decision, so you can check back here for plain-language summaries as this rule develops."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "frequently-asked-questions",
+        "text": "Frequently Asked Questions"
+      },
+      {
+        "type": "faq",
+        "faqs": [
+          {
+            "question": "Do I need to act right away, or can I wait until CMS finalizes the rule?",
+            "answer": "You can wait. Proposed rules go through a public comment period before CMS issues a final decision, and current RPM coverage rules remain in place during that time. It is reasonable to gather information, talk with your provider, and follow updates before taking any action on your coverage."
+          },
+          {
+            "question": "Will I be pressured to change my Medicare plan because of this rule?",
+            "answer": "No. Discussing this proposal with a licensed agent or your provider does not require you to switch plans. The goal of that conversation is to help you understand how the rule might apply to your situation, and any decision about your coverage remains entirely yours."
+          },
+          {
+            "question": "How can I find out if this rule will actually affect my coverage?",
+            "answer": "Start by checking your plan documents or calling your provider's billing office to ask whether they bill RPM under the codes CMS is reviewing. A licensed Medicare agent can also help interpret how the proposal applies to your specific Original Medicare, Medigap, or Medicare Advantage coverage."
+          },
+          {
+            "question": "Which sources can I trust for accurate updates on this CMS proposal?",
+            "answer": "CMS.gov and the official Federal Register posting for this rule are the primary, authoritative sources for text and deadlines. MedicareFAQ reviews these updates and summarizes them in plain language as the rulemaking process moves forward, so you do not need to interpret the formal regulatory text yourself."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "stay-informed-and-ready-to-advocate",
+        "text": "Stay Informed and Ready to Advocate"
+      },
+      {
+        "type": "paragraph",
+        "content": "Staying engaged during the comment period gives you a direct way to influence how this rule is shaped before it becomes final, particularly if RPM plays a role in managing your health. Bookmark this page for updates as CMS moves toward a decision, and consider talking with a licensed Medicare agent about how your specific plan could be affected if the proposal is finalized."
+      }
+    ],
+    "keyTakeaways": [
+      "The 2026 CMS proposal targets RPM billing codes and reimbursement rates, not a ban on remote patient monitoring itself",
+      "The rule is still open for public comment and has not been finalized",
+      "Lower reimbursement could lead some practices, especially small and rural ones, to scale back RPM enrollment",
+      "Patients managing heart disease, diabetes, or COPD may see fewer RPM options if providers cut back",
+      "Rural patients could face longer travel times for in-person monitoring if RPM services are reduced"
+    ],
+    "relatedSlugs": [
+      "2026-update-medicare-access-challenges-for-seniors-with-comp",
+      "medicare-2027-key-changes-in-open-enrollment-you-need-to-know",
+      "medicare-annual-enrollment-period",
+      "medicare-costs-double-beneficiaries"
+    ]
+  },
+  "createdAt": "2026-10-27T14:35:01.638Z",
+  "error": null
+}
