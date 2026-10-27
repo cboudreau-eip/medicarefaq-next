@@ -26,7 +26,7 @@
     },
     {
       "type": "paragraph",
-      "content": "The Centers for Medicare & Medicaid Services (CMS) has proposed changes to how [remote patient monitoring](/faqs/does-medicare-cover-telehealth/) (RPM) services are billed and reimbursed under Medicare. RPM allows your provider to track readings like blood pressure, blood glucose, or heart rhythm from a device in your home, without requiring an office visit. The 2026 proposal focuses on the billing codes and reimbursement rates tied to these services, not on banning RPM itself."
+      "content": "The Centers for Medicare & Medicaid Services (CMS) has proposed changes to how [remote patient monitoring](/faqs/remote-patient-monitoring-medicare/) (RPM) services are billed and reimbursed under Medicare. RPM allows your provider to track readings like blood pressure, blood glucose, or heart rhythm from a device in your home, without requiring an office visit. The 2026 proposal focuses on the billing codes and reimbursement rates tied to these services, not on banning RPM itself. You can review the proposed rule directly on [CMS.gov](https://www.cms.gov/) or through its official docket on the [Federal Register](https://www.federalregister.gov/), where it is published under its official rule name and docket number as part of the Medicare Physician Fee Schedule rulemaking process."
     },
     {
       "type": "paragraph",
@@ -40,7 +40,7 @@
     },
     {
       "type": "paragraph",
-      "content": "If reimbursement rates drop or billing requirements become more restrictive, some physician practices may decide RPM is no longer worth offering. Smaller practices in particular may scale back the number of patients they enroll in [monitoring programs](/faqs/medicare-coverage-for-mental-health/), even if they do not eliminate the service entirely."
+      "content": "If reimbursement rates drop or billing requirements become more restrictive, some physician practices may decide RPM is no longer worth offering. Smaller practices in particular may scale back the number of patients they enroll in [monitoring programs](/faqs/chronic-care-management-medicare/), even if they do not eliminate the service entirely."
     },
     {
       "type": "paragraph",
@@ -62,7 +62,7 @@
     },
     {
       "type": "paragraph",
-      "content": "There is also a ripple effect to consider. Many rural hospitals and home health agencies already operate on thin margins, and a reduction in RPM reimbursement could affect their broader financial stability, not just their [monitoring programs](/faqs/medicare-coverage-for-mental-health/) specifically. The Kaiser Family Foundation has tracked how rural providers are often more exposed to Medicare payment changes because they serve a higher share of Medicare beneficiaries relative to urban facilities, according to [KFF analysis of rural health coverage](https://www.kff.org/topic/medicare/)."
+      "content": "There is also a ripple effect to consider. Many rural hospitals and home health agencies already operate on thin margins, and a reduction in RPM reimbursement could affect their broader financial stability, not just their monitoring programs specifically. The Kaiser Family Foundation has tracked how rural providers are often more exposed to Medicare payment changes because they serve a higher share of Medicare beneficiaries relative to urban facilities, according to [KFF's research on rural health and Medicare](https://www.kff.org/medicaid/issue-brief/rural-health-safety-net-providers-and-medicaid/)."
     },
     {
       "type": "heading",
@@ -255,6 +255,6 @@
     }
   ],
   "id": "pipeline-how-cms-proposal-affects-medicare-remote-monitoring-access",
-  "updatedAt": "2026-10-27T14:16:14.179Z",
-  "createdAt": "2026-10-27T14:16:14.179Z"
+  "updatedAt": "2026-10-27T14:34:06.033Z",
+  "createdAt": "2026-10-27T14:34:06.033Z"
 }
