@@ -10389,6 +10389,10 @@ export const coverageArticles: CoverageArticleData[] = [
       question: "Does Medigap Cover Cologuard?",
       answer: "Cologuard is already covered at $0 under Medicare's preventive services benefit, so Medigap is not needed for the test itself. However, if your Cologuard result is positive and you need a follow-up colonoscopy, Medigap can help cover any cost-sharing that applies to that procedure.",
     },
+    {
+      question: "What Happens if I Don't Meet Medicare's Eligibility Criteria for Cologuard?",
+      answer: "If you don't meet Medicare's age or risk requirements for covered Cologuard screening, Medicare may not pay for the test and you could be responsible for the full cost. Beneficiaries in this situation",
+    },
   ],
   quickReference: [
     {
