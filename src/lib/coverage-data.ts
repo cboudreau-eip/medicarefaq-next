@@ -31321,235 +31321,370 @@ export const coverageArticles: CoverageArticleData[] = [
   youtubeVideoId: "RWf0DAlVem0",
 },
   {
-    slug: "medicare-part-b-give-back-plan",
-    seo: {
-      title: "Medicare Part B Give Back Benefit: How it Works in 2026",
-      description: "The Medicare Part B Give Back Benefit is offered by some Medicare Advantage plans and can reduce your monthly Part B premium. Learn how it works, who qualifies, and how to find plans in your area.",
-      canonical: "https://www.medicarefaq.com/faqs/medicare-part-b-give-back-plan/",
-      ogImage: "/images/medicarefaq-cover.jpg",
-    },
-    title: "Medicare Part B Give Back Benefit: How it Works in 2026",
-    subtitle: "Some Medicare Advantage plans reduce your monthly Part B premium \u2014 by as little as $0.10 or as much as the full $202.90/month in 2026. About 25% of MA plans offer this benefit, but evaluating the full plan is essential.",
-    category: "Medicare Part B",
-    dateUpdated: "April 29, 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is a licensed Medicare expert who helps beneficiaries understand their Medicare options.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
-    },
-    readTime: "6 min read",
-    quickAnswer: {
-      text: "The Medicare Part B Give Back Benefit is a premium reduction offered by some Medicare Advantage plans. Instead of paying the full Part B premium ($202.90/month in 2026), the plan pays a portion \u2014 or all \u2014 of it on your behalf. About 1,369 MA plans (roughly 25%) offer this benefit for 2026. The reduction is applied automatically to your Social Security check or Medicare invoice.",
-      badges: [
-        { plan: "Medicare Advantage", status: "covered" },
-        { plan: "Original Medicare", status: "not-covered" },
-        { plan: "Medigap", status: "not-covered" }],
-    },
-    comparisonTable: [
-      { planType: "MA with Give Back", coverage: "Yes \u2014 $0.10\u2013$202.90/month", icon: "shield", notes: "Budget-conscious enrollees in eligible areas" },
-      { planType: "Standard MA (no give back)", coverage: "No give back", icon: "shield", notes: "Enrollees prioritizing network or drug coverage" },
-      { planType: "Original Medicare", coverage: "No give back", icon: "shield", notes: "Those who want flexibility with providers" },
-      { planType: "Medigap + Original Medicare", coverage: "No give back", icon: "shield", notes: "Those who want predictable costs without MA" }],
-    planBreakdowns: [
-      {
-        planName: "What is the Give Back Benefit?",
-        icon: "dollar-sign",
-        iconColor: "#059669",
-        coverageLabel: "Medicare Advantage Only",
-        coverageType: "partial",
-        paragraphs: [
-          "The Give Back Benefit (officially called the Part B Premium Reduction) is an optional benefit that certain Medicare Advantage plans offer. Medicare Advantage plans receive a fixed monthly payment from the federal government for each enrollee. Some plans choose to take a reduced payment and pass those savings to members in the form of a lower Part B premium.",
-          "The benefit has been available since 2003. For 2026, about 1,369 MA plans (roughly 25%) offer a give back \u2014 down from 1,556 plans in 2025 \u2014 out of approximately 5,600 total MA plans."],
-        whatItCovers: [
-          "Available only through Medicare Advantage (Part C) plans",
-          "Reduces the Part B premium you pay \u2014 not the MA plan premium",
-          "Applied uniformly to all members of the same plan",
-          "Reduction ranges from $0.10 to the full $202.90/month in 2026",
-          "About 25% of MA plans offer this benefit for 2026"],
-        whatItDoesntCover: [
-          "Does not reduce IRMAA surcharges (high-income enrollees still pay extra)",
-          "Does not apply to Part D, Medigap, or other Medicare premiums",
-          "Cannot be combined with Medicare Savings Program Part B payment"],
-      },
-      {
-        planName: "How the Give Back Benefit Works",
-        icon: "info",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Automatic Reduction",
-        coverageType: "covered",
-        paragraphs: [
-          "When you enroll in a Medicare Advantage plan with a Give Back Benefit, the premium reduction is applied automatically \u2014 you do not need to file a claim or take any action.",
-          "If you receive Social Security benefits, the amount deducted from your monthly check for Part B will be reduced by the give back amount. For example, if the give back is $50/month, only $152.90 will be deducted instead of $202.90. If you pay Medicare directly (no Social Security), your monthly invoice will reflect the reduced amount."],
-        whatItCovers: [
-          "No action needed \u2014 reduction is automatic upon enrollment",
-          "Reduction applied to Social Security deduction or Medicare invoice",
-          "All plan members receive the same reduction amount",
-          "Amount can change each year during Annual Enrollment Period (Oct 15 \u2013 Dec 7)",
-          "Losing the plan means losing the give back benefit"],
-        whatItDoesntCover: [
-          "Does not apply if you have Original Medicare only",
-          "Does not offset IRMAA surcharges for high-income beneficiaries",
-          "Does not reduce Part D or Medigap premiums"],
-      },
-      {
-        planName: "2026 Give Back Amounts and Availability",
-        icon: "bar-chart",
-        iconColor: "#7C3AED",
-        coverageLabel: "Varies by Plan and Area",
-        coverageType: "partial",
-        paragraphs: [
-          "For 2026, the Part B premium is $202.90/month. Give back amounts vary widely by plan and location \u2014 from less than $10/month to more than $100/month. Very few plans offer the full premium reduction, and CMS has noted that plans advertising the full reduction nationwide are often misleading.",
-          "The highest give back amounts are typically only available in specific counties of California, Florida, and Puerto Rico. In 60% of states, the largest give back available in recent years was $99/month or less."],
-        whatItCovers: [
-          "2026 Part B premium: $202.90/month",
-          "Give back range: $0.10 to $202.90/month",
-          "Most common range: $10\u2013$100/month",
-          "Full premium reduction is rare and geographically limited",
-          "1,369 plans offer give back in 2026 (down from 1,556 in 2025)"],
-        whatItDoesntCover: [
-          "Not available in all counties - rural and low-density areas often excluded",
-          "Plans with give back may have limited networks or formularies",
-          "Amounts can be reduced or eliminated at next Annual Enrollment Period"],
-      },
-      {
-        planName: "How to Find Plans with a Give Back Benefit",
-        icon: "search",
-        iconColor: "#0369A1",
-        coverageLabel: "Use Medicare Plan Finder",
-        coverageType: "partial",
-        paragraphs: [
-          "Not all areas have Medicare Advantage plans offering a give back benefit. The best way to find plans is through the Medicare Plan Finder at [Medicare.gov](https://www.medicare.gov/). When viewing plan details, look for the \"Part B premium reduction\" line in the premiums section \u2014 it will either say \"not offered\" or show the reduction amount.",
-          "You can also contact Medicare Advantage insurers in your area directly, or work with a licensed Medicare broker who can compare all local options."],
-        whatItCovers: [
-          "Visit Medicare.gov Plan Finder and enter your ZIP code",
-          "Click \"Plan Details\" for each plan to see the Part B premium reduction row",
-          "Call 1-800-MEDICARE (1-800-633-4227) for help comparing plans",
-          "Check during Annual Enrollment Period (Oct 15 \u2013 Dec 7) for next year"],
-        whatItDoesntCover: [
-          "Plans with give back are not always the best overall value - check total costs",
-          "Medicare Plan Finder does not filter exclusively by give back amount",
-          "Misleading TV ads may overstate give back amounts - verify on Medicare.gov"],
-        callout: {
-          type: "warning",
-          title: "Beware of Misleading Advertising",
-          text: "CMS finalized rules in 2023 prohibiting MA plans from advertising give back benefits not available in the viewer's service area. Always verify give back amounts at Medicare.gov before enrolling.",
-        },
-      },
-      {
-        planName: "Give Back vs. Other Premium Reduction Strategies",
-        icon: "scale",
-        iconColor: "#D97706",
-        coverageLabel: "Compare Total Plan Costs",
-        coverageType: "partial",
-        paragraphs: [
-          "The Give Back Benefit is one of several ways to reduce your Part B premium. It is important to weigh the give back amount against the full cost of the plan \u2014 including drug costs, network restrictions, and out-of-pocket maximums. A plan with a $50 give back that costs you an extra $60/month in pharmacy costs is not a net savings.",
-          "Other strategies include Medicare Savings Programs (MSP), which can pay the full Part B premium for low-income beneficiaries, and appealing an IRMAA surcharge if your income has recently decreased."],
-        whatItCovers: [
-          "Compare total plan costs, not just the give back amount",
-          "Check drug formulary and pharmacy network before enrolling",
-          "Low-income beneficiaries may qualify for Medicare Savings Programs (full premium paid)",
-          "IRMAA appeal (SSA-44) can reduce surcharges after a qualifying life event"],
-        whatItDoesntCover: [
-          "Give back does not qualify you for Medicare Savings Programs (income-based)",
-          "Give back does not replace Extra Help for Part D costs",
-          "IRMAA reduction requires a separate SSA appeal - give back does not help"],
-      }],
-    costTable: {
-      title: "2026 Part B Give Back: Scenarios and Savings",
-      headers: ["Scenario", "Standard Part B Premium", "Give Back Amount", "You Pay", "Notes"],
-      rows: [
-        { scenario: "No give back (Original Medicare)", standard: "$202.90/month", giveback: "$0", youPay: "$202.90/month", notes: "Full premium, no reduction" },
-        { scenario: "MA with small give back", standard: "$202.90/month", giveback: "$10\u2013$30/month", youPay: "$172.90\u2013$192.90/month", notes: "Most common give back range" },
-        { scenario: "MA with mid-range give back", standard: "$202.90/month", giveback: "$50\u2013$100/month", youPay: "$102.90\u2013$152.90/month", notes: "Available in select areas" },
-        { scenario: "MA with full give back", standard: "$202.90/month", giveback: "$202.90/month", youPay: "$0/month", notes: "Rare; limited to specific counties" },
-        { scenario: "Medicare Savings Program (QMB)", standard: "$202.90/month", giveback: "State pays full premium", youPay: "$0/month", notes: "Income-based; not MA-dependent" }],
-    },
-    exceptionsSection: {
-      title: "Important Exceptions and Limitations",
-      items: [
-        {
-          title: "Give Back Only Works with Medicare Advantage",
-          text: "The Part B Give Back Benefit is exclusively available through Medicare Advantage plans. You cannot get a give back while enrolled in Original Medicare with or without a Medigap plan.",
-        },
-        {
-          title: "Benefit Can Change or Disappear Each Year",
-          text: "MA plans can change or eliminate their give back benefit each year. Always review your Annual Notice of Change (ANOC) in September to see if your give back amount is changing for the next year.",
-        },
-        {
-          title: "Give Back Does not Offset IRMAA Surcharges",
-          text: "If you pay an IRMAA surcharge on top of the standard Part B premium, the give back benefit reduces only the standard premium portion \u2014 it does not offset the IRMAA surcharge.",
-        },
-        {
-          title: "CMS Marketing Rules (2023)",
-          text: "CMS finalized rules in 2023 prohibiting MA plans from advertising give back benefits not available in the viewer's service area, addressing widespread misleading marketing.",
-        }],
-    },
-    legislativeUpdate: {
-      title: "Recent Legislative and Regulatory Updates",
-      items: [
-        {
-          title: "2026 Part B Premium Increased to $202.90",
-          status: "Passed",
-          description: "The standard Part B premium rose to $202.90/month for 2026, up from $185/month in 2025. Give back amounts are calculated against this new premium.",
-        },
-        {
-          title: "Number of Give Back Plans Declined for 2026",
-          status: "Passed",
-          description: "CMS data shows 1,369 MA plans offer a Part B premium reduction for 2026, down from 1,556 in 2025, as plans reduce supplemental benefits amid tighter margins.",
-        },
-        {
-          title: "CMS Marketing Rules for Give Back Advertising",
-          status: "Passed",
-          description: "A 2023 CMS rule (CFR \u00a7 422.2263) prohibits MA plans from advertising give back benefits not available in the viewer's service area, addressing widespread misleading marketing.",
-        }],
-    },
-    faqs: [
-      {
-        question: "How Much Can I Get Back with the Give Back Benefit?",
-        answer: "Give back amounts range from $0.10 to the full $202.90/month Part B premium in 2026. Most plans offer $10\u2013$100/month. The full premium reduction is rare and only available in select counties.",
-      },
-      {
-        question: "Do I Have to Apply for the Give Back Benefit?",
-        answer: "No. Once you enroll in an MA plan with a give back benefit, the reduction is applied automatically to your Social Security check or Medicare invoice.",
-      },
-      {
-        question: "Can I Get the Give Back Benefit with Original Medicare?",
-        answer: "No. The Give Back Benefit is only available through Medicare Advantage plans. It is not available with Original Medicare or Medigap.",
-      },
-      {
-        question: "Will I Lose the Give Back Benefit if I Switch Plans?",
-        answer: "Yes. If you switch to a plan that does not offer a give back, or return to Original Medicare, you will no longer receive the premium reduction.",
-      },
-      {
-        question: "Is the Give Back Benefit Available in My Area?",
-        answer: "Not all areas have MA plans with a give back. Use the Medicare Plan Finder at Medicare.gov and enter your ZIP code to see which plans \u2014 if any \u2014 offer this benefit near you.",
-      }],
-    quickReference: [
-      { icon: "dollar", text: "2026 Part B premium: $202.90/month \u2014 give back can reduce this to $0 in rare cases" },
-      { icon: "info", text: "Only ~25% of MA plans offer a give back benefit for 2026 (1,369 of ~5,600 plans)" },
-      { icon: "check", text: "Reduction is automatic \u2014 no application needed after enrolling in the plan" },
-      { icon: "alert", text: "Evaluate the full plan cost, not just the give back amount, before enrolling" },
-      { icon: "alert", text: "Give back amounts can change or disappear each year \u2014 review your ANOC each September" }],
-    relatedTopics: [
-      { title: "How the Part B Giveback Can Lower Your Monthly Costs", description: "Detailed breakdown of give back savings.", slug: "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs" },
-      { title: "Reduce Medicare Premiums", description: "5 strategies to lower your monthly Medicare costs.", slug: "reduce-medicare-premiums" },
-      { title: "Medicare Part B Premiums", description: "Full breakdown of 2026 Part B premium costs.", slug: "medicare-part-b-premiums" },
-      { title: "Medicare Advantage Plans Explained", description: "How Medicare Advantage works and what it covers.", slug: "medicare-advantage-plans" }],
-    sidebarRelatedLinks: ["how-the-medicare-part-b-giveback-can-lower-your-monthly-costs", "reduce-medicare-premiums", "medicare-part-b-premiums"],
-    ctaBanner: {
-      title: "Want to Find a Plan with a Give Back Benefit?",
-      text: "Our licensed agents can help you compare Medicare Advantage plans in your area and find the best give back benefit available.",
-    },
-    relatedSlugs: ["how-the-medicare-part-b-giveback-can-lower-your-monthly-costs", "medicare-costs-2025", "medicare-part-b-premiums", "reduce-medicare-premiums", "medicare-advantage-uncovering-the-unexpected-out-of-pocket-expenses", "why-medicare-advantage-plans-are-bad"],
+  slug: "medicare-part-b-give-back-plan",
+  seo: {
+    title: "Medicare Part B Give Back Benefit 2027: How Much You Could Save",
+    description: "See how the Part B Give Back Benefit can lower your monthly premium in 2027, which Medicare Advantage plans offer it, and how to check if you qualify.",
+    canonical: "https://www.medicarefaq.com/faqs/medicare-part-b-give-back-plan/",
+    ogImage: "/images/medicarefaq-cover.jpg",
   },
+  title: "Medicare Part B Give Back Benefit: How it Works in 2026",
+  subtitle: "Some Medicare Advantage plans reduce your monthly Part B premium — by as little as $0.10 or as much as the full $202.90/month in 2026. About 25% of MA plans offer this benefit, but evaluating the full plan is essential.",
+  category: "Medicare Part B",
+  dateUpdated: "April 29, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is a licensed Medicare expert who helps beneficiaries understand their Medicare options.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
+  },
+  readTime: "6 min read",
+  quickAnswer: {
+    text: "The Medicare Part B Give Back Benefit is a premium reduction offered by some Medicare Advantage plans. Instead of paying the full Part B premium ($202.90/month in 2026), the plan pays a portion — or all — of it on your behalf. You must already be enrolled in and paying for Part B to receive this benefit. About 1,369 MA plans (roughly 25%) offer it for 2027, and the reduction is applied automatically to your Social Security check or Medicare invoice.",
+    badges: [
+      {
+        plan: "Medicare Advantage",
+        status: "covered",
+      },
+      {
+        plan: "Original Medicare",
+        status: "not-covered",
+      },
+      {
+        plan: "Medigap",
+        status: "not-covered",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "MA with Give Back",
+      coverage: "Yes — $0.10–$202.90/month",
+      icon: "shield",
+      notes: "Budget-conscious enrollees in eligible areas",
+    },
+    {
+      planType: "Standard MA (no give back)",
+      coverage: "No give back",
+      icon: "shield",
+      notes: "Enrollees prioritizing network or drug coverage",
+    },
+    {
+      planType: "Original Medicare",
+      coverage: "No give back",
+      icon: "shield",
+      notes: "Those who want flexibility with providers",
+    },
+    {
+      planType: "Medigap + Original Medicare",
+      coverage: "No give back",
+      icon: "shield",
+      notes: "Those who want predictable costs without MA",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "What is the Give Back Benefit?",
+      icon: "dollar-sign",
+      iconColor: "#059669",
+      coverageLabel: "Medicare Advantage Only",
+      coverageType: "partial",
+      paragraphs: [
+      "The Give Back Benefit (officially called the Part B Premium Reduction) is an optional benefit that certain Medicare Advantage plans offer. Medicare Advantage plans receive a fixed monthly payment from the federal government for each enrollee. Some plans choose to take a reduced payment and pass those savings to members in the form of a lower Part B premium.",
+      "The benefit has been available since 2003. For 2026, about 1,369 MA plans (roughly 25%) offer a give back — down from 1,556 plans in 2025 — out of approximately 5,600 total MA plans.",
+    ],
+      whatItCovers: [
+      "Available only through Medicare Advantage (Part C) plans",
+      "Reduces the Part B premium you pay — not the MA plan premium",
+      "Applied uniformly to all members of the same plan",
+      "Reduction ranges from $0.10 to the full $202.90/month in 2026",
+      "About 25% of MA plans offer this benefit for 2026",
+    ],
+      whatItDoesntCover: [
+      "Does not reduce IRMAA surcharges (high-income enrollees still pay extra)",
+      "Does not apply to Part D, Medigap, or other Medicare premiums",
+      "Cannot be combined with Medicare Savings Program Part B payment",
+    ],
+    },
+    {
+      planName: "How the Give Back Benefit Works",
+      icon: "info",
+      iconColor: "#1B2A4A",
+      coverageLabel: "Automatic Reduction",
+      coverageType: "covered",
+      paragraphs: [
+      "When you enroll in a Medicare Advantage plan with a Give Back Benefit, the premium reduction is applied automatically — you do not need to file a claim or take any action.",
+      "If you receive Social Security benefits, the amount deducted from your monthly check for Part B will be reduced by the give back amount. For example, if the give back is $50/month, only $152.90 will be deducted instead of $202.90. If you pay Medicare directly (no Social Security), your monthly invoice will reflect the reduced amount.",
+    ],
+      whatItCovers: [
+      "No action needed — reduction is automatic upon enrollment",
+      "Reduction applied to Social Security deduction or Medicare invoice",
+      "All plan members receive the same reduction amount",
+      "Amount can change each year during Annual Enrollment Period (Oct 15 – Dec 7)",
+      "Losing the plan means losing the give back benefit",
+    ],
+      whatItDoesntCover: [
+      "Does not apply if you have Original Medicare only",
+      "Does not offset IRMAA surcharges for high-income beneficiaries",
+      "Does not reduce Part D or Medigap premiums",
+    ],
+    },
+    {
+      planName: "2026 Give Back Amounts and Availability",
+      icon: "bar-chart",
+      iconColor: "#7C3AED",
+      coverageLabel: "Varies by Plan and Area",
+      coverageType: "partial",
+      paragraphs: [
+      "For 2026, the Part B premium is $202.90/month. Give back amounts vary widely by plan and location — from less than $10/month to more than $100/month. Very few plans offer the full premium reduction, and CMS has noted that plans advertising the full reduction nationwide are often misleading.",
+      "The highest give back amounts are typically only available in specific counties of California, Florida, and Puerto Rico. In 60% of states, the largest give back available in recent years was $99/month or less.",
+    ],
+      whatItCovers: [
+      "2026 Part B premium: $202.90/month",
+      "Give back range: $0.10 to $202.90/month",
+      "Most common range: $10–$100/month",
+      "Full premium reduction is rare and geographically limited",
+      "1,369 plans offer give back in 2026 (down from 1,556 in 2025)",
+    ],
+      whatItDoesntCover: [
+      "Not available in all counties - rural and low-density areas often excluded",
+      "Plans with give back may have limited networks or formularies",
+      "Amounts can be reduced or eliminated at next Annual Enrollment Period",
+    ],
+    },
+    {
+      planName: "How to Find Plans with a Give Back Benefit",
+      icon: "search",
+      iconColor: "#0369A1",
+      coverageLabel: "Use Medicare Plan Finder",
+      coverageType: "partial",
+      paragraphs: [
+      "Not all areas have Medicare Advantage plans offering a give back benefit. The best way to find plans is through the Medicare Plan Finder at [Medicare.gov](https://www.medicare.gov/). When viewing plan details, look for the \"Part B premium reduction\" line in the premiums section — it will either say \"not offered\" or show the reduction amount.",
+      "You can also contact Medicare Advantage insurers in your area directly, or work with a licensed Medicare broker who can compare all local options.",
+    ],
+      whatItCovers: [
+      "Visit Medicare.gov Plan Finder and enter your ZIP code",
+      "Click \"Plan Details\" for each plan to see the Part B premium reduction row",
+      "Call 1-800-MEDICARE (1-800-633-4227) for help comparing plans",
+      "Check during Annual Enrollment Period (Oct 15 – Dec 7) for next year",
+    ],
+      whatItDoesntCover: [
+      "Plans with give back are not always the best overall value - check total costs",
+      "Medicare Plan Finder does not filter exclusively by give back amount",
+      "Misleading TV ads may overstate give back amounts - verify on Medicare.gov",
+    ],
+      callout: {
+      type: "warning",
+      title: "Beware of Misleading Advertising",
+      text: "CMS finalized rules in 2023 prohibiting MA plans from advertising give back benefits not available in the viewer's service area. Always verify give back amounts at Medicare.gov before enrolling.",
+    },
+    },
+    {
+      planName: "Give Back vs. Other Premium Reduction Strategies",
+      icon: "scale",
+      iconColor: "#D97706",
+      coverageLabel: "Compare Total Plan Costs",
+      coverageType: "partial",
+      paragraphs: [
+      "The Give Back Benefit is one of several ways to reduce your Part B premium. It is important to weigh the give back amount against the full cost of the plan — including drug costs, network restrictions, and out-of-pocket maximums. A plan with a $50 give back that costs you an extra $60/month in pharmacy costs is not a net savings.",
+      "Other strategies include Medicare Savings Programs (MSP), which can pay the full Part B premium for low-income beneficiaries, and appealing an IRMAA surcharge if your income has recently decreased.",
+    ],
+      whatItCovers: [
+      "Compare total plan costs, not just the give back amount",
+      "Check drug formulary and pharmacy network before enrolling",
+      "Low-income beneficiaries may qualify for Medicare Savings Programs (full premium paid)",
+      "IRMAA appeal (SSA-44) can reduce surcharges after a qualifying life event",
+    ],
+      whatItDoesntCover: [
+      "Give back does not qualify you for Medicare Savings Programs (income-based)",
+      "Give back does not replace Extra Help for Part D costs",
+      "IRMAA reduction requires a separate SSA appeal - give back does not help",
+    ],
+    },
+  ],
+  costTable: {
+    title: "2026 Part B Give Back: Scenarios and Savings",
+    headers: [
+    "Scenario",
+    "Standard Part B Premium",
+    "Give Back Amount",
+    "You Pay",
+    "Notes",
+  ],
+    rows: [
+      {
+        "scenario": "No give back (Original Medicare)",
+        "standard": "$202.90/month",
+        "giveback": "$0",
+        "youPay": "$202.90/month",
+        "notes": "Full premium, no reduction",
+      },
+      {
+        "scenario": "MA with small give back",
+        "standard": "$202.90/month",
+        "giveback": "$10–$30/month",
+        "youPay": "$172.90–$192.90/month",
+        "notes": "Most common give back range",
+      },
+      {
+        "scenario": "MA with mid-range give back",
+        "standard": "$202.90/month",
+        "giveback": "$50–$100/month",
+        "youPay": "$102.90–$152.90/month",
+        "notes": "Available in select areas",
+      },
+      {
+        "scenario": "MA with full give back",
+        "standard": "$202.90/month",
+        "giveback": "$202.90/month",
+        "youPay": "$0/month",
+        "notes": "Rare; limited to specific counties",
+      },
+      {
+        "scenario": "Medicare Savings Program (QMB)",
+        "standard": "$202.90/month",
+        "giveback": "State pays full premium",
+        "youPay": "$0/month",
+        "notes": "Income-based; not MA-dependent",
+      },
+    ],
+  },
+  exceptionsSection: {
+    title: "Important Exceptions and Limitations",
+    items: [
+      {
+        title: "Give Back Only Works with Medicare Advantage",
+        text: "The Part B Give Back Benefit is exclusively available through Medicare Advantage plans. You cannot get a give back while enrolled in Original Medicare with or without a Medigap plan.",
+      },
+      {
+        title: "Benefit Can Change or Disappear Each Year",
+        text: "MA plans can change or eliminate their give back benefit each year. Always review your Annual Notice of Change (ANOC) in September to see if your give back amount is changing for the next year.",
+      },
+      {
+        title: "Give Back Does not Offset IRMAA Surcharges",
+        text: "If you pay an IRMAA surcharge on top of the standard Part B premium, the give back benefit reduces only the standard premium portion — it does not offset the IRMAA surcharge.",
+      },
+      {
+        title: "CMS Marketing Rules (2023)",
+        text: "CMS finalized rules in 2023 prohibiting MA plans from advertising give back benefits not available in the viewer's service area, addressing widespread misleading marketing.",
+      },
+    ],
+  },
+  legislativeUpdate: {
+    title: "Recent Legislative and Regulatory Updates",
+    items: [
+      {
+        title: "2026 Part B Premium Increased to $202.90",
+        status: "Passed",
+        description: "The standard Part B premium rose to $202.90/month for 2026, up from $185/month in 2025. Give back amounts are calculated against this new premium.",
+      },
+      {
+        title: "Number of Give Back Plans Declined for 2026",
+        status: "Passed",
+        description: "CMS data shows 1,369 MA plans offer a Part B premium reduction for 2026, down from 1,556 in 2025, as plans reduce supplemental benefits amid tighter margins.",
+      },
+      {
+        title: "CMS Marketing Rules for Give Back Advertising",
+        status: "Passed",
+        description: "A 2023 CMS rule (CFR § 422.2263) prohibits MA plans from advertising give back benefits not available in the viewer's service area, addressing widespread misleading marketing.",
+      },
+    ],
+  },
+  faqs: [
+    {
+      question: "How Much Can I Get Back with the Give Back Benefit?",
+      answer: "Give back amounts range from $0.10 to the full $202.90/month Part B premium in 2026. Most plans offer $10–$100/month. The full premium reduction is rare and only available in select counties.",
+    },
+    {
+      question: "Do I Have to Apply for the Give Back Benefit?",
+      answer: "No. Once you enroll in an MA plan with a give back benefit, the reduction is applied automatically to your Social Security check or Medicare invoice.",
+    },
+    {
+      question: "Can I Get the Give Back Benefit with Original Medicare?",
+      answer: "No. The Give Back Benefit is only available through Medicare Advantage plans. It is not available with Original Medicare or Medigap.",
+    },
+    {
+      question: "Will I Lose the Give Back Benefit if I Switch Plans?",
+      answer: "Yes. If you switch to a plan that does not offer a give back, or return to Original Medicare, you will no longer receive the premium reduction.",
+    },
+    {
+      question: "Is the Give Back Benefit Available in My Area?",
+      answer: "Not all areas have MA plans with a give back. Use the Medicare Plan Finder at Medicare.gov and enter your ZIP code to see which plans — if any — offer this benefit near you.",
+    },
+    {
+      question: "Does the Give Back Benefit Affect My Other Medicare Advantage Coverage?",
+      answer: "The give back benefit itself doesn't reduce your other coverage, but plans offering it may have different premiums, networks, or extra benefits compared to plans without it. It's important to compare ",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "dollar",
+      text: "2026 Part B premium: $202.90/month — give back can reduce this to $0 in rare cases",
+    },
+    {
+      icon: "info",
+      text: "Only ~25% of MA plans offer a give back benefit for 2026 (1,369 of ~5,600 plans)",
+    },
+    {
+      icon: "check",
+      text: "Reduction is automatic — no application needed after enrolling in the plan",
+    },
+    {
+      icon: "alert",
+      text: "Evaluate the full plan cost, not just the give back amount, before enrolling",
+    },
+    {
+      icon: "alert",
+      text: "Give back amounts can change or disappear each year — review your ANOC each September",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "How the Part B Giveback Can Lower Your Monthly Costs",
+      description: "Detailed breakdown of give back savings.",
+      slug: "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs",
+    },
+    {
+      title: "Reduce Medicare Premiums",
+      description: "5 strategies to lower your monthly Medicare costs.",
+      slug: "reduce-medicare-premiums",
+    },
+    {
+      title: "Medicare Part B Premiums",
+      description: "Full breakdown of 2026 Part B premium costs.",
+      slug: "medicare-part-b-premiums",
+    },
+    {
+      title: "Medicare Advantage Plans Explained",
+      description: "How Medicare Advantage works and what it covers.",
+      slug: "medicare-advantage-plans",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs",
+    "reduce-medicare-premiums",
+    "medicare-part-b-premiums",
+  ],
+  ctaBanner: {
+    title: "Want to Find a Plan with a Give Back Benefit?",
+    text: "Our licensed agents can help you compare Medicare Advantage plans in your area and find the best give back benefit available.",
+  },
+  relatedSlugs: [
+    "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs",
+    "medicare-costs-2025",
+    "medicare-part-b-premiums",
+    "reduce-medicare-premiums",
+    "medicare-advantage-uncovering-the-unexpected-out-of-pocket-expenses",
+    "why-medicare-advantage-plans-are-bad",
+  ],
+},
   {
   slug: "medicare-savings-programs",
   seo: {
