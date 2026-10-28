@@ -5797,7 +5797,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     {
       question: "Will a Medicare Supplement plan help pay for Life Alert?",
-      answer: "No, Medigap (Medicare Supplement) plans only cover out-of-pocket costs for Original Medicare-covered services, like copayments, coinsurance, and deductibles, so they do not pay for Life Alert or other medical alert systems since Original Medicare doesn't cover them in the first place. Buying a Medigap plan won't reduce your medical alert costs, but it can lower your overall healthcare spending, freeing up budget to cover a device out of pocket. If cost is a concern, look instead at Medicare Advantage plans with supplemental benefits, which are more likely to include an allowance for personal emergency response systems.</strong>",
+      answer: "No, Medigap (Medicare Supplement) plans only cover out-of-pocket costs for Original Medicare-covered services, like copayments, coinsurance, and deductibles, so they do not pay for Life Alert or other medical alert systems since Original Medicare doesn't cover them in the first place. Buying a Medigap plan won't reduce your medical alert costs, but it can lower your overall healthcare spending, freeing up budget to cover a device out of pocket. If cost is a concern, look instead at Medicare Advantage plans with supplemental benefits, which are more likely to include an allowance for personal emergency response systems.",
     },
   ],
   quickReference: [
