@@ -1,4 +1,6 @@
 "use client";
+import { renderInline } from "@/components/ArticleInline";
+
 /**
  * Medicare Open Enrollment — Standalone Landing Page
  * Targets keywords: "medicare open enrollment" (8,100/mo), "medicare open enrollment period" (5,400/mo)
@@ -394,7 +396,7 @@ export default function PageContent() {
                       </div>
                       <div>
                         <p className="font-bold text-slate-900">{tip.title}</p>
-                        <p className="text-slate-600 text-sm mt-1">{tip.desc}</p>
+                        <p className="text-slate-600 text-sm mt-1">{renderInline(tip.desc)}</p>
                       </div>
                     </li>
                   ))}

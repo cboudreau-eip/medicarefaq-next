@@ -1,4 +1,6 @@
 "use client";
+import { renderInline } from "@/components/ArticleInline";
+
 
 /**
  * PartDSubTemplate — renders any of the Medicare Part D sub-pages
@@ -140,7 +142,7 @@ export default function PageContent({ page }: { page: PartDSubPage }) {
                     {section.bullets.map((bullet, i) => (
                       <li key={i} className="flex items-start gap-3">
                         <CheckCircle2 className="w-5 h-5 text-green-500 mt-0.5 shrink-0" aria-hidden="true" />
-                        <span className="text-gray-700 text-sm">{bullet}</span>
+                        <span className="text-gray-700 text-sm">{renderInline(bullet)}</span>
                       </li>
                     ))}
                   </ul>
@@ -166,7 +168,7 @@ export default function PageContent({ page }: { page: PartDSubPage }) {
                           <tr key={ri} className={ri % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                             {row.map((cell, ci) => (
                               <td key={ci} className="p-3 text-gray-700 border-b border-gray-100">
-                                {cell}
+                                {renderInline(cell)}
                               </td>
                             ))}
                           </tr>
@@ -203,7 +205,7 @@ export default function PageContent({ page }: { page: PartDSubPage }) {
                             : "text-blue-800"
                         }`}
                       >
-                        {section.callout.text}
+                        {renderInline(section.callout.text)}
                       </p>
                     </div>
                   </div>

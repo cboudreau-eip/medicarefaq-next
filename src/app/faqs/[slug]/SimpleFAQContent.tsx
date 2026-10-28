@@ -1,4 +1,5 @@
 "use client";
+import { renderInline } from "@/components/ArticleInline";
 
 /**
  * Simple FAQ Article Content
@@ -39,89 +40,9 @@ import EddieProTip from "@/components/EddieProTip";
 
 const BASE_URL = "https://www.medicarefaq.com";
 
-/* ─── Render markdown-style [text](url) links within text ─── */
-function renderInlineLinks(text: string, key: number | string): React.ReactNode {
-  const parts: React.ReactNode[] = [];
-  const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
-  let lastIndex = 0;
-  let match;
-  while ((match = linkRegex.exec(text)) !== null) {
-    if (match.index > lastIndex) {
-      parts.push(text.slice(lastIndex, match.index));
-    }
-    const [, linkText, href] = match;
-    const isInternal = href.startsWith("/");
-    parts.push(
-      isInternal ? (
-        <Link key={`link-${key}-${match.index}`} href={href} className="text-[#0D6EFD] underline hover:text-[#0A58CA] transition-colors">
-          {linkText}
-        </Link>
-      ) : (
-        <a key={`link-${key}-${match.index}`} href={href} target="_blank" rel="noopener noreferrer" className="text-[#0D6EFD] underline hover:text-[#0A58CA] transition-colors">
-          {linkText}
-        </a>
-      )
-    );
-    lastIndex = match.index + match[0].length;
-  }
-  if (lastIndex < text.length) {
-    parts.push(text.slice(lastIndex));
-  }
-  return parts.length > 0 ? parts : text;
-}
-
-/* ─── Parse a plain string segment into bold/text nodes ─── */
-function parseBoldSegment(segment: string, keyPrefix: string): React.ReactNode[] {
-  const nodes: React.ReactNode[] = [];
-  const boldRegex = /\*\*([^*]+)\*\*/g;
-  let last = 0;
-  let m;
-  while ((m = boldRegex.exec(segment)) !== null) {
-    if (m.index > last) nodes.push(segment.slice(last, m.index));
-    nodes.push(<strong key={`${keyPrefix}-b${m.index}`}>{m[1]}</strong>);
-    last = m.index + m[0].length;
-  }
-  if (last < segment.length) nodes.push(segment.slice(last));
-  return nodes;
-}
-
 /* ─── Render paragraph with markdown links and **bold** ─── */
 function renderParagraph(text: string, key: number | string, className?: string) {
-  const parts: React.ReactNode[] = [];
-  const linkRegex = /\[([^\]]+)\]\(([^)]*)\)/g;
-  let lastIndex = 0;
-  let match;
-  while ((match = linkRegex.exec(text)) !== null) {
-    if (match.index > lastIndex) {
-      parseBoldSegment(text.slice(lastIndex, match.index), `${key}-pre${match.index}`).forEach(n => parts.push(n));
-    }
-    const [, linkText, href] = match;
-    if (!href || href.trim() === "") {
-      parts.push(<strong key={`bold-${match.index}`}>{linkText}</strong>);
-    } else {
-      const isInternal = href.startsWith("/");
-      parts.push(
-        isInternal ? (
-          <Link key={`link-${match.index}`} href={href} className="text-[#0D6EFD] underline hover:text-[#0A58CA] transition-colors">
-            {linkText}
-          </Link>
-        ) : (
-          <a key={`link-${match.index}`} href={href} target="_blank" rel="noopener noreferrer" className="text-[#0D6EFD] underline hover:text-[#0A58CA] transition-colors">
-            {linkText}
-          </a>
-        )
-      );
-    }
-    lastIndex = match.index + match[0].length;
-  }
-  if (lastIndex < text.length) {
-    parseBoldSegment(text.slice(lastIndex), `${key}-tail`).forEach(n => parts.push(n));
-  }
-  return (
-    <p key={key} className={className || "text-[#374151] text-[16px] leading-relaxed mb-4"}>
-      {parts}
-    </p>
-  );
+  return <p key={key} className={className || "text-[#374151] text-[16px] leading-relaxed mb-4"}>{renderInline(text, String(key))}</p>;
 }
 
 /* ─── FAQ Accordion Item ─── */
@@ -217,7 +138,7 @@ function renderRichSection(section: BlogSectionContent, idx: number) {
           </table>
           {section.footnote && (
             <p className="text-xs text-[#6B7280] px-5 py-2 bg-[#F9FAFB] border-t border-[#E5E7EB] italic">
-              {section.footnote}
+              {renderInline(section.footnote)}
             </p>
           )}
         </div>
@@ -573,13 +494,13 @@ export default function SimpleFAQContent({ article, blogSlugs }: { article: Simp
                       )}
                       {section.paragraphs.map((p, j) => (
                         <p key={j} className="text-[#4B5563] text-[15px] leading-relaxed mb-3">
-                          {renderInlineLinks(p, j)}
+                          {renderInline(p, String(j))}
                         </p>
                       ))}
                       {section.listItems && section.listItems.length > 0 && (
                         <ul className="list-disc pl-6 space-y-1.5 text-[#4B5563] text-[15px] mb-3">
                           {section.listItems.map((item, k) => (
-                            <li key={k}>{renderInlineLinks(item, k)}</li>
+                            <li key={k}>{renderInline(item, String(k))}</li>
                           ))}
                         </ul>
                       )}

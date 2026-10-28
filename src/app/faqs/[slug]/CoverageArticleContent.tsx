@@ -1,4 +1,5 @@
 "use client";
+import { renderInline } from "@/components/ArticleInline";
 
 /**
  * Data-Driven Coverage Q&A Article Content
@@ -78,69 +79,8 @@ function getIcon(name: string): React.ElementType {
   return iconMap[name.toLowerCase().replace(/[^a-z]/g, "")] || Shield;
 }
 
-/* ─── Markdown Link Parser ─── */
-/**
- * Converts Markdown-style links [text](url) into Next.js <Link> components.
- * Internal links (starting with /) use Next.js Link; external links open in new tab.
- */
 function renderParagraph(text: string, key: number, className?: string) {
-  // Combined regex handles both markdown links [text](url) and bold **text**
-  const combinedRegex = /\[([^\]]+)\]\(([^)]+)\)|\*\*([^*]+)\*\*/g;
-  const parts: React.ReactNode[] = [];
-  let lastIndex = 0;
-  let match;
-  while ((match = combinedRegex.exec(text)) !== null) {
-    if (match.index > lastIndex) {
-      parts.push(text.slice(lastIndex, match.index));
-    }
-    if (match[3] !== undefined) {
-      // Bold text: **text**
-      parts.push(
-        <strong key={`bold-${match.index}`}>{match[3]}</strong>
-      );
-    } else {
-      // Link: [text](url)
-      const linkText = match[1];
-      const href = match[2];
-      if (!href || href.trim() === "") {
-        parts.push(
-          <strong key={`bold-${match.index}`}>{linkText}</strong>
-        );
-      } else {
-        const isInternal = href.startsWith("/");
-        parts.push(
-          isInternal ? (
-            <Link
-              key={`link-${match.index}`}
-              href={href}
-              className="text-[#0D6EFD] underline hover:text-[#0A58CA] transition-colors"
-            >
-              {linkText}
-            </Link>
-          ) : (
-            <a
-              key={`link-${match.index}`}
-              href={href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#0D6EFD] underline hover:text-[#0A58CA] transition-colors"
-            >
-              {linkText}
-            </a>
-          )
-        );
-      }
-    }
-    lastIndex = match.index + match[0].length;
-  }
-  if (lastIndex < text.length) {
-    parts.push(text.slice(lastIndex));
-  }
-  return (
-    <p key={key} className={className}>
-      {parts}
-    </p>
-  );
+  return <p key={key} className={className}>{renderInline(text, String(key))}</p>;
 }
 
 /* ─── FAQ Component ─── */
@@ -202,7 +142,7 @@ function PlanSection({ data }: { data: PlanBreakdownData }) {
             <Icon className="w-5 h-5" style={{ color: data.iconColor }} />
           </div>
           <div>
-            <h3 className="font-bold text-[#1B2A4A] text-lg">{data.planName}</h3>
+            <h3 className="font-bold text-[#1B2A4A] text-lg">{renderInline(data.planName)}</h3>
             {data.statusBadge && (
               <span className={`text-xs font-semibold mt-1 inline-block ${
                 data.coverageType === "not-covered" ? "text-red-600" :
@@ -227,7 +167,7 @@ function PlanSection({ data }: { data: PlanBreakdownData }) {
                   {data.whatItCovers.map((item, i) => (
                     <li key={i} className="flex items-start gap-2 text-emerald-700 text-sm">
                       <CheckCircle2 className="w-3.5 h-3.5 shrink-0 mt-0.5" />
-                      {item}
+                      <span>{renderInline(item)}</span>
                     </li>
                   ))}
                 </ul>
@@ -242,7 +182,7 @@ function PlanSection({ data }: { data: PlanBreakdownData }) {
                   {data.whatItDoesntCover.map((item, i) => (
                     <li key={i} className="flex items-start gap-2 text-red-700 text-sm">
                       <XCircle className="w-3.5 h-3.5 shrink-0 mt-0.5" />
-                      {item}
+                      <span>{renderInline(item)}</span>
                     </li>
                   ))}
                 </ul>
@@ -267,7 +207,7 @@ function PlanSection({ data }: { data: PlanBreakdownData }) {
                 <CalloutIcon className="w-4 h-4" />
                 {data.callout.title}
               </h4>
-              <p className="text-[#4B5563] text-sm">{data.callout.text}</p>
+              <p className="text-[#4B5563] text-sm">{renderInline(data.callout.text)}</p>
             </div>
           );
         })()}
@@ -529,7 +469,7 @@ export default function CoverageArticleContent({ article, sidebarLinks }: { arti
                     <CoverageBadge key={i} badge={b} />
                   ))}
                 </div>
-                <p className="text-[#4B5563] text-[15px] leading-relaxed" dangerouslySetInnerHTML={{ __html: article.quickAnswer.text }} />
+                <p className="text-[#4B5563] text-[15px] leading-relaxed">{renderInline(article.quickAnswer.text)}</p>
               </div>
 
               {/* Static Rate Table for Medicare Tax Rate page */}
@@ -583,7 +523,7 @@ export default function CoverageArticleContent({ article, sidebarLinks }: { arti
                 </div>
                 {article.enrollmentYear && <div className="sm:hidden divide-y divide-[#E5E7EB]">
                   {article.comparisonTable.map(row => <div key={row.planType} className="p-5">
-                    <h3 className="font-bold text-[#1B2A4A]">{row.planType}</h3>
+                    <h3 className="font-bold text-[#1B2A4A]">{renderInline(row.planType)}</h3>
                     <p className="text-sm font-semibold text-teal-800 mt-2">{row.coverage}</p>
                     <p className="text-sm text-slate-600 leading-relaxed mt-2">{row.notes}</p>
                   </div>)}
@@ -600,7 +540,7 @@ export default function CoverageArticleContent({ article, sidebarLinks }: { arti
                     <tbody>
                       {article.comparisonTable.map((row, i) => (
                         <tr key={i} className={`border-b border-[#E5E7EB] ${i % 2 === 1 ? "bg-[#FAFAFA]" : ""}`}>
-                          <td className="px-6 py-4 font-medium text-[#1B2A4A]">{row.planType}</td>
+                          <td className="px-6 py-4 font-medium text-[#1B2A4A]">{renderInline(row.planType)}</td>
                           <td className="px-4 py-4">
                             <span className={`inline-flex items-center gap-1 text-xs font-semibold px-2 py-1 rounded-full ${
                               row.coverage.toLowerCase().includes("not") ? "bg-red-50 text-red-700" :
@@ -656,7 +596,7 @@ export default function CoverageArticleContent({ article, sidebarLinks }: { arti
                       {article.advantageSteps.steps.map((step, i) => (
                         <li key={i} className="flex gap-4">
                           <span className="w-8 h-8 rounded-full bg-[#1B2A4A] text-white text-sm font-bold flex items-center justify-center shrink-0">{i + 1}</span>
-                          <p className="text-[#4B5563] text-[15px] leading-relaxed pt-1">{step}</p>
+                          <p className="text-[#4B5563] text-[15px] leading-relaxed pt-1">{renderInline(step)}</p>
                         </li>
                       ))}
                     </ol>
@@ -673,11 +613,11 @@ export default function CoverageArticleContent({ article, sidebarLinks }: { arti
                   </div>
                   {article.enrollmentYear && <div className="sm:hidden divide-y divide-[#E5E7EB]">
                     {article.costTable.rows.map((row, i) => <div key={i} className="p-5">
-                      <h3 className="font-bold text-[#1B2A4A] mb-3">{row[article.costTable!.headers[0]]}</h3>
+                      <h3 className="font-bold text-[#1B2A4A] mb-3">{renderInline(row[article.costTable!.headers[0]])}</h3>
                       <dl className="space-y-3 text-sm">
                         {article.costTable!.headers.slice(1).map(header => <div key={header} className="grid grid-cols-[3rem_1fr] gap-3">
                           <dt className="font-semibold text-[#1B2A4A]">{header}</dt>
-                          <dd className="text-slate-600 leading-relaxed">{row[header]}</dd>
+                          <dd className="text-slate-600 leading-relaxed">{renderInline(row[header])}</dd>
                         </div>)}
                       </dl>
                     </div>)}
@@ -696,7 +636,7 @@ export default function CoverageArticleContent({ article, sidebarLinks }: { arti
                           <tr key={i} className={`border-b border-[#E5E7EB] ${i % 2 === 1 ? "bg-[#FAFAFA]" : ""}`}>
                             {article.costTable!.headers.map((h, j) => (
                               <td key={j} className={`px-6 py-4 ${j === 0 ? "font-medium text-[#1B2A4A]" : "text-[#4B5563]"}`}>
-                                {row[h] || row[h.toLowerCase()] || Object.values(row)[j] || ""}
+                                {renderInline(row[h] || row[h.toLowerCase()] || Object.values(row)[j] || "")}
                               </td>
                             ))}
                           </tr>
@@ -705,7 +645,7 @@ export default function CoverageArticleContent({ article, sidebarLinks }: { arti
                     </table>
                   </div>
                   {article.costTable.footnote && (
-                    <div className="px-6 py-3 bg-[#F5F7FA] text-xs text-[#6B7280] border-t border-[#E5E7EB]">{article.costTable.footnote}</div>
+                    <div className="px-6 py-3 bg-[#F5F7FA] text-xs text-[#6B7280] border-t border-[#E5E7EB]">{renderInline(article.costTable.footnote)}</div>
                   )}
                 </div>
               )}
@@ -730,10 +670,10 @@ export default function CoverageArticleContent({ article, sidebarLinks }: { arti
                           <AlertTriangle className="w-5 h-5 text-[#D97706]" />
                           {item.title}
                         </h3>
-                        <p className="text-[#78350F] text-[15px] leading-relaxed">{item.text}</p>
+                        <p className="text-[#78350F] text-[15px] leading-relaxed">{renderInline(item.text)}</p>
                         {item.highlight && (
                           <div className="mt-3 bg-white/60 border border-[#FDE68A] rounded-lg p-3">
-                            <p className="text-[#92400E] text-sm font-semibold">{item.highlight}</p>
+                            <p className="text-[#92400E] text-sm font-semibold">{renderInline(item.highlight)}</p>
                           </div>
                         )}
                       </div>
@@ -769,7 +709,7 @@ export default function CoverageArticleContent({ article, sidebarLinks }: { arti
                                   {item.status}
                                 </span>
                               </div>
-                              <p className="text-[#4B5563] text-[15px] leading-relaxed">{item.description}</p>
+                              <p className="text-[#4B5563] text-[15px] leading-relaxed">{renderInline(item.description)}</p>
                             </div>
                           </div>
                         </div>
@@ -795,7 +735,7 @@ export default function CoverageArticleContent({ article, sidebarLinks }: { arti
                           {article.alternativesSection.checklist.items.map((item, i) => (
                             <li key={i} className="flex items-start gap-2 text-[#4B5563] text-sm">
                               <CheckCircle2 className="w-4 h-4 text-blue-500 shrink-0 mt-0.5" />
-                              {item}
+                              <span>{renderInline(item)}</span>
                             </li>
                           ))}
                         </ul>
@@ -825,7 +765,7 @@ export default function CoverageArticleContent({ article, sidebarLinks }: { arti
                             <Info className="w-4 h-4" />
                             {article.relatedEquipment!.callout!.title}
                           </h4>
-                          <p className="text-[#4B5563] text-sm">{article.relatedEquipment!.callout!.text}</p>
+                          <p className="text-[#4B5563] text-sm">{renderInline(article.relatedEquipment!.callout!.text)}</p>
                         </div>
                       );
                     })()}
@@ -849,7 +789,7 @@ export default function CoverageArticleContent({ article, sidebarLinks }: { arti
                           {article.medicaidSection.steps.steps.map((step, i) => (
                             <li key={i} className="flex items-start gap-2 text-[#4B5563] text-sm">
                               <span className="w-5 h-5 rounded-full bg-[#7C3AED] text-white text-xs font-bold flex items-center justify-center shrink-0 mt-0.5">{i + 1}</span>
-                              {step}
+                              <span>{renderInline(step)}</span>
                             </li>
                           ))}
                         </ol>
@@ -875,7 +815,7 @@ export default function CoverageArticleContent({ article, sidebarLinks }: { arti
                           {article.decisionSection.checklist.items.map((item, i) => (
                             <li key={i} className="flex items-start gap-2 text-[#78350F] text-sm">
                               <span className="text-[#D97706] mt-1">&bull;</span>
-                              {item}
+                              <span>{renderInline(item)}</span>
                             </li>
                           ))}
                         </ul>
@@ -1003,7 +943,7 @@ export default function CoverageArticleContent({ article, sidebarLinks }: { arti
                     {article.quickReference.map((item, i) => (
                       <li key={i} className="flex items-start gap-2">
                         <QRIcon type={item.icon} />
-                        <span className="text-[#4B5563]" dangerouslySetInnerHTML={{ __html: item.text }} />
+                        <span className="text-[#4B5563]">{renderInline(item.text)}</span>
                       </li>
                     ))}
                   </ul>

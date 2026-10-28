@@ -1,4 +1,6 @@
 "use client";
+import { renderInline } from "@/components/ArticleInline";
+
 /**
  * Blog Post Content Renderer
  * Renders full blog articles from BlogArticleData with:
@@ -42,74 +44,12 @@ import { trackPhoneClick } from "@/lib/analytics";
 import { getAuthorPhoto } from "@/lib/authors";
 /* ─── Markdown Inline Parser ─── */
 // Parses ***bold italic***, **bold**, *italic*, and [text](url) in a string and returns React nodes
-function parseInline(text: string, keyPrefix: string): React.ReactNode[] {
-  const nodes: React.ReactNode[] = [];
-  // Combined regex: ***bold italic***, **bold**, *italic*, [text](url)
-  const inlineRegex = /(\*\*\*([^*]+)\*\*\*|\*\*([^*]+)\*\*|\*([^*]+)\*|\[([^\]]+)\]\(([^)]*)\))/g;
-  let lastIndex = 0;
-  let match;
-  while ((match = inlineRegex.exec(text)) !== null) {
-    if (match.index > lastIndex) {
-      nodes.push(text.slice(lastIndex, match.index));
-    }
-    if (match[2] !== undefined) {
-      // ***bold italic***
-      const innerNodes = parseInline(match[2], `${keyPrefix}-bii-${match.index}`);
-      nodes.push(
-        <strong key={`${keyPrefix}-bi-${match.index}`}>
-          <em>{innerNodes}</em>
-        </strong>
-      );
-    } else if (match[3] !== undefined) {
-      // **bold** — recursively parse inner content for nested links
-      const innerNodes = parseInline(match[3], `${keyPrefix}-bi-${match.index}`);
-      nodes.push(<strong key={`${keyPrefix}-b-${match.index}`}>{innerNodes}</strong>);
-    } else if (match[4] !== undefined) {
-      // *italic*
-      nodes.push(<em key={`${keyPrefix}-i-${match.index}`}>{match[4]}</em>);
-    } else if (match[5] !== undefined) {
-      // [text](url)
-      const linkText = match[5];
-      const href = match[6];
-      if (!href || href.trim() === "") {
-        nodes.push(<strong key={`${keyPrefix}-l-${match.index}`}>{linkText}</strong>);
-      } else {
-        const isInternal = href.startsWith("/");
-        nodes.push(
-          isInternal ? (
-            <Link
-              key={`${keyPrefix}-l-${match.index}`}
-              href={href}
-              className="text-[#0D6EFD] underline hover:text-[#0A58CA] transition-colors"
-            >
-              {linkText}
-            </Link>
-          ) : (
-            <a
-              key={`${keyPrefix}-l-${match.index}`}
-              href={href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#0D6EFD] underline hover:text-[#0A58CA] transition-colors"
-            >
-              {linkText}
-            </a>
-          )
-        );
-      }
-    }
-    lastIndex = match.index + match[0].length;
-  }
-  if (lastIndex < text.length) {
-    nodes.push(text.slice(lastIndex));
-  }
-  return nodes;
-}
+
 
 function renderParagraph(text: string, key: number | string, className?: string) {
   return (
     <p key={key} className={className}>
-      {parseInline(text, String(key))}
+      {renderInline(text, String(key))}
     </p>
   );
 }
@@ -123,7 +63,7 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
         <ChevronDown className="w-5 h-5 text-[#6B7280] shrink-0 transition-transform group-open:rotate-180" />
       </summary>
       <div className="px-4 pb-4 text-[#4B5563] text-[15px] leading-relaxed border-t border-[#E5E7EB] pt-3">
-        {parseInline(answer, "faq-answer")}
+        {renderInline(answer, "faq-answer")}
       </div>
     </details>
   );
@@ -191,7 +131,7 @@ function renderSection(section: BlogSectionContent, idx: number) {
                 >
                   {row.map((cell, ci) => (
                     <td key={ci} className="px-4 py-3 text-[#374151] border-t border-[#E5E7EB]">
-                      {cell}
+                      {renderInline(cell)}
                     </td>
                   ))}
                 </tr>
@@ -200,7 +140,7 @@ function renderSection(section: BlogSectionContent, idx: number) {
           </table>
           {section.footnote && (
             <p className="text-xs text-[#6B7280] px-4 py-2 bg-[#F9FAFB] border-t border-[#E5E7EB]">
-              {section.footnote}
+              {renderInline(section.footnote)}
             </p>
           )}
         </div>
@@ -268,7 +208,7 @@ function renderSection(section: BlogSectionContent, idx: number) {
                   if (/<[a-z][\s\S]*>/i.test(text)) {
                     return <div dangerouslySetInnerHTML={{ __html: text }} className="callout-html [&_ul]:list-disc [&_ul]:ml-5 [&_ul]:space-y-1 [&_ol]:list-decimal [&_ol]:ml-5 [&_ol]:space-y-1 [&_li]:text-[15px] [&_strong]:font-bold [&_a]:text-[#0D6EFD] [&_a]:underline" />;
                   }
-                  return <p>{parseInline(text, `callout-${idx}`)}</p>;
+                  return <p>{renderInline(text, `callout-${idx}`)}</p>;
                 })()}
               </div>
             </div>
@@ -371,7 +311,7 @@ function renderSection(section: BlogSectionContent, idx: number) {
               {/* Step content */}
               <div className="pb-6 pt-1 flex-1">
                 <h4 className="text-[17px] font-bold text-[#1B2A4A] mb-1">{step.title}</h4>
-                <p className="text-[#374151] text-[15px] leading-relaxed">{parseInline(step.description, `step-${idx}-${i}`)}</p>
+                <p className="text-[#374151] text-[15px] leading-relaxed">{renderInline(step.description, `step-${idx}-${i}`)}</p>
               </div>
             </div>
           ))}
@@ -402,7 +342,7 @@ function renderSection(section: BlogSectionContent, idx: number) {
     case "eddie-pro-tip": {
       const tipText = section.content || section.calloutText || section.text || "";
       const tipContent = tipText
-        ? <>{parseInline(tipText, `tip-${idx}`)}</>
+        ? <>{renderInline(tipText, `tip-${idx}`)}</>
         : null;
       return (
         <div key={idx}>
@@ -732,7 +672,7 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
                             {article.keyTakeaways.map((item, idx) => (
                               <li key={idx} className="flex items-start gap-2 text-[#374151] text-[15px]">
                                 <CheckCircle className="w-4 h-4 text-[#059669] shrink-0 mt-0.5" />
-                                <span>{parseInline(item, `kt-${idx}`)}</span>
+                                <span>{renderInline(item, `kt-${idx}`)}</span>
                               </li>
                             ))}
                           </ul>
