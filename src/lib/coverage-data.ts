@@ -19072,6 +19072,7 @@ export const coverageArticles: CoverageArticleData[] = [
     "medicare-coverage-for-amyotrophic-lateral-sclerosis-als",
     "medicare-advantage-extra-benefits-explained-whats-really-included",
   ],
+  youtubeVideoId: "LuRqfL3bPdI",
 },
 
   // ─── Medicare Coverage for Lift Chairs ──────────────────────────────────────
