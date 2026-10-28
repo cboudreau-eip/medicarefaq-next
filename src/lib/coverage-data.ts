@@ -18762,216 +18762,317 @@ export const coverageArticles: CoverageArticleData[] = [
 
   // ─── Medicare Coverage for In-Home Caregivers ──────────────────────────────
   {
-    slug: "medicare-coverage-for-in-home-caregivers",
-    seo: {
-      title: "Does Medicare Cover Home Health Care and In-Home Caregivers?",
-      description: "Medicare covers home health care services when you are homebound and need skilled care. Learn about eligibility, what's covered, how long coverage lasts, and your options.",
-      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-in-home-caregivers/",
-      ogImage: "/images/medicarefaq-cover.jpg",
-    },
+  slug: "medicare-coverage-for-in-home-caregivers",
+  seo: {
     title: "Does Medicare Cover Home Health Care and In-Home Caregivers?",
-    subtitle: "Medicare covers home health care services when you are homebound and need skilled nursing care or therapy. Learn about eligibility requirements, what's covered, how long coverage lasts, and how to maximize your benefits.",
-    category: "Medicare Coverage",
-    dateUpdated: "April 15, 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
-    },
-    readTime: "8 min read",
-    quickAnswer: {
-      text: "Yes, Medicare covers home health care services when you are homebound and need skilled nursing care, physical therapy, speech therapy, or occupational therapy. You must use a Medicare-certified home health agency, and your doctor must order and regularly review your treatment plan. Medicare covers these services at $0 - no deductible and no coinsurance for home health services. However, Medicare does not cover 24-hour home care, homemaker services, meal delivery, or personal care when it is the only care you need.",
-      badges: [
-        { plan: "Home Health Care", status: "covered" },
-        { plan: "24-Hour Home Care", status: "not-covered" },
-        { plan: "Homemaker Services", status: "not-covered" }],
-    },
-    comparisonTable: [
-      { planType: "Skilled nursing care (intermittent)", coverage: "Covered", icon: "shield", notes: "Covered at $0 when homebound and medically necessary; up to 21 days" },
-      { planType: "Physical, speech, and occupational therapy", coverage: "Covered", icon: "shield", notes: "Covered at $0 when homebound and ordered by a doctor" },
-      { planType: "Medical social services", coverage: "Covered", icon: "shield", notes: "Covered at $0 as part of a home health care plan" },
-      { planType: "Home health aide services", coverage: "Covered", icon: "shield", notes: "Covered at $0 when you also need skilled care" },
-      { planType: "24-hour home care", coverage: "Not Covered", icon: "x", notes: "Medicare does not cover around-the-clock home care" },
-      { planType: "Homemaker services / meal delivery", coverage: "Not Covered", icon: "x", notes: "Not covered by Original Medicare; some MA plans may offer" }],
-    planBreakdowns: [
-      {
-        planName: "Original Medicare (Part a & Part B - Home Health)",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Covered at $0",
-        coverageType: "covered",
-        statusBadge: "Covers home health care at $0 when you qualify",
-        paragraphs: [
-          "Both [Medicare Part A](/original-medicare/medicare-parts/medicare-part-a/) and [Part B](/original-medicare/medicare-parts/medicare-part-b/) provide coverage for home health care services. When you qualify, Medicare covers home health care at $0 - there is no deductible and no coinsurance for covered home health services. This is one of the few Medicare benefits with no cost-sharing.",
-          "To qualify for Medicare home health care, you must meet all of the following requirements: (1) you must be homebound, meaning you cannot leave your home without assistance or it is not recommended due to your health; (2) you must need skilled nursing care, physical therapy, speech therapy, or occupational therapy; (3) your doctor must order the care and regularly review your treatment plan; and (4) you must use a Medicare-certified home health agency.",
-          "Medicare covers intermittent skilled nursing care - meaning less than 7 days per week and less than 8 hours per day, for up to 21 days. A 3-week extension may be available in exceptional circumstances. Medicare also covers home health aide services (such as help with bathing and dressing) when you also need skilled care. However, Medicare does not cover 24-hour home care, homemaker services, or meal delivery."],
-        whatItCovers: [
-          "Intermittent skilled nursing care (up to 21 days)",
-          "Physical therapy, speech therapy, and occupational therapy",
-          "Medical social services",
-          "Home health aide services (when you also need skilled care)",
-          "Medical supplies and durable medical equipment (DME) - 20% coinsurance for DME"],
-        whatItDoesntCover: [
-          "24-hour home care or around-the-clock nursing",
-          "Homemaker services (cooking, cleaning, laundry)",
-          "Meal delivery services",
-          "Personal care when it is the only care you need (no skilled care required)",
-          "Home health care from a non-Medicare-certified agency"],
-        costNote: "Home health services: $0 (no deductible, no coinsurance). DME provided through home health: 20% coinsurance after $283 Part B deductible.",
-      },
-      {
-        planName: "Medicare Advantage (Part C)",
-        icon: "heart",
-        iconColor: "#059669",
-        coverageLabel: "Covered",
-        coverageType: "covered",
-        statusBadge: "Covered - some plans offer additional home care benefits",
-        paragraphs: [
-          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) must cover all home health care services that Original Medicare covers. Some Medicare Advantage plans go further by offering additional home care benefits such as meal delivery, transportation to medical appointments, and expanded in-home support services.",
-          "If you have a Medicare Advantage plan, you must use a Medicare-certified home health agency that is in your plan's network. Verify that the home health agency is in-network before receiving services to avoid unexpected costs."],
-        whatItCovers: [
-          "All home health care services covered by Original Medicare",
-          "Meal delivery (some plans)",
-          "Transportation to medical appointments (some plans)",
-          "Expanded in-home support services (varies by plan)"],
-        whatItDoesntCover: [
-          "Out-of-network home health agencies (unless your plan allows out-of-network benefits)",
-          "24-hour home care (same exclusion as Original Medicare)"],
-        callout: {
-          type: "tip",
-          title: "Check Your MA Plan for Extra Home Care Benefits",
-          text: "Some Medicare Advantage plans offer supplemental home care benefits including meal delivery, personal care assistance, and transportation. These benefits vary by plan and location. Review your plan's Evidence of Coverage or call your plan to see what's included.",
-        },
-      },
-      {
-        planName: "Medicare Supplement (Medigap)",
-        icon: "users",
-        iconColor: "#7C3AED",
-        coverageLabel: "Covers Cost-Sharing for DME",
-        coverageType: "partial",
-        statusBadge: "Covers Part B coinsurance for DME provided through home health",
-        paragraphs: [
-          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cover the out-of-pocket costs that Original Medicare leaves behind. Since Medicare covers home health services at $0, there is typically no cost-sharing for Medigap to cover. However, if you receive durable medical equipment (DME) through your home health care, Medigap covers the 20% Part B coinsurance for that equipment.",
-          "Medigap is especially valuable if your home health care needs extend beyond what Medicare covers. While Medigap cannot cover services that Original Medicare excludes (such as 24-hour care), it ensures you pay minimal out-of-pocket costs for all covered services."],
-        whatItCovers: [
-          "Part B coinsurance (20%) for DME provided through home health",
-          "Part B coinsurance for other covered outpatient services"],
-        whatItDoesntCover: [
-          "24-hour home care (not covered by Original Medicare)",
-          "Homemaker services or meal delivery"],
-        costNote: "Home health services are already $0 under Original Medicare. Medigap covers the 20% coinsurance for DME provided through home health.",
-      }],
-    costTable: {
-      title: "Home Health Care Costs under Medicare (2026)",
-      headers: ["Service", "Medicare Coverage", "Your Cost", "Notes"],
-      rows: [
-        {
-          "Service": "Skilled nursing care (intermittent)",
-          "Medicare Coverage": "100%",
-          "Your Cost": "$0",
-          "Notes": "Up to 21 days; must be homebound and need skilled care",
-        },
-        {
-          "Service": "Physical / speech / occupational therapy",
-          "Medicare Coverage": "100%",
-          "Your Cost": "$0",
-          "Notes": "Must be ordered by a doctor and medically necessary",
-        },
-        {
-          "Service": "Home health aide services",
-          "Medicare Coverage": "100%",
-          "Your Cost": "$0",
-          "Notes": "Only covered when you also need skilled care",
-        },
-        {
-          "Service": "DME through home health",
-          "Medicare Coverage": "80% after deductible",
-          "Your Cost": "20% + $283 deductible",
-          "Notes": "Medigap Plan G covers the 20% coinsurance",
-        },
-        {
-          "Service": "24-hour home care",
-          "Medicare Coverage": "Not covered",
-          "Your Cost": "$15–$30/hour (full cost)",
-          "Notes": "Medicare does not cover around-the-clock care",
-        },
-        {
-          "Service": "Homemaker services",
-          "Medicare Coverage": "Not covered",
-          "Your Cost": "$15–$25/hour (full cost)",
-          "Notes": "Some MA plans may offer as supplemental benefit",
-        }],
-      footnote: "Costs based on 2026 Medicare figures. Home health care services are covered at $0 when you meet eligibility requirements. Private pay rates vary by location.",
-    },
-    exceptionsSection: {
-      title: "Special Situations for Home Health Coverage",
-      items: [
-        {
-          title: "Home Health Care for Dementia Patients",
-          text: "Medicare covers home health care for dementia patients who are determined to be homebound because of their condition. If your doctor designates you as homebound due to dementia, you can receive up to 35 hours per week of home health services. The same eligibility requirements apply - you must need skilled nursing care or therapy, and you must use a Medicare-certified home health agency.",
-          highlight: "Dementia patients who are homebound may qualify for up to 35 hours per week of home health services under Medicare.",
-        },
-        {
-          title: "Hospice Care at Home",
-          text: "Medicare Part A provides hospice care benefits for terminally ill patients, including in-home hospice care. Hospice care at home is different from home health care - it focuses on comfort and quality of life rather than treatment. Medicare covers hospice care at $0 for most services, including nursing care, medications for symptom management, and medical equipment. Your doctor must certify that you have a terminal illness with a life expectancy of 6 months or less.",
-        }],
-    },
-    faqs: [
-      {
-        question: "Does Medicare Cover Home Health Care?",
-        answer: "Yes. Medicare covers home health care at $0 when you are homebound, need skilled nursing care or therapy, your doctor orders the care, and you use a Medicare-certified home health agency. There is no deductible or coinsurance for covered home health services.",
-      },
-      {
-        question: "How Long Does Medicare Pay for Home Health Care?",
-        answer: "Medicare covers intermittent skilled nursing care for up to 21 days (less than 7 days/week, less than 8 hours/day). A 3-week extension may be available in exceptional circumstances. Medicare will continue to cover home health care as long as it is medically necessary and your doctor continues to order it.",
-      },
-      {
-        question: "Does Medicare Cover 24-hour Home Care?",
-        answer: "No. Medicare does not cover 24-hour home care or around-the-clock nursing at home. Medicare covers intermittent skilled care only. If you need 24-hour care, you would need to pay privately or explore long-term care insurance options.",
-      },
-      {
-        question: "Does Medicare Cover Home Health Care for Dementia?",
-        answer: "Yes. Medicare covers home health care for dementia patients who are homebound. If your doctor determines you are homebound due to dementia, you can receive up to 35 hours per week of home health services, including skilled nursing care and therapy.",
-      },
-      {
-        question: "Can a Family Member be a Paid Caregiver under Medicare?",
-        answer: "In some cases, family members can provide Medicare-covered home health care services if they are qualified and the care is ordered by a doctor through a Medicare-certified home health agency. The family member must provide skilled services - not just personal care or homemaker services.",
-      },
-      {
-        question: "Does Medicare Cover Meal Delivery for Homebound Patients?",
-        answer: "No. Original Medicare does not cover meal delivery services. However, some Medicare Advantage plans offer meal delivery as a supplemental benefit. If you need meal delivery, check whether your Medicare Advantage plan includes this benefit.",
-      }],
-    quickReference: [
-      { icon: "check", text: "<strong>Home health care</strong> covered at $0 when homebound and needing skilled care" },
-      { icon: "check", text: "<strong>Skilled nursing, PT, OT, speech therapy</strong> covered at $0" },
-      { icon: "x", text: "<strong>24-hour home care</strong> is NOT covered by Medicare" },
-      { icon: "x", text: "<strong>Homemaker services and meal delivery</strong> are NOT covered by Original Medicare" },
-      { icon: "info", text: "<strong>Must be homebound</strong> and use a Medicare-certified home health agency" },
-      { icon: "info", text: "Some <strong>Medicare Advantage plans</strong> offer additional home care benefits" }],
-    relatedTopics: [
-      { title: "Medicare Coverage for Skilled Nursing Facilities", description: "Learn about Medicare's coverage for skilled nursing facility care.", slug: "medicare-coverage-for-skilled-nursing-facilities" },
-      { title: "Does Medicare Cover Hospice Care?", description: "Learn about Medicare's hospice care benefits for terminally ill patients.", slug: "does-medicare-cover-hospice" },
-      { title: "Medicare Coverage for ALS Patients", description: "Learn about Medicare's coverage for ALS patients, including home health care.", slug: "medicare-coverage-for-amyotrophic-lateral-sclerosis-als" },
-      { title: "Medicare Advantage Extra Benefits Explained", description: "Discover the extra benefits available through Medicare Advantage plans.", slug: "medicare-advantage-extra-benefits-explained-whats-really-included" }],
-    sidebarRelatedLinks: [
-      "Medicare Coverage for Skilled Nursing Facilities",
-      "Does Medicare Cover Hospice Care",
-      "Medicare Coverage for ALS Patients",
-      "Medicare Advantage Extra Benefits Explained"],
-    ctaBanner: {
-      title: "Need Help Understanding Your Home Health Care Benefits?",
-      text: "Our licensed Medicare agents can help you understand your home health care benefits and find a plan that provides the coverage you need. Compare plans in your area for free.",
-    },
-    relatedSlugs: ["medicare-coverage-for-skilled-nursing-facilities", "does-medicare-cover-hospice", "medicare-coverage-for-amyotrophic-lateral-sclerosis-als", "medicare-advantage-extra-benefits-explained-whats-really-included"],
+    description: "Medicare covers home health care for homebound seniors needing skilled care. Learn about eligibility, covered services, coverage duration, and options",
+    canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-in-home-caregivers/",
+    ogImage: "/images/medicarefaq-cover.jpg",
   },
+  title: "Does Medicare Cover Home Health Care and In-Home Caregivers?",
+  subtitle: "Medicare covers home health care services when you are homebound and need skilled nursing care or therapy. Learn about eligibility requirements, what's covered, how long coverage lasts, and how to maximize your benefits.",
+  category: "Medicare Coverage",
+  dateUpdated: "April 15, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+  },
+  readTime: "8 min read",
+  quickAnswer: {
+    text: "Yes, Medicare covers home health care services when you are homebound and need skilled nursing care, physical therapy, speech therapy, or occupational therapy. You must use a Medicare-certified home health agency, and your doctor must order and regularly review your treatment plan. Medicare covers these services at $0 - no deductible and no coinsurance for home health services. However, Medicare does not cover 24-hour home care, homemaker services, meal delivery, or personal care when it is the only care you need.",
+    badges: [
+      {
+        plan: "Home Health Care",
+        status: "covered",
+      },
+      {
+        plan: "24-Hour Home Care",
+        status: "not-covered",
+      },
+      {
+        plan: "Homemaker Services",
+        status: "not-covered",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Skilled nursing care (intermittent)",
+      coverage: "Covered",
+      icon: "shield",
+      notes: "Covered at $0 when homebound and medically necessary; up to 21 days",
+    },
+    {
+      planType: "Physical, speech, and occupational therapy",
+      coverage: "Covered",
+      icon: "shield",
+      notes: "Covered at $0 when homebound and ordered by a doctor",
+    },
+    {
+      planType: "Medical social services",
+      coverage: "Covered",
+      icon: "shield",
+      notes: "Covered at $0 as part of a home health care plan",
+    },
+    {
+      planType: "Home health aide services",
+      coverage: "Covered",
+      icon: "shield",
+      notes: "Covered at $0 when you also need skilled care",
+    },
+    {
+      planType: "24-hour home care",
+      coverage: "Not Covered",
+      icon: "x",
+      notes: "Medicare does not cover around-the-clock home care",
+    },
+    {
+      planType: "Homemaker services / meal delivery",
+      coverage: "Not Covered",
+      icon: "x",
+      notes: "Not covered by Original Medicare; some MA plans may offer",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "Original Medicare (Part a & Part B - Home Health)",
+      icon: "shield",
+      iconColor: "#1B2A4A",
+      coverageLabel: "Covered at $0",
+      coverageType: "covered",
+      statusBadge: "Covers home health care at $0 when you qualify",
+      paragraphs: [
+      "Both [Medicare Part A](/original-medicare/medicare-parts/medicare-part-a/) and [Part B](/original-medicare/medicare-parts/medicare-part-b/) provide coverage for home health care services. When you qualify, Medicare covers home health care at $0 - there is no deductible and no coinsurance for covered home health services. This is one of the few Medicare benefits with no cost-sharing.",
+      "To qualify for Medicare home health care, you must meet all of the following requirements: (1) you must be homebound, meaning you cannot leave your home without assistance or it is not recommended due to your health; (2) you must need skilled nursing care, physical therapy, speech therapy, or occupational therapy; (3) your doctor must order the care and regularly review your treatment plan; and (4) you must use a Medicare-certified home health agency.",
+      "Medicare covers intermittent skilled nursing care - meaning less than 7 days per week and less than 8 hours per day, for up to 21 days. A 3-week extension may be available in exceptional circumstances. Medicare also covers home health aide services (such as help with bathing and dressing) when you also need skilled care. However, Medicare does not cover 24-hour home care, homemaker services, or meal delivery.",
+    ],
+      whatItCovers: [
+      "Intermittent skilled nursing care (up to 21 days)",
+      "Physical therapy, speech therapy, and occupational therapy",
+      "Medical social services",
+      "Home health aide services (when you also need skilled care)",
+      "Medical supplies and durable medical equipment (DME) - 20% coinsurance for DME",
+    ],
+      whatItDoesntCover: [
+      "24-hour home care or around-the-clock nursing",
+      "Homemaker services (cooking, cleaning, laundry)",
+      "Meal delivery services",
+      "Personal care when it is the only care you need (no skilled care required)",
+      "Home health care from a non-Medicare-certified agency",
+    ],
+      costNote: "Home health services: $0 (no deductible, no coinsurance). DME provided through home health: 20% coinsurance after $283 Part B deductible.",
+    },
+    {
+      planName: "Medicare Advantage (Part C)",
+      icon: "heart",
+      iconColor: "#059669",
+      coverageLabel: "Covered",
+      coverageType: "covered",
+      statusBadge: "Covered - some plans offer additional home care benefits",
+      paragraphs: [
+      "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) must cover all home health care services that Original Medicare covers. Some Medicare Advantage plans go further by offering additional home care benefits such as meal delivery, transportation to medical appointments, and expanded in-home support services.",
+      "If you have a Medicare Advantage plan, you must use a Medicare-certified home health agency that is in your plan's network. Verify that the home health agency is in-network before receiving services to avoid unexpected costs.",
+    ],
+      whatItCovers: [
+      "All home health care services covered by Original Medicare",
+      "Meal delivery (some plans)",
+      "Transportation to medical appointments (some plans)",
+      "Expanded in-home support services (varies by plan)",
+    ],
+      whatItDoesntCover: [
+      "Out-of-network home health agencies (unless your plan allows out-of-network benefits)",
+      "24-hour home care (same exclusion as Original Medicare)",
+    ],
+      callout: {
+      type: "tip",
+      title: "Check Your MA Plan for Extra Home Care Benefits",
+      text: "Some Medicare Advantage plans offer supplemental home care benefits including meal delivery, personal care assistance, and transportation. These benefits vary by plan and location. Review your plan's Evidence of Coverage or call your plan to see what's included.",
+    },
+    },
+    {
+      planName: "Medicare Supplement (Medigap)",
+      icon: "users",
+      iconColor: "#7C3AED",
+      coverageLabel: "Covers Cost-Sharing for DME",
+      coverageType: "partial",
+      statusBadge: "Covers Part B coinsurance for DME provided through home health",
+      paragraphs: [
+      "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cover the out-of-pocket costs that Original Medicare leaves behind. Since Medicare covers home health services at $0, there is typically no cost-sharing for Medigap to cover. However, if you receive durable medical equipment (DME) through your home health care, Medigap covers the 20% Part B coinsurance for that equipment.",
+      "Medigap is especially valuable if your home health care needs extend beyond what Medicare covers. While Medigap cannot cover services that Original Medicare excludes (such as 24-hour care), it ensures you pay minimal out-of-pocket costs for all covered services.",
+    ],
+      whatItCovers: [
+      "Part B coinsurance (20%) for DME provided through home health",
+      "Part B coinsurance for other covered outpatient services",
+    ],
+      whatItDoesntCover: [
+      "24-hour home care (not covered by Original Medicare)",
+      "Homemaker services or meal delivery",
+    ],
+      costNote: "Home health services are already $0 under Original Medicare. Medigap covers the 20% coinsurance for DME provided through home health.",
+    },
+  ],
+  costTable: {
+    title: "Home Health Care Costs under Medicare (2026)",
+    headers: [
+    "Service",
+    "Medicare Coverage",
+    "Your Cost",
+    "Notes",
+  ],
+    rows: [
+      {
+        "Service": "Skilled nursing care (intermittent)",
+        "Medicare Coverage": "100%",
+        "Your Cost": "$0",
+        "Notes": "Up to 21 days; must be homebound and need skilled care",
+      },
+      {
+        "Service": "Physical / speech / occupational therapy",
+        "Medicare Coverage": "100%",
+        "Your Cost": "$0",
+        "Notes": "Must be ordered by a doctor and medically necessary",
+      },
+      {
+        "Service": "Home health aide services",
+        "Medicare Coverage": "100%",
+        "Your Cost": "$0",
+        "Notes": "Only covered when you also need skilled care",
+      },
+      {
+        "Service": "DME through home health",
+        "Medicare Coverage": "80% after deductible",
+        "Your Cost": "20% + $283 deductible",
+        "Notes": "Medigap Plan G covers the 20% coinsurance",
+      },
+      {
+        "Service": "24-hour home care",
+        "Medicare Coverage": "Not covered",
+        "Your Cost": "$15–$30/hour (full cost)",
+        "Notes": "Medicare does not cover around-the-clock care",
+      },
+      {
+        "Service": "Homemaker services",
+        "Medicare Coverage": "Not covered",
+        "Your Cost": "$15–$25/hour (full cost)",
+        "Notes": "Some MA plans may offer as supplemental benefit",
+      },
+    ],
+    footnote: "Costs based on 2026 Medicare figures. Home health care services are covered at $0 when you meet eligibility requirements. Private pay rates vary by location.",
+  },
+  exceptionsSection: {
+    title: "Special Situations for Home Health Coverage",
+    items: [
+      {
+        title: "Home Health Care for Dementia Patients",
+        text: "Medicare covers home health care for dementia patients who are determined to be homebound because of their condition. If your doctor designates you as homebound due to dementia, you can receive up to 35 hours per week of home health services. The same eligibility requirements apply - you must need skilled nursing care or therapy, and you must use a Medicare-certified home health agency.",
+        highlight: "Dementia patients who are homebound may qualify for up to 35 hours per week of home health services under Medicare.",
+      },
+      {
+        title: "Hospice Care at Home",
+        text: "Medicare Part A provides hospice care benefits for terminally ill patients, including in-home hospice care. Hospice care at home is different from home health care - it focuses on comfort and quality of life rather than treatment. Medicare covers hospice care at $0 for most services, including nursing care, medications for symptom management, and medical equipment. Your doctor must certify that you have a terminal illness with a life expectancy of 6 months or less.",
+      },
+    ],
+  },
+  faqs: [
+    {
+      question: "Does Medicare Cover Home Health Care?",
+      answer: "Yes. Medicare covers home health care at $0 when you are homebound, need skilled nursing care or therapy, your doctor orders the care, and you use a Medicare-certified home health agency. There is no deductible or coinsurance for covered home health services.",
+    },
+    {
+      question: "How Long Does Medicare Pay for Home Health Care?",
+      answer: "Medicare covers intermittent skilled nursing care for up to 21 days (less than 7 days/week, less than 8 hours/day). A 3-week extension may be available in exceptional circumstances. Medicare will continue to cover home health care as long as it is medically necessary and your doctor continues to order it.",
+    },
+    {
+      question: "Does Medicare Cover 24-hour Home Care?",
+      answer: "No. Medicare does not cover 24-hour home care or around-the-clock nursing at home. Medicare covers intermittent skilled care only. If you need 24-hour care, you would need to pay privately or explore long-term care insurance options.",
+    },
+    {
+      question: "Does Medicare Cover Home Health Care for Dementia?",
+      answer: "Yes. Medicare covers home health care for dementia patients who are homebound. If your doctor determines you are homebound due to dementia, you can receive up to 35 hours per week of home health services, including skilled nursing care and therapy.",
+    },
+    {
+      question: "Can a Family Member be a Paid Caregiver under Medicare?",
+      answer: "In some cases, family members can provide Medicare-covered home health care services if they are qualified and the care is ordered by a doctor through a Medicare-certified home health agency. The family member must provide skilled services - not just personal care or homemaker services.",
+    },
+    {
+      question: "Does Medicare Cover Meal Delivery for Homebound Patients?",
+      answer: "No. Original Medicare does not cover meal delivery services. However, some Medicare Advantage plans offer meal delivery as a supplemental benefit. If you need meal delivery, check whether your Medicare Advantage plan includes this benefit.",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "check",
+      text: "<strong>Home health care</strong> covered at $0 when homebound and needing skilled care",
+    },
+    {
+      icon: "check",
+      text: "<strong>Skilled nursing, PT, OT, speech therapy</strong> covered at $0",
+    },
+    {
+      icon: "x",
+      text: "<strong>24-hour home care</strong> is NOT covered by Medicare",
+    },
+    {
+      icon: "x",
+      text: "<strong>Homemaker services and meal delivery</strong> are NOT covered by Original Medicare",
+    },
+    {
+      icon: "info",
+      text: "<strong>Must be homebound</strong> and use a Medicare-certified home health agency",
+    },
+    {
+      icon: "info",
+      text: "Some <strong>Medicare Advantage plans</strong> offer additional home care benefits",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Medicare Coverage for Skilled Nursing Facilities",
+      description: "Learn about Medicare's coverage for skilled nursing facility care.",
+      slug: "medicare-coverage-for-skilled-nursing-facilities",
+    },
+    {
+      title: "Does Medicare Cover Hospice Care?",
+      description: "Learn about Medicare's hospice care benefits for terminally ill patients.",
+      slug: "does-medicare-cover-hospice",
+    },
+    {
+      title: "Medicare Coverage for ALS Patients",
+      description: "Learn about Medicare's coverage for ALS patients, including home health care.",
+      slug: "medicare-coverage-for-amyotrophic-lateral-sclerosis-als",
+    },
+    {
+      title: "Medicare Advantage Extra Benefits Explained",
+      description: "Discover the extra benefits available through Medicare Advantage plans.",
+      slug: "medicare-advantage-extra-benefits-explained-whats-really-included",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "Medicare Coverage for Skilled Nursing Facilities",
+    "Does Medicare Cover Hospice Care",
+    "Medicare Coverage for ALS Patients",
+    "Medicare Advantage Extra Benefits Explained",
+  ],
+  ctaBanner: {
+    title: "Need Help Understanding Your Home Health Care Benefits?",
+    text: "Our licensed Medicare agents can help you understand your home health care benefits and find a plan that provides the coverage you need. Compare plans in your area for free.",
+  },
+  relatedSlugs: [
+    "medicare-coverage-for-skilled-nursing-facilities",
+    "does-medicare-cover-hospice",
+    "medicare-coverage-for-amyotrophic-lateral-sclerosis-als",
+    "medicare-advantage-extra-benefits-explained-whats-really-included",
+  ],
+},
 
   // ─── Medicare Coverage for Lift Chairs ──────────────────────────────────────
   {
