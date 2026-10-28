@@ -697,7 +697,7 @@
       "type": "callout",
       "calloutType": "info",
       "calloutTitle": "A Compounding Benefit",
-      "calloutText": "If you get help paying your Part B premium through a Medicare Savings Program, you will automatically get [Extra Help](/faqs/medicare-extra-help-program/) with your prescription drug costs, according to [Medicare's guidance on saving money](https://www.medicare.gov/publications/12132-save-money-on-your-medicare-costs.pdf#page=1). That means one qualification can reduce two separate costs at once."
+      "calloutText": "If you get help paying your Part B premium through a [Medicare Savings Program](/faqs/medicare-savings-programs/), you will automatically get [[Extra Help](/faqs/medicare-low-income-subsidy/)](/faqs/medicare-extra-help-program/) with your prescription drug costs, according to [Medicare's guidance on saving money](https://www.medicare.gov/publications/12132-save-money-on-your-medicare-costs.pdf#page=1). That means one qualification can reduce two separate costs at once."
     },
     {
       "type": "paragraph",
@@ -711,11 +711,11 @@
     },
     {
       "type": "paragraph",
-      "content": "Extra Help, also known as the Low-Income Subsidy, reduces your Part D premium, deductible, and copays for prescription drugs. For many beneficiaries, this program meaningfully lowers what they pay at the pharmacy counter each month."
+      "content": "[Extra Help](/faqs/medicare-low-income-subsidy/), also known as the Low-Income Subsidy, reduces your Part D premium, deductible, and copays for prescription drugs. For many beneficiaries, this program meaningfully lowers what they pay at the pharmacy counter each month."
     },
     {
       "type": "paragraph",
-      "content": "You automatically qualify for Extra Help if you already qualify for Medicaid, a Medicare Savings Program, or Supplemental Security Income (SSI), according to [Medicare's explanation of Part D costs](https://www.medicare.gov/health-drug-plans/part-d/basics/costs). If none of those apply, you can still apply directly and find out where you stand."
+      "content": "You automatically qualify for [Extra Help](/faqs/medicare-low-income-subsidy/) if you already qualify for Medicaid, a [Medicare Savings Program](/faqs/medicare-savings-programs/), or Supplemental Security Income (SSI), according to [Medicare's explanation of Part D costs](https://www.medicare.gov/health-drug-plans/part-d/basics/costs). If none of those apply, you can still apply directly and find out where you stand."
     },
     {
       "type": "paragraph",
@@ -733,7 +733,7 @@
     },
     {
       "type": "paragraph",
-      "content": "A SHIP counselor in your area can tell you what, if anything, is available where you live and how it works alongside your current coverage. In some cases, a state program can be used together with Extra Help, adding another layer of savings on top of federal assistance."
+      "content": "A SHIP counselor in your area can tell you what, if anything, is available where you live and how it works alongside your current coverage. In some cases, a state program can be used together with [Extra Help](/faqs/medicare-low-income-subsidy/), adding another layer of savings on top of federal assistance."
     },
     {
       "type": "heading",
@@ -789,7 +789,7 @@
       "type": "callout",
       "calloutType": "warning",
       "calloutTitle": "Know Your Exceptions",
-      "calloutText": "Generally, you will not have to pay a Part B penalty if you qualify for a Special Enrollment Period or enroll in a Medicare Savings Program, according to [Medicare's guidance on avoiding penalties](https://www.medicare.gov/basics/costs/medicare-costs/avoid-penalties). Confirming whether one of these applies to you before a deadline passes can prevent a costly mistake."
+      "calloutText": "Generally, you will not have to pay a Part B penalty if you qualify for a Special Enrollment Period or enroll in a [Medicare Savings Program](/faqs/medicare-savings-programs/), according to [Medicare's guidance on avoiding penalties](https://www.medicare.gov/basics/costs/medicare-costs/avoid-penalties). Confirming whether one of these applies to you before a deadline passes can prevent a costly mistake."
     },
     {
       "type": "paragraph",
@@ -834,8 +834,8 @@
       "ordered": false,
       "items": [
         "Skipping the annual plan review, even when satisfied with the current plan",
-        "Not checking for Medicare Savings Programs, Extra Help, or state assistance before assuming you don't qualify",
-        "Missing enrollment deadlines that lead to lasting [late enrollment penalties](/faqs/medicare-late-enrollment-penalties/)",
+        "Not checking for [Medicare Savings Program](/faqs/medicare-savings-programs/)s, [Extra Help](/faqs/medicare-low-income-subsidy/), or state assistance before assuming you don't qualify",
+        "Missing enrollment deadlines that lead to lasting [[late enrollment penalties](/faqs/medicare-part-b-late-enrollment-penalty/)](/faqs/medicare-late-enrollment-penalties/)",
         "Assuming bundled dental, vision, or hearing benefits are the same across plans without comparing details",
         "Filling brand-name prescriptions without asking about generic alternatives or comparing pharmacy prices"
       ]
@@ -952,7 +952,55 @@
     "part-d-plans-what-you-need-to-know-to-minimize-costs",
     "medicare-annual-enrollment-period"
   ],
+  "linkSuggestions": [
+    {
+      "phrase": "preventive services",
+      "url": "/faqs/medicare-preventive-services/",
+      "title": "Medicare Preventive Services",
+      "reason": "This link explains the preventive services covered by Medicare, which can help beneficiaries maximize their benefits."
+    },
+    {
+      "phrase": "bundling dental, vision, and hearing coverage",
+      "url": "/faqs/medicare-and-vision-dental-and-hearing-what-are-your-options/",
+      "title": "Medicare and Vision, Dental, and Hearing: What are Your Options?",
+      "reason": "This link offers insights into the options available for dental, vision, and hearing coverage, which is relevant for readers considering bundled plans."
+    },
+    {
+      "phrase": "Medicare Advantage",
+      "url": "/faqs/original-medicare-vs-medicare-advantage/",
+      "title": "Medicare Advantage vs. Original Medicare",
+      "reason": "This link helps clarify the differences between Medicare Advantage and Original Medicare, aiding in informed decision-making."
+    },
+    {
+      "phrase": "licensed agent",
+      "url": "/faqs/switch-medicare-advantage-to-medicare-supplement/",
+      "title": "Switching from Medicare Advantage to a Medicare Supplement (Medigap)",
+      "reason": "This link provides guidance on switching plans, which may be relevant for readers considering their options with a licensed agent."
+    }
+  ],
+  "acceptedLinks": [
+    {
+      "phrase": "review your plan every year",
+      "url": "/faqs/medicare-annual-enrollment-period/",
+      "title": "Medicare Annual Enrollment Period (AEP)"
+    },
+    {
+      "phrase": "late enrollment penalties",
+      "url": "/faqs/medicare-part-b-late-enrollment-penalty/",
+      "title": "Medicare Part B Late Enrollment Penalty"
+    },
+    {
+      "phrase": "Extra Help",
+      "url": "/faqs/medicare-low-income-subsidy/",
+      "title": "Medicare Low Income Subsidy (Extra Help)"
+    },
+    {
+      "phrase": "Medicare Savings Program",
+      "url": "/faqs/medicare-savings-programs/",
+      "title": "Medicare Savings Programs"
+    }
+  ],
   "id": "10-medicare-cost-saving-hacks-that-can-lower-your-healthcare-mvsk90s9",
-  "updatedAt": "2026-10-28T20:23:23.985Z",
-  "createdAt": "2026-10-28T20:23:23.985Z"
+  "updatedAt": "2026-10-28T20:24:11.770Z",
+  "createdAt": "2026-10-28T20:24:11.770Z"
 }
