@@ -12,9 +12,11 @@ import MenuSearchDropdown from "@/components/MenuSearchDropdown";
 function MegaMenuPanel({
   category,
   onClose,
+  left,
 }: {
   category: NavCategory;
   onClose: () => void;
+  left: number;
 }) {
   return (
     <motion.div
@@ -22,7 +24,8 @@ function MegaMenuPanel({
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -4 }}
       transition={{ duration: 0.15, ease: "easeOut" }}
-      className="absolute top-full left-1/2 -translate-x-1/2 w-[min(90vw,960px)] bg-white border border-[#E5E7EB] shadow-xl rounded-b-xl z-50"
+      style={{ left }}
+      className="absolute top-full w-[min(90vw,960px)] bg-white border border-[#E5E7EB] shadow-xl rounded-b-xl z-50"
     >
       <div className="px-6 py-4">
         <div className="flex gap-5">
@@ -122,15 +125,40 @@ function MegaMenuPanel({
 export default function MegaMenu({ lightWithCta = false, searchVariant = false, dividedNavy = false }: { lightWithCta?: boolean; searchVariant?: boolean; dividedNavy?: boolean }) {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
   const navRef = useRef<HTMLDivElement>(null);
+  const triggerRefs = useRef<(HTMLButtonElement | null)[]>([]);
+  const [panelLeft, setPanelLeft] = useState(0);
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  const handleMouseEnter = useCallback((index: number) => {
+  const cancelClose = useCallback(() => {
     if (timeoutRef.current) {
       clearTimeout(timeoutRef.current);
       timeoutRef.current = null;
     }
-    setActiveIndex(index);
   }, []);
+
+  const positionPanel = useCallback((index: number) => {
+    const nav = navRef.current;
+    const trigger = triggerRefs.current[index];
+    if (!nav || !trigger) return;
+    const panelWidth = Math.min(window.innerWidth * 0.9, 960);
+    const viewportRight = document.documentElement.clientWidth - 16;
+    // Align with the trigger, shifting left only to avoid clipping the viewport.
+    const left = Math.max(16, Math.min(trigger.getBoundingClientRect().left, viewportRight - panelWidth));
+    setPanelLeft(left - nav.getBoundingClientRect().left);
+  }, []);
+
+  const handleMouseEnter = useCallback((index: number) => {
+    cancelClose();
+    positionPanel(index);
+    setActiveIndex(index);
+  }, [cancelClose, positionPanel]);
+
+  useEffect(() => {
+    if (activeIndex === null) return;
+    const reposition = () => positionPanel(activeIndex);
+    window.addEventListener("resize", reposition);
+    return () => window.removeEventListener("resize", reposition);
+  }, [activeIndex, positionPanel]);
 
   const handleMouseLeave = useCallback(() => {
     timeoutRef.current = setTimeout(() => {
@@ -149,6 +177,7 @@ export default function MegaMenu({ lightWithCta = false, searchVariant = false, 
       ref={navRef}
       className={dividedNavy ? "bg-[#F8FAFC] border-b border-[#E5E7EB] relative" : lightWithCta ? "bg-white border-b border-[#E5E7EB] relative" : "bg-[#1B2A4A] relative"}
       onMouseLeave={handleMouseLeave}
+      onMouseEnter={cancelClose}
     >
       <div className="container">
         {/* Nav links centered */}
@@ -160,6 +189,7 @@ export default function MegaMenu({ lightWithCta = false, searchVariant = false, 
               onMouseEnter={() => handleMouseEnter(index)}
             >
               <button
+                ref={element => { triggerRefs.current[index] = element; }}
                 onClick={dividedNavy ? () => handleMouseEnter(index) : undefined}
                 aria-expanded={dividedNavy ? activeIndex === index : undefined}
                 onKeyDown={dividedNavy ? event => { if (event.key === "Escape") setActiveIndex(null); } : undefined}
@@ -196,12 +226,13 @@ export default function MegaMenu({ lightWithCta = false, searchVariant = false, 
           )}
         </nav>
       </div>
-      {/* Panel always centered relative to the full nav bar */}
+      {/* Keep the panel beneath its trigger and inside the viewport. */}
       <AnimatePresence>
         {activeIndex !== null && (
           <MegaMenuPanel
             category={navigationData[activeIndex]}
             onClose={() => setActiveIndex(null)}
+            left={panelLeft}
           />
         )}
       </AnimatePresence>
