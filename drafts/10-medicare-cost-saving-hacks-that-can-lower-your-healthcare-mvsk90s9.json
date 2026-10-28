@@ -694,6 +694,10 @@
       "content": "[Medicare Savings Program](/faqs/medicare-savings-programs/)s are designed to help people with limited income cover Medicare costs such as premiums, deductibles, and other out-of-pocket expenses. If you have ever assumed you make too much to qualify, it is worth checking rather than ruling it out on your own."
     },
     {
+      "type": "paragraph",
+      "content": "Income and resource limits for Medicare Savings Programs and Extra Help are updated annually and vary slightly depending on the specific program and your marital status. As a general guide, Medicare Savings Programs are generally aimed at individuals with modest monthly incomes and limited savings, while Extra Help has somewhat higher income and resource limits. Because these figures change each year, it is best to check the current thresholds directly on [Medicare.gov](https://www.medicare.gov/basics/costs/help/drug-costs) or the [Social Security Administration's website](https://www.ssa.gov/medicare/part-d-extra-help) rather than rely on outdated numbers, since even being close to the limit can be worth a formal application."
+    },
+    {
       "type": "callout",
       "calloutType": "info",
       "calloutTitle": "A Compounding Benefit",
@@ -715,7 +719,7 @@
     },
     {
       "type": "paragraph",
-      "content": "You automatically qualify for [Extra Help](/faqs/medicare-low-income-subsidy/) if you already qualify for Medicaid, a [Medicare Savings Program](/faqs/medicare-savings-programs/), or Supplemental Security Income (SSI), according to [Medicare's explanation of Part D costs](https://www.medicare.gov/health-drug-plans/part-d/basics/costs). If none of those apply, you can still apply directly and find out where you stand."
+      "content": "You automatically qualify for [Extra Help](/faqs/medicare-low-income-subsidy/) if you already qualify for Medicaid, a [Medicare Savings Program](/faqs/medicare-savings-programs/), or Supplemental Security Income (SSI), according to [Medicare's explanation of Part D costs](https://www.medicare.gov/health-drug-plans/part-d/basics/costs). If none of those apply, you can still apply directly and find out where you stand. Current income and resource limits for Extra Help are published each year by the [Social Security Administration](https://www.ssa.gov/medicare/part-d-extra-help), and it is worth checking those figures directly since they are adjusted annually."
     },
     {
       "type": "paragraph",
@@ -783,7 +787,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Missing your Initial Enrollment Period can lead to penalties that follow you for a long time, raising what you pay well beyond the cost of enrolling on time. Understanding your personal enrollment timeline is one of the clearest ways to protect your budget from avoidable, long-term costs."
+      "content": "Missing your Initial Enrollment Period can lead to penalties that follow you for a long time, raising what you pay well beyond the cost of enrolling on time. For Part B specifically, the penalty adds 10% to your monthly premium for each full 12-month period you were eligible for Part B but did not enroll, and this penalty is generally permanent for as long as you have Part B, according to [CMS.gov](https://www.medicare.gov/basics/costs/medicare-costs/avoid-penalties). Understanding your personal enrollment timeline is one of the clearest ways to protect your budget from avoidable, long-term costs."
     },
     {
       "type": "callout",
@@ -1001,6 +1005,6 @@
     }
   ],
   "id": "10-medicare-cost-saving-hacks-that-can-lower-your-healthcare-mvsk90s9",
-  "updatedAt": "2026-10-28T20:26:23.122Z",
-  "createdAt": "2026-10-28T20:26:23.122Z"
+  "updatedAt": "2026-10-28T20:26:37.772Z",
+  "createdAt": "2026-10-28T20:26:37.772Z"
 }
