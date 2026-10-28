@@ -92,6 +92,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "can-limited-medigap-access-keep-you-stuck",
     seo: {
+      focusKeyword: "",
       title: "Medigap Guaranteed Issue and Medicare Advantage",
       description: "Learn how Medigap guaranteed issue Medicare Advantage rules can trap you in a plan and limit your options to switch later.",
       canonical: "https://www.medicarefaq.com/blog/can-limited-medigap-access-keep-you-stuck/",
@@ -138,7 +139,8 @@ export const blogArticles: BlogArticleData[] = [
       { type: "paragraph", content: "This creates a real financial and health risk for people who chose Medicare Advantage at 65 without realizing that returning to Medigap later is not guaranteed. The decision you make in your first year of Medicare eligibility can shape your options for the rest of your time on Medicare." },
       { type: "heading", level: 2, text: "Do Any States Offer Broader Medigap Protections?", id: "states-with-broader-protections" },
       { type: "paragraph", content: "Federal law sets the minimum guaranteed issue protections, but states are free to expand on them. A small number of states require insurers to offer Medigap policies with continuous or annual guaranteed issue rights, meaning residents are not limited to the narrow federal triggering events." },
-      { type: "paragraph", content: "New York and Connecticut, for example, require continuous or year-round guaranteed issue access to Medigap policies for eligible residents. Massachusetts and Maine have also adopted expanded consumer protections that give residents more flexibility to switch between Medicare Advantage and Medigap without a full medical underwriting review. According to the National Association of Insurance Commissioners (NAIC) and state insurance department guidance, these states go beyond the federal minimums outlined by CMS. Rules and the specific plans affected vary by state, so always confirm current requirements with your [state's Medigap rules](https://www.medicarefaq.com/medicare-supplements/medigap-by-state/) or your state insurance department." },
+      { type: "paragraph", content: "New York and Connecticut, for example, require continuous or year-round guaranteed issue access to Medigap policies for eligible residents. Massachusetts and Maine have also adopted expanded consumer protections that give residents more flexibility to switch between Medicare Advantage and Medigap without a full medical underwriting review." },
+  {"type":"paragraph","content":"According to the National Association of Insurance Commissioners (NAIC) and state insurance department guidance, these states go beyond the federal minimums outlined by CMS. Rules and the specific plans affected vary by state, so always confirm current requirements with your [state's Medigap rules](https://www.medicarefaq.com/medicare-supplements/medigap-by-state/) or your state insurance department."},
       { type: "paragraph", content: "Even in states with broader protections, plan availability and pricing still vary by insurer. A state-level guarantee that you can get a policy does not mean every company offers the same premium, so comparing carriers remains worthwhile." },
       { type: "heading", level: 2, text: "How to Check Your Options Before the Annual Enrollment Period Ends", id: "check-options-before-aep-ends" },
       { type: "paragraph", content: "Before you decide to leave Medicare Advantage, a few concrete checks can prevent you from ending up without coverage you can afford." },
