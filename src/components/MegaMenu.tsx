@@ -125,6 +125,7 @@ function MegaMenuPanel({
 export default function MegaMenu({ lightWithCta = false, searchVariant = false, dividedNavy = false }: { lightWithCta?: boolean; searchVariant?: boolean; dividedNavy?: boolean }) {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
   const navRef = useRef<HTMLDivElement>(null);
+  const menuRowRef = useRef<HTMLElement>(null);
   const triggerRefs = useRef<(HTMLButtonElement | null)[]>([]);
   const [panelLeft, setPanelLeft] = useState(0);
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -139,11 +140,14 @@ export default function MegaMenu({ lightWithCta = false, searchVariant = false, 
   const positionPanel = useCallback((index: number) => {
     const nav = navRef.current;
     const trigger = triggerRefs.current[index];
-    if (!nav || !trigger) return;
+    const row = menuRowRef.current;
+    if (!nav || !trigger || !row) return;
     const panelWidth = Math.min(window.innerWidth * 0.9, 960);
     const viewportRight = document.documentElement.clientWidth - 16;
-    // Align with the trigger, shifting left only to avoid clipping the viewport.
-    const left = Math.max(16, Math.min(trigger.getBoundingClientRect().left, viewportRight - panelWidth));
+    const rowBounds = row.getBoundingClientRect();
+    const right = Math.min(rowBounds.right, viewportRight);
+    // Keep right-hand dropdowns inside the same content column as the header.
+    const left = Math.max(16, Math.min(trigger.getBoundingClientRect().left, right - panelWidth));
     setPanelLeft(left - nav.getBoundingClientRect().left);
   }, []);
 
@@ -181,7 +185,7 @@ export default function MegaMenu({ lightWithCta = false, searchVariant = false, 
     >
       <div className="container">
         {/* Nav links centered */}
-        <nav aria-label="Main navigation" className={dividedNavy ? "flex items-center h-[39px]" : searchVariant ? "flex items-center justify-start min-h-[68px] gap-0 xl:gap-2" : lightWithCta ? "flex items-center justify-end min-h-[68px] gap-1 xl:gap-3" : "flex items-center justify-center h-12"}>
+        <nav ref={menuRowRef} aria-label="Main navigation" className={dividedNavy ? "flex items-center h-[39px]" : searchVariant ? "flex items-center justify-start min-h-[68px] gap-0 xl:gap-2" : lightWithCta ? "flex items-center justify-end min-h-[68px] gap-1 xl:gap-3" : "flex items-center justify-center h-12"}>
           {navigationData.map((category, index) => (
             <div
               key={category.title}
