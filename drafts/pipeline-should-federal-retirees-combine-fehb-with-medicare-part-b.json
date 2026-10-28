@@ -1,7 +1,22 @@
 {
   "title": "FEHB and Medicare Part B: A Retiree's Guide",
+  "rawContent": "",
   "slug": "should-federal-retirees-combine-fehb-with-medicare-part-b",
+  "excerpt": "Federal retirees can keep FEHB, add Medicare Part B, or suspend FEHB. This guide compares costs and coordination of benefits to help you decide.",
   "category": "enrollment",
+  "author": "David Haass",
+  "reviewer": "Ashlee Zareczny",
+  "image": "/images/generated/should-federal-retirees-combine-fehb-with-medicare-part-b-17cd45b9c703.png",
+  "imageAlt": "",
+  "keyTakeaways": [
+    "FEHB coverage does not end at Medicare eligibility; you choose to keep it, add Part B, or suspend FEHB",
+    "When combined, Medicare typically becomes primary payer and FEHB pays second, reducing out-of-pocket costs",
+    "Some FEHB carriers offer incentives like waived deductibles or lower copays for members enrolled in Part B",
+    "The standard 2026 Part B premium is $202.90 per month, rising to $689.90 for high earners due to IRMAA surcharges",
+    "Retirees with frequent specialist visits or chronic conditions often benefit most from adding Part B"
+  ],
+  "seoTitle": "FEHB and Medicare Part B: A Retiree's Guide",
+  "seoDescription": "Should you combine FEHB and Medicare Part B? Compare costs, coordination of benefits, and incentives to decide what's best for federal retirees.",
   "sections": [
     {
       "type": "heading",
@@ -11,7 +26,7 @@
     },
     {
       "type": "paragraph",
-      "content": "There is no single right answer for every federal retiree weighing Medicare Part B against their Federal Employees Health Benefits (FEHB) plan. The better choice depends on your health needs, your budget, and how much financial risk you are comfortable carrying. One thing worth knowing upfront: FEHB coverage does not end when you become eligible for Medicare. You keep your FEHB plan unless you choose to drop or suspend it."
+      "content": "There is no single right answer for every federal retiree weighing [Medicare Part B](/faqs/medicare-part-b-explained-premiums-deductibles-coverage-and-enrollment-in-2026/) against their Federal Employees Health Benefits (FEHB) plan. The better choice depends on your [health needs](/faqs/what-is-medicare/), your budget, and how much [financial risk](/faqs/medicare-cost-sharing/) you are comfortable carrying. One thing worth knowing upfront: FEHB coverage does not end when you become eligible for Medicare. You keep your FEHB plan unless you choose to drop or suspend it."
     },
     {
       "type": "paragraph",
@@ -39,11 +54,11 @@
     },
     {
       "type": "paragraph",
-      "content": "Some FEHB carriers offer incentives specifically for members who also enroll in Medicare Part B. These can include reduced out-of-pocket maximums, waived deductibles, or lower copays for hospital stays and outpatient visits. The incentives vary significantly by carrier and plan year."
+      "content": "Some FEHB carriers offer incentives specifically for members who also enroll in [Medicare Part B](/faqs/medicare-part-b-explained-premiums-deductibles-coverage-and-enrollment-in-2026/). These can include reduced out-of-pocket maximums, waived deductibles, or lower copays for hospital stays and outpatient visits. The incentives vary significantly by carrier and plan year."
     },
     {
       "type": "paragraph",
-      "content": "Because these programs are not standard across all FEHB plans, check your specific plan brochure for a section on Medicare coordination or Medicare Part B incentives. This is usually listed under a heading addressing members who have Medicare as a secondary payer."
+      "content": "Because these programs are not standard across all FEHB plans, check your specific plan brochure for a section on Medicare coordination or [Medicare Part B](/faqs/medicare-part-b-explained-premiums-deductibles-coverage-and-enrollment-in-2026/) incentives. This is usually listed under a heading addressing members who have Medicare as a secondary payer."
     },
     {
       "type": "heading",
@@ -91,7 +106,7 @@
     },
     {
       "type": "eddie-pro-tip",
-      "content": "Before you decide, ask your FEHB plan directly whether it offers a reduced deductible or lower out-of-pocket maximum for members enrolled in Medicare Part B. This single detail can shift the math significantly, and it is not always obvious from a quick read of your plan brochure."
+      "content": "Before you decide, ask your FEHB plan directly whether it offers a reduced deductible or lower out-of-pocket maximum for members enrolled in [Medicare Part B](/faqs/medicare-part-b-explained-premiums-deductibles-coverage-and-enrollment-in-2026/). This single detail can shift the math significantly, and it is not always obvious from a quick read of your plan brochure."
     },
     {
       "type": "heading",
@@ -188,21 +203,67 @@
       "content": "Before that window closes, consider requesting a personalized cost comparison based on your FEHB plan, income, and typical healthcare use. Having clear numbers in front of you, rather than general assumptions, makes it easier to choose coverage you will feel settled with."
     }
   ],
-  "seoTitle": "FEHB and Medicare Part B: A Retiree's Guide",
-  "seoDescription": "Should you combine FEHB and Medicare Part B? Compare costs, coordination of benefits, and incentives to decide what's best for federal retirees.",
-  "excerpt": "Federal retirees can keep FEHB, add Medicare Part B, or suspend FEHB. This guide compares costs and coordination of benefits to help you decide.",
-  "keyTakeaways": [
-    "FEHB coverage does not end at Medicare eligibility; you choose to keep it, add Part B, or suspend FEHB",
-    "When combined, Medicare typically becomes primary payer and FEHB pays second, reducing out-of-pocket costs",
-    "Some FEHB carriers offer incentives like waived deductibles or lower copays for members enrolled in Part B",
-    "The standard 2026 Part B premium is $202.90 per month, rising to $689.90 for high earners due to IRMAA surcharges",
-    "Retirees with frequent specialist visits or chronic conditions often benefit most from adding Part B"
+  "relatedSlugs": [
+    "medicare-open-enrollment-2027-free-resources-for-seniors",
+    "medicare-supplement-open-enrollment",
+    "medicare-annual-enrollment-period",
+    "medicare-options-cover-hospital"
   ],
-  "image": "/images/generated/should-federal-retirees-combine-fehb-with-medicare-part-b-17cd45b9c703.png",
-  "relatedSlugs": [],
-  "sourceUrl": "https://www.govexec.com/pay-benefits/2026/10/fehb-medicare-b-both/416755/?oref=ge-mini-feed",
-  "pipelineId": "disc-318fd257cc05cd1351f4b88eb90657330ffe13294769376609ed48665992b777",
+  "linkSuggestions": [
+    {
+      "phrase": "Medicare coordination",
+      "url": "/faqs/fehb-and-medicare/",
+      "title": "Federal Employee Health Benefits (FEHB) and Medicare",
+      "reason": "This link provides insights into how FEHB and Medicare work together, which is directly relevant to the article's content."
+    },
+    {
+      "phrase": "Medicare Part D",
+      "url": "/faqs/what-is-a-medicare-part-d-formulary/",
+      "title": "What is a Medicare Part D Formulary?",
+      "reason": "This link offers information on Medicare Part D, which is important for readers considering prescription drug coverage alongside Medicare."
+    },
+    {
+      "phrase": "Special Enrollment Period",
+      "url": "/faqs/medicare-special-enrollment-period/",
+      "title": "Medicare Special Enrollment Period",
+      "reason": "Linking to this page provides clarity on the enrollment periods, which is critical for retirees making decisions about Medicare."
+    },
+    {
+      "phrase": "out-of-pocket maximums",
+      "url": "/faqs/medicare-maximum-out-of-pocket/",
+      "title": "Medicare Maximum Out-of-Pocket",
+      "reason": "This link explains out-of-pocket maximums, helping readers understand potential costs associated with Medicare coverage."
+    },
+    {
+      "phrase": "Medicare Part B incentives",
+      "url": "/faqs/medicare-advantage-extra-benefits-explained-whats-really-included/",
+      "title": "Medicare Advantage Extra Benefits Explained: What's Really Included",
+      "reason": "This link provides information on potential benefits and incentives for enrolling in Medicare Part B, enhancing the reader's understanding."
+    }
+  ],
+  "acceptedLinks": [
+    {
+      "phrase": "Medicare Part B",
+      "url": "/faqs/medicare-part-b-explained-premiums-deductibles-coverage-and-enrollment-in-2026/",
+      "title": "Medicare Part B Explained: Premiums, Deductibles, Coverage, and Enrollment in 2026"
+    },
+    {
+      "phrase": "IRMAA Can Raise Your Premium",
+      "url": "/faqs/irmaa/",
+      "title": "IRMAA: What is IRMAA in Medicare?"
+    },
+    {
+      "phrase": "health needs",
+      "url": "/faqs/what-is-medicare/",
+      "title": "What Is Medicare?"
+    },
+    {
+      "phrase": "financial risk",
+      "url": "/faqs/medicare-cost-sharing/",
+      "title": "Medicare Cost-Sharing: Deductibles, Copays, Coinsurance & Medigap Plans Explained"
+    }
+  ],
   "id": "pipeline-should-federal-retirees-combine-fehb-with-medicare-part-b",
-  "updatedAt": "2026-10-27T11:41:55.932Z",
-  "createdAt": "2026-10-27T11:41:55.932Z"
+  "updatedAt": "2026-10-28T15:56:49.743Z",
+  "createdAt": "2026-10-28T15:56:49.743Z"
 }
