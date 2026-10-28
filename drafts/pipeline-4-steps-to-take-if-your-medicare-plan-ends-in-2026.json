@@ -25,8 +25,14 @@
       "text": "What It Means If Your Medicare Plan Is Ending in 2026"
     },
     {
+      "type": "callout",
+      "calloutType": "info",
+      "calloutText": "1. Confirm your plan is actually ending by checking directly with your plan or Medicare.gov.\n2. Review your coverage needs, including doctors, prescriptions, and upcoming care, before comparing plans.\n3. Compare your options during the Annual Enrollment Period, including Medicare Advantage, Medigap plus Part D, or standalone Part D.\n4. Enroll before your deadline to avoid a coverage gap or late enrollment penalty.",
+      "calloutTitle": "The 4 Steps At a Glance"
+    },
+    {
       "type": "paragraph",
-      "content": "Receiving a termination or non-renewal notice from your Medicare Advantage or Part D plan means the insurer has decided to stop offering that specific plan for 2027, or has pulled it from your county entirely. This is different from a mistake on your part. Insurers make these business decisions each fall, and Medicare requires them to notify affected members by mail before the change takes effect."
+      "content": "Receiving a termination or non-renewal notice from your Medicare Advantage or Part D plan means the insurer has decided to stop offering that specific plan for 2027, or has pulled it from your county entirely. This is different from a mistake on your part. Insurers make these business decisions each fall, and Medicare requires them to notify affected members by mail before the change takes effect, a requirement outlined by CMS.gov for plan non-renewals."
     },
     {
       "type": "paragraph",
@@ -35,6 +41,12 @@
     {
       "type": "paragraph",
       "content": "If your plan is ending, you should receive a non-renewal notice by early October, ahead of the [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period/) that runs October 15 to December 7. The letter will state your last day of coverage, typically December 31, 2026, and explain your options for choosing new coverage."
+    },
+    {
+      "type": "callout",
+      "calloutType": "info",
+      "calloutText": "- Annual Enrollment Period (AEP): October 15 to December 7\n- Special Enrollment Period (SEP) for terminated plans: December 8 through the end of February following the termination\n- Medicare Advantage Open Enrollment Period (MA-OEP): January 1 to March 31",
+      "calloutTitle": "Key Enrollment Deadlines"
     },
     {
       "type": "heading",
@@ -62,7 +74,7 @@
     },
     {
       "type": "paragraph",
-      "content": "KFF's analysis of Medicare Advantage plan availability has found that plan exits and non-renewals affect a meaningful share of enrollees each year, with the scope varying by state and insurer. You can review the details of how these changes have played up in recent plan years through [KFF's Medicare Advantage research](https://www.kff.org/medicare/)."
+      "content": "KFF's annual analysis of Medicare Advantage plan availability has found that plan exits and non-renewals affect a meaningful share of enrollees each year, with the scope varying by state and insurer. You can review the specific figures and year-over-year trends in KFF's report, [Medicare Advantage 2025 Spotlight: First Look](https://www.kff.org/medicare/issue-brief/medicare-advantage-2025-spotlight-first-look/), which breaks down how many beneficiaries were affected by plan exits and reduced plan availability in recent plan years."
     },
     {
       "type": "callout",
@@ -82,11 +94,11 @@
     },
     {
       "type": "paragraph",
-      "content": "Your official termination notice should arrive in the mail no later than early October, and it will state your exact coverage end date, almost always December 31, 2026. Keep this letter somewhere you will not lose it, since it also explains your enrollment rights and deadlines."
+      "content": "Your official termination notice should arrive in the mail no later than early October, and it will state your exact coverage end date, almost always December 31, 2026. Keep this letter somewhere you will not lose it, since it also explains your enrollment rights and deadlines. CMS.gov outlines the specific notice timing requirements that plans must follow when discontinuing coverage."
     },
     {
       "type": "paragraph",
-      "content": "If you believe your plan may be affected but have not received anything in writing, do not wait passively. Call your plan directly and ask whether it has filed a non-renewal for your service area, and confirm this with Medicare at 1-800-MEDICARE if you get an unclear answer."
+      "content": "If you believe your plan may be affected but have not received anything in writing, do not wait passively. Call your plan directly and ask whether it has filed a non-renewal for your service area, and confirm this with Medicare at 1-800-MEDICARE if you get an unclear answer. You can also contact your State Health Insurance Assistance Program (SHIP) for free, unbiased counseling. SHIP counselors are not affiliated with any insurer and can help you confirm your plan's status and walk through your options at no cost."
     },
     {
       "type": "heading",
@@ -107,6 +119,10 @@
       "content": "A common mistake people make when forced to switch plans is choosing the option with the lowest monthly premium without checking the deductible, copays, or whether their doctors and medications are covered. A plan with a low premium can still cost you considerably more over the year if it does not cover your prescriptions well or requires a higher copay for specialist visits."
     },
     {
+      "type": "paragraph",
+      "content": "If you are worried about a gap in prescription drug coverage during this transition, it helps to understand the term creditable coverage. This refers to drug coverage that is expected to pay, on average, at least as much as Medicare's standard Part D coverage. Maintaining creditable coverage without a significant break is what protects you from a late enrollment penalty. If you have limited income and resources, ask whether you qualify for Extra Help, also called the Low-Income Subsidy (LIS), a program that can lower your premiums, deductibles, and copays for prescription drugs."
+    },
+    {
       "type": "heading",
       "level": 2,
       "id": "step-3-compare-options-during-open-enrollment",
@@ -117,12 +133,20 @@
       "content": "The [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period/) runs October 15 to December 7 each year, and it is when most people whose plans are ending will choose new Medicare Advantage or Part D coverage for the following year. If you have Medicare Advantage and want to make a change after January 1, the separate Medicare Advantage Open Enrollment Period, running January 1 to March 31, allows one additional plan switch, though it does not apply to adding Part D coverage if you are switching to Original Medicare."
     },
     {
-      "type": "paragraph",
-      "content": "When comparing replacement options, look at Medicare Advantage, Medicare Supplement (Medigap) paired with a standalone Part D plan, and standalone Part D alone if you are returning to Original Medicare. Each works differently: Medicare Advantage typically bundles hospital, medical, and often drug coverage into one plan with a network, while Medigap pairs with Original Medicare and a separate [Part D plan](/medicare-supplement-plans/plan-g/) to cover costs with more provider flexibility."
+      "type": "callout",
+      "calloutType": "info",
+      "calloutText": "- Medicare Advantage: Typically bundles hospital, medical, and often drug coverage into one plan with a provider network.\n- Medigap plus standalone Part D: Pairs with Original Medicare and a separate [Part D plan](/medicare-supplement-plans/plan-g/) for more provider flexibility.\n- Standalone Part D alone: Covers prescription drugs if you are returning to Original Medicare without a Medigap policy.",
+      "calloutTitle": "Comparing Your Replacement Options"
     },
     {
       "type": "paragraph",
       "content": "Compare total expected out-of-pocket costs across plans, not just the monthly premium. Add up expected premiums, deductibles, and the copays or coinsurance tied to the doctor visits and prescriptions you actually use, since the plan with the lowest sticker price is not always the lowest total cost."
+    },
+    {
+      "type": "callout",
+      "calloutType": "info",
+      "calloutText": "If you are leaving Medicare Advantage and returning to Original Medicare, you may have a guaranteed issue right to buy a Medigap policy without medical underwriting during a limited window tied to your plan's termination. This means an insurer cannot deny you coverage or charge you more based on your health. Confirm your specific guaranteed issue rights with your State Health Insurance Assistance Program (SHIP) or a licensed agent, since the exact timeframe depends on your situation.",
+      "calloutTitle": "Guaranteed Issue Rights for Medigap"
     },
     {
       "type": "heading",
@@ -132,7 +156,7 @@
     },
     {
       "type": "paragraph",
-      "content": "When Medicare terminates or non-renews your plan, you qualify for a [Special Enrollment Period](/faqs/medicare-special-enrollment-period/) that gives you a window to pick new coverage without facing a gap in care or a late enrollment penalty. This SEP generally runs from December 8 through the end of February following the termination, giving you time even if you miss the standard [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period/) deadline of December 7."
+      "content": "When Medicare terminates or non-renews your plan, you qualify for a [Special Enrollment Period](/faqs/medicare-special-enrollment-period/) that gives you a window to pick new coverage without facing a gap in care or a late enrollment penalty. This SEP generally runs from December 8 through the end of February following the termination, giving you time even if you miss the standard [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period/) deadline of December 7. CMS.gov details the exact SEP timing rules and the circumstances under which a late enrollment penalty can apply if you go without creditable coverage."
     },
     {
       "type": "callout",
@@ -152,7 +176,7 @@
     },
     {
       "type": "paragraph",
-      "content": "If you take no action by your [Special Enrollment Period](/faqs/medicare-special-enrollment-period/) deadline, you risk being defaulted into Original Medicare with no Part D drug coverage, which can leave you exposed to large out-of-pocket drug costs and may eventually trigger a late enrollment penalty if you go without creditable drug coverage for too long."
+      "content": "If you take no action by your [Special Enrollment Period](/faqs/medicare-special-enrollment-period/) deadline, you risk being defaulted into Original Medicare with no Part D drug coverage, which can leave you exposed to large out-of-pocket drug costs and may eventually trigger a late enrollment penalty if you go without creditable drug coverage for too long. According to CMS.gov, this penalty is calculated based on the number of months you went without creditable drug coverage and is added to your monthly Part D premium for as long as you have Part D."
     },
     {
       "type": "paragraph",
@@ -160,7 +184,7 @@
     },
     {
       "type": "paragraph",
-      "content": "If you feel unsure about which option fits your doctors, prescriptions, and budget, this is a reasonable point to get help from a licensed Medicare agent rather than guessing alone. An agent can check specific plan networks and drug formularies against your list from Step 2, something that takes considerably more time to do thoroughly on your own."
+      "content": "If you feel unsure about which option fits your doctors, prescriptions, and budget, this is a reasonable point to get help from a licensed Medicare agent rather than guessing alone. An agent can check specific plan networks and drug formularies against your list from Step 2, something that takes considerably more time to do thoroughly on your own. If you prefer a free, unbiased option instead of or alongside a licensed agent, your State Health Insurance Assistance Program (SHIP) offers no-cost counseling and is not affiliated with any insurance company."
     },
     {
       "type": "heading",
@@ -178,7 +202,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Clear explanations without jargon, and the ability to see real client reviews, are reasonable signs that a resource is trustworthy. If an agent cannot explain why a plan does or does not cover your specific medication, that is worth asking more questions about before you commit."
+      "content": "Clear explanations without jargon, and the ability to see real client reviews, are reasonable signs that a resource is trustworthy. If an agent cannot explain why a plan does or does not cover your specific medication, that is worth asking more questions about before you commit. If you would rather speak with a neutral party that does not sell insurance, your local SHIP office provides free, unbiased counseling as an alternative or supplement to working with a licensed agent."
     },
     {
       "type": "heading",
@@ -195,15 +219,23 @@
         },
         {
           "question": "Will I be pressured into a decision if I call for help comparing plans?",
-          "answer": "A licensed agent should walk you through your options calmly, explain coverage and cost differences in plain terms, and let you take time to decide. You should never feel rushed into enrolling on the spot. If a conversation feels pushy, it is reasonable to pause and seek a second opinion before committing."
+          "answer": "A licensed agent should walk you through your options calmly, explain coverage and cost differences in plain terms, and let you take time to decide. You should never feel rushed into enrolling on the spot. If a conversation feels pushy, it is reasonable to pause and seek a second opinion, including contacting your free State Health Insurance Assistance Program (SHIP) for unbiased counseling, before committing."
         },
         {
           "question": "Can I just research my options myself instead of talking to someone?",
-          "answer": "You can research plans yourself using Medicare.gov's plan comparison tool, and many people start there. Where a licensed agent often adds value is confirming specific doctor and prescription coverage across plans, since formularies and networks change yearly and can be difficult to verify thoroughly without access to current plan data."
+          "answer": "You can research plans yourself using Medicare.gov's plan comparison tool, and many people start there. Where a licensed agent or a SHIP counselor often adds value is confirming specific doctor and prescription coverage across plans, since formularies and networks change yearly and can be difficult to verify thoroughly without access to current plan data."
         },
         {
           "question": "What if I choose a new plan and later regret it?",
           "answer": "If you enroll in Medicare Advantage and it is not working out, the Medicare Advantage Open Enrollment Period from January 1 to March 31, 2027 lets you switch to a different Medicare Advantage plan or return to Original Medicare one time. This gives you a limited safety net if your first choice does not fit your needs."
+        },
+        {
+          "question": "What does 'creditable coverage' mean, and why does it matter during this transition?",
+          "answer": "Creditable drug coverage is coverage that is expected to pay, on average, at least as much as Medicare's standard Part D drug benefit. As long as you maintain creditable coverage without a significant gap, you avoid a late enrollment penalty when you eventually enroll in a new Part D or Medicare Advantage plan. If you have limited income and resources, ask about Extra Help (the Low-Income Subsidy, or LIS), which can reduce your prescription drug costs during and after this transition."
+        },
+        {
+          "question": "What if I am leaving Medicare Advantage and want a Medigap policy instead?",
+          "answer": "If your Medicare Advantage plan is terminated and you return to Original Medicare, you may qualify for a guaranteed issue right to purchase a Medigap policy without medical underwriting during a limited window. This protects you from being denied coverage or charged more due to health conditions. Confirm your exact rights and timeframe with your SHIP office or a licensed agent, since guaranteed issue situations vary."
         }
       ]
     },
@@ -219,7 +251,7 @@
     },
     {
       "type": "paragraph",
-      "content": "If you would like a clear, no-pressure comparison of plans available in your area based on your doctors, prescriptions, and budget, you can speak with a licensed Medicare agent who can walk through your specific situation and help you avoid a gap in coverage."
+      "content": "If you would like a clear, no-pressure comparison of plans available in your area based on your doctors, prescriptions, and budget, you can speak with a licensed Medicare agent who can walk through your specific situation and help you avoid a gap in coverage. You can also reach out to your State Health Insurance Assistance Program (SHIP) for free, unbiased counseling if you prefer a resource that does not sell insurance."
     }
   ],
   "relatedSlugs": [
@@ -271,6 +303,6 @@
     }
   ],
   "id": "pipeline-4-steps-to-take-if-your-medicare-plan-ends-in-2026",
-  "updatedAt": "2026-10-28T13:20:05.919Z",
-  "createdAt": "2026-10-28T13:20:05.919Z"
+  "updatedAt": "2026-10-28T14:02:24.047Z",
+  "createdAt": "2026-10-28T14:02:24.047Z"
 }
