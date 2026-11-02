@@ -76,6 +76,11 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: "/blog/how-to-compare-medigap-quotes-a-step-by-step-guide",
+        destination: "/medicare-supplement-plans/compare/",
+        permanent: true,
+      },
+      {
         source: "/compare-rates",
         destination: "/medicare-supplement-plans",
         permanent: true,
