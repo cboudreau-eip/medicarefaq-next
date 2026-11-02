@@ -17,9 +17,8 @@ import {
   Lock,
 } from "lucide-react";
 import Link from "next/link";
+import Header from "@/components/SiteHeader";
 import { trackCtaClick } from "@/lib/analytics";
-
-const LOGO_URL = "/images/medicarefaq-logo.png";
 
 const PHONE_NUMBER = "(888) 335-8996";
 
@@ -500,23 +499,6 @@ export default function LeadGenForm() {
 
 // ─── Sub-components ──────────────────────────────────────────────────────────
 
-function Header() {
-  return (
-    <header className="flex items-center justify-between px-6 py-4 border-b border-slate-100 bg-white/80 backdrop-blur-sm">
-      <Link href="/" className="flex items-center">
-        <img src={LOGO_URL} alt="MedicareFAQ" className="h-8 md:h-10" />
-      </Link>
-      <a
-        href="tel:+18883358996"
-        data-invoca-phone-number="18883358996"
-        className="invoca-phone inline-flex items-center gap-2 text-sm font-semibold text-slate-700 hover:text-[#1B2A4A] transition-colors">
-        <Phone className="w-4 h-4 text-[#0D9488]" />
-        <span className="hidden sm:inline">{PHONE_NUMBER}</span>
-        <span className="sm:hidden">Call Us</span>
-      </a>
-    </header>
-  );
-}
 
 function TrustFooter() {
   return (

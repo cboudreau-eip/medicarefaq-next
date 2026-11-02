@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import AEPHomePage from "@/components/AEPHomePage";
 import OriginalHomePage from "@/components/OriginalHomePage";
+import SiteHeader from "@/components/SiteHeader";
 import { getAEPHomepageStage } from "@/lib/aep-homepage";
 
 // Re-evaluate the Eastern-time AEP dates per request, not just at build time.
@@ -71,7 +72,7 @@ export default function HomePage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webSiteSchema) }}
       />
-      {aepStage ? <AEPHomePage stage={aepStage} /> : <OriginalHomePage />}
+      {aepStage ? <AEPHomePage stage={aepStage} /> : <OriginalHomePage header={<SiteHeader />} />}
     </>
   );
 }

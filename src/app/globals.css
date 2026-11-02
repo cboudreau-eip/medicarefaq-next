@@ -1,5 +1,15 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+
+/* Keep article navigation and anchor targets clear of the shared header.
+   Its measured height includes the seasonal banner and responsive menu. */
+html:has([data-site-header]) {
+  scroll-padding-top: calc(var(--site-header-height, 196px) + 16px);
+}
+
+body:has([data-site-header]) .sticky:not([data-site-header]) {
+  top: calc(var(--site-header-height, 196px) + 16px);
+}
 @plugin "@tailwindcss/typography";
 @custom-variant dark (&:is(.dark *));
 @theme inline {

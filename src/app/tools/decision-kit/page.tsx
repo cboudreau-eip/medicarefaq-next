@@ -1,3 +1,4 @@
+import SiteHeader from "@/components/SiteHeader";
 import type { Metadata } from "next";
 import DecisionKitPage from "./PageContent";
 
@@ -18,5 +19,5 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  return <DecisionKitPage />;
+  return <><SiteHeader /><DecisionKitPage /></>;
 }

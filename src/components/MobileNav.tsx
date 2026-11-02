@@ -30,7 +30,7 @@ export default function MobileNav() {
   return (
     <div className="relative">
       {/* Top bar */}
-      <div className="flex items-center justify-between h-14 px-4 bg-white">
+      <div className="relative z-50 flex items-center justify-between h-14 px-4 bg-white">
         <Link href="/" className="shrink-0" onClick={() => setIsOpen(false)}>
           <img src={LOGO_URL} alt="MedicareFAQ" className="h-7 w-auto" />
         </Link>
@@ -47,6 +47,7 @@ export default function MobileNav() {
             onClick={() => setIsOpen(!isOpen)}
             className="p-1.5 text-[#1B2A4A]"
             aria-label="Toggle menu"
+            aria-expanded={isOpen}
           >
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>

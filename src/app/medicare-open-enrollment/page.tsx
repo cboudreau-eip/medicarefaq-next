@@ -1,3 +1,4 @@
+import SiteHeader from "@/components/SiteHeader";
 import type { Metadata } from "next";
 import PageContent from "./PageContent";
 
@@ -41,6 +42,7 @@ export default function MedicareOpenEnrollmentPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <SiteHeader />
       <PageContent />
     </>
   );

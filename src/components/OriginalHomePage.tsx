@@ -12,9 +12,10 @@ import CTABanner from "@/components/CTABanner";
 import Footer from "@/components/Footer";
 
 // Keep the pre-AEP homepage intact for its backup route and automatic restoration.
-export default function OriginalHomePage() {
+export default function OriginalHomePage({ header }: { header?: React.ReactNode }) {
   return (
     <div className="min-h-screen flex flex-col">
+      {header ?? <>
       {/* Navigation — Desktop */}
       <header className="hidden lg:block sticky top-0 z-50 bg-white shadow-sm">
         <UtilityBar />
@@ -26,6 +27,7 @@ export default function OriginalHomePage() {
       <header className="lg:hidden sticky top-0 z-50 bg-white shadow-sm">
         <MobileNav />
       </header>
+      </>}
 
       {/* Main Content */}
       <main className="flex-1">
