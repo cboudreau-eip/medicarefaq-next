@@ -71,6 +71,11 @@ const nextConfig: NextConfig = {
         .filter((entry): entry is [string, string] => entry[1] !== null)
         .map(([source, destination]) => ({ source, destination, permanent: true })),
       {
+        source: "/blog/medicare-plan-tool",
+        destination: "/seniors-guide-to-medicare-gov/tools-and-resources/",
+        permanent: true,
+      },
+      {
         source: "/compare-rates",
         destination: "/medicare-supplement-plans",
         permanent: true,
