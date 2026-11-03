@@ -356,7 +356,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     slug: 'when-is-medicare-primary',
     seo: {
       title: 'When Is Medicare Primary vs. Secondary? (2026 Guide)',
-      description: 'Whether Medicare pays first or second depends on your other coverage and your employer size. Learn the coordination of benefits rules that determine when Medicare is primary or secondary.',
+      description: "Not sure if Medicare pays first or second? See how your other coverage and employer size determine the coordination of benefits rules that apply to you.",
       canonical: 'https://www.medicarefaq.com/faqs/when-is-medicare-primary/',
       ogImage: '/images/medicarefaq-cover.jpg',
     },
