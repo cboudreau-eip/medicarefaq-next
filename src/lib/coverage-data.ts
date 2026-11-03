@@ -30941,7 +30941,7 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   readTime: "6 min read",
   quickAnswer: {
-    text: "TRICARE For Life (TFL) is Medicare-wraparound coverage for military retirees who have both Medicare Part A and Part B. Medicare pays first; TRICARE For Life pays second, covering most remaining costs. When both Medicare and TRICARE cover a service, you typically pay $0 out-of-pocket. TFL has no separate enrollment fee or premium beyond your current Medicare Part B premium, and it includes an annual catastrophic cap that limits your out-of-pocket costs.",
+    text: "Once a military retiree has both Medicare Part A and Part B, TRICARE For Life (TFL) automatically works as wraparound coverage. Medicare pays first, then TRICARE For Life pays second and covers most remaining costs. When both programs cover a service, you typically pay $0 out-of-pocket. TFL has no separate enrollment fee or premium beyond your Medicare Part B premium, and it includes an annual catastrophic cap that limits your total out-of-pocket costs.",
     badges: [
       {
         plan: "Part A",
