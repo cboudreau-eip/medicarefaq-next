@@ -7,7 +7,7 @@ import { renderInline } from "@/components/ArticleInline";
  * based on the slug parameter from the URL.
  */
 
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import Link from "next/link";
 import ZipFormModal from "@/components/ZipFormModal";
 import {
@@ -131,7 +131,23 @@ export default function PageContent({ page }: { page: PartDSubPage }) {
           <article className="flex-1 min-w-0 space-y-12">
             {/* Sections */}
             {page.sections.map((section) => (
-              <section key={section.id} id={section.id}>
+              <Fragment key={section.id}>
+              {page.slug === "medicare-part-d-enrollment-periods" && section.id === "oep" && (
+                <aside aria-label="Compare Part D plans" className="rounded-xl border-l-4 border-[#0D9488] bg-[#1B2A4A] p-6 sm:p-8 shadow-sm">
+                  <h2 className="text-2xl font-bold text-white mb-3">Explore Your Medicare Part D Options</h2>
+                  <p className="text-white/90 leading-relaxed mb-5">Enter your ZIP code to get started comparing prescription drug coverage options in your area.</p>
+                  <ZipFormModal
+                    coverageType="pdp"
+                    triggerLabel="Compare Part D Plans"
+                    triggerId="part-d-enrollment-inline-cta"
+                    triggerClassName="w-full sm:w-auto rounded-lg bg-[#F97316] hover:bg-[#EA580C] px-6 py-3 font-bold text-white transition-colors"
+                    title="Compare Medicare Part D Plans"
+                    subtitle="Enter your ZIP code to explore prescription drug coverage options in your area."
+                    pageSection="part_d_enrollment_before_oep"
+                  />
+                </aside>
+              )}
+              <section id={section.id}>
                 <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">{section.heading}</h2>
                 {section.content.split('\n\n').map((para, i) => (
                   <p key={i} className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: para }} />
@@ -211,6 +227,7 @@ export default function PageContent({ page }: { page: PartDSubPage }) {
                   </div>
                 )}
               </section>
+              </Fragment>
             ))}
 
             {/* FAQs */}
