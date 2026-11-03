@@ -10714,7 +10714,7 @@ export const blogArticles: BlogArticleData[] = [
   },
   {
     slug: `top-free-computer-classes-for-seniors`,
-    seo: {title: `Top Free Computer Classes for Seniors`, description: `Staying digitally connected is easier than ever with free computer classes designed specifically for seniors. Discover top-rated programs, libraries, and online resources that can help you master everything from email and social media to online banking and telehealth appointments.`, canonical: `https://www.medicarefaq.com/blog/top-free-computer-classes-for-seniors/`, ogImage: `/images/uploaded/top-free-computer-classes-for-seniors.jpg`},
+    seo: {title: `Top Free Computer Classes for Seniors`, description: "Find free, senior-friendly computer classes at libraries, senior centers, and online. Learn email, video calls, online banking, and more at your own pace.", canonical: `https://www.medicarefaq.com/blog/top-free-computer-classes-for-seniors/`, ogImage: `/images/uploaded/top-free-computer-classes-for-seniors.jpg`},
     title: `Top Free Computer Classes for Seniors`,
     excerpt: `Staying digitally connected is easier than ever with free computer classes designed specifically for seniors. Discover top-rated programs, libraries, and online resources that can help you master everything from email and social media to online banking and telehealth appointments.`,
     category: `Senior Resources`,
