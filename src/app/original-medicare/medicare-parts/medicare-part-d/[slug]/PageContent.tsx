@@ -133,7 +133,7 @@ export default function PageContent({ page }: { page: PartDSubPage }) {
             {/* Sections */}
             {page.sections.map((section, sectionIndex) => (
               <Fragment key={section.id}>
-              {page.slug === "medicare-part-d-enrollment-periods" && sectionIndex === 1 && <GuideCta />}
+              {["medicare-part-d-enrollment-periods", "medicare-part-d-eligibility"].includes(page.slug) && sectionIndex === 1 && <GuideCta />}
               <section id={section.id}>
                 <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">{section.heading}</h2>
                 {section.content.split('\n\n').map((para, i) => (
