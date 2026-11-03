@@ -1,0 +1,121 @@
+import type { BlogArticleData } from "./article-types";
+
+export const medigapValueArticle: BlogArticleData = {
+  "slug": "are-you-paying-too-much-for-medicare-supplement-insurance",
+  "seo": {
+    "focusKeyword": "compare Medicare Supplement insurance companies",
+    "title": "Compare Medicare Supplement Insurance Companies",
+    "description": "Compare Medicare Supplement insurance companies by premiums, discounts, rate history, and financial strength. Check switching eligibility before changing plans.",
+    "canonical": "https://www.medicarefaq.com/blog/are-you-paying-too-much-for-medicare-supplement-insurance/",
+    "ogImage": "/images/generated/medigap-plan-costs-by.png"
+  },
+  "title": "Are You Paying Too Much for Medicare Supplement Insurance?",
+  "excerpt": "A familiar brand does not necessarily offer better Medigap value. Compare matching benefits, insurer pricing, and switching requirements before choosing a policy.",
+  "category": "Medicare Supplement",
+  "categoryColor": "#4F46E5",
+  "date": "November 3, 2026",
+  "dateUpdated": "November 3, 2026",
+  "author": "David Haass",
+  "reviewer": "Ashlee Zareczny",
+  "readTime": "9 min read",
+  "featured": false,
+  "image": "/images/generated/medigap-plan-costs-by.png",
+  "imageAlt": "Illustration of a Medicare card, a United States map, and shields representing coverage costs",
+  "answerBlock": "To compare Medicare Supplement insurance companies, match the plan letter and policy type first. Then evaluate your actual premium, discounts, rate history, financial strength, and service. A familiar brand does not change standardized benefits. Before switching, confirm whether medical underwriting or guaranteed issue protections apply.",
+  "keyTakeaways": [
+    "The same standardized Medigap benefits can have different premiums, so compare matching policy types using personal quotes.",
+    "Discounts, relevant rate history, financial strength, and service help you evaluate value beyond the starting price.",
+    "A lower quote does not guarantee acceptance. Check underwriting and applicable switching protections before canceling coverage."
+  ],
+  "tableOfContents": [
+    { "id": "standardized-benefits", "title": "What Changes Between Medigap Companies" },
+    { "id": "five-comparison-factors", "title": "Five Factors to Compare" },
+    { "id": "side-by-side-comparison", "title": "Your Side-by-Side Comparison" },
+    { "id": "potential-savings", "title": "Calculate Potential Savings" },
+    { "id": "before-you-switch", "title": "Check Eligibility Before Switching" },
+    { "id": "independent-broker", "title": "Working With an Independent Broker" },
+    { "id": "medigap-comparison-faq", "title": "Frequently Asked Questions" },
+    { "id": "next-steps", "title": "Your Next Step" }
+  ],
+  "sections": [
+    { "type": "paragraph", "content": "Choosing a Medicare Supplement insurer because you recognize its name is understandable. Advertising can make one company feel like the obvious choice, especially when you are already sorting through Medicare paperwork. But familiarity alone does not tell you whether its premium is competitive for your situation." },
+    { "type": "paragraph", "content": "You can make a more useful comparison by separating the benefits you need from the company selling them. This article focuses on Medigap, the coverage that supplements Original Medicare, rather than Medicare Advantage. Any potential savings depend on your quotes and eligibility, not a promised monthly amount." },
+    { "type": "heading", "level": 2, "id": "standardized-benefits", "text": "What Changes Between Medicare Supplement Companies" },
+    { "type": "paragraph", "content": "In most states, a regular Plan G policy provides the same standardized benefits regardless of the insurer. A more familiar logo does not add to those required benefits. Start by [comparing Medicare Supplement benefits](/medicare-supplement-plans/compare/) so you are evaluating matching coverage." },
+    { "type": "paragraph", "content": "Standardization does not mean every part of your experience is identical. Billing support and optional extras may differ. [Medicare's Medigap basics](https://www.medicare.gov/health-drug-plans/medigap/basics) also explains that Massachusetts, Minnesota, and Wisconsin use different standardization systems." },
+    { "type": "callout", "calloutType": "info", "calloutTitle": "Compare the Same Policy Type", "calloutText": "Keep regular Plan G, high-deductible Plan G, and Medicare SELECT quotes separate. Regular Medigap works with providers nationwide who accept Medicare; Medicare SELECT policies can require particular providers for full benefits." },
+    { "type": "heading", "level": 2, "id": "five-comparison-factors", "text": "Five Factors to Compare Before Choosing an Insurer" },
+    { "type": "heading", "level": 3, "id": "actual-premium", "text": "1. Your Actual Premium" },
+    { "type": "paragraph", "content": "Use written quotes based on the same applicant information and effective date. Ask which assumptions were used and whether the price includes discounts. An online estimate is a starting point, not confirmation of the premium you will receive after an application is reviewed." },
+    { "type": "paragraph", "content": "Understanding [why Plan G premiums vary](/blog/why-two-medigap-plan-g-policies-cost-different-amounts/) helps explain why matching benefits can carry different prices. The insurer's pricing method also matters when you consider future affordability. No pricing method guarantees that your premium will stay unchanged." },
+    { "type": "table", "title": "Medigap Premium Pricing Methods", "headers": ["Pricing method", "How age affects pricing", "What to remember"], "rows": [
+      ["Attained-age", "Your current age affects the premium", "Premiums can rise as you age and for other reasons"],
+      ["Issue-age", "Your age when the policy is issued affects the starting premium", "Premiums can still rise for reasons other than aging"],
+      ["Community-rated", "Age does not determine the base premium", "Premiums can still rise, and other permitted factors may affect your quote"]
+    ], "footnote": "Confirm the method and permitted rating factors for the specific policy in your state. See Medicare's Choosing a Medigap Policy guide." },
+    { "type": "heading", "level": 3, "id": "rate-history", "text": "2. Relevant Rate Increase History" },
+    { "type": "paragraph", "content": "Ask for available rate history tied to the same legal insurer, state, plan, and policy form you are considering. A national brand average may describe a different group of policies. If someone provides a percentage, ask which period and policy it describes and whether age-related increases are included." },
+    { "type": "callout", "calloutType": "tip", "calloutTitle": "Past Increases Are Context, Not a Forecast", "calloutText": "Do not assume a low starting price is a trap or that a company with modest past increases will always remain inexpensive. Record what is documented, what is missing, and what cannot be predicted." },
+    { "type": "heading", "level": 3, "id": "financial-strength", "text": "3. Financial Strength and Operating History" },
+    { "type": "paragraph", "content": "When [comparing Medicare Supplement insurance companies](/faqs/top-10-medicare-supplement-insurance-companies/), identify the legal company on the application. A brand can represent several issuing insurers. Check any independent financial strength rating, such as AM Best, against that exact company and record the rating date." },
+    { "type": "paragraph", "content": "Financial strength ratings address an insurer's ability to meet financial obligations, not whether its quote is your best value. Years in the Medigap market provide additional history to examine. Neither a long history nor a strong rating promises low future premiums, and a newer or smaller company should be evaluated on evidence rather than name recognition." },
+    { "type": "heading", "level": 3, "id": "discounts", "text": "4. Household and Other Discounts" },
+    { "type": "paragraph", "content": "Household discount rules vary. Some policies require another eligible household member to hold coverage with the insurer; others use different household requirements. Ask for the written eligibility terms rather than assuming that living with someone automatically qualifies you." },
+    { "type": "callout", "calloutType": "tip", "calloutTitle": "Compare the Final Price", "calloutText": "A larger discount percentage does not necessarily produce a lower premium. Ask what you would pay after all eligible discounts and what happens if your household circumstances or payment method change." },
+    { "type": "heading", "level": 3, "id": "customer-service", "text": "5. Customer Service and Policy Administration" },
+    { "type": "paragraph", "content": "Consider how you would handle a billing question or resolve a policy problem. Ask about support channels and review complaint information for the actual issuing company when available. Keep the reporting period and company size in mind; an isolated review cannot establish the experience every customer will have." },
+    { "type": "zip-cta", "headline": "Compare Medicare Supplement Costs in Your Area", "subtext": "Enter your ZIP code to compare available Medicare Supplement options in your area.", "buttonLabel": "Compare Medigap Options" },
+    { "type": "heading", "level": 2, "id": "side-by-side-comparison", "text": "What a Side-by-Side Medigap Comparison Should Include" },
+    { "type": "paragraph", "content": "Keep a copy of each quote and fill in the same details for every insurer. Mark unavailable information as unknown instead of treating it as a positive or negative result. This checklist turns a price conversation into a comparison you can review later." },
+    { "type": "table", "title": "Your Medigap Comparison Checklist", "headers": ["Compare for each insurer", "Record this detail", "Why it helps"], "rows": [
+      ["Benefits", "Plan letter and standard, high-deductible, or SELECT type", "Keeps coverage comparisons consistent"],
+      ["Premium", "Monthly price after discounts and effective date", "Shows your actual quoted starting cost"],
+      ["Annual premium", "Monthly premium multiplied by 12", "Makes the yearly difference easier to see"],
+      ["Pricing method", "Attained-age, issue-age, or community-rated", "Explains how age relates to pricing"],
+      ["Discounts", "Eligibility and conditions for keeping them", "Identifies assumptions behind the quote"],
+      ["Rate history", "Relevant policy form, state, and years available", "Prevents comparisons of unrelated policies"],
+      ["Company information", "Legal insurer, rating date, and service evidence", "Separates verified information from brand impressions"],
+      ["Eligibility", "Underwriting or applicable guaranteed issue right", "Checks whether the option is available to you"]
+    ] },
+    { "type": "heading", "level": 2, "id": "potential-savings", "text": "Calculate Potential Savings Without Assuming a Guarantee" },
+    { "type": "paragraph", "content": "Subtract the alternative policy's monthly premium from your current premium, then multiply by 12. Use the same coverage and discount assumptions. The result describes a starting-price difference, not a promise about your premiums over the next decade." },
+    { "type": "table", "title": "Hypothetical Premium Comparison", "headers": ["Item", "Current policy", "Alternative policy"], "rows": [
+      ["Matching policy type", "Regular Plan G", "Regular Plan G"],
+      ["Illustrative monthly premium", "$180", "$140"],
+      ["Premium for 12 months at that price", "$2,160", "$1,680"],
+      ["Difference", "$40 per month", "$480 over 12 months"]
+    ], "footnote": "Illustration only, not actual quotes, typical savings, or a guarantee. Assumes acceptance and unchanged premiums for 12 months; excludes overlapping premiums and other transition costs." },
+    { "type": "paragraph", "content": "Use [Medicare's Medigap cost guidance](https://www.medicare.gov/health-drug-plans/medigap/basics/costs) to distinguish personal quotes from general estimates. Revisit the calculation if a discount ends or a premium changes. Keeping a record of those assumptions is more useful than relying on an advertised savings figure." },
+    { "type": "heading", "level": 2, "id": "before-you-switch", "text": "Before You Switch, Check Whether You Qualify" },
+    { "type": "paragraph", "content": "Review how [pre-existing conditions affect Medigap eligibility](/faqs/medicare-supplement-plans-and-pre-existing-conditions/) before canceling anything. Outside protected enrollment circumstances, an insurer may use medical underwriting to decide whether to accept your application. A price estimate alone does not establish acceptance." },
+    { "type": "paragraph", "content": "Your federal Medigap Open Enrollment Period generally starts the first month you are 65 or older and enrolled in Part B, and lasts six months. Afterward, [Medigap guaranteed issue rights](/faqs/medicare-guaranteed-issue/) or additional state protections may apply. Check the rules for your situation rather than assuming they apply to every policy." },
+    { "type": "callout", "calloutType": "warning", "calloutTitle": "Fall Enrollment Does Not Reset Medigap Rights", "calloutText": "The October 15 to December 7 Medicare Annual Enrollment Period does not automatically give you the right to switch Medigap policies without medical underwriting. Confirm acceptance and coordinate effective dates before ending existing coverage." },
+    { "type": "paragraph", "content": "[Medicare's switching guidance](https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy/change-policies/switch-drop) explains that federal rights and additional state opportunities differ. When replacing a policy, ask how the 30-day free-look period applies. You may need to pay both premiums during that period, so include the overlap in your budget." },
+    { "type": "eddie-pro-tip", "content": "I'd put eligibility at the top of my switching checklist, even before comparing the potential savings. I'd keep the current policy in place until the new insurer confirms acceptance and the replacement timing is clear. A lower quote is only useful when the change works for your situation." },
+    { "type": "zip-cta", "headline": "Considering a Different Medigap Policy?", "subtext": "Start with your ZIP code. A licensed agent can help you compare options and understand switching requirements.", "buttonLabel": "Explore My Options" },
+    { "type": "heading", "level": 2, "id": "independent-broker", "text": "How an Independent Broker Can Help You Compare" },
+    { "type": "paragraph", "content": "An independent broker can help organize quotes and explain the options offered by the companies they represent. Ask about that selection before relying on a recommendation. Independent does not necessarily mean the broker represents every insurer in your area." },
+    { "type": "paragraph", "content": "Buying directly from an insurer does not automatically produce a lower price. Compare the actual policy terms and written premium, including any applicable fees or discounts. You can also seek enrollment guidance from your State Health Insurance Assistance Program if you want help separate from an insurance sale." },
+    { "type": "list", "ordered": false, "items": [
+      "Ask which insurers are included and which are outside the broker's comparison.",
+      "Confirm that each quote matches your intended plan letter and policy type.",
+      "Request the discount requirements and relevant rate history in writing.",
+      "Ask whether you must answer health questions and how acceptance is confirmed."
+    ] },
+    { "type": "heading", "level": 2, "id": "medigap-comparison-faq", "text": "Frequently Asked Questions About Comparing Medigap Insurers" },
+    { "type": "faq", "faqs": [
+      { "question": "Is Plan G the same with every insurance company?", "answer": "Regular Plan G provides the same standardized benefits regardless of the insurer in states using lettered plans. Premiums and service can differ. Keep high-deductible and Medicare SELECT versions separate when comparing quotes, and check the different standardization rules in Massachusetts, Minnesota, and Wisconsin." },
+      { "question": "Why do insurers charge different Medigap premiums?", "answer": "Insurers set their own rates within applicable rules, and their pricing methods and discounts can differ. Your location and permitted applicant characteristics also affect a quote. Compare written prices for the same policy type and effective date instead of assuming identical benefits mean identical premiums." },
+      { "question": "Is the cheapest Medicare Supplement policy always the best choice?", "answer": "The lowest quote can be worth considering, but examine its assumptions before deciding. Check discount requirements and the policy type, then consider available rate history and service information. If you are switching, confirm eligibility as well. A low price does not establish that an insurer will accept your application." },
+      { "question": "Can I switch Medigap companies at any time?", "answer": "You can ask about applying outside fall enrollment, but acceptance is not always guaranteed. Medical underwriting may apply unless you have a protected enrollment opportunity. Your state may offer additional switching rights. Confirm the rules, acceptance, and effective date before canceling your existing policy." },
+      { "question": "Do smaller insurers provide worse Medigap coverage?", "answer": "Company size does not change the required benefits of a standardized policy. A lesser-known insurer still needs evaluation, just as a familiar brand does. Review its legal identity and financial strength, compare the actual quote, and consider relevant service information rather than deciding from name recognition alone." },
+      { "question": "Can a broker guarantee that my premium will not increase?", "answer": "No. A quote and a company's historical rate increases cannot guarantee future premiums. Ask how the policy is priced and what information is available about past changes. Treat that history as context, and leave room in your budget for possible increases under any pricing method." },
+      { "question": "Does living with someone guarantee a household discount?", "answer": "No. Eligibility depends on the insurer's rules and the policy available in your state. Some discounts require another qualifying policyholder, while others use different household criteria. Ask for the requirements in writing and find out whether moving or another household change could end the discount." },
+      { "question": "Does comparing policies guarantee monthly savings?", "answer": "No. Your current policy may already be competitive, or a lower quote may have different assumptions or eligibility requirements. Calculate savings only after comparing matching coverage and confirming your price. Include transition costs, and remember that future premium increases can change the difference between policies." }
+    ] },
+    { "type": "heading", "level": 2, "id": "next-steps", "text": "Your Next Step: Compare Benefits, Price, and Eligibility" },
+    { "type": "paragraph", "content": "Gather your current policy details and request comparable written quotes. Use the checklist to identify documented differences rather than choosing from a logo or a promotional savings claim. If you are selecting coverage for the first time, our [guide to choosing a Medigap policy](/faqs/choosing-a-medigap-policy/) can help organize the decision." },
+    { "type": "paragraph", "content": "For the federal explanation of pricing methods and replacement protections, consult [Medicare's official Medigap guide](https://www.medicare.gov/publications/02110-medigap-guide-health-insurance.pdf). Your goal is an affordable policy you qualify for, supported by information you can verify and understand." }
+  ],
+  "relatedSlugs": ["why-two-medigap-plan-g-policies-cost-different-amounts", "best-medicare-supplement-plan-g-companies", "how-to-enroll-in-medigap-and-avoid-common-mistakes"]
+};

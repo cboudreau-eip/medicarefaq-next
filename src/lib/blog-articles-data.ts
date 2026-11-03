@@ -5,6 +5,7 @@
  */
 
 import type { BlogArticleData } from "./article-types";
+import { medigapValueArticle } from "./blog-article-medigap-value";
 import { tampaAgentsArticle } from "./blog-article-tampa-agents";
 import { miamiAgentsArticle } from "./blog-article-miami-agents";
 import { drugNegotiationArticle } from "./blog-article-drug-negotiation";
@@ -12,6 +13,7 @@ import { priorAuthSNFDenialsArticle } from "./blog-article-prior-auth-snf-denial
 import { preventiveServicesArticle } from "./blog-article-preventive-services";
 import { medicareScamsArticle } from "./blog-article-medicare-scams";
 export const blogArticles: BlogArticleData[] = [
+  medigapValueArticle,
   {
     slug: "10-medicare-cost-saving-hacks",
     seo: {
