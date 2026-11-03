@@ -20019,165 +20019,310 @@ export const coverageArticles: CoverageArticleData[] = [
   ],
 },
   {
-    slug: "medicare-coverage-for-pacemakers",
-    seo: {
-      title: "Medicare Coverage for Pacemakers",
-      description: "Medicare covers pacemakers when medically necessary for cardiac irregularities or atrial fibrillation. Learn about coverage, costs, battery replacements, and monitoring.",
-      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-pacemakers/",
-      ogImage: "/images/medicarefaq-cover.jpg",
-    },
+  slug: "medicare-coverage-for-pacemakers",
+  seo: {
     title: "Medicare Coverage for Pacemakers",
-    subtitle: "Medicare covers pacemakers when medically necessary for cardiac irregularities or atrial fibrillation. Learn about coverage for the device, surgery, battery replacements, monitoring, and how Medigap can protect you from high out-of-pocket costs.",
-    category: "Medicare Coverage",
-    dateUpdated: "April 15, 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare.",
-    },
-    readTime: "5 min read",
-    quickAnswer: {
-      text: "Yes, Medicare covers pacemakers when a doctor determines it is medically necessary for cardiac irregularities or atrial fibrillation. Coverage includes the pacemaker device, surgical insertion, battery replacements, and ongoing monitoring. Without a Medigap policy, you could be responsible for 20% of a $90,000+ procedure. Pacemaker checks should occur 6 weeks post-surgery, then every 3–6 months.",
-      badges: [
-        { plan: "Pacemaker Device", status: "covered" },
-        { plan: "Surgery", status: "covered" },
-        { plan: "Battery Replacement", status: "covered" }],
-    },
-    comparisonTable: [
-      { planType: "Pacemaker device", coverage: "Covered", icon: "shield", notes: "Covered when medically necessary for cardiac irregularities or atrial fibrillation" },
-      { planType: "Surgical insertion", coverage: "Covered", icon: "shield", notes: "Part A covers inpatient surgery; Part B covers outpatient procedures" },
-      { planType: "Battery replacement", coverage: "Covered", icon: "shield", notes: "Covered for single and dual chamber pacemakers; batteries last 7–8 years" },
-      { planType: "Pacemaker monitoring", coverage: "Covered", icon: "shield", notes: "Covers regular checks and transtelephonic monitoring" },
-      { planType: "Medtronic pacemaker", coverage: "Covered", icon: "shield", notes: "Covered when physician recommends based on your specific heart conditions" },
-      { planType: "Biventricular pacemaker", coverage: "Covered", icon: "shield", notes: "Covered with required regular monitoring schedule" },
-      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover at least the same pacemaker benefits as Original Medicare" },
-      { planType: "Medicare Supplement (Medigap)", coverage: "Covered", icon: "users", notes: "Covers deductibles, coinsurance, and copayments - critical for high-cost procedures" }],
-    planBreakdowns: [
-      {
-        planName: "Original Medicare (Part A)",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Covered - Inpatient Pacemaker Surgery",
-
-        coverageType: "covered",        paragraphs: [
-          "Covers inpatient hospital stay for pacemaker insertion surgery",
-          "Covers complications that may arise during surgery",
-          "You pay the Part A deductible ($1,736 in 2025) for the hospital stay",
-          "Covers skilled nursing facility care if needed after surgery"],
-      },
-      {
-        planName: "Original Medicare (Part B)",
-        icon: "shield",
-        iconColor: "#2563EB",
-        coverageLabel: "Covered - Outpatient Services & Monitoring",
-
-        coverageType: "covered",        paragraphs: [
-          "Covers outpatient pacemaker procedures and doctors' services",
-          "Covers regular pacemaker checks (6 weeks post-op, then every 3–6 months)",
-          "Covers transtelephonic pacemaker monitoring",
-          "You pay the Part B deductible ($283 in 2025) then 20% coinsurance"],
-      },
-      {
-        planName: "Medicare Advantage (Part C)",
-        icon: "heart",
-        iconColor: "#DC2626",
-        coverageLabel: "Covered - At Minimum Same as Original Medicare",
-
-        coverageType: "covered",        paragraphs: [
-          "Must cover pacemakers to at least the same extent as Original Medicare",
-          "Premiums tend to be lower, but you pay copayments for services rendered",
-          "May have network restrictions for cardiologists and hospitals",
-          "Contact your plan directly for specific pacemaker coverage details"],
-      },
-      {
-        planName: "Medicare Supplement (Medigap)",
-        icon: "users",
-        iconColor: "#059669",
-        coverageLabel: "Covered - Critical Cost Protection",
-
-        coverageType: "covered",        paragraphs: [
-          "Covers the 20% Part B coinsurance - critical for a $90,000+ procedure",
-          "Covers Part A deductible for the hospital stay",
-          "Monthly premiums vary by plan, location, and insurance company",
-          "No network restrictions - see any Medicare-accepting cardiologist"],
-      }],
-    costTable: {
-      title: "Pacemaker Cost Estimates",
-      headers: ["Item", "Estimated Cost"],
-      rows: [
-        { "Item": "Pacemaker surgery (total cost)", "Estimated Cost": "$50,000–$100,000+" },
-        { "Item": "Part A deductible (2025)", "Estimated Cost": "$1,736 per benefit period" },
-        { "Item": "Part B coinsurance (without Medigap)", "Estimated Cost": "20% of Medicare-approved amount" },
-        { "Item": "Your cost without Medigap (example)", "Estimated Cost": "~$18,000+ for a $90,000 procedure" },
-        { "Item": "Your cost with Medigap Plan G", "Estimated Cost": "Part B deductible only ($283)" },
-        { "Item": "Battery replacement", "Estimated Cost": "Covered; same cost-sharing as original surgery" }],
-    },
-    exceptionsSection: {
-      title: "Important Exceptions & Limitations",
-      items: [
-        { title: "A Doctor Must Determine The...", text: "A doctor must determine the pacemaker is medically necessary for your cardiac condition" },
-        { title: "You Must Have Cardiac Irregularities...", text: "You must have cardiac irregularities or atrial fibrillation that requires a pacemaker" },
-        { title: "Pacemaker Batteries Typically Last 7–8...", text: "Pacemaker batteries typically last 7–8 years before replacement is needed" },
-        { title: "Biventricular Pacemakers Require a Specific...", text: "Biventricular pacemakers require a specific monitoring schedule post-surgery" },
-        { title: "Transtelephonic Monitoring Records Must Be...", text: "Transtelephonic monitoring records must be at least 30 seconds and viewable on an ECG strip" },
-        { title: "Medicare Advantage Plans May Have...", text: "Medicare Advantage plans may have network restrictions for cardiologists and hospitals" }],
-    },
-    faqs: [
-      {
-        question: "Does Medicare Cover Pacemaker Battery Replacements?",
-        answer: "Yes. Medicare covers battery replacements for single and dual chamber pacemakers. Pacemaker batteries typically last 7–8 years. When the battery wears down, a new pacemaker must be implanted, and Medicare covers the procedure.",
-      },
-      {
-        question: "How Much Does a Pacemaker Cost with Medicare?",
-        answer: "Pacemaker surgery can cost $50,000–$100,000+. With Original Medicare alone, you could pay 20% coinsurance (potentially $18,000+ for a $90,000 procedure). With a Medigap plan, your cost may be reduced to just the Part B deductible ($283 in 2025).",
-      },
-      {
-        question: "How Often Should Pacemaker Checks be Done?",
-        answer: "Pacemaker checks should occur 6 weeks after surgery, then every 3–6 months. During these checks, physicians verify the device has treated abnormal heart rhythms and confirm the battery life is still good.",
-      },
-      {
-        question: "Does Medicare Cover Medtronic Pacemakers?",
-        answer: "Yes. Medicare covers Medtronic Surescan technology pacemakers when your physician recommends them based on your specific heart conditions and health issues. The deciding factors are your individual cardiac needs.",
-      },
-      {
-        question: "Does Medicare Cover Biventricular Pacemakers?",
-        answer: "Yes. Medicare covers biventricular pacemakers, which work both lower chambers of the heart. These devices require regular monitoring: every 2 weeks for the first month, every 4 weeks through month 7, and every 8 weeks from 7 months to 3 years post-surgery.",
-      },
-      {
-        question: "Does Medicare Cover Transtelephonic Pacemaker Monitoring?",
-        answer: "Yes. Medicare covers transtelephonic monitoring devices that transfer heart rhythm recordings to doctors via phone or internet. The recording must be at least 30 seconds long and viewable on an ECG strip.",
-      }],
-    quickReference: [
-      { icon: "check", text: "Medicare covers pacemakers when <strong>medically necessary</strong>" },
-      { icon: "check", text: "Covers the <strong>device, surgery, battery replacements, and monitoring</strong>" },
-      { icon: "info", text: "Pacemaker checks: <strong>6 weeks post-op, then every 3–6 months</strong>" },
-      { icon: "dollar", text: "Surgery can cost <strong>$50,000–$100,000+</strong> without supplemental coverage" },
-      { icon: "info", text: "Batteries typically last <strong>7–8 years</strong> before replacement" },
-      { icon: "info", text: "<strong>Medigap</strong> covers the 20% coinsurance - critical for high-cost procedures" }],
-    relatedTopics: [
-      { title: "Medicare Coverage for Cardiovascular Disease", description: "Learn about Medicare's coverage for heart-related conditions and treatments.", slug: "medicare-coverage-for-cardiovascular-disease" },
-      { title: "Medicare Coverage for Stroke Victims", description: "Learn about Medicare's coverage for stroke treatment and rehabilitation.", slug: "medicare-coverage-for-stroke-victims" },
-      { title: "Will Medicare Cover My Surgery?", description: "Learn when and how Medicare covers surgical procedures.", slug: "will-medicare-cover-my-surgery" },
-      { title: "Medicare Supplement Plan G", description: "Learn how Plan G provides comprehensive cost protection.", slug: "plan-g" }],
-    sidebarRelatedLinks: [
-      "Medicare Coverage for Cardiovascular Disease",
-      "Medicare Coverage for Stroke Victims",
-      "Will Medicare Cover My Surgery",
-      "Medicare Supplement Plan G"],
-    ctaBanner: {
-      title: "Need Help Covering Pacemaker Costs?",
-      text: "A pacemaker procedure can cost $90,000+. Our licensed Medicare agents can help you find a Medigap plan that covers your deductibles and coinsurance. Compare plans for free.",
-    },
-    relatedSlugs: ["medicare-coverage-for-cardiovascular-disease", "medicare-coverage-for-stroke-victims", "will-medicare-cover-my-surgery", "plan-g", "does-medicare-cover-atrial-fibrillation-afib"],
+    description: "See how Medicare covers pacemakers, including surgery, battery replacements, and monitoring, plus how Medigap can lower your out-of-pocket costs.",
+    canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-pacemakers/",
+    ogImage: "/images/medicarefaq-cover.jpg",
   },
+  title: "Medicare Coverage for Pacemakers",
+  subtitle: "Medicare covers pacemakers when medically necessary for cardiac irregularities or atrial fibrillation. Learn about coverage for the device, surgery, battery replacements, monitoring, and how Medigap can protect you from high out-of-pocket costs.",
+  category: "Medicare Coverage",
+  dateUpdated: "April 15, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare.",
+  },
+  readTime: "5 min read",
+  quickAnswer: {
+    text: "Yes, Medicare covers pacemakers when a doctor determines they are medically necessary for cardiac irregularities or atrial fibrillation. Coverage includes the device itself, surgical insertion, battery replacements, and ongoing monitoring. Part B typically leaves you responsible for coinsurance on the procedure, so a Medigap policy can help cover that gap. After surgery, pacemaker checks are generally recommended around 6 weeks out, then every 3 to 6 months.",
+    badges: [
+      {
+        plan: "Pacemaker Device",
+        status: "covered",
+      },
+      {
+        plan: "Surgery",
+        status: "covered",
+      },
+      {
+        plan: "Battery Replacement",
+        status: "covered",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Pacemaker device",
+      coverage: "Covered",
+      icon: "shield",
+      notes: "Covered when medically necessary for cardiac irregularities or atrial fibrillation",
+    },
+    {
+      planType: "Surgical insertion",
+      coverage: "Covered",
+      icon: "shield",
+      notes: "Part A covers inpatient surgery; Part B covers outpatient procedures",
+    },
+    {
+      planType: "Battery replacement",
+      coverage: "Covered",
+      icon: "shield",
+      notes: "Covered for single and dual chamber pacemakers; batteries last 7–8 years",
+    },
+    {
+      planType: "Pacemaker monitoring",
+      coverage: "Covered",
+      icon: "shield",
+      notes: "Covers regular checks and transtelephonic monitoring",
+    },
+    {
+      planType: "Medtronic pacemaker",
+      coverage: "Covered",
+      icon: "shield",
+      notes: "Covered when physician recommends based on your specific heart conditions",
+    },
+    {
+      planType: "Biventricular pacemaker",
+      coverage: "Covered",
+      icon: "shield",
+      notes: "Covered with required regular monitoring schedule",
+    },
+    {
+      planType: "Medicare Advantage (Part C)",
+      coverage: "Covered",
+      icon: "heart",
+      notes: "Must cover at least the same pacemaker benefits as Original Medicare",
+    },
+    {
+      planType: "Medicare Supplement (Medigap)",
+      coverage: "Covered",
+      icon: "users",
+      notes: "Covers deductibles, coinsurance, and copayments - critical for high-cost procedures",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "Original Medicare (Part A)",
+      icon: "shield",
+      iconColor: "#1B2A4A",
+      coverageLabel: "Covered - Inpatient Pacemaker Surgery",
+      coverageType: "covered",
+      paragraphs: [
+      "Covers inpatient hospital stay for pacemaker insertion surgery",
+      "Covers complications that may arise during surgery",
+      "You pay the Part A deductible ($1,736 in 2025) for the hospital stay",
+      "Covers skilled nursing facility care if needed after surgery",
+    ],
+    },
+    {
+      planName: "Original Medicare (Part B)",
+      icon: "shield",
+      iconColor: "#2563EB",
+      coverageLabel: "Covered - Outpatient Services & Monitoring",
+      coverageType: "covered",
+      paragraphs: [
+      "Covers outpatient pacemaker procedures and doctors' services",
+      "Covers regular pacemaker checks (6 weeks post-op, then every 3–6 months)",
+      "Covers transtelephonic pacemaker monitoring",
+      "You pay the Part B deductible ($283 in 2025) then 20% coinsurance",
+    ],
+    },
+    {
+      planName: "Medicare Advantage (Part C)",
+      icon: "heart",
+      iconColor: "#DC2626",
+      coverageLabel: "Covered - At Minimum Same as Original Medicare",
+      coverageType: "covered",
+      paragraphs: [
+      "Must cover pacemakers to at least the same extent as Original Medicare",
+      "Premiums tend to be lower, but you pay copayments for services rendered",
+      "May have network restrictions for cardiologists and hospitals",
+      "Contact your plan directly for specific pacemaker coverage details",
+    ],
+    },
+    {
+      planName: "Medicare Supplement (Medigap)",
+      icon: "users",
+      iconColor: "#059669",
+      coverageLabel: "Covered - Critical Cost Protection",
+      coverageType: "covered",
+      paragraphs: [
+      "Covers the 20% Part B coinsurance - critical for a $90,000+ procedure",
+      "Covers Part A deductible for the hospital stay",
+      "Monthly premiums vary by plan, location, and insurance company",
+      "No network restrictions - see any Medicare-accepting cardiologist",
+    ],
+    },
+  ],
+  costTable: {
+    title: "Pacemaker Cost Estimates",
+    headers: [
+    "Item",
+    "Estimated Cost",
+  ],
+    rows: [
+      {
+        "Item": "Pacemaker surgery (total cost)",
+        "Estimated Cost": "$50,000–$100,000+",
+      },
+      {
+        "Item": "Part A deductible (2025)",
+        "Estimated Cost": "$1,736 per benefit period",
+      },
+      {
+        "Item": "Part B coinsurance (without Medigap)",
+        "Estimated Cost": "20% of Medicare-approved amount",
+      },
+      {
+        "Item": "Your cost without Medigap (example)",
+        "Estimated Cost": "~$18,000+ for a $90,000 procedure",
+      },
+      {
+        "Item": "Your cost with Medigap Plan G",
+        "Estimated Cost": "Part B deductible only ($283)",
+      },
+      {
+        "Item": "Battery replacement",
+        "Estimated Cost": "Covered; same cost-sharing as original surgery",
+      },
+    ],
+  },
+  exceptionsSection: {
+    title: "Important Exceptions & Limitations",
+    items: [
+      {
+        title: "A Doctor Must Determine The...",
+        text: "A doctor must determine the pacemaker is medically necessary for your cardiac condition",
+      },
+      {
+        title: "You Must Have Cardiac Irregularities...",
+        text: "You must have cardiac irregularities or atrial fibrillation that requires a pacemaker",
+      },
+      {
+        title: "Pacemaker Batteries Typically Last 7–8...",
+        text: "Pacemaker batteries typically last 7–8 years before replacement is needed",
+      },
+      {
+        title: "Biventricular Pacemakers Require a Specific...",
+        text: "Biventricular pacemakers require a specific monitoring schedule post-surgery",
+      },
+      {
+        title: "Transtelephonic Monitoring Records Must Be...",
+        text: "Transtelephonic monitoring records must be at least 30 seconds and viewable on an ECG strip",
+      },
+      {
+        title: "Medicare Advantage Plans May Have...",
+        text: "Medicare Advantage plans may have network restrictions for cardiologists and hospitals",
+      },
+    ],
+  },
+  faqs: [
+    {
+      question: "Does Medicare Cover Pacemaker Battery Replacements?",
+      answer: "Yes. Medicare covers battery replacements for single and dual chamber pacemakers. Pacemaker batteries typically last 7–8 years. When the battery wears down, a new pacemaker must be implanted, and Medicare covers the procedure.",
+    },
+    {
+      question: "How Much Does a Pacemaker Cost with Medicare?",
+      answer: "Pacemaker surgery can cost $50,000–$100,000+. With Original Medicare alone, you could pay 20% coinsurance (potentially $18,000+ for a $90,000 procedure). With a Medigap plan, your cost may be reduced to just the Part B deductible ($283 in 2025).",
+    },
+    {
+      question: "How Often Should Pacemaker Checks be Done?",
+      answer: "Pacemaker checks should occur 6 weeks after surgery, then every 3–6 months. During these checks, physicians verify the device has treated abnormal heart rhythms and confirm the battery life is still good.",
+    },
+    {
+      question: "Does Medicare Cover Medtronic Pacemakers?",
+      answer: "Yes. Medicare covers Medtronic Surescan technology pacemakers when your physician recommends them based on your specific heart conditions and health issues. The deciding factors are your individual cardiac needs.",
+    },
+    {
+      question: "Does Medicare Cover Biventricular Pacemakers?",
+      answer: "Yes. Medicare covers biventricular pacemakers, which work both lower chambers of the heart. These devices require regular monitoring: every 2 weeks for the first month, every 4 weeks through month 7, and every 8 weeks from 7 months to 3 years post-surgery.",
+    },
+    {
+      question: "Does Medicare Cover Transtelephonic Pacemaker Monitoring?",
+      answer: "Yes. Medicare covers transtelephonic monitoring devices that transfer heart rhythm recordings to doctors via phone or internet. The recording must be at least 30 seconds long and viewable on an ECG strip.",
+    },
+    {
+      question: "Does Medicare Part A or Part B Cover Pacemaker Surgery?",
+      answer: "Whether Medicare Part A or Part B pays for your pacemaker procedure depends on whether you're admitted as an inpatient or treated as an outpatient. If you're formally admitted to the hospital, Part A ",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "check",
+      text: "Medicare covers pacemakers when <strong>medically necessary</strong>",
+    },
+    {
+      icon: "check",
+      text: "Covers the <strong>device, surgery, battery replacements, and monitoring</strong>",
+    },
+    {
+      icon: "info",
+      text: "Pacemaker checks: <strong>6 weeks post-op, then every 3–6 months</strong>",
+    },
+    {
+      icon: "dollar",
+      text: "Surgery can cost <strong>$50,000–$100,000+</strong> without supplemental coverage",
+    },
+    {
+      icon: "info",
+      text: "Batteries typically last <strong>7–8 years</strong> before replacement",
+    },
+    {
+      icon: "info",
+      text: "<strong>Medigap</strong> covers the 20% coinsurance - critical for high-cost procedures",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Medicare Coverage for Cardiovascular Disease",
+      description: "Learn about Medicare's coverage for heart-related conditions and treatments.",
+      slug: "medicare-coverage-for-cardiovascular-disease",
+    },
+    {
+      title: "Medicare Coverage for Stroke Victims",
+      description: "Learn about Medicare's coverage for stroke treatment and rehabilitation.",
+      slug: "medicare-coverage-for-stroke-victims",
+    },
+    {
+      title: "Will Medicare Cover My Surgery?",
+      description: "Learn when and how Medicare covers surgical procedures.",
+      slug: "will-medicare-cover-my-surgery",
+    },
+    {
+      title: "Medicare Supplement Plan G",
+      description: "Learn how Plan G provides comprehensive cost protection.",
+      slug: "plan-g",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "Medicare Coverage for Cardiovascular Disease",
+    "Medicare Coverage for Stroke Victims",
+    "Will Medicare Cover My Surgery",
+    "Medicare Supplement Plan G",
+  ],
+  ctaBanner: {
+    title: "Need Help Covering Pacemaker Costs?",
+    text: "A pacemaker procedure can cost $90,000+. Our licensed Medicare agents can help you find a Medigap plan that covers your deductibles and coinsurance. Compare plans for free.",
+  },
+  relatedSlugs: [
+    "medicare-coverage-for-cardiovascular-disease",
+    "medicare-coverage-for-stroke-victims",
+    "will-medicare-cover-my-surgery",
+    "plan-g",
+    "does-medicare-cover-atrial-fibrillation-afib",
+  ],
+},
   {
     slug: "medicare-coverage-for-physical-therapy",
     seo: {
