@@ -71,7 +71,7 @@ header(3,'Check Limits and Tradeoffs','Plan names: A __________________  B _____
 para('Limits below describe financial exposure; do not add them to expected costs. Verify plan-year amounts and rules.',491)
 table(473,[
  ('Medical limits: in-network / combined, if applicable',43),
- ('Drug spending threshold (separate from medical) / year',43),
+ ('Drug out-of-pocket threshold / year (separate from medical)',43),
  ('Which costs count toward each limit? Source / verification date',43),
  ('Priority fit: must-have needs met? Remaining tradeoffs?',43),
  ('Unresolved questions / next action / person responsible / follow-up date',54),
