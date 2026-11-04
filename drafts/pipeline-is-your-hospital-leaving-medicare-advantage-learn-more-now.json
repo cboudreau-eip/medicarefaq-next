@@ -1,7 +1,22 @@
 {
   "title": "Hospitals Dropping Medicare Advantage: What to Do",
+  "rawContent": "",
   "slug": "is-your-hospital-leaving-medicare-advantage-learn-more-now",
+  "excerpt": "Hospitals across the country are dropping Medicare Advantage contracts over payment disputes, leaving members at risk of losing in-network access in 2026.",
   "category": "medicare_advantage",
+  "author": "David Haass",
+  "reviewer": "Ashlee Zareczny",
+  "image": "/images/generated/is-your-hospital-leaving-medicare-advantage-learn-more-now-d4fd637fa158.png",
+  "imageAlt": "",
+  "keyTakeaways": [
+    "Hospitals are ending Medicare Advantage contracts nationwide due to payment delays, low reimbursement, and claim denial disputes",
+    "Provider directories may not reflect contract terminations in real time, so confirm network status directly with your hospital",
+    "HMO members risk losing access entirely, while PPO members face higher out-of-network costs",
+    "Compare other Medicare Advantage plans in your area or consider Original Medicare plus Medigap for more consistent hospital access",
+    "Watch for official notices from your insurer or hospital system ahead of 2026 network changes"
+  ],
+  "seoTitle": "Hospitals Dropping Medicare Advantage: What to Do",
+  "seoDescription": "Hospitals dropping Medicare Advantage plans in 2026? Learn how to check your network status and protect your care options now.",
   "sections": [
     {
       "type": "heading",
@@ -159,21 +174,12 @@
       "content": "Rather than waiting until the Annual Enrollment Period is nearly over, reach out to your hospital or a licensed Medicare agent now to confirm whether your hospital's contract with your plan is changing for 2026. Getting clear, current information early gives you room to compare options without rushing a decision under deadline pressure."
     }
   ],
-  "seoTitle": "Hospitals Dropping Medicare Advantage: What to Do",
-  "seoDescription": "Hospitals dropping Medicare Advantage plans in 2026? Learn how to check your network status and protect your care options now.",
-  "excerpt": "Hospitals across the country are dropping Medicare Advantage contracts over payment disputes, leaving members at risk of losing in-network access in 2026.",
-  "keyTakeaways": [
-    "Hospitals are ending Medicare Advantage contracts nationwide due to payment delays, low reimbursement, and claim denial disputes",
-    "Provider directories may not reflect contract terminations in real time, so confirm network status directly with your hospital",
-    "HMO members risk losing access entirely, while PPO members face higher out-of-network costs",
-    "Compare other Medicare Advantage plans in your area or consider Original Medicare plus Medigap for more consistent hospital access",
-    "Watch for official notices from your insurer or hospital system ahead of 2026 network changes"
+  "relatedSlugs": [
+    "4-steps-to-take-if-your-medicare-plan-ends-in-2026",
+    "2027-medicare-advantage-cuts-check-if-your-plan-survives",
+    "is-your-humana-medicare-advantage-plan-being-cut"
   ],
-  "image": "/images/generated/is-your-hospital-leaving-medicare-advantage-learn-more-now-d4fd637fa158.png",
-  "relatedSlugs": [],
-  "sourceUrl": "https://www.newsweek.com/another-major-texas-health-system-drops-medicare-advantage-plan-full-list-12638035",
-  "pipelineId": "disc-86ee8078f978821f5c94e1934d54808fcd3ee5855ad8236e0ecc6be0b81e9de2",
   "id": "pipeline-is-your-hospital-leaving-medicare-advantage-learn-more-now",
-  "updatedAt": "2026-11-03T17:31:03.494Z",
-  "createdAt": "2026-11-03T17:31:03.494Z"
+  "updatedAt": "2026-11-04T12:27:20.006Z",
+  "createdAt": "2026-11-04T12:27:20.006Z"
 }
