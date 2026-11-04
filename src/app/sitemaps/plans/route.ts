@@ -35,6 +35,7 @@ export function GET() {
     { url: `${BASE_URL}/medicare-supplement-plans/massachusetts/`, priority: "0.7", changefreq: "monthly" },
     { url: `${BASE_URL}/medicare-supplement-plans/michigan/`, priority: "0.7", changefreq: "monthly" },
     { url: `${BASE_URL}/medicare-supplement-plans/minnesota/`, priority: "0.7", changefreq: "monthly" },
+    { url: `${BASE_URL}/medicare-supplement-plans/minnesota/plan-n/`, priority: "0.7", changefreq: "monthly" },
     { url: `${BASE_URL}/medicare-supplement-plans/mississippi/`, priority: "0.7", changefreq: "monthly" },
     { url: `${BASE_URL}/medicare-supplement-plans/missouri/`, priority: "0.7", changefreq: "monthly" },
     { url: `${BASE_URL}/medicare-supplement-plans/montana/`, priority: "0.7", changefreq: "monthly" },

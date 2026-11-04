@@ -836,6 +836,15 @@ export default function MinnesotaPageContent() {
       </section>
 
       {/* Bottom CTA */}
+      <section className="py-8">
+        <div className="container max-w-4xl">
+          <div className="rounded-xl border border-teal-200 bg-teal-50 p-6">
+            <h2 className="text-2xl font-bold text-slate-900 mb-3">Looking for Minnesota Plan N?</h2>
+            <p className="text-slate-700 mb-3">Explore the Minnesota plan with $20 and $50 copayments, including benefits, costs to compare, and enrollment protections.</p>
+            <a href="/medicare-supplement-plans/minnesota/plan-n/" className="font-semibold text-teal-800 underline">Read our Minnesota Plan N guide →</a>
+          </div>
+        </div>
+      </section>
       <section className="py-12">
         <div className="container max-w-4xl">
           <div className="p-8 bg-gradient-to-br from-blue-900 to-slate-900 rounded-2xl text-white">
