@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import SiteLayout from "@/components/SiteLayout";
+import OepRulesPreview, { OEP_RULES_SLUG, oepRulesPreviewEnabled, oepRulesTitle } from "@/components/oep/OepRulesPreview";
 import CoverageArticleContent from "./CoverageArticleContent";
 import SimpleFAQContent from "./SimpleFAQContent";
 import { coverageArticles } from "@/lib/coverage-data";
@@ -37,6 +38,14 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
+  if (slug === OEP_RULES_SLUG && oepRulesPreviewEnabled()) {
+    return {
+      title: oepRulesTitle,
+      description: "2027 Medicare Advantage Open Enrollment rules, permitted changes, effective dates, and a checklist before switching. Editorial preview.",
+      robots: { index: false, follow: false },
+      alternates: { canonical: `${BASE_URL}/faqs/${slug}/` },
+    };
+  }
 
   // Check coverage articles first
   const coverageArticle = coverageArticles.find((a) => a.slug === slug);
@@ -304,6 +313,9 @@ export default async function FAQArticlePage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
+  if (slug === OEP_RULES_SLUG && oepRulesPreviewEnabled()) {
+    return <SiteLayout><OepRulesPreview /></SiteLayout>;
+  }
 
   // Check coverage articles first
   const coverageArticle = coverageArticles.find((a) => a.slug === slug);
