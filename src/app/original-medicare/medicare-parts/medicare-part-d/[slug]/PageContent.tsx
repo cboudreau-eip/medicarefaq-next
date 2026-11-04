@@ -144,6 +144,8 @@ export default function PageContent({ page }: { page: PartDSubPage }) {
                 "medicare-part-d-drug-tiers",
                 "medicare-part-d-prior-authorization",
                 "medicare-part-d-step-therapy",
+                "medicare-part-d-exceptions-and-appeals",
+                "part-d-costs",
               ].includes(page.slug) && sectionIndex === 1 && <GuideCta />}
               <section id={section.id}>
                 <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">{section.heading}</h2>
