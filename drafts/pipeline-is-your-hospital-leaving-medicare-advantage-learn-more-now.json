@@ -26,11 +26,11 @@
     },
     {
       "type": "paragraph",
-      "content": "Hospital systems in many states have ended or scaled back their contracts with Medicare Advantage insurers, citing payment disputes and delays caused by prior authorization requirements. If your hospital or health system sent you a letter about network changes for 2026, you are not alone, and the timing is not a coincidence."
+      "content": "Hospital systems in many states have ended or scaled back their contracts with **Medicare Advantage** insurers, citing payment disputes and delays caused by prior authorization requirements. If your hospital or health system sent you a letter about network changes for 2026, you are not alone, and the timing is not a coincidence. Industry coverage from outlets such as Becker's Hospital Review and KFF has documented this trend across numerous health systems nationwide, and CMS.gov publishes information on Medicare Advantage plan and network changes as well."
     },
     {
       "type": "paragraph",
-      "content": "These disputes typically center on how much and how quickly insurers reimburse hospitals, along with frustration over claim denials. The trend has touched large academic medical centers as well as smaller regional and rural hospitals, so plan size or hospital size does not guarantee protection from a contract termination."
+      "content": "These disputes typically center on how much and how quickly insurers reimburse hospitals, along with frustration over claim denials. The trend has touched large academic medical centers as well as smaller regional and rural hospitals, so plan size or hospital size does not guarantee protection from a contract termination. Reported disputes have included health systems such as Scripps Health, HCA Healthcare, and Mass General Brigham clashing with insurers like UnitedHealthcare and Humana, according to industry coverage from Becker's Hospital Review and KFF. Check with your own hospital and insurer directly, since specific contract disputes change frequently and vary by region."
     },
     {
       "type": "heading",
@@ -40,11 +40,11 @@
     },
     {
       "type": "paragraph",
-      "content": "One confusing part of these network exits is timing. Your Medicare Advantage plan's provider directory may still list your hospital as in-network even after the contract has actually ended, because directories are not always updated the moment a change takes effect."
+      "content": "One confusing part of these network exits is timing. Your **Medicare Advantage** plan's provider directory may still list your hospital as in-network even after the contract has actually ended, because directories are not always updated the moment a change takes effect."
     },
     {
       "type": "paragraph",
-      "content": "If you receive care at a hospital that has left your plan's network, the [cost difference can be significant](/faqs/medicare-coverage-for-skilled-nursing-facilities/). Depending on your plan type, out-of-network care may come with much higher cost sharing, or in some cases no coverage at all outside of emergencies. For anyone managing an ongoing condition, a sudden network change can also disrupt care with a specialist or treatment team you have worked with for years."
+      "content": "If you receive care at a hospital that has left your plan's network, the [cost difference can be significant](/faqs/what-to-do-if-your-medicare-plan-suddenly-drops-a-drug-or-doctor/). Depending on your plan type, out-of-network care may come with much higher cost sharing, or in some cases no coverage at all outside of emergencies. For anyone managing an ongoing condition, a sudden network change can also disrupt care with a specialist or treatment team you have worked with for years."
     },
     {
       "type": "heading",
@@ -54,7 +54,17 @@
     },
     {
       "type": "paragraph",
-      "content": "Your plan type changes how exposed you are to a network exit. HMO plans generally require you to use in-network providers except in emergencies, so losing your hospital can mean losing access to it entirely under that plan. PPO plans allow you to see out-of-network providers, but usually at a noticeably higher copay or coinsurance than staying in-network."
+      "content": "Your plan type changes how exposed you are to a network exit. The table below contrasts how each plan type handles cost-sharing and access when a hospital leaves the network."
+    },
+    {
+      "type": "list",
+      "style": "unordered",
+      "items": [
+        "**HMO plans, access:** Generally require you to use in-network providers except in emergencies, so losing your hospital can mean losing access to it entirely under that plan.",
+        "**HMO plans, cost-sharing:** Out-of-network care is typically not covered at all outside of emergencies.",
+        "**PPO plans, access:** Allow you to see out-of-network providers, so you retain some access even if your hospital leaves the network.",
+        "**PPO plans, cost-sharing:** Out-of-network care is usually covered, but at a noticeably higher copay or coinsurance than staying in-network."
+      ]
     },
     {
       "type": "heading",
@@ -64,11 +74,23 @@
     },
     {
       "type": "paragraph",
-      "content": "The most reliable first step is calling your hospital's billing or patient services department and asking directly whether they plan to renew their Medicare Advantage contracts for 2026. Hospital staff who handle insurance contracts usually know about terminations well before they are widely publicized."
+      "content": "The most reliable first step is calling your hospital's billing or patient services department and asking directly whether they plan to renew their **Medicare Advantage** contracts for 2026. Hospital staff who handle insurance contracts usually know about terminations well before they are widely publicized."
     },
     {
       "type": "paragraph",
       "content": "You can also review your plan's online provider directory, though you should treat it as a starting point rather than the final word, since directories can lag behind actual contract changes. Watch your mail for official notices from either your insurer or your hospital system, since both are generally required to inform members ahead of a network change taking effect for the new plan year."
+    },
+    {
+      "type": "list",
+      "style": "unordered",
+      "items": [
+        "Call your hospital's billing or patient services department and ask directly whether they plan to renew their Medicare Advantage contracts for 2026.",
+        "Call your insurer's member services line and ask whether your hospital is in-network as of the date your coverage would take effect.",
+        "Review your plan's online provider directory, treating it as a starting point rather than the final word since it can lag behind actual contract changes.",
+        "Watch your mail for official notices from your insurer or hospital system about upcoming network changes.",
+        "Check industry coverage from outlets such as Becker's Hospital Review and KFF, as well as CMS.gov, for reports on contract disputes affecting your hospital system.",
+        "Keep copies of any letters, emails, or notices you receive about the network change for your records."
+      ]
     },
     {
       "type": "heading",
@@ -78,15 +100,15 @@
     },
     {
       "type": "paragraph",
-      "content": "If you confirm your hospital is leaving your plan's network, start by comparing your current Medicare Advantage plan against other [Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included/) available in your area that still include that hospital. Plan networks vary by county and by insurer, so another plan may offer the same hospital access without requiring you to change providers."
+      "content": "If you confirm your hospital is leaving your plan's network, start by comparing your current **Medicare Advantage** plan against other [Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included/) available in your area that still include that hospital. Plan networks vary by county and by insurer, so another plan may offer the same hospital access without requiring you to change providers."
     },
     {
       "type": "paragraph",
-      "content": "It is also worth considering Original Medicare paired with a Medigap policy, since this combination generally allows you to see any provider that accepts Medicare, which can offer more consistent long-term access to hospitals and specialists. If you are weighing this option, review how a [Medicare Supplement plan](/medicare-supplement-plans/plan-g/) compares with your current Medicare Advantage costs and coverage."
+      "content": "It is also worth considering **Original Medicare** paired with a **Medigap** policy, since this combination generally allows you to see any provider that accepts Medicare, which can offer more consistent long-term access to hospitals and specialists. If you are weighing this option, review how a [Medicare Supplement plan](/medicare-supplement-plans/plan-g/) compares with your current Medicare Advantage costs and coverage."
     },
     {
       "type": "paragraph",
-      "content": "Before [switching anything](/faqs/what-to-do-if-your-medicare-plan-suddenly-drops-a-drug-or-doctor/), check how your prescription drug coverage would change. Formularies, the lists of covered drugs, vary between insurers, so a plan that solves your hospital access problem could still create a new issue if your medications are not covered the same way."
+      "content": "Before [switching anything](/faqs/medicare-coverage-for-skilled-nursing-facilities/), check how your prescription drug coverage would change. Formularies, the lists of covered drugs, vary between insurers, so a plan that solves your hospital access problem could still create a new issue if your medications are not covered the same way."
     },
     {
       "type": "heading",
@@ -96,7 +118,7 @@
     },
     {
       "type": "paragraph",
-      "content": "For most coverage changes, you will need to wait for the [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period/), which runs from October 15 to December 7 each year, with changes taking effect January 1. In some cases, a Special Enrollment Period may be available if your plan significantly reduces its provider network outside of this window, which can allow you to switch plans before the next annual enrollment cycle."
+      "content": "For most coverage changes, you will need to wait for the **[Annual Enrollment Period](/faqs/medicare-annual-enrollment-period/)**, which runs from October 15 to December 7 each year, with changes taking effect January 1. If you are already enrolled in a Medicare Advantage plan, you also have the option to make a one-time plan change during the **Medicare Advantage Open Enrollment Period**, which runs from January 1 to March 31 each year. A network reduction does not automatically qualify you for a **Special Enrollment Period** outside of these windows. Eligibility depends on specific circumstances, such as whether CMS determines the reduction significant enough to trigger one, and is not guaranteed in every case. You can review the specific qualifying criteria for Special Enrollment Periods on [CMS.gov's Special Enrollment Periods page](https://www.cms.gov/medicare/eligibility-and-enrollment/medicare-advantage-prescription-drug-contract-administration/special-enrollment-periods)."
     },
     {
       "type": "callout",
@@ -130,11 +152,19 @@
     },
     {
       "type": "paragraph",
-      "content": "A licensed Medicare agent can walk through plan options with you based on your specific hospital, doctors, and prescriptions, rather than asking you to compare plans on your own from a generic list. A trustworthy comparison should center on your medical needs and budget, not steer you toward a particular insurer for reasons unrelated to your coverage."
+      "content": "A licensed Medicare agent can walk through plan options with you based on your specific hospital, doctors, and prescriptions, rather than asking you to compare plans on your own from a generic list."
     },
     {
       "type": "paragraph",
-      "content": "You are allowed to take the time you need to review your options. Understanding your coverage fully before making a change matters more than acting quickly."
+      "content": "A trustworthy comparison should center on your medical needs and budget, not steer you toward a particular insurer for reasons unrelated to your coverage."
+    },
+    {
+      "type": "paragraph",
+      "content": "You are allowed to take the time you need to review your options."
+    },
+    {
+      "type": "paragraph",
+      "content": "Understanding your coverage fully before making a change matters more than acting quickly."
     },
     {
       "type": "heading",
@@ -147,7 +177,7 @@
       "faqs": [
         {
           "question": "I just found out my hospital may be leaving my plan. Do I need to decide right away?",
-          "answer": "No. While it helps to confirm the network status now, actual plan changes generally need to happen during the Annual Enrollment Period from October 15 to December 7, or during a qualifying Special Enrollment Period. You have time to research your options calmly before committing to a new plan."
+          "answer": "No. While it helps to confirm the network status now, actual plan changes generally need to happen during the Annual Enrollment Period from October 15 to December 7, during the Medicare Advantage Open Enrollment Period from January 1 to March 31, or during a qualifying Special Enrollment Period. You have time to research your options calmly before committing to a new plan."
         },
         {
           "question": "Can I get information about my options without a pushy sales call?",
@@ -159,7 +189,7 @@
         },
         {
           "question": "What if I switch plans and still end up with the wrong coverage?",
-          "answer": "Comparing plans based on your actual doctors, hospital, and prescription list significantly reduces this risk, since it grounds the comparison in your real medical needs rather than general features. If your needs or network access change again later, future enrollment periods allow you to adjust your coverage."
+          "answer": "Comparing plans based on your actual doctors, hospital, and prescription list significantly reduces this risk, since it grounds the comparison in your real medical needs rather than general features. If your needs or network access change again later, future enrollment periods, including the Annual Enrollment Period and the Medicare Advantage Open Enrollment Period, allow you to adjust your coverage."
         }
       ]
     },
@@ -235,6 +265,6 @@
     }
   ],
   "id": "pipeline-is-your-hospital-leaving-medicare-advantage-learn-more-now",
-  "updatedAt": "2026-11-04T12:57:13.359Z",
-  "createdAt": "2026-11-04T12:57:13.359Z"
+  "updatedAt": "2026-11-04T13:19:57.268Z",
+  "createdAt": "2026-11-04T13:19:57.268Z"
 }
