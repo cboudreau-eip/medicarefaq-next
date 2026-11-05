@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import SiteLayout from "@/components/SiteLayout";
+import OepLeavingPreview, { OEP_LEAVING_SLUG, oepLeavingPreviewEnabled, oepLeavingTitle, oepLeavingDescription } from "@/components/oep/OepLeavingPreview";
 import BlogPostContent from "./BlogPostContent";
 import { blogArticles } from "@/lib/blog-articles-data";
 
@@ -77,6 +78,16 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
+  if (slug === OEP_LEAVING_SLUG && oepLeavingPreviewEnabled()) {
+    return {
+      title: oepLeavingTitle,
+      description: oepLeavingDescription,
+      robots: { index: false, follow: false },
+      alternates: { canonical: `${BASE_URL}/blog/${slug}/` },
+      openGraph: { title: oepLeavingTitle, description: oepLeavingDescription, type: "article", url: `${BASE_URL}/blog/${slug}/` },
+    };
+  }
+
   const article = blogArticles.find((a) => a.slug === slug);
   if (!article || article.draft) return { title: "Not Found" };
 
@@ -212,6 +223,10 @@ export default async function BlogPostPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
+  if (slug === OEP_LEAVING_SLUG && oepLeavingPreviewEnabled()) {
+    return <SiteLayout><OepLeavingPreview /></SiteLayout>;
+  }
+
   const article = blogArticles.find((a) => a.slug === slug);
   if (!article || article.draft) notFound();
 

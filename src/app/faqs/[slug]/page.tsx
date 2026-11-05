@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import SiteLayout from "@/components/SiteLayout";
 import OepRulesArticle, { OEP_RULES_SLUG, oepRulesTitle } from "@/components/oep/OepRulesArticle";
+import OepMedigapPreview, { OEP_MEDIGAP_SLUG, oepMedigapPreviewEnabled, oepMedigapTitle, oepMedigapDescription } from "@/components/oep/OepMedigapPreview";
 import CoverageArticleContent from "./CoverageArticleContent";
 import SimpleFAQContent from "./SimpleFAQContent";
 import { coverageArticles } from "@/lib/coverage-data";
@@ -38,6 +39,15 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
+  if (slug === OEP_MEDIGAP_SLUG && oepMedigapPreviewEnabled()) {
+    return {
+      title: oepMedigapTitle,
+      description: oepMedigapDescription,
+      robots: { index: false, follow: false },
+      alternates: { canonical: `${BASE_URL}/faqs/${slug}/` },
+      openGraph: { title: oepMedigapTitle, description: oepMedigapDescription, type: "article", url: `${BASE_URL}/faqs/${slug}/` },
+    };
+  }
   if (slug === OEP_RULES_SLUG) {
     return {
       title: oepRulesTitle,
@@ -314,6 +324,9 @@ export default async function FAQArticlePage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
+  if (slug === OEP_MEDIGAP_SLUG && oepMedigapPreviewEnabled()) {
+    return <SiteLayout><OepMedigapPreview /></SiteLayout>;
+  }
   if (slug === OEP_RULES_SLUG) {
     return <SiteLayout><OepRulesArticle /></SiteLayout>;
   }
