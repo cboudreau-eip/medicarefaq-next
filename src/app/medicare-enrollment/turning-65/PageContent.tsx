@@ -9,6 +9,7 @@
 
 import { useState, useEffect, type ReactNode } from "react";
 import Link from "next/link";
+import GuideCta from "@/components/GuideCta";
 import { trackPhoneClick } from "@/lib/analytics";
 import {
   Calendar,
@@ -209,6 +210,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
               </section>
 
               {/* Timeline */}
+              <div className="mb-16"><GuideCta variant="medicare" /></div>
               <section id="timeline" className="mb-16">
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
                   Your 7-Month Enrollment Timeline

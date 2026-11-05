@@ -22,6 +22,7 @@ import {
   Star,
 } from "lucide-react";
 import ZipFormModal from "@/components/ZipFormModal";
+import GuideCta from "@/components/GuideCta";
 import { trackPhoneClick } from "@/lib/analytics";
 
 const tableOfContents = [
@@ -253,6 +254,7 @@ export default function PageContent() {
               </section>
 
               {/* 2026–2027 Dates & Deadlines */}
+              <div className="mb-16"><GuideCta variant="advantage" /></div>
               <section id="dates" className="mb-16">
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
                   2026–2027 Medicare Enrollment Dates &amp; Deadlines
