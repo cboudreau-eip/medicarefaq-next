@@ -1,3 +1,5 @@
+import OepLeavingPreview, { OEP_LEAVING_SLUG, oepLeavingPreviewEnabled, oepLeavingTitle, oepLeavingDescription } from "@/components/oep/OepLeavingPreview";
+import OepProviderPreview, { OEP_PROVIDER_SLUG, oepProviderPreviewEnabled, oepProviderTitle, oepProviderDescription } from "@/components/oep/OepProviderPreview";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import SiteLayout from "@/components/SiteLayout";
@@ -78,6 +80,20 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
+  if (slug === OEP_LEAVING_SLUG && oepLeavingPreviewEnabled()) {
+    return { title: oepLeavingTitle, description: oepLeavingDescription,
+      robots: { index: false, follow: false },
+      alternates: { canonical: `${BASE_URL}/blog/${slug}/` },
+      openGraph: { title: oepLeavingTitle, description: oepLeavingDescription, type: "article" },
+    };
+  }
+  if (slug === OEP_PROVIDER_SLUG && oepProviderPreviewEnabled()) {
+    return { title: oepProviderTitle, description: oepProviderDescription,
+      robots: { index: false, follow: false },
+      alternates: { canonical: `${BASE_URL}/blog/${slug}/` },
+      openGraph: { title: oepProviderTitle, description: oepProviderDescription, type: "article" },
+    };
+  }
   if (slug === OEP_COMPARISON_SLUG) {
     return {
       title: oepComparisonTitle,
@@ -222,6 +238,8 @@ export default async function BlogPostPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
+  if (slug === OEP_LEAVING_SLUG && oepLeavingPreviewEnabled()) return <SiteLayout><OepLeavingPreview /></SiteLayout>;
+  if (slug === OEP_PROVIDER_SLUG && oepProviderPreviewEnabled()) return <SiteLayout><OepProviderPreview /></SiteLayout>;
   if (slug === OEP_COMPARISON_SLUG) {
     return <SiteLayout><OepComparisonArticle /></SiteLayout>;
   }
