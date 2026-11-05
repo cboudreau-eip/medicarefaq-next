@@ -420,7 +420,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "/images/generated/can-limited-medigap-access-keep-you-stuck-cda548cf76d8.png",
+    image: "/images/generated/can-limited-medigap-access-keep-you-stuck-dc3a5a1ce34d.png",
     imageAlt: "Medigap Guaranteed Issue and Medicare Advantage",
     keyTakeaways: ["Guaranteed issue rights force Medigap insurers to accept you regardless of health history, but these rights apply only during specific protected periods", "Your initial Medigap guaranteed issue period lasts six months starting the month you turn 65 and enroll in Part B", "Once this window closes, insurers in most states can use medical underwriting to deny coverage or charge higher premiums", "Switching from Medicare Advantage back to Original Medicare does not automatically restore your Medigap guaranteed issue rights", "Conditions like diabetes, heart disease, or cancer history can lead to denial or higher premiums if you apply for Medigap outside a guaranteed issue period"],
     tableOfContents: [
