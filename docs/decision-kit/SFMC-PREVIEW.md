@@ -1,7 +1,7 @@
 # Decision Kit → Marketing Cloud: protected preview implementation
 
-Status: implementation only. Production still uses the existing internal notification.
-Read-only Salesforce verification succeeded: authentication HTTP 200; send definition HTTP 200, Active, matching the configured key (November 5, 2026). No real email has been sent by this task. Drip automation is not implemented.
+Status: protected preview deployed and tested. Production still uses the existing internal notification.
+Read-only Salesforce verification succeeded: authentication HTTP 200; send definition HTTP 200, Active, matching the configured key (November 5, 2026). One approved diagnostic email was sent to cboudreau@teameip.com using fictional PreviewTest / 1962-02-28 data. Drip automation is not implemented.
 
 ## Confirmed contract
 - recipient.contactKey and recipient.to: normalized, lower-case email address. SFMC maps these to SubscriberKey and EmailAddress.
@@ -43,3 +43,12 @@ The browser still opens the generated PDF immediately and retains fallback links
 
 ## Validation
 Run `node scripts/test-decision-kit-sfmc.cjs` for mocked API, field mapping, expiry, tampering and retry checks. This test never uses credentials, stores files or sends email. Run `node scripts/test-decision-kit-route.cjs` for real PDF generation and email failure fallback without any network sends. A clean Vercel preview build validates the complete app. No customer submissions are used for testing.
+
+## Verified preview results — November 5, 2026
+- Protected preview: https://medicarefaq-next-m9tskj2ff-elite-insurance-partners.vercel.app/tools/decision-kit/ (code 2178e2fa). Vercel preview SSO protection remains enabled.
+- Clean preview builds passed, including TypeScript and static generation. Local standalone type checking encountered stale .next OEP artifacts only.
+- Checked and unchecked browser submissions generated real personalized PDFs and stored them in the private Blob store. Both preserved browser open/download fallbacks after email failure.
+- Vercel-hosted SFMC authentication returns HTTP 403. The same supplied credentials authenticate HTTP 200 from the authorized local diagnostic; no credentials are printed. This requires investigation of SFMC access restrictions; the precise policy causing rejection is not yet established.
+- Direct diagnostic retry of the first message key was accepted HTTP 202. The message status subsequently returned TransactionalSendEvents.EmailSent; the email arrived at 20:04:36 UTC with subject Your Medicare Decision Kit is ready. No customer records were submitted for tests.
+- The received email says Thanks, there instead of PreviewTest. Its download button resolves to https://info.teameip.com/medicare-kit and a fixed Marketing Cloud-hosted PDF, not the submitted personalized PDF_URL. The template must map Name and PDF_URL before cutover.
+- No SFMC Data Extension row readback, successful Vercel-to-SFMC send, or emailed personalized-link verification is claimed. Full workflow remains blocked on the provider access and template issues. Production was not published or cut over.
