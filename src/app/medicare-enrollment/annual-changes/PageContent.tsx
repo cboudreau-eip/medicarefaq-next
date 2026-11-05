@@ -9,6 +9,7 @@
 
 import { useState, useEffect, type ReactNode } from "react";
 import ZipFormModal from "@/components/ZipFormModal";
+import GuideCta from "@/components/GuideCta";
 import Link from "next/link";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "@/components/schema";
 import { trackPhoneClick } from "@/lib/analytics";
@@ -227,6 +228,7 @@ export default function AnnualChanges() {
               </section>
 
               {/* 2026 Costs */}
+              <div className="mb-16"><GuideCta variant="medicare" /></div>
               <section id="2026-costs" className="mb-16">
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
                   2026 Medicare Cost Updates

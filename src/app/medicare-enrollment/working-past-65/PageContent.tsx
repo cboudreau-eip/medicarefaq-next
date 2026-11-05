@@ -9,6 +9,7 @@
 
 import { useState, useEffect, type ReactNode } from "react";
 import Link from "next/link";
+import GuideCta from "@/components/GuideCta";
 import { trackPhoneClick } from "@/lib/analytics";
 import {
   Briefcase,
@@ -164,6 +165,7 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
               </section>
 
               {/* Employer Size */}
+              <div className="mb-16"><GuideCta variant="medicare" /></div>
               <section id="employer-size" className="mb-16">
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
                   Your Employer Size Determines Your Path

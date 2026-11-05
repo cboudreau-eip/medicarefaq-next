@@ -9,6 +9,7 @@
 
 import { useState, useEffect, type ReactNode } from "react";
 import Link from "next/link";
+import GuideCta from "@/components/GuideCta";
 import { trackPhoneClick } from "@/lib/analytics";
 import { MEDICARE_COSTS } from "@/lib/medicare-costs";
 import {
@@ -180,6 +181,7 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
               </section>
 
               {/* Part B Penalty */}
+              <div className="mb-16"><GuideCta variant="medicare" /></div>
               <section id="part-b-penalty" className="mb-16">
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
                   <strong>Part B</strong> Late Enrollment Penalty
