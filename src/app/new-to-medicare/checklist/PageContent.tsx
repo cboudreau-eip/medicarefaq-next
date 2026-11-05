@@ -6,8 +6,9 @@
  * step-by-step guidance, and printable format.
  */
 
-import { useState, useEffect } from "react";
+import { Fragment, useState, useEffect } from "react";
 import Link from "next/link";
+import GuideCta from "@/components/GuideCta";
 import { motion } from "framer-motion";
 import { trackPhoneClick } from "@/lib/analytics";
 import {
@@ -428,12 +429,13 @@ export default function Checklist() {  const [checked, setChecked] = useState<Se
 
           {/* Content */}
           <main className="flex-1 min-w-0 order-first">
-            {phases.map((phase) => {
+            {phases.map((phase, phaseIndex) => {
               const progress = getPhaseProgress(phase);
               const isComplete = progress.completed === progress.total;
 
               return (
-                <section key={phase.id} id={phase.id} className="mb-16 scroll-mt-24">
+                <Fragment key={phase.id}>
+                <section id={phase.id} className="mb-16 scroll-mt-24">
                   {/* Phase Header */}
                   <div className="flex items-start gap-4 mb-2">
                     <div className={`w-12 h-12 rounded-xl ${phase.color} flex items-center justify-center shrink-0`}>
@@ -547,6 +549,8 @@ export default function Checklist() {  const [checked, setChecked] = useState<Se
                     })}
                   </ul>
                 </section>
+                {phaseIndex === 0 && <div className="mb-16"><GuideCta variant="medicare" /></div>}
+                </Fragment>
               );
             })}
 

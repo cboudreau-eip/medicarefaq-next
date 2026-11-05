@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import GuideCta from "@/components/GuideCta";
 
 /**
  * What Does It Cost? Page
@@ -296,6 +297,7 @@ export default function PageContent() {
             </section>
 
             {/* Part A Costs */}
+            <div className="mb-16"><GuideCta variant="medicare" /></div>
             <section id="part-a" className="mb-16 scroll-mt-24">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center">

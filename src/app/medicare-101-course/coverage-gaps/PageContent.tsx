@@ -1,4 +1,5 @@
 "use client";
+import GuideCta from "@/components/GuideCta";
 import CourseLayout from "@/components/CourseLayout";
 import EddieProTip from "@/components/EddieProTip";
 import CoverageGapCalculator from "@/components/CoverageGapCalculator";
@@ -44,6 +45,8 @@ export default function PageContent() {
           </p>
         </div>
       </div>
+
+      <div className="mb-10"><GuideCta variant="medicare" /></div>
 
       {/* Part A Gaps */}
       <div className="mb-10">
