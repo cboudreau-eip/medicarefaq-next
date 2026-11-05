@@ -4,7 +4,7 @@ import comparison from "./OepComparisonArticle.module.css";
 
 export const OEP_COMPARISON_SLUG = "key-questions-to-ask-when-comparing-medicare-advantage-plans";
 export const oepComparisonTitle = "How to Compare Medicare Advantage Plans for 2027";
-export const oepComparisonDescription = "Compare your current Medicare Advantage plan with two alternatives using doctors, prescriptions, costs, and tradeoffs, a practical comparison checklist.";
+export const oepComparisonDescription = "Compare your current Medicare Advantage plan with two alternatives using a practical checklist for doctors, prescriptions, costs, and tradeoffs.";
 const faqs = [
   ["Is comparing insurance companies enough?", "No. Record the exact plan name, contract and plan ID, plan type, year, and service area. The same company may offer multiple products with different networks, benefits, and costs."],
   ["What should I do with missing or conflicting information?", "Keep it visible as Not checked or Conflicting. Record who will follow up, the question to ask, and a follow-up date. Do not convert an unknown cost to $0 or assume an unconfirmed provider is in network."],
