@@ -201,10 +201,11 @@ export async function POST(request: NextRequest) {
         const queued = await queueKitPreview(sfmcContact, pdfBytes);
         emailDelivery = "queued";
         console.info("[Decision Kit] SFMC queued", queued.messageKey);
-      } catch {
+      } catch (error) {
         // Preserve the immediate PDF even when email delivery is unavailable.
         emailDelivery = "unavailable";
-        console.error("[Decision Kit] SFMC preview delivery unavailable");
+        const reason = error instanceof Error && /^SFMC (authentication failed|queue request failed) \(\d{3}\)$|^Invalid SFMC (auth configuration|token response)$|^SFMC request unavailable$/.test(error.message) ? error.message : "storage or configuration unavailable";
+        console.error("[Decision Kit] SFMC preview delivery unavailable:", reason);
       }
     } else if (process.env.VERCEL_ENV === "production") {
       // Send email notification (fire-and-forget)
