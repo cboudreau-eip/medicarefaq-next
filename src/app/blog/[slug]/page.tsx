@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import SiteLayout from "@/components/SiteLayout";
+import OepComparisonArticle, { OEP_COMPARISON_SLUG, oepComparisonTitle, oepComparisonDescription } from "@/components/oep/OepComparisonArticle";
 import BlogPostContent from "./BlogPostContent";
 import { blogArticles } from "@/lib/blog-articles-data";
 
@@ -77,6 +78,15 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
+  if (slug === OEP_COMPARISON_SLUG) {
+    return {
+      title: oepComparisonTitle,
+      description: oepComparisonDescription,
+      robots: { index: true, follow: true },
+      alternates: { canonical: `${BASE_URL}/blog/${slug}/` },
+      openGraph: { title: oepComparisonTitle, description: oepComparisonDescription, type: "article", url: `${BASE_URL}/blog/${slug}/`, images: [{ url: `${BASE_URL}/images/uploaded/compare-medicare-advantage.jpg` }] },
+    };
+  }
   const article = blogArticles.find((a) => a.slug === slug);
   if (!article || article.draft) return { title: "Not Found" };
 
@@ -212,6 +222,9 @@ export default async function BlogPostPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
+  if (slug === OEP_COMPARISON_SLUG) {
+    return <SiteLayout><OepComparisonArticle /></SiteLayout>;
+  }
   const article = blogArticles.find((a) => a.slug === slug);
   if (!article || article.draft) notFound();
 
