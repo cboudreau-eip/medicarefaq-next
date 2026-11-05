@@ -650,6 +650,10 @@ export default function CoverageArticleContent({ article, sidebarLinks }: { arti
                 </div>
               )}
 
+              {article.costTable?.afterTable && (
+                <p className="text-[#1B2A4A] text-base leading-relaxed mb-8">{renderInline(article.costTable.afterTable)}</p>
+              )}
+
               {/* Medicare Tax Calculator (slug-specific) */}
               {article.slug === "medicare-tax-rate" && (
                 <div id="tax-calculator" className="mb-8">

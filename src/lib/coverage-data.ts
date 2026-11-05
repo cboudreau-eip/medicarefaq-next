@@ -11912,7 +11912,7 @@ export const coverageArticles: CoverageArticleData[] = [
   title: "Life Alert & Medical Alert Systems: Cost + Medicare Coverage",
   subtitle: "Life Alert costs $49.95 to $89.85 per month. Original Medicare does not cover it, but some Medicare Advantage plans include medical alert devices as supplemental benefits. Compare costs for 6 top systems and learn how to find coverage.",
   category: "Medicare Coverage",
-  dateUpdated: "July 13, 2026",
+  dateUpdated: "November 5, 2026",
   lastReviewed: "2026-07-13",
   author: {
     name: "David Haass",
@@ -11928,7 +11928,7 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   readTime: "8 min read",
   quickAnswer: {
-    text: "No, Original Medicare does not cover Life Alert or any medical alert system. Life Alert costs $49.95 to $89.85 per month with a 3-year contract, while competitors like Medical Guardian ($27.95 to $39.95/mo) and Bay Alarm Medical ($24.95 to $34.95/mo) offer similar monitoring with no long-term contract. Some Medicare Advantage plans cover medical alert devices as a supplemental benefit at no extra cost, so check your plan's Summary of Benefits or call your carrier before you enroll. Without that benefit, you pay the full monthly cost out of pocket.",
+    text: "No, Original Medicare does not cover Life Alert or any medical alert system. Life Alert costs $49.95 to $89.85 per month with a 3-year contract, while competitors like Medical Guardian ($27.95 to $39.95/mo) and Bay Alarm Medical (from $27.95/mo) offer similar monitoring with no long-term contract. Some Medicare Advantage plans cover medical alert devices as a supplemental benefit at no extra cost, so check your plan's Summary of Benefits or call your carrier before you enroll. Without that benefit, you pay the full monthly cost out of pocket.",
     badges: [
       {
         plan: "Original Medicare",
@@ -12073,10 +12073,10 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         "Provider": "Bay Alarm Medical",
-        "Monthly Fee": "$24.95–$34.95",
+        "Monthly Fee": "From $27.95",
         "Setup/Activation Fee": "$0",
         "Contract Required?": "No",
-        "Key Features": "In-home and mobile systems, fall detection add-on ($10/mo), 30-day trial",
+        "Key Features": "In-home and mobile systems; optional fall detection; compare device and service options",
       },
       {
         "Provider": "Philips Lifeline (now Lively Home)",
@@ -12100,7 +12100,8 @@ export const coverageArticles: CoverageArticleData[] = [
         "Key Features": "Fall detection, emergency contacts, GPS sharing, limited monitoring",
       },
     ],
-    footnote: "Prices verified as of July 2026. Original Medicare does not cover any of these costs. Some Medicare Advantage plans cover part or all of the monthly fee as a supplemental benefit. Fall detection typically adds $5 to $10/month where not included.",
+    footnote: "Bay Alarm Medical starting price checked November 5, 2026; other listed prices are July 2026 estimates. Confirm current quotes, equipment charges, and terms with each provider. Original Medicare does not cover any of these costs. Some Medicare Advantage plans cover part or all of the monthly fee as a supplemental benefit. Fall detection typically adds $5 to $10/month where not included.",
+    afterTable: "<strong>Compare the total cost—not just the monthly fee.</strong> When reviewing <a href=\"/faqs/does-medicare-cover-life-alert/\">Life Alert costs and Medicare coverage</a>, add equipment, activation, monitoring, and optional features to your estimate. Ask how long any quoted rate lasts, whether a minimum service term applies, and what cancellation or equipment-return fees you could owe. For illustration, $49.95 per month for 36 months totals $1,798.20 before other charges; this is a calculation, not a current price quote. <a href=\"https://www.bayalarmmedical.com/medical-alert-system/\" target=\"_blank\" rel=\"noopener noreferrer\">Bay Alarm Medical currently advertises monitoring from $27.95 per month</a>, but compare equivalent equipment and features before choosing. Before ordering, ask your Medicare Advantage plan whether it includes a medical alert benefit, which devices and suppliers qualify, and which fees you would still pay. You can also ask your local Area Agency on Aging or VA care team about assistance; eligibility and available support vary, so do not assume your costs will be fully covered.",
   },
   exceptionsSection: {
     title: "Alternatives to Medicare Coverage for Medical Alert Systems",
@@ -12127,11 +12128,11 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     {
       question: "How Much Does Life Alert Cost Per Month in 2026?",
-      answer: "Life Alert costs $49.95 per month for the basic in-home system. Adding the GPS mobile unit costs an additional $20/month, and the wall-mounted button adds another $20/month. Most customers pay between $69.95 and $89.85 per month for a full package. Life Alert also charges a one-time activation fee of $95 to $198 and requires a 3-year contract. This is significantly more expensive than competitors like Bay Alarm Medical ($24.95/mo, no contract) or Medical Guardian ($27.95/mo, no contract).",
+      answer: "Life Alert costs $49.95 per month for the basic in-home system. Adding the GPS mobile unit costs an additional $20/month, and the wall-mounted button adds another $20/month. Most customers pay between $69.95 and $89.85 per month for a full package. Life Alert also charges a one-time activation fee of $95 to $198 and requires a 3-year contract. This is significantly more expensive than competitors like Bay Alarm Medical (from $27.95/mo, no contract) or Medical Guardian ($27.95/mo, no contract).",
     },
     {
       question: "What Is the Cheapest Medical Alert System for Seniors?",
-      answer: "Bay Alarm Medical is one of the most affordable monitored medical alert systems at $24.95 per month with no activation fee and no long-term contract. Lively (formerly GreatCall) starts at $24.99 per month. Free smartphone apps like Medical ID and Noonlight offer basic emergency features but lack 24/7 professional monitoring. If you have a Medicare Advantage plan, check whether it includes a medical alert device as a supplemental benefit at no extra cost.",
+      answer: "Bay Alarm Medical advertises monitored medical alert systems starting at $27.95 per month with no activation fee and no long-term contract. Lively (formerly GreatCall) starts at $24.99 per month. Free smartphone apps like Medical ID and Noonlight offer basic emergency features but lack 24/7 professional monitoring. If you have a Medicare Advantage plan, check whether it includes a medical alert device as a supplemental benefit at no extra cost.",
     },
     {
       question: "Is Life Alert Worth the Cost Compared to Other Systems?",
@@ -12181,7 +12182,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     {
       icon: "dollar",
-      text: "<strong>Alternatives</strong> start at $24.95/month with no contract (Bay Alarm Medical, Medical Guardian)",
+      text: "<strong>Bay Alarm Medical</strong> advertises monitoring from $27.95/month with no long-term contract; compare equipment costs and optional features",
     },
     {
       icon: "info",

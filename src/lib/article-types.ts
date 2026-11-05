@@ -52,6 +52,7 @@ export interface CostTableData {
   headers: string[];
   rows: CostTableRow[];
   footnote?: string;
+  afterTable?: string;
 }
 
 export interface StepListData {
