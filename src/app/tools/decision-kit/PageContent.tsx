@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import Link from "next/link";
 import { DECISION_KIT_CONSENT_TEXT } from "@/lib/decision-kit-consent";
 import { FileDown, Calendar, Shield, Clock, Loader2, CheckCircle2 } from "lucide-react";
@@ -15,6 +15,8 @@ export default function DecisionKitPage() {
   const [generated, setGenerated] = useState<{ url: string; filename: string } | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
+  const [emailDelivery, setEmailDelivery] = useState<"queued" | "unavailable" | null>(null);
+  const submission = useRef<{ fingerprint: string; id: string } | null>(null);
 
   const isEmailValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
   const isFormValid = month && day && year && year.length === 4 && isEmailValid && firstName.trim().length > 0;
@@ -24,6 +26,9 @@ export default function DecisionKitPage() {
     setLoading(true);
     setError(false);
     setGenerated(null);
+    setEmailDelivery(null);
+    const fingerprint = JSON.stringify({ firstName, email, month, day, year, emailMarketingConsent });
+    if (submission.current?.fingerprint !== fingerprint) submission.current = { fingerprint, id: crypto.randomUUID() };
 
     // Reserve the tab during the click, before the asynchronous request, so
     // browsers do not treat the eventual PDF navigation as an unsolicited popup.
@@ -50,12 +55,14 @@ export default function DecisionKitPage() {
           firstName,
           email,
           emailMarketingConsent,
+          requestId: submission.current.id,
         }),
       });
 
       if (!response.ok) throw new Error("Failed to generate");
 
       const data = await response.json();
+      if (data.emailDelivery === "queued" || data.emailDelivery === "unavailable") setEmailDelivery(data.emailDelivery);
 
       // Keep the PDF available to both the viewer and the fallback links.
       const byteCharacters = atob(data.pdf);
@@ -137,6 +144,9 @@ export default function DecisionKitPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* Left: Form */}
               <div className="space-y-4">
+                {emailDelivery && <p role="status" className="rounded-lg px-4 py-3 bg-teal-50 text-sm text-slate-800">
+                  {emailDelivery === "queued" ? "Your kit email has been queued. The emailed link expires in 30 days." : "Your PDF is ready below, but the kit email could not be confirmed. Please use the open or download link."}
+                </p>}
                 <div>
                   <label className="text-sm font-medium text-slate-700 mb-1.5 block">
                     First Name <span className="text-red-500">*</span>
