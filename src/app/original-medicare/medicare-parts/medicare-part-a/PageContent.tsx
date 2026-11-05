@@ -1,4 +1,5 @@
 "use client";
+import GuideCta from "@/components/GuideCta";
 
 import { useState } from "react";
 import Link from "next/link";
@@ -147,6 +148,7 @@ export default function PageContent() {
             </aside>
           </section>
 
+          <div className="my-10"><GuideCta variant="medicare" /></div>
           <section id="coverage">
             <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">What Medicare Part A Covers</h2>
             <ul className="grid gap-3 list-none">

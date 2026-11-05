@@ -1,4 +1,5 @@
 "use client";
+import GuideCta from "@/components/GuideCta";
 /**
  * Medicare Coverage Page
  * URL: /original-medicare/medicare-coverage
@@ -136,6 +137,7 @@ export default function MedicareCoverage() {
           </div>
         </section>
 
+        <div className="mb-10"><GuideCta variant="medicare" /></div>
         {/* Coverage by Part */}
         <section id="coverage-by-part" className="mb-10">
           <h2 className="text-2xl font-bold text-[#1B2A4A] mb-6">Medicare Coverage by Part</h2>

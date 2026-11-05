@@ -1,4 +1,5 @@
 "use client";
+import GuideCta from "@/components/GuideCta";
 import Link from "next/link";
 
 /**
@@ -191,6 +192,7 @@ export default function PageContent() {
             ))}
           </div>
 
+          <div className="mb-10"><GuideCta variant="medicare" /></div>
           {/* Savings Tips */}
           <h2 className="text-3xl font-bold text-slate-900 mb-3 text-center" style={{ fontFamily: "'Merriweather', serif" }}>
             Ways to Lower Your Costs Within Your Chosen Path

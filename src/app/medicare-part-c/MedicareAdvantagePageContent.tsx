@@ -1,5 +1,7 @@
 "use client";
 
+import { Fragment } from "react";
+import GuideCta from "@/components/GuideCta";
 import Link from "next/link";
 import { Shield, ChevronRight, Phone, BookOpen } from "lucide-react";
 import CTABanner from "@/components/CTABanner";
@@ -103,8 +105,9 @@ export default function MedicareAdvantagePageContent({ page, slug }: { page: Med
 
           {/* Article Body */}
           <article className="flex-1 min-w-0">
-            {page.sections.map((section) => (
-              <section key={section.id} id={section.id} className="mb-10">
+            {page.sections.map((section, sectionIndex) => (
+              <Fragment key={section.id}>
+              <section id={section.id} className="mb-10">
                 <h2 className="text-2xl font-bold text-[#1B3A5C] mb-4 pb-2 border-b border-gray-100">
                   {section.heading}
                 </h2>
@@ -118,6 +121,10 @@ export default function MedicareAdvantagePageContent({ page, slug }: { page: Med
                   dangerouslySetInnerHTML={{ __html: section.body }}
                 />
               </section>
+              {sectionIndex === 0 && ["medicare-advantage-eligibility","medicare-advantage-enrollment-periods","medicare-advantage-costs","medicare-advantage-vs-original-medicare"].includes(slug) && (
+                <div className="mb-10"><GuideCta variant="advantage" /></div>
+              )}
+              </Fragment>
             ))}
 
             {/* FAQs */}

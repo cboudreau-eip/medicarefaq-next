@@ -1,4 +1,5 @@
 "use client";
+import GuideCta from "@/components/GuideCta";
 /**
  * Types of Medicare Plans Explained - Pillar Page
  * Design: Matches /medicare-part-c/medicare-advantage-plans/ overview page
@@ -252,6 +253,7 @@ export default function PageContent() {
                 </div>
               </section>
 
+              <div className="mb-16"><GuideCta variant="advantage" /></div>
               {/* Original Medicare */}
               <section id="original-medicare" className="mb-16">
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>

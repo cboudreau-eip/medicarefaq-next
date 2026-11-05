@@ -1,4 +1,5 @@
 "use client";
+import GuideCta from "@/components/GuideCta";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import CourseLayout from "@/components/CourseLayout";
@@ -79,6 +80,7 @@ export default function PageContent() {
         </table>
       </div>
 
+      <div className="mb-10"><GuideCta variant="medigap" /></div>
       {/* The Math */}
       <div className="mb-10 p-5 bg-slate-50 border border-slate-200 rounded-2xl">
         <h3 className="font-bold text-slate-900 mb-3 flex items-center gap-2">

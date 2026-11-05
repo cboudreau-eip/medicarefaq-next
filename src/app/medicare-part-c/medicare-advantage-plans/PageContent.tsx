@@ -1,4 +1,5 @@
 "use client";
+import GuideCta from "@/components/GuideCta";
 
 /**
  * Medicare Part C (Medicare Advantage) Page — Revised & Expanded
@@ -255,6 +256,7 @@ export default function MedicareAdvantage() {
                 </div>
               </section>
 
+              <div className="mb-16"><GuideCta variant="advantage" /></div>
               {/* Plan Types */}
               <section id="plan-types" className="mb-16">
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>

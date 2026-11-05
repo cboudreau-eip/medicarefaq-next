@@ -1,4 +1,5 @@
 "use client";
+import GuideCta from "@/components/GuideCta";
 /**
  * Medicare Part B Enrollment — /original-medicare/medicare-parts/medicare-part-b-enrollment
  */
@@ -174,6 +175,7 @@ export default function PageContent() {
           </p>
         </section>
 
+        <div className="mb-10"><GuideCta variant="medicare" /></div>
         {/* Enrollment Periods */}
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-[#1B3A6B] mb-2">Key Medicare Part B Enrollment Periods for 2026</h2>

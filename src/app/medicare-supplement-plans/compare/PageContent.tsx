@@ -1,4 +1,5 @@
 "use client";
+import GuideCta from "@/components/GuideCta";
 import Link from "next/link";
 
 /**
@@ -200,6 +201,7 @@ export default function PageContent() {
             * Plans C, F, and HD-F are only available to people who were eligible for Medicare before January 1, 2020.
           </p>
 
+          <div className="my-10"><GuideCta variant="medigap" /></div>
           {/* HD Plans */}
           <h2 className="text-2xl font-bold text-slate-900 mt-14 mb-2" style={{ fontFamily: "'Merriweather', serif" }}>
             High Deductible Plans

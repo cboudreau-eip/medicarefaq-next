@@ -1,4 +1,5 @@
 "use client";
+import GuideCta from "@/components/GuideCta";
 import Link from "next/link";
 
 /**
@@ -217,6 +218,7 @@ export default function PageContent() {
             </div>
           </div>
 
+          <div className="mb-10"><GuideCta variant="medicare" /></div>
           {/* Warning */}
           <div className="bg-amber-50 border-l-4 border-amber-400 p-5 rounded-r-xl mb-16">
             <div className="flex items-start gap-3">

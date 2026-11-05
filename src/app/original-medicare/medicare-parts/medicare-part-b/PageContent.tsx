@@ -1,4 +1,5 @@
 "use client";
+import GuideCta from "@/components/GuideCta";
 
 /**
  * Medicare Part B (Medical Insurance) Page
@@ -194,6 +195,7 @@ export default function PageContent() {
               </aside>
             </section>
 
+            <div className="my-10"><GuideCta variant="medicare" /></div>
             {/* Coverage */}
             <section id="coverage">
               <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">What Medicare Part B Covers</h2>

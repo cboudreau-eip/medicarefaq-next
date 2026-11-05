@@ -1,4 +1,5 @@
 "use client";
+import GuideCta from "@/components/GuideCta";
 
 /**
  * Original Medicare (Parts A & B) Page
@@ -214,6 +215,7 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
                 </aside>
               </section>
 
+              <div className="mb-16"><GuideCta variant="medicare" /></div>
               {/* Part A */}
               <section id="part-a" className="mb-16">
                 <div className="flex items-center gap-3 mb-6">

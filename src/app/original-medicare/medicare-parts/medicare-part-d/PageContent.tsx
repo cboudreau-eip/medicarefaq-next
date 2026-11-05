@@ -1,4 +1,5 @@
 "use client";
+import GuideCta from "@/components/GuideCta";
 
 /**
  * Medicare Part D (Prescription Drug Plans) Page
@@ -218,6 +219,7 @@ export default function PartD() {
                 </aside>
               </section>
 
+              <div className="mb-16"><GuideCta variant="part-d" /></div>
               {/* Drug Tiers */}
               <section id="drug-tiers" className="mb-16">
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>

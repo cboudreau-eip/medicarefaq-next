@@ -1,4 +1,5 @@
 "use client";
+import GuideCta from "@/components/GuideCta";
 import Link from "next/link";
 
 /**
@@ -162,6 +163,7 @@ export default function PageContent() {
             </ul>
           </div>
 
+          <div className="mb-10"><GuideCta variant="medigap" /></div>
           {/* Open Enrollment Period */}
           <div className="mb-14">
             <h2 className="text-3xl font-bold text-slate-900 mb-3" style={{ fontFamily: "'Merriweather', serif" }}>

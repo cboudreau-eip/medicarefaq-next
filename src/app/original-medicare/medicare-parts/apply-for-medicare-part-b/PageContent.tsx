@@ -1,4 +1,5 @@
 "use client";
+import GuideCta from "@/components/GuideCta";
 /**
  * Apply for Medicare Part B — /original-medicare/medicare-parts/apply-for-medicare-part-b
  */
@@ -137,6 +138,7 @@ export default function PageContent() {
             </div>
           </section>
 
+          <div className="mb-10"><GuideCta variant="medicare" /></div>
           {/* How to Apply for Part B When You Already Have Part A */}
           <section className="mb-10">
             <h2 className="text-xl font-bold text-[#1B3A6B] mb-4">How to Apply for Medicare Part B When You Already Have Part A</h2>

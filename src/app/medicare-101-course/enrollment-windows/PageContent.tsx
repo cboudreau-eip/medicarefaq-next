@@ -1,4 +1,5 @@
 "use client";
+import GuideCta from "@/components/GuideCta";
 import CourseLayout from "@/components/CourseLayout";
 import EddieProTip from "@/components/EddieProTip";
 import { Calendar, AlertTriangle, Clock, Shield, Star } from "lucide-react";
@@ -75,6 +76,7 @@ export default function PageContent() {
         use-it-or-lose-it opportunity.
       </p>
 
+      <div className="mb-10"><GuideCta variant="medicare" /></div>
       {/* Enrollment Period Cards */}
       <div className="space-y-6 mb-10">
         {enrollmentPeriods.map((period) => {

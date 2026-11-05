@@ -1,4 +1,5 @@
 "use client";
+import GuideCta from "@/components/GuideCta";
 /**
  * Medicare Enrollment Periods Page
  * URL: /original-medicare/medicare-enrollment-periods
@@ -164,6 +165,7 @@ export default function MedicareEnrollmentPeriods() {
           </aside>
         </section>
 
+        <div className="mb-10"><GuideCta variant="medicare" /></div>
         <section aria-labelledby="which-window" className="mb-10">
           <h2 id="which-window" className="text-2xl font-bold text-[#1B2A4A] mb-4">Which Enrollment Window Fits Your Situation?</h2>
           <div className="grid md:grid-cols-2 gap-4">

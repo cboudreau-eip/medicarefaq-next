@@ -1,4 +1,5 @@
 "use client";
+import GuideCta from "@/components/GuideCta";
 import CourseLayout from "@/components/CourseLayout";
 import EddieProTip from "@/components/EddieProTip";
 import { MEDICARE_COSTS } from "@/lib/medicare-costs";
@@ -110,6 +111,7 @@ export default function PageContent() {
         part does — and what it leaves out — is essential to making smart coverage decisions.
       </p>
 
+      <div className="mb-10"><GuideCta variant="medicare" /></div>
       {/* Part Cards */}
       <div className="space-y-8 mb-10">
         {parts.map((part) => {

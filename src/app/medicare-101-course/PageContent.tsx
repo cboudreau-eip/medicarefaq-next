@@ -1,4 +1,5 @@
 "use client";
+import GuideCta from "@/components/GuideCta";
 /**
  * Medicare 101 Course — Index / Overview Page
  * Route: /medicare-101-course/
@@ -126,6 +127,7 @@ export default function PageContent() {
         </div>
       </section>
 
+      <div className="container max-w-4xl py-8"><GuideCta variant="medicare" /></div>
       {/* Lesson Cards */}
       <section className="py-14">
         <div className="container max-w-4xl">

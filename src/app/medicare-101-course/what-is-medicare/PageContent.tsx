@@ -1,4 +1,5 @@
 "use client";
+import GuideCta from "@/components/GuideCta";
 import CourseLayout from "@/components/CourseLayout";
 import EddieProTip from "@/components/EddieProTip";
 import { MEDICARE_COSTS } from "@/lib/medicare-costs";
@@ -25,6 +26,7 @@ export default function PageContent() {
         </p>
       </div>
 
+      <div className="mb-10"><GuideCta variant="medicare" /></div>
       {/* Key Point 2 */}
       <div className="mb-10">
         <div className="flex items-start gap-3 mb-3">

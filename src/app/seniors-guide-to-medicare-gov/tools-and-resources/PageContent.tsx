@@ -1,4 +1,6 @@
 "use client";
+import { Fragment } from "react";
+import GuideCta from "@/components/GuideCta";
 import Link from "next/link";
 /**
  * Seniors Guide to Medicare.gov Tools & Resources — /seniors-guide-to-medicare-gov/tools-and-resources
@@ -124,7 +126,8 @@ return (
             {tools.map((tool, i) => {
               const Icon = tool.icon;
               return (
-                <section key={i} className="border border-gray-200 rounded-xl overflow-hidden">
+                <Fragment key={tool.name}>
+                <section className="border border-gray-200 rounded-xl overflow-hidden">
                   <div className="bg-gray-50 px-5 py-4 flex items-center gap-3 border-b border-gray-200">
                     <div className="bg-teal-100 rounded-lg p-2">
                       <Icon className="text-teal-600" size={20} />
@@ -154,6 +157,8 @@ return (
                     </ul>
                   </div>
                 </section>
+                {i === 0 && <GuideCta variant="medicare" />}
+                </Fragment>
               );
             })}
           </div>

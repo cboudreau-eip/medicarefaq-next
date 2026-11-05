@@ -1,4 +1,5 @@
 "use client";
+import GuideCta from "@/components/GuideCta";
 /**
  * Medicare Eligibility Page
  * URL: /original-medicare/medicare-eligibility
@@ -126,6 +127,7 @@ export default function MedicareEligibility() {
             </div>
           </section>
 
+          <div className="mt-8"><GuideCta variant="medicare" /></div>
           <section id="age-eligibility" className="mt-8">
             <h2 className="text-2xl font-bold text-[#1B2A4A] mb-4">Medicare Age Eligibility</h2>
             <p className="text-gray-700 mb-4">

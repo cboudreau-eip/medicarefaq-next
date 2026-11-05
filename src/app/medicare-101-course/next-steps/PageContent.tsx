@@ -1,4 +1,5 @@
 "use client";
+import GuideCta from "@/components/GuideCta";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import CourseLayout from "@/components/CourseLayout";
@@ -116,6 +117,7 @@ export default function PageContent() {
         </ol>
       </div>
 
+      <div className="mb-10"><GuideCta variant="medicare" /></div>
       {/* Action Plan: Already on Medicare */}
       <div className={`mb-10 p-6 rounded-2xl border-2 transition-all ${
         primarySection === "on-medicare"

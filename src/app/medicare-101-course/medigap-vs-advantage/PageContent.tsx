@@ -1,4 +1,5 @@
 "use client";
+import GuideCta from "@/components/GuideCta";
 import Link from "next/link";
 import CourseLayout from "@/components/CourseLayout";
 import EddieProTip from "@/components/EddieProTip";
@@ -56,6 +57,7 @@ export default function PageContent() {
         </div>
       </div>
 
+      <div className="mb-10"><GuideCta variant="medicare" /></div>
       {/* Why Medigap Tends to Be Better */}
       <h2 className="text-2xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
         Why Medigap Tends to Be the Better Long-Term Choice
