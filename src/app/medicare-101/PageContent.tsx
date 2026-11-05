@@ -9,6 +9,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import GuideCta from "@/components/GuideCta";
 import { motion } from "framer-motion";
 import { trackPhoneClick } from "@/lib/analytics";
 import { MEDICARE_COSTS } from "@/lib/medicare-costs";
@@ -464,6 +465,7 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
               </section>
 
               {/* Section: The Four Parts */}
+              <div className="mb-20"><GuideCta variant="medicare" /></div>
               <section id="four-parts" className="mb-20">
                 <motion.div
                   initial="hidden"

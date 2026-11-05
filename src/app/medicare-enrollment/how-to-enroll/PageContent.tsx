@@ -10,6 +10,7 @@
 import { useState, useEffect, type ReactNode } from "react";
 import ZipFormModal from "@/components/ZipFormModal";
 import Link from "next/link";
+import GuideCta from "@/components/GuideCta";
 import { trackPhoneClick } from "@/lib/analytics";
 import {
   FileText,
@@ -179,6 +180,7 @@ export default function HowToEnroll() {
               </section>
 
               {/* Original Medicare */}
+              <div className="mb-16"><GuideCta variant="medicare" /></div>
               <section id="original-medicare" className="mb-16">
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
                   How to Enroll in <strong>Original Medicare</strong> (Parts A &amp; B)

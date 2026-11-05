@@ -10,6 +10,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import GuideCta from "@/components/GuideCta";
 import { motion } from "framer-motion";
 import { trackPhoneClick } from "@/lib/analytics";
 import {
@@ -697,6 +698,7 @@ export default function Eligibility() {
             </section>
 
             {/* Age 65+ */}
+            <div className="mb-16"><GuideCta variant="medicare" /></div>
             <section id="age-65" className="mb-16 scroll-mt-24">
               <h2 className="text-3xl font-bold text-slate-900 mb-6">
                 Age 65+ Medicare Requirements
