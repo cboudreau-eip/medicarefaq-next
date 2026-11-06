@@ -3,7 +3,7 @@
   "title": "HMSA Medicare Plan Changes: 2027 Guide for Seniors",
   "slug": "hmsa-plan-termination-may-raise-costs-for-hawaii-seniors",
   "publishAt": "2026-11-06T12:52:00.000Z",
-  "status": "pending",
+  "status": "failed",
   "payload": {
     "title": "HMSA Medicare Plan Changes: 2027 Guide for Seniors",
     "slug": "hmsa-plan-termination-may-raise-costs-for-hawaii-seniors",
@@ -239,5 +239,5 @@
     ]
   },
   "createdAt": "2026-11-04T14:52:38.193Z",
-  "error": null
+  "error": "Article with slug \"hmsa-plan-termination-may-raise-costs-for-hawaii-seniors\" already exists."
 }
