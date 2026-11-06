@@ -12,6 +12,9 @@ for(const checked of [false,true]){const p=c.sfmcPayload({...contact,emailOptin:
 const s=load('src/lib/decision-kit/sfmc.ts',{'./contract':c});const config={authUrl:'https://test.auth.marketingcloudapis.com',clientId:'test',clientSecret:'test',accountId:'123',definitionKey:'PDF-Kit-Submissions'};
 assert.equal(s.authEndpoint(config.authUrl),config.authUrl+'/v2/token');assert.equal(s.authEndpoint(config.authUrl+'/v2/token'),config.authUrl+'/v2/token');assert.throws(()=>s.authEndpoint('https://evil.example/v2/token'));
 (async()=>{
+ const diagnostic=await s.safeAuthError(Response.json({error:'invalid_grant',error_description:'Rejected test Bearer abc123',access_token:'must-not-leak'},{status:403}),config);
+ assert.equal(diagnostic.status,403);assert.equal(diagnostic.error,'invalid_grant');assert.doesNotMatch(JSON.stringify(diagnostic),/abc123|must-not-leak|Rejected test/);
+ assert.equal(s.sfmcConfigFingerprint({...config,clientSecret:' secret\n'}).clientSecret.edgeWhitespace,true);
  for(const scenario of [[500,202],[401,202],[429,202]]){
   const calls=[];let sends=0;
   const client=s.createSfmcClient(config,async(url,init)=>{calls.push({url,init});return url.endsWith('/v2/token')?Response.json({access_token:'secret',rest_instance_url:'https://test.rest.marketingcloudapis.com/',expires_in:1200}):Response.json({responses:[{errorcode:0}]},{status:scenario[sends++]});},async()=>{});
