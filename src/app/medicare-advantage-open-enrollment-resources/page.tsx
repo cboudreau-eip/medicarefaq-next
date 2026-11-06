@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 const guides = [
   { icon: HeartPulse, title: "Your doctors and hospitals", description: "Start with the people and places you rely on. Confirm the exact plan and provider location before making a decision.", href: "/blog/doctors-dropping-medicare/", label: "Review provider access" },
   { icon: Pill, title: "Your prescriptions and pharmacy", description: "Check your exact medicines, coverage rules, and pharmacy costs with the prescription workbook.", href: "/blog/compare-medicare-advantage-prescriptions-pharmacies/", label: "Compare prescriptions and pharmacies" },
-  { icon: Wallet, title: "Your total costs", description: "Look beyond the monthly premium. Organize expected doctor visits, prescriptions, and other out-of-pocket costs.", href: "/medicare-plans/costs/", label: "Understand Medicare costs" },
+  { icon: Wallet, title: "Your total costs", description: "Compare premiums, medical and drug costs, and spending limits with a worked worksheet example.", href: "/medicare-plans/costs/", label: "Compare your total costs" },
 ];
 
 const worksheets = [
