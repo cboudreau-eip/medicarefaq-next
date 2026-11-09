@@ -26,7 +26,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Original Medicare (Part A and Part B) covers hospital stays, doctor visits, and medically necessary services, but it doesn't pay for [routine dental cleanings](/faqs/does-medicare-cover-dental-implants/), eyeglasses, hearing aids, or gym memberships. Supplemental benefits are the extras that many Medicare Advantage plans add on top of that core coverage. They can include dental, vision, hearing, fitness programs, transportation to appointments, meal delivery after a hospital stay, and over-the-counter allowances."
+      "content": "Original Medicare (Part A and Part B) covers hospital stays, doctor visits, and medically necessary services, but it doesn't pay for [routine dental cleanings](/faqs/does-medicare-cover-dental-implants/), eyeglasses, hearing aids, or gym memberships. **Supplemental benefits** are the extras that many Medicare Advantage plans add on top of that core coverage. They can include dental, vision, hearing, fitness programs, transportation to appointments, meal delivery after a hospital stay, and over-the-counter allowances."
     },
     {
       "type": "paragraph",
@@ -44,11 +44,11 @@
     },
     {
       "type": "paragraph",
-      "content": "Carriers also use different names for similar benefits, which makes side-by-side comparison harder than it should be. One plan might call an allowance a flex card, another a wellness card, and the rules for each can differ even when the marketing language sounds nearly identical. Network restrictions and eligibility conditions are frequently buried deeper in plan documents rather than summarized clearly."
+      "content": "Carriers also use different names for similar benefits, which makes side-by-side comparison harder than it should be. One plan might call an allowance a [flex card](/faqs/medicare-flex-card/), another a wellness card, and the rules for each can differ even when the marketing language sounds nearly identical. Network restrictions and eligibility conditions are frequently buried deeper in plan documents rather than summarized clearly."
     },
     {
       "type": "paragraph",
-      "content": "This combination of vague marketing and inconsistent terminology leads many people to put off their decision entirely, or to choose a plan based on one appealing perk without checking the details underneath it. A structured comparison process helps you avoid that trap."
+      "content": "This combination of vague marketing and inconsistent terminology leads many people to put off their decision entirely, or to choose a plan based on one appealing perk without checking the details underneath it. A structured comparison process helps you avoid that trap. If you haven't yet narrowed down your options, our guide to [comparing Medicare Advantage plans](/faqs/medicare-advantage-vs-medicare-supplement/) can help you build a shortlist before you dig into supplemental benefit details."
     },
     {
       "type": "heading",
@@ -72,11 +72,21 @@
     },
     {
       "type": "paragraph",
-      "content": "The Summary of Benefits is a short overview, and it typically won't show you dollar caps, visit limits, or waiting periods for supplemental benefits. For that level of detail, you need the plan's Evidence of Coverage document, which spells out the specific rules for each benefit category."
+      "content": "The Summary of Benefits is a short overview, and it typically won't show you dollar caps, visit limits, or waiting periods for supplemental benefits. For that level of detail, you need the plan's **Evidence of Coverage** document, which spells out the specific rules for each benefit category."
     },
     {
       "type": "paragraph",
-      "content": "When reviewing the Evidence of Coverage, look for the annual dollar maximum for dental or vision benefits, the number of covered visits or devices per year, any waiting period before a benefit becomes usable, and whether certain services require [prior authorization](/faqs/medicare-prior-authorization/). If anything is unclear, ask a licensed agent or plan representative direct questions, such as the exact dollar limit for dentures, whether a hearing aid allowance resets each year, or whether a specific gym location is included in the fitness network."
+      "content": "When reviewing the **Evidence of Coverage**, look for the annual dollar maximum for dental or vision benefits, the number of covered visits or devices per year, any waiting period before a benefit becomes usable, and whether certain services require [prior authorization](/faqs/medicare-prior-authorization/). If anything is unclear, ask a licensed agent or plan representative direct questions, such as the exact dollar limit for dentures, whether a hearing aid allowance resets each year, or whether a specific gym location is included in the fitness network."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Annual dollar maximum for dental or vision benefits",
+        "Number of covered visits or devices allowed per year",
+        "Any waiting period before a benefit becomes usable",
+        "Whether certain services require prior authorization"
+      ]
     },
     {
       "type": "heading",
@@ -86,7 +96,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Once you have the Evidence of Coverage for each plan you're considering, compare the same categories across plans rather than reading each document in isolation. For dental, check the annual maximum, whether major services like crowns or dentures are covered and at what percentage, and whether you must use an in-network dentist to get the full benefit."
+      "content": "Once you have the **Evidence of Coverage** for each plan you're considering, compare the same categories across plans rather than reading each document in isolation. For dental, check the annual maximum, whether major services like crowns or dentures are covered and at what percentage, and whether you must use an in-network dentist to get the full benefit."
     },
     {
       "type": "paragraph",
@@ -95,6 +105,18 @@
     {
       "type": "paragraph",
       "content": "Transportation, meal delivery, and over-the-counter allowances each come with their own limits worth checking closely. Look for the number of trips allowed per year for transportation benefits, the number of meals covered after a qualifying hospital stay, and whether an over-the-counter card balance expires monthly, quarterly, or carries over. Unused balances that don't roll over can mean losing value you assumed you had."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Dental: annual maximum, coverage percentage for major services like crowns or dentures, in-network dentist requirement",
+        "Vision and hearing: allowance amount for glasses, contacts, or hearing aids, and how often the allowance renews",
+        "Fitness and wellness: which specific programs are included and whether your preferred gym location participates",
+        "Transportation: number of trips allowed per year",
+        "Meal delivery: number of meals covered after a qualifying hospital stay",
+        "OTC allowance: whether the balance expires monthly, quarterly, or carries over"
+      ]
     },
     {
       "type": "heading",
@@ -215,7 +237,7 @@
       "faqs": [
         {
           "question": "I'm not ready to talk to anyone yet. Can I compare plans on my own first?",
-          "answer": "Yes, researching on your own is a reasonable first step. Use the checklist method in this article to review each plan's Evidence of Coverage and note dollar limits, network rules, and renewal dates. Having this information ready also makes any future conversation with a licensed agent more focused and efficient."
+          "answer": "Yes, researching on your own is a reasonable first step. Use the checklist method in this article to review each plan's **Evidence of Coverage** and note dollar limits, network rules, and renewal dates. Having this information ready also makes any future conversation with a licensed agent more focused and efficient."
         },
         {
           "question": "How do I compare benefits without getting a pushy sales call?",
@@ -223,11 +245,11 @@
         },
         {
           "question": "How do I know which sources of plan information I can trust?",
-          "answer": "Rely on official plan documents like the Evidence of Coverage, [Medicare.gov's plan finder](https://www.medicare.gov/), and licensed agents who can explain specific limits. Be cautious of marketing claims that describe benefits in vague terms without dollar amounts, visit limits, or network details attached."
+          "answer": "Rely on official plan documents like the **Evidence of Coverage**, [Medicare.gov's plan finder](https://www.medicare.gov/), and licensed agents who can explain specific limits. Be cautious of marketing claims that describe benefits in vague terms without dollar amounts, visit limits, or network details attached."
         },
         {
           "question": "What if I choose a plan and later regret the supplemental benefits I picked?",
-          "answer": "Medicare has built-in opportunities to change course. The [Annual Enrollment Period](https://www.medicare.gov/) runs October 15 to December 7 each year, and the Medicare Advantage Open Enrollment Period from January 1 to March 31 allows a switch between Medicare Advantage plans. Careful comparison now reduces how often you'd need to use either window."
+          "answer": "Medicare has built-in opportunities to change course. The **[Annual Enrollment Period](/faqs/annual-enrollment-period/)** runs October 15 to December 7 each year, and the **Medicare Advantage Open Enrollment Period** from January 1 to March 31 allows a switch between Medicare Advantage plans. Careful comparison now reduces how often you'd need to use either window."
         }
       ]
     },
@@ -239,7 +261,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Before you commit to a plan for 2027, fill out the comparison checklist for at least two or three plans you're seriously considering. Pulling the Evidence of Coverage for each one and comparing the same categories side by side will show you where the real differences are, beyond what any brochure highlights."
+      "content": "Before you commit to a plan for 2027, fill out the comparison checklist for at least two or three plans you're seriously considering. Pulling the **Evidence of Coverage** for each one and comparing the same categories side by side will show you where the real differences are, beyond what any brochure highlights. Our [Medicare Advantage plan comparison](/faqs/medicare-advantage-vs-medicare-supplement/) resources can help you organize that research before the **[Annual Enrollment Period](/faqs/annual-enrollment-period/)** deadline arrives."
     },
     {
       "type": "paragraph",
@@ -314,6 +336,6 @@
     }
   ],
   "id": "pipeline-how-to-navigate-medicare-advantage-s-supplemental-benefits",
-  "updatedAt": "2026-11-09T13:32:49.483Z",
-  "createdAt": "2026-11-09T13:32:49.483Z"
+  "updatedAt": "2026-11-09T13:39:54.324Z",
+  "createdAt": "2026-11-09T13:39:54.324Z"
 }
