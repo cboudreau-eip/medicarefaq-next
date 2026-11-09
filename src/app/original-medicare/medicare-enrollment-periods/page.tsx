@@ -57,7 +57,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
-      <PageContent />
+      <PageContent showOepResources={process.env.NODE_ENV !== "production" || process.env.VERCEL_ENV === "preview"} />
     </SiteLayout>
   );
 }
