@@ -1,7 +1,22 @@
 {
   "title": "Is Medicare Free? What You'll Pay in 2026",
+  "rawContent": "",
   "slug": "understanding-medicare-costs-debunking-the-free-myth",
+  "excerpt": "Medicare is not free for most people. While premium-free Part A is common, nearly everyone pays premiums, deductibles, or coinsurance for Part B, Part D, and supplemental coverage.",
   "category": "costs",
+  "author": "David Haass",
+  "reviewer": "Ashlee Zareczny",
+  "image": "/images/generated/understanding-medicare-costs-debunking-the-free-myth-6bad7fc51cdc.png",
+  "imageAlt": "",
+  "keyTakeaways": [
+    "Most people do not pay a monthly premium for Part A if they or a spouse paid Medicare taxes for at least 10 years (40 quarters)",
+    "Nearly everyone pays a monthly premium for Part B, which is $202.90 in 2026, plus a $283 annual deductible",
+    "Part B coinsurance is typically 20% with no annual out-of-pocket cap under Original Medicare alone",
+    "Higher-income beneficiaries pay an IRMAA surcharge based on income reported two years prior",
+    "Medicare is not the same as Medicaid; Medicare costs are based on work history and income, not financial need"
+  ],
+  "seoTitle": "Is Medicare Free? What You'll Pay in 2026",
+  "seoDescription": "Is Medicare free? Learn the real costs for Part A, Part B, and more in 2026, including premiums, deductibles, and IRMAA surcharges.",
   "sections": [
     {
       "type": "heading",
@@ -47,11 +62,11 @@
     },
     {
       "type": "paragraph",
-      "content": "You qualify for premium-free Part A if you or your spouse paid Medicare taxes for at least 10 years (40 quarters) of work. If you don't meet that threshold, you'll pay a monthly premium for Part A coverage."
+      "content": "You qualify for [premium-free Part A](/faqs/is-medicare-free/) if you or your spouse paid Medicare taxes for at least 10 years (40 quarters) of work. If you don't meet that threshold, you'll pay a monthly premium for Part A coverage."
     },
     {
       "type": "paragraph",
-      "content": "Even with premium-free Part A, you're responsible for a deductible each benefit period, which is different from the annual deductibles you may be used to with other insurance. A benefit period starts when you're admitted to a hospital and ends after you've gone 60 days in a row without inpatient care, so you could pay the deductible more than once in a year if you're hospitalized multiple times with a gap between stays."
+      "content": "Even with [premium-free Part A](/faqs/is-medicare-free/), you're responsible for a deductible each benefit period, which is different from the annual deductibles you may be used to with other insurance. A benefit period starts when you're admitted to a hospital and ends after you've gone 60 days in a row without inpatient care, so you could pay the deductible more than once in a year if you're hospitalized multiple times with a gap between stays."
     },
     {
       "type": "list",
@@ -85,7 +100,7 @@
     },
     {
       "type": "paragraph",
-      "content": "If your income is above certain thresholds, you'll pay an Income-Related Monthly Adjustment Amount, known as IRMAA, on top of the standard premium. This surcharge is based on your reported income from two years prior, meaning your 2026 premium is determined by your 2024 tax return. For individuals earning more than $109,000 or married couples filing jointly earning more than $218,000, [IRMAA surcharges apply to Part B premiums](https://www.medicare.gov/basics/costs/medicare-costs), with total monthly premiums ranging from $284.10 up to $689.90 depending on income level."
+      "content": "If your income is above certain thresholds, you'll pay an [Income-Related Monthly Adjustment Amount](/faqs/irmaa/), known as IRMAA, on top of the standard premium. This surcharge is based on your reported income from two years prior, meaning your 2026 premium is determined by your 2024 tax return. For individuals earning more than $109,000 or married couples filing jointly earning more than $218,000, [IRMAA surcharges apply to Part B premiums](https://www.medicare.gov/basics/costs/medicare-costs), with total monthly premiums ranging from $284.10 up to $689.90 depending on income level."
     },
     {
       "type": "heading",
@@ -95,7 +110,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Medicare Advantage plan premiums vary widely by plan and location, and some plans advertise $0 monthly premiums. Even with a $0 premium plan, you still pay your Part B premium, since Medicare Advantage replaces Original Medicare but doesn't eliminate that cost."
+      "content": "[Medicare Advantage plan premiums](/faqs/average-cost-of-medicare-advantage/) vary widely by plan and location, and some plans advertise $0 monthly premiums. Even with a $0 premium plan, you still pay your Part B premium, since Medicare Advantage replaces Original Medicare but doesn't eliminate that cost."
     },
     {
       "type": "paragraph",
@@ -107,7 +122,7 @@
     },
     {
       "type": "eddie-pro-tip",
-      "content": "When you're comparing Medicare Advantage plans, don't stop at the premium. Pull up the plan's Summary of Benefits and check the copay for a specialist visit, the cost tier for any drug you take regularly, and the out-of-pocket maximum side by side. A $0 premium plan with high specialist copays can end up costing more over a year than a plan with a modest premium and lower cost-sharing."
+      "content": "When you're [comparing Medicare Advantage plans](/faqs/medicare-advantage-vs-medicare-supplement/), don't stop at the premium. Pull up the plan's Summary of Benefits and check the copay for a specialist visit, the cost tier for any drug you take regularly, and the out-of-pocket maximum side by side. A $0 premium plan with high specialist copays can end up costing more over a year than a plan with a modest premium and lower cost-sharing."
     },
     {
       "type": "heading",
@@ -172,7 +187,7 @@
         "List your current prescriptions and the doctors or specialists you see regularly, since this determines which plans make sense for you.",
         "Estimate your expected care needs for the coming year, including any scheduled procedures or ongoing treatments.",
         "Compare plan costs side by side, including premiums, deductibles, copays, and out-of-pocket maximums, not just the monthly price.",
-        "Check whether you qualify for assistance programs like Medicare Savings Programs or Extra Help, which can lower your premiums or drug costs if your income and resources fall within certain limits."
+        "Check whether you qualify for assistance programs like [Medicare Savings Programs](/faqs/medicare-savings-programs/) or Extra Help, which can lower your premiums or drug costs if your income and resources fall within certain limits."
       ]
     },
     {
@@ -229,21 +244,54 @@
       "content": "When you're ready, speaking with a licensed Medicare agent can give you a no-pressure cost comparison tailored to your situation, so you can choose coverage with a clearer sense of what you'll actually pay."
     }
   ],
-  "seoTitle": "Is Medicare Free? What You'll Pay in 2026",
-  "seoDescription": "Is Medicare free? Learn the real costs for Part A, Part B, and more in 2026, including premiums, deductibles, and IRMAA surcharges.",
-  "excerpt": "Medicare is not free for most people. While premium-free Part A is common, nearly everyone pays premiums, deductibles, or coinsurance for Part B, Part D, and supplemental coverage.",
-  "keyTakeaways": [
-    "Most people do not pay a monthly premium for Part A if they or a spouse paid Medicare taxes for at least 10 years (40 quarters)",
-    "Nearly everyone pays a monthly premium for Part B, which is $202.90 in 2026, plus a $283 annual deductible",
-    "Part B coinsurance is typically 20% with no annual out-of-pocket cap under Original Medicare alone",
-    "Higher-income beneficiaries pay an IRMAA surcharge based on income reported two years prior",
-    "Medicare is not the same as Medicaid; Medicare costs are based on work history and income, not financial need"
+  "relatedSlugs": [
+    "10-medicare-cost-saving-hacks",
+    "are-you-paying-too-much-for-medicare-supplement-insurance",
+    "medicare-costs-double-beneficiaries",
+    "medigap-plan-costs-by-state"
   ],
-  "image": "/images/generated/understanding-medicare-costs-debunking-the-free-myth-6bad7fc51cdc.png",
-  "relatedSlugs": [],
-  "sourceUrl": "https://finance.yahoo.com/economy/article/think-medicare-is-free-plenty-of-americans-do-and-theyre-wrong-110000841.html",
-  "pipelineId": "disc-957942ea8abb80e8c5df61402c19fa69361f5ad03afd5b5a2189d0d79435a12f",
+  "linkSuggestions": [
+    {
+      "phrase": "Medigap, also called Medicare Supplement insurance",
+      "url": "/faqs/medicare-supplement-vs-medicare-advantage/",
+      "title": "Medicare Supplement vs Medicare Advantage: Crucial Questions to Ask before Enrolling",
+      "reason": "This link offers insights into Medigap plans, which are relevant for readers considering supplemental coverage alongside Medicare."
+    },
+    {
+      "phrase": "late enrollment penalty",
+      "url": "/faqs/medicare-part-b-late-enrollment-penalty/",
+      "title": "Medicare Part B Late Enrollment Penalty",
+      "reason": "Linking to this page provides crucial information about penalties for late enrollment, which can significantly impact costs."
+    }
+  ],
+  "acceptedLinks": [
+    {
+      "phrase": "Medicare Advantage plan premiums",
+      "url": "/faqs/average-cost-of-medicare-advantage/",
+      "title": "Average Cost of Medicare Advantage Plans"
+    },
+    {
+      "phrase": "Income-Related Monthly Adjustment Amount",
+      "url": "/faqs/irmaa/",
+      "title": "IRMAA: What is IRMAA in Medicare?"
+    },
+    {
+      "phrase": "Medicare Savings Programs",
+      "url": "/faqs/medicare-savings-programs/",
+      "title": "Medicare Savings Programs: Eligibility & Benefits"
+    },
+    {
+      "phrase": "premium-free Part A",
+      "url": "/faqs/is-medicare-free/",
+      "title": "Is Medicare Free?"
+    },
+    {
+      "phrase": "comparing Medicare Advantage plans",
+      "url": "/faqs/medicare-advantage-vs-medicare-supplement/",
+      "title": "Medicare Advantage vs. Medicare Supplement: Which Is Right for You?"
+    }
+  ],
   "id": "pipeline-understanding-medicare-costs-debunking-the-free-myth",
-  "updatedAt": "2026-11-09T12:49:25.867Z",
-  "createdAt": "2026-11-09T12:49:25.867Z"
+  "updatedAt": "2026-11-09T13:05:50.790Z",
+  "createdAt": "2026-11-09T13:05:50.790Z"
 }
