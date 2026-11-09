@@ -1,3 +1,5 @@
+import { allowedTestRecipient, queueKitPreview, n8nPreviewEnabled } from "@/lib/decision-kit/delivery";
+import { validateKitContact, type KitContact } from "@/lib/decision-kit/contract";
 import { NextRequest, NextResponse } from "next/server";
 import { decisionKitConsent } from "@/lib/decision-kit-consent";
 import { PDFDocument, StandardFonts, rgb } from "pdf-lib";
@@ -66,6 +68,14 @@ export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
     const { firstName = "", email = "", month, day, year } = body;
+
+    // Real transactional sends are preview-only and restricted to approved test recipients.
+    let kitContact: KitContact | undefined;
+    if (n8nPreviewEnabled()) {
+      try { kitContact = validateKitContact(body); }
+      catch { return NextResponse.json({ error: "Check your name, email, birthday, and email preference." }, { status: 400 }); }
+      if (!allowedTestRecipient(kitContact.email)) return NextResponse.json({ error: "This preview accepts approved test addresses only." }, { status: 403 });
+    }
 
     // Validate inputs
     if (!month || !day || !year || month < 1 || month > 12 || day < 1 || day > 31 || year < 1940 || year > 1975) {
@@ -185,17 +195,32 @@ export async function POST(request: NextRequest) {
     const pdfBytes = await pdfDoc.save();
     const base64 = Buffer.from(pdfBytes).toString("base64");
 
-    // Send email notification (fire-and-forget)
-    sendDecisionKitNotification({
-      firstName: firstName || "Not provided",
-      email: email || "Not provided",
-      dob: formatDate(dob),
-      birthday65: formatDate(dates.birthday65),
-      consent: decisionKitConsent(body.emailMarketingConsent),
-    }).catch((err) => console.error("[Decision Kit] Email notification failed:", err));
+    let emailDelivery: "queued" | "unavailable" | undefined;
+    if (kitContact) {
+      try {
+        const queued = await queueKitPreview(kitContact, pdfBytes);
+        emailDelivery = "queued";
+        console.info("[Decision Kit] n8n queued", queued.messageKey);
+      } catch (error) {
+        // Preserve the immediate PDF even when email delivery is unavailable.
+        emailDelivery = "unavailable";
+        const reason = error instanceof Error && /^n8n request failed \(\d{3}\)$/.test(error.message) ? error.message : "storage, connection, or configuration unavailable";
+        console.error("[Decision Kit] n8n preview delivery unavailable:", reason);
+      }
+    } else if (process.env.VERCEL_ENV === "production") {
+      // Send email notification (fire-and-forget)
+      sendDecisionKitNotification({
+        firstName: firstName || "Not provided",
+        email: email || "Not provided",
+        dob: formatDate(dob),
+        birthday65: formatDate(dates.birthday65),
+        consent: decisionKitConsent(body.emailMarketingConsent),
+      }).catch((err) => console.error("[Decision Kit] Email notification failed:", err));
+    }
 
     return NextResponse.json({
       pdf: base64,
+      emailDelivery,
       filename: `Medicare_Decision_Kit_${firstName || "Personalized"}.pdf`,
       dates: {
         birthday65: formatDate(dates.birthday65),
