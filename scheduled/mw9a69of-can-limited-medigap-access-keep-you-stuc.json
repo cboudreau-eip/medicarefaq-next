@@ -3,7 +3,7 @@
   "title": "Medigap Guaranteed Issue and Medicare Advantage",
   "slug": "can-limited-medigap-access-keep-you-stuck",
   "publishAt": "2026-11-09T13:15:00.000Z",
-  "status": "pending",
+  "status": "failed",
   "payload": {
     "title": "Medigap Guaranteed Issue and Medicare Advantage",
     "slug": "can-limited-medigap-access-keep-you-stuck",
@@ -229,5 +229,5 @@
     ]
   },
   "createdAt": "2026-11-09T13:12:09.087Z",
-  "error": null
+  "error": "Article with slug \"can-limited-medigap-access-keep-you-stuck\" already exists."
 }
