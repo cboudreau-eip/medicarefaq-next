@@ -5,6 +5,7 @@ import HeatmapTracker from "@/components/HeatmapTracker";
 import InvocaRefresh from "@/components/InvocaRefresh";
 import ChatWidget from "@/components/ChatWidget";
 import PostHogProvider from "@/components/PostHogProvider";
+import OepDownloadTracker from "@/components/oep/OepDownloadTracker";
 import SlideInCTA from "@/components/SlideInCTA";
 import "./globals.css";
 
@@ -110,6 +111,7 @@ export default function RootLayout({
           />
         </noscript>
         <PostHogProvider>
+          {(process.env.NODE_ENV !== "production" || process.env.VERCEL_ENV === "preview") && <OepDownloadTracker />}
           {children}
         </PostHogProvider>
         <HeatmapTracker />
