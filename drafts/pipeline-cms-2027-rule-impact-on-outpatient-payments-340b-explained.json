@@ -1,0 +1,194 @@
+{
+  "title": "CMS 2027 Outpatient Final Rule Explained",
+  "slug": "cms-2027-rule-impact-on-outpatient-payments-340b-explained",
+  "category": "costs",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-the-rule-means-for-you",
+      "text": "What the CMS 2027 Outpatient Final Rule Means for You"
+    },
+    {
+      "type": "paragraph",
+      "content": "Each year, the Centers for Medicare & Medicaid Services (CMS) updates how much hospitals are paid for outpatient services like imaging, infusions, and minor procedures. The 2027 outpatient final rule sets these updated payment rates and also revises policies tied to the 340B drug discount program, which affects how some hospitals purchase and bill for certain medications starting in 2027."
+    },
+    {
+      "type": "paragraph",
+      "content": "This matters to you because these payment changes can influence what you pay out of pocket for outpatient visits, procedures, and drugs given at hospital-affiliated clinics. You do not need a background in healthcare policy to understand how it applies to your situation. A clear walkthrough of the key terms and changes is enough to help you recognize what to watch for on your next bill or plan notice."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "breaking-down-confusing-terms",
+      "text": "Breaking Down the Confusing Terms in This Rule"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before looking at the cost details, it helps to understand a few terms that show up in hospital billing statements and official CMS materials. These terms describe how hospitals are paid and how your share of the cost is calculated."
+    },
+    {
+      "type": "paragraph",
+      "content": "The outpatient prospective payment system, or OPPS, is simply the method CMS uses to pay hospitals a set rate for outpatient services, rather than paying based on whatever the hospital charges. The 340B program allows certain hospitals, often those serving rural or low-income communities, to buy outpatient drugs at a discount from manufacturers. Hospitals use these savings to help offset the cost of providing care to patients who may not be able to pay full price."
+    },
+    {
+      "type": "paragraph",
+      "content": "It also helps to separate what the hospital is paid from what you owe. The OPPS rate is the amount Medicare pays the hospital for a service. Your coinsurance is your separate share of that cost, and it is calculated as a percentage, not a flat fee, so it moves when the underlying rate changes."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "OPPS rate: the amount Medicare pays a hospital for an outpatient service, used as the basis for calculating your share",
+        "340B facility: a hospital or clinic that purchases certain outpatient drugs at a federally mandated discount",
+        "Beneficiary coinsurance: your portion of the approved cost for an outpatient service, typically a percentage rather than a fixed dollar amount"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "how-updated-payment-rates-affect-costs",
+      "text": "How the Updated Outpatient Payment Rates Could Affect Your Costs"
+    },
+    {
+      "type": "paragraph",
+      "content": "CMS calculates the annual outpatient payment update using hospital market basket data, which tracks changes in the cost of goods and labor that hospitals use to provide care. For 2027, this update adjusts the base OPPS rates that hospitals are paid for thousands of individual outpatient services, from a diagnostic scan to a same-day infusion appointment."
+    },
+    {
+      "type": "paragraph",
+      "content": "When the payment rate for a specific service goes up or down, your coinsurance amount shifts along with it, since your share is calculated as a percentage of the Medicare-approved amount rather than a fixed dollar figure. Under Original Medicare, you typically pay 20% of the Medicare-approved amount for outpatient services after you have met your Part B deductible, which is $283 in 2026. Medicare covers the remaining 80%. A rate increase for a given procedure means a larger 20% share for you, even though the percentage itself does not change."
+    },
+    {
+      "type": "callout",
+      "calloutType": "info",
+      "calloutTitle": "Where Your 20% Comes From",
+      "calloutText": "Under Original Medicare, your outpatient coinsurance is generally 20% of the Medicare-approved amount after the Part B deductible is met. Because this is a percentage, any change to the underlying OPPS rate directly changes your dollar cost."
+    },
+    {
+      "type": "paragraph",
+      "content": "If you have a scheduled outpatient procedure coming up, you can check updated cost-sharing information through your Medicare Summary Notice history, your plan's member portal if you have Medicare Advantage, or by asking the hospital's billing or scheduling department for the current estimated patient responsibility before your appointment. Asking ahead of time, rather than after the bill arrives, gives you a chance to budget accurately or ask about payment options if needed."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "340b-drug-policy-changes",
+      "text": "340B Drug Policy Changes and What They Mean for Access to Care"
+    },
+    {
+      "type": "paragraph",
+      "content": "The 2027 final rule also includes adjustments to how CMS pays 340B hospitals for separately payable drugs, along with continued efforts to address a multi-year remedy process tied to prior underpayments to these facilities. In past years, CMS had reduced payment rates for drugs purchased through the 340B program, a policy that was later challenged and partially reversed, leading to an ongoing adjustment process that the 2027 rule continues to address. You can review the specific payment methodology details on the [CMS hospital outpatient final rule page](https://www.cms.gov/medicare/payment/prospective-payment-systems/hospital-outpatient)."
+    },
+    {
+      "type": "paragraph",
+      "content": "These payment adjustments matter beyond the billing details, because 340B savings often help hospitals offer services that would otherwise be difficult to sustain financially. When 340B payment policy shifts, some hospitals may reassess whether to continue offering certain drug infusions or specialty treatments on site, particularly in rural or safety-net hospitals that rely more heavily on these discounts to support broader patient services."
+    },
+    {
+      "type": "paragraph",
+      "content": "If you receive regular infusion or chemotherapy-related outpatient care, it is worth asking your hospital or clinic whether it participates in the 340B program and whether any service changes are planned. This is not something you need to act on immediately, but having the information can help you plan ahead if you ever need to consider an alternative site of care."
+    },
+    {
+      "type": "eddie-pro-tip",
+      "content": "Before any scheduled outpatient procedure, I'd suggest calling the hospital billing office and asking for the estimated patient cost in writing, not just a verbal quote. Rates tied to the OPPS update can change your coinsurance from one year to the next, and having a written estimate gives you something concrete to compare against your Explanation of Benefits later."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "medicare-advantage-and-supplement-plans",
+      "text": "What This Means If You Have Medicare Advantage or a Supplement Plan"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you have a Medicare Advantage plan, your plan is required to cover at least everything Original Medicare covers, including outpatient hospital services affected by this rule. However, Medicare Advantage plans can structure their cost-sharing differently, using copays instead of straight percentage-based coinsurance, so a rate change under OPPS does not always translate directly into the same dollar impact on your plan."
+    },
+    {
+      "type": "paragraph",
+      "content": "If you have a Medigap, or Medicare Supplement, policy alongside Original Medicare, these plans are designed to limit your exposure to the kind of coinsurance changes tied to outpatient rate updates. Depending on which plan you hold, your Medigap coverage may pay some or all of your Part B coinsurance, which reduces how much the 2027 rate changes affect your personal budget."
+    },
+    {
+      "type": "paragraph",
+      "content": "Either way, it is worth reviewing your Annual Notice of Change letter, which Medicare Advantage and Part D plans send each fall, for any cost adjustments connected to outpatient hospital services. This letter outlines what is changing in your specific plan for the coming year, which is more useful to you than a general headline about the national rule.</p>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "steps-to-avoid-surprises",
+      "text": "Steps You Can Take Now to Avoid Surprises"
+    },
+    {
+      "type": "paragraph",
+      "content": "You do not need to overhaul your coverage because of this rule, but a few simple checks can help you stay ahead of any cost changes rather than being caught off guard by a bill."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Review your Explanation of Benefits or Medicare Summary Notice after any outpatient visit to see exactly what was billed and what you were charged.",
+        "Ask your hospital's billing department whether it participates in the 340B program, especially if you receive regular infusions or specialty drug treatments.",
+        "Compare your current plan's outpatient coinsurance or copay structure during your next enrollment window, rather than assuming it stayed the same as last year.",
+        "Talk with a licensed agent if you are unsure how these updates apply to your specific plan, doctors, or treatments."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Taking these steps early, rather than waiting until a bill arrives, helps you stay in control of your costs and reduces the chance of an unexpected amount due after a routine procedure."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "faq",
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "I want to understand this rule fully before I make any changes. Is that okay?",
+          "answer": "Yes. Taking time to review how the rule affects your specific plan before making any changes is a reasonable approach. You can bookmark official CMS updates and trusted explainer resources and return to them at your own pace, without any pressure to act before you feel ready."
+        },
+        {
+          "question": "If I ask about this rule, will I get a pushy sales call?",
+          "answer": "Asking questions about a CMS rule does not obligate you to enroll in anything. Licensed agents can explain how the rule affects your specific plan, doctors, or prescriptions without pressuring you to switch coverage. A trustworthy source will answer your question directly rather than steering the conversation toward a sale."
+        },
+        {
+          "question": "Can I just research this on my own instead of talking to someone?",
+          "answer": "Yes, self-research is a reasonable first step, and official rule summaries are published on CMS.gov. If questions remain about how the changes apply to your specific bills or plan, a licensed agent can help translate the general rule into terms that match your personal coverage."
+        },
+        {
+          "question": "How do I know which sources to trust when researching this rule?",
+          "answer": "Rely on CMS.gov, your plan's official notices, and licensed Medicare resources rather than unverified social media claims. A good sign of a trustworthy source is a plain-language explanation that lays out the facts clearly without pushing you toward an immediate plan change or sale."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "making-sense-of-the-rule",
+      "text": "Making Sense of the Rule Before Your Next Enrollment Decision"
+    },
+    {
+      "type": "paragraph",
+      "content": "The 2027 outpatient final rule primarily affects payment rates and 340B drug discount policy, not your basic Medicare eligibility or core benefits. The change that matters most to you is how these rate adjustments show up in your personal coinsurance or copay amounts, which depends on your specific plan rather than the national headline figures."
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead of relying on general summaries of the rule, review your own plan's cost-sharing details directly, whether through your Annual Notice of Change letter, your plan's member portal, or a conversation with your hospital's billing office. If you want help connecting these updates to your specific doctors, hospitals, and prescriptions, a licensed agent can walk through your situation before your next enrollment window."
+    }
+  ],
+  "seoTitle": "CMS 2027 Outpatient Final Rule Explained",
+  "seoDescription": "Learn how the CMS 2027 outpatient final rule affects Medicare payment rates, 340B drug policy, and your out-of-pocket hospital costs.",
+  "excerpt": "CMS's 2027 outpatient final rule updates hospital payment rates and 340B drug policies, which can change your out-of-pocket costs for outpatient care.",
+  "keyTakeaways": [
+    "The 2027 outpatient final rule updates CMS payment rates for hospital outpatient services under the OPPS system.",
+    "Changes to 340B drug discount program policies affect how some hospitals purchase and bill for outpatient medications starting in 2027.",
+    "Your Medicare coinsurance is a percentage (typically 20%) of the Medicare-approved amount, so rate changes directly affect your out-of-pocket costs.",
+    "The Part B deductible is $283 in 2026, and coinsurance applies after this deductible is met.",
+    "Understanding OPPS and 340B terms can help you better interpret your hospital bills and plan notices."
+  ],
+  "image": "/images/generated/cms-2027-rule-impact-on-outpatient-payments-340b-explained-3cd55743f8fe.png",
+  "relatedSlugs": [],
+  "sourceUrl": "https://www.aha.org/news/headline/2026-11-04-cms-finalizes-increases-medicare-hospital-outpatient-department-payment-rates-changes-site-neutral-and",
+  "pipelineId": "disc-54b972770c6c2b0b62bc7bc74bf915dcf5e0fe6de80ff3a7a3beb3ceca91f490",
+  "id": "pipeline-cms-2027-rule-impact-on-outpatient-payments-340b-explained",
+  "updatedAt": "2026-11-09T12:32:11.377Z",
+  "createdAt": "2026-11-09T12:32:11.377Z"
+}
