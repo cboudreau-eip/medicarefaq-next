@@ -3,6 +3,7 @@ import SiteLayout from "@/components/SiteLayout";
 import PageContent from "./PageContent";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: false },
   title: "Best Medicare Supplement Plans in New Jersey 2026 | MedicareFAQ",
   description:
     "Compare the best Medicare Supplement plans in New Jersey for 2026. See top-rated carriers, premiums from $139/mo, under-65 coverage rules, and state regulations.",

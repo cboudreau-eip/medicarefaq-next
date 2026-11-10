@@ -8,6 +8,7 @@
  *                      SHIP free counseling at 1-800-792-8820, DOBI regulation
  */
 
+import { EligibilityGuide, PracticalGuide } from "./GuideSections";
 import { useState } from "react";
 import Link from "next/link";
 import {
@@ -208,6 +209,7 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
 export default function NewJerseyPageContent() {
   return (
     <article className="min-h-screen bg-white">
+      <div className="bg-amber-50 border-b border-amber-200 px-5 py-3 text-center text-sm text-amber-950">Private review copy — not published. <a className="font-bold underline" href="https://www.medicarefaq.com/medicare-supplement-plans/new-jersey/" target="_blank" rel="noopener noreferrer">Compare the current live page ↗</a></div>
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-slate-900 pt-8 pb-16 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
@@ -230,7 +232,7 @@ export default function NewJerseyPageContent() {
               <span className="text-2xl font-black text-white">NJ</span>
             </div>
             <span className="text-xs font-bold px-3 py-1 rounded-full border bg-teal-100 text-teal-800 border-teal-200">
-              Updated May 2026
+              Guide preview · November 2026
             </span>
           </div>
 
@@ -238,40 +240,11 @@ export default function NewJerseyPageContent() {
             className="text-3xl md:text-5xl font-bold text-white mb-3 max-w-3xl"
             style={{ fontFamily: "'Merriweather', serif" }}
           >
-            Best Medicare Supplement Plans in New Jersey 2026
+            Medicare Supplement (Medigap) Plans in New Jersey
           </h1>
           <p className="text-lg text-slate-300 max-w-2xl mb-6">
-            New Jersey has over {STATE_STATS.enrollees} Medigap enrollees. Plan G coverage starts
-            at just {STATE_STATS.lowestPlanG} in Newark. We compared {STATE_STATS.carriers} carriers
-            to find the best coverage for New Jersey retirees.
+            Understand your coverage choices, compare costs, and learn when you can enroll or switch Medigap policies in New Jersey.
           </p>
-
-          <div className="flex flex-wrap gap-4 mb-8">
-            <div className="flex items-center gap-2 text-sm text-slate-300">
-              <Users className="w-4 h-4 text-teal-400" aria-hidden="true" />
-              <span>
-                <strong className="text-white">{STATE_STATS.enrollees}</strong> NJ residents with Medigap
-              </span>
-            </div>
-            <div className="flex items-center gap-2 text-sm text-slate-300">
-              <DollarSign className="w-4 h-4 text-teal-400" aria-hidden="true" />
-              <span>
-                Plan G from <strong className="text-white">{STATE_STATS.lowestPlanG}</strong> in Newark
-              </span>
-            </div>
-            <div className="flex items-center gap-2 text-sm text-slate-300">
-              <TrendingDown className="w-4 h-4 text-teal-400" aria-hidden="true" />
-              <span>
-                Plan N from <strong className="text-white">$108/mo</strong>
-              </span>
-            </div>
-            <div className="flex items-center gap-2 text-sm text-slate-300">
-              <Award className="w-4 h-4 text-amber-400" aria-hidden="true" />
-              <span>
-                <strong className="text-white">{STATE_STATS.carriers}</strong> carriers licensed in NJ
-              </span>
-            </div>
-          </div>
 
           <div className="flex flex-wrap gap-3">
             <ZipFormModal
@@ -305,50 +278,8 @@ export default function NewJerseyPageContent() {
         </div>
       </section>
 
-      {/* Trust Bar */}
-      <section className="border-b border-slate-200 bg-slate-50">
-        <div className="container py-4">
-          <div className="flex flex-wrap items-center justify-center gap-6 text-xs text-slate-600">
-            <div className="flex items-center gap-1.5">
-              <Shield className="w-4 h-4 text-blue-600" aria-hidden="true" />
-              <span><strong>{CARRIERS.length}</strong> carriers analyzed</span>
-            </div>
-            <div className="flex items-center gap-1.5">
-              <BarChart3 className="w-4 h-4 text-blue-600" aria-hidden="true" />
-              <span>Data-driven MedicareFAQ Scores</span>
-            </div>
-            <div className="flex items-center gap-1.5">
-              <DollarSign className="w-4 h-4 text-emerald-600" aria-hidden="true" />
-              <span>Plan G from {STATE_STATS.lowestPlanG} in Newark</span>
-            </div>
-            <div className="flex items-center gap-1.5">
-              <Info className="w-4 h-4 text-blue-600" aria-hidden="true" />
-              <span>Attained-age rating state</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Intro Section */}
-      <section className="py-12 border-b border-slate-100">
-        <div className="container max-w-4xl">
-          <p className="text-slate-700 text-base leading-relaxed mb-4">
-            More than 400,000 people in New Jersey have Medicare Supplement Insurance, or Medigap.
-            New Jersey uses attained-age rating, which means premiums increase as you get older.
-            This makes it especially important to shop carefully during your 6-month Open Enrollment
-            Period at age 65, when you have guaranteed-issue rights and cannot be denied coverage
-            or charged higher premiums based on your health history.
-          </p>
-          <p className="text-slate-700 text-base leading-relaxed">
-            Horizon Blue Cross Blue Shield of New Jersey is the dominant local carrier with a
-            significant share of the state market. National carriers like AARP/UnitedHealthcare,
-            Mutual of Omaha, and Cigna also compete actively in New Jersey. Plan G is the most
-            popular plan, covering all Medicare cost-sharing except the Part B deductible ($283 in
-            2026). Plan N offers lower premiums in exchange for small copays at doctor visits and
-            emergency rooms.
-          </p>
-        </div>
-      </section>
+      <section className="py-10"><div className="container max-w-4xl text-slate-700 leading-relaxed space-y-4"><p>Medigap helps pay some of the deductibles, coinsurance, and copayments left by Original Medicare. Choosing a policy means comparing both benefits and the rules that determine when an insurer must accept your application.</p><p>This guide walks through New Jersey’s enrollment protections and practical shopping steps, alongside the existing carrier comparisons. Medigap is different from Medicare Advantage and does not include prescription coverage in policies sold today.</p></div></section>
+      <EligibilityGuide />
 
       {/* Carrier Cards Section */}
       <section className="py-12">
@@ -357,12 +288,10 @@ export default function NewJerseyPageContent() {
             className="text-2xl md:text-3xl font-bold text-slate-900 mb-2"
             style={{ fontFamily: "'Merriweather', serif" }}
           >
-            Compare the Best Medicare Supplement Plans in New Jersey
+            Compare Medicare Supplement Carriers in New Jersey
           </h2>
           <p className="text-slate-600 mb-8">
-            Our top-rated Medigap carriers in New Jersey, ranked by the MedicareFAQ Score.
-            Premiums shown are for a 65-year-old female nonsmoker in Newark. Rates in Jersey City,
-            Trenton, and other regions may vary.
+            The existing carrier comparison is retained below for layout review. These premiums, ratings, and carrier claims still need a current source check before publication. They are not verified current quotes.
           </p>
 
           <div className="space-y-4">
@@ -383,9 +312,7 @@ export default function NewJerseyPageContent() {
             Medicare Supplement Prices in New Jersey
           </h2>
           <p className="text-slate-600 mb-6">
-            Sample monthly premiums from top carriers in Newark for a 65-year-old female nonsmoker.
-            Rates in Jersey City, Trenton, and other areas may differ. Premiums shown may include
-            available household discounts.
+            Existing sample premiums are shown for comparison with the original page. Their source date and discount assumptions need verification before publication; request a current personalized quote.
           </p>
 
           <div className="bg-white rounded-xl border border-slate-200 overflow-hidden">
@@ -413,9 +340,7 @@ export default function NewJerseyPageContent() {
             </div>
             <div className="px-5 py-3 bg-slate-50 border-t border-slate-200">
               <p className="text-xs text-slate-500">
-                <strong>Lowest available in New Jersey (Newark):</strong> Plan G from{" "}
-                {STATE_STATS.lowestPlanG} | Plan N from $108/mo | Source: FairSquare Medicare,
-                CMS Medicare Plan Finder, May 2026
+                Preview note: legacy May 2026 figures retained for review, not a current market-low claim.
               </p>
             </div>
           </div>
@@ -448,7 +373,7 @@ export default function NewJerseyPageContent() {
             Plan G vs. Plan N in New Jersey
           </h2>
           <p className="text-slate-600 mb-6">
-            Plan G and Plan N are the two most popular Medigap plans for new enrollees in New Jersey.
+            Plan G and Plan N offer different balances of premiums and out-of-pocket costs.
             Here is how they compare on coverage and cost.
           </p>
 
@@ -495,9 +420,9 @@ export default function NewJerseyPageContent() {
                       n: { covered: true },
                     },
                     {
-                      feature: "Foreign travel emergency",
-                      g: { covered: true },
-                      n: { covered: true },
+                      feature: "Foreign travel emergency (subject to policy limits)",
+                      g: { text: "80% after deductible" },
+                      n: { text: "80% after deductible" },
                     },
                     {
                       feature: "Office visit copay",
@@ -508,11 +433,6 @@ export default function NewJerseyPageContent() {
                       feature: "ER copay (no admission)",
                       g: { text: "$0" },
                       n: { text: "Up to $50" },
-                    },
-                    {
-                      feature: "Avg. monthly premium (Newark, age 65F)",
-                      g: { text: "$142-$195", bold: true },
-                      n: { text: "$108-$155", bold: true },
                     },
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
@@ -574,21 +494,14 @@ export default function NewJerseyPageContent() {
           <EddieProTip
             tip={
               <>
-                <strong>
-                  New Jersey uses attained-age rating, which means your premium increases every year
-                  as you get older.
-                </strong>{" "}
-                This makes your 6-month Open Enrollment Period at age 65 the most important window
-                to lock in coverage. Horizon BCBS is the dominant local carrier and worth getting a
-                quote from, but national carriers like Mutual of Omaha and AARP/UnitedHealthcare
-                often come in lower. Cigna is cheapest at $142/mo but has a higher complaint ratio
-                than most competitors. New Jersey has no birthday rule or anniversary rule, so once
-                your OEP closes, switching carriers requires passing medical underwriting.
+                <strong>Check your enrollment rights before shopping on price.</strong>{" "} A lower quote does not guarantee acceptance. Confirm underwriting requirements and an approved start date before replacing your current policy.
               </>
             }
           />
         </div>
       </section>
+
+      <PracticalGuide />
 
       {/* New Jersey-Specific Rules */}
       <section className="py-12 bg-slate-50">
@@ -702,10 +615,7 @@ export default function NewJerseyPageContent() {
               Find the Best Medigap Rate in Your New Jersey ZIP Code
             </h3>
             <p className="text-slate-300 mb-6 max-w-2xl">
-              New Jersey has a competitive Medigap market with over 30 carriers and Plan G starting
-              at just {STATE_STATS.lowestPlanG} in Newark. Enter your ZIP code to see exact rates
-              from all available carriers in your area. Your Open Enrollment Period is the best time
-              to lock in coverage without medical underwriting.
+              Compare personalized quotes for your plan letter and ZIP code. Ask about enrollment protections, health questions, and discounts before choosing a policy.
             </p>
             <div className="flex flex-wrap gap-3">
               <ZipFormModal

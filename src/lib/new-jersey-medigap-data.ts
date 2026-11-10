@@ -160,35 +160,17 @@ export const PREMIUM_TABLE: PremiumRow[] = [
 
 export const STATE_RULES = [
   {
-    title: "Under-65 Coverage Required",
-    description:
-      "New Jersey law requires Medigap insurers to offer at least one policy to Medicare beneficiaries under age 65, including those who qualify due to disability or end-stage renal disease. This is a stronger protection than most states, where under-65 coverage is optional. Premiums for under-65 enrollees are typically higher than for those who enroll at 65.",
+    "title": "Plan C and Plan F eligibility",
+    "description": "These plans are generally limited to people first eligible for Medicare before January 1, 2020. Eligibility is based on when you first qualified for Medicare, not simply when you turned 65."
   },
   {
-    title: "All Three Rating Methods Allowed",
-    description:
-      "New Jersey allows carriers to use attained-age, issue-age, or community rating for Medigap premiums. Most carriers in New Jersey use attained-age rating, meaning premiums increase as you get older. Some carriers offer issue-age policies where premiums are locked at your enrollment age. Always ask which rating method a carrier uses before enrolling, as it significantly affects your long-term costs.",
+    "title": "A policy for each person",
+    "description": "A Medigap policy covers one person. Spouses can choose different insurers and plan letters; ask whether a household discount applies."
   },
   {
-    title: "No Birthday Rule or Anniversary Rule",
-    description:
-      "New Jersey does not have a birthday rule or anniversary rule. Your guaranteed-issue window is your 6-month Open Enrollment Period when you first enroll in Medicare Part B. After that window closes, insurers can apply medical underwriting and deny coverage or charge higher premiums based on health conditions.",
-  },
-  {
-    title: "Plans C and F Not Available to New Enrollees",
-    description:
-      "Federal law prohibits new Medicare enrollees (those who turned 65 on or after January 1, 2020) from purchasing Plans C and F. If you were already enrolled in Medicare before 2020, you may still be able to keep or switch to these plans. For new enrollees, Plan G is the most comprehensive option available.",
-  },
-  {
-    title: "New Jersey DOBI Regulates Medigap",
-    description:
-      "The New Jersey Department of Banking and Insurance (DOBI) oversees all Medigap policies sold in the state. Carriers must file rate changes and receive approval before implementing increases. You can verify carrier licenses and file complaints at dobi.nj.gov or by calling 1-800-446-7467.",
-  },
-  {
-    title: "Free Counseling via NJ SHIP",
-    description:
-      "New Jersey's State Health Insurance Assistance Program (SHIP) provides free, unbiased Medicare counseling. Call 1-800-792-8820 to speak with a trained counselor who can help you compare plans, understand your rights, and enroll. There is no cost and counselors do not sell insurance.",
-  },
+    "title": "Check guaranteed issue rights",
+    "description": "Certain coverage losses and trial-right situations can provide protection outside your initial enrollment window. Confirm your qualifying event, deadline, and available plan letters before applying."
+  }
 ];
 
 export const SCORING_FACTORS = [
@@ -201,43 +183,23 @@ export const SCORING_FACTORS = [
 
 export const FAQS: FaqItem[] = [
   {
-    question: "What is the best Medicare Supplement plan in New Jersey for 2026?",
-    answer:
-      "Plan G is the most popular and recommended Medigap plan in New Jersey for new enrollees. It covers nearly all Medicare out-of-pocket costs except the annual Part B deductible ($283 in 2026). AARP/UnitedHealthcare dominates the market with 47.1% share and strong member benefits. For the best value, Aetna at $148/mo or Cigna at $139/mo offer competitive pricing with solid financial ratings.",
+    "question": "Does Medigap include prescription drug coverage?",
+    "answer": "Policies sold today do not include prescription drug coverage. People with Original Medicare can consider a separate Part D plan and should check its enrollment rules."
   },
   {
-    question: "How much does Medicare Supplement Plan G cost in New Jersey?",
-    answer:
-      "Plan G premiums in New Jersey range from approximately $139/mo to $162/mo for a 65-year-old female nonsmoker in Newark. Premiums vary by carrier, ZIP code, age, gender, tobacco use, and rating method. The cheapest option is Cigna at $139/mo, though Aetna at $148/mo offers better value with a lower complaint ratio. New Jersey premiums are higher than most states due to the under-65 coverage mandate and market dynamics.",
+    "question": "Can my spouse use my Medigap policy?",
+    "answer": "No. Each policy covers one person. Compare individual coverage needs and ask about any household discount rather than assuming both spouses need the same insurer."
   },
   {
-    question: "Does New Jersey have a birthday rule for Medigap?",
-    answer:
-      "No. New Jersey does not have a birthday rule or anniversary rule. Your guaranteed-issue window is your 6-month Open Enrollment Period when you first enroll in Medicare Part B at age 65. After that window closes, insurers can apply medical underwriting. New Jersey does require insurers to offer at least one Medigap policy to under-65 Medicare beneficiaries, which is a stronger protection than most states.",
+    "question": "Does a lower premium mean fewer standardized benefits?",
+    "answer": "For the same standardized plan letter, the core benefits are the same across insurers. Compare the actual policy, including whether it is Medicare SELECT or a high-deductible version, before treating quotes as equivalent."
   },
   {
-    question: "Why are Medicare Supplement premiums higher in New Jersey?",
-    answer:
-      "New Jersey premiums are higher than the national average for several reasons. The state requires insurers to cover under-65 Medicare beneficiaries, which spreads risk across a broader and often sicker pool. New Jersey also has a higher cost of living and healthcare costs than most states. The result is Plan G premiums that run $139 to $162/mo compared to $87 to $113/mo in lower-cost states like Tennessee or Indiana.",
+    "question": "Does fall enrollment guarantee I can switch Medigap?",
+    "answer": "No. The fall Medicare enrollment period is not a general Medigap guaranteed issue window. An insurer may ask health questions unless an enrollment protection applies."
   },
   {
-    question: "What is the difference between Plan G and Plan N in New Jersey?",
-    answer:
-      "Plan G covers nearly everything except the $283 Part B deductible. Plan N also skips the Part B deductible but adds copays of up to $20 for some office visits and $50 for emergency room visits that do not result in inpatient admission, and does not cover Part B excess charges. Plan N premiums run $105 to $118/mo in New Jersey vs. $139 to $162/mo for Plan G. If you rarely visit doctors and your providers do not charge excess fees, Plan N can save $300 to $500 per year.",
-  },
-  {
-    question: "Can I switch Medicare Supplement plans in New Jersey?",
-    answer:
-      "Yes, you can apply to switch Medigap plans at any time in New Jersey, but outside of your Open Enrollment Period you will face medical underwriting. The new carrier will ask health questions and can deny coverage or charge higher premiums based on pre-existing conditions. New Jersey has no birthday rule or other special switching protections, so your OEP is the best time to lock in the right plan.",
-  },
-  {
-    question: "Is Horizon Blue Cross Blue Shield a good Medigap option in New Jersey?",
-    answer:
-      "Yes. Horizon BCBS NJ is the state's largest health insurer and holds 14.7% of the Medigap market. Their deep local roots and strong provider relationships across New Jersey make them a compelling choice for retirees who prefer a familiar local brand. Their Plan G premium of $155/mo is competitive for a local carrier, though AARP/UHC and Mutual of Omaha offer stronger national financial backing.",
-  },
-  {
-    question: "Where can I get free Medicare Supplement help in New Jersey?",
-    answer:
-      "New Jersey's State Health Insurance Assistance Program (SHIP) offers free, unbiased Medicare counseling. Call 1-800-792-8820 to speak with a trained counselor who can help you compare plans, understand your rights, and enroll. There is no cost and counselors do not sell insurance. The New Jersey Department of Banking and Insurance (DOBI) also maintains a consumer helpline at 1-800-446-7467.",
-  },
+    "question": "Will issue-age pricing keep my premium unchanged?",
+    "answer": "No. Issue-age pricing does not raise the premium simply because you get older, but other rate increases can still apply."
+  }
 ];
