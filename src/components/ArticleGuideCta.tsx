@@ -17,6 +17,11 @@ export const ARTICLE_GUIDE_CTAS:Record<string,{variant:"advantage"|"medigap"|"me
   "/medicare-supplement-plans/":{"variant":"medigap","description":"Comparing Medicare Supplement coverage? Enter your ZIP code to explore options in your area."},
   "/faqs/medicare-advantage-over-the-counter-cards/":{"variant":"advantage","description":"Comparing Medicare Advantage options? Enter your ZIP code to explore plans in your area. OTC benefits and eligibility vary by plan."},
   "/faqs/silver-sneakers-program/":{"variant":"medicare","description":"Exploring Medicare coverage options? Enter your ZIP code to compare plans in your area. Fitness benefits vary by plan."},
+  "/faqs/is-medicare-mandatory/":{"variant":"medicare","description":"Planning your Medicare coverage? Enter your ZIP code to explore options in your area."},
+  "/blog/medicare-part-b-annual-deductible-explained-what-youll-pay/":{"variant":"medicare","description":"Reviewing your Medicare costs and coverage? Enter your ZIP code to explore plan options in your area."},
+  "/faqs/qualified-medicare-beneficiary-program/":{"variant":"medicare","description":"Exploring Medicare coverage options? Enter your ZIP code to compare plans in your area. This form is for plan comparisons, not a QMB application."},
+  "/medicare-supplement-plans/high-deductible-plan-g/":{"variant":"medigap","description":"Comparing Medicare Supplement coverage? Enter your ZIP code to explore options in your area."},
+  "/faqs/medicare-part-b-give-back-plan/":{"variant":"advantage","description":"Comparing Medicare Advantage options? Enter your ZIP code to explore plans in your area. Give-back benefits and availability vary by plan."},
 };
 export default function ArticleGuideCta({path}:{path:string}){
   const config=ARTICLE_GUIDE_CTAS[path];
