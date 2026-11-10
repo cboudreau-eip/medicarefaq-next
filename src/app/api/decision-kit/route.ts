@@ -1,3 +1,4 @@
+import { randomUUID } from "node:crypto";
 import { allowedTestRecipient, queueKitPreview, n8nPreviewEnabled } from "@/lib/decision-kit/delivery";
 import { validateKitContact, type KitContact } from "@/lib/decision-kit/contract";
 import { NextRequest, NextResponse } from "next/server";
@@ -69,10 +70,10 @@ export async function POST(request: NextRequest) {
     const body = await request.json();
     const { firstName = "", email = "", month, day, year } = body;
 
-    // Real transactional sends are preview-only and restricted to approved test recipients.
+    // Preview sends are restricted; production requires its explicit delivery flag.
     let kitContact: KitContact | undefined;
     if (n8nPreviewEnabled()) {
-      try { kitContact = validateKitContact(body); }
+      try { kitContact = validateKitContact({ ...body, requestId: body.requestId ?? randomUUID() }); }
       catch { return NextResponse.json({ error: "Check your name, email, birthday, and email preference." }, { status: 400 }); }
       if (!allowedTestRecipient(kitContact.email)) return NextResponse.json({ error: "This preview accepts approved test addresses only." }, { status: 403 });
     }
@@ -195,17 +196,19 @@ export async function POST(request: NextRequest) {
     const pdfBytes = await pdfDoc.save();
     const base64 = Buffer.from(pdfBytes).toString("base64");
 
+    let pdfUrl: string | undefined;
     let emailDelivery: "queued" | "unavailable" | undefined;
     if (kitContact) {
       try {
         const queued = await queueKitPreview(kitContact, pdfBytes);
         emailDelivery = "queued";
+        pdfUrl = queued.url;
         console.info("[Decision Kit] n8n queued", queued.messageKey);
       } catch (error) {
         // Preserve the immediate PDF even when email delivery is unavailable.
         emailDelivery = "unavailable";
         const reason = error instanceof Error && /^n8n request failed \(\d{3}\)$/.test(error.message) ? error.message : "storage, connection, or configuration unavailable";
-        console.error("[Decision Kit] n8n preview delivery unavailable:", reason);
+        console.error("[Decision Kit] n8n delivery unavailable:", reason);
       }
     } else if (process.env.VERCEL_ENV === "production") {
       // Send email notification (fire-and-forget)
@@ -221,6 +224,7 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({
       pdf: base64,
       emailDelivery,
+      pdfUrl,
       filename: `Medicare_Decision_Kit_${firstName || "Personalized"}.pdf`,
       dates: {
         birthday65: formatDate(dates.birthday65),
