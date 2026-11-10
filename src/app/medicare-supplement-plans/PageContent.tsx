@@ -22,6 +22,7 @@ import {
   Users,
   FileText,
 } from "lucide-react";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import ZipFormModal from "@/components/ZipFormModal";
 import { trackPhoneClick } from "@/lib/analytics";
 
@@ -212,6 +213,7 @@ export default function MedicareSupplement() {
                 <p className="text-slate-600 leading-relaxed mb-8">
                   Medigap plans are <strong>federally standardized</strong>, meaning each plan letter (A through N) offers the same benefits regardless of which insurance company sells it. The only difference between companies is the premium price and customer service.
                 </p>
+                <ArticleGuideCta path="/medicare-supplement-plans/" />
                 <ul className="grid md:grid-cols-3 gap-4 mb-8 list-none">
                   {[
                     { icon: Shield, title: "Standardized Benefits", desc: "Plan G from Company A = Plan G from Company B. Same coverage, guaranteed." },
