@@ -2,7 +2,7 @@
 import GuideCta from "./GuideCta";
 
 // Explicit rollout list: shared templates do not opt other articles in automatically.
-export const ARTICLE_GUIDE_CTAS:Record<string,{variant:"advantage"|"medigap"|"medicare";description:string}>={
+export const ARTICLE_GUIDE_CTAS:Record<string,{variant:"part-d"|"advantage"|"medigap"|"medicare";description:string}>={
   "/faqs/medicare-grocery-allowance/":{variant:"advantage",description:"Comparing Medicare Advantage options? Enter your ZIP code to explore plans in your area. Benefits and eligibility vary by plan."},
   "/faqs/switch-medicare-advantage-to-medicare-supplement/":{variant:"medigap",description:"Considering a switch to Medicare Supplement coverage? Enter your ZIP code to explore your options. Enrollment and eligibility requirements apply."},
   "/blog/90-essential-facts-about-the-90-medicare-part-b-rebate/":{variant:"medicare",description:"Reviewing your Medicare coverage options? Enter your ZIP code to explore plans in your area. This form is for plan comparisons, not rebate applications."},
@@ -22,6 +22,11 @@ export const ARTICLE_GUIDE_CTAS:Record<string,{variant:"advantage"|"medigap"|"me
   "/faqs/qualified-medicare-beneficiary-program/":{"variant":"medicare","description":"Exploring Medicare coverage options? Enter your ZIP code to compare plans in your area. This form is for plan comparisons, not a QMB application."},
   "/medicare-supplement-plans/high-deductible-plan-g/":{"variant":"medigap","description":"Comparing Medicare Supplement coverage? Enter your ZIP code to explore options in your area."},
   "/faqs/medicare-part-b-give-back-plan/":{"variant":"advantage","description":"Comparing Medicare Advantage options? Enter your ZIP code to explore plans in your area. Give-back benefits and availability vary by plan."},
+  "/faqs/medical-rides/":{"variant":"medicare","description":"Exploring Medicare coverage options? Enter your ZIP code to compare plans in your area. Transportation benefits vary by plan; this form does not book a ride."},
+  "/faqs/top-5-medicare-prescription-drug-plans/":{"variant":"part-d","description":"Comparing prescription drug coverage? Enter your ZIP code to explore Part D plans in your area."},
+  "/faqs/medicare-and-employer-coverage/":{"variant":"medicare","description":"Planning your transition from employer coverage? Enter your ZIP code to explore Medicare options in your area."},
+  "/faqs/when-is-medicare-primary/":{"variant":"medicare","description":"Reviewing your Medicare coverage options? Enter your ZIP code to explore plans in your area."},
+  "/blog/medicare-part-d-subsidy-ending-2027/":{"variant":"part-d","description":"Reviewing your prescription drug coverage? Enter your ZIP code to explore available Part D plans in your area."},
 };
 export default function ArticleGuideCta({path}:{path:string}){
   const config=ARTICLE_GUIDE_CTAS[path];
