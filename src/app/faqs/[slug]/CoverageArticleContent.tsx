@@ -1,4 +1,5 @@
 "use client";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import { renderInline } from "@/components/ArticleInline";
 
 /**
@@ -471,6 +472,8 @@ export default function CoverageArticleContent({ article, sidebarLinks }: { arti
                 </div>
                 <p className="text-[#4B5563] text-[15px] leading-relaxed">{renderInline(article.quickAnswer.text)}</p>
               </div>
+
+              <ArticleGuideCta path={`/faqs/${article.slug}/`} />
 
               {/* Static Rate Table for Medicare Tax Rate page */}
               {article.slug === "medicare-tax-rate" && (

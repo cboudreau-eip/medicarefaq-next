@@ -1,4 +1,5 @@
 "use client";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import { renderInline } from "@/components/ArticleInline";
 
 /**
@@ -660,6 +661,7 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
                   let renderedSectionCount = 0;
                   while (i < article.sections.length) {
                     const section = article.sections[i];
+                    if (i === (secondH2Index >= 0 ? secondH2Index : 1)) elements.push(<ArticleGuideCta key="tracked-guide-cta" path={`/blog/${article.slug}/`} />);
                     // Insert key takeaways before the second h2 (after intro paragraphs)
                     if (!keyTakeawaysInserted && i === secondH2Index && article.keyTakeaways && article.keyTakeaways.length > 0) {
                       elements.push(

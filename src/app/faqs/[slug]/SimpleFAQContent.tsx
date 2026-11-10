@@ -1,4 +1,5 @@
 "use client";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import { renderInline } from "@/components/ArticleInline";
 
 /**
@@ -477,6 +478,7 @@ export default function SimpleFAQContent({ article, blogSlugs }: { article: Simp
                     return (
                       <React.Fragment key={i}>
                         {renderRichSection(section, i)}
+                        {i === article.richSections!.findIndex(s => s.type === "paragraph") && <ArticleGuideCta path={`/faqs/${article.slug}/`} />}
                         {article.showInlineCta && i === midpoint && (
                           <InlineCardCTA pageSection={`faq_simple_${article.slug}`} />
                         )}
@@ -497,6 +499,7 @@ export default function SimpleFAQContent({ article, blogSlugs }: { article: Simp
                           {renderInline(p, String(j))}
                         </p>
                       ))}
+                      {i === 0 && <ArticleGuideCta path={`/faqs/${article.slug}/`} />}
                       {section.listItems && section.listItems.length > 0 && (
                         <ul className="list-disc pl-6 space-y-1.5 text-[#4B5563] text-[15px] mb-3">
                           {section.listItems.map((item, k) => (
