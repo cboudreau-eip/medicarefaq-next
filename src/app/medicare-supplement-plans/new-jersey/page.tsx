@@ -3,17 +3,16 @@ import SiteLayout from "@/components/SiteLayout";
 import PageContent from "./PageContent";
 
 export const metadata: Metadata = {
-  robots: { index: false, follow: false },
-  title: "Best Medicare Supplement Plans in New Jersey 2026 | MedicareFAQ",
+  title: "Medicare Supplement (Medigap) Plans in New Jersey",
   description:
-    "Compare the best Medicare Supplement plans in New Jersey for 2026. See top-rated carriers, premiums from $139/mo, under-65 coverage rules, and state regulations.",
+    "Compare New Jersey Medigap coverage, costs, enrollment protections, underwriting, and steps for switching policies.",
   alternates: {
     canonical: "https://www.medicarefaq.com/medicare-supplement-plans/new-jersey/",
   },
   openGraph: {
-    title: "Best Medicare Supplement Plans in New Jersey 2026",
+    title: "Medicare Supplement (Medigap) Plans in New Jersey",
     description:
-      "Compare top Medigap carriers in New Jersey. AARP/UHC dominates with 47% market share. See premiums from $139/mo, Horizon BCBS NJ, and under-65 coverage requirements.",
+      "Understand New Jersey Medigap coverage, under-65 protections, pricing, and how to enroll or switch.",
     url: "https://www.medicarefaq.com/medicare-supplement-plans/new-jersey/",
     type: "article",
   },
@@ -23,10 +22,10 @@ export default function NewJerseyPage() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "Best Medicare Supplement Plans in New Jersey 2026 | MedicareFAQ",
-    description: "Compare the best Medicare Supplement plans in New Jersey for 2026. See top-rated carriers, premiums from $139/mo, under-65 coverage rules, and state regulations.",
+    headline: "Medicare Supplement (Medigap) Plans in New Jersey",
+    description: "Compare New Jersey Medigap coverage, costs, enrollment protections, underwriting, and steps for switching policies.",
     url: "https://www.medicarefaq.com/medicare-supplement-plans/new-jersey/",
-    dateModified: "2026-01-01",
+    dateModified: "2026-11-10",
     author: { "@type": "Organization", name: "MedicareFAQ" },
     publisher: {
       "@type": "Organization",

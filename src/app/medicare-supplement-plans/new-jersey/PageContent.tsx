@@ -1,86 +1,44 @@
 "use client";
 
-/**
- * New Jersey Medicare Supplement Comparison Page
- * Route: /medicare-supplement-plans/new-jersey/
- * Key differentiators: No birthday rule, attained-age rating, Horizon BCBS is dominant local carrier,
- *                      Plan G from $142/mo in Newark, ~400,000 enrollees, no special switching rules,
- *                      SHIP free counseling at 1-800-792-8820, DOBI regulation
- */
+
 
 import { EligibilityGuide, PracticalGuide } from "./GuideSections";
-import { useState } from "react";
 import Link from "next/link";
 import {
   ChevronDown,
-  ChevronUp,
   Phone,
   ArrowRight,
   Shield,
-  Star,
-  Users,
-  TrendingDown,
   Award,
   Building2,
   CheckCircle2,
   XCircle,
   Info,
   MapPin,
-  BarChart3,
   Clock,
   AlertTriangle,
-  DollarSign,
 } from "lucide-react";
 import ZipFormModal from "@/components/ZipFormModal";
 import EddieProTip from "@/components/EddieProTip";
 import {
   CARRIERS,
-  STATE_STATS,
   FAQS,
-  SCORING_FACTORS,
   STATE_RULES,
   PREMIUM_TABLE,
   type Carrier,
 } from "@/lib/new-jersey-medigap-data";
 import { trackPhoneClick } from "@/lib/analytics";
 
-function getScoreColor(score: number) {
-  if (score >= 4.5) return "bg-emerald-100 text-emerald-800 border-emerald-200";
-  if (score >= 4.0) return "bg-blue-100 text-blue-800 border-blue-200";
-  if (score >= 3.5) return "bg-amber-100 text-amber-800 border-amber-200";
-  return "bg-slate-100 text-slate-800 border-slate-200";
-}
-
-function StarRating({ score }: { score: number }) {
-  const fullStars = Math.floor(score);
-  const hasHalf = score - fullStars >= 0.3;
-  return (
-    <div className="flex items-center gap-0.5">
-      {Array.from({ length: 5 }).map((_, i) => (
-        <Star
-          key={i}
-          className={`w-4 h-4 ${
-            i < fullStars
-              ? "fill-amber-400 text-amber-400"
-              : i === fullStars && hasHalf
-              ? "fill-amber-400/50 text-amber-400"
-              : "fill-slate-200 text-slate-200"
-          }`} aria-hidden="true" />
-      ))}
-    </div>
-  );
-}
-
 function CarrierCard({ carrier, rank }: { carrier: Carrier; rank: number }) {
-  const [expanded, setExpanded] = useState(false);
+
 
   return (
     <div className="border border-slate-200 rounded-xl overflow-hidden hover:border-blue-300 hover:shadow-md transition-all">
       <div className="bg-slate-50 px-5 py-2 border-b border-slate-200 flex items-center justify-between">
         <span className="text-xs font-bold text-slate-500 uppercase tracking-wider">
-          {carrier.badge}
+          Compare coverage and costs
         </span>
-        <span className="text-xs text-slate-400">#{rank}</span>
+
       </div>
 
       <div className="p-5">
@@ -92,34 +50,26 @@ function CarrierCard({ carrier, rank }: { carrier: Carrier; rank: number }) {
               </div>
               <div>
                 <h3 className="text-lg font-bold text-slate-900">{carrier.name}</h3>
-                <div className="flex items-center gap-2 mt-1">
-                  <StarRating score={carrier.score} />
-                  <span
-                    className={`text-xs font-bold px-2 py-0.5 rounded-full border ${getScoreColor(carrier.score)}`}
-                  >
-                    {carrier.score.toFixed(1)}
-                  </span>
-                  <span className="text-xs text-slate-500">MedicareFAQ Score</span>
-                </div>
+
               </div>
             </div>
 
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mt-4">
               <div className="text-center p-2 bg-slate-50 rounded-lg">
                 <p className="text-xs text-slate-500 mb-0.5">Plan G</p>
-                <p className="text-sm font-bold text-slate-900">{carrier.planGMonthly}/mo</p>
+                <p className="text-sm font-bold text-slate-900">Request a quote</p>
               </div>
               <div className="text-center p-2 bg-slate-50 rounded-lg">
                 <p className="text-xs text-slate-500 mb-0.5">Plan N</p>
-                <p className="text-sm font-bold text-slate-900">{carrier.planNMonthly}/mo</p>
+                <p className="text-sm font-bold text-slate-900">Request a quote</p>
               </div>
               <div className="text-center p-2 bg-slate-50 rounded-lg">
-                <p className="text-xs text-slate-500 mb-0.5">AM Best</p>
-                <p className="text-sm font-bold text-slate-900">{carrier.amBest}</p>
+                <p className="text-xs text-slate-500 mb-0.5">Availability</p>
+                <p className="text-sm font-bold text-slate-900">Confirm by ZIP</p>
               </div>
             </div>
 
-            <p className="text-sm text-slate-600 mt-3 leading-relaxed">{carrier.highlight}</p>
+            <p className="text-sm text-slate-600 mt-3 leading-relaxed">Ask for current plan availability, premiums, discounts, and underwriting requirements for your ZIP code. Compare the same plan letter and effective date across insurers.</p>
           </div>
 
           <div className="flex flex-col gap-2 md:w-48 shrink-0">
@@ -138,7 +88,7 @@ function CarrierCard({ carrier, rank }: { carrier: Carrier; rank: number }) {
             />
             <a
               href="tel:+18883358996"
-              
+
               data-invoca-phone-number="18883358996"
               onClick={() =>
                 trackPhoneClick({
@@ -153,40 +103,7 @@ function CarrierCard({ carrier, rank }: { carrier: Carrier; rank: number }) {
           </div>
         </div>
 
-        <button
-          onClick={() => setExpanded(!expanded)}
-          className="mt-4 flex items-center gap-1 text-sm text-blue-600 hover:text-blue-800 font-medium transition-colors"
-        >
-          {expanded ? "Hide details" : "Show pros and cons"}
-          {expanded ? <ChevronUp className="w-4 h-4" aria-hidden="true" /> : <ChevronDown className="w-4 h-4" aria-hidden="true" />}
-        </button>
 
-        {expanded && (
-          <div className="mt-4 pt-4 border-t border-slate-100 grid md:grid-cols-2 gap-4">
-            <div>
-              <p className="text-xs font-bold text-emerald-700 uppercase tracking-wider mb-2">Pros</p>
-              <ul className="space-y-1.5">
-                {carrier.pros.map((pro, i) => (
-                  <li key={i} className="flex items-start gap-2 text-sm text-slate-700">
-                    <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" aria-hidden="true" />
-                    {pro}
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div>
-              <p className="text-xs font-bold text-red-700 uppercase tracking-wider mb-2">Cons</p>
-              <ul className="space-y-1.5">
-                {carrier.cons.map((con, i) => (
-                  <li key={i} className="flex items-start gap-2 text-sm text-slate-700">
-                    <XCircle className="w-4 h-4 text-red-400 shrink-0 mt-0.5" aria-hidden="true" />
-                    {con}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        )}
       </div>
     </div>
   );
@@ -209,7 +126,6 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
 export default function NewJerseyPageContent() {
   return (
     <article className="min-h-screen bg-white">
-      <div className="bg-amber-50 border-b border-amber-200 px-5 py-3 text-center text-sm text-amber-950">Private review copy — not published. <a className="font-bold underline" href="https://www.medicarefaq.com/medicare-supplement-plans/new-jersey/" target="_blank" rel="noopener noreferrer">Compare the current live page ↗</a></div>
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-slate-900 pt-8 pb-16 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
@@ -232,7 +148,7 @@ export default function NewJerseyPageContent() {
               <span className="text-2xl font-black text-white">NJ</span>
             </div>
             <span className="text-xs font-bold px-3 py-1 rounded-full border bg-teal-100 text-teal-800 border-teal-200">
-              Guide preview · November 2026
+              Updated November 2026
             </span>
           </div>
 
@@ -262,7 +178,7 @@ export default function NewJerseyPageContent() {
             />
             <a
               href="tel:+18883358996"
-              
+
               data-invoca-phone-number="18883358996"
               onClick={() =>
                 trackPhoneClick({
@@ -291,7 +207,7 @@ export default function NewJerseyPageContent() {
             Compare Medicare Supplement Carriers in New Jersey
           </h2>
           <p className="text-slate-600 mb-8">
-            The existing carrier comparison is retained below for layout review. These premiums, ratings, and carrier claims still need a current source check before publication. They are not verified current quotes.
+            Use these carriers as a starting point for comparing policies. Availability and underwriting vary. Request a current quote rather than relying on a statewide starting price.
           </p>
 
           <div className="space-y-4">
@@ -312,7 +228,7 @@ export default function NewJerseyPageContent() {
             Medicare Supplement Prices in New Jersey
           </h2>
           <p className="text-slate-600 mb-6">
-            Existing sample premiums are shown for comparison with the original page. Their source date and discount assumptions need verification before publication; request a current personalized quote.
+            Premiums depend on the applicant, policy, location, effective date, and discounts. Compare personalized quotes using the same details for each insurer.
           </p>
 
           <div className="bg-white rounded-xl border border-slate-200 overflow-hidden">
@@ -330,9 +246,9 @@ export default function NewJerseyPageContent() {
                   {PREMIUM_TABLE.map((row, i) => (
                     <tr key={row.carrier} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
                       <td className="px-5 py-3 font-medium text-slate-900">{row.carrier}</td>
-                      <td className="px-5 py-3 text-center font-semibold text-slate-700">{row.planG}</td>
-                      <td className="px-5 py-3 text-center font-semibold text-slate-700">{row.planN}</td>
-                      <td className="px-5 py-3 text-center font-semibold text-slate-700">{row.planF}</td>
+                      <td className="px-5 py-3 text-center font-semibold text-slate-700">Request a quote</td>
+                      <td className="px-5 py-3 text-center font-semibold text-slate-700">Request a quote</td>
+                      <td className="px-5 py-3 text-center font-semibold text-slate-700">Check eligibility and quote</td>
                     </tr>
                   ))}
                 </tbody>
@@ -340,7 +256,7 @@ export default function NewJerseyPageContent() {
             </div>
             <div className="px-5 py-3 bg-slate-50 border-t border-slate-200">
               <p className="text-xs text-slate-500">
-                Preview note: legacy May 2026 figures retained for review, not a current market-low claim.
+                Plan F is generally available only if you were first eligible for Medicare before January 1, 2020. Confirm each insurer’s current offerings.
               </p>
             </div>
           </div>
@@ -479,7 +395,7 @@ export default function NewJerseyPageContent() {
             </div>
             <div className="px-5 py-3 bg-slate-50 border-t border-slate-200">
               <p className="text-xs text-slate-500">
-                *Plan N covers Part B coinsurance but requires a copay of up to $20 at doctor
+                *Plan N covers Part B coinsurance but requires a copay of up to $20 at some doctor
                 visits and up to $50 at emergency rooms (waived if admitted). Part B excess charges
                 are not covered by Plan N, so choose providers who accept Medicare assignment.
               </p>
@@ -548,48 +464,6 @@ export default function NewJerseyPageContent() {
         </div>
       </section>
 
-      {/* Scoring Methodology */}
-      <section className="py-12">
-        <div className="container max-w-4xl">
-          <h2
-            className="text-2xl md:text-3xl font-bold text-slate-900 mb-2"
-            style={{ fontFamily: "'Merriweather', serif" }}
-          >
-            MedicareFAQ Scoring Methodology
-          </h2>
-          <p className="text-slate-600 mb-6">
-            The MedicareFAQ Score rates Medicare Supplement carriers on a scale of 1.0 to 5.0 based
-            on five key factors. Our ratings are independent and not influenced by advertising
-            relationships.
-          </p>
-
-          <div className="bg-white border border-slate-200 rounded-xl overflow-hidden">
-            {SCORING_FACTORS.map((factor, i) => (
-              <div
-                key={factor.factor}
-                className={`flex items-start gap-4 p-4 ${
-                  i < SCORING_FACTORS.length - 1 ? "border-b border-slate-100" : ""
-                }`}
-              >
-                <div className="w-16 shrink-0">
-                  <span className="text-sm font-bold text-blue-600">{factor.weight}</span>
-                </div>
-                <div>
-                  <p className="font-semibold text-slate-900 text-sm">{factor.factor}</p>
-                  <p className="text-xs text-slate-500 mt-0.5">{factor.description}</p>
-                </div>
-              </div>
-            ))}
-            <div className="px-4 py-3 bg-slate-50 border-t border-slate-200">
-              <p className="text-xs text-slate-500">
-                Last updated: May 2026 | Data sources: NAIC complaint ratios, AM Best ratings,
-                CMS Medicare Plan Finder, FairSquare Medicare, NerdWallet
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* FAQ Section */}
       <section className="py-12 bg-slate-50">
         <div className="container max-w-4xl">
@@ -633,7 +507,7 @@ export default function NewJerseyPageContent() {
               />
               <a
                 href="tel:+18883358996"
-                
+
                 data-invoca-phone-number="18883358996"
                 onClick={() =>
                   trackPhoneClick({
