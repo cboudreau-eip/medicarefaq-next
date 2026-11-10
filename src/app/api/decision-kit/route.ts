@@ -210,9 +210,11 @@ export async function POST(request: NextRequest) {
         const reason = error instanceof Error && /^n8n request failed \(\d{3}\)$/.test(error.message) ? error.message : "storage, connection, or configuration unavailable";
         console.error("[Decision Kit] n8n delivery unavailable:", reason);
       }
-    } else if (process.env.VERCEL_ENV === "production") {
-      // Send email notification (fire-and-forget)
-      sendDecisionKitNotification({
+    }
+    if (process.env.VERCEL_ENV === "production") {
+      // Internal notifications run independently of webhook success. Await the bounded
+      // send so the function cannot finish before Resend accepts the request.
+      await sendDecisionKitNotification({
         firstName: firstName || "Not provided",
         email: email || "Not provided",
         dob: formatDate(dob),
@@ -301,6 +303,7 @@ async function sendDecisionKitNotification(data: {
 
   try {
     const res = await fetch("https://api.resend.com/emails", {
+      signal: AbortSignal.timeout(10000),
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -315,11 +318,12 @@ async function sendDecisionKitNotification(data: {
     });
 
     if (!res.ok) {
-      const errorBody = await res.text();
-      console.error("[Decision Kit] Resend API error:", res.status, errorBody);
+      console.error("[Decision Kit] Resend API error:", res.status);
+    } else {
+      console.info("[Decision Kit] Internal notification accepted");
     }
-  } catch (error) {
-    console.error("[Decision Kit] Email send failed:", error);
+  } catch {
+    console.error("[Decision Kit] Internal notification unavailable");
   }
 }
 
