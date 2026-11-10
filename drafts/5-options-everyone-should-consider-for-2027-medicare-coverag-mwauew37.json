@@ -613,7 +613,7 @@
       "type": "callout",
       "calloutType": "info",
       "calloutTitle": "Key Takeaways",
-      "calloutText": "There is no single best Medicare option for everyone; the right fit depends on your doctors, prescriptions, travel habits, and budget.\nThe [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period/) runs October 15 through December 7, 2026, for coverage starting January 1, 2027, with a separate [[Medicare Advantage](/faqs/original-medicare-vs-medicare-advantage/) Open Enrollment Period](/faqs/medicare-advantage-open-enrollment-period/) from January 1 through March 31, 2027, for those already in a Medicare Advantage plan.\nBroader provider access and predictable costs generally come with higher monthly premiums, while lower premiums often mean narrower networks.\nReviewing your current plan's costs and your doctor and prescription list before the deadline makes comparing options far less stressful."
+      "calloutText": "There is no single best Medicare option for everyone; the right fit depends on your doctors, prescriptions, travel habits, and budget.\nThe [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period/) runs October 15 through December 7, 2026, for coverage starting January 1, 2027, with a separate [[Medicare Advantage](/faqs/original-medicare-vs-medicare-advantage/) Open Enrollment Period](/faqs/medicare-advantage-open-enrollment-period/) from January 1 through March 31, 2027, for those already in a Medicare Advantage plan.\nBroader provider access and predictable costs generally come with higher monthly premiums, while lower premiums often mean narrower networks.\nReviewing your current plan's costs and your doctor and prescription list before the deadline makes comparing options far less stressful.\nMedicare Part D now includes an annual out-of-pocket cap on prescription drug costs, a change that took effect in 2025 and continues into 2027.\nHigher-income enrollees may owe an income-related monthly adjustment amount (IRMAA) on top of standard Part B and Part D premiums."
     },
     {
       "type": "heading",
@@ -627,7 +627,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Original Medicare covers most medically necessary services, but it leaves you responsible for deductibles and coinsurance, and there is no annual out-of-pocket maximum. This structure means your costs can be unpredictable if you need extensive care during the year."
+      "content": "Original Medicare covers most medically necessary services, but it leaves you responsible for deductibles and coinsurance, and there is no annual out-of-pocket maximum. This structure means your costs can be unpredictable if you need extensive care during the year. For example, someone who needs an extended hospital stay and several months of outpatient treatment could face several thousand dollars in combined deductibles and coinsurance, since Original Medicare does not cap what you pay out of pocket in a given year."
     },
     {
       "type": "paragraph",
@@ -635,7 +635,7 @@
     },
     {
       "type": "paragraph",
-      "content": "One important gap to plan for: Original Medicare alone does not include prescription drug coverage. If you choose this path, you will need to make a separate decision about adding a [Part D drug plan](/faqs/medicare-and-prescription-drugs-whats-covered-and-whats-not/)."
+      "content": "One important gap to plan for: Original Medicare alone does not include prescription drug coverage. If you choose this path, you will need to make a separate decision about adding a [Part D drug plan](/faqs/medicare-and-prescription-drugs-whats-covered-and-whats-not/). Keep in mind that Part D now includes an annual out-of-pocket cap on covered drug costs, a protection that began in 2025 and remains in place for 2027, which can make budgeting for prescriptions more predictable than in past years."
     },
     {
       "type": "heading",
@@ -653,11 +653,15 @@
     },
     {
       "type": "paragraph",
-      "content": "The tradeoff is cost. Medigap typically carries a higher monthly premium than the other paths in this article, in exchange for lower costs when you actually need care."
+      "content": "The tradeoff is cost. Medigap typically carries a higher monthly premium than the other paths in this article, in exchange for lower costs when you actually need care. For instance, someone who pays a higher Medigap premium each month but then undergoes an unexpected surgery may end up paying far less overall than someone in a lower-premium plan who is suddenly responsible for thousands of dollars in deductibles and coinsurance during the same year."
     },
     {
       "type": "paragraph",
-      "content": "Timing matters here. Applying for a [[Medigap plan](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one/)](/medicare-supplement-plans/plan-g/) outside your initial enrollment window may involve medical underwriting in many states, which can affect your ability to get coverage or the price you pay. Evaluating this option early, rather than waiting, is generally worth the extra attention."
+      "content": "Timing matters here. When you are new to Medicare, you generally have a 6-month federal Medigap guaranteed-issue window, starting when you are both 65 or older and enrolled in Part B, during which you can enroll in a [[Medigap plan](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one/)](/medicare-supplement-plans/plan-g/) without medical underwriting. This 6-month window is a federal baseline, and some states offer additional guaranteed-issue protections or different rules, such as extended windows or annual open enrollment periods for Medigap, so it is worth checking your state's specific requirements. If you later try to switch Medigap plans or apply outside this initial window, insurers in many states can use medical underwriting, which can affect your ability to get coverage or the price you pay. Evaluating this option early, rather than waiting, is generally worth the extra attention."
+    },
+    {
+      "type": "paragraph",
+      "content": "It is also worth noting that not everyone qualifies for Medicare through age. Some people become eligible for Medicare before age 65 due to a qualifying disability, often after receiving Social Security Disability Insurance (SSDI) for a required period. For those under 65, federal law does not guarantee the same Medigap guaranteed-issue rights that apply at 65 or older, though some states require insurers to offer Medigap coverage to eligible under-65 enrollees as well, sometimes with different conditions or at a higher cost. If you qualify for Medicare under 65, it is especially important to check your state's specific Medigap rules before assuming the standard guaranteed-issue timeline applies to you."
     },
     {
       "type": "heading",
@@ -675,7 +679,7 @@
     },
     {
       "type": "paragraph",
-      "content": "This path tends to suit budget-conscious enrollees who are comfortable working within network restrictions and who value having an annual out-of-pocket maximum for protection against high-cost years. The 2026 out-of-pocket maximum under [Medicare Advantage](/faqs/original-medicare-vs-medicare-advantage/) is capped at $9,250, which gives enrollees a ceiling on what they will spend."
+      "content": "This path tends to suit budget-conscious enrollees who are comfortable working within network restrictions and who value having an annual out-of-pocket maximum for protection against high-cost years. According to CMS.gov, the 2026 out-of-pocket maximum under [Medicare Advantage](/faqs/original-medicare-vs-medicare-advantage/) is capped at $9,250, which gives enrollees a ceiling on what they will spend. Enrollees with higher incomes should also keep IRMAA in mind, since it can increase what you pay for Part B premiums regardless of which Medicare Advantage plan you choose."
     },
     {
       "type": "paragraph",
@@ -697,7 +701,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Because drug coverage varies by plan, checking a plan's drug formulary matters before you enroll. Covered medications and their tier pricing can differ significantly from one plan to another, even among plans offered by the same insurer."
+      "content": "Because drug coverage varies by plan, checking a plan's drug formulary matters before you enroll. Covered medications and their tier pricing can differ significantly from one plan to another, even among plans offered by the same insurer. For example, two enrollees taking the same brand-name medication could see very different costs, one paying a modest copay under a plan that places the drug on a lower tier, and the other paying substantially more out of pocket under a plan that places it on a higher tier or requires prior authorization. Regardless of which plan you choose, the Part D annual out-of-pocket cap, in effect since 2025 and continuing into 2027, places a ceiling on what you will spend on covered prescriptions in a given year."
     },
     {
       "type": "paragraph",
@@ -751,7 +755,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Rather than choosing based on premium price alone, it helps to think through your own doctors, your current prescriptions, and the care you anticipate needing in the coming year. A plan that looks affordable on paper may cost more overall if it does not include your specialists or medications."
+      "content": "Rather than choosing based on premium price alone, it helps to think through your own doctors, your current prescriptions, and the care you anticipate needing in the coming year. A plan that looks affordable on paper may cost more overall if it does not include your specialists or medications. If you have a higher income, also factor in IRMAA, which can raise your Part B and Part D premiums regardless of which coverage path you choose."
     },
     {
       "type": "heading",
@@ -844,7 +848,7 @@
         },
         {
           "question": "What changes should I watch for with Medicare in 2027?",
-          "answer": "Review your Annual Notice of Change letter each fall for plan-specific updates to costs, networks, and covered drugs. Relying on this letter, rather than general assumptions about how your plan worked last year, gives you the most accurate picture of what is changing."
+          "answer": "Review your Annual Notice of Change letter each fall for plan-specific updates to costs, networks, and covered drugs. Relying on this letter, rather than general assumptions about how your plan worked last year, gives you the most accurate picture of what is changing. It is also worth keeping an eye on the Part D annual out-of-pocket cap, which continues into 2027, and on whether your income could subject you to IRMAA surcharges on your Part B or Part D premiums."
         }
       ]
     },
@@ -970,6 +974,6 @@
     }
   ],
   "id": "5-options-everyone-should-consider-for-2027-medicare-coverag-mwauew37",
-  "updatedAt": "2026-11-10T15:31:16.996Z",
-  "createdAt": "2026-11-10T15:31:16.996Z"
+  "updatedAt": "2026-11-10T15:42:14.792Z",
+  "createdAt": "2026-11-10T15:42:14.792Z"
 }
