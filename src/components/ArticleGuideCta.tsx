@@ -27,6 +27,11 @@ export const ARTICLE_GUIDE_CTAS:Record<string,{variant:"part-d"|"advantage"|"med
   "/faqs/medicare-and-employer-coverage/":{"variant":"medicare","description":"Planning your transition from employer coverage? Enter your ZIP code to explore Medicare options in your area."},
   "/faqs/when-is-medicare-primary/":{"variant":"medicare","description":"Reviewing your Medicare coverage options? Enter your ZIP code to explore plans in your area."},
   "/blog/medicare-part-d-subsidy-ending-2027/":{"variant":"part-d","description":"Reviewing your prescription drug coverage? Enter your ZIP code to explore available Part D plans in your area."},
+  "/blog/best-medicare-plan-comparison-tools/":{"variant":"medicare","description":"Ready to compare Medicare coverage? Enter your ZIP code to explore options in your area."},
+  "/faqs/can-my-employer-pay-my-medicare-premiums/":{"variant":"medicare","description":"Reviewing your Medicare coverage options? Enter your ZIP code to explore plans in your area. This form does not arrange employer premium reimbursement."},
+  "/faqs/medicare-supplement-open-enrollment/":{"variant":"medigap","description":"Exploring Medicare Supplement coverage? Enter your ZIP code to compare options in your area. Enrollment and eligibility requirements apply."},
+  "/faqs/can-i-cancel-medicare-advantage-plan/":{"variant":"medicare","description":"Considering a change to your Medicare coverage? Enter your ZIP code to explore options in your area. This form does not cancel your current plan."},
+  "/blog/medicare-and-hsa-rules-what-happens-when-you-turn-65/":{"variant":"medicare","description":"Planning your transition to Medicare? Enter your ZIP code to explore coverage options in your area."},
 };
 export default function ArticleGuideCta({path}:{path:string}){
   const config=ARTICLE_GUIDE_CTAS[path];
