@@ -6,6 +6,7 @@
  * Follows the Clarity System design language.
  */
 
+import GuideCta from "@/components/GuideCta";
 import { useState, useMemo, useEffect, useCallback } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
@@ -237,6 +238,10 @@ export default function SearchResults() {
             </div>
           </div>
         )}
+
+        <div className="container max-w-4xl mx-auto pt-8">
+          <GuideCta variant="medicare" description="Looking for Medicare coverage options? Enter your ZIP code to explore plans in your area." />
+        </div>
 
         {/* ─── Results ─── */}
         <section className="py-8 md:py-10">

@@ -1,3 +1,4 @@
+import GuideCta from "@/components/GuideCta";
 import type { AEPBannerStage } from "@/components/AEPStickyBanner";
 import SiteHeader from "@/components/SiteHeader";
 import HeroSection from "@/components/HeroSection";
@@ -17,6 +18,9 @@ export default function AEPHomePage({ stage }: { stage: AEPBannerStage }) {
 
       <main className="flex-1">
         <HeroSection headline="Medicare Annual Enrollment Is Open. Explore Your 2027 Options." aepPreview />
+        <div className="container py-8">
+          <GuideCta variant="medicare" />
+        </div>
         <JourneySection />
         <TopicSection />
         <ZipFinderSection />

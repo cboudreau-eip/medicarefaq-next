@@ -1,5 +1,6 @@
 "use client";
 
+import GuideCta from "@/components/GuideCta";
 import { useRef, useState } from "react";
 import Link from "next/link";
 import { DECISION_KIT_CONSENT_TEXT } from "@/lib/decision-kit-consent";
@@ -366,6 +367,10 @@ export default function DecisionKitPage() {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="mt-8">
+          <GuideCta variant="medicare" description="Ready to explore coverage alongside your enrollment timeline? Enter your ZIP code to compare Medicare options in your area." />
         </div>
 
         {/* Trust indicators */}

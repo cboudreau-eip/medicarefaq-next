@@ -1,3 +1,4 @@
+import GuideCta from "@/components/GuideCta";
 import UtilityBar from "@/components/UtilityBar";
 import HeaderBar from "@/components/HeaderBar";
 import MegaMenu from "@/components/MegaMenu";
@@ -32,6 +33,9 @@ export default function OriginalHomePage({ header }: { header?: React.ReactNode 
       {/* Main Content */}
       <main className="flex-1">
         <HeroSection />
+        <div className="container py-8">
+          <GuideCta variant="medicare" />
+        </div>
         <JourneySection />
         <TopicSection />
         <ZipFinderSection />

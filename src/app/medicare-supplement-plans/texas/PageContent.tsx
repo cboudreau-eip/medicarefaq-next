@@ -7,6 +7,7 @@
  * premium comparison table, and CTA buttons linking to the zip code lead gen tool.
  */
 
+import GuideCta from "@/components/GuideCta";
 import { useState } from "react";
 import Link from "next/link";
 import {
@@ -391,6 +392,10 @@ export default function TexasPageContent() {
           </div>
         </div>
       </section>
+
+      <div className="container max-w-4xl pt-8">
+        <GuideCta variant="medigap" description="Comparing Medicare Supplement plans in Texas? Enter your ZIP code to explore coverage options in your area." />
+      </div>
 
       {/* Carrier Cards Section */}
       <section className="py-12">
