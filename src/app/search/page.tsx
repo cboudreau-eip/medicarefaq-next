@@ -3,6 +3,10 @@ import { Suspense } from "react";
 import SiteLayout from "@/components/SiteLayout";
 import SearchResults from "./PageContent";
 
+// Render search content in the initial response so CTA tags are present
+// when the shared tracker records the page visit.
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = {
   title: "Search Medicare Topics",
   description: "Search MedicareFAQ for answers to your Medicare questions. Find articles, guides, and FAQs on Medicare plans, enrollment, costs, and more.",
