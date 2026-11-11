@@ -18,7 +18,8 @@ export default function SlideInCTA(props: SlideInCTAProps) {
   const pathname = usePathname();
   // Unmount the entire panel and its scroll listener on its own signup page,
   // including client-side navigation while the panel is already open.
-  if (pathname?.replace(/\/+$/, "") === "/tools/decision-kit") return null;
+  const pagePath = pathname?.replace(/\/+$/, "");
+  if (pagePath === "/tools/decision-kit" || pagePath === "/oep-review") return null;
   return <SlideInCTAPanel {...props} />;
 }
 
