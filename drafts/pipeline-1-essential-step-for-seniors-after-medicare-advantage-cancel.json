@@ -1,7 +1,22 @@
 {
   "title": "UnitedHealthcare Humana Medicare Advantage Cancellations",
+  "rawContent": "",
   "slug": "1-essential-step-for-seniors-after-medicare-advantage-cancel",
+  "excerpt": "UnitedHealthcare and Humana are cutting Medicare Advantage plans for 2026, affecting about one million enrollees. Learn the key dates and steps to avoid a coverage gap.",
   "category": "medicare_advantage",
+  "author": "David Haass",
+  "reviewer": "Ashlee Zareczny",
+  "image": "/images/generated/1-essential-step-for-seniors-after-medicare-e7fe8d4-bc7aa65acb18.png",
+  "imageAlt": "",
+  "keyTakeaways": [
+    "UnitedHealthcare and Humana are discontinuing certain Medicare Advantage plans for 2026, impacting roughly one million enrollees nationwide",
+    "Affected members receive a non-renewal or termination notice directly from their insurer detailing the plan's exact end date",
+    "A plan cancellation triggers a Special Enrollment Period (SEP) separate from the standard Annual Enrollment Period (October 15 to December 7)",
+    "Confirming your plan's end date and SEP window is critical to avoid coverage gaps affecting doctor visits and prescriptions",
+    "If you do not actively choose a new plan, you may be automatically reassigned to a plan that does not fit your doctors or medications"
+  ],
+  "seoTitle": "UnitedHealthcare Humana Medicare Advantage Cancellations",
+  "seoDescription": "UnitedHealthcare and Humana Medicare Advantage cancellations affect 1M+ enrollees in 2026. Learn your next steps and key enrollment deadlines.",
   "sections": [
     {
       "type": "heading",
@@ -19,7 +34,7 @@
     },
     {
       "type": "paragraph",
-      "content": "The surest way to find out whether your plan is affected is to check the notice letter mailed by your carrier, call the number on your member ID card, or use the [Medicare Plan Finder](https://www.medicare.gov/) to confirm your plan's status for next year."
+      "content": "The surest way to find out whether your plan is affected is to check the notice letter mailed by your carrier, call the number on your member ID card, or use the [[Medicare Plan Finder](/faqs/medicare-plan-finder/)](https://www.medicare.gov/) to confirm your plan's status for next year."
     },
     {
       "type": "heading",
@@ -29,7 +44,7 @@
     },
     {
       "type": "paragraph",
-      "content": "If your Medicare Advantage plan is being discontinued, the single most important action is confirming two dates: the day your current plan actually ends and the start and end of your Special Enrollment Period. These dates determine how much time you have to pick new coverage without a gap."
+      "content": "If your Medicare Advantage plan is being discontinued, the single most important action is confirming two dates: the day your current plan actually ends and the start and end of your [Special Enrollment Period](/faqs/medicare-special-enrollment-period/). These dates determine how much time you have to pick new coverage without a gap."
     },
     {
       "type": "paragraph",
@@ -49,7 +64,7 @@
       "type": "callout",
       "calloutType": "tip",
       "calloutTitle": "Start With Your Notice Letter",
-      "calloutText": "Keep your termination notice somewhere easy to find. It lists your plan's exact end date and often includes a summary of your enrollment rights, which you will need when comparing new plans."
+      "calloutText": "Keep your termination notice somewhere easy to find. It lists your plan's exact end date and often includes a summary of your enrollment rights, which you will need when [comparing new plans](/faqs/medicare-annual-enrollment-period/)."
     },
     {
       "type": "heading",
@@ -59,11 +74,11 @@
     },
     {
       "type": "paragraph",
-      "content": "When Medicare or an insurer ends your plan involuntarily, you qualify for a Special Enrollment Period (SEP) that is separate from the Annual Enrollment Period that runs from October 15 to December 7. This SEP gives you a dedicated window to pick new coverage outside the standard calendar."
+      "content": "When Medicare or an insurer ends your plan involuntarily, you qualify for a [Special Enrollment Period](/faqs/medicare-special-enrollment-period/) (SEP) that is separate from the Annual Enrollment Period that runs from October 15 to December 7. This SEP gives you a dedicated window to pick new coverage outside the standard calendar."
     },
     {
       "type": "paragraph",
-      "content": "According to [Medicare's Special Enrollment Period rules](https://www.medicare.gov/), you generally have a window of time both before and after your plan's termination date to choose new coverage, though exact timing can depend on how the notice was issued. Missing this window can leave you temporarily defaulted into Original Medicare with no drug coverage, which may expose you to a Part D late enrollment penalty down the road."
+      "content": "According to [Medicare's [Special Enrollment Period](/faqs/medicare-special-enrollment-period/) rules](https://www.medicare.gov/), you generally have a window of time both before and after your plan's termination date to choose new coverage, though exact timing can depend on how the notice was issued. Missing this window can leave you temporarily defaulted into Original Medicare with no drug coverage, which may expose you to a Part D late enrollment penalty down the road."
     },
     {
       "type": "paragraph",
@@ -133,7 +148,7 @@
       "type": "callout",
       "calloutType": "warning",
       "calloutTitle": "Watch Your Deadline",
-      "calloutText": "Letting your Special Enrollment Period lapse without choosing a plan can mean a gap in prescription coverage and possible late enrollment penalties. Confirm your exact deadline from your notice letter rather than assuming you have until the Annual Enrollment Period."
+      "calloutText": "Letting your [Special Enrollment Period](/faqs/medicare-special-enrollment-period/) lapse without choosing a plan can mean a gap in prescription coverage and possible late enrollment penalties. Confirm your exact deadline from your notice letter rather than assuming you have until the Annual Enrollment Period."
     },
     {
       "type": "paragraph",
@@ -198,28 +213,62 @@
     },
     {
       "type": "paragraph",
-      "content": "The most urgent action this week is confirming your plan's termination date and your Special Enrollment Period deadline from your notice letter. From there, gather your doctor list, medication list, and plan information so you are ready to compare options."
+      "content": "The most urgent action this week is confirming your plan's termination date and your [Special Enrollment Period](/faqs/medicare-special-enrollment-period/) deadline from your notice letter. From there, gather your doctor list, medication list, and plan information so you are ready to compare options."
     },
     {
       "type": "paragraph",
-      "content": "Review your notice letter closely and start comparing new plans well before your deadline closes, rather than waiting until the final days of your enrollment window. If you would like a no-pressure comparison of plans available in your area, you can speak with a licensed Medicare agent who can walk through your doctors, prescriptions, and budget with you."
+      "content": "Review your notice letter closely and start [comparing new plans](/faqs/medicare-annual-enrollment-period/) well before your deadline closes, rather than waiting until the final days of your enrollment window. If you would like a no-pressure comparison of plans available in your area, you can speak with a licensed Medicare agent who can walk through your doctors, prescriptions, and budget with you."
     }
   ],
-  "seoTitle": "UnitedHealthcare Humana Medicare Advantage Cancellations",
-  "seoDescription": "UnitedHealthcare and Humana Medicare Advantage cancellations affect 1M+ enrollees in 2026. Learn your next steps and key enrollment deadlines.",
-  "excerpt": "UnitedHealthcare and Humana are cutting Medicare Advantage plans for 2026, affecting about one million enrollees. Learn the key dates and steps to avoid a coverage gap.",
-  "keyTakeaways": [
-    "UnitedHealthcare and Humana are discontinuing certain Medicare Advantage plans for 2026, impacting roughly one million enrollees nationwide",
-    "Affected members receive a non-renewal or termination notice directly from their insurer detailing the plan's exact end date",
-    "A plan cancellation triggers a Special Enrollment Period (SEP) separate from the standard Annual Enrollment Period (October 15 to December 7)",
-    "Confirming your plan's end date and SEP window is critical to avoid coverage gaps affecting doctor visits and prescriptions",
-    "If you do not actively choose a new plan, you may be automatically reassigned to a plan that does not fit your doctors or medications"
+  "relatedSlugs": [
+    "4-steps-to-take-if-your-medicare-plan-ends-in-2026",
+    "is-your-humana-medicare-advantage-plan-being-cut",
+    "2027-medicare-advantage-cuts-check-if-your-plan-survives",
+    "medicare-open-enrollment-2027-free-resources-for-seniors"
   ],
-  "image": "/images/generated/1-essential-step-for-seniors-after-medicare-e7fe8d4-bc7aa65acb18.png",
-  "relatedSlugs": [],
-  "sourceUrl": "https://www.newsnationnow.com/health/unitedhealthcare-humana-medicare-advantage-cancellations/",
-  "pipelineId": "disc-1b9f02cbed746db4dda8085c9b6e0eb7cd27e54baef3058637b3c5bb7203ce6f",
+  "linkSuggestions": [
+    {
+      "phrase": "Part D late enrollment penalty",
+      "url": "/faqs/medicare-part-d-late-enrollment-penalty/",
+      "title": "Medicare Part D Late Enrollment Penalty",
+      "reason": "This link explains the penalties associated with late enrollment in Part D, which is relevant for those at risk of gaps in coverage."
+    },
+    {
+      "phrase": "Medicare Advantage plans",
+      "url": "/faqs/medicare-advantage-vs-medicare-supplement/",
+      "title": "Medicare Advantage vs Medicare Supplement",
+      "reason": "This link helps readers understand the differences between Medicare Advantage and Supplement plans, aiding in their decision-making process."
+    },
+    {
+      "phrase": "maximum out-of-pocket limit",
+      "url": "/faqs/medicare-maximum-out-of-pocket/",
+      "title": "Medicare Maximum Out-of-Pocket",
+      "reason": "Providing a link to the maximum out-of-pocket limit FAQ gives readers insight into potential costs associated with their Medicare plans."
+    }
+  ],
+  "acceptedLinks": [
+    {
+      "phrase": "comparing new plans",
+      "url": "/faqs/medicare-annual-enrollment-period/",
+      "title": "Medicare Annual Enrollment Period"
+    },
+    {
+      "phrase": "prescription drug coverage",
+      "url": "/faqs/medicare-and-prescription-drugs-whats-covered-and-whats-not/",
+      "title": "Medicare and Prescription Drugs: What Is Covered and What Is Not?"
+    },
+    {
+      "phrase": "Special Enrollment Period",
+      "url": "/faqs/medicare-special-enrollment-period/",
+      "title": "Medicare Special Enrollment Period"
+    },
+    {
+      "phrase": "Medicare Plan Finder",
+      "url": "/faqs/medicare-plan-finder/",
+      "title": "Medicare Plan Finder"
+    }
+  ],
   "id": "pipeline-1-essential-step-for-seniors-after-medicare-advantage-cancel",
-  "updatedAt": "2026-10-27T11:38:35.459Z",
-  "createdAt": "2026-10-27T11:38:35.459Z"
+  "updatedAt": "2026-11-11T12:40:56.773Z",
+  "createdAt": "2026-11-11T12:40:56.773Z"
 }
