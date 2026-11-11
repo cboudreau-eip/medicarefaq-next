@@ -26,7 +26,7 @@
     },
     {
       "type": "paragraph",
-      "content": "For 2026, UnitedHealthcare and Humana have pulled back from certain Medicare Advantage plans and service areas, a shift affecting roughly one million enrollees nationwide. If your plan is one of those being discontinued, you will receive a non-renewal or termination notice directly from your insurer."
+      "content": "For 2026, UnitedHealthcare and Humana have pulled back from certain Medicare Advantage plans and service areas, a shift affecting roughly one million enrollees nationwide. Some of the affected plans include Dual Eligible Special Needs Plans and other county-specific Medicare Advantage plans in parts of states such as California and Texas, though the exact counties and plan types vary by insurer and change each year. If your plan is one of those being discontinued, you will receive a non-renewal or termination notice directly from your insurer."
     },
     {
       "type": "paragraph",
@@ -34,7 +34,7 @@
     },
     {
       "type": "paragraph",
-      "content": "The surest way to find out whether your plan is affected is to check the notice letter mailed by your carrier, call the number on your member ID card, or use the [[Medicare Plan Finder](/faqs/medicare-plan-finder/)](https://www.medicare.gov/) to confirm your plan's status for next year."
+      "content": "The surest way to find out whether your plan is affected is to check the notice letter mailed by your carrier, call the number on your member ID card, or use the [[Medicare Plan Finder](/faqs/medicare-plan-finder/)](https://www.medicare.gov/plan-compare/) to confirm your plan's status for next year."
     },
     {
       "type": "heading",
@@ -74,15 +74,19 @@
     },
     {
       "type": "paragraph",
-      "content": "When Medicare or an insurer ends your plan involuntarily, you qualify for a [Special Enrollment Period](/faqs/medicare-special-enrollment-period/) (SEP) that is separate from the Annual Enrollment Period that runs from October 15 to December 7. This SEP gives you a dedicated window to pick new coverage outside the standard calendar."
+      "content": "When Medicare or an insurer ends your plan involuntarily, you qualify for a [Special Enrollment Period](/faqs/medicare-special-enrollment-period/) (SEP) that is separate from the Annual Enrollment Period that runs from October 15 to December 7. This SEP gives you a dedicated window to pick new coverage outside the standard calendar. It is also distinct from the Medicare Advantage Open Enrollment Period, which runs each year from January 1 through March 31 and allows current Medicare Advantage enrollees to switch to a different Medicare Advantage plan or return to Original Medicare, though it serves a different purpose than the SEP triggered by a plan cancellation."
     },
     {
       "type": "paragraph",
-      "content": "According to [Medicare's [Special Enrollment Period](/faqs/medicare-special-enrollment-period/) rules](https://www.medicare.gov/), you generally have a window of time both before and after your plan's termination date to choose new coverage, though exact timing can depend on how the notice was issued. Missing this window can leave you temporarily defaulted into Original Medicare with no drug coverage, which may expose you to a Part D late enrollment penalty down the road."
+      "content": "According to [Medicare's [Special Enrollment Period](/faqs/medicare-special-enrollment-period/) rules](https://www.medicare.gov/basics/get-started-with-medicare/sign-up/special-enrollment-periods), you generally have a window of time both before and after your plan's termination date to choose new coverage, though exact timing can depend on how the notice was issued. Missing this window can leave you temporarily defaulted into Original Medicare with no drug coverage. Under Medicare's rules, going 63 or more consecutive days without creditable prescription drug coverage triggers a Part D late enrollment penalty, so it is worth confirming your new coverage starts before any such gap reaches that point."
     },
     {
       "type": "paragraph",
       "content": "If you do not actively choose a new plan, Medicare or your insurer may automatically reassign you to a similar plan to avoid a coverage gap. This default option is not always the best fit for your doctors or medications, so reviewing your choices yourself, rather than relying on automatic reassignment, gives you more control over the outcome."
+    },
+    {
+      "type": "paragraph",
+      "content": "If you decide you would rather return to Original Medicare instead of enrolling in another Medicare Advantage plan, losing your Medicare Advantage coverage through one of these cancellations may also qualify you for a Medigap guaranteed-issue right. Under guaranteed issue, an insurer cannot deny you a Medicare Supplement plan or charge you more based on your health history, though these rights are tied to specific circumstances and timeframes, so confirm your eligibility directly with Medicare or a licensed agent before assuming it applies to your situation."
     },
     {
       "type": "heading",
@@ -96,7 +100,7 @@
     },
     {
       "type": "paragraph",
-      "content": "A low monthly premium does not tell you the whole story. Two plans with similar premiums can have very different deductibles, copays, and out-of-pocket maximums, and the 2026 maximum out-of-pocket limit for Medicare Advantage plans is $9,250, though individual plans often set lower limits. Looking only at the premium can mean missing a plan with higher costs once you actually need care."
+      "content": "A low monthly premium does not tell you the whole story. Two plans with similar premiums can have very different deductibles, copays, and out-of-pocket maximums, and according to the CMS 2026 Medicare Advantage and Part D Landscape fact sheet available at CMS.gov, $9,250 is the maximum out-of-pocket limit that Medicare Advantage plans are allowed to set for 2026, not a guaranteed amount for every plan; individual plans may set their own out-of-pocket maximum at or below that cap. Looking only at the premium can mean missing a plan with higher costs once you actually need care."
     },
     {
       "type": "heading",
@@ -124,7 +128,7 @@
     },
     {
       "type": "paragraph",
-      "content": "For 2026, Part D plans carry a maximum deductible of $615, and once a member's out-of-pocket drug spending reaches the $2,100 catastrophic threshold, cost-sharing changes substantially. Reviewing these figures against a plan's specific drug list helps you estimate your real annual cost rather than relying on the premium alone."
+      "content": "According to the CMS 2026 Medicare Advantage and Part D Landscape fact sheet, $615 is the maximum deductible that Part D plans are allowed to charge in 2026, though many plans set their deductible lower or charge none at all, and once a member's out-of-pocket drug spending reaches the $2,100 catastrophic threshold, cost-sharing changes substantially. Reviewing these figures against a plan's specific drug list helps you estimate your real annual cost rather than relying on the premium alone."
     },
     {
       "type": "eddie-pro-tip",
@@ -142,7 +146,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Missing your SEP deadline can also create a gap in drug coverage, which may trigger a Part D late enrollment penalty based on the national base premium; for 2026, that penalty calculation uses a base beneficiary premium of $38.99. Marking your SEP end date somewhere visible, such as a calendar reminder, helps you avoid this outcome."
+      "content": "Missing your SEP deadline can also create a gap in drug coverage, and if that gap without creditable coverage reaches 63 or more consecutive days, it may trigger a Part D late enrollment penalty based on the national base premium; according to CMS.gov, for 2026 that penalty calculation uses a base beneficiary premium of $38.99. Marking your SEP end date somewhere visible, such as a calendar reminder, helps you avoid this outcome."
     },
     {
       "type": "callout",
@@ -197,11 +201,11 @@
         },
         {
           "question": "Can I just research this on my own instead of talking to someone?",
-          "answer": "Yes, self-research works well for many people, especially using Medicare.gov's Plan Finder tool. Where self-research often falls short is confirming current network status or formulary tier details, since online directories can be outdated and a phone call to your doctor or pharmacy fills that gap."
+          "answer": "Yes, self-research works well for many people, especially using the [Medicare Plan Finder](https://www.medicare.gov/plan-compare/) tool. Where self-research often falls short is confirming current network status or formulary tier details, since online directories can be outdated and a phone call to your doctor or pharmacy fills that gap."
         },
         {
           "question": "How do I know which sources of Medicare information I can trust?",
-          "answer": "Look for sources that explain plan details in plain language, disclose which insurers they represent, and do not pressure you toward one plan. Pairing official data from Medicare.gov with guidance from a licensed agent gives you both accuracy and a personalized comparison."
+          "answer": "Look for sources that explain plan details in plain language, disclose which insurers they represent, and do not pressure you toward one plan. Pairing official data from [Medicare.gov](https://www.medicare.gov/) with guidance from a licensed agent gives you both accuracy and a personalized comparison."
         }
       ]
     },
@@ -269,6 +273,6 @@
     }
   ],
   "id": "pipeline-1-essential-step-for-seniors-after-medicare-advantage-cancel",
-  "updatedAt": "2026-11-11T12:40:56.773Z",
-  "createdAt": "2026-11-11T12:40:56.773Z"
+  "updatedAt": "2026-11-11T13:39:57.700Z",
+  "createdAt": "2026-11-11T13:39:57.700Z"
 }
