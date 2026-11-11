@@ -32,6 +32,11 @@ export const ARTICLE_GUIDE_CTAS:Record<string,{variant:"part-d"|"advantage"|"med
   "/faqs/medicare-supplement-open-enrollment/":{"variant":"medigap","description":"Exploring Medicare Supplement coverage? Enter your ZIP code to compare options in your area. Enrollment and eligibility requirements apply."},
   "/faqs/can-i-cancel-medicare-advantage-plan/":{"variant":"medicare","description":"Considering a change to your Medicare coverage? Enter your ZIP code to explore options in your area. This form does not cancel your current plan."},
   "/blog/medicare-and-hsa-rules-what-happens-when-you-turn-65/":{"variant":"medicare","description":"Planning your transition to Medicare? Enter your ZIP code to explore coverage options in your area."},
+  "/faqs/medicare-supplement-plans-and-pre-existing-conditions/":{"variant":"medigap","description":"Exploring Medicare Supplement coverage? Enter your ZIP code to compare options in your area. Enrollment and eligibility requirements apply."},
+  "/faqs/medicare-enrollment-checklist/":{"variant":"medicare","description":"Getting ready for Medicare? Enter your ZIP code to explore coverage options in your area."},
+  "/blog/best-medicare-supplement-plan-g-companies/":{"variant":"medigap","description":"Comparing Medicare Supplement companies? Enter your ZIP code to explore coverage options in your area."},
+  "/medicare-supplement-plans/plan-f/":{"variant":"medigap","description":"Comparing Medicare Supplement coverage? Enter your ZIP code to explore options in your area. Plan F eligibility requirements apply."},
+  "/faqs/medicare-part-d-part-b-vaccines/":{"variant":"part-d","description":"Reviewing your prescription drug coverage? Enter your ZIP code to explore Part D plans in your area."},
 };
 export default function ArticleGuideCta({path}:{path:string}){
   const config=ARTICLE_GUIDE_CTAS[path];
