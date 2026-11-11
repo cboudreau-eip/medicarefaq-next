@@ -37,6 +37,10 @@ export const ARTICLE_GUIDE_CTAS:Record<string,{variant:"part-d"|"advantage"|"med
   "/blog/best-medicare-supplement-plan-g-companies/":{"variant":"medigap","description":"Comparing Medicare Supplement companies? Enter your ZIP code to explore coverage options in your area."},
   "/medicare-supplement-plans/plan-f/":{"variant":"medigap","description":"Comparing Medicare Supplement coverage? Enter your ZIP code to explore options in your area. Plan F eligibility requirements apply."},
   "/faqs/medicare-part-d-part-b-vaccines/":{"variant":"part-d","description":"Reviewing your prescription drug coverage? Enter your ZIP code to explore Part D plans in your area."},
+  "/faqs/average-cost-of-medicare-advantage/":{"variant":"advantage","description":"Comparing Medicare Advantage costs and coverage? Enter your ZIP code to explore plans in your area."},
+  "/faqs/medicare-and-prescription-drugs-whats-covered-and-whats-not/":{"variant":"part-d","description":"Comparing prescription drug coverage? Enter your ZIP code to explore Part D plans in your area."},
+  "/blog/7-medicare-scams-targeting-seniors/":{"variant":"medicare","description":"Exploring Medicare coverage options? Enter your ZIP code to compare plans in your area. This form is for plan comparisons, not reporting suspected fraud."},
+  "/faqs/medicare-and-retiree-insurance/":{"variant":"medicare","description":"Reviewing your Medicare and retiree coverage options? Enter your ZIP code to explore Medicare plans in your area."},
 };
 export default function ArticleGuideCta({path}:{path:string}){
   const config=ARTICLE_GUIDE_CTAS[path];
