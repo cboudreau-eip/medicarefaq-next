@@ -89,7 +89,7 @@ const topicGuides = [
     title: "Part D Prescription Drug Guide",
     description: "Understanding formularies, coverage stages, and choosing the right drug plan.",
     icon: Pill,
-    href: "/original-medicare/medicare-parts/medicare-part-d",
+    href: "/original-medicare/medicare-parts/medicare-part-d/",
     category: "Prescriptions",
   },
   {
@@ -117,7 +117,7 @@ const topicGuides = [
     title: "Medicare Supplement Plan Comparison",
     description: "Side-by-side comparison of the most popular Medigap plans.",
     icon: Star,
-    href: "/medicare-plans/best-supplement-plans",
+    href: "/medicare-plans/best-supplement-plans/",
     category: "Medigap",
   },
   {

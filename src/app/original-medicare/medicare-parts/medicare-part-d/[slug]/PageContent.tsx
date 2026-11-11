@@ -50,7 +50,7 @@ export default function PageContent({ page }: { page: PartDSubPage }) {
       <main className="flex-1 flex items-center justify-center">
         <div className="text-center py-20">
           <h1 className="text-2xl font-bold text-gray-800 mb-4">Page not Found</h1>
-          <Link href="/original-medicare/medicare-parts/medicare-part-d" className="text-blue-600 hover:underline">
+          <Link href="/original-medicare/medicare-parts/medicare-part-d/" className="text-blue-600 hover:underline">
             Return to Medicare Part D Overview
           </Link>
         </div>
@@ -70,7 +70,7 @@ export default function PageContent({ page }: { page: PartDSubPage }) {
               <span>/</span>
               <Link href="/original-medicare" className="hover:text-white">Original Medicare</Link>
               <span>/</span>
-              <Link href="/original-medicare/medicare-parts/medicare-part-d" className="hover:text-white">Part D</Link>
+              <Link href="/original-medicare/medicare-parts/medicare-part-d/" className="hover:text-white">Part D</Link>
               <span>/</span>
               <span className="text-white">{page.title}</span>
             </nav>
@@ -92,7 +92,7 @@ export default function PageContent({ page }: { page: PartDSubPage }) {
                 Get Free Guidance
               </a>
               <Link
-                href="/original-medicare/medicare-parts/medicare-part-d"
+                href="/original-medicare/medicare-parts/medicare-part-d/"
                 className="inline-flex items-center gap-2 border border-white/40 hover:bg-white/10 text-white font-medium px-6 py-3 rounded-lg transition-colors"
               >
                 Part D Overview <ArrowRight className="w-4 h-4" aria-hidden="true" />

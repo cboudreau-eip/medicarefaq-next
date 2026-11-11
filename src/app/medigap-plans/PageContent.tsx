@@ -57,7 +57,7 @@ const faqs = [
     a: (
       <>
         No. Medigap plans do not cover prescription drugs. You&apos;ll need a separate{" "}
-        <Link href="/original-medicare/medicare-parts/medicare-part-d" className="text-teal-700 underline hover:text-teal-900">
+        <Link href="/original-medicare/medicare-parts/medicare-part-d/" className="text-teal-700 underline hover:text-teal-900">
           Medicare Part D plan
         </Link>{" "}
         for drug coverage if you choose Original Medicare with a Medigap supplement.

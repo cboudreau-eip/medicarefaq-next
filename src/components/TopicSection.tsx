@@ -48,7 +48,7 @@ const topics = [
     icon: DollarSign,
     color: "#C41230",
     articles: "9 articles",
-    href: "/medicare-plans/costs",
+    href: "/medicare-plans/costs/",
   },
   {
     title: "Medigap // Supplement",

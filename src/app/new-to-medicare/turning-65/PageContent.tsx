@@ -547,7 +547,7 @@ export default function Turning65() {
                   >
                     Call (888) 335-8996
                   </a>
-                  <Link href="/new-to-medicare/costs" className="inline-flex items-center gap-2 border border-slate-500 hover:border-white text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+                  <Link href="/new-to-medicare/costs/" className="inline-flex items-center gap-2 border border-slate-500 hover:border-white text-white font-semibold px-6 py-3 rounded-lg transition-colors">
                     What Does It Cost? <ArrowRight className="w-4 h-4" aria-hidden="true" />
                   </Link>
                 </div>

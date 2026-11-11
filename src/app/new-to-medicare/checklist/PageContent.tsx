@@ -93,7 +93,7 @@ const phases: ChecklistPhase[] = [
         id: "learn-costs",
         title: "Review 2026 Medicare Costs",
         description: "Know the premiums, deductibles, and out-of-pocket costs you'll be responsible for.",
-        link: { label: "See 2026 Cost Breakdown", href: "/new-to-medicare/costs" },
+        link: { label: "See 2026 Cost Breakdown", href: "/new-to-medicare/costs/" },
         priority: "essential",
       },
     ],

@@ -80,7 +80,7 @@ export const partDSubPages: PartDSubPage[] = [
       { q: "Can I use SilverScript with Medicare Supplement?", a: "Yes. SilverScript is a standalone Part D plan that works alongside Original Medicare and any Medigap supplement plan. It does not work with Medicare Advantage plans, which typically include their own drug coverage." },
       { q: "How do I enroll in SilverScript?", a: "You can enroll online at Medicare.gov, by calling SilverScript directly, or by working with a licensed Medicare agent. Enrollment is available during your Initial Coverage Election Period (ICEP) or the Annual Enrollment Period (Oct 15 – Dec 7)." }],
     relatedLinks: [
-      { label: "Medicare Part D Overview", href: "/original-medicare/medicare-parts/medicare-part-d" },
+      { label: "Medicare Part D Overview", href: "/original-medicare/medicare-parts/medicare-part-d/" },
       { label: "Part D Plans 2026", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-plans-2026" },
       { label: "Part D Enrollment Periods", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-enrollment-periods" }],
   },
@@ -145,7 +145,7 @@ export const partDSubPages: PartDSubPage[] = [
       { q: "Can I change my Part D plan every year?", a: "Yes. During the Annual Enrollment Period (October 15 – December 7), you can switch to any Part D plan available in your area. Changes take effect January 1 of the following year." },
       { q: "Do I need Part D if I don't take any medications?", a: "You're not required to have Part D, but if you go without creditable drug coverage for 63 or more consecutive days after becoming eligible, you'll face a permanent late enrollment penalty when you do eventually enroll." }],
     relatedLinks: [
-      { label: "Part D Overview", href: "/original-medicare/medicare-parts/medicare-part-d" },
+      { label: "Part D Overview", href: "/original-medicare/medicare-parts/medicare-part-d/" },
       { label: "SilverScript Plans", href: "/original-medicare/medicare-parts/medicare-part-d/silverscript" },
       { label: "Mutual of Omaha Part D Plans", href: "/original-medicare/medicare-parts/medicare-part-d/mutual-of-omaha" },
       { label: "Part D Late Enrollment Penalty", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-late-enrollment-penalty" }],
@@ -197,7 +197,7 @@ export const partDSubPages: PartDSubPage[] = [
       { q: "Is the 63-day rule a Special Enrollment Period deadline?", a: "No. The 63-day rule is used to determine potential Part D late enrollment penalty exposure. Special Enrollment Periods have event-specific deadlines, which may be measured in full calendar months. You should verify the applicable SEP and enroll early enough to avoid a gap in drug coverage." },
       { q: "When does my new Part D coverage start after enrolling?", a: "During Open Enrollment from October 15 to December 7, coverage starts January 1. During initial enrollment, a request made before Medicare Part A or Part B starts generally takes effect with that coverage. A later request generally takes effect the first day of the following month." }],
     relatedLinks: [
-      { label: "Part D Overview", href: "/original-medicare/medicare-parts/medicare-part-d" },
+      { label: "Part D Overview", href: "/original-medicare/medicare-parts/medicare-part-d/" },
       { label: "Part D Late Enrollment Penalty", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-late-enrollment-penalty" },
       { label: "Part D Eligibility", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-eligibility" },
       { label: "Part D Deadline Checklist", href: "/blog/medicare-part-d-enrollment-deadlines" },
@@ -288,7 +288,7 @@ export const partDSubPages: PartDSubPage[] = [
       { q: "Does the $2,000 cap include the premium?", a: "No. The $2,000 out-of-pocket cap applies only to cost-sharing (deductibles, copays, and coinsurance) for covered drugs. Monthly premiums do not count toward the cap." },
       { q: "What counts toward the $2,000 out-of-pocket cap?", a: "Your deductible, copays, and coinsurance for covered drugs count toward the cap. Amounts paid by Extra Help (Low Income Subsidy) also count. Premiums and costs for non-covered drugs do not count." }],
     relatedLinks: [
-      { label: "Part D Overview", href: "/original-medicare/medicare-parts/medicare-part-d" },
+      { label: "Part D Overview", href: "/original-medicare/medicare-parts/medicare-part-d/" },
       { label: "Part D Plans 2026", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-plans-2026" },
       { label: "Part D Costs", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-cost" },
       { href: "/original-medicare/medicare-parts/medicare-part-d/medicare-donut-hole", label: "Medicare Donut Hole" },
@@ -351,7 +351,7 @@ export const partDSubPages: PartDSubPage[] = [
       { label: "Part D Prior Authorization", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-prior-authorization" },
       { label: "Part D Exceptions and Appeals", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-exceptions-and-appeals" },
       { href: "/original-medicare/medicare-parts/medicare-part-d/silverscript", label: "SilverScript Part D Plans" },
-      { href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-step-therapy", label: "Part D Step Therapy" }],
+      { href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-step-therapy/", label: "Part D Step Therapy" }],
   },
   {
     slug: "medicare-part-d-late-enrollment-penalty",
@@ -551,7 +551,7 @@ export const partDSubPages: PartDSubPage[] = [
       { q: "What is a preferred pharmacy network?", a: "Many Part D plans have preferred pharmacies where you pay lower copays than at standard network pharmacies. Using a preferred pharmacy (often a major chain like CVS, Walgreens, or Walmart) can reduce your Tier 1–3 copays significantly." },
       { q: "How do I find out what tier my drug is on?", a: "Check the plan's formulary on its website, use Medicare.gov Plan Finder, or call the plan's member services. The formulary lists every covered drug and its tier assignment." }],
     relatedLinks: [
-      { label: "Part D Formulary", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-formulary" },
+      { label: "Part D Formulary", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-formulary/" },
       { label: "Part D Prior Authorization", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-prior-authorization" },
       { label: "Part D Costs", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-cost" }],
   },
@@ -608,9 +608,9 @@ export const partDSubPages: PartDSubPage[] = [
       { q: "Can I get a temporary supply while waiting for PA approval?", a: "In some cases, pharmacies can dispense a limited supply (typically a 3-day emergency supply) while the PA is being processed. This varies by state and plan. Ask your pharmacist about your options." },
       { q: "Does prior authorization expire?", a: "Yes. Prior authorizations are typically approved for a set period (often 1 year). When the PA expires, your doctor will need to resubmit documentation to continue coverage. Set a reminder to renew before the expiration date." }],
     relatedLinks: [
-      { label: "Part D Step Therapy", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-step-therapy" },
+      { label: "Part D Step Therapy", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-step-therapy/" },
       { label: "Part D Exceptions and Appeals", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-exceptions-and-appeals" },
-      { label: "Part D Formulary", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-formulary" },
+      { label: "Part D Formulary", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-formulary/" },
       { href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-drug-tiers", label: "Part D Drug Tiers" }],
   },
   {
@@ -655,7 +655,7 @@ export const partDSubPages: PartDSubPage[] = [
     relatedLinks: [
       { label: "Part D Prior Authorization", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-prior-authorization" },
       { label: "Part D Exceptions and Appeals", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-exceptions-and-appeals" },
-      { label: "Part D Formulary", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-formulary" }],
+      { label: "Part D Formulary", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-formulary/" }],
   },
   {
     slug: "medicare-part-d-exceptions-and-appeals",
@@ -672,12 +672,12 @@ export const partDSubPages: PartDSubPage[] = [
       {
         id: "understanding-the-process",
         heading: "Understanding the Medicare Part D Exception and Appeals Process in 2026",
-        content: "Getting a denial letter from your Medicare Part D plan can feel like a dead end, but it isn't. Federal law gives you the right to challenge any coverage decision your <a href=\"/original-medicare/medicare-parts/medicare-part-d\" class=\"text-blue-600 underline hover:text-blue-800\">Medicare Part D</a> plan makes about your prescription drugs. That formal pathway is known as the Medicare Part D Exception and Appeals Process.\n\nAt its core, this process lets you push back when your plan refuses to cover a medication, limits the quantity it will pay for, or requires you to try a different drug first. Exceptions are the first tool you use, asking your plan to make a one-time accommodation. Appeals are what happens when that request, or an original coverage decision, gets denied.\n\nThe process is structured across five levels, each escalating in authority. Understanding how each level works, and when to act, is the key to protecting your access to the medications your doctor has prescribed.",
+        content: "Getting a denial letter from your Medicare Part D plan can feel like a dead end, but it isn't. Federal law gives you the right to challenge any coverage decision your <a href=\"/original-medicare/medicare-parts/medicare-part-d/\" class=\"text-blue-600 underline hover:text-blue-800\">Medicare Part D</a> plan makes about your prescription drugs. That formal pathway is known as the Medicare Part D Exception and Appeals Process.\n\nAt its core, this process lets you push back when your plan refuses to cover a medication, limits the quantity it will pay for, or requires you to try a different drug first. Exceptions are the first tool you use, asking your plan to make a one-time accommodation. Appeals are what happens when that request, or an original coverage decision, gets denied.\n\nThe process is structured across five levels, each escalating in authority. Understanding how each level works, and when to act, is the key to protecting your access to the medications your doctor has prescribed.",
       },
       {
         id: "requesting-an-exception",
         heading: "Requesting a Medicare Part D Exception: Initial Steps",
-        content: "Before you reach the formal appeals process, you have the option to request an exception. An exception is a formal request asking your Part D plan to cover a drug that isn't on its <a href=\"/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-formulary\" class=\"text-blue-600 underline hover:text-blue-800\">formulary</a>, to waive quantity limits, or to skip a step therapy requirement.\n\nThere are two primary types of exceptions. A Formulary Exception asks your plan to cover a drug it doesn't normally include on its list of covered medications. A Coverage Determination Exception asks your plan to waive a restriction like a quantity limit or <a href=\"/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-step-therapy\" class=\"text-blue-600 underline hover:text-blue-800\">step therapy</a> protocol.\n\nMedical necessity is the foundation of any successful exception request. Your prescribing doctor must provide documentation explaining why the requested drug is medically necessary and why alternatives on the formulary would be ineffective or harmful for your condition.",
+        content: "Before you reach the formal appeals process, you have the option to request an exception. An exception is a formal request asking your Part D plan to cover a drug that isn't on its <a href=\"/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-formulary/\" class=\"text-blue-600 underline hover:text-blue-800\">formulary</a>, to waive quantity limits, or to skip a step therapy requirement.\n\nThere are two primary types of exceptions. A Formulary Exception asks your plan to cover a drug it doesn't normally include on its list of covered medications. A Coverage Determination Exception asks your plan to waive a restriction like a quantity limit or <a href=\"/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-step-therapy/\" class=\"text-blue-600 underline hover:text-blue-800\">step therapy</a> protocol.\n\nMedical necessity is the foundation of any successful exception request. Your prescribing doctor must provide documentation explaining why the requested drug is medically necessary and why alternatives on the formulary would be ineffective or harmful for your condition.",
         bullets: [
           "<a href=\"/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-prior-authorization\" class=\"text-blue-600 underline hover:text-blue-800\">Prior Authorization</a>: Requires your plan's approval before it will cover certain drugs. If denied, your doctor can submit clinical documentation showing the drug is medically necessary.",
           "Step Therapy: Your plan requires you to try a lower-cost drug first. If that drug is ineffective or causes adverse effects, your doctor can document this to support an exception.",
@@ -745,7 +745,7 @@ export const partDSubPages: PartDSubPage[] = [
       {
         id: "your-rights",
         heading: "Understanding Your Rights as a Medicare Beneficiary",
-        content: "Federal law is clear: every Medicare beneficiary has the right to appeal any decision about their <a href=\"/original-medicare/medicare-parts/medicare-part-d\" class=\"text-blue-600 underline hover:text-blue-800\">Part D coverage</a>. That right doesn't expire after the first denial. You can pursue all five levels if necessary, and your plan cannot penalize you for doing so.\n\nEvery fall, your plan is required to send you an Annual Notice of Change (ANOC) and an Evidence of Coverage (EOC) document. These outline any changes to your plan's drug coverage, costs, and rules for the coming year. Reading these documents carefully can alert you to formulary shifts that affect your medications.",
+        content: "Federal law is clear: every Medicare beneficiary has the right to appeal any decision about their <a href=\"/original-medicare/medicare-parts/medicare-part-d/\" class=\"text-blue-600 underline hover:text-blue-800\">Part D coverage</a>. That right doesn't expire after the first denial. You can pursue all five levels if necessary, and your plan cannot penalize you for doing so.\n\nEvery fall, your plan is required to send you an Annual Notice of Change (ANOC) and an Evidence of Coverage (EOC) document. These outline any changes to your plan's drug coverage, costs, and rules for the coming year. Reading these documents carefully can alert you to formulary shifts that affect your medications.",
       }],
     faqs: [
       {
@@ -774,8 +774,8 @@ export const partDSubPages: PartDSubPage[] = [
       }],
     relatedLinks: [
       { label: "Part D Prior Authorization", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-prior-authorization" },
-      { label: "Part D Step Therapy", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-step-therapy" },
-      { label: "Part D Formulary", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-formulary" },
+      { label: "Part D Step Therapy", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-step-therapy/" },
+      { label: "Part D Formulary", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-formulary/" },
       { label: "Part D Coverage Gap", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-coverage-gap" },
       { label: "Part D Late Enrollment Penalty", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-late-enrollment-penalty" }],
   },

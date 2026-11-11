@@ -149,7 +149,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
           "Only if your doctor is in the plan's network. Before enrolling, use the plan's online provider directory to confirm that your doctors, specialists, and preferred hospital are in-network.",
       }],
     relatedLinks: [
-      { label: "Medicare Advantage Overview", path: "/medicare-part-c" },
+      { label: "Medicare Advantage Overview", path: "/medicare-part-c/medicare-advantage-plans/" },
       { label: "Medicare Advantage HMO Plans", path: "/medicare-part-c/medicare-advantage-plan-hmo" },
       { label: "Medicare Advantage PFFS Plans", path: "/medicare-part-c/medicare-advantage-plan-pffs" },
       { label: "Medicare Advantage PPO Plans", path: "/medicare-part-c/medicare-advantage-plan-ppo" },
@@ -218,7 +218,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
           "Yes. If you have both Medicare and Medicaid (dual-eligible), you may qualify for a Dual Eligible Special Needs Plan (D-SNP), which coordinates benefits from both programs and often has very low or $0 costs.",
       }],
     relatedLinks: [
-      { label: "Medicare Advantage Overview", path: "/medicare-part-c" },
+      { label: "Medicare Advantage Overview", path: "/medicare-part-c/medicare-advantage-plans/" },
       { label: "Medicare Advantage Enrollment Periods", path: "/medicare-part-c/medicare-advantage-enrollment-periods" },
       { label: "Medicare Advantage SNP Plans", path: "/medicare-part-c/medicare-advantage-plan-snp" },
       { label: "Medicare Advantage Costs", path: "/medicare-part-c/medicare-advantage-costs" }],
@@ -292,7 +292,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
           "If you miss your Initial Enrollment Period and don't have a qualifying SEP, you'll need to wait for the Annual Enrollment Period (Oct 15–Dec 7). You may also face late enrollment penalties for Part B and Part D if you delayed enrollment without creditable coverage.",
       }],
     relatedLinks: [
-      { label: "Medicare Advantage Overview", path: "/medicare-part-c" },
+      { label: "Medicare Advantage Overview", path: "/medicare-part-c/medicare-advantage-plans/" },
       { label: "Medicare Advantage Eligibility", path: "/medicare-part-c/medicare-advantage-eligibility" },
       { label: "Medicare Advantage Costs", path: "/medicare-part-c/medicare-advantage-costs" },
       { label: "Medicare Advantage vs. Original Medicare", path: "/medicare-part-c/medicare-advantage-vs-original-medicare" },
@@ -373,7 +373,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
           "No. SNP availability varies by location. D-SNPs are widely available in most states, but C-SNPs and I-SNPs are less common and may not be available in all areas. Use Medicare's Plan Finder at medicare.gov to search for SNPs in your zip code.",
       }],
     relatedLinks: [
-      { label: "Medicare Advantage Overview", path: "/medicare-part-c" },
+      { label: "Medicare Advantage Overview", path: "/medicare-part-c/medicare-advantage-plans/" },
       { label: "Medicare Advantage Eligibility", path: "/medicare-part-c/medicare-advantage-eligibility" },
       { label: "Medicare Advantage Enrollment Periods", path: "/medicare-part-c/medicare-advantage-enrollment-periods" },
       { label: "Medicare Advantage Costs", path: "/medicare-part-c/medicare-advantage-costs" }],
@@ -441,7 +441,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
           "PFFS plans are most commonly available in rural areas. Use Medicare's Plan Finder at medicare.gov to search for PFFS plans in your zip code.",
       }],
     relatedLinks: [
-      { label: "Medicare Advantage Overview", path: "/medicare-part-c" },
+      { label: "Medicare Advantage Overview", path: "/medicare-part-c/medicare-advantage-plans/" },
       { label: "Medicare Advantage PPO Plans", path: "/medicare-part-c/medicare-advantage-plan-ppo" },
       { label: "Medicare Advantage HMO/POS Plans", path: "/medicare-part-c/medicare-advantage-plan-hmo-pos" },
       { label: "Medicare Advantage vs. Original Medicare", path: "/medicare-part-c/medicare-advantage-vs-original-medicare" },
@@ -513,7 +513,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
           "Some large insurers offer PPO plans with nationwide networks, which is particularly useful for people who travel or split time between locations. Check the plan's service area and network directory before enrolling.",
       }],
     relatedLinks: [
-      { label: "Medicare Advantage Overview", path: "/medicare-part-c" },
+      { label: "Medicare Advantage Overview", path: "/medicare-part-c/medicare-advantage-plans/" },
       { label: "Medicare Advantage PFFS Plans", path: "/medicare-part-c/medicare-advantage-plan-pffs" },
       { label: "Medicare Advantage HMO Plans", path: "/medicare-part-c/medicare-advantage-plan-hmo" },
       { label: "Medicare Advantage HMO/POS Plans", path: "/medicare-part-c/medicare-advantage-plan-hmo-pos" },
@@ -584,7 +584,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
           "Many plans have $0 monthly premiums, but you still pay your Part B premium. You also pay copays, coinsurance, and deductibles when you use services. The total cost depends heavily on how much healthcare you use during the year.",
       }],
     relatedLinks: [
-      { label: "Medicare Advantage Overview", path: "/medicare-part-c" },
+      { label: "Medicare Advantage Overview", path: "/medicare-part-c/medicare-advantage-plans/" },
       { label: "Medicare Advantage vs. Original Medicare", path: "/medicare-part-c/medicare-advantage-vs-original-medicare" },
       { label: "Medicare Supplement Plans", path: "/medicare-supplement-plans" },
       { label: "Compare Medicare Plans", path: "/medicare-supplement-plans" }],
@@ -661,7 +661,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
           "Possibly, but it may be difficult. Outside of guaranteed issue periods, Medigap insurers can use medical underwriting in most states. If you have pre-existing conditions, you may be denied or charged higher premiums. This is why many advisors recommend carefully considering the Medigap vs. Medicare Advantage decision at age 65, when you have guaranteed issue rights.",
       }],
     relatedLinks: [
-      { label: "Medicare Advantage Overview", path: "/medicare-part-c" },
+      { label: "Medicare Advantage Overview", path: "/medicare-part-c/medicare-advantage-plans/" },
       { label: "Medicare Supplement Plans", path: "/medicare-supplement-plans" },
       { label: "Medicare Supplement vs. Medicare Advantage", path: "/medicare-plans/supplement-vs-advantage" },
       { label: "Compare Medicare Plans", path: "/medicare-supplement-plans" }],
@@ -737,7 +737,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
           "With a standard HMO plan, you generally have no coverage for out-of-network care except in emergencies. Always verify that your providers are in-network before receiving non-emergency care.",
       }],
     relatedLinks: [
-      { label: "Medicare Advantage Overview", path: "/medicare-part-c" },
+      { label: "Medicare Advantage Overview", path: "/medicare-part-c/medicare-advantage-plans/" },
       { label: "Medicare Advantage HMO-POS Plans", path: "/medicare-part-c/medicare-advantage-plan-hmo-pos" },
       { label: "Medicare Advantage PFFS Plans", path: "/medicare-part-c/medicare-advantage-plan-pffs" },
       { label: "Medicare Advantage PPO Plans", path: "/medicare-part-c/medicare-advantage-plan-ppo" },

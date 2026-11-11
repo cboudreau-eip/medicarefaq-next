@@ -211,7 +211,7 @@ export default function PageContent() {
           </div>
           <p className="text-center text-sm text-slate-500 mb-16">
             Looking for income-based assistance programs like Medicare Savings Programs or Extra Help?{" "}
-            <a href="/new-to-medicare/costs#savings" className="text-teal-700 font-medium hover:underline">
+            <a href="/new-to-medicare/costs/#savings" className="text-teal-700 font-medium hover:underline">
               See all ways to save on Medicare costs
             </a>.
           </p>
@@ -228,7 +228,7 @@ export default function PageContent() {
               on top of every scenario shown, regardless of which path you choose.
             </p>
             <a
-              href="/new-to-medicare/costs#irmaa"
+              href="/new-to-medicare/costs/#irmaa"
               className="inline-flex items-center gap-1 mt-4 text-teal-700 font-semibold hover:underline"
             >
               See the full 2026 IRMAA bracket table <ArrowRight className="w-4 h-4" aria-hidden="true" />
@@ -286,11 +286,11 @@ export default function PageContent() {
         <div className="container max-w-4xl">
           <h2 className="text-xl font-bold text-[#1B2A4A] mb-4">Related Resources</h2>
           <div className="grid sm:grid-cols-2 gap-4">
-            <a href="/medicare-plans/best-supplement-plans" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors">
+            <a href="/medicare-plans/best-supplement-plans/" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors">
               <h3 className="font-semibold text-slate-900 group-hover:text-blue-700 text-sm mb-1">Best Medicare Supplement Plans</h3>
               <p className="text-xs text-slate-500">Top-rated Medigap plans compared</p>
             </a>
-            <a href="/new-to-medicare/costs" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors">
+            <a href="/new-to-medicare/costs/" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors">
               <h3 className="font-semibold text-slate-900 group-hover:text-blue-700 text-sm mb-1">Complete Medicare Cost Guide</h3>
               <p className="text-xs text-slate-500">Full Part A, B, D, and IRMAA cost breakdown</p>
             </a>

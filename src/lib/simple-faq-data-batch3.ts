@@ -379,7 +379,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         "Watch for your red, white, and blue Medicare card in the mail (typically arrives within 2-4 weeks)",
         "Set up your Medicare.gov account to view your coverage, claims, and digital Medicare card",
         "Evaluate whether you need a [Medicare Supplement (Medigap) plan](/medicare-supplement-plans) to cover deductibles and coinsurance",
-        "Consider enrolling in a [Part D prescription drug plan](/original-medicare/medicare-parts/medicare-part-d) if staying with Original Medicare",
+        "Consider enrolling in a [Part D prescription drug plan](/original-medicare/medicare-parts/medicare-part-d/) if staying with Original Medicare",
         "Alternatively, explore [Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans) that bundle Part A, Part B, and often Part D with extra benefits",
         "Schedule your free Welcome to Medicare preventive visit within the first 12 months of Part B coverage",
       ]},

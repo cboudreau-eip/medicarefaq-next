@@ -5,5 +5,5 @@ import { redirect } from "next/navigation";
  * This prevents the 404 when users click "Medicare Library" in the top nav.
  */
 export default function LibraryIndex() {
-  redirect("/library/guides");
+  redirect("/library/guides/");
 }

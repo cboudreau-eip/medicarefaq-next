@@ -127,7 +127,7 @@ export default function AnnualChanges() {
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://www.medicarefaq.com/" },
-          { name: "Enrollment", url: "https://www.medicarefaq.com/medicare-enrollment/" },
+          { name: "Enrollment", url: "https://www.medicarefaq.com/medicare-enrollment/turning-65/" },
           { name: "Annual Changes" },
         ]}
       />
@@ -205,7 +205,7 @@ export default function AnnualChanges() {
                   What Changes Each Year in Medicare?
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-6">
-                  Medicare isn't static. Every year, the Centers for Medicare &amp; Medicaid Services (CMS) adjusts costs, updates coverage rules, and allows insurance companies to modify their plan offerings. These changes can affect your <strong>premiums</strong>, <strong>deductibles</strong>, <strong>copays</strong>, <Link href="/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-formulary" className="text-amber-700 underline font-semibold hover:text-amber-900">drug formularies</Link>, and provider networks.
+                  Medicare isn't static. Every year, the Centers for Medicare &amp; Medicaid Services (CMS) adjusts costs, updates coverage rules, and allows insurance companies to modify their plan offerings. These changes can affect your <strong>premiums</strong>, <strong>deductibles</strong>, <strong>copays</strong>, <Link href="/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-formulary/" className="text-amber-700 underline font-semibold hover:text-amber-900">drug formularies</Link>, and provider networks.
                 </p>
                 <p className="text-slate-600 leading-relaxed mb-8">
                   That's why it's important to review your coverage annually — even if you're satisfied with your current plan. A plan that worked well this year may have significant changes next year.
@@ -273,7 +273,7 @@ export default function AnnualChanges() {
                     <div>
                       <p className="font-semibold text-blue-900 mb-1">New for 2026: <strong>Part D</strong> Out-of-Pocket Cap</p>
                       <p className="text-sm text-blue-800">
-                        Starting in 2025, the Inflation Reduction Act introduced a <strong>$2,000 annual out-of-pocket cap</strong> for <Link href="/original-medicare/medicare-parts/medicare-part-d" className="text-blue-900 underline font-semibold hover:text-blue-700">Part D prescription drug costs</Link>. This continues in 2026 and eliminates the catastrophic coverage phase where beneficiaries previously had to pay 5% of drug costs indefinitely.
+                        Starting in 2025, the Inflation Reduction Act introduced a <strong>$2,000 annual out-of-pocket cap</strong> for <Link href="/original-medicare/medicare-parts/medicare-part-d/" className="text-blue-900 underline font-semibold hover:text-blue-700">Part D prescription drug costs</Link>. This continues in 2026 and eliminates the catastrophic coverage phase where beneficiaries previously had to pay 5% of drug costs indefinitely.
                       </p>
                     </div>
                   </div>
@@ -540,7 +540,7 @@ export default function AnnualChanges() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/medicare-plans/costs" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors block">
+                  <Link href="/medicare-plans/costs/" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors block">
                     <DollarSign className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
                     <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Medicare Costs</h3>
                     <p className="text-xs text-slate-500">Full cost breakdown</p>

@@ -22362,7 +22362,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Covered - formulary varies by plan",
         paragraphs: [
-          "[Medicare Part D](/original-medicare/medicare-parts/medicare-part-d) covers FDA-approved prescription medications used to treat Alzheimer's disease. The most commonly prescribed Alzheimer's medications - cholinesterase inhibitors (donepezil, rivastigmine, galantamine) and the NMDA receptor antagonist memantine - are covered by most Part D plans.",
+          "[Medicare Part D](/original-medicare/medicare-parts/medicare-part-d/) covers FDA-approved prescription medications used to treat Alzheimer's disease. The most commonly prescribed Alzheimer's medications - cholinesterase inhibitors (donepezil, rivastigmine, galantamine) and the NMDA receptor antagonist memantine - are covered by most Part D plans.",
           "Leqembi (lecanemab), the first disease-modifying Alzheimer's therapy, is covered under [Medicare Part B](/faqs/does-medicare-cover-leqembi) rather than Part D because it is administered as an IV infusion by a physician.",
           "Coverage and cost-sharing for Alzheimer's medications vary by plan formulary. Compare Part D plans during Open Enrollment (October 15 – December 7) to ensure your specific medications are covered at the lowest cost."],
         whatItCovers: [
@@ -22682,7 +22682,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Covered - formulary varies by plan",
         paragraphs: [
-          "[Medicare Part D](/original-medicare/medicare-parts/medicare-part-d) covers prescription glaucoma medications including prostaglandin analogs (latanoprost, bimatoprost), beta-blockers (timolol), and carbonic anhydrase inhibitors (dorzolamide). Coverage and cost-sharing vary by plan formulary.",
+          "[Medicare Part D](/original-medicare/medicare-parts/medicare-part-d/) covers prescription glaucoma medications including prostaglandin analogs (latanoprost, bimatoprost), beta-blockers (timolol), and carbonic anhydrase inhibitors (dorzolamide). Coverage and cost-sharing vary by plan formulary.",
           "In 2026, the maximum out-of-pocket cap for Part D is $2,100, providing protection for beneficiaries on multiple medications."],
         whatItCovers: [
           "Prostaglandin analogs (latanoprost/Xalatan, bimatoprost/Lumigan, travoprost/Travatan)",
@@ -23066,8 +23066,8 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Covered",
         coverageType: "covered",
         paragraphs: [
-          "[Medicare Part B](/original-medicare/medicare-costs) covers a wide range of telehealth services, including office visits, mental health therapy, preventive screenings, chronic care management, and more. Through December 31, 2027, you can receive these visits from your home or any location in the U.S. under the flexibilities extended by the Consolidated Appropriations Act, 2026.",
-          "After you meet the [Part B deductible](/original-medicare/medicare-costs), you pay 20% of the Medicare-approved amount - the same cost-sharing as an in-person visit. Mental health and behavioral health telehealth from home is permanently covered with no geographic restrictions."],
+          "[Medicare Part B](/original-medicare/medicare-costs/) covers a wide range of telehealth services, including office visits, mental health therapy, preventive screenings, chronic care management, and more. Through December 31, 2027, you can receive these visits from your home or any location in the U.S. under the flexibilities extended by the Consolidated Appropriations Act, 2026.",
+          "After you meet the [Part B deductible](/original-medicare/medicare-costs/), you pay 20% of the Medicare-approved amount - the same cost-sharing as an in-person visit. Mental health and behavioral health telehealth from home is permanently covered with no geographic restrictions."],
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -23293,7 +23293,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         paragraphs: [
           "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) covers podiatry services that are medically necessary. This includes treatment for foot injuries, infections, plantar fasciitis, heel spurs, and diabetic foot care. If you have diabetes or a condition affecting circulation in your feet, Medicare also covers routine foot care such as nail trimming when performed by a podiatrist as part of your treatment plan.",
-          "Routine foot care that is not related to a medical condition is generally not covered. After meeting the [Part B deductible](/original-medicare/medicare-costs) ($283 in 2026), you pay 20% of the Medicare-approved amount for covered podiatry visits."],
+          "Routine foot care that is not related to a medical condition is generally not covered. After meeting the [Part B deductible](/original-medicare/medicare-costs/) ($283 in 2026), you pay 20% of the Medicare-approved amount for covered podiatry visits."],
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -23405,7 +23405,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         paragraphs: [
           "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) covers hepatitis C screening as a preventive service at no cost to you. You qualify if you were born between January 1, 1945 and December 31, 1965 (covered once in a lifetime), or if you are at increased risk due to a history of injection drug use, certain blood transfusions before 1992, or other risk factors your doctor identifies (covered once per year).",
-          "There is no deductible or coinsurance for this screening when your doctor orders it as a preventive service and you see a participating provider. If the screening leads to additional diagnostic testing, standard [Part B cost-sharing](/original-medicare/medicare-costs) may apply."],
+          "There is no deductible or coinsurance for this screening when your doctor orders it as a preventive service and you see a participating provider. If the screening leads to additional diagnostic testing, standard [Part B cost-sharing](/original-medicare/medicare-costs/) may apply."],
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -23516,7 +23516,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Covered",
         coverageType: "covered",
         paragraphs: [
-          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) covers outpatient mental health services, including individual and group psychotherapy, psychiatric evaluations, depression screenings, alcohol misuse counseling, and substance use disorder treatment. After meeting the [Part B deductible](/original-medicare/medicare-costs) ($283 in 2026), you pay 20% of the Medicare-approved amount for these services.",
+          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) covers outpatient mental health services, including individual and group psychotherapy, psychiatric evaluations, depression screenings, alcohol misuse counseling, and substance use disorder treatment. After meeting the [Part B deductible](/original-medicare/medicare-costs/) ($283 in 2026), you pay 20% of the Medicare-approved amount for these services.",
           "[Medicare Part A](/original-medicare/medicare-parts/medicare-part-a) covers inpatient psychiatric hospital stays, up to 190 days in a lifetime in a freestanding psychiatric facility. Telehealth mental health visits from home are permanently covered under Medicare with no geographic restrictions, making it easier to access care from anywhere in the U.S."],
       },
       {
@@ -23629,7 +23629,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         paragraphs: [
           "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) covers the Annual Wellness Visit once every 12 months at no cost to you. The visit includes a health risk assessment, review of your medical and family history, a current list of providers and medications, blood pressure and other routine measurements, personalized health advice, and a schedule of appropriate preventive screenings and referrals.",
-          "Note that the AWV is not a head-to-toe physical exam. If your doctor performs additional services during the same visit, you may be billed separately for those services and standard [Part B cost-sharing](/original-medicare/medicare-costs) will apply."],
+          "Note that the AWV is not a head-to-toe physical exam. If your doctor performs additional services during the same visit, you may be billed separately for those services and standard [Part B cost-sharing](/original-medicare/medicare-costs/) will apply."],
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -24256,7 +24256,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         paragraphs: [
           "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) covers Botox injections when administered by a physician for a medically necessary condition. Covered conditions include: chronic migraines (defined as 15 or more headache days per month, with at least 8 being migraines), upper and lower limb spasticity, cervical dystonia (abnormal head position and neck pain), overactive bladder, and primary hyperhidrosis (excessive sweating).",
-          "Botox must be prescribed and administered by a Medicare-participating provider. After meeting the [Part B deductible](/original-medicare/medicare-costs) ($283 in 2026), you pay 20% of the Medicare-approved amount. Botox for cosmetic purposes - including wrinkle reduction or facial aesthetics - is explicitly excluded from Medicare coverage."],
+          "Botox must be prescribed and administered by a Medicare-participating provider. After meeting the [Part B deductible](/original-medicare/medicare-costs/) ($283 in 2026), you pay 20% of the Medicare-approved amount. Botox for cosmetic purposes - including wrinkle reduction or facial aesthetics - is explicitly excluded from Medicare coverage."],
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -25886,7 +25886,7 @@ export const coverageArticles: CoverageArticleData[] = [
       coverageType: "covered",
       paragraphs: [
       "The standard [Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) premium for 2026 is $202.90 per month, an increase of $17.90 from the 2025 premium of $185.00. This premium is typically deducted directly from your Social Security check.",
-      "Part B covers outpatient services, doctor visits, preventive care, durable medical equipment, and some home health services. The 2026 annual deductible is $283 (up from $257 in 2025). If you are [new to Medicare](/medicare-enrollment/), understanding your Part B cost is one of the first steps in planning your coverage.",
+      "Part B covers outpatient services, doctor visits, preventive care, durable medical equipment, and some home health services. The 2026 annual deductible is $283 (up from $257 in 2025). If you are [new to Medicare](/medicare-enrollment/turning-65/), understanding your Part B cost is one of the first steps in planning your coverage.",
     ],
       whatItCovers: [
       "Doctor and outpatient services",

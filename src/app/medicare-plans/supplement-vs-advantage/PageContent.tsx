@@ -318,11 +318,11 @@ export default function PageContent() {
         <div className="container max-w-4xl">
           <h2 className="text-xl font-bold text-[#1B2A4A] mb-4">Related Resources</h2>
           <div className="grid sm:grid-cols-2 gap-4">
-            <a href="/medicare-plans/best-supplement-plans" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors">
+            <a href="/medicare-plans/best-supplement-plans/" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors">
               <h3 className="font-semibold text-slate-900 group-hover:text-blue-700 text-sm mb-1">Best Medicare Supplement Plans</h3>
               <p className="text-xs text-slate-500">Top-rated Medigap plans compared</p>
             </a>
-            <a href="/medicare-plans/costs" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors">
+            <a href="/medicare-plans/costs/" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors">
               <h3 className="font-semibold text-slate-900 group-hover:text-blue-700 text-sm mb-1">Medicare Plan Costs</h3>
               <p className="text-xs text-slate-500">Premiums, deductibles, and out-of-pocket costs</p>
             </a>

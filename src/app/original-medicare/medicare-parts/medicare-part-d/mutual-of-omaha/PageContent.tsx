@@ -53,7 +53,7 @@ export default function PageContent() {
             <nav className="text-sm text-blue-200 mb-4 flex items-center gap-2">
               <Link href="/" className="hover:text-white">Home</Link>
               <span>/</span>
-              <Link href="/original-medicare/medicare-parts/medicare-part-d" className="hover:text-white">Medicare Part D</Link>
+              <Link href="/original-medicare/medicare-parts/medicare-part-d/" className="hover:text-white">Medicare Part D</Link>
               <span>/</span>
               <span className="text-white">Mutual of Omaha</span>
             </nav>
@@ -165,7 +165,7 @@ export default function PageContent() {
             <h2 className="text-xl font-bold text-[#1B3A6B] mb-4">Related Resources</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {[
-                { label: "Medicare Part D Overview", href: "/original-medicare/medicare-parts/medicare-part-d" },
+                { label: "Medicare Part D Overview", href: "/original-medicare/medicare-parts/medicare-part-d/" },
                 { label: "Part D Costs 2026", href: "/original-medicare/medicare-parts/medicare-part-d/part-d-costs" },
                 { label: "Mutual of Omaha Medigap", href: "/medicare-supplement-plans/medigap-by-carrier/mutual-of-omaha-medigap-plans" },
                 { label: "Compare Part D Plans", href: "/medicare-supplement-plans" },

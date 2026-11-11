@@ -286,7 +286,7 @@ export default function PageContent() {
           </p>
         </Link>
         <Link
-          href="/new-to-medicare/costs"
+          href="/new-to-medicare/costs/"
           className="p-4 border border-slate-200 rounded-xl hover:border-blue-300 hover:bg-blue-50 transition-all text-center group"
         >
           <Star className="w-5 h-5 text-blue-600 mx-auto mb-2" aria-hidden="true" />

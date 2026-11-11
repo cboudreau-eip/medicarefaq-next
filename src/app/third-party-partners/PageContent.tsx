@@ -136,12 +136,12 @@ return (
             <h2 className="text-xl font-bold text-[#1B3A6B] mb-4">Learn about Our Carrier Partners</h2>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
               {[
-                { name: "Mutual of Omaha", href: "/medicare-supplement-plans/medicare-supplement-carriers/mutual-of-omaha" },
-                { name: "Aetna", href: "/medicare-supplement-plans/medicare-supplement-carriers/aetna" },
-                { name: "Humana", href: "/medicare-supplement-plans/medicare-supplement-carriers/humana" },
-                { name: "UnitedHealthcare", href: "/medicare-supplement-plans/medicare-supplement-carriers/unitedhealthcare" },
-                { name: "Cigna", href: "/medicare-supplement-plans/medicare-supplement-carriers/cigna" },
-                { name: "All Carriers", href: "/medicare-supplement-plans/medicare-supplement-carriers" },
+                { name: "Mutual of Omaha", href: "/medicare-supplement-plans/medigap-by-carrier/mutual-of-omaha-medigap-plans/" },
+                { name: "Aetna", href: "/medicare-supplement-plans/medigap-by-carrier/aetna-medicare-supplement-plans/" },
+                { name: "Humana", href: "/medicare-supplement-plans/medigap-by-carrier/humana-medigap-plans/" },
+                { name: "UnitedHealthcare", href: "/medicare-supplement-plans/medigap-by-carrier/united-healthcare-medigap-plans/" },
+                { name: "Cigna", href: "/medicare-supplement-plans/medigap-by-carrier/cigna-medigap-plans/" },
+                { name: "All Carriers", href: "/medicare-supplement-plans/medigap-by-carrier/" },
               ].map((carrier, i) => (
                 <Link
                   key={i}

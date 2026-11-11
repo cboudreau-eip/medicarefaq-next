@@ -280,7 +280,7 @@ export default function PageContent() {
                 </div>
                 <p className="text-slate-600 leading-relaxed text-sm">
                   Some plans offer special benefits like the{" "}
-                  <Link href="/medicare-part-c/medicare-advantage-give-back-benefit" className="text-teal-700 underline hover:text-teal-900">Give Back Benefit</Link>{" "}
+                  <Link href="/faqs/medicare-part-b-give-back-plan/" className="text-teal-700 underline hover:text-teal-900">Give Back Benefit</Link>{" "}
                   that reduces your Medicare Part B premium, or grocery allowances for members with chronic conditions. Benefits vary significantly between plans, so it&apos;s important to compare what&apos;s included in plans available in your area.
                 </p>
               </section>

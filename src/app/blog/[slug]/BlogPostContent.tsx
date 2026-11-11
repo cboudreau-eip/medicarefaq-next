@@ -1,6 +1,7 @@
 "use client";
 import ArticleGuideCta from "@/components/ArticleGuideCta";
 import { renderInline } from "@/components/ArticleInline";
+import { repairInternalHref } from "@/lib/broken-link-repairs";
 
 /**
  * Blog Post Content Renderer
@@ -769,12 +770,12 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
               {article.relatedSlugs && article.relatedSlugs.length > 0 && (() => {
                 const resolvedRelated = article.relatedSlugs.slice(0, 4).map((relSlug) => {
                   const blogMatch = blogArticles.find(a => a.slug === relSlug);
-                  if (blogMatch) return { title: blogMatch.title, readTime: blogMatch.readTime, href: `/blog/${relSlug}` };
-                  const faqMatch = simpleFAQArticles.find(a => a.slug === relSlug);
-                  if (faqMatch) return { title: faqMatch.title, readTime: faqMatch.readTime, href: `/faqs/${relSlug}` };
-                  const covMatch = coverageArticles.find(a => a.slug === relSlug);
-                  if (covMatch) return { title: covMatch.title, readTime: covMatch.readTime, href: `/faqs/${relSlug}` };
-                  return null;
+                  const related = blogMatch
+                    ?? simpleFAQArticles.find(a => a.slug === relSlug)
+                    ?? coverageArticles.find(a => a.slug === relSlug);
+                  if (!related) return null;
+                  const href = repairInternalHref(blogMatch ? `/blog/${relSlug}` : `/faqs/${relSlug}`);
+                  return href === null ? null : { title: related.title, readTime: related.readTime, href };
                 }).filter(Boolean) as { title: string; readTime: string; href: string }[];
                 if (resolvedRelated.length === 0) return null;
                 return (

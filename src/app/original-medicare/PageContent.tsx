@@ -575,7 +575,7 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
                     </Link>
                   </li>
                   <li>
-                    <Link href="/new-to-medicare/costs" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors flex flex-col">
+                    <Link href="/new-to-medicare/costs/" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors flex flex-col">
                       <DollarSign className="w-5 h-5 text-blue-600 mb-2" aria-hidden="true" />
                       <h3 className="font-semibold text-slate-900 group-hover:text-blue-700 text-sm mb-1">Medicare Costs 2026</h3>
                       <p className="text-xs text-slate-500">Complete cost breakdown</p>

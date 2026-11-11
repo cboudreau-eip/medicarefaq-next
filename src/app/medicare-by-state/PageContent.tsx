@@ -24,7 +24,7 @@ export default function PageContent() {
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-6 flex-wrap">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
             <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
-            <Link href="/medicare-plans" className="hover:text-white transition-colors">Medicare Plans</Link>
+            <Link href="/medicare-plans/costs/" className="hover:text-white transition-colors">Medicare Plans</Link>
             <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-teal-400">Medicare by State</span>
           </div>
@@ -232,7 +232,7 @@ export default function PageContent() {
             Whether your state has a birthday rule or not, we can help you find the best Medigap plan at the lowest premium.
           </p>
           <Link
-            href="/compare-rates"
+            href="/medicare-supplement-plans/"
             className="inline-flex items-center px-8 py-4 bg-[#f5a623] hover:bg-[#e09515] text-white font-semibold rounded-lg shadow-lg transition-colors text-lg"
           >
             Compare Plans Now <ArrowRight className="w-5 h-5 ml-2" aria-hidden="true" />

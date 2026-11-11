@@ -1311,7 +1311,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       },
       {
         type: 'paragraph' as const,
-        content: 'Switching from a Medicare Supplement plan to a Medicare Advantage plan is straightforward. You can enroll in a Medicare Advantage plan during the [Annual Enrollment Period](/medicare-enrollment/) (October 15 through December 7 each year) or, if you are within your first 12 months of Medicare Advantage enrollment, during the Medicare Advantage Open Enrollment Period (January 1 through March 31). Medicare Advantage plans cannot deny you based on health status. However, be aware that if you later want to switch back to Medigap, you may face underwriting at that point.',
+        content: 'Switching from a Medicare Supplement plan to a Medicare Advantage plan is straightforward. You can enroll in a Medicare Advantage plan during the [Annual Enrollment Period](/medicare-enrollment/turning-65/) (October 15 through December 7 each year) or, if you are within your first 12 months of Medicare Advantage enrollment, during the Medicare Advantage Open Enrollment Period (January 1 through March 31). Medicare Advantage plans cannot deny you based on health status. However, be aware that if you later want to switch back to Medigap, you may face underwriting at that point.',
       },
       {
         type: 'heading' as const,

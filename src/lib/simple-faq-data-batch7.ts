@@ -298,7 +298,7 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
       },
       {
         type: "paragraph",
-        content: "[Medicare Part A](/original-medicare/medicare-parts/medicare-part-a) covers inpatient hospital stays related to AFib treatment, including hospitalizations for cardioversion, ablation procedures, and open-heart surgery. [Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) covers outpatient services including doctor visits, cardiac screenings, heart monitoring, and medically necessary diagnostic tests. [Medicare Part D](/original-medicare/medicare-parts/medicare-part-d) covers prescription medications used to manage AFib, such as blood thinners (anticoagulants) and rate-control drugs.",
+        content: "[Medicare Part A](/original-medicare/medicare-parts/medicare-part-a) covers inpatient hospital stays related to AFib treatment, including hospitalizations for cardioversion, ablation procedures, and open-heart surgery. [Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) covers outpatient services including doctor visits, cardiac screenings, heart monitoring, and medically necessary diagnostic tests. [Medicare Part D](/original-medicare/medicare-parts/medicare-part-d/) covers prescription medications used to manage AFib, such as blood thinners (anticoagulants) and rate-control drugs.",
       },
       {
         type: "table",
@@ -321,7 +321,7 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
       },
       {
         type: "paragraph",
-        content: "Blood thinners such as warfarin (Coumadin), apixaban (Eliquis), rivaroxaban (Xarelto), and dabigatran (Pradaxa) are commonly prescribed to reduce stroke risk in AFib patients. These medications are covered under [Medicare Part D](/original-medicare/medicare-parts/medicare-part-d) drug plans, though coverage and cost-sharing vary by plan formulary. Rate-control medications such as beta-blockers and calcium channel blockers are also typically covered under Part D.",
+        content: "Blood thinners such as warfarin (Coumadin), apixaban (Eliquis), rivaroxaban (Xarelto), and dabigatran (Pradaxa) are commonly prescribed to reduce stroke risk in AFib patients. These medications are covered under [Medicare Part D](/original-medicare/medicare-parts/medicare-part-d/) drug plans, though coverage and cost-sharing vary by plan formulary. Rate-control medications such as beta-blockers and calcium channel blockers are also typically covered under Part D.",
       },
       {
         type: "callout",

@@ -111,7 +111,7 @@ export default function MedicareCosts() {
                   <td className="p-3">Varies; annual OOP max required</td>
                 </tr>
                 <tr className="bg-gray-50">
-                  <td className="p-3 font-semibold"><Link href="/original-medicare/medicare-parts/medicare-part-d" className="text-[#0D9488] hover:underline">Part D (Drugs)</Link></td>
+                  <td className="p-3 font-semibold"><Link href="/original-medicare/medicare-parts/medicare-part-d/" className="text-[#0D9488] hover:underline">Part D (Drugs)</Link></td>
                   <td className="p-3">Avg ~$35–$55/month</td>
                   <td className="p-3">Up to $615/year</td>
                   <td className="p-3">$2,000 OOP cap (2025+)</td>
@@ -199,11 +199,11 @@ export default function MedicareCosts() {
         <section className="mt-10">
           <h2 className="text-xl font-bold text-[#1B2A4A] mb-4">Related Medicare Topics</h2>
           <div className="grid sm:grid-cols-2 gap-4">
-            <a href="/original-medicare/medicare-eligibility" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors">
+            <a href="/original-medicare/medicare-eligibility/" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors">
               <h3 className="font-semibold text-slate-900 group-hover:text-blue-700 text-sm mb-1">Medicare Eligibility</h3>
               <p className="text-xs text-slate-500">Who qualifies for Medicare</p>
             </a>
-            <a href="/original-medicare/medicare-coverage" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors">
+            <a href="/original-medicare/medicare-coverage/" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors">
               <h3 className="font-semibold text-slate-900 group-hover:text-blue-700 text-sm mb-1">Medicare Coverage</h3>
               <p className="text-xs text-slate-500">What Original Medicare covers</p>
             </a>

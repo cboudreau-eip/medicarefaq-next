@@ -273,7 +273,7 @@ export default function PageContent() {
                       <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-blue-500 mt-0.5 shrink-0" aria-hidden="true" />Premium-free for most (40+ work credits)</li>
                       <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-blue-500 mt-0.5 shrink-0" aria-hidden="true" />2026 deductible: $1,736 per benefit period</li>
                     </ul>
-                    <Link href="/faqs/what-does-medicare-part-a-cover/" className="inline-flex items-center gap-1 text-sm font-semibold text-teal-700 hover:text-teal-800 mt-3">
+                    <Link href="/original-medicare/medicare-parts/medicare-part-a/" className="inline-flex items-center gap-1 text-sm font-semibold text-teal-700 hover:text-teal-800 mt-3">
                       What does Part A cover? <ArrowRight className="w-3 h-3" aria-hidden="true" />
                     </Link>
                   </div>

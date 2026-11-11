@@ -80,7 +80,7 @@ export const navigationData: NavCategory[] = [
         title: "What Does it Cost?",
         description: "Understand premiums, deductibles, and out-of-pocket costs",
         icon: DollarSign,
-        href: "/new-to-medicare/costs",
+        href: "/new-to-medicare/costs/",
       },
       {
         title: "Getting Started Checklist",
@@ -111,7 +111,7 @@ export const navigationData: NavCategory[] = [
   },
   {
     title: "Medicare Plans",
-    href: "/medicare-plans",
+    href: "/medicare-plans/costs/",
     color: "#3B82F6",
     items: [
       {
@@ -136,7 +136,7 @@ export const navigationData: NavCategory[] = [
         title: "Medicare Part D (Prescription Drug Plans)",
         description: "Prescription drug coverage options",
         icon: Pill,
-        href: "/original-medicare/medicare-parts/medicare-part-d",
+        href: "/original-medicare/medicare-parts/medicare-part-d/",
       },
       {
         title: "Compare Medicare Plans",
@@ -148,7 +148,7 @@ export const navigationData: NavCategory[] = [
         title: "Medicare Costs",
         description: "What you'll pay for each plan type",
         icon: DollarSign,
-        href: "/medicare-plans/costs",
+        href: "/medicare-plans/costs/",
       },
       {
         title: "Medicare by State",
@@ -168,7 +168,7 @@ export const navigationData: NavCategory[] = [
       {
         title: "Best Medicare Supplement Plans 2026",
         description: "Plan F, G, and N compared with current rates.",
-        href: "/medicare-plans/best-supplement-plans",
+        href: "/medicare-plans/best-supplement-plans/",
         cta: "See Rankings",
       },
       {
@@ -304,7 +304,7 @@ export const navigationData: NavCategory[] = [
         title: "Guides",
         description: "In-depth guides on Medicare topics",
         icon: FileText,
-        href: "/library/guides",
+        href: "/library/guides/",
       },
       {
         title: "Podcast",
@@ -344,7 +344,7 @@ export const navigationData: NavCategory[] = [
       },
       {
         title: "Understanding Medicare Costs",
-        href: "/new-to-medicare/costs",
+        href: "/new-to-medicare/costs/",
       },
       {
         title: "When to Enroll in Medicare",

@@ -1,4 +1,4 @@
-/** Legacy URLs verified by the October 13, 2026 crawl repair.
+/** Reviewed legacy URLs from the technical crawl audits.
  * Null entries have no verified equivalent; related cards for them are omitted.
  */
 export const BROKEN_LINK_REPAIRS: Readonly<Record<string, string | null>> = {
@@ -66,7 +66,60 @@ export const BROKEN_LINK_REPAIRS: Readonly<Record<string, string | null>> = {
   "/faqs/medicare-inpatient-vs-outpatient-vs-under-observation": "/blog/observation-vs-inpatient-why-it-can-affect-your-medicare-bill/",
   "/faqs/how-dual-residency-and-medicare-works": null,
   "/faqs/what-is-original-medicare": "/original-medicare/",
-  "/faqs/medicare-and-wound-care-coverage": null
+  "/faqs/medicare-and-wound-care-coverage": null,
+  // November 11 audit: legacy links resolve directly to the final page.
+  "/compare-rates": "/medicare-supplement-plans/",
+  "/faqs/does-medicare-cover-diabetic-supplies": "/faqs/medicare-diabetes/",
+  "/faqs/does-medicare-cover-skilled-nursing": "/faqs/medicare-coverage-for-skilled-nursing-facilities/",
+  "/faqs/medicare-advantage-plan-hmo": "/medicare-part-c/medicare-advantage-plan-hmo/",
+  "/faqs/medicare-advantage": "/medicare-part-c/medicare-advantage-plans/",
+  "/faqs/medicare-eligibility": "/original-medicare/medicare-eligibility/",
+  "/faqs/medicare-part-d": "/original-medicare/medicare-parts/medicare-part-d/",
+  "/faqs/medicare-questions": "/faqs/turning-65-these-are-the-most-common-medicare-questions-answered/",
+  "/faqs/medicare-supplement-plan-g": "/medicare-supplement-plans/plan-g/",
+  "/faqs/plan-g": "/medicare-supplement-plans/plan-g/",
+  "/faqs/protect-yourself-from-medicare-penalties-and-deadlines": "/blog/medicare-penalty-avoidance-strategies/",
+  "/faqs/protect-yourself-from-medicare-penalties-key-tips-and-deadlines": "/blog/medicare-penalty-avoidance-strategies/",
+  "/faqs/what-does-medicare-part-a-cover": "/original-medicare/medicare-parts/medicare-part-a/",
+  "/faqs/what-is-durable-medical-equipment-dme": "/faqs/does-medicare-cover-durable-medical-equipment/",
+  "/faqs/what-is-medicare-part-b": "/original-medicare/medicare-parts/medicare-part-b/",
+  "/faqs/what-is-medicare-part-d": "/original-medicare/medicare-parts/medicare-part-d/",
+  "/medicare-advantage": "/medicare-part-c/medicare-advantage-plans/",
+  "/medicare-enrollment": "/medicare-enrollment/turning-65/",
+  "/medicare-part-c": "/medicare-part-c/medicare-advantage-plans/",
+  "/medicare-plans": "/medicare-plans/costs/",
+  "/medicare-supplement-plans/compare-medigap-plans": "/medicare-supplement-plans/compare/",
+  "/medicare-supplement-plans/medicare-supplement-carriers": "/medicare-supplement-plans/medigap-by-carrier/",
+  "/medicare-supplement-plans/medicare-supplement-carriers/aetna": "/medicare-supplement-plans/medigap-by-carrier/aetna-medicare-supplement-plans/",
+  "/medicare-supplement-plans/medicare-supplement-carriers/cigna": "/medicare-supplement-plans/medigap-by-carrier/cigna-medigap-plans/",
+  "/medicare-supplement-plans/medicare-supplement-carriers/humana": "/medicare-supplement-plans/medigap-by-carrier/humana-medigap-plans/",
+  "/medicare-supplement-plans/medicare-supplement-carriers/mutual-of-omaha": "/medicare-supplement-plans/medigap-by-carrier/mutual-of-omaha-medigap-plans/",
+  "/medicare-supplement-plans/medicare-supplement-carriers/unitedhealthcare": "/medicare-supplement-plans/medigap-by-carrier/united-healthcare-medigap-plans/",
+  "/medicare-supplement-plans/medicare-supplement-plans/high-deductible-plan-f": "/medicare-supplement-plans/high-deductible-plan-f/",
+  "/medicare-supplement-plans/medicare-supplement-plans/high-deductible-plan-g": "/medicare-supplement-plans/high-deductible-plan-g/",
+  "/medicare-supplement-plans/medicare-supplement-plans/plan-a": "/medicare-supplement-plans/plan-a/",
+  "/medicare-supplement-plans/medicare-supplement-plans/plan-b": "/medicare-supplement-plans/plan-b/",
+  "/medicare-supplement-plans/medicare-supplement-plans/plan-c": "/medicare-supplement-plans/plan-c/",
+  "/medicare-supplement-plans/medicare-supplement-plans/plan-d": "/medicare-supplement-plans/plan-d/",
+  "/medicare-supplement-plans/medicare-supplement-plans/plan-f": "/medicare-supplement-plans/plan-f/",
+  "/medicare-supplement-plans/medicare-supplement-plans/plan-g": "/medicare-supplement-plans/plan-g/",
+  "/medicare-supplement-plans/medicare-supplement-plans/plan-k": "/medicare-supplement-plans/plan-k/",
+  "/medicare-supplement-plans/medicare-supplement-plans/plan-l": "/medicare-supplement-plans/plan-l/",
+  "/medicare-supplement-plans/medicare-supplement-plans/plan-m": "/medicare-supplement-plans/plan-m/",
+  "/medicare-supplement-plans/medicare-supplement-plans/plan-n": "/medicare-supplement-plans/plan-n/",
+  "/medicare-supplements": "/medicare-supplement-plans/",
+  "/medicare-supplements/medigap-by-state": "/medicare-supplement-plans/medigap-by-state/",
+  "/new-to-medicare": "/new-to-medicare/eligibility/",
+  "/new-to-medicare/medicare-fehb": "/faqs/fehb-and-medicare/",
+  "/new-to-medicare/medicare-va-benefits": "/faqs/medicare-and-va-benefits/",
+  "/new-to-medicare/medicare-vs-medicaid": "/faqs/medicare-vs-medicaid/",
+  "/news": "/blog/",
+  "/online-guides": "/library/guides/",
+  "/original-medicare/medicare-parts": "/original-medicare/",
+  "/original-medicare/medicare-parts/medicare-part-d/part-d-coverage-gap": "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-coverage-gap/",
+  "/original-medicare/medicare-parts/medicare-part-d/part-d-eligibility": "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-eligibility/",
+  "/original-medicare/medicare-parts/medicare-part-d/part-d-enrollment-periods": "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-enrollment-periods/",
+  "/terms-of-service": "/terms-of-use/"
 };
 
 /** Resolve only reviewed legacy URLs. Preserve other URLs and query/fragment suffixes. */

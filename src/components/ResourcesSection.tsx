@@ -12,7 +12,7 @@ const resources = [
     description:
       "Everything you need to know about Plan G: costs, coverage, and why it's become the most popular Medigap plan.",
     date: "Updated Mar 2026",
-    href: "/library/guides",
+    href: "/library/guides/",
   },
   {
     type: "FAQ",
@@ -21,7 +21,7 @@ const resources = [
     description:
       "Original Medicare doesn't cover medical alert systems, but some Medicare Advantage plans do. Here's what to look for.",
     date: "Updated Mar 2026",
-    href: "/faqs/does-medicare-cover-medical-alert-systems",
+    href: "/faqs/does-medicare-cover-medical-alert-systems/",
   },
   {
     type: "Tool",
@@ -30,7 +30,7 @@ const resources = [
     description:
       "Enter your birthday and employment status to see exactly when you should enroll and what deadlines to watch.",
     date: "Updated Jan 2026",
-    href: "/tools/enrollment-timeline",
+    href: "/tools/enrollment-timeline/",
   },
 ];
 

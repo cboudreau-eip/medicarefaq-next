@@ -118,7 +118,7 @@ export default function PageContent() {
             <span>/</span>
             <Link href="/original-medicare" className="hover:text-white">Original Medicare</Link>
             <span>/</span>
-            <Link href="/original-medicare/medicare-parts" className="hover:text-white">Medicare Parts</Link>
+            <Link href="/original-medicare/" className="hover:text-white">Medicare Parts</Link>
             <span>/</span>
             <Link href="/original-medicare/medicare-parts/medicare-part-b" className="hover:text-white">Medicare Part B</Link>
             <span>/</span>
@@ -477,7 +477,7 @@ export default function PageContent() {
               { label: "Medicare Part B Late Enrollment Penalty", href: "/faqs/medicare-part-b-late-enrollment-penalty" },
               { label: "Medigap Open Enrollment", href: "/medicare-supplement-plans/medigap-eligibility" },
               { label: "How to Apply for Medicare Part B", href: "/original-medicare/medicare-parts/apply-for-medicare-part-b" },
-              { label: "Medicare Eligibility", href: "/original-medicare/medicare-eligibility" },
+              { label: "Medicare Eligibility", href: "/original-medicare/medicare-eligibility/" },
             ].map((link, i) => (
               <Link
                 key={i}

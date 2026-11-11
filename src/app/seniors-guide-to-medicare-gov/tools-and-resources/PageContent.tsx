@@ -191,8 +191,8 @@ return (
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {[
                 { label: "Medicare Enrollment Periods", href: "/original-medicare/medicare-enrollment-periods" },
-                { label: "Medicare Coverage Guide", href: "/original-medicare/medicare-coverage" },
-                { label: "Medicare Costs 2026", href: "/original-medicare/medicare-costs" },
+                { label: "Medicare Coverage Guide", href: "/original-medicare/medicare-coverage/" },
+                { label: "Medicare Costs 2026", href: "/original-medicare/medicare-costs/" },
                 { label: "Compare Medicare Plans", href: "/medicare-supplement-plans" },
               ].map((link, i) => (
                 <Link

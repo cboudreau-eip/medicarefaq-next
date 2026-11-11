@@ -430,7 +430,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                         <FileText className="w-5 h-5 text-purple-600" aria-hidden="true" />
                       </div>
                       <div>
-                        <h3 className="font-semibold text-slate-900 mb-1"><Link href="/original-medicare/medicare-parts/medicare-part-d" className="hover:text-amber-700 transition-colors"><strong>Medicare Part D</strong> (Prescription Drug Coverage)</Link></h3>
+                        <h3 className="font-semibold text-slate-900 mb-1"><Link href="/original-medicare/medicare-parts/medicare-part-d/" className="hover:text-amber-700 transition-colors"><strong>Medicare Part D</strong> (Prescription Drug Coverage)</Link></h3>
                         <p className="text-sm text-slate-600 mb-2">
                           Standalone drug plans that cover prescription medications. Premiums vary by plan. If you delay without creditable drug coverage, you'll face a permanent <strong>late enrollment penalty</strong>.
                         </p>

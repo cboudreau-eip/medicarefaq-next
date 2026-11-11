@@ -663,7 +663,7 @@ export default function PartBPenaltyCalculator() {
               <h3 className="font-bold text-[#1B2A4A] mb-4 text-sm uppercase tracking-wide">Related Tools</h3>
               <div className="space-y-3">
                 <Link
-                  href="/tools/enrollment-timeline"
+                  href="/tools/enrollment-timeline/"
                   className="flex items-start gap-3 p-3 rounded-xl hover:bg-gray-50 transition-colors group"
                 >
                   <div className="w-8 h-8 rounded-lg bg-teal-100 flex items-center justify-center shrink-0">

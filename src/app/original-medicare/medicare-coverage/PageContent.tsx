@@ -168,7 +168,7 @@ export default function MedicareCoverage() {
                 part: "Part D — Prescription Drug Coverage",
                 color: "bg-amber-50 border-amber-200",
                 titleColor: "text-amber-800",
-                href: "/original-medicare/medicare-parts/medicare-part-d",
+                href: "/original-medicare/medicare-parts/medicare-part-d/",
                 items: ["Prescription drugs at retail pharmacies", "Mail-order pharmacy options", "Formulary (drug list) varies by plan", "$2,000 out-of-pocket cap in 2025+"],
               },
             ].map((section, i) => (
@@ -228,11 +228,11 @@ export default function MedicareCoverage() {
         <section className="mt-10">
           <h2 className="text-xl font-bold text-[#1B2A4A] mb-4">Related Medicare Topics</h2>
           <div className="grid sm:grid-cols-2 gap-4">
-            <a href="/original-medicare/medicare-eligibility" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors">
+            <a href="/original-medicare/medicare-eligibility/" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors">
               <h3 className="font-semibold text-slate-900 group-hover:text-blue-700 text-sm mb-1">Medicare Eligibility</h3>
               <p className="text-xs text-slate-500">Who qualifies for Medicare</p>
             </a>
-            <a href="/original-medicare/medicare-costs" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors">
+            <a href="/original-medicare/medicare-costs/" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors">
               <h3 className="font-semibold text-slate-900 group-hover:text-blue-700 text-sm mb-1">Medicare Costs</h3>
               <p className="text-xs text-slate-500">Premiums, deductibles, and copays</p>
             </a>

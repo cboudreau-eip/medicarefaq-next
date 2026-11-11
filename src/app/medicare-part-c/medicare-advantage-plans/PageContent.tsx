@@ -75,7 +75,7 @@ const faqs = [
   },
   {
     q: "Do Medicare Advantage plans cover prescription drugs?",
-    a: (<>Most Medicare Advantage plans include <Link href="/original-medicare/medicare-parts/medicare-part-d" className="text-teal-700 underline hover:text-teal-900">Part D prescription drug coverage</Link> (called MA-PD plans). If your MA plan doesn&apos;t include drug coverage, you can enroll in a standalone Part D plan, but this is uncommon.</>),
+    a: (<>Most Medicare Advantage plans include <Link href="/original-medicare/medicare-parts/medicare-part-d/" className="text-teal-700 underline hover:text-teal-900">Part D prescription drug coverage</Link> (called MA-PD plans). If your MA plan doesn&apos;t include drug coverage, you can enroll in a standalone Part D plan, but this is uncommon.</>),
   },
   {
     q: "How do I know which doctors are in my MA plan's network?",
@@ -236,7 +236,7 @@ export default function MedicareAdvantage() {
                   <strong>Medicare Part C</strong> is the official designation from the Centers for Medicare &amp; Medicaid Services (CMS) for what most people know as <strong>Medicare Advantage</strong>. This name comes from the original Medicare legislation that created different parts of the Medicare program. Part C and Medicare Advantage are the same thing, and both terms are used interchangeably.
                 </p>
                 <p className="text-slate-600 leading-relaxed mb-6">
-                  <strong>Medicare Advantage</strong> is a private insurance alternative to <Link href="/original-medicare" className="text-teal-700 underline hover:text-teal-900">Original Medicare</Link> (Parts A and B). Instead of getting your Medicare benefits directly from the federal government, you receive them through a private insurance company that contracts with Medicare. These companies must cover everything Original Medicare covers, but they often add extra benefits like <Link href="/original-medicare/medicare-parts/medicare-part-d" className="text-teal-700 underline hover:text-teal-900">prescription drug coverage</Link>, dental care, vision services, or wellness programs.
+                  <strong>Medicare Advantage</strong> is a private insurance alternative to <Link href="/original-medicare" className="text-teal-700 underline hover:text-teal-900">Original Medicare</Link> (Parts A and B). Instead of getting your Medicare benefits directly from the federal government, you receive them through a private insurance company that contracts with Medicare. These companies must cover everything Original Medicare covers, but they often add extra benefits like <Link href="/original-medicare/medicare-parts/medicare-part-d/" className="text-teal-700 underline hover:text-teal-900">prescription drug coverage</Link>, dental care, vision services, or wellness programs.
                 </p>
                 <p className="text-slate-600 leading-relaxed mb-8">
                   The trade-off is that Medicare Advantage plans typically use provider networks and may require referrals to see specialists. You&apos;ll need to use doctors and hospitals within your plan&apos;s network for most services, unlike Original Medicare which lets you see any provider that accepts Medicare.
@@ -354,7 +354,7 @@ export default function MedicareAdvantage() {
                 </p>
                 <ul className="grid sm:grid-cols-2 gap-4 mb-8 list-none">
                   {[
-                    { icon: Pill, title: "Prescription Drugs", desc: (<>Most MA plans include <Link href="/original-medicare/medicare-parts/medicare-part-d" className="text-teal-700 underline hover:text-teal-900">Part D drug coverage</Link>, eliminating the need for a separate plan.</>) },
+                    { icon: Pill, title: "Prescription Drugs", desc: (<>Most MA plans include <Link href="/original-medicare/medicare-parts/medicare-part-d/" className="text-teal-700 underline hover:text-teal-900">Part D drug coverage</Link>, eliminating the need for a separate plan.</>) },
                     { icon: Eye, title: "Vision Care", desc: "Routine eye exams, eyeglasses, and contact lens allowances included in many plans." },
                     { icon: "🦷", title: "Dental Coverage", desc: "Preventive and sometimes comprehensive dental — cleanings, X-rays, fillings, and more." },
                     { icon: "👂", title: "Hearing Benefits", desc: "Hearing exams and hearing aid allowances, often with significant annual benefits." },
