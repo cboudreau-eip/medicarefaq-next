@@ -1,0 +1,81 @@
+import Link from 'next/link';
+import styles from './OepRulesArticle.module.css';
+import extra from './OepLeavingPreview.module.css';
+
+const worksheet='/medicarefaq-ma-oep-plan-comparison-worksheet.pdf';
+const options=[
+  {name:'Current A',premium:20,medical:900,drugs:360,noncovered:0},
+  {name:'Alternative B',premium:35,medical:700,drugs:240,noncovered:0},
+  {name:'Alternative C',premium:0,medical:1400,drugs:600,noncovered:0},
+];
+const money=(value:number)=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(value);
+
+export default function OepCostsPreview(){
+  return <article className={`${styles.page} ${extra.article}`}>
+    <div className={styles.notice}>Protected preview · OEP 2027 costs guide · Editorial review pending</div>
+    <header className={styles.hero}><div className={styles.container}>
+      <Link href="/medicare-advantage-open-enrollment-resources/">← OEP 2027 Resource Center</Link>
+      <p className={styles.eyebrow}>COMPARE THE COSTS BEHIND THE PREMIUM</p>
+      <h1>Medicare Costs by Plan Type: Compare Your Total Spending</h1>
+      <p>Build a budget for the coverage you use, then compare your current Medicare Advantage plan with two alternatives using the same assumptions.</p>
+      <p className={styles.byline}>2027 planning guide · Sources checked November 6, 2026</p>
+    </div></header>
+    <div className={styles.container}>
+      <aside className={styles.answer}><h2>A low premium is only one part of the comparison</h2><p>Add the premiums you actually pay, expected medical cost sharing, prescription spending, and noncovered expenses. Record spending limits separately: a limit is neither a predicted bill nor an amount to add to your estimate.</p></aside>
+      <nav className={styles.contents} aria-label="In this guide"><strong>In this guide</strong><a href="#plan-types">Plan types</a><a href="#budget">Build your budget</a><a href="#limits">Spending limits</a><a href="#example">Worked example</a><a href="#verify">Verify before deciding</a><a href="#faqs">FAQs</a></nav>
+
+      <section id="plan-types"><h2>How costs differ by coverage arrangement</h2><p>Start by identifying your coverage. Comparing two Medicare Advantage plans is different from comparing Medicare Advantage with Original Medicare plus supplemental coverage. Use actual quotes and coverage documents for the same year and location.</p>
+        <div className={styles.tableWrap} role="region" aria-label="Costs by Medicare coverage arrangement" tabIndex={0}><table><caption>What belongs in each comparison</caption><thead><tr><th scope="col">Coverage</th><th scope="col">Premiums to record</th><th scope="col">Other costs to check</th></tr></thead><tbody>
+          <tr><th scope="row">Original Medicare</th><td>Part B; Part A if you owe a premium; a separate drug plan if enrolled.</td><td>Part A and Part B deductibles and cost sharing, drug costs under separate coverage, and noncovered services. Original Medicare alone has no annual medical out-of-pocket cap.</td></tr>
+          <tr><th scope="row">Original Medicare + Medigap + Part D</th><td>Medicare premiums plus the quoted Medigap and drug-plan premiums.</td><td>Medical costs left by the specific Medigap policy, separate drug spending, and services not covered by either policy. Do not assume all remaining expenses are covered.</td></tr>
+          <tr><th scope="row">Medicare Advantage, including drug coverage when offered</th><td>Part B and any plan premium; record other Medicare premiums or income-related charges that apply.</td><td>Plan-specific medical deductibles, copays, coinsurance, network rules, drug spending, and noncovered expenses. Check medical and drug limits separately.</td></tr>
+        </tbody></table></div>
+        <p>Medigap supplements Original Medicare; it does not pay Medicare Advantage cost sharing. If considering that change, check <Link href="/faqs/switch-medicare-advantage-to-medicare-supplement/">Medigap eligibility and purchasing protections</Link> before assuming you can buy the policy you want. See <a href="https://www.medicare.gov/what-medicare-covers/your-medicare-coverage-choices">Medicare’s comparison of coverage choices</a>.</p>
+      </section>
+
+      <section id="budget"><h2>Build your budget in four separate categories</h2><p>Use the same coverage period, planned appointments, medications, and pharmacy assumptions in each column. Record the plan name, identifier, year, source, and date of every estimate. For a midyear change, compare the same remaining months rather than a full year against a partial year.</p>
+        <ol><li><strong>Premiums:</strong> Multiply each monthly premium by the months being compared. Include Part B and any other applicable premiums in your personal budget. Record any confirmed premium assistance or reduction once.</li><li><strong>Medical cost sharing:</strong> Estimate visits, procedures, hospital care, therapy, and other expected services using the plan’s rules. Account for any applicable deductible once; do not add it again if the estimate already includes it.</li><li><strong>Prescription spending:</strong> Use an estimate for all your medicines over the comparison period. Separate drug-plan premiums from pharmacy costs. Check whether the estimate already includes the drug deductible.</li><li><strong>Noncovered expenses:</strong> Record expected costs outside coverage, including services beyond an extra benefit’s allowance. Unknown costs stay unknown; they are not zero.</li></ol>
+        <aside className={styles.kit}><h3>Put the numbers side by side</h3><p>The Plan Comparison Worksheet keeps your current plan in A and the same two alternatives in B and C. It separates the comparison subtotal from Part B and other premiums.</p><div><a href={worksheet} target="_blank" rel="noopener noreferrer">Open comparison worksheet (PDF)</a><a href={`${worksheet}?download=1`} download>Download worksheet</a></div></aside>
+        <p>Use the <Link href="/blog/compare-medicare-advantage-prescriptions-pharmacies/">prescription and pharmacy guide</Link> to prepare the drug subtotal, and the <Link href="/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans/">plan comparison guide</Link> to weigh costs alongside coverage.</p>
+      </section>
+
+      <section id="limits"><h2>Keep premiums, deductibles, and limits distinct</h2>
+        <div className={styles.tableWrap} role="region" aria-label="How to interpret spending limits" tabIndex={0}><table><caption>A limit is a protection, not an extra bill</caption><thead><tr><th scope="col">Item</th><th scope="col">How to use it</th></tr></thead><tbody>
+          <tr><td>Medicare Advantage medical out-of-pocket limit</td><td>Record the exact plan’s limit for covered Part A and Part B services, including any separate in-network and combined limits. It does not combine all premiums, Part D drugs, and noncovered expenses into one cap.</td></tr>
+          <tr><td>Part D covered-drug threshold</td><td>For 2027, the threshold is $2,400, compared with $2,100 in 2026. After reaching it, you pay nothing out of pocket for covered Part D drugs for the rest of that calendar year. Premiums and noncovered purchases are separate.</td></tr>
+          <tr><td>Part D deductible</td><td>A plan may charge less than the maximum or no deductible. The maximum is $700 in 2027, compared with $615 in 2026. Do not add this on top of a drug estimate that already includes it.</td></tr>
+          <tr><td>Original Medicare medical expenses</td><td>Original Medicare alone has no annual medical spending cap. Supplemental coverage can help with specified costs; inspect its benefits rather than treating it as unlimited coverage.</td></tr>
+        </tbody></table></div>
+        <p>Check the current year’s <a href="https://www.medicare.gov/basics/costs/medicare-costs">Medicare cost information</a> and <a href="https://www.medicare.gov/health-drug-plans/part-d/basics/costs">Part D cost rules</a>. Use your own Medicare premium notice and the plan’s Summary of Benefits and Evidence of Coverage. Do not relabel a 2026 Part A or Part B amount as a 2027 figure.</p>
+        <aside className={styles.warning}><h3>Also consider a higher-use year</h3><p>Alongside expected spending, ask what a hospital stay or additional treatment could cost under each plan. Compare the relevant medical limits and keep drug exposure and premiums separate. Do not add a plan’s maximum to medical costs already counted toward that same maximum.</p></aside>
+      </section>
+
+      <section id="example"><h2>A hypothetical 12-month comparison</h2><p>Jordan compares a current MA plan with two alternatives. These invented figures match the OEP worksheets. They are teaching examples—not plan quotes, average premiums, or promised savings. Each medical and drug subtotal already includes any deductible spending assumed in that subtotal.</p>
+        <div className={styles.tableWrap} role="region" aria-label="Hypothetical annual cost comparison" tabIndex={0}><table><caption>Comparison subtotal—not the complete household budget</caption><thead><tr><th scope="col">Cost category</th>{options.map(o=><th scope="col" key={o.name}>{o.name}</th>)}</tr></thead><tbody>
+          <tr><th scope="row">Monthly MA plan premium</th>{options.map(o=><td key={o.name}>{money(o.premium)}</td>)}</tr>
+          <tr><th scope="row">Plan premium × 12 months</th>{options.map(o=><td key={o.name}>{money(o.premium*12)}</td>)}</tr>
+          <tr><th scope="row">Expected medical cost sharing</th>{options.map(o=><td key={o.name}>{money(o.medical)}</td>)}</tr>
+          <tr><th scope="row">Expected drug cost sharing, without premiums</th>{options.map(o=><td key={o.name}>{money(o.drugs)}</td>)}</tr>
+          <tr><th scope="row">Assumed noncovered expenses</th>{options.map(o=><td key={o.name}>{money(o.noncovered)}</td>)}</tr>
+          <tr><th scope="row">Illustrative comparison subtotal</th>{options.map(o=><td key={o.name}><strong>{money(o.premium*12+o.medical+o.drugs+o.noncovered)}</strong></td>)}</tr>
+        </tbody></table></div>
+        <p>A: $240 + $900 + $360 = <strong>$1,500</strong>. B: $420 + $700 + $240 = <strong>$1,360</strong>. C: $0 + $1,400 + $600 = <strong>$2,000</strong>.</p>
+        <p>Part B premiums and any other applicable premiums or income-related charges are excluded from these subtotals and must be added separately to Jordan’s personal budget. The $0 noncovered-expense assumption is only for this exercise. It is not a claim that actual plans cover everything.</p>
+        <aside className={styles.warning}><h3>The lowest subtotal does not settle the decision</h3><p>B is $140 below A in this invented scenario, but Jordan has not confirmed B’s hospital access. Jordan leaves the decision pending. C has no additional plan premium but the highest assumed subtotal. Replace every figure with a dated estimate and finish the coverage checks before deciding.</p></aside>
+        <p>A monthly premium is generally predictable; medical use and refill costs can change. Do not multiply one pharmacy receipt by twelve unless the assumptions support it. Compare monthly cash-flow needs as well as the period’s total.</p>
+      </section>
+
+      <section id="verify"><h2>Verify the assumptions before choosing a plan</h2><ul><li>Use the exact coverage year, service location, pharmacy, and plan identifier.</li><li>Confirm <Link href="/blog/doctors-dropping-medicare/">doctor and hospital participation</Link>, referrals, and authorization requirements.</li><li>Check benefit limits and services you may have to pay for yourself.</li><li>Ask the new plan how prior spending affects applicable deductibles and limits when switching during the year; do not assume all amounts transfer.</li><li>Review eligibility and effective dates in the <Link href="/faqs/medicare-advantage-open-enrollment-period/">Medicare Advantage OEP guide</Link>.</li></ul><p>Use <a href="https://www.medicare.gov/plan-compare/">Medicare Plan Compare</a> and written plan documents to support your estimates. If costs are difficult to afford, check <a href="https://www.medicare.gov/basics/costs/help">Medicare’s help-with-costs programs</a>. Record confirmed assistance rather than assuming eligibility.</p></section>
+
+      <section id="faqs"><h2>Frequently asked questions</h2>
+        <details><summary>Does a $0 plan premium mean Medicare Advantage is free?</summary><p>No. A zero additional plan premium does not eliminate Part B premiums or applicable medical and drug cost sharing. Check any assistance or premium reduction against your actual situation.</p></details>
+        <details><summary>Should I add the deductible to the annual estimate?</summary><p>Only if it is not already included and your expected use would incur it. Ask the source of your estimate what it includes; do not add the same expense twice.</p></details>
+        <details><summary>Can I add the medical and drug limits to get my expected cost?</summary><p>No. They apply to different categories and are not predictions of your spending. Build the expected-cost estimate first, then examine potential exposure separately.</p></details>
+        <details><summary>Does Medigap cover every bill?</summary><p>No. Benefits depend on the policy and the underlying Medicare coverage rules. Medigap is not a substitute for prescription drug coverage, and noncovered services can remain your responsibility.</p></details>
+        <details><summary>What if one plan’s estimate is incomplete?</summary><p>Mark the missing amount and its source as unresolved. Do not rank that plan as cheaper by treating the missing expense as zero. Record who will clarify it and when you will follow up.</p></details>
+      </section>
+      <aside className={styles.kit}><h2>Keep your cost and coverage checks together</h2><p>Use the worksheet to document estimates and unanswered questions. No upload or email signup is required.</p><div><a href={worksheet} target="_blank" rel="noopener noreferrer">Open the Plan Comparison Worksheet</a><Link href="/medicare-advantage-open-enrollment-resources/#plan-review-kit">Explore the complete OEP Plan Review Kit</Link></div></aside>
+      <p className={styles.sourceNote}>Educational planning guidance, not a quote or coverage determination. Official sources checked November 6, 2026. Editorial review pending.</p>
+    </div>
+  </article>;
+}

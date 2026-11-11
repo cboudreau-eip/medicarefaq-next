@@ -1,4 +1,5 @@
 "use client";
+import OepResourceLinks from "@/components/oep/OepResourceLinks";
 import GuideCta from "@/components/GuideCta";
 /**
  * Medicare Enrollment Periods Page
@@ -106,7 +107,7 @@ const enrollmentPeriods = [
   },
 ];
 
-export default function MedicareEnrollmentPeriods() {
+export default function MedicareEnrollmentPeriods({ showOepResources = false }: { showOepResources?: boolean }) {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   return (
@@ -132,6 +133,7 @@ export default function MedicareEnrollmentPeriods() {
       </section>
 
       <div className="container max-w-5xl py-10">
+        {showOepResources && <OepResourceLinks />}
 
         <section id="aep-vs-oep" aria-labelledby="aep-vs-oep-heading" className="mb-10 scroll-mt-44">
           <h2 id="aep-vs-oep-heading" className="text-2xl font-bold text-[#1B2A4A] mb-4">AEP vs OEP: Dates, Eligibility, and Allowed Changes</h2>

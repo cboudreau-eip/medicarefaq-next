@@ -1,8 +1,16 @@
 import type { Metadata } from "next";
 import SiteLayout from "@/components/SiteLayout";
 import PageContent from "./PageContent";
+import OepCostsPreview from "@/components/oep/OepCostsPreview";
 
-export const metadata: Metadata = {
+const isOepPreview = process.env.VERCEL_ENV === "preview" || process.env.NODE_ENV === "development";
+
+export const metadata: Metadata = isOepPreview ? {
+  title: "Medicare Costs by Plan Type: Compare Your Total Spending",
+  description: "Compare premiums, medical cost sharing, prescription costs, and spending limits with a worked example and the OEP Plan Comparison Worksheet.",
+  robots: { index: false, follow: false },
+  alternates: { canonical: "https://www.medicarefaq.com/medicare-plans/costs/" },
+} : {
   title: "Medicare Costs by Plan Type: 2026 Premiums, Deductibles & Out-of-Pocket",
   description: "Understand Medicare costs for 2026 including Part A and Part B premiums, deductibles, and out-of-pocket expenses for Supplement and Advantage plans.",
   openGraph: {
@@ -17,6 +25,7 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
+  if (isOepPreview) return <SiteLayout><OepCostsPreview /></SiteLayout>;
   const schema = {
     "@context": "https://schema.org",
     "@type": "Article",

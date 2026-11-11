@@ -1,4 +1,5 @@
 import Link from "next/link";
+import OepResourceLinks from "./OepResourceLinks";
 import styles from "./OepRulesArticle.module.css";
 
 export const OEP_RULES_SLUG = "medicare-advantage-open-enrollment-period";
@@ -28,6 +29,7 @@ export default function OepRulesArticle() {
         <a href="https://www.medicare.gov/publications/11219-Understanding-Medicare-Advantage-Medicare-Drug-Plan-Enrollment-Periods.pdf">Medicare’s enrollment-period guide</a>
       </aside>
       <nav className={styles.contents} aria-label="In this guide"><strong>In this guide</strong><a href="#eligibility">Who qualifies</a><a href="#allowed-changes">Allowed changes</a><a href="#effective-dates">Start dates</a><a href="#before-switching">Before switching</a><a href="#missed-oep-deadline">Missed the deadline?</a><a href="#questions">Common questions</a></nav>
+      {(process.env.NODE_ENV !== "production" || process.env.VERCEL_ENV === "preview") && <OepResourceLinks />}
       <section id="eligibility"><h2>Who can use Medicare Advantage OEP?</h2>
         <p>This annual window is for people already in a Medicare Advantage plan, including plans with or without prescription drug coverage. It is different from fall Annual Enrollment, which runs October 15–December 7.</p>
         <p>Having Original Medicare alone does not make you eligible for MA OEP. There is also a separate opportunity for people who joined Medicare Advantage during their Initial Enrollment Period: they can change plans or return to Original Medicare during the first three months they have Part A and Part B. <a href={enrollmentSource}>Check Medicare’s enrollment rules.</a></p>
