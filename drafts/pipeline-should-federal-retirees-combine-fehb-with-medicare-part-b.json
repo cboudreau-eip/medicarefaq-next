@@ -26,7 +26,7 @@
     },
     {
       "type": "paragraph",
-      "content": "There is no single right answer for every federal retiree weighing [Medicare Part B](/faqs/medicare-part-b-explained-premiums-deductibles-coverage-and-enrollment-in-2026/) against their Federal Employees Health Benefits (FEHB) plan. The better choice depends on your [health needs](/faqs/what-is-medicare/), your budget, and how much [financial risk](/faqs/medicare-cost-sharing/) you are comfortable carrying. One thing worth knowing upfront: FEHB coverage does not end when you become eligible for Medicare. You keep your FEHB plan unless you choose to drop or suspend it."
+      "content": "There is no single right answer for every federal retiree weighing [Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) against their Federal Employees Health Benefits (FEHB) plan. The better choice depends on your [health needs](/faqs/what-is-medicare/), your budget, and how much [financial risk](/faqs/what-is-medicare-cost-sharing/) you are comfortable carrying. One thing worth knowing upfront: FEHB coverage does not end when you become eligible for Medicare. You keep your FEHB plan unless you choose to drop or suspend it."
     },
     {
       "type": "paragraph",
@@ -54,11 +54,11 @@
     },
     {
       "type": "paragraph",
-      "content": "Some FEHB carriers offer incentives specifically for members who also enroll in [Medicare Part B](/faqs/medicare-part-b-explained-premiums-deductibles-coverage-and-enrollment-in-2026/). These can include reduced out-of-pocket maximums, waived deductibles, or lower copays for hospital stays and outpatient visits. The incentives vary significantly by carrier and plan year."
+      "content": "Some FEHB carriers offer incentives specifically for members who also enroll in [Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/). These can include reduced out-of-pocket maximums, waived deductibles, or lower copays for hospital stays and outpatient visits. The incentives vary significantly by carrier and plan year."
     },
     {
       "type": "paragraph",
-      "content": "Because these programs are not standard across all FEHB plans, check your specific plan brochure for a section on Medicare coordination or [Medicare Part B](/faqs/medicare-part-b-explained-premiums-deductibles-coverage-and-enrollment-in-2026/) incentives. This is usually listed under a heading addressing members who have Medicare as a secondary payer."
+      "content": "Because these programs are not standard across all FEHB plans, check your specific plan brochure for a section on Medicare coordination or [Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) incentives. This is usually listed under a heading addressing members who have Medicare as a secondary payer."
     },
     {
       "type": "heading",
@@ -106,7 +106,7 @@
     },
     {
       "type": "eddie-pro-tip",
-      "content": "Before you decide, ask your FEHB plan directly whether it offers a reduced deductible or lower out-of-pocket maximum for members enrolled in [Medicare Part B](/faqs/medicare-part-b-explained-premiums-deductibles-coverage-and-enrollment-in-2026/). This single detail can shift the math significantly, and it is not always obvious from a quick read of your plan brochure."
+      "content": "Before you decide, ask your FEHB plan directly whether it offers a reduced deductible or lower out-of-pocket maximum for members enrolled in [Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/). This single detail can shift the math significantly, and it is not always obvious from a quick read of your plan brochure."
     },
     {
       "type": "heading",
@@ -244,7 +244,7 @@
   "acceptedLinks": [
     {
       "phrase": "Medicare Part B",
-      "url": "/faqs/medicare-part-b-explained-premiums-deductibles-coverage-and-enrollment-in-2026/",
+      "url": "/original-medicare/medicare-parts/medicare-part-b/",
       "title": "Medicare Part B Explained: Premiums, Deductibles, Coverage, and Enrollment in 2026"
     },
     {
@@ -259,7 +259,7 @@
     },
     {
       "phrase": "financial risk",
-      "url": "/faqs/medicare-cost-sharing/",
+      "url": "/faqs/what-is-medicare-cost-sharing/",
       "title": "Medicare Cost-Sharing: Deductibles, Copays, Coinsurance & Medigap Plans Explained"
     }
   ],

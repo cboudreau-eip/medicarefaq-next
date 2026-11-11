@@ -34,7 +34,7 @@
     },
     {
       "type": "paragraph",
-      "content": "The surest way to find out whether your plan is affected is to check the notice letter mailed by your carrier, call the number on your member ID card, or use the [[Medicare Plan Finder](/faqs/medicare-plan-finder/)](https://www.medicare.gov/plan-compare/) to confirm your plan's status for next year."
+      "content": "The surest way to find out whether your plan is affected is to check the notice letter mailed by your carrier, call the number on your member ID card, or use the [Medicare Plan Finder](https://www.medicare.gov/plan-compare/) to confirm your plan's status for next year."
     },
     {
       "type": "heading",
@@ -270,7 +270,7 @@
     },
     {
       "phrase": "Medicare Plan Finder",
-      "url": "/faqs/medicare-plan-finder/",
+      "url": "https://www.medicare.gov/plan-compare/",
       "title": "Medicare Plan Finder"
     }
   ],

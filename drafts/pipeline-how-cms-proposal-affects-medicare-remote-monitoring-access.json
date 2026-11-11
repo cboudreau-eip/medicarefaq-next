@@ -26,7 +26,7 @@
     },
     {
       "type": "paragraph",
-      "content": "The Centers for Medicare & Medicaid Services (CMS) has proposed changes to how [remote patient monitoring](/faqs/remote-patient-monitoring-medicare/) (RPM) services are billed and reimbursed under Medicare. RPM allows your provider to track readings like blood pressure, blood glucose, or heart rhythm from a device in your home, without requiring an office visit. The 2026 proposal focuses on the billing codes and reimbursement rates tied to these services, not on banning RPM itself. You can review the proposed rule directly on [CMS.gov](https://www.cms.gov/) or through its official docket on the [Federal Register](https://www.federalregister.gov/), where it is published under its official rule name and docket number as part of the Medicare Physician Fee Schedule rulemaking process."
+      "content": "The Centers for Medicare & Medicaid Services (CMS) has proposed changes to how [remote patient monitoring](https://www.cms.gov/medicare/coverage/telehealth/remote-patient-monitoring) (RPM) services are billed and reimbursed under Medicare. RPM allows your provider to track readings like blood pressure, blood glucose, or heart rhythm from a device in your home, without requiring an office visit. The 2026 proposal focuses on the billing codes and reimbursement rates tied to these services, not on banning RPM itself. You can review the proposed rule directly on [CMS.gov](https://www.cms.gov/) or through its official docket on the [Federal Register](https://www.federalregister.gov/), where it is published under its official rule name and docket number as part of the Medicare Physician Fee Schedule rulemaking process."
     },
     {
       "type": "paragraph",
@@ -40,7 +40,7 @@
     },
     {
       "type": "paragraph",
-      "content": "If reimbursement rates drop or billing requirements become more restrictive, some physician practices may decide RPM is no longer worth offering. Smaller practices in particular may scale back the number of patients they enroll in [monitoring programs](/faqs/chronic-care-management-medicare/), even if they do not eliminate the service entirely."
+      "content": "If reimbursement rates drop or billing requirements become more restrictive, some physician practices may decide RPM is no longer worth offering. Smaller practices in particular may scale back the number of patients they enroll in [monitoring programs](https://www.cms.gov/medicare/coverage/telehealth/remote-patient-monitoring), even if they do not eliminate the service entirely."
     },
     {
       "type": "paragraph",
@@ -227,7 +227,7 @@
     },
     {
       "phrase": "reimbursement rates",
-      "url": "/faqs/medicare-cost-sharing/",
+      "url": "/faqs/what-is-medicare-cost-sharing/",
       "title": "Medicare Cost-Sharing: Deductibles, Copays, Coinsurance & Medigap Plans Explained",
       "reason": "Offers context on how reimbursement rates impact out-of-pocket costs for beneficiaries."
     }
