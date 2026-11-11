@@ -1096,7 +1096,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       ogImage: "/images/medicarefaq-cover.jpg",
     },
     title: "Medicare Advantage vs. Medicare Supplement: Which Is Right for You?",
-    summary: 'Medicare Supplement (Medigap) plans work alongside Original Medicare and cover most out-of-pocket costs in exchange for a higher monthly premium. Medicare Advantage (Part C) plans replace Original Medicare entirely and typically charge lower premiums but expose you to copayments, network restrictions, and an annual out-of-pocket maximum of up to $9,350 in 2026. The right choice depends on your budget, health needs, provider preferences, and how much cost predictability you want.',
+    summary: 'Medicare Supplement (Medigap) plans work alongside Original Medicare and cover most out-of-pocket costs in exchange for a higher monthly premium. Medicare Advantage (Part C) plans replace Original Medicare entirely and typically charge lower premiums but expose you to copayments, network restrictions, and an annual out-of-pocket maximum of up to $9,250 in 2026. The right choice depends on your budget, health needs, provider preferences, and how much cost predictability you want.',
     category: 'Medicare Supplements',
     dateUpdated: 'July 30, 2026',
     author: 'David Haass',
@@ -1136,7 +1136,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       },
       {
         type: 'paragraph' as const,
-        content: 'Medicare Advantage plans frequently charge $0 monthly premiums beyond the standard Part B premium, making them attractive to beneficiaries on a fixed income. Most plans bundle prescription drug coverage (Part D) into the plan, eliminating the need for a separate drug plan. Many plans also include routine dental, vision, and hearing benefits, fitness memberships, over-the-counter allowances, and meal delivery after hospital stays. The [Centers for Medicare & Medicaid Services (CMS)](https://www.cms.gov/medicare/health-drug-plans/medicare-advantage-plan) reports that over 54% of Medicare beneficiaries are now enrolled in Medicare Advantage, driven largely by these added benefits and low premiums.',
+        content: 'Medicare Advantage plans frequently charge $0 monthly premiums beyond the standard Part B premium, making them attractive to beneficiaries on a fixed income. Most plans bundle prescription drug coverage (Part D) into the plan, eliminating the need for a separate drug plan. Many plans also include routine dental, vision, and hearing benefits, fitness memberships, over-the-counter allowances, and meal delivery after hospital stays. The [KFF analysis of CMS enrollment data](https://www.kff.org/medicare/medicare-advantage-in-2026-enrollment-update-and-key-trends/) reports that 55% of eligible Medicare beneficiaries are enrolled in Medicare Advantage in 2026.',
       },
       {
         type: 'heading' as const,
@@ -1146,7 +1146,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       },
       {
         type: 'paragraph' as const,
-        content: 'The trade-off for lower premiums is higher and less predictable cost-sharing when you actually use care. In 2026, the in-network maximum out-of-pocket (MOOP) limit for Medicare Advantage plans can reach [$9,350, and the combined in-network and out-of-network limit can reach $14,000](https://www.cms.gov/medicare/health-drug-plans/medicare-advantage-plan). You will pay copayments for doctor visits, coinsurance for procedures, and daily copays for hospital stays that can range from $200 to $400 or more per day. Most plans require you to use an in-network provider for non-emergency care, and HMO plans typically require a referral from your primary care physician before seeing a specialist. Coverage is also limited to the plan\'s service area, which can be a problem if you travel frequently or split time between states.',
+        content: 'The trade-off for lower premiums is higher and less predictable cost-sharing when you actually use care. In 2026, the in-network maximum out-of-pocket (MOOP) limit for Medicare Advantage plans can reach [$9,250, and the combined in-network and out-of-network limit can reach $13,900](https://www.cms.gov/medicare/payment/medicare-advantage-rates-statistics). You will pay copayments for doctor visits, coinsurance for procedures, and daily copays for hospital stays that can range from $200 to $400 or more per day. Most plans require you to use an in-network provider for non-emergency care, and HMO plans typically require a referral from your primary care physician before seeing a specialist. Coverage is also limited to the plan\'s service area, which can be a problem if you travel frequently or split time between states.',
       },
       {
         type: 'heading' as const,
@@ -1180,7 +1180,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         rows: [
           ['Relationship to Original Medicare', 'Replaces Parts A and B', 'Works alongside Parts A and B'],
           ['Monthly premium (beyond Part B)', '$0 to $100+ (varies by plan)', '$80 to $300+ (varies by age and carrier)'],
-          ['Annual out-of-pocket maximum', 'Up to $9,350 in-network (2026)', 'Effectively $283 with Plan G (Part B deductible only)'],
+          ['Annual out-of-pocket maximum', 'Up to $9,250 in-network (2026)', 'Effectively $283 with Plan G (Part B deductible only)'],
           ['Provider choice', 'Network-based (HMO or PPO)', 'Any Medicare-accepting provider nationwide'],
           ['Referrals required', 'Usually yes (HMO), no (PPO)', 'No'],
           ['Prescription drug coverage', 'Usually included', 'Requires separate Part D plan'],
@@ -1221,7 +1221,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
           ['Specialist visit copay', '$20 to $75 per visit (in-network)', '$0 after Part B deductible'],
           ['Inpatient hospital stay', '$200 to $400+ per day (in-network)', '$0 (fully covered)'],
           ['Outpatient surgery', '20% coinsurance typical', '$0 after Part B deductible'],
-          ['Annual out-of-pocket maximum', 'Up to $9,350 in-network', '$283 (Part B deductible only)'],
+          ['Annual out-of-pocket maximum', 'Up to $9,250 in-network', '$283 (Part B deductible only)'],
           ['Prescription drugs', 'Usually included in plan', 'Requires separate Part D plan ($0 to $100+/month)'],
         ],
       },
@@ -1340,7 +1340,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ordered: false,
         items: [
           'Medicare Supplement (Medigap) plans work alongside Original Medicare and pay the deductibles, coinsurance, and copayments that Parts A and B leave behind, while Medicare Advantage (Part C) plans replace Original Medicare entirely with a private plan that manages all your benefits.',
-          'Medicare Supplement Plan G, the most popular Medigap plan in 2026, limits your annual out-of-pocket costs for Medicare-covered services to the $283 Part B deductible, while Medicare Advantage plans can expose you to up to $9,350 in in-network out-of-pocket costs per year.',
+          'Medicare Supplement Plan G, the most popular Medigap plan in 2026, limits your annual out-of-pocket costs for Medicare-covered services to the $283 Part B deductible, while Medicare Advantage plans can expose you to up to $9,250 in in-network out-of-pocket costs per year.',
           'Medicare Supplement plans allow you to see any doctor or hospital in the United States that accepts Original Medicare with no network restrictions, no referrals, and no prior authorization, while Medicare Advantage plans require you to use in-network providers for non-emergency care.',
           'A beneficiary with a 5-day hospital stay and multiple specialist visits in 2026 would pay approximately $2,083 total with Plan G (premiums plus deductible) compared to approximately $3,030 or more with a typical Medicare Advantage HMO plan.',
           'Your Medigap Open Enrollment Period is a one-time, six-month window starting when you turn 65 and enroll in Part B, and it is the only time you are guaranteed the right to purchase any Medigap plan regardless of health status.',
@@ -1360,7 +1360,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
           },
           {
             question: 'Which Medicare plan has the lowest out-of-pocket costs?',
-            answer: 'Medicare Supplement Plan G typically produces the lowest total out-of-pocket costs for beneficiaries who use healthcare services beyond routine visits. After paying the $283 Part B deductible in 2026, Plan G covers 100% of Medicare-approved costs for the rest of the year. Medicare Advantage plans have lower monthly premiums but can result in up to $9,350 in annual out-of-pocket costs when care is needed.',
+            answer: 'Medicare Supplement Plan G typically produces the lowest total out-of-pocket costs for beneficiaries who use healthcare services beyond routine visits. After paying the $283 Part B deductible in 2026, Plan G covers 100% of Medicare-approved costs for the rest of the year. Medicare Advantage plans have lower monthly premiums but can result in up to $9,250 in annual out-of-pocket costs when care is needed.',
           },
           {
             question: 'What is the most popular Medicare Supplement plan in 2026?',

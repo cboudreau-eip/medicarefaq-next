@@ -139,7 +139,7 @@
       "type": "callout",
       "calloutType": "warning",
       "calloutTitle": "Watch for Late Enrollment Penalties",
-      "calloutText": "Delaying Part D enrollment without other creditable drug coverage can lead to a permanent late enrollment penalty added to your premium. The 2026 base premium used in this calculation is $38.99, according to <a href=\"https://www.medicare.gov/drug-coverage-part-d/costs-for-medicare-drug-coverage/penalty-for-late-enrollment\">Medicare's late enrollment penalty rules</a>."
+      "calloutText": "Delaying Part D enrollment without other creditable drug coverage can lead to a permanent late enrollment penalty added to your premium. The 2026 base premium used in this calculation is $38.99, according to <a href=\"https://www.medicare.gov/health-drug-plans/part-d/basics/costs\">Medicare's late enrollment penalty rules</a>."
     },
     {
       "type": "paragraph",
