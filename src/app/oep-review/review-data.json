@@ -1,0 +1,23 @@
+{
+  "pages": [
+    {"id":"H1","title":"OEP Resource Center","path":"/medicare-advantage-open-enrollment-resources/","status":"New page","group":"Start here","note":"Review the landing page, paths through the guides, and PDF library."},
+    {"id":"A1","title":"Who can use Medicare Advantage OEP","path":"/faqs/medicare-advantage-open-enrollment-period/","status":"Existing page update","group":"Understand your options","note":"Eligibility, permitted changes, and coverage start dates. Adds resource links to the previously approved article."},
+    {"id":"A2","title":"Compare Medicare enrollment periods","path":"/original-medicare/medicare-enrollment-periods/","status":"Existing page update","group":"Understand your options","note":"Distinguishes MA OEP from AEP and other enrollment windows. Adds resource links."},
+    {"id":"A3","title":"Questions to ask when comparing plans","path":"/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans/","status":"Existing page update","group":"Review your current plan","note":"Questions for a plan comparison, with links to the resource center and worksheets."},
+    {"id":"A4","title":"Check doctors and provider access","path":"/blog/doctors-dropping-medicare/","status":"Existing page update","group":"Review your current plan","note":"Provider verification and access questions, supported by a printable worksheet."},
+    {"id":"A5","title":"Compare prescriptions and pharmacies","path":"/blog/compare-medicare-advantage-prescriptions-pharmacies/","status":"New page","group":"Review your current plan","note":"Drug lists, restrictions, pharmacies, and prescription costs."},
+    {"id":"A6","title":"Compare total Medicare costs","path":"/medicare-plans/costs/","status":"Existing page update","group":"Review your current plan","note":"A total-cost comparison beyond the monthly premium."},
+    {"id":"A7","title":"How to switch Medicare Advantage plans","path":"/blog/how-to-switch-medicare-advantage-plans/","status":"New page","group":"Make or confirm a decision","note":"Steps for switching, timing, and confirming the new coverage."},
+    {"id":"A8","title":"Return to Original Medicare","path":"/blog/switching-from-medicare-advantage-to-original-medicare-what-you-need-to-know/","status":"Existing page update","group":"Make or confirm a decision","note":"Coverage choices and prescription considerations when leaving MA."},
+    {"id":"A9","title":"Switch from MA to a Medicare Supplement","path":"/faqs/switch-medicare-advantage-to-medicare-supplement/","status":"Existing page update","group":"Make or confirm a decision","note":"Medigap eligibility and underwriting considerations before changing coverage."},
+    {"id":"A10","title":"If you miss the MA OEP deadline","path":"/blog/missed-medicare-advantage-open-enrollment-deadline/","status":"New page","group":"Make or confirm a decision","note":"What to check next without implying everyone has another switching window."}
+  ],
+  "supporting": {"title":"AEP article wording correction","path":"/blog/medicare-advantage-annual-enrollment-period-aep-dates/","note":"Clarifies Part D options during MA OEP. It is not a general standalone Part D switching window for people already on Original Medicare."},
+  "pdfs": [
+    {"title":"Complete OEP Plan Review Kit","path":"/medicarefaq-ma-oep-plan-review-kit.pdf","pages":11,"note":"All four worksheets together, with clickable contents and bookmarks."},
+    {"title":"Plan Review Checklist","path":"/medicarefaq-ma-oep-plan-review-checklist.pdf","pages":2,"note":"A starting checklist for a plan review."},
+    {"title":"Plan Comparison Worksheet","path":"/medicarefaq-ma-oep-plan-comparison-worksheet.pdf","pages":3,"note":"Compare plan options side by side."},
+    {"title":"Provider Verification Sheet","path":"/medicarefaq-ma-oep-provider-verification-sheet.pdf","pages":2,"note":"Record provider and network confirmations."},
+    {"title":"Prescription Workbook","path":"/medicarefaq-ma-oep-prescription-workbook.pdf","pages":3,"note":"Organize drugs, pharmacies, and cost questions."}
+  ]
+}
