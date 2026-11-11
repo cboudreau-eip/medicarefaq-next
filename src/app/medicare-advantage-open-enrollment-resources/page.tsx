@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowRight, CalendarDays, Check, ClipboardCheck, FileText, HeartPulse, Pill, Scale, ShieldCheck, Wallet } from "lucide-react";
+import { ArrowRight, CalendarDays, ChevronDown, Check, ClipboardCheck, FileText, HeartPulse, Pill, Scale, ShieldCheck, Wallet } from "lucide-react";
 import SiteLayout from "@/components/SiteLayout";
 import ZipFormModal from "@/components/ZipFormModal";
 import styles from "./page.module.css";
@@ -114,7 +114,7 @@ export default function OepResourcesPage() {
             <Link href="/blog/switching-from-medicare-advantage-to-original-medicare-what-you-need-to-know/"><span>RETURNING TO ORIGINAL MEDICARE</span><h3>Understand what changes when you leave MA.</h3><p>Review medical and drug coverage together before choosing your next step.</p><b>Explore the transition <ArrowRight size={17} aria-hidden="true" /></b></Link>
             <Link href="/faqs/switch-medicare-advantage-to-medicare-supplement/"><span>CONSIDERING MEDICARE SUPPLEMENT</span><h3>Check Medigap access before making a change.</h3><p>Find out which purchasing protections or underwriting requirements may apply to you.</p><b>Review Medigap considerations <ArrowRight size={17} aria-hidden="true" /></b></Link>
           </div>
-          <details className={styles.deadline}><summary>What if I miss the January–March window?</summary><p>Missing a deadline does not by itself establish eligibility for another window. Check pending applications, possible Special Enrollment Periods, and coverage issues that need attention now.</p><p><Link href="/blog/missed-medicare-advantage-open-enrollment-deadline/">See your next steps after March 31 →</Link></p></details>
+          <details className={styles.deadline}><summary><CalendarDays className={styles.deadlineIcon} size={26} aria-hidden="true" /><span><span className={styles.deadlineLabel}>MISSED THE DEADLINE?</span><span className={styles.deadlineTitle}>What if I miss the January–March window?</span><span className={styles.deadlineHint}>Explore what to check next.</span></span><ChevronDown className={styles.deadlineChevron} size={22} aria-hidden="true" /></summary><p>Missing a deadline does not by itself establish eligibility for another window. Check pending applications, possible Special Enrollment Periods, and coverage issues that need attention now.</p><p><Link href="/blog/missed-medicare-advantage-open-enrollment-deadline/">See your next steps after March 31 →</Link></p></details>
         </div></section>
 
         <section className={`${styles.section} ${styles.container}`} aria-labelledby="help-heading"><div className={styles.help}>
