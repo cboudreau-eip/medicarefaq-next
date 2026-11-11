@@ -283,7 +283,7 @@ export default function MinnesotaPageContent() {
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-2">Basic vs. Extended Basic vs. Plan N in {STATE_NAME}</h2>
           <p className="text-slate-600 mb-8">
-            Basic can be customized with riders. Extended Basic includes additional benefits. Plan N uses office and ER copayments. Compare each policy’s complete benefits, premiums, and eligibility restrictions.
+            Basic can be customized with riders. Extended Basic includes additional benefits. <Link href="/medicare-supplement-plans/minnesota/plan-n/" className="text-blue-700 underline hover:text-blue-900">Plan N</Link> uses office and ER copayments. Compare each policy’s complete benefits, premiums, and eligibility restrictions.
           </p>
 
           <div className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-x-auto">
@@ -512,7 +512,7 @@ export default function MinnesotaPageContent() {
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-lg font-bold text-slate-900 mb-4">Related Pages</h2>
           <div className="flex flex-wrap gap-3">
-            <Link href="/medicare-supplement-plans/minnesota" className="inline-flex items-center gap-1.5 text-sm text-blue-700 hover:text-blue-900 bg-white px-4 py-2 rounded-lg border border-slate-200 hover:border-blue-300 transition-colors">
+            <Link href="/medicare-supplement-plans/minnesota/plan-n/" className="inline-flex items-center gap-1.5 text-sm text-blue-700 hover:text-blue-900 bg-white px-4 py-2 rounded-lg border border-slate-200 hover:border-blue-300 transition-colors">
               <MapPin className="w-3.5 h-3.5" aria-hidden="true" /> Minnesota Plan N Guide
             </Link>
             <Link href="/medicare-supplement-plans/plan-n" className="inline-flex items-center gap-1.5 text-sm text-blue-700 hover:text-blue-900 bg-white px-4 py-2 rounded-lg border border-slate-200 hover:border-blue-300 transition-colors">
