@@ -119,7 +119,9 @@ export const BROKEN_LINK_REPAIRS: Readonly<Record<string, string | null>> = {
   "/original-medicare/medicare-parts/medicare-part-d/part-d-coverage-gap": "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-coverage-gap/",
   "/original-medicare/medicare-parts/medicare-part-d/part-d-eligibility": "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-eligibility/",
   "/original-medicare/medicare-parts/medicare-part-d/part-d-enrollment-periods": "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-enrollment-periods/",
-  "/terms-of-service": "/terms-of-use/"
+  "/terms-of-service": "/terms-of-use/",
+  // The truncated URL was an overlapping version of the complete enrollment guide.
+  "/blog/medicare-2027-key-changes-in-open-enrollment-you-need-to-kno": "/blog/medicare-2027-key-changes-in-open-enrollment-you-need-to-know/"
 };
 
 /** Resolve only reviewed legacy URLs. Preserve other URLs and query/fragment suffixes. */

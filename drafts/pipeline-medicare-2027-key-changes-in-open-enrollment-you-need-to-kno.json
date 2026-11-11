@@ -1,15 +1,15 @@
 {
   "title": "Medicare Open Enrollment 2027: What Changed",
   "rawContent": "",
-  "slug": "medicare-2027-key-changes-in-open-enrollment-you-need-to-kno",
+  "slug": "medicare-2027-key-changes-in-open-enrollment-you-need-to-know",
   "excerpt": "Medicare Advantage plan exits, new drug pricing rules, and updated cost limits are reshaping 2027 enrollment decisions. Here is what actually changed and how to compare plans wisely.",
   "category": "enrollment",
   "author": "David Haass",
   "reviewer": "Ashlee Zareczny",
   "image": "/images/generated/medicare-2027-key-changes-in-open-enrollment-you-f204332.png",
-  "imageAlt": "",
+  "imageAlt": "Medicare Open Enrollment 2027: What Changed",
   "keyTakeaways": [
-    "The 2027 Medicare Advantage maximum out-of-pocket limit is capped at $9,250",
+    "In 2027, Medicare Advantage plans can set an in-network medical out-of-pocket limit no higher than $9,850; individual plans may set lower limits",
     "Several Medicare Advantage plans are exiting counties or discontinuing entirely for 2027, triggering non-renewal notices",
     "Members losing a plan are guaranteed the chance to enroll in new coverage before their old plan ends",
     "Original Medicare offers nationwide provider access, while Medicare Advantage generally limits care to in-network providers",
@@ -21,8 +21,8 @@
     {
       "type": "heading",
       "level": 2,
-      "id": "whats-different-2027",
-      "text": "What's Different About Medicare Open Enrollment in 2027"
+      "text": "What's Different About Medicare Open Enrollment in 2027",
+      "id": "whats-different-2027"
     },
     {
       "type": "paragraph",
@@ -43,8 +43,8 @@
     {
       "type": "heading",
       "level": 2,
-      "id": "medicare-terms-plain-language",
-      "text": "Medicare Terms and Plan Types, Explained in Plain Language"
+      "text": "Medicare Terms and Plan Types, Explained in Plain Language",
+      "id": "medicare-terms-plain-language"
     },
     {
       "type": "paragraph",
@@ -63,8 +63,8 @@
     {
       "type": "heading",
       "level": 3,
-      "id": "advantage-vs-original-2027",
-      "text": "How Medicare Advantage and Original Medicare Differ in 2027"
+      "text": "How Medicare Advantage and Original Medicare Differ in 2027",
+      "id": "advantage-vs-original-2027"
     },
     {
       "type": "paragraph",
@@ -72,7 +72,7 @@
     },
     {
       "type": "paragraph",
-      "content": "What has not changed is the core split between the two paths: you still choose one primary structure and build coverage around it. The 2027 Medicare Advantage [maximum out-of-pocket limit](/faqs/medicare-maximum-out-of-pocket/) is capped at $9,250, according to CMS.gov, a detail worth knowing before you assume Original Medicare with a supplement is automatically the pricier route."
+      "content": "What has not changed is the core split between the two paths: you still choose one primary structure and build coverage around it. For 2027, the Medicare Advantage [maximum out-of-pocket limit](/faqs/medicare-maximum-out-of-pocket/) for covered Part A and Part B services is $9,850 in-network, with a $14,800 combined in-network and out-of-network ceiling where applicable. Plans may set lower limits. Review [CMS's annual cost-sharing limits](https://www.cms.gov/medicare/payment/medicare-advantage-rates-statistics) and the specific plan documents when comparing costs."
     },
     {
       "type": "paragraph",
@@ -81,8 +81,8 @@
     {
       "type": "heading",
       "level": 2,
-      "id": "plan-non-renewals",
-      "text": "Why Plan Non-Renewals Are a Bigger Concern This Year"
+      "text": "Why Plan Non-Renewals Are a Bigger Concern This Year",
+      "id": "plan-non-renewals"
     },
     {
       "type": "paragraph",
@@ -100,23 +100,23 @@
     },
     {
       "type": "paragraph",
-      "content": "Start by checking your [Annual Notice of Change letter](/faqs/medicare-annual-notice-of-change-letter/), calling your plan directly, or reviewing your plan status through <a href=\"https://www.medicare.gov/plan-compare\">Medicare's plan comparison tool</a>. Confirming early gives you more time to compare replacement options calmly instead of scrambling in December.</p>"
+      "content": "Start by checking your [Annual Notice of Change letter](/faqs/medicare-annual-notice-of-change-letter/), calling your plan directly, or reviewing your plan status through <a href=\"https://www.medicare.gov/plan-compare\">Medicare's plan comparison tool</a>. Confirming early gives you more time to compare replacement options calmly instead of scrambling in December."
     },
     {
       "type": "heading",
       "level": 2,
-      "id": "drug-pricing-2027",
-      "text": "New Drug Pricing Structures and What They Mean for Your Wallet"
+      "text": "New Drug Pricing Structures and What They Mean for Your Wallet",
+      "id": "drug-pricing-2027"
     },
     {
       "type": "paragraph",
-      "content": "Part D costs have shifted again for 2027. According to CMS.gov, the maximum deductible rises to $615, up from $590 in 2025, and according to KFF, the average premium sits around $34.50 a month, though your actual premium depends on the plan you choose."
+      "content": "For 2027, the [maximum Part D deductible is $700](https://www.medicare.gov/health-drug-plans/part-d/basics/costs), up from $615 in 2026. Some plans have a lower deductible or no deductible. Premiums vary by plan and location, so compare the actual 2027 premium and estimated annual drug costs for your prescriptions."
     },
     {
       "type": "callout",
       "calloutType": "info",
       "calloutTitle": "The Cap Keeps Climbing",
-      "calloutText": "According to CMS.gov, the out-of-pocket prescription cap moves to $2,100 in 2026, up from $2,000 the year before. Once you hit that threshold, you enter the catastrophic phase and pay nothing more for covered drugs that plan year."
+      "calloutText": "In 2027, the [Part D out-of-pocket threshold is $2,400](https://www.medicare.gov/health-drug-plans/part-d/basics/costs), up from $2,100 in 2026. After reaching it, you pay no out-of-pocket costs for covered Part D drugs for the rest of the calendar year. Premiums and noncovered drugs do not count toward that threshold."
     },
     {
       "type": "paragraph",
@@ -124,7 +124,7 @@
     },
     {
       "type": "paragraph",
-      "content": "This is why reviewing your Part D or Medicare Advantage drug coverage every year still matters, even if last year's plan treated you well. Formularies change annually, and a medication that was covered in a low tier last year could move to a higher, costlier tier this year.</p>"
+      "content": "This is why reviewing your Part D or Medicare Advantage drug coverage every year still matters, even if last year's plan treated you well. Formularies change annually, and a medication that was covered in a low tier last year could move to a higher, costlier tier this year."
     },
     {
       "type": "eddie-pro-tip",
@@ -133,8 +133,8 @@
     {
       "type": "heading",
       "level": 2,
-      "id": "doctors-prescriptions-covered",
-      "text": "Making Sure Your Doctors and Prescriptions Are Actually Covered"
+      "text": "Making Sure Your Doctors and Prescriptions Are Actually Covered",
+      "id": "doctors-prescriptions-covered"
     },
     {
       "type": "paragraph",
@@ -152,23 +152,23 @@
     },
     {
       "type": "paragraph",
-      "content": "Assuming last year's coverage automatically carries over is one of the most common and avoidable mistakes during open enrollment. Even if you are staying with the same plan, formularies and networks are reevaluated annually, so a quick review protects you from surprises after you have already committed.</p>"
+      "content": "Assuming last year's coverage automatically carries over is one of the most common and avoidable mistakes during open enrollment. Even if you are staying with the same plan, formularies and networks are reevaluated annually, so a quick review protects you from surprises after you have already committed."
     },
     {
       "type": "heading",
       "level": 2,
-      "id": "2027-checklist",
-      "text": "Your 2027 Open Enrollment Checklist: Avoiding Deadlines and Costly Mistakes"
+      "text": "Your 2027 Open Enrollment Checklist: Avoiding Deadlines and Costly Mistakes",
+      "id": "2027-checklist"
     },
     {
       "type": "paragraph",
-      "content": "According to Medicare.gov, the Medicare Open Enrollment Period runs from October 15 through December 7, with changes taking effect January 1, 2027. Miss this window, and you may be locked into your current plan for another year unless you qualify for a [Special Enrollment Period](/faqs/medicare-special-enrollment-period/). This is separate from the Medicare Advantage Open Enrollment Period, which runs January 1 through March 31 and allows those already enrolled in a Medicare Advantage plan to switch to a different Medicare Advantage plan or return to Original Medicare, but it does not allow switching from Original Medicare into Medicare Advantage.</p>"
+      "content": "The [Medicare Open Enrollment Period](https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/joining-a-plan) for 2027 coverage runs from October 15 through December 7, 2026, with changes taking effect January 1, 2027. Outside that window, a plan change generally requires another enrollment opportunity, such as a [Special Enrollment Period](/faqs/medicare-special-enrollment-periods/). The separate Medicare Advantage Open Enrollment Period runs January 1 through March 31, 2027, and allows people already enrolled in Medicare Advantage to switch to another Medicare Advantage plan or return to Original Medicare, with the option to add a separate drug plan. It does not allow switching from Original Medicare into Medicare Advantage. First-time Medicare enrollment follows its own timeline; see our [turning 65 enrollment guide](/medicare-enrollment/turning-65/)."
     },
     {
       "type": "callout",
       "calloutType": "warning",
       "calloutTitle": "Late Enrollment Penalties",
-      "calloutText": "Delaying Part D coverage without other creditable drug coverage can trigger a permanent late enrollment penalty added to your premium. According to CMS.gov, the 2026 Part D penalty is based on a national base premium of $38.99, and the longer you wait, the more it can cost you long term."
+      "calloutText": "Delaying Part D coverage without other creditable drug coverage can add a late enrollment penalty to your premium. The calculation uses 1% of the national base beneficiary premium for each full uncovered month. The [2027 base beneficiary premium is $41.33](https://www.cms.gov/newsroom/fact-sheets/medicare-part-d-2027-national-average-monthly-bid-amount-information). Your plan premium is a separate amount, and the penalty generally lasts as long as you have Medicare drug coverage."
     },
     {
       "type": "list",
@@ -184,30 +184,30 @@
     {
       "type": "heading",
       "level": 3,
-      "id": "comparing-total-costs",
-      "text": "Comparing Total Costs, Not Just the Monthly Premium"
+      "text": "Comparing Total Costs, Not Just the Monthly Premium",
+      "id": "comparing-total-costs"
     },
     {
       "type": "paragraph",
-      "content": "A plan with a low premium can still cost more overall once you add up deductibles, copays, and coinsurance. According to CMS.gov, here are the 2026 deductible figures that affect your true costs depending on how much care you use:</p>"
+      "content": "A plan with a low premium can still cost more overall once you add up deductibles, copays, and coinsurance. Use the [official Medicare cost information](https://www.medicare.gov/basics/costs/medicare-costs) and each plan's 2027 documents to compare these costs:"
     },
     {
       "type": "list",
       "ordered": false,
       "items": [
-        "Part B deductible: $283 per year",
-        "Part A deductible: $1,736 per benefit period"
+        "Part B premium and annual deductible",
+        "Part A deductible per benefit period and applicable hospital coinsurance"
       ]
     },
     {
       "type": "paragraph",
-      "content": "To estimate your real annual cost, add your expected premiums to likely copays based on how often you see doctors or fill prescriptions. This gives a far more honest picture than premium price alone.</p>"
+      "content": "To estimate your real annual cost, add your expected premiums to likely copays based on how often you see doctors or fill prescriptions. This gives a far more honest picture than premium price alone."
     },
     {
       "type": "heading",
       "level": 2,
-      "id": "faq",
-      "text": "Frequently Asked Questions About Medicare Open Enrollment 2027"
+      "text": "Frequently Asked Questions About Medicare Open Enrollment 2027",
+      "id": "faq"
     },
     {
       "type": "faq",
@@ -238,27 +238,27 @@
         },
         {
           "question": "Will my prescription costs definitely go down with the new cap?",
-          "answer": "The $2,100 out-of-pocket cap for 2026, according to CMS.gov, limits your maximum annual prescription spending once reached, but it does not lower your costs before you hit that threshold. Your actual savings depend on which drugs you take and how your specific plan structures its earlier cost phases."
+          "answer": "The $2,400 Part D out-of-pocket threshold for 2027 limits what you pay for covered Part D drugs, but it does not guarantee that every prescription will cost less before you reach it. Your actual costs depend on your medications, formulary tiers, deductible, pharmacy, and plan rules. Premiums and noncovered drugs are separate costs."
         }
       ]
     },
     {
       "type": "heading",
       "level": 2,
-      "id": "conclusion",
-      "text": "Choosing Your 2027 Plan With Confidence"
+      "text": "Choosing Your 2027 Plan With Confidence",
+      "id": "conclusion"
     },
     {
       "type": "paragraph",
-      "content": "This year brings more moving pieces than usual: shifting drug pricing structures, a rising out-of-pocket cap, and a wave of plan non-renewals affecting real coverage decisions. None of that means you need to rush.</p>"
+      "content": "This year brings more moving pieces than usual: shifting drug pricing structures, a rising out-of-pocket cap, and a wave of plan non-renewals affecting real coverage decisions. None of that means you need to rush."
     },
     {
       "type": "paragraph",
-      "content": "Use the checklist above to confirm your doctors, prescriptions, and true annual costs before December 7. If questions remain, a licensed Medicare agent or your local SHIP counselor can walk through your specific situation without pressure.</p>"
+      "content": "Use the checklist above to confirm your doctors, prescriptions, and true annual costs before December 7. If questions remain, a licensed Medicare agent or your local SHIP counselor can walk through your specific situation without pressure."
     },
     {
       "type": "paragraph",
-      "content": "A clear, unhurried process is what leads to a plan you feel confident about, not one you second-guess in February. Take the time this season deserves.</p>"
+      "content": "A clear, unhurried process is what leads to a plan you feel confident about, not one you second-guess in February. Take the time this season deserves."
     }
   ],
   "relatedSlugs": [
@@ -317,11 +317,11 @@
     },
     {
       "phrase": "Special Enrollment Period",
-      "url": "/faqs/medicare-special-enrollment-period/",
+      "url": "/faqs/medicare-special-enrollment-periods/",
       "title": "Medicare Special Enrollment Period"
     }
   ],
   "id": "pipeline-medicare-2027-key-changes-in-open-enrollment-you-need-to-kno",
-  "updatedAt": "2026-10-06T16:19:35.521Z",
+  "updatedAt": "2026-11-11T17:52:02.493Z",
   "createdAt": "2026-10-06T16:19:35.521Z"
 }
