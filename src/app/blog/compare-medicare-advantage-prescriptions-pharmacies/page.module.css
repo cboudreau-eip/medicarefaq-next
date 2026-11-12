@@ -1,0 +1,17 @@
+
+.article > header{padding:30px 0}
+.article > header h1{font-size:clamp(28px,3.4vw,40px);max-width:850px}
+.article .checklist{display:grid;grid-template-columns:1fr 1fr;gap:12px 24px;list-style:none;padding:0;margin:12px 0 0}
+.article .checklist li{position:relative;padding:0 0 0 26px;margin:0}
+.checklist li::before{content:'✓';position:absolute;left:0;color:#007c79;font-weight:700}
+.download{display:flex;align-items:center;justify-content:space-between;gap:22px;border:1px solid #cbdeda;border-radius:10px;padding:20px;margin:0 0 24px}
+.download > div:last-child{display:flex;flex-direction:column;align-items:center;gap:10px;flex-shrink:0}
+.article .download p{font-size:14px;margin:6px 0 0}
+.article .downloadButton{display:inline-flex;justify-content:center;align-items:center;min-height:44px;padding:12px 18px;background:#cf4c00;color:#fff;font-weight:700;border-radius:8px;text-decoration:none}
+.article .downloadButton:hover{background:#b84300}
+.article tbody th{background:#f6f8fb;color:#183454;border-bottom:1px solid #dbe3ed;font-weight:600;vertical-align:top}
+.article .total th,.article .total td{background:#e5f5f1;color:#183454;font-weight:750;border-top:2px solid #007c79}
+.article .sources{border-top:1px solid #dbe3ed;padding-top:20px;margin-bottom:32px}
+.article .sources h2{font-size:20px}
+.article .sources p,.article .sources li{font-size:14px}
+@media(max-width:650px){.article .checklist{grid-template-columns:1fr}.download{align-items:stretch;flex-direction:column}.download > div:last-child{align-items:stretch;text-align:center}.article table{min-width:580px}.article > header{padding:24px 0}}
