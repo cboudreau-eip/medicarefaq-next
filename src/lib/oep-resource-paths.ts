@@ -9,6 +9,7 @@ const OEP_RESOURCE_PATHS = new Set([
   "/medicare-plans/costs",
   "/blog/how-to-switch-medicare-advantage-plans",
   "/blog/should-i-keep-or-switch-medicare-advantage-plan",
+  "/blog/medicare-advantage-denied-care-what-to-do",
   "/blog/switching-from-medicare-advantage-to-original-medicare-what-you-need-to-know",
   "/faqs/switch-medicare-advantage-to-medicare-supplement",
   "/blog/missed-medicare-advantage-open-enrollment-deadline"

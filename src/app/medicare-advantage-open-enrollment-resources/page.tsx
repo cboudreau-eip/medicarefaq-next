@@ -69,6 +69,8 @@ export default function OepResourcesPage() {
           <div className={styles.rules}><ShieldCheck size={25} aria-hidden="true" /><div><strong>Know which window applies to you.</strong><p>During MA OEP, eligible members can switch to another Medicare Advantage plan or return to Original Medicare and join a separate drug plan. Coverage generally starts the first of the month after the plan receives the request.</p><Link href="/original-medicare/medicare-enrollment-periods/">Compare Medicare enrollment windows <ArrowRight size={15} aria-hidden="true" /></Link></div></div>
         </section>
 
+        <aside className={`${styles.container} ${styles.problemHelp}`}><HeartPulse size={26} aria-hidden="true" /><div><h2>Need help with a care denial now?</h2><p>Find the right process for a coverage decision, appeal, or complaint. Check urgent notices before waiting for a plan change.</p><Link href="/blog/medicare-advantage-denied-care-what-to-do/">See what to do after a denial <ArrowRight size={17} aria-hidden="true" /></Link></div></aside>
+
         <section className={styles.reviewSection} aria-labelledby="review-heading"><div className={styles.container}>
           <div className={styles.sectionHeading}><div><p className={styles.kicker}>BEFORE YOU DECIDE</p><h2 id="review-heading">Review the coverage you actually use.</h2></div><p>Keep these three checks together as you compare your current plan with alternatives.</p></div>
           <div className={styles.guideGrid}>{guides.map(({ icon: Icon, title, description, href, label }) => <article className={styles.guide} key={title}><Icon size={29} aria-hidden="true" /><h3>{title}</h3><p>{description}</p><Link href={href}>{label} <ArrowRight size={16} aria-hidden="true" /></Link></article>)}</div>
