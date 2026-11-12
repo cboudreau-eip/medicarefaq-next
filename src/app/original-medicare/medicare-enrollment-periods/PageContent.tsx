@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     q: "What is a Special Enrollment Period (SEP) for Medicare?",
-    a: "A Special Enrollment Period (SEP) allows you to enroll in Medicare outside of your Initial Enrollment Period without a late enrollment penalty. The most common SEP is for people who delayed Medicare because they had employer-sponsored health coverage. When that coverage ends, you have an 8-month SEP to sign up for Part B.",
+    a: "Special Enrollment Periods have different rules for different coverage. For Part B, qualifying coverage based on current employment may let you enroll while covered or within eight months after employment or that coverage ends, whichever happens first. Medicare Advantage and Part D SEPs have their own qualifying events, deadlines, and permitted changes; the Part B eight-month rule does not extend those deadlines.",
   },
   {
     q: "What is the General Enrollment Period (GEP)?",
@@ -42,11 +42,11 @@ const faqs = [
   },
   {
     q: "Is there an open enrollment period for Medicare Supplement (Medigap) plans?",
-    a: "Yes. Your Medigap Open Enrollment Period is a 6-month window that begins when you are both age 65 or older AND enrolled in Medicare Part B. During this period, insurers must sell you any Medigap plan they offer at standard rates, regardless of your health. Outside this window, you may face medical underwriting.",
+    a: "Yes. Your Medigap Open Enrollment Period is a 6-month window that begins when you are both age 65 or older AND enrolled in Medicare Part B. During this federal window, insurers cannot deny an eligible policy they sell or charge more because of your health. Available plans depend on eligibility. Outside this window, check guaranteed-issue, trial-right, and state protections; otherwise medical underwriting may apply.",
   },
   {
     q: "What happens if I miss my Medicare enrollment period?",
-    a: "If you miss your Initial Enrollment Period and don't qualify for a Special Enrollment Period, you'll need to wait for the General Enrollment Period (January–March). You may also face permanent late enrollment penalties for Part B (10% per 12-month period delayed) and Part D (1% per month delayed). These penalties are added to your monthly premium for as long as you have Medicare.",
+    a: "If you miss your Initial Enrollment Period for Part B or premium-Part A and do not qualify for a Special Enrollment Period, the General Enrollment Period (January–March) is generally your next opportunity. You may also face permanent late enrollment penalties for Part B (10% per 12-month period delayed) and Part D (1% per month delayed). A Part B penalty generally continues while you have Part B; a Part D penalty generally continues while you have Medicare drug coverage. Exceptions and assistance can apply. The General Enrollment Period is not a general Part D enrollment window.",
   },
 ];
 
@@ -61,11 +61,11 @@ const enrollmentPeriods = [
     linkText: "Turning 65 Guide",
   },
   {
-    name: "Special Enrollment Period (SEP)",
-    dates: "8 months after losing employer coverage",
+    name: "Part B SEP for current-employment coverage",
+    dates: "While eligible and covered, or up to 8 months afterward",
     color: "border-blue-400 bg-blue-50",
     titleColor: "text-blue-800",
-    description: "For people who delayed Medicare because they had employer coverage. Triggered when employer coverage ends.",
+    description: "For qualifying coverage based on current employment. The post-employment window is measured from when employment or coverage ends, whichever happens first. MA and Part D SEPs have different rules.",
     link: "/medicare-enrollment/working-past-65",
     linkText: "Working Past 65 Guide",
   },
@@ -74,7 +74,7 @@ const enrollmentPeriods = [
     dates: "January 1 – March 31 annually",
     color: "border-amber-400 bg-amber-50",
     titleColor: "text-amber-800",
-    description: "For those who missed their IEP and don't qualify for an SEP. Coverage starts the month after you sign up. Late penalties may apply.",
+    description: "For Part B or premium-Part A enrollment when no applicable SEP is available. Coverage starts the month after signup; late penalties may apply. This is not a Part D switching window.",
     link: "/medicare-enrollment/late-penalties",
     linkText: "Late Enrollment Penalties",
   },
@@ -89,10 +89,10 @@ const enrollmentPeriods = [
   },
   {
     name: "Medigap Open Enrollment Period",
-    dates: "6 months starting when you enroll in Part B at 65+",
+    dates: "6 months from the first month you are 65+ and have Part B",
     color: "border-green-400 bg-green-50",
     titleColor: "text-green-800",
-    description: "Guaranteed issue rights for any Medigap plan — no medical underwriting. This window only occurs once.",
+    description: "Federal six-month purchase protection for policies the insurer sells and you are eligible to buy, without health-based denial or higher premiums. Other protections may apply later.",
     link: "/faqs/medicare-supplement-open-enrollment",
     linkText: "Medigap Open Enrollment",
   },
@@ -174,9 +174,10 @@ export default function MedicareEnrollmentPeriods({ showOepResources = false }: 
             <div className="border border-gray-200 rounded-xl p-5"><h3 className="font-bold text-[#1B2A4A] mb-2">You want a different drug plan for next year</h3><p className="text-gray-700">With Original Medicare, compare Part D options during fall AEP. A change submitted in November 2026 takes effect January 1, 2027.</p><Link className="inline-block text-teal-700 underline mt-3" href="/faqs/medicare-annual-enrollment-period/">Review AEP rules</Link></div>
             <div className="border border-gray-200 rounded-xl p-5"><h3 className="font-bold text-[#1B2A4A] mb-2">Your Medicare Advantage plan is not working for you</h3><p className="text-gray-700">During MA OEP, use your one change to switch plans or return to Original Medicare. A request received in February generally takes effect March 1.</p><Link className="inline-block text-teal-700 underline mt-3" href="/faqs/medicare-advantage-open-enrollment-period/">Review MA OEP rules</Link></div>
           </div>
-          <p className="text-gray-700 mt-4">Outside these windows, check whether a <Link className="text-teal-700 underline" href="/faqs/medicare-special-enrollment-period/">Special Enrollment Period</Link> applies. If you need Part A or Part B for the first time, use the enrollment chart below.</p>
+          <p className="text-gray-700 mt-4">Outside these windows, check whether a <Link className="text-teal-700 underline" href={showOepResources ? "/faqs/medicare-special-enrollment-periods/" : "/faqs/medicare-special-enrollment-period/"}>Special Enrollment Period</Link> applies. If you need Part A or Part B for the first time, use the enrollment chart below.</p>
         </section>
 
+        {showOepResources && <p className="mb-8 text-sm text-slate-600">For employer-coverage timing, see <a className="underline" href="https://www.medicare.gov/basics/get-started-with-medicare/sign-up/when-can-i-sign-up-for-medicare">Medicare’s Part B enrollment guidance</a>. For health and drug plan changes, use the separate <Link className="underline" href="/faqs/medicare-special-enrollment-periods/">MA and Part D SEP checklist</Link>.</p>}
         {/* Enrollment Period Cards */}
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-[#1B2A4A] mb-6">Medicare Enrollment Period Chart</h2>
