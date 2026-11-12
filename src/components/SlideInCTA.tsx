@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { X } from "lucide-react";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
+import { isOepResourcePath } from "@/lib/oep-resource-paths";
 
 interface SlideInCTAProps {
   /** Scroll percentage (0-100) at which the panel slides in */
@@ -16,10 +17,10 @@ interface SlideInCTAProps {
 
 export default function SlideInCTA(props: SlideInCTAProps) {
   const pathname = usePathname();
-  // Unmount the entire panel and its scroll listener on its own signup page,
+  // Unmount the entire panel and scroll listener on signup and OEP resource pages,
   // including client-side navigation while the panel is already open.
   const pagePath = pathname?.replace(/\/+$/, "");
-  if (pagePath === "/tools/decision-kit" || pagePath === "/oep-review") return null;
+  if (pagePath === "/tools/decision-kit" || pagePath === "/oep-review" || isOepResourcePath(pathname)) return null;
   return <SlideInCTAPanel {...props} />;
 }
 
