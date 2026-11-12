@@ -1,11 +1,12 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
-import { Mail, CheckCircle2 } from "lucide-react";
+import { Mail, CheckCircle2, FileText, Download } from "lucide-react";
 import styles from "./EmailKitPreview.module.css";
 
 export default function EmailKitPreview() {
   const [submitted, setSubmitted] = useState(false);
+  const [open, setOpen] = useState(false);
 
   function submitPreview(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -16,10 +17,14 @@ export default function EmailKitPreview() {
 
   return (
     <div className={styles.card}>
-      <div className={styles.intro}><Mail size={23} aria-hidden="true" /><div><h3>Save it for later</h3><p>Get the complete OEP Plan Review Kit delivered to your inbox.</p></div></div>
-      <details className={styles.details}>
-        <summary>Email me the kit <Mail size={17} aria-hidden="true" /></summary>
-        <div className={styles.panel}>
+      <FileText size={28} className={styles.kitIcon} aria-hidden="true" />
+      <div className={styles.intro}><h3>Get the Complete OEP Plan Review Kit</h3><p>All four worksheets in one PDF, with clickable contents and bookmarks. Email it to yourself for later, or download it now—no signup required to download.</p><p className={styles.meta}>11 pages · PDF · 28.3 KB · Review draft</p></div>
+      <div className={styles.actions}>
+        <button type="button" className={styles.emailButton} aria-expanded={open} aria-controls="oep-email-kit-panel" onClick={() => setOpen(!open)}><Mail size={18} aria-hidden="true" /> Email Me the Kit</button>
+        <a className={styles.downloadButton} href="/medicarefaq-ma-oep-plan-review-kit.pdf?download=1" download><Download size={18} aria-hidden="true" /> Download Now</a>
+        <a className={styles.openLink} href="/medicarefaq-ma-oep-plan-review-kit.pdf" target="_blank" rel="noopener noreferrer">Open PDF (new tab)</a>
+      </div>
+        <div id="oep-email-kit-panel" className={styles.panel} hidden={!open}>
           {submitted ? <div role="status" className={styles.confirmation}>
             <CheckCircle2 size={25} aria-hidden="true" /><h4>Preview complete</h4>
             <p>No email was sent and your information wasn’t saved. You can still open the kit now.</p>
@@ -35,7 +40,6 @@ export default function EmailKitPreview() {
             <div className={styles.footer}><button type="submit">Send My Kit <Mail size={16} aria-hidden="true" /></button><p>Email updates are optional. <a href="/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a></p></div>
           </form>}
         </div>
-      </details>
     </div>
   );
 }
