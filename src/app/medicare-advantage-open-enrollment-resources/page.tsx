@@ -57,6 +57,26 @@ export default function OepResourcesPage() {
           </div>
         </section>
 
+        <aside id="coverage-help" className={styles.problemHelp} aria-labelledby="problem-help-heading">
+          <div className={styles.container}>
+            <p className={styles.kicker}>GET TO THE RIGHT NEXT STEP</p>
+            <h2 id="problem-help-heading">Need help with a coverage problem now?</h2>
+            <p className={styles.problemIntro}>Choose the issue you’re facing to find practical steps and the right people to contact.</p>
+            <div className={styles.problemChoices}>
+              <Link href="/blog/compare-medicare-advantage-prescriptions-pharmacies/#not-covered" className={styles.problemChoice}>
+                <Pill size={25} aria-hidden="true" /><h3>My prescription was denied or costs too much</h3><p>Check coverage restrictions, who to contact, and your prescription cost options.</p><span>Get prescription help <ArrowRight size={17} aria-hidden="true" /></span>
+              </Link>
+              <Link href="/blog/medicare-advantage-denied-care-what-to-do/" className={styles.problemChoice}>
+                <HeartPulse size={25} aria-hidden="true" /><h3>My treatment or service was denied</h3><p>Find the right process for a coverage decision, appeal, or urgent review.</p><span>Review denial next steps <ArrowRight size={17} aria-hidden="true" /></span>
+              </Link>
+              <Link href="/blog/doctors-dropping-medicare/#verify" className={styles.problemChoice}>
+                <ShieldCheck size={25} aria-hidden="true" /><h3>My doctor or hospital isn’t covered</h3><p>Confirm network status and ask about arrangements for care already underway.</p><span>Check provider access <ArrowRight size={17} aria-hidden="true" /></span>
+              </Link>
+            </div>
+            <p className={styles.problemNote}>Check deadlines on any notices you received. Address the coverage problem before waiting for a plan change.</p>
+          </div>
+        </aside>
+
         <section id="start-here" className={`${styles.section} ${styles.container}`} aria-labelledby="start-heading">
           <p className={styles.kicker}>START WITH YOUR QUESTION</p><h2 id="start-heading">What would you like to do?</h2>
           <p className={styles.lead}>Choose the path that fits where you are in your review.</p>
@@ -69,7 +89,7 @@ export default function OepResourcesPage() {
           <div className={styles.rules}><ShieldCheck size={25} aria-hidden="true" /><div><strong>Know which window applies to you.</strong><p>During MA OEP, eligible members can switch to another Medicare Advantage plan or return to Original Medicare and join a separate drug plan. Coverage generally starts the first of the month after the plan receives the request.</p><Link href="/original-medicare/medicare-enrollment-periods/">Compare Medicare enrollment windows <ArrowRight size={15} aria-hidden="true" /></Link></div></div>
         </section>
 
-        <aside className={`${styles.container} ${styles.problemHelp}`}><HeartPulse size={26} aria-hidden="true" /><div><h2>Need help with a care denial now?</h2><p>Find the right process for a coverage decision, appeal, or complaint. Check urgent notices before waiting for a plan change.</p><Link href="/blog/medicare-advantage-denied-care-what-to-do/">See what to do after a denial <ArrowRight size={17} aria-hidden="true" /></Link></div></aside>
+
 
         <section className={styles.reviewSection} aria-labelledby="review-heading"><div className={styles.container}>
           <div className={styles.sectionHeading}><div><p className={styles.kicker}>BEFORE YOU DECIDE</p><h2 id="review-heading">Review the coverage you actually use.</h2></div><p>Keep these three checks together as you compare your current plan with alternatives.</p></div>
