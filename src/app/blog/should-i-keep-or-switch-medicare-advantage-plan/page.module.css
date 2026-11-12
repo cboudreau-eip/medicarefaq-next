@@ -1,0 +1,10 @@
+.page > header{padding:30px 0}.page > header h1{font-size:clamp(28px,3.4vw,40px)}
+.cards,.twoCards{display:grid;gap:16px}.cards{grid-template-columns:repeat(3,1fr)}.twoCards{grid-template-columns:repeat(2,1fr)}
+.cards > div,.twoCards > div{padding:22px;border:1px solid #dbe3ed;border-radius:10px;background:#f6f9fb}
+.cards > div:first-child{border-top:4px solid #007c79}.cards > div:nth-child(2){border-top:4px solid #d27b00}.cards > div:last-child{border-top:4px solid #234d7c}
+.label{display:block;font-weight:750;font-size:12px;letter-spacing:.06em;color:#334e68;margin-bottom:12px}
+.page tbody th{background:#f6f8fb;color:#183454;border-bottom:1px solid #dbe3ed;vertical-align:top}
+.page .checklist{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:12px}.page .checklist li{margin:0;padding:14px;border:1px solid #dbe3ed;border-radius:8px}
+.checklist label{display:flex;gap:12px;cursor:pointer}.checklist input{width:19px;height:19px;flex-shrink:0;margin-top:5px;accent-color:#007c79}.checklist input:focus-visible{outline:3px solid #ef8b00;outline-offset:3px}.checklist input:checked + span{text-decoration:line-through;color:#53657a}
+.page .note{font-size:13px;color:#53657a}.page .button{display:inline-flex;align-items:center;justify-content:center;background:#cf4c00;color:white;font-weight:700;text-decoration:none;padding:12px 18px;border-radius:8px;min-height:44px}.page .button:hover{background:#b84300}
+@media(max-width:700px){.cards,.twoCards,.page .checklist{grid-template-columns:1fr}.page table{min-width:580px}}
