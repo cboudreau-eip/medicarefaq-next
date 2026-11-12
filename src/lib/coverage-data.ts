@@ -14955,206 +14955,301 @@ export const coverageArticles: CoverageArticleData[] = [
 
   // ── Ambulance ──────────────────────────────────────────────────────────────
   {
-    slug: "ambulance-and-medicare-coverage",
-    seo: {
-      title: "Does Medicare Cover Ambulance Services?",
-      description: "Medicare Part B covers medically necessary ambulance transportation. Learn when Medicare pays, what you'll owe, and how Medigap can eliminate your 20% coinsurance.",
-      canonical: "https://www.medicarefaq.com/faqs/ambulance-and-medicare-coverage/",
-      ogImage: "/images/medicarefaq-cover.jpg",
-    },
+  slug: "ambulance-and-medicare-coverage",
+  seo: {
     title: "Does Medicare Cover Ambulance Services?",
-    subtitle: "Medicare Part B covers emergency and some non-emergency ambulance transport when it is medically necessary. Learn what qualifies, what you pay, and how supplemental coverage can help.",
-    category: "Medicare Coverage",
-    dateUpdated: "April 14, 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
-    },
-    readTime: "6 min read",
-    quickAnswer: {
-      text: "Yes - Medicare Part B covers medically necessary ambulance transportation to the nearest appropriate facility. For emergency transport, Medicare pays 80% of the approved amount after your Part B deductible; you pay 20% coinsurance. Non-emergency transport requires a physician's written order certifying that other transport would endanger your health. Medicare Advantage plans cover ambulance services at the same level, though cost-sharing varies by plan.",
-      badges: [
-        { plan: "Medicare Part B", status: "covered" },
-        { plan: "Medicare Advantage", status: "covered" },
-        { plan: "Medigap", status: "partial" }],
-    },
-    comparisonTable: [
-      { planType: "Medicare Part B (Emergency)", coverage: "Covered", icon: "shield", notes: "80% after $283 Part B deductible; you pay 20% coinsurance" },
-      { planType: "Medicare Part B (Non-Emergency)", coverage: "Covered with Conditions", icon: "shield", notes: "Requires physician certification that other transport would endanger health" },
-      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same services as Original Medicare; cost-sharing varies by plan" },
-      { planType: "Medicare Supplement (Medigap)", coverage: "Varies by Plan", icon: "users", notes: "Covers some or all of the 20% coinsurance left by Original Medicare" }],
-    planBreakdowns: [
-      {
-        planName: "Original Medicare (Part B)",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Covered",
-        coverageType: "covered",
-        statusBadge: "Covered when medically necessary",
-        paragraphs: [
-          "[Medicare Part B](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers ambulance transportation that is medically necessary - meaning your condition requires ambulance transport rather than other means of transportation. Emergency ambulance services are covered when your condition is life-threatening or requires immediate medical attention.",
-          "For non-emergency ambulance transport, Medicare requires a physician's written order certifying that transport by other means would endanger your health. Common examples include transport to dialysis, chemotherapy, or wound care when you cannot safely travel by car or wheelchair van.",
-          "Medicare only covers transport to the nearest appropriate facility that can treat your condition. If you choose a more distant facility for personal preference, Medicare will only pay the amount it would have paid for the nearest appropriate facility."],
-        whatItCovers: [
-          "Emergency ground ambulance transport to the nearest appropriate hospital or facility",
-          "Non-emergency ground ambulance with a physician's written order",
-          "Air ambulance (helicopter or fixed-wing) when ground transport would endanger your health",
-          "Transport to the nearest appropriate facility capable of treating your condition",
-          "Medically necessary transport to dialysis, chemotherapy, or wound care"],
-        whatItDoesntCover: [
-          "Non-emergency transport without a physician's written order",
-          "Transport to a more distant facility chosen for personal preference",
-          "Transport that is not to a Medicare-approved facility",
-          "Ambulance services from a non-participating provider (unless emergency)"],
-        costNote: "Part B: You pay 20% coinsurance after the $283 annual deductible (2026). Average ground ambulance cost is $400–$1,200; air ambulance can exceed $30,000 - making Medigap coverage especially valuable.",
-      },
-      {
-        planName: "Medicare Advantage (Part C)",
-        icon: "heart",
-        iconColor: "#059669",
-        coverageLabel: "Covered",
-        coverageType: "covered",
-        statusBadge: "Covered - cost-sharing varies by plan",
-        paragraphs: [
-          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) are required by law to cover all services that Original Medicare covers, including medically necessary ambulance transportation. However, your actual cost-sharing - copayments, coinsurance, and deductibles - depends on your specific plan.",
-          "Unlike Original Medicare, Medicare Advantage plans use provider networks. In a genuine emergency, your plan must cover ambulance services regardless of whether the ambulance company is in-network. For non-emergency transport, using an in-network provider will result in lower out-of-pocket costs."],
-        whatItCovers: [
-          "All ambulance services covered by Original Medicare",
-          "Emergency ambulance regardless of network status",
-          "Non-emergency transport with physician certification"],
-        whatItDoesntCover: [
-          "Non-emergency ambulance without required physician certification",
-          "Transport chosen for personal preference over medical necessity"],
-        callout: {
-          type: "info",
-          title: "Emergency Ambulance is Always Covered",
-          text: "In a true emergency, Medicare Advantage plans cannot deny ambulance coverage based on network status. You will not be penalized for using an out-of-network ambulance in a genuine emergency situation.",
-        },
-      },
-      {
-        planName: "Medicare Supplement (Medigap)",
-        icon: "users",
-        iconColor: "#7C3AED",
-        coverageLabel: "Varies by Plan",
-        coverageType: "partial",
-        statusBadge: "Covers some or all of Original Medicare's cost-sharing",
-        paragraphs: [
-          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) are designed to cover the out-of-pocket costs that Original Medicare leaves behind - including the 20% Part B coinsurance for ambulance services. Given that air ambulance bills can exceed $30,000, Medigap coverage can be particularly valuable.",
-          "[Medigap Plan G](/medicare-supplement-plans/plan-g/) covers the Part B coinsurance in full after you meet the annual Part B deductible. That means once you've paid your $283 deductible for the year, Plan G covers your 20% share of any covered ambulance bill - whether it's a $500 ground transport or a $25,000 air ambulance."],
-        whatItCovers: [
-          "Part B coinsurance (20%) - covered by most Medigap plans",
-          "Part A deductible - covered by Plans D, G, and others",
-          "Excess charges - covered by Plans F and G"],
-        whatItDoesntCover: [
-          "Services not covered by Original Medicare",
-          "Non-emergency transport without physician certification"],
-        costNote: "With Medigap Plan G, your only out-of-pocket cost for ambulance is the $283 Part B deductible (2026). After that, Plan G covers the 20% coinsurance - even for expensive air ambulance transport.",
-      }],
-    costTable: {
-      title: "Estimated Ambulance Costs under Medicare (2026)",
-      headers: ["Transport Type", "Typical Bill", "Medicare Pays", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
-      rows: [
-        {
-          "Transport Type": "Ground ambulance (emergency)",
-          "Typical Bill": "$400 – $1,200",
-          "Medicare Pays": "80% of approved amount",
-          "Your Cost (No Supplement)": "20% + $283 deductible",
-          "Your Cost (With Plan G)": "$283 deductible only",
-        },
-        {
-          "Transport Type": "Ground ambulance (non-emergency)",
-          "Typical Bill": "$300 – $800",
-          "Medicare Pays": "80% of approved amount",
-          "Your Cost (No Supplement)": "20% + $283 deductible",
-          "Your Cost (With Plan G)": "$283 deductible only",
-        },
-        {
-          "Transport Type": "Air ambulance (helicopter)",
-          "Typical Bill": "$10,000 – $40,000+",
-          "Medicare Pays": "80% of approved amount",
-          "Your Cost (No Supplement)": "20% (potentially $2,000–$8,000+)",
-          "Your Cost (With Plan G)": "$283 deductible only",
-        }],
-      footnote: "Costs based on 2026 Medicare figures. Part B deductible: $283/year. Actual ambulance bills vary significantly by location, provider, and distance traveled.",
-    },
-    exceptionsSection: {
-      title: "When Medicare May not Cover Ambulance Transport",
-      items: [
-        {
-          title: "Non-Emergency Transport without Physician Certification",
-          text: "Medicare requires a physician's written order for non-emergency ambulance transport. Without this documentation, Medicare will deny the claim. If you regularly need non-emergency transport (such as for dialysis), make sure your doctor provides the required certification before each transport or on a recurring basis.",
-          highlight: "Ask your doctor for a written certification before scheduling non-emergency ambulance transport. Keep a copy for your records in case of a billing dispute.",
-        },
-        {
-          title: "Choosing a More Distant Facility",
-          text: "Medicare only covers transport to the nearest appropriate facility that can treat your condition. If you request transport to a hospital farther away - even if it is your preferred provider - Medicare will only pay the amount it would have paid for the nearest appropriate facility. You may be responsible for the difference.",
-        },
-        {
-          title: "Air Ambulance Billing Disputes",
-          text: "Air ambulance providers are not required to participate in Medicare, which means they can bill you for the difference between their charges and what Medicare approves. This is known as 'balance billing.' Medigap plans can help cover Medicare's approved coinsurance, but they do not protect against balance billing from non-participating air ambulance providers.",
-        }],
-    },
-    faqs: [
-      {
-        question: "Does Medicare Cover Ambulance Rides to the Emergency Room?",
-        answer: "Yes - Medicare Part B covers emergency ambulance transport to the nearest appropriate hospital when your condition requires immediate medical attention. You pay 20% coinsurance after your Part B deductible. Medicare Advantage plans provide the same coverage, though cost-sharing varies by plan.",
-      },
-      {
-        question: "Does Medicare Cover Non-emergency Ambulance Transport?",
-        answer: "Yes, but only with a physician's written order certifying that transport by other means would endanger your health. Common examples include transport to dialysis or chemotherapy when you cannot safely travel by car. Without physician certification, Medicare will deny the claim.",
-      },
-      {
-        question: "Does Medicare Cover Air Ambulance (Helicopter)?",
-        answer: "Yes - Medicare Part B covers medically necessary air ambulance transport when ground transport would endanger your health due to the distance, terrain, or your medical condition. However, air ambulance providers may not participate in Medicare, which can result in large balance bills beyond what Medicare approves.",
-      },
-      {
-        question: "How Much Does an Ambulance Cost with Medicare?",
-        answer: "With Original Medicare, you pay 20% coinsurance after the $283 Part B deductible. Ground ambulance bills typically range from $400–$1,200, so your share could be $80–$240 after the deductible. Air ambulance bills can exceed $30,000, making your 20% share potentially $6,000 or more. Medigap Plan G covers the 20% coinsurance after the deductible.",
-      },
-      {
-        question: "Does Medicare Cover Ambulance Transport to Dialysis?",
-        answer: "Yes - Medicare covers non-emergency ambulance transport to dialysis if your doctor certifies in writing that transport by other means would endanger your health. If you can travel safely by car or wheelchair van, Medicare will not cover ambulance transport to dialysis.",
-      },
-      {
-        question: "Will Medicare Pay for an Ambulance if I Call 911?",
-        answer: "Yes - if you call 911 and an ambulance responds to a genuine medical emergency, Medicare Part B will cover the transport. The ambulance company must be Medicare-approved, but in a true emergency, Medicare Advantage plans also cannot deny coverage based on network status.",
-      },
-      {
-        question: "Does Medigap Cover Ambulance Costs?",
-        answer: "Yes - most Medigap plans cover the 20% Part B coinsurance for ambulance services. Medigap Plan G covers the coinsurance in full after you pay the $283 Part B deductible. This is especially valuable for air ambulance transport, where 20% of a $30,000 bill could be $6,000.",
-      }],
-    quickReference: [
-      { icon: "check", text: "<strong>Emergency ambulance</strong> is covered by Medicare Part B" },
-      { icon: "check", text: "<strong>Non-emergency transport</strong> requires a physician's written order" },
-      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> after the $283 Part B deductible" },
-      { icon: "alert", text: "<strong>Air ambulance</strong> can result in large balance bills from non-participating providers" },
-      { icon: "info", text: "Medicare only covers transport to the <strong>nearest appropriate facility</strong>" },
-      { icon: "check", text: "<strong>Medigap Plan G</strong> covers the 20% coinsurance after the deductible" }],
-    relatedTopics: [
-      { title: "Does Medicare Cover Surgery?", description: "Learn how Medicare covers inpatient and outpatient surgical procedures.", slug: "will-medicare-cover-my-surgery" },
-      { title: "What is Medicare Part B?", description: "Understand what Medicare Part B covers and what you pay.", slug: "what-is-medicare-part-b" },
-      { title: "Medicare Supplement Plan G", description: "See how Plan G covers the 20% coinsurance and other out-of-pocket costs.", slug: "plan-g" },
-      { title: "Medicare Coverage for Stroke Victims", description: "Learn how Medicare covers stroke treatment, rehabilitation, and long-term care.", slug: "medicare-coverage-for-stroke-victims" }],
-    sidebarRelatedLinks: [
-      "will-medicare-cover-my-surgery",
-      "what-is-medicare-part-b",
-      "plan-g",
-      "medicare-coverage-for-stroke-victims"],
-    ctaBanner: {
-      title: "Worried about Ambulance Bills?",
-      text: "A Medigap Plan G can eliminate your 20% coinsurance for ambulance services - including air ambulance. Compare plans in your area today.",
-    },
-    relatedSlugs: ["will-medicare-cover-my-surgery", "what-is-medicare-part-b", "plan-g", "medicare-coverage-for-stroke-victims", "medicare-coverage-for-botox-treatments", "medicare-coverage-for-pacemakers"],
+    description: "Medicare Part B covers medically necessary ambulance transportation. Learn when Medicare pays, what you'll owe, and how Medigap can eliminate your 20% coinsurance.",
+    canonical: "https://www.medicarefaq.com/faqs/ambulance-and-medicare-coverage/",
+    ogImage: "/images/medicarefaq-cover.jpg",
   },
+  title: "Does Medicare Cover Ambulance Services?",
+  subtitle: "Medicare Part B covers emergency and some non-emergency ambulance transport when it is medically necessary. Learn what qualifies, what you pay, and how supplemental coverage can help.",
+  category: "Medicare Coverage",
+  dateUpdated: "April 14, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+  },
+  readTime: "6 min read",
+  quickAnswer: {
+    text: "Yes - Medicare Part B covers medically necessary ambulance transportation to the nearest appropriate facility. For emergency transport, Medicare pays 80% of the approved amount after your Part B deductible; you pay 20% coinsurance. Non-emergency transport requires a physician's written order certifying that other transport would endanger your health. Medicare Advantage plans cover ambulance services at the same level, though cost-sharing varies by plan.",
+    badges: [
+      {
+        plan: "Medicare Part B",
+        status: "covered",
+      },
+      {
+        plan: "Medicare Advantage",
+        status: "covered",
+      },
+      {
+        plan: "Medigap",
+        status: "partial",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Medicare Part B (Emergency)",
+      coverage: "Covered",
+      icon: "shield",
+      notes: "80% after $283 Part B deductible; you pay 20% coinsurance",
+    },
+    {
+      planType: "Medicare Part B (Non-Emergency)",
+      coverage: "Covered with Conditions",
+      icon: "shield",
+      notes: "Requires physician certification that other transport would endanger health",
+    },
+    {
+      planType: "Medicare Advantage (Part C)",
+      coverage: "Covered",
+      icon: "heart",
+      notes: "Must cover same services as Original Medicare; cost-sharing varies by plan",
+    },
+    {
+      planType: "Medicare Supplement (Medigap)",
+      coverage: "Varies by Plan",
+      icon: "users",
+      notes: "Covers some or all of the 20% coinsurance left by Original Medicare",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "Original Medicare (Part B)",
+      icon: "shield",
+      iconColor: "#1B2A4A",
+      coverageLabel: "Covered",
+      coverageType: "covered",
+      statusBadge: "Covered when medically necessary",
+      paragraphs: [
+      "[Medicare Part B](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers ambulance transportation that is medically necessary - meaning your condition requires ambulance transport rather than other means of transportation. Emergency ambulance services are covered when your condition is life-threatening or requires immediate medical attention.",
+      "For non-emergency ambulance transport, Medicare requires a physician's written order certifying that transport by other means would endanger your health. Common examples include transport to dialysis, chemotherapy, or wound care when you cannot safely travel by car or wheelchair van.",
+      "Medicare only covers transport to the nearest appropriate facility that can treat your condition. If you choose a more distant facility for personal preference, Medicare will only pay the amount it would have paid for the nearest appropriate facility.",
+    ],
+      whatItCovers: [
+      "Emergency ground ambulance transport to the nearest appropriate hospital or facility",
+      "Non-emergency ground ambulance with a physician's written order",
+      "Air ambulance (helicopter or fixed-wing) when ground transport would endanger your health",
+      "Transport to the nearest appropriate facility capable of treating your condition",
+      "Medically necessary transport to dialysis, chemotherapy, or wound care",
+    ],
+      whatItDoesntCover: [
+      "Non-emergency transport without a physician's written order",
+      "Transport to a more distant facility chosen for personal preference",
+      "Transport that is not to a Medicare-approved facility",
+      "Ambulance services from a non-participating provider (unless emergency)",
+    ],
+      costNote: "Part B: You pay 20% coinsurance after the $283 annual deductible (2026). Average ground ambulance cost is $400–$1,200; air ambulance can exceed $30,000 - making Medigap coverage especially valuable.",
+    },
+    {
+      planName: "Medicare Advantage (Part C)",
+      icon: "heart",
+      iconColor: "#059669",
+      coverageLabel: "Covered",
+      coverageType: "covered",
+      statusBadge: "Covered - cost-sharing varies by plan",
+      paragraphs: [
+      "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) are required by law to cover all services that Original Medicare covers, including medically necessary ambulance transportation. However, your actual cost-sharing - copayments, coinsurance, and deductibles - depends on your specific plan.",
+      "Unlike Original Medicare, Medicare Advantage plans use provider networks. In a genuine emergency, your plan must cover ambulance services regardless of whether the ambulance company is in-network. For non-emergency transport, using an in-network provider will result in lower out-of-pocket costs.",
+    ],
+      whatItCovers: [
+      "All ambulance services covered by Original Medicare",
+      "Emergency ambulance regardless of network status",
+      "Non-emergency transport with physician certification",
+    ],
+      whatItDoesntCover: [
+      "Non-emergency ambulance without required physician certification",
+      "Transport chosen for personal preference over medical necessity",
+    ],
+      callout: {
+      type: "info",
+      title: "Emergency Ambulance is Always Covered",
+      text: "In a true emergency, Medicare Advantage plans cannot deny ambulance coverage based on network status. You will not be penalized for using an out-of-network ambulance in a genuine emergency situation.",
+    },
+    },
+    {
+      planName: "Medicare Supplement (Medigap)",
+      icon: "users",
+      iconColor: "#7C3AED",
+      coverageLabel: "Varies by Plan",
+      coverageType: "partial",
+      statusBadge: "Covers some or all of Original Medicare's cost-sharing",
+      paragraphs: [
+      "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) are designed to cover the out-of-pocket costs that Original Medicare leaves behind - including the 20% Part B coinsurance for ambulance services. Given that air ambulance bills can exceed $30,000, Medigap coverage can be particularly valuable.",
+      "[Medigap Plan G](/medicare-supplement-plans/plan-g/) covers the Part B coinsurance in full after you meet the annual Part B deductible. That means once you've paid your $283 deductible for the year, Plan G covers your 20% share of any covered ambulance bill - whether it's a $500 ground transport or a $25,000 air ambulance.",
+    ],
+      whatItCovers: [
+      "Part B coinsurance (20%) - covered by most Medigap plans",
+      "Part A deductible - covered by Plans D, G, and others",
+      "Excess charges - covered by Plans F and G",
+    ],
+      whatItDoesntCover: [
+      "Services not covered by Original Medicare",
+      "Non-emergency transport without physician certification",
+    ],
+      costNote: "With Medigap Plan G, your only out-of-pocket cost for ambulance is the $283 Part B deductible (2026). After that, Plan G covers the 20% coinsurance - even for expensive air ambulance transport.",
+    },
+  ],
+  costTable: {
+    title: "Estimated Ambulance Costs under Medicare (2026)",
+    headers: [
+    "Transport Type",
+    "Typical Bill",
+    "Medicare Pays",
+    "Your Cost (No Supplement)",
+    "Your Cost (With Plan G)",
+  ],
+    rows: [
+      {
+        "Transport Type": "Ground ambulance (emergency)",
+        "Typical Bill": "$400 – $1,200",
+        "Medicare Pays": "80% of approved amount",
+        "Your Cost (No Supplement)": "20% + $283 deductible",
+        "Your Cost (With Plan G)": "$283 deductible only",
+      },
+      {
+        "Transport Type": "Ground ambulance (non-emergency)",
+        "Typical Bill": "$300 – $800",
+        "Medicare Pays": "80% of approved amount",
+        "Your Cost (No Supplement)": "20% + $283 deductible",
+        "Your Cost (With Plan G)": "$283 deductible only",
+      },
+      {
+        "Transport Type": "Air ambulance (helicopter)",
+        "Typical Bill": "$10,000 – $40,000+",
+        "Medicare Pays": "80% of approved amount",
+        "Your Cost (No Supplement)": "20% (potentially $2,000–$8,000+)",
+        "Your Cost (With Plan G)": "$283 deductible only",
+      },
+    ],
+    footnote: "Costs based on 2026 Medicare figures. Part B deductible: $283/year. Actual ambulance bills vary significantly by location, provider, and distance traveled.",
+  },
+  exceptionsSection: {
+    title: "When Medicare May not Cover Ambulance Transport",
+    items: [
+      {
+        title: "Non-Emergency Transport without Physician Certification",
+        text: "Medicare requires a physician's written order for non-emergency ambulance transport. Without this documentation, Medicare will deny the claim. If you regularly need non-emergency transport (such as for dialysis), make sure your doctor provides the required certification before each transport or on a recurring basis.",
+        highlight: "Ask your doctor for a written certification before scheduling non-emergency ambulance transport. Keep a copy for your records in case of a billing dispute.",
+      },
+      {
+        title: "Choosing a More Distant Facility",
+        text: "Medicare only covers transport to the nearest appropriate facility that can treat your condition. If you request transport to a hospital farther away - even if it is your preferred provider - Medicare will only pay the amount it would have paid for the nearest appropriate facility. You may be responsible for the difference.",
+      },
+      {
+        title: "Air Ambulance Billing Disputes",
+        text: "Air ambulance providers are not required to participate in Medicare, which means they can bill you for the difference between their charges and what Medicare approves. This is known as 'balance billing.' Medigap plans can help cover Medicare's approved coinsurance, but they do not protect against balance billing from non-participating air ambulance providers.",
+      },
+    ],
+  },
+  faqs: [
+    {
+      question: "Does Medicare Cover Ambulance Rides to the Emergency Room?",
+      answer: "Yes - Medicare Part B covers emergency ambulance transport to the nearest appropriate hospital when your condition requires immediate medical attention. You pay 20% coinsurance after your Part B deductible. Medicare Advantage plans provide the same coverage, though cost-sharing varies by plan.",
+    },
+    {
+      question: "Does Medicare Cover Non-emergency Ambulance Transport?",
+      answer: "Yes, but only with a physician's written order certifying that transport by other means would endanger your health. Common examples include transport to dialysis or chemotherapy when you cannot safely travel by car. Without physician certification, Medicare will deny the claim.",
+    },
+    {
+      question: "Does Medicare Cover Air Ambulance (Helicopter)?",
+      answer: "Yes - Medicare Part B covers medically necessary air ambulance transport when ground transport would endanger your health due to the distance, terrain, or your medical condition. However, air ambulance providers may not participate in Medicare, which can result in large balance bills beyond what Medicare approves.",
+    },
+    {
+      question: "How Much Does an Ambulance Cost with Medicare?",
+      answer: "With Original Medicare, you pay 20% coinsurance after the $283 Part B deductible. Ground ambulance bills typically range from $400–$1,200, so your share could be $80–$240 after the deductible. Air ambulance bills can exceed $30,000, making your 20% share potentially $6,000 or more. Medigap Plan G covers the 20% coinsurance after the deductible.",
+    },
+    {
+      question: "Does Medicare Cover Ambulance Transport to Dialysis?",
+      answer: "Yes - Medicare covers non-emergency ambulance transport to dialysis if your doctor certifies in writing that transport by other means would endanger your health. If you can travel safely by car or wheelchair van, Medicare will not cover ambulance transport to dialysis.",
+    },
+    {
+      question: "Will Medicare Pay for an Ambulance if I Call 911?",
+      answer: "Yes - if you call 911 and an ambulance responds to a genuine medical emergency, Medicare Part B will cover the transport. The ambulance company must be Medicare-approved, but in a true emergency, Medicare Advantage plans also cannot deny coverage based on network status.",
+    },
+    {
+      question: "Does Medigap Cover Ambulance Costs?",
+      answer: "Yes - most Medigap plans cover the 20% Part B coinsurance for ambulance services. Medigap Plan G covers the coinsurance in full after you pay the $283 Part B deductible. This is especially valuable for air ambulance transport, where 20% of a $30,000 bill could be $6,000.",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "check",
+      text: "<strong>Emergency ambulance</strong> is covered by Medicare Part B",
+    },
+    {
+      icon: "check",
+      text: "<strong>Non-emergency transport</strong> requires a physician's written order",
+    },
+    {
+      icon: "dollar",
+      text: "You pay <strong>20% coinsurance</strong> after the $283 Part B deductible",
+    },
+    {
+      icon: "alert",
+      text: "<strong>Air ambulance</strong> can result in large balance bills from non-participating providers",
+    },
+    {
+      icon: "info",
+      text: "Medicare only covers transport to the <strong>nearest appropriate facility</strong>",
+    },
+    {
+      icon: "check",
+      text: "<strong>Medigap Plan G</strong> covers the 20% coinsurance after the deductible",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Does Medicare Cover Surgery?",
+      description: "Learn how Medicare covers inpatient and outpatient surgical procedures.",
+      slug: "will-medicare-cover-my-surgery",
+    },
+    {
+      title: "What is Medicare Part B?",
+      description: "Understand what Medicare Part B covers and what you pay.",
+      slug: "what-is-medicare-part-b",
+    },
+    {
+      title: "Medicare Supplement Plan G",
+      description: "See how Plan G covers the 20% coinsurance and other out-of-pocket costs.",
+      slug: "plan-g",
+    },
+    {
+      title: "Medicare Coverage for Stroke Victims",
+      description: "Learn how Medicare covers stroke treatment, rehabilitation, and long-term care.",
+      slug: "medicare-coverage-for-stroke-victims",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "will-medicare-cover-my-surgery",
+    "what-is-medicare-part-b",
+    "plan-g",
+    "medicare-coverage-for-stroke-victims",
+  ],
+  ctaBanner: {
+    title: "Worried about Ambulance Bills?",
+    text: "A Medigap Plan G can eliminate your 20% coinsurance for ambulance services - including air ambulance. Compare plans in your area today.",
+  },
+  relatedSlugs: [
+    "will-medicare-cover-my-surgery",
+    "what-is-medicare-part-b",
+    "plan-g",
+    "medicare-coverage-for-stroke-victims",
+    "medicare-coverage-for-botox-treatments",
+    "medicare-coverage-for-pacemakers",
+  ],
+  youtubeVideoId: "Rrc9oXD3P9o",
+},
 
   // ── Robotic Surgery ────────────────────────────────────────────────────────
   {
@@ -36666,401 +36761,402 @@ export const coverageArticles: CoverageArticleData[] = [
   },
 
   {
-    "slug": "when-does-medicare-start",
-    "seo": {
-      "title": "When Does Medicare Start? Coverage Start Dates Explained",
-      "description": "Find out exactly when your Medicare coverage starts based on when you enroll, your birthday month, and your enrollment period. Avoid gaps in coverage with this complete guide.",
-      "canonical": "https://www.medicarefaq.com/faqs/when-does-medicare-start/",
-      "ogImage": "/images/medicarefaq-cover.jpg"
-    },
-    "title": "When Does Medicare Start?",
-    "subtitle": "When Part A, Part B, and Medicare Plan Coverage Begins",
-    "category": "Enrollment",
-    "dateUpdated": "October 22, 2026",
-    "lastReviewed": "2026-05-18",
-    "author": {
-      "name": "David Haass",
-      "initials": "DH",
-      "role": "CTO & Co-Founder",
-      "bio": "David Haass is the CTO and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. A Forbes Finance Council member, he leads the technology and editorial strategy behind one of America's most trusted Medicare education resources."
-    },
-    "reviewer": {
-      "name": "Ashlee Zareczny",
-      "initials": "AZ",
-      "role": "Reviewer",
-      "bio": "Ashlee Zareczny is the Compliance and Editorial Manager at MedicareFAQ, ensuring all Medicare content is accurate, up-to-date, and compliant with CMS guidelines."
-    },
-    "readTime": "8 min read",
-    "quickAnswer": {
-      "text": "<strong>For most people turning 65, Part B starts on the first day of their birthday month if they sign up during the three months before it.</strong> Sign up during your birthday month or the next three months, and Part B starts the following month. General Enrollment Period coverage also starts the month after you sign up. Premium-free Part A and birthdays on the first follow different rules, explained below.<br /><br /><strong>Still working at 65?</strong> You may be able to delay Part B with coverage based on your or your spouse’s current employment. Before delaying, <a href=\"/medicare-enrollment/working-past-65/\" class=\"underline text-teal-700\">check the working-past-65 rules</a> and ask your benefits administrator how your coverage pays.",
-      "badges": []
-    },
-    "comparisonTable": [
-      {
-        "planType": "IEP: before your 65th birthday month",
-        "coverage": "First day of birthday month",
-        "icon": "Calendar",
-        "notes": "For birthdays on the first, the eligibility month shifts to the prior month."
-      },
-      {
-        "planType": "IEP: birthday month or next three months",
-        "coverage": "First day of following month",
-        "icon": "Calendar",
-        "notes": "Example: August enrollment means a September 1 Part B start."
-      },
-      {
-        "planType": "GEP: January 1 through March 31",
-        "coverage": "First day of following month",
-        "icon": "Calendar",
-        "notes": "Example: February enrollment means March 1 coverage. A late penalty may apply."
-      },
-      {
-        "planType": "Employer-coverage SEP",
-        "coverage": "Generally the following month",
-        "icon": "Info",
-        "notes": "Coordinate the start date with Social Security before employer coverage ends."
-      }
-    ],
-    "planBreakdowns": [
-      {
-        "planName": "Initial Enrollment Period: Part B and Premium-Part A",
-        "icon": "Calendar",
-        "iconColor": "text-teal-600",
-        "coverageLabel": "Enrollment guidance",
-        "coverageType": "covered",
-        "paragraphs": [
-          "Your first age-based enrollment window generally runs from three months before your 65th birthday month through three months after it. For Part B and Part A you must pay a premium for, signing up before your birthday month starts coverage on the first of that month. Signing up during your birthday month or the following three months starts coverage the next month.",
-          "For example, if you turn 65 on August 18, signing up in May, June, or July starts Part B on August 1. Signing up in August starts it September 1. Coverage starts on the first of a month, not on your actual birthday.",
-          "If your birthday is on the first, Medicare treats you as reaching 65 in the previous month. For an August 1 birthday, the eligibility month is July and the IEP runs April through October. Enrolling April through June can start Part B July 1."
-        ],
-        "whatItCovers": [
-          "Enroll early in your IEP to avoid a delayed Part B start.",
-          "Enrolling within your IEP does not create a Part B late enrollment penalty."
-        ],
-        "whatItDoesntCover": [
-          "Premium-free Part A has separate start-date and retroactivity rules.",
-          "Still working? Review current-employment coverage before deciding to delay."
-        ],
-        "whatItCoversTitle": "Key Timing Rules",
-        "whatItDoesntCoverTitle": "Important Exceptions",
-        "callout": {
-          "type": "tip",
-          "title": "Check Your Dates Before Choosing a Plan",
-          "text": "Confirm your Part A and Part B effective dates with Social Security or on your Medicare card. Our [Decision Kit](/tools/decision-kit/) can help organize age-65 enrollment dates, but does not replace your official enrollment confirmation."
-        }
-      },
-      {
-        "planName": "Still Working at 65? Check Before Delaying Part B",
-        "icon": "Calendar",
-        "iconColor": "text-teal-600",
-        "coverageLabel": "Enrollment guidance",
-        "coverageType": "covered",
-        "paragraphs": [
-          "You may qualify to delay Part B without a late penalty if you have group health coverage based on your or your spouse’s current employment. Simply having a job is not enough. [Read our working-past-65 guide](/medicare-enrollment/working-past-65/) and confirm your situation with your benefits administrator.",
-          "Employer size affects who pays first, not just enrollment timing. With fewer than 20 employees, Medicare generally pays first for someone eligible at 65, so delaying enrollment can leave unpaid bills. Do not assume that a future SEP means your employer plan will cover everything today."
-        ],
-        "whatItCovers": [
-          "Ask whether the plan pays primary or secondary after you turn 65.",
-          "Keep proof of employment and group health coverage for a Part B SEP."
-        ],
-        "whatItDoesntCover": [
-          "COBRA and retiree coverage are not current-employment coverage for this SEP.",
-          "Drug coverage must be assessed separately for Part D; ask for a creditable-coverage notice."
-        ],
-        "whatItCoversTitle": "Key Timing Rules",
-        "whatItDoesntCoverTitle": "Important Exceptions",
-        "callout": {
-          "type": "warning",
-          "title": "Have an HSA?",
-          "text": "Medicare enrollment can affect your ability to contribute to an HSA. Premium-free Part A may be retroactive when you enroll after 65. Review contribution timing with your benefits administrator or tax adviser before applying."
-        }
-      },
-      {
-        "planName": "Premium-Free Part A: Earlier Coverage May Apply",
-        "icon": "Calendar",
-        "iconColor": "text-teal-600",
-        "coverageLabel": "Enrollment guidance",
-        "coverageType": "covered",
-        "paragraphs": [
-          "Premium-free Part A generally begins the month you turn 65, or the preceding month if your birthday is on the first. If you enroll after 65, it can begin up to six months before your application, but no earlier than your first month of eligibility.",
-          "That means Part A and Part B can have different start dates. Check both dates on your Medicare card rather than treating all Medicare coverage as starting together."
-        ],
-        "whatItCovers": [
-          "Premium-free Part A can be requested after 65 without waiting for the GEP.",
-          "Retroactive Part A may affect HSA contributions."
-        ],
-        "whatItDoesntCover": [
-          "The six-month retroactivity rule is not the standard Part B enrollment rule.",
-          "If you must buy Part A, its enrollment timing generally follows the Part B rules."
-        ],
-        "whatItCoversTitle": "Key Timing Rules",
-        "whatItDoesntCoverTitle": "Important Exceptions"
-      },
-      {
-        "planName": "Automatic Enrollment: Check Your Medicare Card",
-        "icon": "Calendar",
-        "iconColor": "text-teal-600",
-        "coverageLabel": "Enrollment guidance",
-        "coverageType": "covered",
-        "paragraphs": [
-          "If you receive Social Security or Railroad Retirement Board benefits at least four months before becoming eligible at 65, you generally receive Part A and Part B automatically. People in Puerto Rico generally need to apply for Part B. If you are not automatically enrolled, apply through Social Security or the RRB.",
-          "Your Medicare welcome package usually arrives about three months before coverage begins. Check the Part A and Part B effective dates on the card, including the birthday-on-the-first exception."
-        ],
-        "whatItCovers": [
-          "Review your card even if enrollment is automatic.",
-          "Ask about employer coverage before deciding whether to keep or decline Part B."
-        ],
-        "whatItDoesntCover": [
-          "Automatic Part A and Part B enrollment does not automatically enroll you in a Medicare Advantage or Part D plan."
-        ],
-        "whatItCoversTitle": "Key Timing Rules",
-        "whatItDoesntCoverTitle": "Important Exceptions"
-      },
-      {
-        "planName": "General Enrollment Period: Coverage Starts the Next Month",
-        "icon": "Calendar",
-        "iconColor": "text-teal-600",
-        "coverageLabel": "Enrollment guidance",
-        "coverageType": "covered",
-        "paragraphs": [
-          "If you missed your IEP and cannot use a SEP, the GEP runs January 1 through March 31 each year. Part B and premium-Part A coverage start the first day of the month after you sign up. The former July 1 start rule no longer applies.",
-          "January enrollment starts February 1; February enrollment starts March 1; March enrollment starts April 1. You may still have a gap while waiting for enrollment and a late penalty if no exception applies."
-        ],
-        "whatItCovers": [
-          "GEP enrollment is available January 1 through March 31.",
-          "A Part B late penalty is generally 10% for each full 12-month period of delay without an exception."
-        ],
-        "whatItDoesntCover": [
-          "The GEP is not the fall Medicare Advantage and Part D Annual Enrollment Period.",
-          "Part D and premium-Part A penalties have their own rules."
-        ],
-        "whatItCoversTitle": "Key Timing Rules",
-        "whatItDoesntCoverTitle": "Important Exceptions",
-        "callout": {
-          "type": "warning",
-          "title": "Check for a SEP Before Waiting",
-          "text": "If employer coverage is ending or another qualifying circumstance applies, ask Social Security about a Special Enrollment Period. You may not need to wait until January."
-        }
-      },
-      {
-        "planName": "Special Enrollment Periods: Match the Rule to Your Situation",
-        "icon": "Calendar",
-        "iconColor": "text-teal-600",
-        "coverageLabel": "Enrollment guidance",
-        "coverageType": "covered",
-        "paragraphs": [
-          "For qualifying current-employment group coverage, you can generally enroll in Part B while covered and working after your IEP, or during the eight months after employment or coverage ends, whichever happens first. COBRA does not restart or extend that clock.",
-          "Coverage generally starts the next month. When you enroll while still working or within the first full month after employer coverage ends, you may request a Part B start date up to three months later. Confirm the requested date with Social Security so it aligns with your other coverage.",
-          "Other Part A and Part B SEPs, such as certain losses of Medicaid or exceptional circumstances, have different deadlines. Moving to a new service area is a private-plan enrollment issue and does not by itself establish the employer Part B SEP."
-        ],
-        "whatItCovers": [
-          "Confirm your qualifying event, enrollment deadline, and effective date.",
-          "Plan ahead instead of waiting until the eight-month deadline."
-        ],
-        "whatItDoesntCover": [
-          "Retiree coverage and COBRA do not count as current-employment coverage.",
-          "The eight-month Part B window is not the Part D drug-plan enrollment deadline."
-        ],
-        "whatItCoversTitle": "Key Timing Rules",
-        "whatItDoesntCoverTitle": "Important Exceptions"
-      },
-      {
-        "planName": "Medicare Advantage and Part D Start Dates",
-        "icon": "Calendar",
-        "iconColor": "text-teal-600",
-        "coverageLabel": "Enrollment guidance",
-        "coverageType": "covered",
-        "paragraphs": [
-          "Private-plan coverage requires a separate enrollment. Medicare Advantage requires both Part A and Part B; a stand-alone Part D plan requires Part A or Part B. Check the plan’s confirmation rather than assuming it starts with your Medicare card.",
-          "When first eligible, enrolling before your Medicare coverage begins can align your plan start with that coverage. Joining after Medicare starts generally means the first of the month after the plan receives your request, subject to the applicable enrollment window. Changes made during October 15 through December 7 generally take effect January 1.",
-          "Part D late penalties can apply after 63 consecutive days or more without Part D or other creditable drug coverage after your initial enrollment period. Do not use the eight-month Part B SEP as your drug-coverage deadline."
-        ],
-        "whatItCovers": [
-          "Confirm effective dates directly with your health or drug plan.",
-          "Coordinate replacement coverage before ending existing coverage."
-        ],
-        "whatItDoesntCover": [
-          "A Part B application alone does not enroll you in a Part D or Medicare Advantage plan."
-        ],
-        "whatItCoversTitle": "Key Timing Rules",
-        "whatItDoesntCoverTitle": "Important Exceptions"
-      },
-      {
-        "planName": "Official Sources and Your Next Step",
-        "icon": "Calendar",
-        "iconColor": "text-teal-600",
-        "coverageLabel": "Enrollment guidance",
-        "coverageType": "covered",
-        "paragraphs": [
-          "Verify your situation using [Medicare coverage start dates](https://www.medicare.gov/basics/get-started-with-medicare/sign-up/when-does-medicare-coverage-start), [Medicare’s working-past-65 guidance](https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics/working-past-65), and [CMS enrollment rules](https://www.cms.gov/medicare/enrollment-renewal/original-part-a-b).",
-          "For private plans, review [Medicare’s plan enrollment guide](https://www.medicare.gov/publications/11219-Understanding-Medicare-Advantage-Medicare-Drug-Plan-Enrollment-Periods.pdf). For the final Part A and Part B determination, contact Social Security or the RRB; an insurance agent can help compare coverage but does not set those effective dates."
-        ],
-        "whatItCoversTitle": "Key Timing Rules",
-        "whatItDoesntCoverTitle": "Important Exceptions"
-      }
-    ],
-    "costTable": {
-      "title": "Examples: When Part B Begins",
-      "headers": [
-        "Situation",
-        "Enroll During",
-        "Part B Starts"
-      ],
-      "rows": [
-        {
-          "Situation": "65th birthday August 18",
-          "Enroll During": "May, June, or July",
-          "Part B Starts": "August 1"
-        },
-        {
-          "Situation": "65th birthday August 18",
-          "Enroll During": "August",
-          "Part B Starts": "September 1"
-        },
-        {
-          "Situation": "65th birthday August 1",
-          "Enroll During": "April, May, or June",
-          "Part B Starts": "July 1"
-        },
-        {
-          "Situation": "GEP enrollment",
-          "Enroll During": "February",
-          "Part B Starts": "March 1"
-        }
-      ],
-      "footnote": "Examples assume eligibility and a valid enrollment. Premium-free Part A and private-plan coverage may start on different dates. Confirm your actual dates with Social Security or the RRB."
-    },
-    "exceptionsSection": {
-      "title": "Special Situations: When Medicare Starts before 65",
-      "items": [
-        {
-          "title": "Social Security Disability Insurance (SSDI)",
-          "text": "People under 65 generally receive Medicare after 24 months of Social Security disability benefit entitlement. The start date is generally the 25th month of entitlement, not necessarily the 25th month after approval. Social Security determines the applicable date.",
-          "highlight": "Medicare starts on the 25th month of SSDI entitlement"
-        },
-        {
-          "title": "Amyotrophic Lateral Sclerosis (ALS)",
-          "text": "For people with ALS who qualify for Social Security disability benefits, Medicare generally begins the same month those benefits start; the usual 24-month Medicare waiting period does not apply.",
-          "highlight": "No waiting period - Medicare starts with SSDI for ALS"
-        },
-        {
-          "title": "End-Stage Renal Disease (ESRD)",
-          "text": "For qualifying people with ESRD, coverage usually begins in the fourth month of dialysis. It may begin earlier with qualifying home-dialysis training. Kidney-transplant coverage may start in the transplant month or earlier for qualifying hospital preparation. Confirm the applicable ESRD rules with Social Security.",
-          "highlight": "Dialysis, home training, and transplant rules differ"
-        }
-      ]
-    },
-    "faqs": [
-      {
-        "question": "Can I delay Medicare if I am still working?",
-        "answer": "You may be able to delay Part B with group health coverage based on your or your spouse’s current employment. Ask your benefits administrator who pays first at 65, especially if the employer has fewer than 20 employees. COBRA and retiree coverage do not provide the same Part B SEP protection. Review our [working-past-65 guide](/medicare-enrollment/working-past-65/)."
-      },
-      {
-        "question": "When does Part B start if I enroll in my birthday month?",
-        "answer": "For most people first eligible at 65, Part B begins the first day of the following month. For example, someone with an August 18 birthday who enrolls in August starts Part B September 1. Premium-free Part A has separate rules. If your birthday is on the first, Medicare shifts your age-based eligibility month to the previous month."
-      },
-      {
-        "question": "What if my birthday is on the first of the month?",
-        "answer": "Medicare treats you as reaching 65 in the prior month. For an August 1 birthday, your eligibility month is July and your Initial Enrollment Period generally runs April through October. Enrolling April through June can start Part B July 1. Confirm the dates on your Medicare card or with Social Security."
-      },
-      {
-        "question": "Does Medicare start automatically when I turn 65?",
-        "answer": "Generally, if you receive Social Security or RRB benefits at least four months before eligibility, Part A and Part B enrollment is automatic. Puerto Rico has different Part B enrollment rules. Otherwise, you usually need to apply. Check your Medicare card for effective dates. Medicare Advantage and Part D generally require a separate plan enrollment."
-      },
-      {
-        "question": "When does coverage start after General Enrollment Period enrollment?",
-        "answer": "Part B and premium-Part A start the first day of the month after you sign up during the January 1 through March 31 General Enrollment Period. January enrollment starts February 1, February enrollment starts March 1, and March enrollment starts April 1. Check for a Special Enrollment Period before waiting; late penalties may apply."
-      },
-      {
-        "question": "Can Medicare Part A start retroactively?",
-        "answer": "Yes. When you enroll after 65, premium-free Part A can start up to six months before your application, but not before your first eligible month. This can affect HSA contributions. Part B does not follow that same general six-month rule. Confirm both effective dates before making coverage or HSA decisions."
-      },
-      {
-        "question": "When does Medicare start for someone on disability?",
-        "answer": "Medicare generally starts after 24 months of Social Security disability benefit entitlement. For qualifying people with ALS, it generally begins with disability benefits instead. ESRD has separate rules for dialysis, home-dialysis training, and transplants. Social Security can confirm which rule applies and your exact coverage start date."
-      },
-      {
-        "question": "When does Part D prescription drug coverage start?",
-        "answer": "You must enroll in a drug plan separately. When first eligible, enrolling before Medicare begins can align the plan start date with Medicare. Enrolling after Medicare begins generally starts plan coverage the month after the plan receives your request, subject to your enrollment window. Fall Annual Enrollment Period changes generally begin January 1. Confirm your effective date with the plan."
-      }
-    ],
-    "quickReference": [
-      {
-        "icon": "check",
-        "text": "Part B: enroll before your birthday month to start that month."
-      },
-      {
-        "icon": "info",
-        "text": "Birthday on the first? Your eligibility month shifts one month earlier."
-      },
-      {
-        "icon": "check",
-        "text": "GEP: coverage starts the month after enrollment."
-      },
-      {
-        "icon": "info",
-        "text": "Premium-free Part A may start retroactively."
-      },
-      {
-        "icon": "alert",
-        "text": "Working past 65? Confirm who pays first before delaying."
-      },
-      {
-        "icon": "alert",
-        "text": "Part B and Part D have different SEP deadlines."
-      }
-    ],
-    "relatedTopics": [
-      {
-        "title": "Medicare Initial Enrollment Period",
-        "description": "Everything you need to know about your 7-month window to sign up for Medicare.",
-        "slug": "medicare-initial-enrollment-period"
-      },
-      {
-        "title": "Applying for Medicare",
-        "description": "Step-by-step guide to applying for Medicare online, by phone, or in person.",
-        "slug": "applying-for-medicare"
-      },
-      {
-        "title": "Medicare Enrollment Periods Guide",
-        "description": "Complete guide to all Medicare enrollment periods - when to sign up and what happens if you miss your window.",
-        "slug": "your-guide-to-medicare-enrollment-periods-when-to-sign-up"
-      },
-      {
-        "title": "Medicare Starter Guide",
-        "description": "What to do in your first 90 days of Medicare coverage.",
-        "slug": "medicare-starter-guide-what-to-do-in-your-first-90-days"
-      }
-    ],
-    "sidebarRelatedLinks": [
-      "medicare-initial-enrollment-period",
-      "applying-for-medicare",
-      "your-guide-to-medicare-enrollment-periods-when-to-sign-up",
-      "turning-65-these-are-the-most-common-medicare-questions-answered",
-      "medicare-starter-guide-what-to-do-in-your-first-90-days"
-    ],
-    "showMidInlineCta": true,
-    "ctaBanner": {
-      "title": "Not Sure When Your Medicare Starts?",
-      "text": "Review your official Medicare effective dates first. A licensed Medicare specialist can then help compare plans that fit your coverage needs."
-    },
-    "relatedSlugs": [
-      "medicare-initial-enrollment-period",
-      "applying-for-medicare",
-      "your-guide-to-medicare-enrollment-periods-when-to-sign-up",
-      "turning-65-these-are-the-most-common-medicare-questions-answered",
-      "medicare-starter-guide-what-to-do-in-your-first-90-days"
-    ],
-    "comparisonTitle": "Part B Start Dates at a Glance",
-    "comparisonTocLabel": "Start Dates",
-    "comparisonHeaders": {
-      "primary": "When You Enroll",
-      "status": "Part B Starts",
-      "notes": "What to Know"
-    },
-    "breakdownsTitle": "Enrollment Timing and Important Exceptions",
-    "breakdownsTocLabel": "Enrollment Rules"
+  slug: "when-does-medicare-start",
+  seo: {
+    title: "When Does Medicare Start? Coverage Start Dates Explained",
+    description: "Find out exactly when your Medicare coverage starts based on when you enroll, your birthday month, and your enrollment period.",
+    canonical: "https://www.medicarefaq.com/faqs/when-does-medicare-start/",
+    ogImage: "/images/medicarefaq-cover.jpg",
   },
+  title: "When Does Medicare Start?",
+  subtitle: "When Part A, Part B, and Medicare Plan Coverage Begins",
+  category: "Enrollment",
+  dateUpdated: "October 22, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is the CTO and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. A Forbes Finance Council member, he leads the technology and editorial strategy behind one of America's most trusted Medicare education resources.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is the Compliance and Editorial Manager at MedicareFAQ, ensuring all Medicare content is accurate, up-to-date, and compliant with CMS guidelines.",
+  },
+  readTime: "8 min read",
+  quickAnswer: {
+    text: "<strong>For most people turning 65, Part B starts on the first day of their birthday month if they sign up during the three months before it.</strong> Sign up during your birthday month or the next three months, and Part B starts the following month. General Enrollment Period coverage also starts the month after you sign up. Premium-free Part A and birthdays on the first follow different rules, explained below.<br /><br /><strong>Still working at 65?</strong> You may be able to delay Part B with coverage based on your or your spouse’s current employment. Before delaying, <a href=\"/medicare-enrollment/working-past-65/\" class=\"underline text-teal-700\">check the working-past-65 rules</a> and ask your benefits administrator how your coverage pays.",
+    badges: [],
+  },
+  comparisonTable: [
+    {
+      planType: "IEP: before your 65th birthday month",
+      coverage: "First day of birthday month",
+      icon: "Calendar",
+      notes: "For birthdays on the first, the eligibility month shifts to the prior month.",
+    },
+    {
+      planType: "IEP: birthday month or next three months",
+      coverage: "First day of following month",
+      icon: "Calendar",
+      notes: "Example: August enrollment means a September 1 Part B start.",
+    },
+    {
+      planType: "GEP: January 1 through March 31",
+      coverage: "First day of following month",
+      icon: "Calendar",
+      notes: "Example: February enrollment means March 1 coverage. A late penalty may apply.",
+    },
+    {
+      planType: "Employer-coverage SEP",
+      coverage: "Generally the following month",
+      icon: "Info",
+      notes: "Coordinate the start date with Social Security before employer coverage ends.",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "Initial Enrollment Period: Part B and Premium-Part A",
+      icon: "Calendar",
+      iconColor: "text-teal-600",
+      coverageLabel: "Enrollment guidance",
+      coverageType: "covered",
+      paragraphs: [
+      "Your first age-based enrollment window generally runs from three months before your 65th birthday month through three months after it. For Part B and Part A you must pay a premium for, signing up before your birthday month starts coverage on the first of that month. Signing up during your birthday month or the following three months starts coverage the next month.",
+      "For example, if you turn 65 on August 18, signing up in May, June, or July starts Part B on August 1. Signing up in August starts it September 1. Coverage starts on the first of a month, not on your actual birthday.",
+      "If your birthday is on the first, Medicare treats you as reaching 65 in the previous month. For an August 1 birthday, the eligibility month is July and the IEP runs April through October. Enrolling April through June can start Part B July 1.",
+    ],
+      whatItCovers: [
+      "Enroll early in your IEP to avoid a delayed Part B start.",
+      "Enrolling within your IEP does not create a Part B late enrollment penalty.",
+    ],
+      whatItCoversTitle: "Key Timing Rules",
+      whatItDoesntCover: [
+      "Premium-free Part A has separate start-date and retroactivity rules.",
+      "Still working? Review current-employment coverage before deciding to delay.",
+    ],
+      whatItDoesntCoverTitle: "Important Exceptions",
+      callout: {
+      type: "tip",
+      title: "Check Your Dates Before Choosing a Plan",
+      text: "Confirm your Part A and Part B effective dates with Social Security or on your Medicare card. Our [Decision Kit](/tools/decision-kit/) can help organize age-65 enrollment dates, but does not replace your official enrollment confirmation.",
+    },
+    },
+    {
+      planName: "Still Working at 65? Check Before Delaying Part B",
+      icon: "Calendar",
+      iconColor: "text-teal-600",
+      coverageLabel: "Enrollment guidance",
+      coverageType: "covered",
+      paragraphs: [
+      "You may qualify to delay Part B without a late penalty if you have group health coverage based on your or your spouse’s current employment. Simply having a job is not enough. [Read our working-past-65 guide](/medicare-enrollment/working-past-65/) and confirm your situation with your benefits administrator.",
+      "Employer size affects who pays first, not just enrollment timing. With fewer than 20 employees, Medicare generally pays first for someone eligible at 65, so delaying enrollment can leave unpaid bills. Do not assume that a future SEP means your employer plan will cover everything today.",
+    ],
+      whatItCovers: [
+      "Ask whether the plan pays primary or secondary after you turn 65.",
+      "Keep proof of employment and group health coverage for a Part B SEP.",
+    ],
+      whatItCoversTitle: "Key Timing Rules",
+      whatItDoesntCover: [
+      "COBRA and retiree coverage are not current-employment coverage for this SEP.",
+      "Drug coverage must be assessed separately for Part D; ask for a creditable-coverage notice.",
+    ],
+      whatItDoesntCoverTitle: "Important Exceptions",
+      callout: {
+      type: "warning",
+      title: "Have an HSA?",
+      text: "Medicare enrollment can affect your ability to contribute to an HSA. Premium-free Part A may be retroactive when you enroll after 65. Review contribution timing with your benefits administrator or tax adviser before applying.",
+    },
+    },
+    {
+      planName: "Premium-Free Part A: Earlier Coverage May Apply",
+      icon: "Calendar",
+      iconColor: "text-teal-600",
+      coverageLabel: "Enrollment guidance",
+      coverageType: "covered",
+      paragraphs: [
+      "Premium-free Part A generally begins the month you turn 65, or the preceding month if your birthday is on the first. If you enroll after 65, it can begin up to six months before your application, but no earlier than your first month of eligibility.",
+      "That means Part A and Part B can have different start dates. Check both dates on your Medicare card rather than treating all Medicare coverage as starting together.",
+    ],
+      whatItCovers: [
+      "Premium-free Part A can be requested after 65 without waiting for the GEP.",
+      "Retroactive Part A may affect HSA contributions.",
+    ],
+      whatItCoversTitle: "Key Timing Rules",
+      whatItDoesntCover: [
+      "The six-month retroactivity rule is not the standard Part B enrollment rule.",
+      "If you must buy Part A, its enrollment timing generally follows the Part B rules.",
+    ],
+      whatItDoesntCoverTitle: "Important Exceptions",
+    },
+    {
+      planName: "Automatic Enrollment: Check Your Medicare Card",
+      icon: "Calendar",
+      iconColor: "text-teal-600",
+      coverageLabel: "Enrollment guidance",
+      coverageType: "covered",
+      paragraphs: [
+      "If you receive Social Security or Railroad Retirement Board benefits at least four months before becoming eligible at 65, you generally receive Part A and Part B automatically. People in Puerto Rico generally need to apply for Part B. If you are not automatically enrolled, apply through Social Security or the RRB.",
+      "Your Medicare welcome package usually arrives about three months before coverage begins. Check the Part A and Part B effective dates on the card, including the birthday-on-the-first exception.",
+    ],
+      whatItCovers: [
+      "Review your card even if enrollment is automatic.",
+      "Ask about employer coverage before deciding whether to keep or decline Part B.",
+    ],
+      whatItCoversTitle: "Key Timing Rules",
+      whatItDoesntCover: [
+      "Automatic Part A and Part B enrollment does not automatically enroll you in a Medicare Advantage or Part D plan.",
+    ],
+      whatItDoesntCoverTitle: "Important Exceptions",
+    },
+    {
+      planName: "General Enrollment Period: Coverage Starts the Next Month",
+      icon: "Calendar",
+      iconColor: "text-teal-600",
+      coverageLabel: "Enrollment guidance",
+      coverageType: "covered",
+      paragraphs: [
+      "If you missed your IEP and cannot use a SEP, the GEP runs January 1 through March 31 each year. Part B and premium-Part A coverage start the first day of the month after you sign up. The former July 1 start rule no longer applies.",
+      "January enrollment starts February 1; February enrollment starts March 1; March enrollment starts April 1. You may still have a gap while waiting for enrollment and a late penalty if no exception applies.",
+    ],
+      whatItCovers: [
+      "GEP enrollment is available January 1 through March 31.",
+      "A Part B late penalty is generally 10% for each full 12-month period of delay without an exception.",
+    ],
+      whatItCoversTitle: "Key Timing Rules",
+      whatItDoesntCover: [
+      "The GEP is not the fall Medicare Advantage and Part D Annual Enrollment Period.",
+      "Part D and premium-Part A penalties have their own rules.",
+    ],
+      whatItDoesntCoverTitle: "Important Exceptions",
+      callout: {
+      type: "warning",
+      title: "Check for a SEP Before Waiting",
+      text: "If employer coverage is ending or another qualifying circumstance applies, ask Social Security about a Special Enrollment Period. You may not need to wait until January.",
+    },
+    },
+    {
+      planName: "Special Enrollment Periods: Match the Rule to Your Situation",
+      icon: "Calendar",
+      iconColor: "text-teal-600",
+      coverageLabel: "Enrollment guidance",
+      coverageType: "covered",
+      paragraphs: [
+      "For qualifying current-employment group coverage, you can generally enroll in Part B while covered and working after your IEP, or during the eight months after employment or coverage ends, whichever happens first. COBRA does not restart or extend that clock.",
+      "Coverage generally starts the next month. When you enroll while still working or within the first full month after employer coverage ends, you may request a Part B start date up to three months later. Confirm the requested date with Social Security so it aligns with your other coverage.",
+      "Other Part A and Part B SEPs, such as certain losses of Medicaid or exceptional circumstances, have different deadlines. Moving to a new service area is a private-plan enrollment issue and does not by itself establish the employer Part B SEP.",
+    ],
+      whatItCovers: [
+      "Confirm your qualifying event, enrollment deadline, and effective date.",
+      "Plan ahead instead of waiting until the eight-month deadline.",
+    ],
+      whatItCoversTitle: "Key Timing Rules",
+      whatItDoesntCover: [
+      "Retiree coverage and COBRA do not count as current-employment coverage.",
+      "The eight-month Part B window is not the Part D drug-plan enrollment deadline.",
+    ],
+      whatItDoesntCoverTitle: "Important Exceptions",
+    },
+    {
+      planName: "Medicare Advantage and Part D Start Dates",
+      icon: "Calendar",
+      iconColor: "text-teal-600",
+      coverageLabel: "Enrollment guidance",
+      coverageType: "covered",
+      paragraphs: [
+      "Private-plan coverage requires a separate enrollment. Medicare Advantage requires both Part A and Part B; a stand-alone Part D plan requires Part A or Part B. Check the plan’s confirmation rather than assuming it starts with your Medicare card.",
+      "When first eligible, enrolling before your Medicare coverage begins can align your plan start with that coverage. Joining after Medicare starts generally means the first of the month after the plan receives your request, subject to the applicable enrollment window. Changes made during October 15 through December 7 generally take effect January 1.",
+      "Part D late penalties can apply after 63 consecutive days or more without Part D or other creditable drug coverage after your initial enrollment period. Do not use the eight-month Part B SEP as your drug-coverage deadline.",
+    ],
+      whatItCovers: [
+      "Confirm effective dates directly with your health or drug plan.",
+      "Coordinate replacement coverage before ending existing coverage.",
+    ],
+      whatItCoversTitle: "Key Timing Rules",
+      whatItDoesntCover: [
+      "A Part B application alone does not enroll you in a Part D or Medicare Advantage plan.",
+    ],
+      whatItDoesntCoverTitle: "Important Exceptions",
+    },
+    {
+      planName: "Official Sources and Your Next Step",
+      icon: "Calendar",
+      iconColor: "text-teal-600",
+      coverageLabel: "Enrollment guidance",
+      coverageType: "covered",
+      paragraphs: [
+      "Verify your situation using [Medicare coverage start dates](https://www.medicare.gov/basics/get-started-with-medicare/sign-up/when-does-medicare-coverage-start), [Medicare’s working-past-65 guidance](https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics/working-past-65), and [CMS enrollment rules](https://www.cms.gov/medicare/enrollment-renewal/original-part-a-b).",
+      "For private plans, review [Medicare’s plan enrollment guide](https://www.medicare.gov/publications/11219-Understanding-Medicare-Advantage-Medicare-Drug-Plan-Enrollment-Periods.pdf). For the final Part A and Part B determination, contact Social Security or the RRB; an insurance agent can help compare coverage but does not set those effective dates.",
+    ],
+      whatItCoversTitle: "Key Timing Rules",
+      whatItDoesntCoverTitle: "Important Exceptions",
+    },
+  ],
+  costTable: {
+    title: "Examples: When Part B Begins",
+    headers: [
+    "Situation",
+    "Enroll During",
+    "Part B Starts",
+  ],
+    rows: [
+      {
+        "Situation": "65th birthday August 18",
+        "Enroll During": "May, June, or July",
+        "Part B Starts": "August 1",
+      },
+      {
+        "Situation": "65th birthday August 18",
+        "Enroll During": "August",
+        "Part B Starts": "September 1",
+      },
+      {
+        "Situation": "65th birthday August 1",
+        "Enroll During": "April, May, or June",
+        "Part B Starts": "July 1",
+      },
+      {
+        "Situation": "GEP enrollment",
+        "Enroll During": "February",
+        "Part B Starts": "March 1",
+      },
+    ],
+    footnote: "Examples assume eligibility and a valid enrollment. Premium-free Part A and private-plan coverage may start on different dates. Confirm your actual dates with Social Security or the RRB.",
+  },
+  exceptionsSection: {
+    title: "Special Situations: When Medicare Starts before 65",
+    items: [
+      {
+        title: "Social Security Disability Insurance (SSDI)",
+        text: "People under 65 generally receive Medicare after 24 months of Social Security disability benefit entitlement. The start date is generally the 25th month of entitlement, not necessarily the 25th month after approval. Social Security determines the applicable date.",
+        highlight: "Medicare starts on the 25th month of SSDI entitlement",
+      },
+      {
+        title: "Amyotrophic Lateral Sclerosis (ALS)",
+        text: "For people with ALS who qualify for Social Security disability benefits, Medicare generally begins the same month those benefits start; the usual 24-month Medicare waiting period does not apply.",
+        highlight: "No waiting period - Medicare starts with SSDI for ALS",
+      },
+      {
+        title: "End-Stage Renal Disease (ESRD)",
+        text: "For qualifying people with ESRD, coverage usually begins in the fourth month of dialysis. It may begin earlier with qualifying home-dialysis training. Kidney-transplant coverage may start in the transplant month or earlier for qualifying hospital preparation. Confirm the applicable ESRD rules with Social Security.",
+        highlight: "Dialysis, home training, and transplant rules differ",
+      },
+    ],
+  },
+  faqs: [
+    {
+      question: "Can I delay Medicare if I am still working?",
+      answer: "You may be able to delay Part B with group health coverage based on your or your spouse’s current employment. Ask your benefits administrator who pays first at 65, especially if the employer has fewer than 20 employees. COBRA and retiree coverage do not provide the same Part B SEP protection. Review our [working-past-65 guide](/medicare-enrollment/working-past-65/).",
+    },
+    {
+      question: "When does Part B start if I enroll in my birthday month?",
+      answer: "For most people first eligible at 65, Part B begins the first day of the following month. For example, someone with an August 18 birthday who enrolls in August starts Part B September 1. Premium-free Part A has separate rules. If your birthday is on the first, Medicare shifts your age-based eligibility month to the previous month.",
+    },
+    {
+      question: "What if my birthday is on the first of the month?",
+      answer: "Medicare treats you as reaching 65 in the prior month. For an August 1 birthday, your eligibility month is July and your Initial Enrollment Period generally runs April through October. Enrolling April through June can start Part B July 1. Confirm the dates on your Medicare card or with Social Security.",
+    },
+    {
+      question: "Does Medicare start automatically when I turn 65?",
+      answer: "Generally, if you receive Social Security or RRB benefits at least four months before eligibility, Part A and Part B enrollment is automatic. Puerto Rico has different Part B enrollment rules. Otherwise, you usually need to apply. Check your Medicare card for effective dates. Medicare Advantage and Part D generally require a separate plan enrollment.",
+    },
+    {
+      question: "When does coverage start after General Enrollment Period enrollment?",
+      answer: "Part B and premium-Part A start the first day of the month after you sign up during the January 1 through March 31 General Enrollment Period. January enrollment starts February 1, February enrollment starts March 1, and March enrollment starts April 1. Check for a Special Enrollment Period before waiting; late penalties may apply.",
+    },
+    {
+      question: "Can Medicare Part A start retroactively?",
+      answer: "Yes. When you enroll after 65, premium-free Part A can start up to six months before your application, but not before your first eligible month. This can affect HSA contributions. Part B does not follow that same general six-month rule. Confirm both effective dates before making coverage or HSA decisions.",
+    },
+    {
+      question: "When does Medicare start for someone on disability?",
+      answer: "Medicare generally starts after 24 months of Social Security disability benefit entitlement. For qualifying people with ALS, it generally begins with disability benefits instead. ESRD has separate rules for dialysis, home-dialysis training, and transplants. Social Security can confirm which rule applies and your exact coverage start date.",
+    },
+    {
+      question: "When does Part D prescription drug coverage start?",
+      answer: "You must enroll in a drug plan separately. When first eligible, enrolling before Medicare begins can align the plan start date with Medicare. Enrolling after Medicare begins generally starts plan coverage the month after the plan receives your request, subject to your enrollment window. Fall Annual Enrollment Period changes generally begin January 1. Confirm your effective date with the plan.",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "check",
+      text: "Part B: enroll before your birthday month to start that month.",
+    },
+    {
+      icon: "info",
+      text: "Birthday on the first? Your eligibility month shifts one month earlier.",
+    },
+    {
+      icon: "check",
+      text: "GEP: coverage starts the month after enrollment.",
+    },
+    {
+      icon: "info",
+      text: "Premium-free Part A may start retroactively.",
+    },
+    {
+      icon: "alert",
+      text: "Working past 65? Confirm who pays first before delaying.",
+    },
+    {
+      icon: "alert",
+      text: "Part B and Part D have different SEP deadlines.",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Medicare Initial Enrollment Period",
+      description: "Everything you need to know about your 7-month window to sign up for Medicare.",
+      slug: "medicare-initial-enrollment-period",
+    },
+    {
+      title: "Applying for Medicare",
+      description: "Step-by-step guide to applying for Medicare online, by phone, or in person.",
+      slug: "applying-for-medicare",
+    },
+    {
+      title: "Medicare Enrollment Periods Guide",
+      description: "Complete guide to all Medicare enrollment periods - when to sign up and what happens if you miss your window.",
+      slug: "your-guide-to-medicare-enrollment-periods-when-to-sign-up",
+    },
+    {
+      title: "Medicare Starter Guide",
+      description: "What to do in your first 90 days of Medicare coverage.",
+      slug: "medicare-starter-guide-what-to-do-in-your-first-90-days",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "medicare-initial-enrollment-period",
+    "applying-for-medicare",
+    "your-guide-to-medicare-enrollment-periods-when-to-sign-up",
+    "turning-65-these-are-the-most-common-medicare-questions-answered",
+    "medicare-starter-guide-what-to-do-in-your-first-90-days",
+  ],
+  showMidInlineCta: true,
+  ctaBanner: {
+    title: "Not Sure When Your Medicare Starts?",
+    text: "Review your official Medicare effective dates first. A licensed Medicare specialist can then help compare plans that fit your coverage needs.",
+  },
+  relatedSlugs: [
+    "medicare-initial-enrollment-period",
+    "applying-for-medicare",
+    "your-guide-to-medicare-enrollment-periods-when-to-sign-up",
+    "turning-65-these-are-the-most-common-medicare-questions-answered",
+    "medicare-starter-guide-what-to-do-in-your-first-90-days",
+  ],
+  comparisonTitle: "Part B Start Dates at a Glance",
+  comparisonTocLabel: "Start Dates",
+  comparisonHeaders: {
+    primary: "When You Enroll",
+    status: "Part B Starts",
+    notes: "What to Know",
+  },
+  breakdownsTitle: "Enrollment Timing and Important Exceptions",
+  breakdownsTocLabel: "Enrollment Rules",
+  youtubeVideoId: "IRGDdtGVPeg",
+},
 
   {
     slug: "part-d-formulary",
