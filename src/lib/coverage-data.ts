@@ -36761,401 +36761,402 @@ export const coverageArticles: CoverageArticleData[] = [
   },
 
   {
-    "slug": "when-does-medicare-start",
-    "seo": {
-      "title": "When Does Medicare Start? Coverage Start Dates Explained",
-      "description": "Find out exactly when your Medicare coverage starts based on when you enroll, your birthday month, and your enrollment period. Avoid gaps in coverage with this complete guide.",
-      "canonical": "https://www.medicarefaq.com/faqs/when-does-medicare-start/",
-      "ogImage": "/images/medicarefaq-cover.jpg"
-    },
-    "title": "When Does Medicare Start?",
-    "subtitle": "When Part A, Part B, and Medicare Plan Coverage Begins",
-    "category": "Enrollment",
-    "dateUpdated": "October 22, 2026",
-    "lastReviewed": "2026-05-18",
-    "author": {
-      "name": "David Haass",
-      "initials": "DH",
-      "role": "CTO & Co-Founder",
-      "bio": "David Haass is the CTO and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. A Forbes Finance Council member, he leads the technology and editorial strategy behind one of America's most trusted Medicare education resources."
-    },
-    "reviewer": {
-      "name": "Ashlee Zareczny",
-      "initials": "AZ",
-      "role": "Reviewer",
-      "bio": "Ashlee Zareczny is the Compliance and Editorial Manager at MedicareFAQ, ensuring all Medicare content is accurate, up-to-date, and compliant with CMS guidelines."
-    },
-    "readTime": "8 min read",
-    "quickAnswer": {
-      "text": "<strong>For most people turning 65, Part B starts on the first day of their birthday month if they sign up during the three months before it.</strong> Sign up during your birthday month or the next three months, and Part B starts the following month. General Enrollment Period coverage also starts the month after you sign up. Premium-free Part A and birthdays on the first follow different rules, explained below.<br /><br /><strong>Still working at 65?</strong> You may be able to delay Part B with coverage based on your or your spouse’s current employment. Before delaying, <a href=\"/medicare-enrollment/working-past-65/\" class=\"underline text-teal-700\">check the working-past-65 rules</a> and ask your benefits administrator how your coverage pays.",
-      "badges": []
-    },
-    "comparisonTable": [
-      {
-        "planType": "IEP: before your 65th birthday month",
-        "coverage": "First day of birthday month",
-        "icon": "Calendar",
-        "notes": "For birthdays on the first, the eligibility month shifts to the prior month."
-      },
-      {
-        "planType": "IEP: birthday month or next three months",
-        "coverage": "First day of following month",
-        "icon": "Calendar",
-        "notes": "Example: August enrollment means a September 1 Part B start."
-      },
-      {
-        "planType": "GEP: January 1 through March 31",
-        "coverage": "First day of following month",
-        "icon": "Calendar",
-        "notes": "Example: February enrollment means March 1 coverage. A late penalty may apply."
-      },
-      {
-        "planType": "Employer-coverage SEP",
-        "coverage": "Generally the following month",
-        "icon": "Info",
-        "notes": "Coordinate the start date with Social Security before employer coverage ends."
-      }
-    ],
-    "planBreakdowns": [
-      {
-        "planName": "Initial Enrollment Period: Part B and Premium-Part A",
-        "icon": "Calendar",
-        "iconColor": "text-teal-600",
-        "coverageLabel": "Enrollment guidance",
-        "coverageType": "covered",
-        "paragraphs": [
-          "Your first age-based enrollment window generally runs from three months before your 65th birthday month through three months after it. For Part B and Part A you must pay a premium for, signing up before your birthday month starts coverage on the first of that month. Signing up during your birthday month or the following three months starts coverage the next month.",
-          "For example, if you turn 65 on August 18, signing up in May, June, or July starts Part B on August 1. Signing up in August starts it September 1. Coverage starts on the first of a month, not on your actual birthday.",
-          "If your birthday is on the first, Medicare treats you as reaching 65 in the previous month. For an August 1 birthday, the eligibility month is July and the IEP runs April through October. Enrolling April through June can start Part B July 1."
-        ],
-        "whatItCovers": [
-          "Enroll early in your IEP to avoid a delayed Part B start.",
-          "Enrolling within your IEP does not create a Part B late enrollment penalty."
-        ],
-        "whatItDoesntCover": [
-          "Premium-free Part A has separate start-date and retroactivity rules.",
-          "Still working? Review current-employment coverage before deciding to delay."
-        ],
-        "whatItCoversTitle": "Key Timing Rules",
-        "whatItDoesntCoverTitle": "Important Exceptions",
-        "callout": {
-          "type": "tip",
-          "title": "Check Your Dates Before Choosing a Plan",
-          "text": "Confirm your Part A and Part B effective dates with Social Security or on your Medicare card. Our [Decision Kit](/tools/decision-kit/) can help organize age-65 enrollment dates, but does not replace your official enrollment confirmation."
-        }
-      },
-      {
-        "planName": "Still Working at 65? Check Before Delaying Part B",
-        "icon": "Calendar",
-        "iconColor": "text-teal-600",
-        "coverageLabel": "Enrollment guidance",
-        "coverageType": "covered",
-        "paragraphs": [
-          "You may qualify to delay Part B without a late penalty if you have group health coverage based on your or your spouse’s current employment. Simply having a job is not enough. [Read our working-past-65 guide](/medicare-enrollment/working-past-65/) and confirm your situation with your benefits administrator.",
-          "Employer size affects who pays first, not just enrollment timing. With fewer than 20 employees, Medicare generally pays first for someone eligible at 65, so delaying enrollment can leave unpaid bills. Do not assume that a future SEP means your employer plan will cover everything today."
-        ],
-        "whatItCovers": [
-          "Ask whether the plan pays primary or secondary after you turn 65.",
-          "Keep proof of employment and group health coverage for a Part B SEP."
-        ],
-        "whatItDoesntCover": [
-          "COBRA and retiree coverage are not current-employment coverage for this SEP.",
-          "Drug coverage must be assessed separately for Part D; ask for a creditable-coverage notice."
-        ],
-        "whatItCoversTitle": "Key Timing Rules",
-        "whatItDoesntCoverTitle": "Important Exceptions",
-        "callout": {
-          "type": "warning",
-          "title": "Have an HSA?",
-          "text": "Medicare enrollment can affect your ability to contribute to an HSA. Premium-free Part A may be retroactive when you enroll after 65. Review contribution timing with your benefits administrator or tax adviser before applying."
-        }
-      },
-      {
-        "planName": "Premium-Free Part A: Earlier Coverage May Apply",
-        "icon": "Calendar",
-        "iconColor": "text-teal-600",
-        "coverageLabel": "Enrollment guidance",
-        "coverageType": "covered",
-        "paragraphs": [
-          "Premium-free Part A generally begins the month you turn 65, or the preceding month if your birthday is on the first. If you enroll after 65, it can begin up to six months before your application, but no earlier than your first month of eligibility.",
-          "That means Part A and Part B can have different start dates. Check both dates on your Medicare card rather than treating all Medicare coverage as starting together."
-        ],
-        "whatItCovers": [
-          "Premium-free Part A can be requested after 65 without waiting for the GEP.",
-          "Retroactive Part A may affect HSA contributions."
-        ],
-        "whatItDoesntCover": [
-          "The six-month retroactivity rule is not the standard Part B enrollment rule.",
-          "If you must buy Part A, its enrollment timing generally follows the Part B rules."
-        ],
-        "whatItCoversTitle": "Key Timing Rules",
-        "whatItDoesntCoverTitle": "Important Exceptions"
-      },
-      {
-        "planName": "Automatic Enrollment: Check Your Medicare Card",
-        "icon": "Calendar",
-        "iconColor": "text-teal-600",
-        "coverageLabel": "Enrollment guidance",
-        "coverageType": "covered",
-        "paragraphs": [
-          "If you receive Social Security or Railroad Retirement Board benefits at least four months before becoming eligible at 65, you generally receive Part A and Part B automatically. People in Puerto Rico generally need to apply for Part B. If you are not automatically enrolled, apply through Social Security or the RRB.",
-          "Your Medicare welcome package usually arrives about three months before coverage begins. Check the Part A and Part B effective dates on the card, including the birthday-on-the-first exception."
-        ],
-        "whatItCovers": [
-          "Review your card even if enrollment is automatic.",
-          "Ask about employer coverage before deciding whether to keep or decline Part B."
-        ],
-        "whatItDoesntCover": [
-          "Automatic Part A and Part B enrollment does not automatically enroll you in a Medicare Advantage or Part D plan."
-        ],
-        "whatItCoversTitle": "Key Timing Rules",
-        "whatItDoesntCoverTitle": "Important Exceptions"
-      },
-      {
-        "planName": "General Enrollment Period: Coverage Starts the Next Month",
-        "icon": "Calendar",
-        "iconColor": "text-teal-600",
-        "coverageLabel": "Enrollment guidance",
-        "coverageType": "covered",
-        "paragraphs": [
-          "If you missed your IEP and cannot use a SEP, the GEP runs January 1 through March 31 each year. Part B and premium-Part A coverage start the first day of the month after you sign up. The former July 1 start rule no longer applies.",
-          "January enrollment starts February 1; February enrollment starts March 1; March enrollment starts April 1. You may still have a gap while waiting for enrollment and a late penalty if no exception applies."
-        ],
-        "whatItCovers": [
-          "GEP enrollment is available January 1 through March 31.",
-          "A Part B late penalty is generally 10% for each full 12-month period of delay without an exception."
-        ],
-        "whatItDoesntCover": [
-          "The GEP is not the fall Medicare Advantage and Part D Annual Enrollment Period.",
-          "Part D and premium-Part A penalties have their own rules."
-        ],
-        "whatItCoversTitle": "Key Timing Rules",
-        "whatItDoesntCoverTitle": "Important Exceptions",
-        "callout": {
-          "type": "warning",
-          "title": "Check for a SEP Before Waiting",
-          "text": "If employer coverage is ending or another qualifying circumstance applies, ask Social Security about a Special Enrollment Period. You may not need to wait until January."
-        }
-      },
-      {
-        "planName": "Special Enrollment Periods: Match the Rule to Your Situation",
-        "icon": "Calendar",
-        "iconColor": "text-teal-600",
-        "coverageLabel": "Enrollment guidance",
-        "coverageType": "covered",
-        "paragraphs": [
-          "For qualifying current-employment group coverage, you can generally enroll in Part B while covered and working after your IEP, or during the eight months after employment or coverage ends, whichever happens first. COBRA does not restart or extend that clock.",
-          "Coverage generally starts the next month. When you enroll while still working or within the first full month after employer coverage ends, you may request a Part B start date up to three months later. Confirm the requested date with Social Security so it aligns with your other coverage.",
-          "Other Part A and Part B SEPs, such as certain losses of Medicaid or exceptional circumstances, have different deadlines. Moving to a new service area is a private-plan enrollment issue and does not by itself establish the employer Part B SEP."
-        ],
-        "whatItCovers": [
-          "Confirm your qualifying event, enrollment deadline, and effective date.",
-          "Plan ahead instead of waiting until the eight-month deadline."
-        ],
-        "whatItDoesntCover": [
-          "Retiree coverage and COBRA do not count as current-employment coverage.",
-          "The eight-month Part B window is not the Part D drug-plan enrollment deadline."
-        ],
-        "whatItCoversTitle": "Key Timing Rules",
-        "whatItDoesntCoverTitle": "Important Exceptions"
-      },
-      {
-        "planName": "Medicare Advantage and Part D Start Dates",
-        "icon": "Calendar",
-        "iconColor": "text-teal-600",
-        "coverageLabel": "Enrollment guidance",
-        "coverageType": "covered",
-        "paragraphs": [
-          "Private-plan coverage requires a separate enrollment. Medicare Advantage requires both Part A and Part B; a stand-alone Part D plan requires Part A or Part B. Check the plan’s confirmation rather than assuming it starts with your Medicare card.",
-          "When first eligible, enrolling before your Medicare coverage begins can align your plan start with that coverage. Joining after Medicare starts generally means the first of the month after the plan receives your request, subject to the applicable enrollment window. Changes made during October 15 through December 7 generally take effect January 1.",
-          "Part D late penalties can apply after 63 consecutive days or more without Part D or other creditable drug coverage after your initial enrollment period. Do not use the eight-month Part B SEP as your drug-coverage deadline."
-        ],
-        "whatItCovers": [
-          "Confirm effective dates directly with your health or drug plan.",
-          "Coordinate replacement coverage before ending existing coverage."
-        ],
-        "whatItDoesntCover": [
-          "A Part B application alone does not enroll you in a Part D or Medicare Advantage plan."
-        ],
-        "whatItCoversTitle": "Key Timing Rules",
-        "whatItDoesntCoverTitle": "Important Exceptions"
-      },
-      {
-        "planName": "Official Sources and Your Next Step",
-        "icon": "Calendar",
-        "iconColor": "text-teal-600",
-        "coverageLabel": "Enrollment guidance",
-        "coverageType": "covered",
-        "paragraphs": [
-          "Verify your situation using [Medicare coverage start dates](https://www.medicare.gov/basics/get-started-with-medicare/sign-up/when-does-medicare-coverage-start), [Medicare’s working-past-65 guidance](https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics/working-past-65), and [CMS enrollment rules](https://www.cms.gov/medicare/enrollment-renewal/original-part-a-b).",
-          "For private plans, review [Medicare’s plan enrollment guide](https://www.medicare.gov/publications/11219-Understanding-Medicare-Advantage-Medicare-Drug-Plan-Enrollment-Periods.pdf). For the final Part A and Part B determination, contact Social Security or the RRB; an insurance agent can help compare coverage but does not set those effective dates."
-        ],
-        "whatItCoversTitle": "Key Timing Rules",
-        "whatItDoesntCoverTitle": "Important Exceptions"
-      }
-    ],
-    "costTable": {
-      "title": "Examples: When Part B Begins",
-      "headers": [
-        "Situation",
-        "Enroll During",
-        "Part B Starts"
-      ],
-      "rows": [
-        {
-          "Situation": "65th birthday August 18",
-          "Enroll During": "May, June, or July",
-          "Part B Starts": "August 1"
-        },
-        {
-          "Situation": "65th birthday August 18",
-          "Enroll During": "August",
-          "Part B Starts": "September 1"
-        },
-        {
-          "Situation": "65th birthday August 1",
-          "Enroll During": "April, May, or June",
-          "Part B Starts": "July 1"
-        },
-        {
-          "Situation": "GEP enrollment",
-          "Enroll During": "February",
-          "Part B Starts": "March 1"
-        }
-      ],
-      "footnote": "Examples assume eligibility and a valid enrollment. Premium-free Part A and private-plan coverage may start on different dates. Confirm your actual dates with Social Security or the RRB."
-    },
-    "exceptionsSection": {
-      "title": "Special Situations: When Medicare Starts before 65",
-      "items": [
-        {
-          "title": "Social Security Disability Insurance (SSDI)",
-          "text": "People under 65 generally receive Medicare after 24 months of Social Security disability benefit entitlement. The start date is generally the 25th month of entitlement, not necessarily the 25th month after approval. Social Security determines the applicable date.",
-          "highlight": "Medicare starts on the 25th month of SSDI entitlement"
-        },
-        {
-          "title": "Amyotrophic Lateral Sclerosis (ALS)",
-          "text": "For people with ALS who qualify for Social Security disability benefits, Medicare generally begins the same month those benefits start; the usual 24-month Medicare waiting period does not apply.",
-          "highlight": "No waiting period - Medicare starts with SSDI for ALS"
-        },
-        {
-          "title": "End-Stage Renal Disease (ESRD)",
-          "text": "For qualifying people with ESRD, coverage usually begins in the fourth month of dialysis. It may begin earlier with qualifying home-dialysis training. Kidney-transplant coverage may start in the transplant month or earlier for qualifying hospital preparation. Confirm the applicable ESRD rules with Social Security.",
-          "highlight": "Dialysis, home training, and transplant rules differ"
-        }
-      ]
-    },
-    "faqs": [
-      {
-        "question": "Can I delay Medicare if I am still working?",
-        "answer": "You may be able to delay Part B with group health coverage based on your or your spouse’s current employment. Ask your benefits administrator who pays first at 65, especially if the employer has fewer than 20 employees. COBRA and retiree coverage do not provide the same Part B SEP protection. Review our [working-past-65 guide](/medicare-enrollment/working-past-65/)."
-      },
-      {
-        "question": "When does Part B start if I enroll in my birthday month?",
-        "answer": "For most people first eligible at 65, Part B begins the first day of the following month. For example, someone with an August 18 birthday who enrolls in August starts Part B September 1. Premium-free Part A has separate rules. If your birthday is on the first, Medicare shifts your age-based eligibility month to the previous month."
-      },
-      {
-        "question": "What if my birthday is on the first of the month?",
-        "answer": "Medicare treats you as reaching 65 in the prior month. For an August 1 birthday, your eligibility month is July and your Initial Enrollment Period generally runs April through October. Enrolling April through June can start Part B July 1. Confirm the dates on your Medicare card or with Social Security."
-      },
-      {
-        "question": "Does Medicare start automatically when I turn 65?",
-        "answer": "Generally, if you receive Social Security or RRB benefits at least four months before eligibility, Part A and Part B enrollment is automatic. Puerto Rico has different Part B enrollment rules. Otherwise, you usually need to apply. Check your Medicare card for effective dates. Medicare Advantage and Part D generally require a separate plan enrollment."
-      },
-      {
-        "question": "When does coverage start after General Enrollment Period enrollment?",
-        "answer": "Part B and premium-Part A start the first day of the month after you sign up during the January 1 through March 31 General Enrollment Period. January enrollment starts February 1, February enrollment starts March 1, and March enrollment starts April 1. Check for a Special Enrollment Period before waiting; late penalties may apply."
-      },
-      {
-        "question": "Can Medicare Part A start retroactively?",
-        "answer": "Yes. When you enroll after 65, premium-free Part A can start up to six months before your application, but not before your first eligible month. This can affect HSA contributions. Part B does not follow that same general six-month rule. Confirm both effective dates before making coverage or HSA decisions."
-      },
-      {
-        "question": "When does Medicare start for someone on disability?",
-        "answer": "Medicare generally starts after 24 months of Social Security disability benefit entitlement. For qualifying people with ALS, it generally begins with disability benefits instead. ESRD has separate rules for dialysis, home-dialysis training, and transplants. Social Security can confirm which rule applies and your exact coverage start date."
-      },
-      {
-        "question": "When does Part D prescription drug coverage start?",
-        "answer": "You must enroll in a drug plan separately. When first eligible, enrolling before Medicare begins can align the plan start date with Medicare. Enrolling after Medicare begins generally starts plan coverage the month after the plan receives your request, subject to your enrollment window. Fall Annual Enrollment Period changes generally begin January 1. Confirm your effective date with the plan."
-      }
-    ],
-    "quickReference": [
-      {
-        "icon": "check",
-        "text": "Part B: enroll before your birthday month to start that month."
-      },
-      {
-        "icon": "info",
-        "text": "Birthday on the first? Your eligibility month shifts one month earlier."
-      },
-      {
-        "icon": "check",
-        "text": "GEP: coverage starts the month after enrollment."
-      },
-      {
-        "icon": "info",
-        "text": "Premium-free Part A may start retroactively."
-      },
-      {
-        "icon": "alert",
-        "text": "Working past 65? Confirm who pays first before delaying."
-      },
-      {
-        "icon": "alert",
-        "text": "Part B and Part D have different SEP deadlines."
-      }
-    ],
-    "relatedTopics": [
-      {
-        "title": "Medicare Initial Enrollment Period",
-        "description": "Everything you need to know about your 7-month window to sign up for Medicare.",
-        "slug": "medicare-initial-enrollment-period"
-      },
-      {
-        "title": "Applying for Medicare",
-        "description": "Step-by-step guide to applying for Medicare online, by phone, or in person.",
-        "slug": "applying-for-medicare"
-      },
-      {
-        "title": "Medicare Enrollment Periods Guide",
-        "description": "Complete guide to all Medicare enrollment periods - when to sign up and what happens if you miss your window.",
-        "slug": "your-guide-to-medicare-enrollment-periods-when-to-sign-up"
-      },
-      {
-        "title": "Medicare Starter Guide",
-        "description": "What to do in your first 90 days of Medicare coverage.",
-        "slug": "medicare-starter-guide-what-to-do-in-your-first-90-days"
-      }
-    ],
-    "sidebarRelatedLinks": [
-      "medicare-initial-enrollment-period",
-      "applying-for-medicare",
-      "your-guide-to-medicare-enrollment-periods-when-to-sign-up",
-      "turning-65-these-are-the-most-common-medicare-questions-answered",
-      "medicare-starter-guide-what-to-do-in-your-first-90-days"
-    ],
-    "showMidInlineCta": true,
-    "ctaBanner": {
-      "title": "Not Sure When Your Medicare Starts?",
-      "text": "Review your official Medicare effective dates first. A licensed Medicare specialist can then help compare plans that fit your coverage needs."
-    },
-    "relatedSlugs": [
-      "medicare-initial-enrollment-period",
-      "applying-for-medicare",
-      "your-guide-to-medicare-enrollment-periods-when-to-sign-up",
-      "turning-65-these-are-the-most-common-medicare-questions-answered",
-      "medicare-starter-guide-what-to-do-in-your-first-90-days"
-    ],
-    "comparisonTitle": "Part B Start Dates at a Glance",
-    "comparisonTocLabel": "Start Dates",
-    "comparisonHeaders": {
-      "primary": "When You Enroll",
-      "status": "Part B Starts",
-      "notes": "What to Know"
-    },
-    "breakdownsTitle": "Enrollment Timing and Important Exceptions",
-    "breakdownsTocLabel": "Enrollment Rules"
+  slug: "when-does-medicare-start",
+  seo: {
+    title: "When Does Medicare Start? Coverage Start Dates Explained",
+    description: "Find out exactly when your Medicare coverage starts based on when you enroll, your birthday month, and your enrollment period.",
+    canonical: "https://www.medicarefaq.com/faqs/when-does-medicare-start/",
+    ogImage: "/images/medicarefaq-cover.jpg",
   },
+  title: "When Does Medicare Start?",
+  subtitle: "When Part A, Part B, and Medicare Plan Coverage Begins",
+  category: "Enrollment",
+  dateUpdated: "October 22, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is the CTO and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. A Forbes Finance Council member, he leads the technology and editorial strategy behind one of America's most trusted Medicare education resources.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is the Compliance and Editorial Manager at MedicareFAQ, ensuring all Medicare content is accurate, up-to-date, and compliant with CMS guidelines.",
+  },
+  readTime: "8 min read",
+  quickAnswer: {
+    text: "<strong>For most people turning 65, Part B starts on the first day of their birthday month if they sign up during the three months before it.</strong> Sign up during your birthday month or the next three months, and Part B starts the following month. General Enrollment Period coverage also starts the month after you sign up. Premium-free Part A and birthdays on the first follow different rules, explained below.<br /><br /><strong>Still working at 65?</strong> You may be able to delay Part B with coverage based on your or your spouse’s current employment. Before delaying, <a href=\"/medicare-enrollment/working-past-65/\" class=\"underline text-teal-700\">check the working-past-65 rules</a> and ask your benefits administrator how your coverage pays.",
+    badges: [],
+  },
+  comparisonTable: [
+    {
+      planType: "IEP: before your 65th birthday month",
+      coverage: "First day of birthday month",
+      icon: "Calendar",
+      notes: "For birthdays on the first, the eligibility month shifts to the prior month.",
+    },
+    {
+      planType: "IEP: birthday month or next three months",
+      coverage: "First day of following month",
+      icon: "Calendar",
+      notes: "Example: August enrollment means a September 1 Part B start.",
+    },
+    {
+      planType: "GEP: January 1 through March 31",
+      coverage: "First day of following month",
+      icon: "Calendar",
+      notes: "Example: February enrollment means March 1 coverage. A late penalty may apply.",
+    },
+    {
+      planType: "Employer-coverage SEP",
+      coverage: "Generally the following month",
+      icon: "Info",
+      notes: "Coordinate the start date with Social Security before employer coverage ends.",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "Initial Enrollment Period: Part B and Premium-Part A",
+      icon: "Calendar",
+      iconColor: "text-teal-600",
+      coverageLabel: "Enrollment guidance",
+      coverageType: "covered",
+      paragraphs: [
+      "Your first age-based enrollment window generally runs from three months before your 65th birthday month through three months after it. For Part B and Part A you must pay a premium for, signing up before your birthday month starts coverage on the first of that month. Signing up during your birthday month or the following three months starts coverage the next month.",
+      "For example, if you turn 65 on August 18, signing up in May, June, or July starts Part B on August 1. Signing up in August starts it September 1. Coverage starts on the first of a month, not on your actual birthday.",
+      "If your birthday is on the first, Medicare treats you as reaching 65 in the previous month. For an August 1 birthday, the eligibility month is July and the IEP runs April through October. Enrolling April through June can start Part B July 1.",
+    ],
+      whatItCovers: [
+      "Enroll early in your IEP to avoid a delayed Part B start.",
+      "Enrolling within your IEP does not create a Part B late enrollment penalty.",
+    ],
+      whatItCoversTitle: "Key Timing Rules",
+      whatItDoesntCover: [
+      "Premium-free Part A has separate start-date and retroactivity rules.",
+      "Still working? Review current-employment coverage before deciding to delay.",
+    ],
+      whatItDoesntCoverTitle: "Important Exceptions",
+      callout: {
+      type: "tip",
+      title: "Check Your Dates Before Choosing a Plan",
+      text: "Confirm your Part A and Part B effective dates with Social Security or on your Medicare card. Our [Decision Kit](/tools/decision-kit/) can help organize age-65 enrollment dates, but does not replace your official enrollment confirmation.",
+    },
+    },
+    {
+      planName: "Still Working at 65? Check Before Delaying Part B",
+      icon: "Calendar",
+      iconColor: "text-teal-600",
+      coverageLabel: "Enrollment guidance",
+      coverageType: "covered",
+      paragraphs: [
+      "You may qualify to delay Part B without a late penalty if you have group health coverage based on your or your spouse’s current employment. Simply having a job is not enough. [Read our working-past-65 guide](/medicare-enrollment/working-past-65/) and confirm your situation with your benefits administrator.",
+      "Employer size affects who pays first, not just enrollment timing. With fewer than 20 employees, Medicare generally pays first for someone eligible at 65, so delaying enrollment can leave unpaid bills. Do not assume that a future SEP means your employer plan will cover everything today.",
+    ],
+      whatItCovers: [
+      "Ask whether the plan pays primary or secondary after you turn 65.",
+      "Keep proof of employment and group health coverage for a Part B SEP.",
+    ],
+      whatItCoversTitle: "Key Timing Rules",
+      whatItDoesntCover: [
+      "COBRA and retiree coverage are not current-employment coverage for this SEP.",
+      "Drug coverage must be assessed separately for Part D; ask for a creditable-coverage notice.",
+    ],
+      whatItDoesntCoverTitle: "Important Exceptions",
+      callout: {
+      type: "warning",
+      title: "Have an HSA?",
+      text: "Medicare enrollment can affect your ability to contribute to an HSA. Premium-free Part A may be retroactive when you enroll after 65. Review contribution timing with your benefits administrator or tax adviser before applying.",
+    },
+    },
+    {
+      planName: "Premium-Free Part A: Earlier Coverage May Apply",
+      icon: "Calendar",
+      iconColor: "text-teal-600",
+      coverageLabel: "Enrollment guidance",
+      coverageType: "covered",
+      paragraphs: [
+      "Premium-free Part A generally begins the month you turn 65, or the preceding month if your birthday is on the first. If you enroll after 65, it can begin up to six months before your application, but no earlier than your first month of eligibility.",
+      "That means Part A and Part B can have different start dates. Check both dates on your Medicare card rather than treating all Medicare coverage as starting together.",
+    ],
+      whatItCovers: [
+      "Premium-free Part A can be requested after 65 without waiting for the GEP.",
+      "Retroactive Part A may affect HSA contributions.",
+    ],
+      whatItCoversTitle: "Key Timing Rules",
+      whatItDoesntCover: [
+      "The six-month retroactivity rule is not the standard Part B enrollment rule.",
+      "If you must buy Part A, its enrollment timing generally follows the Part B rules.",
+    ],
+      whatItDoesntCoverTitle: "Important Exceptions",
+    },
+    {
+      planName: "Automatic Enrollment: Check Your Medicare Card",
+      icon: "Calendar",
+      iconColor: "text-teal-600",
+      coverageLabel: "Enrollment guidance",
+      coverageType: "covered",
+      paragraphs: [
+      "If you receive Social Security or Railroad Retirement Board benefits at least four months before becoming eligible at 65, you generally receive Part A and Part B automatically. People in Puerto Rico generally need to apply for Part B. If you are not automatically enrolled, apply through Social Security or the RRB.",
+      "Your Medicare welcome package usually arrives about three months before coverage begins. Check the Part A and Part B effective dates on the card, including the birthday-on-the-first exception.",
+    ],
+      whatItCovers: [
+      "Review your card even if enrollment is automatic.",
+      "Ask about employer coverage before deciding whether to keep or decline Part B.",
+    ],
+      whatItCoversTitle: "Key Timing Rules",
+      whatItDoesntCover: [
+      "Automatic Part A and Part B enrollment does not automatically enroll you in a Medicare Advantage or Part D plan.",
+    ],
+      whatItDoesntCoverTitle: "Important Exceptions",
+    },
+    {
+      planName: "General Enrollment Period: Coverage Starts the Next Month",
+      icon: "Calendar",
+      iconColor: "text-teal-600",
+      coverageLabel: "Enrollment guidance",
+      coverageType: "covered",
+      paragraphs: [
+      "If you missed your IEP and cannot use a SEP, the GEP runs January 1 through March 31 each year. Part B and premium-Part A coverage start the first day of the month after you sign up. The former July 1 start rule no longer applies.",
+      "January enrollment starts February 1; February enrollment starts March 1; March enrollment starts April 1. You may still have a gap while waiting for enrollment and a late penalty if no exception applies.",
+    ],
+      whatItCovers: [
+      "GEP enrollment is available January 1 through March 31.",
+      "A Part B late penalty is generally 10% for each full 12-month period of delay without an exception.",
+    ],
+      whatItCoversTitle: "Key Timing Rules",
+      whatItDoesntCover: [
+      "The GEP is not the fall Medicare Advantage and Part D Annual Enrollment Period.",
+      "Part D and premium-Part A penalties have their own rules.",
+    ],
+      whatItDoesntCoverTitle: "Important Exceptions",
+      callout: {
+      type: "warning",
+      title: "Check for a SEP Before Waiting",
+      text: "If employer coverage is ending or another qualifying circumstance applies, ask Social Security about a Special Enrollment Period. You may not need to wait until January.",
+    },
+    },
+    {
+      planName: "Special Enrollment Periods: Match the Rule to Your Situation",
+      icon: "Calendar",
+      iconColor: "text-teal-600",
+      coverageLabel: "Enrollment guidance",
+      coverageType: "covered",
+      paragraphs: [
+      "For qualifying current-employment group coverage, you can generally enroll in Part B while covered and working after your IEP, or during the eight months after employment or coverage ends, whichever happens first. COBRA does not restart or extend that clock.",
+      "Coverage generally starts the next month. When you enroll while still working or within the first full month after employer coverage ends, you may request a Part B start date up to three months later. Confirm the requested date with Social Security so it aligns with your other coverage.",
+      "Other Part A and Part B SEPs, such as certain losses of Medicaid or exceptional circumstances, have different deadlines. Moving to a new service area is a private-plan enrollment issue and does not by itself establish the employer Part B SEP.",
+    ],
+      whatItCovers: [
+      "Confirm your qualifying event, enrollment deadline, and effective date.",
+      "Plan ahead instead of waiting until the eight-month deadline.",
+    ],
+      whatItCoversTitle: "Key Timing Rules",
+      whatItDoesntCover: [
+      "Retiree coverage and COBRA do not count as current-employment coverage.",
+      "The eight-month Part B window is not the Part D drug-plan enrollment deadline.",
+    ],
+      whatItDoesntCoverTitle: "Important Exceptions",
+    },
+    {
+      planName: "Medicare Advantage and Part D Start Dates",
+      icon: "Calendar",
+      iconColor: "text-teal-600",
+      coverageLabel: "Enrollment guidance",
+      coverageType: "covered",
+      paragraphs: [
+      "Private-plan coverage requires a separate enrollment. Medicare Advantage requires both Part A and Part B; a stand-alone Part D plan requires Part A or Part B. Check the plan’s confirmation rather than assuming it starts with your Medicare card.",
+      "When first eligible, enrolling before your Medicare coverage begins can align your plan start with that coverage. Joining after Medicare starts generally means the first of the month after the plan receives your request, subject to the applicable enrollment window. Changes made during October 15 through December 7 generally take effect January 1.",
+      "Part D late penalties can apply after 63 consecutive days or more without Part D or other creditable drug coverage after your initial enrollment period. Do not use the eight-month Part B SEP as your drug-coverage deadline.",
+    ],
+      whatItCovers: [
+      "Confirm effective dates directly with your health or drug plan.",
+      "Coordinate replacement coverage before ending existing coverage.",
+    ],
+      whatItCoversTitle: "Key Timing Rules",
+      whatItDoesntCover: [
+      "A Part B application alone does not enroll you in a Part D or Medicare Advantage plan.",
+    ],
+      whatItDoesntCoverTitle: "Important Exceptions",
+    },
+    {
+      planName: "Official Sources and Your Next Step",
+      icon: "Calendar",
+      iconColor: "text-teal-600",
+      coverageLabel: "Enrollment guidance",
+      coverageType: "covered",
+      paragraphs: [
+      "Verify your situation using [Medicare coverage start dates](https://www.medicare.gov/basics/get-started-with-medicare/sign-up/when-does-medicare-coverage-start), [Medicare’s working-past-65 guidance](https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics/working-past-65), and [CMS enrollment rules](https://www.cms.gov/medicare/enrollment-renewal/original-part-a-b).",
+      "For private plans, review [Medicare’s plan enrollment guide](https://www.medicare.gov/publications/11219-Understanding-Medicare-Advantage-Medicare-Drug-Plan-Enrollment-Periods.pdf). For the final Part A and Part B determination, contact Social Security or the RRB; an insurance agent can help compare coverage but does not set those effective dates.",
+    ],
+      whatItCoversTitle: "Key Timing Rules",
+      whatItDoesntCoverTitle: "Important Exceptions",
+    },
+  ],
+  costTable: {
+    title: "Examples: When Part B Begins",
+    headers: [
+    "Situation",
+    "Enroll During",
+    "Part B Starts",
+  ],
+    rows: [
+      {
+        "Situation": "65th birthday August 18",
+        "Enroll During": "May, June, or July",
+        "Part B Starts": "August 1",
+      },
+      {
+        "Situation": "65th birthday August 18",
+        "Enroll During": "August",
+        "Part B Starts": "September 1",
+      },
+      {
+        "Situation": "65th birthday August 1",
+        "Enroll During": "April, May, or June",
+        "Part B Starts": "July 1",
+      },
+      {
+        "Situation": "GEP enrollment",
+        "Enroll During": "February",
+        "Part B Starts": "March 1",
+      },
+    ],
+    footnote: "Examples assume eligibility and a valid enrollment. Premium-free Part A and private-plan coverage may start on different dates. Confirm your actual dates with Social Security or the RRB.",
+  },
+  exceptionsSection: {
+    title: "Special Situations: When Medicare Starts before 65",
+    items: [
+      {
+        title: "Social Security Disability Insurance (SSDI)",
+        text: "People under 65 generally receive Medicare after 24 months of Social Security disability benefit entitlement. The start date is generally the 25th month of entitlement, not necessarily the 25th month after approval. Social Security determines the applicable date.",
+        highlight: "Medicare starts on the 25th month of SSDI entitlement",
+      },
+      {
+        title: "Amyotrophic Lateral Sclerosis (ALS)",
+        text: "For people with ALS who qualify for Social Security disability benefits, Medicare generally begins the same month those benefits start; the usual 24-month Medicare waiting period does not apply.",
+        highlight: "No waiting period - Medicare starts with SSDI for ALS",
+      },
+      {
+        title: "End-Stage Renal Disease (ESRD)",
+        text: "For qualifying people with ESRD, coverage usually begins in the fourth month of dialysis. It may begin earlier with qualifying home-dialysis training. Kidney-transplant coverage may start in the transplant month or earlier for qualifying hospital preparation. Confirm the applicable ESRD rules with Social Security.",
+        highlight: "Dialysis, home training, and transplant rules differ",
+      },
+    ],
+  },
+  faqs: [
+    {
+      question: "Can I delay Medicare if I am still working?",
+      answer: "You may be able to delay Part B with group health coverage based on your or your spouse’s current employment. Ask your benefits administrator who pays first at 65, especially if the employer has fewer than 20 employees. COBRA and retiree coverage do not provide the same Part B SEP protection. Review our [working-past-65 guide](/medicare-enrollment/working-past-65/).",
+    },
+    {
+      question: "When does Part B start if I enroll in my birthday month?",
+      answer: "For most people first eligible at 65, Part B begins the first day of the following month. For example, someone with an August 18 birthday who enrolls in August starts Part B September 1. Premium-free Part A has separate rules. If your birthday is on the first, Medicare shifts your age-based eligibility month to the previous month.",
+    },
+    {
+      question: "What if my birthday is on the first of the month?",
+      answer: "Medicare treats you as reaching 65 in the prior month. For an August 1 birthday, your eligibility month is July and your Initial Enrollment Period generally runs April through October. Enrolling April through June can start Part B July 1. Confirm the dates on your Medicare card or with Social Security.",
+    },
+    {
+      question: "Does Medicare start automatically when I turn 65?",
+      answer: "Generally, if you receive Social Security or RRB benefits at least four months before eligibility, Part A and Part B enrollment is automatic. Puerto Rico has different Part B enrollment rules. Otherwise, you usually need to apply. Check your Medicare card for effective dates. Medicare Advantage and Part D generally require a separate plan enrollment.",
+    },
+    {
+      question: "When does coverage start after General Enrollment Period enrollment?",
+      answer: "Part B and premium-Part A start the first day of the month after you sign up during the January 1 through March 31 General Enrollment Period. January enrollment starts February 1, February enrollment starts March 1, and March enrollment starts April 1. Check for a Special Enrollment Period before waiting; late penalties may apply.",
+    },
+    {
+      question: "Can Medicare Part A start retroactively?",
+      answer: "Yes. When you enroll after 65, premium-free Part A can start up to six months before your application, but not before your first eligible month. This can affect HSA contributions. Part B does not follow that same general six-month rule. Confirm both effective dates before making coverage or HSA decisions.",
+    },
+    {
+      question: "When does Medicare start for someone on disability?",
+      answer: "Medicare generally starts after 24 months of Social Security disability benefit entitlement. For qualifying people with ALS, it generally begins with disability benefits instead. ESRD has separate rules for dialysis, home-dialysis training, and transplants. Social Security can confirm which rule applies and your exact coverage start date.",
+    },
+    {
+      question: "When does Part D prescription drug coverage start?",
+      answer: "You must enroll in a drug plan separately. When first eligible, enrolling before Medicare begins can align the plan start date with Medicare. Enrolling after Medicare begins generally starts plan coverage the month after the plan receives your request, subject to your enrollment window. Fall Annual Enrollment Period changes generally begin January 1. Confirm your effective date with the plan.",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "check",
+      text: "Part B: enroll before your birthday month to start that month.",
+    },
+    {
+      icon: "info",
+      text: "Birthday on the first? Your eligibility month shifts one month earlier.",
+    },
+    {
+      icon: "check",
+      text: "GEP: coverage starts the month after enrollment.",
+    },
+    {
+      icon: "info",
+      text: "Premium-free Part A may start retroactively.",
+    },
+    {
+      icon: "alert",
+      text: "Working past 65? Confirm who pays first before delaying.",
+    },
+    {
+      icon: "alert",
+      text: "Part B and Part D have different SEP deadlines.",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Medicare Initial Enrollment Period",
+      description: "Everything you need to know about your 7-month window to sign up for Medicare.",
+      slug: "medicare-initial-enrollment-period",
+    },
+    {
+      title: "Applying for Medicare",
+      description: "Step-by-step guide to applying for Medicare online, by phone, or in person.",
+      slug: "applying-for-medicare",
+    },
+    {
+      title: "Medicare Enrollment Periods Guide",
+      description: "Complete guide to all Medicare enrollment periods - when to sign up and what happens if you miss your window.",
+      slug: "your-guide-to-medicare-enrollment-periods-when-to-sign-up",
+    },
+    {
+      title: "Medicare Starter Guide",
+      description: "What to do in your first 90 days of Medicare coverage.",
+      slug: "medicare-starter-guide-what-to-do-in-your-first-90-days",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "medicare-initial-enrollment-period",
+    "applying-for-medicare",
+    "your-guide-to-medicare-enrollment-periods-when-to-sign-up",
+    "turning-65-these-are-the-most-common-medicare-questions-answered",
+    "medicare-starter-guide-what-to-do-in-your-first-90-days",
+  ],
+  showMidInlineCta: true,
+  ctaBanner: {
+    title: "Not Sure When Your Medicare Starts?",
+    text: "Review your official Medicare effective dates first. A licensed Medicare specialist can then help compare plans that fit your coverage needs.",
+  },
+  relatedSlugs: [
+    "medicare-initial-enrollment-period",
+    "applying-for-medicare",
+    "your-guide-to-medicare-enrollment-periods-when-to-sign-up",
+    "turning-65-these-are-the-most-common-medicare-questions-answered",
+    "medicare-starter-guide-what-to-do-in-your-first-90-days",
+  ],
+  comparisonTitle: "Part B Start Dates at a Glance",
+  comparisonTocLabel: "Start Dates",
+  comparisonHeaders: {
+    primary: "When You Enroll",
+    status: "Part B Starts",
+    notes: "What to Know",
+  },
+  breakdownsTitle: "Enrollment Timing and Important Exceptions",
+  breakdownsTocLabel: "Enrollment Rules",
+  youtubeVideoId: "IRGDdtGVPeg",
+},
 
   {
     slug: "part-d-formulary",
