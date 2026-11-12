@@ -14955,206 +14955,301 @@ export const coverageArticles: CoverageArticleData[] = [
 
   // ── Ambulance ──────────────────────────────────────────────────────────────
   {
-    slug: "ambulance-and-medicare-coverage",
-    seo: {
-      title: "Does Medicare Cover Ambulance Services?",
-      description: "Medicare Part B covers medically necessary ambulance transportation. Learn when Medicare pays, what you'll owe, and how Medigap can eliminate your 20% coinsurance.",
-      canonical: "https://www.medicarefaq.com/faqs/ambulance-and-medicare-coverage/",
-      ogImage: "/images/medicarefaq-cover.jpg",
-    },
+  slug: "ambulance-and-medicare-coverage",
+  seo: {
     title: "Does Medicare Cover Ambulance Services?",
-    subtitle: "Medicare Part B covers emergency and some non-emergency ambulance transport when it is medically necessary. Learn what qualifies, what you pay, and how supplemental coverage can help.",
-    category: "Medicare Coverage",
-    dateUpdated: "April 14, 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
-    },
-    readTime: "6 min read",
-    quickAnswer: {
-      text: "Yes - Medicare Part B covers medically necessary ambulance transportation to the nearest appropriate facility. For emergency transport, Medicare pays 80% of the approved amount after your Part B deductible; you pay 20% coinsurance. Non-emergency transport requires a physician's written order certifying that other transport would endanger your health. Medicare Advantage plans cover ambulance services at the same level, though cost-sharing varies by plan.",
-      badges: [
-        { plan: "Medicare Part B", status: "covered" },
-        { plan: "Medicare Advantage", status: "covered" },
-        { plan: "Medigap", status: "partial" }],
-    },
-    comparisonTable: [
-      { planType: "Medicare Part B (Emergency)", coverage: "Covered", icon: "shield", notes: "80% after $283 Part B deductible; you pay 20% coinsurance" },
-      { planType: "Medicare Part B (Non-Emergency)", coverage: "Covered with Conditions", icon: "shield", notes: "Requires physician certification that other transport would endanger health" },
-      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same services as Original Medicare; cost-sharing varies by plan" },
-      { planType: "Medicare Supplement (Medigap)", coverage: "Varies by Plan", icon: "users", notes: "Covers some or all of the 20% coinsurance left by Original Medicare" }],
-    planBreakdowns: [
-      {
-        planName: "Original Medicare (Part B)",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Covered",
-        coverageType: "covered",
-        statusBadge: "Covered when medically necessary",
-        paragraphs: [
-          "[Medicare Part B](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers ambulance transportation that is medically necessary - meaning your condition requires ambulance transport rather than other means of transportation. Emergency ambulance services are covered when your condition is life-threatening or requires immediate medical attention.",
-          "For non-emergency ambulance transport, Medicare requires a physician's written order certifying that transport by other means would endanger your health. Common examples include transport to dialysis, chemotherapy, or wound care when you cannot safely travel by car or wheelchair van.",
-          "Medicare only covers transport to the nearest appropriate facility that can treat your condition. If you choose a more distant facility for personal preference, Medicare will only pay the amount it would have paid for the nearest appropriate facility."],
-        whatItCovers: [
-          "Emergency ground ambulance transport to the nearest appropriate hospital or facility",
-          "Non-emergency ground ambulance with a physician's written order",
-          "Air ambulance (helicopter or fixed-wing) when ground transport would endanger your health",
-          "Transport to the nearest appropriate facility capable of treating your condition",
-          "Medically necessary transport to dialysis, chemotherapy, or wound care"],
-        whatItDoesntCover: [
-          "Non-emergency transport without a physician's written order",
-          "Transport to a more distant facility chosen for personal preference",
-          "Transport that is not to a Medicare-approved facility",
-          "Ambulance services from a non-participating provider (unless emergency)"],
-        costNote: "Part B: You pay 20% coinsurance after the $283 annual deductible (2026). Average ground ambulance cost is $400–$1,200; air ambulance can exceed $30,000 - making Medigap coverage especially valuable.",
-      },
-      {
-        planName: "Medicare Advantage (Part C)",
-        icon: "heart",
-        iconColor: "#059669",
-        coverageLabel: "Covered",
-        coverageType: "covered",
-        statusBadge: "Covered - cost-sharing varies by plan",
-        paragraphs: [
-          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) are required by law to cover all services that Original Medicare covers, including medically necessary ambulance transportation. However, your actual cost-sharing - copayments, coinsurance, and deductibles - depends on your specific plan.",
-          "Unlike Original Medicare, Medicare Advantage plans use provider networks. In a genuine emergency, your plan must cover ambulance services regardless of whether the ambulance company is in-network. For non-emergency transport, using an in-network provider will result in lower out-of-pocket costs."],
-        whatItCovers: [
-          "All ambulance services covered by Original Medicare",
-          "Emergency ambulance regardless of network status",
-          "Non-emergency transport with physician certification"],
-        whatItDoesntCover: [
-          "Non-emergency ambulance without required physician certification",
-          "Transport chosen for personal preference over medical necessity"],
-        callout: {
-          type: "info",
-          title: "Emergency Ambulance is Always Covered",
-          text: "In a true emergency, Medicare Advantage plans cannot deny ambulance coverage based on network status. You will not be penalized for using an out-of-network ambulance in a genuine emergency situation.",
-        },
-      },
-      {
-        planName: "Medicare Supplement (Medigap)",
-        icon: "users",
-        iconColor: "#7C3AED",
-        coverageLabel: "Varies by Plan",
-        coverageType: "partial",
-        statusBadge: "Covers some or all of Original Medicare's cost-sharing",
-        paragraphs: [
-          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) are designed to cover the out-of-pocket costs that Original Medicare leaves behind - including the 20% Part B coinsurance for ambulance services. Given that air ambulance bills can exceed $30,000, Medigap coverage can be particularly valuable.",
-          "[Medigap Plan G](/medicare-supplement-plans/plan-g/) covers the Part B coinsurance in full after you meet the annual Part B deductible. That means once you've paid your $283 deductible for the year, Plan G covers your 20% share of any covered ambulance bill - whether it's a $500 ground transport or a $25,000 air ambulance."],
-        whatItCovers: [
-          "Part B coinsurance (20%) - covered by most Medigap plans",
-          "Part A deductible - covered by Plans D, G, and others",
-          "Excess charges - covered by Plans F and G"],
-        whatItDoesntCover: [
-          "Services not covered by Original Medicare",
-          "Non-emergency transport without physician certification"],
-        costNote: "With Medigap Plan G, your only out-of-pocket cost for ambulance is the $283 Part B deductible (2026). After that, Plan G covers the 20% coinsurance - even for expensive air ambulance transport.",
-      }],
-    costTable: {
-      title: "Estimated Ambulance Costs under Medicare (2026)",
-      headers: ["Transport Type", "Typical Bill", "Medicare Pays", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
-      rows: [
-        {
-          "Transport Type": "Ground ambulance (emergency)",
-          "Typical Bill": "$400 – $1,200",
-          "Medicare Pays": "80% of approved amount",
-          "Your Cost (No Supplement)": "20% + $283 deductible",
-          "Your Cost (With Plan G)": "$283 deductible only",
-        },
-        {
-          "Transport Type": "Ground ambulance (non-emergency)",
-          "Typical Bill": "$300 – $800",
-          "Medicare Pays": "80% of approved amount",
-          "Your Cost (No Supplement)": "20% + $283 deductible",
-          "Your Cost (With Plan G)": "$283 deductible only",
-        },
-        {
-          "Transport Type": "Air ambulance (helicopter)",
-          "Typical Bill": "$10,000 – $40,000+",
-          "Medicare Pays": "80% of approved amount",
-          "Your Cost (No Supplement)": "20% (potentially $2,000–$8,000+)",
-          "Your Cost (With Plan G)": "$283 deductible only",
-        }],
-      footnote: "Costs based on 2026 Medicare figures. Part B deductible: $283/year. Actual ambulance bills vary significantly by location, provider, and distance traveled.",
-    },
-    exceptionsSection: {
-      title: "When Medicare May not Cover Ambulance Transport",
-      items: [
-        {
-          title: "Non-Emergency Transport without Physician Certification",
-          text: "Medicare requires a physician's written order for non-emergency ambulance transport. Without this documentation, Medicare will deny the claim. If you regularly need non-emergency transport (such as for dialysis), make sure your doctor provides the required certification before each transport or on a recurring basis.",
-          highlight: "Ask your doctor for a written certification before scheduling non-emergency ambulance transport. Keep a copy for your records in case of a billing dispute.",
-        },
-        {
-          title: "Choosing a More Distant Facility",
-          text: "Medicare only covers transport to the nearest appropriate facility that can treat your condition. If you request transport to a hospital farther away - even if it is your preferred provider - Medicare will only pay the amount it would have paid for the nearest appropriate facility. You may be responsible for the difference.",
-        },
-        {
-          title: "Air Ambulance Billing Disputes",
-          text: "Air ambulance providers are not required to participate in Medicare, which means they can bill you for the difference between their charges and what Medicare approves. This is known as 'balance billing.' Medigap plans can help cover Medicare's approved coinsurance, but they do not protect against balance billing from non-participating air ambulance providers.",
-        }],
-    },
-    faqs: [
-      {
-        question: "Does Medicare Cover Ambulance Rides to the Emergency Room?",
-        answer: "Yes - Medicare Part B covers emergency ambulance transport to the nearest appropriate hospital when your condition requires immediate medical attention. You pay 20% coinsurance after your Part B deductible. Medicare Advantage plans provide the same coverage, though cost-sharing varies by plan.",
-      },
-      {
-        question: "Does Medicare Cover Non-emergency Ambulance Transport?",
-        answer: "Yes, but only with a physician's written order certifying that transport by other means would endanger your health. Common examples include transport to dialysis or chemotherapy when you cannot safely travel by car. Without physician certification, Medicare will deny the claim.",
-      },
-      {
-        question: "Does Medicare Cover Air Ambulance (Helicopter)?",
-        answer: "Yes - Medicare Part B covers medically necessary air ambulance transport when ground transport would endanger your health due to the distance, terrain, or your medical condition. However, air ambulance providers may not participate in Medicare, which can result in large balance bills beyond what Medicare approves.",
-      },
-      {
-        question: "How Much Does an Ambulance Cost with Medicare?",
-        answer: "With Original Medicare, you pay 20% coinsurance after the $283 Part B deductible. Ground ambulance bills typically range from $400–$1,200, so your share could be $80–$240 after the deductible. Air ambulance bills can exceed $30,000, making your 20% share potentially $6,000 or more. Medigap Plan G covers the 20% coinsurance after the deductible.",
-      },
-      {
-        question: "Does Medicare Cover Ambulance Transport to Dialysis?",
-        answer: "Yes - Medicare covers non-emergency ambulance transport to dialysis if your doctor certifies in writing that transport by other means would endanger your health. If you can travel safely by car or wheelchair van, Medicare will not cover ambulance transport to dialysis.",
-      },
-      {
-        question: "Will Medicare Pay for an Ambulance if I Call 911?",
-        answer: "Yes - if you call 911 and an ambulance responds to a genuine medical emergency, Medicare Part B will cover the transport. The ambulance company must be Medicare-approved, but in a true emergency, Medicare Advantage plans also cannot deny coverage based on network status.",
-      },
-      {
-        question: "Does Medigap Cover Ambulance Costs?",
-        answer: "Yes - most Medigap plans cover the 20% Part B coinsurance for ambulance services. Medigap Plan G covers the coinsurance in full after you pay the $283 Part B deductible. This is especially valuable for air ambulance transport, where 20% of a $30,000 bill could be $6,000.",
-      }],
-    quickReference: [
-      { icon: "check", text: "<strong>Emergency ambulance</strong> is covered by Medicare Part B" },
-      { icon: "check", text: "<strong>Non-emergency transport</strong> requires a physician's written order" },
-      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> after the $283 Part B deductible" },
-      { icon: "alert", text: "<strong>Air ambulance</strong> can result in large balance bills from non-participating providers" },
-      { icon: "info", text: "Medicare only covers transport to the <strong>nearest appropriate facility</strong>" },
-      { icon: "check", text: "<strong>Medigap Plan G</strong> covers the 20% coinsurance after the deductible" }],
-    relatedTopics: [
-      { title: "Does Medicare Cover Surgery?", description: "Learn how Medicare covers inpatient and outpatient surgical procedures.", slug: "will-medicare-cover-my-surgery" },
-      { title: "What is Medicare Part B?", description: "Understand what Medicare Part B covers and what you pay.", slug: "what-is-medicare-part-b" },
-      { title: "Medicare Supplement Plan G", description: "See how Plan G covers the 20% coinsurance and other out-of-pocket costs.", slug: "plan-g" },
-      { title: "Medicare Coverage for Stroke Victims", description: "Learn how Medicare covers stroke treatment, rehabilitation, and long-term care.", slug: "medicare-coverage-for-stroke-victims" }],
-    sidebarRelatedLinks: [
-      "will-medicare-cover-my-surgery",
-      "what-is-medicare-part-b",
-      "plan-g",
-      "medicare-coverage-for-stroke-victims"],
-    ctaBanner: {
-      title: "Worried about Ambulance Bills?",
-      text: "A Medigap Plan G can eliminate your 20% coinsurance for ambulance services - including air ambulance. Compare plans in your area today.",
-    },
-    relatedSlugs: ["will-medicare-cover-my-surgery", "what-is-medicare-part-b", "plan-g", "medicare-coverage-for-stroke-victims", "medicare-coverage-for-botox-treatments", "medicare-coverage-for-pacemakers"],
+    description: "Medicare Part B covers medically necessary ambulance transportation. Learn when Medicare pays, what you'll owe, and how Medigap can eliminate your 20% coinsurance.",
+    canonical: "https://www.medicarefaq.com/faqs/ambulance-and-medicare-coverage/",
+    ogImage: "/images/medicarefaq-cover.jpg",
   },
+  title: "Does Medicare Cover Ambulance Services?",
+  subtitle: "Medicare Part B covers emergency and some non-emergency ambulance transport when it is medically necessary. Learn what qualifies, what you pay, and how supplemental coverage can help.",
+  category: "Medicare Coverage",
+  dateUpdated: "April 14, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+  },
+  readTime: "6 min read",
+  quickAnswer: {
+    text: "Yes - Medicare Part B covers medically necessary ambulance transportation to the nearest appropriate facility. For emergency transport, Medicare pays 80% of the approved amount after your Part B deductible; you pay 20% coinsurance. Non-emergency transport requires a physician's written order certifying that other transport would endanger your health. Medicare Advantage plans cover ambulance services at the same level, though cost-sharing varies by plan.",
+    badges: [
+      {
+        plan: "Medicare Part B",
+        status: "covered",
+      },
+      {
+        plan: "Medicare Advantage",
+        status: "covered",
+      },
+      {
+        plan: "Medigap",
+        status: "partial",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Medicare Part B (Emergency)",
+      coverage: "Covered",
+      icon: "shield",
+      notes: "80% after $283 Part B deductible; you pay 20% coinsurance",
+    },
+    {
+      planType: "Medicare Part B (Non-Emergency)",
+      coverage: "Covered with Conditions",
+      icon: "shield",
+      notes: "Requires physician certification that other transport would endanger health",
+    },
+    {
+      planType: "Medicare Advantage (Part C)",
+      coverage: "Covered",
+      icon: "heart",
+      notes: "Must cover same services as Original Medicare; cost-sharing varies by plan",
+    },
+    {
+      planType: "Medicare Supplement (Medigap)",
+      coverage: "Varies by Plan",
+      icon: "users",
+      notes: "Covers some or all of the 20% coinsurance left by Original Medicare",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "Original Medicare (Part B)",
+      icon: "shield",
+      iconColor: "#1B2A4A",
+      coverageLabel: "Covered",
+      coverageType: "covered",
+      statusBadge: "Covered when medically necessary",
+      paragraphs: [
+      "[Medicare Part B](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers ambulance transportation that is medically necessary - meaning your condition requires ambulance transport rather than other means of transportation. Emergency ambulance services are covered when your condition is life-threatening or requires immediate medical attention.",
+      "For non-emergency ambulance transport, Medicare requires a physician's written order certifying that transport by other means would endanger your health. Common examples include transport to dialysis, chemotherapy, or wound care when you cannot safely travel by car or wheelchair van.",
+      "Medicare only covers transport to the nearest appropriate facility that can treat your condition. If you choose a more distant facility for personal preference, Medicare will only pay the amount it would have paid for the nearest appropriate facility.",
+    ],
+      whatItCovers: [
+      "Emergency ground ambulance transport to the nearest appropriate hospital or facility",
+      "Non-emergency ground ambulance with a physician's written order",
+      "Air ambulance (helicopter or fixed-wing) when ground transport would endanger your health",
+      "Transport to the nearest appropriate facility capable of treating your condition",
+      "Medically necessary transport to dialysis, chemotherapy, or wound care",
+    ],
+      whatItDoesntCover: [
+      "Non-emergency transport without a physician's written order",
+      "Transport to a more distant facility chosen for personal preference",
+      "Transport that is not to a Medicare-approved facility",
+      "Ambulance services from a non-participating provider (unless emergency)",
+    ],
+      costNote: "Part B: You pay 20% coinsurance after the $283 annual deductible (2026). Average ground ambulance cost is $400–$1,200; air ambulance can exceed $30,000 - making Medigap coverage especially valuable.",
+    },
+    {
+      planName: "Medicare Advantage (Part C)",
+      icon: "heart",
+      iconColor: "#059669",
+      coverageLabel: "Covered",
+      coverageType: "covered",
+      statusBadge: "Covered - cost-sharing varies by plan",
+      paragraphs: [
+      "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) are required by law to cover all services that Original Medicare covers, including medically necessary ambulance transportation. However, your actual cost-sharing - copayments, coinsurance, and deductibles - depends on your specific plan.",
+      "Unlike Original Medicare, Medicare Advantage plans use provider networks. In a genuine emergency, your plan must cover ambulance services regardless of whether the ambulance company is in-network. For non-emergency transport, using an in-network provider will result in lower out-of-pocket costs.",
+    ],
+      whatItCovers: [
+      "All ambulance services covered by Original Medicare",
+      "Emergency ambulance regardless of network status",
+      "Non-emergency transport with physician certification",
+    ],
+      whatItDoesntCover: [
+      "Non-emergency ambulance without required physician certification",
+      "Transport chosen for personal preference over medical necessity",
+    ],
+      callout: {
+      type: "info",
+      title: "Emergency Ambulance is Always Covered",
+      text: "In a true emergency, Medicare Advantage plans cannot deny ambulance coverage based on network status. You will not be penalized for using an out-of-network ambulance in a genuine emergency situation.",
+    },
+    },
+    {
+      planName: "Medicare Supplement (Medigap)",
+      icon: "users",
+      iconColor: "#7C3AED",
+      coverageLabel: "Varies by Plan",
+      coverageType: "partial",
+      statusBadge: "Covers some or all of Original Medicare's cost-sharing",
+      paragraphs: [
+      "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) are designed to cover the out-of-pocket costs that Original Medicare leaves behind - including the 20% Part B coinsurance for ambulance services. Given that air ambulance bills can exceed $30,000, Medigap coverage can be particularly valuable.",
+      "[Medigap Plan G](/medicare-supplement-plans/plan-g/) covers the Part B coinsurance in full after you meet the annual Part B deductible. That means once you've paid your $283 deductible for the year, Plan G covers your 20% share of any covered ambulance bill - whether it's a $500 ground transport or a $25,000 air ambulance.",
+    ],
+      whatItCovers: [
+      "Part B coinsurance (20%) - covered by most Medigap plans",
+      "Part A deductible - covered by Plans D, G, and others",
+      "Excess charges - covered by Plans F and G",
+    ],
+      whatItDoesntCover: [
+      "Services not covered by Original Medicare",
+      "Non-emergency transport without physician certification",
+    ],
+      costNote: "With Medigap Plan G, your only out-of-pocket cost for ambulance is the $283 Part B deductible (2026). After that, Plan G covers the 20% coinsurance - even for expensive air ambulance transport.",
+    },
+  ],
+  costTable: {
+    title: "Estimated Ambulance Costs under Medicare (2026)",
+    headers: [
+    "Transport Type",
+    "Typical Bill",
+    "Medicare Pays",
+    "Your Cost (No Supplement)",
+    "Your Cost (With Plan G)",
+  ],
+    rows: [
+      {
+        "Transport Type": "Ground ambulance (emergency)",
+        "Typical Bill": "$400 – $1,200",
+        "Medicare Pays": "80% of approved amount",
+        "Your Cost (No Supplement)": "20% + $283 deductible",
+        "Your Cost (With Plan G)": "$283 deductible only",
+      },
+      {
+        "Transport Type": "Ground ambulance (non-emergency)",
+        "Typical Bill": "$300 – $800",
+        "Medicare Pays": "80% of approved amount",
+        "Your Cost (No Supplement)": "20% + $283 deductible",
+        "Your Cost (With Plan G)": "$283 deductible only",
+      },
+      {
+        "Transport Type": "Air ambulance (helicopter)",
+        "Typical Bill": "$10,000 – $40,000+",
+        "Medicare Pays": "80% of approved amount",
+        "Your Cost (No Supplement)": "20% (potentially $2,000–$8,000+)",
+        "Your Cost (With Plan G)": "$283 deductible only",
+      },
+    ],
+    footnote: "Costs based on 2026 Medicare figures. Part B deductible: $283/year. Actual ambulance bills vary significantly by location, provider, and distance traveled.",
+  },
+  exceptionsSection: {
+    title: "When Medicare May not Cover Ambulance Transport",
+    items: [
+      {
+        title: "Non-Emergency Transport without Physician Certification",
+        text: "Medicare requires a physician's written order for non-emergency ambulance transport. Without this documentation, Medicare will deny the claim. If you regularly need non-emergency transport (such as for dialysis), make sure your doctor provides the required certification before each transport or on a recurring basis.",
+        highlight: "Ask your doctor for a written certification before scheduling non-emergency ambulance transport. Keep a copy for your records in case of a billing dispute.",
+      },
+      {
+        title: "Choosing a More Distant Facility",
+        text: "Medicare only covers transport to the nearest appropriate facility that can treat your condition. If you request transport to a hospital farther away - even if it is your preferred provider - Medicare will only pay the amount it would have paid for the nearest appropriate facility. You may be responsible for the difference.",
+      },
+      {
+        title: "Air Ambulance Billing Disputes",
+        text: "Air ambulance providers are not required to participate in Medicare, which means they can bill you for the difference between their charges and what Medicare approves. This is known as 'balance billing.' Medigap plans can help cover Medicare's approved coinsurance, but they do not protect against balance billing from non-participating air ambulance providers.",
+      },
+    ],
+  },
+  faqs: [
+    {
+      question: "Does Medicare Cover Ambulance Rides to the Emergency Room?",
+      answer: "Yes - Medicare Part B covers emergency ambulance transport to the nearest appropriate hospital when your condition requires immediate medical attention. You pay 20% coinsurance after your Part B deductible. Medicare Advantage plans provide the same coverage, though cost-sharing varies by plan.",
+    },
+    {
+      question: "Does Medicare Cover Non-emergency Ambulance Transport?",
+      answer: "Yes, but only with a physician's written order certifying that transport by other means would endanger your health. Common examples include transport to dialysis or chemotherapy when you cannot safely travel by car. Without physician certification, Medicare will deny the claim.",
+    },
+    {
+      question: "Does Medicare Cover Air Ambulance (Helicopter)?",
+      answer: "Yes - Medicare Part B covers medically necessary air ambulance transport when ground transport would endanger your health due to the distance, terrain, or your medical condition. However, air ambulance providers may not participate in Medicare, which can result in large balance bills beyond what Medicare approves.",
+    },
+    {
+      question: "How Much Does an Ambulance Cost with Medicare?",
+      answer: "With Original Medicare, you pay 20% coinsurance after the $283 Part B deductible. Ground ambulance bills typically range from $400–$1,200, so your share could be $80–$240 after the deductible. Air ambulance bills can exceed $30,000, making your 20% share potentially $6,000 or more. Medigap Plan G covers the 20% coinsurance after the deductible.",
+    },
+    {
+      question: "Does Medicare Cover Ambulance Transport to Dialysis?",
+      answer: "Yes - Medicare covers non-emergency ambulance transport to dialysis if your doctor certifies in writing that transport by other means would endanger your health. If you can travel safely by car or wheelchair van, Medicare will not cover ambulance transport to dialysis.",
+    },
+    {
+      question: "Will Medicare Pay for an Ambulance if I Call 911?",
+      answer: "Yes - if you call 911 and an ambulance responds to a genuine medical emergency, Medicare Part B will cover the transport. The ambulance company must be Medicare-approved, but in a true emergency, Medicare Advantage plans also cannot deny coverage based on network status.",
+    },
+    {
+      question: "Does Medigap Cover Ambulance Costs?",
+      answer: "Yes - most Medigap plans cover the 20% Part B coinsurance for ambulance services. Medigap Plan G covers the coinsurance in full after you pay the $283 Part B deductible. This is especially valuable for air ambulance transport, where 20% of a $30,000 bill could be $6,000.",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "check",
+      text: "<strong>Emergency ambulance</strong> is covered by Medicare Part B",
+    },
+    {
+      icon: "check",
+      text: "<strong>Non-emergency transport</strong> requires a physician's written order",
+    },
+    {
+      icon: "dollar",
+      text: "You pay <strong>20% coinsurance</strong> after the $283 Part B deductible",
+    },
+    {
+      icon: "alert",
+      text: "<strong>Air ambulance</strong> can result in large balance bills from non-participating providers",
+    },
+    {
+      icon: "info",
+      text: "Medicare only covers transport to the <strong>nearest appropriate facility</strong>",
+    },
+    {
+      icon: "check",
+      text: "<strong>Medigap Plan G</strong> covers the 20% coinsurance after the deductible",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Does Medicare Cover Surgery?",
+      description: "Learn how Medicare covers inpatient and outpatient surgical procedures.",
+      slug: "will-medicare-cover-my-surgery",
+    },
+    {
+      title: "What is Medicare Part B?",
+      description: "Understand what Medicare Part B covers and what you pay.",
+      slug: "what-is-medicare-part-b",
+    },
+    {
+      title: "Medicare Supplement Plan G",
+      description: "See how Plan G covers the 20% coinsurance and other out-of-pocket costs.",
+      slug: "plan-g",
+    },
+    {
+      title: "Medicare Coverage for Stroke Victims",
+      description: "Learn how Medicare covers stroke treatment, rehabilitation, and long-term care.",
+      slug: "medicare-coverage-for-stroke-victims",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "will-medicare-cover-my-surgery",
+    "what-is-medicare-part-b",
+    "plan-g",
+    "medicare-coverage-for-stroke-victims",
+  ],
+  ctaBanner: {
+    title: "Worried about Ambulance Bills?",
+    text: "A Medigap Plan G can eliminate your 20% coinsurance for ambulance services - including air ambulance. Compare plans in your area today.",
+  },
+  relatedSlugs: [
+    "will-medicare-cover-my-surgery",
+    "what-is-medicare-part-b",
+    "plan-g",
+    "medicare-coverage-for-stroke-victims",
+    "medicare-coverage-for-botox-treatments",
+    "medicare-coverage-for-pacemakers",
+  ],
+  youtubeVideoId: "Rrc9oXD3P9o",
+},
 
   // ── Robotic Surgery ────────────────────────────────────────────────────────
   {
