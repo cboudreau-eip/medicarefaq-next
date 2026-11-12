@@ -1,0 +1,33 @@
+
+.article > header{padding:30px 0}
+.article > header h1{font-size:clamp(28px,3.4vw,40px)}
+.article .scope{font-size:14px;color:#d6e4f3}
+.situations{margin:24px 0}
+.situations > div{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.article .situations a{display:flex;flex-direction:column;gap:8px;padding:18px;border:1px solid #cbdeda;border-radius:10px;background:#f1f8f7;text-decoration:none;color:#183454}
+.situations a:hover{background:#e4f3ef}
+.situations span{font-size:14px;line-height:1.6}
+.article .situations p{font-size:13px;color:#53657a}
+.article tbody th{background:#f6f8fb;color:#183454;font-weight:600;border-bottom:1px solid #dbe3ed;vertical-align:top}
+.timeline{background:#eef7f5;border:1px solid #c6e1db;border-radius:10px;padding:22px;margin:24px 0}
+.article .timeline ol{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;list-style:none;padding:0}
+.article .timeline .fourDates{grid-template-columns:repeat(2,1fr)}
+.article .timeline li{padding:0 0 0 12px;margin:0;border-left:3px solid #007c79}
+.timeline strong,.timeline span{display:block}
+.timeline span{font-size:15px;margin-top:8px}
+.help{padding:24px;background:#fff8eb;border:1px solid #ecd29f;border-left:4px solid #cf4c00;border-radius:10px;margin:18px 0}
+.help > div{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.article .button,.article .secondary{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:12px 18px;border-radius:8px;text-decoration:none;font-weight:700}
+.article .button{background:#cf4c00;color:#fff}
+.article .button:hover{background:#b84300}
+.article .secondary{background:#fff;color:#183454;border:1px solid #183454}
+.article .checklist{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.article .checklist li{padding:12px;margin:0;border:1px solid #dbe3ed;border-radius:8px}
+.checklist label{display:flex;gap:12px;align-items:flex-start;cursor:pointer}
+.checklist input{width:19px;height:19px;margin-top:5px;flex-shrink:0;accent-color:#007c79}
+.checklist input:focus-visible{outline:3px solid #ef8b00;outline-offset:3px}
+.checklist input:checked + span{text-decoration:line-through;color:#53657a}
+.article .sources{padding-top:20px;border-top:1px solid #dbe3ed}
+.article .sources h2{font-size:20px}
+.article .sources p,.article .sources li{font-size:14px}
+@media(max-width:650px){.situations > div,.article .timeline ol,.article .timeline .fourDates,.article .checklist{grid-template-columns:1fr}.help > div{align-items:stretch;flex-direction:column}.article table{min-width:560px}.article > header{padding:24px 0}}
