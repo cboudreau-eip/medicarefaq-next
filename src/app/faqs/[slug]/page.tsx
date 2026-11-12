@@ -1,3 +1,4 @@
+import OepSupportingPreview, { oepSupportPages, oepSupportEnabled } from "@/components/oep/OepSupportingPreview";
 import OepMedigapPreview, { OEP_MEDIGAP_SLUG, oepMedigapPreviewEnabled, oepMedigapTitle, oepMedigapDescription } from "@/components/oep/OepMedigapPreview";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
@@ -39,6 +40,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
+  if (oepSupportEnabled(slug)) return { ...oepSupportPages[slug], robots: { index: false, follow: false }, alternates: { canonical: `${BASE_URL}/faqs/${slug}/` } };
   if (slug === OEP_MEDIGAP_SLUG && oepMedigapPreviewEnabled()) return {
     title: oepMedigapTitle, description: oepMedigapDescription,
     robots: { index: false, follow: false }, alternates: { canonical: `${BASE_URL}/faqs/${slug}/` },
@@ -320,6 +322,7 @@ export default async function FAQArticlePage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
+  if (oepSupportEnabled(slug)) return <SiteLayout><OepSupportingPreview slug={slug} /></SiteLayout>;
   if (slug === OEP_MEDIGAP_SLUG && oepMedigapPreviewEnabled()) return <SiteLayout><OepMedigapPreview /></SiteLayout>;
   if (slug === OEP_RULES_SLUG) {
     return <SiteLayout><OepRulesArticle /></SiteLayout>;

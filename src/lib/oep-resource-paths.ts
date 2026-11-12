@@ -1,5 +1,7 @@
 // Exact resource-center routes; do not suppress the kit on unrelated Medicare pages.
 const OEP_RESOURCE_PATHS = new Set([
+  "/faqs/medicare-hmo-vs-ppo",
+  "/faqs/medicare-special-enrollment-periods",
   "/medicare-advantage-open-enrollment-resources",
   "/faqs/medicare-advantage-open-enrollment-period",
   "/original-medicare/medicare-enrollment-periods",
