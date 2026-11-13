@@ -16,6 +16,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "understanding-medicare-costs-debunking-the-free-myth",
     seo: {
+      focusKeyword: "",
       title: "Is Medicare Free? What You'll Pay in 2026",
       description: "Is Medicare free? Learn the real costs for Part A, Part B, and more in 2026, including premiums, deductibles, and IRMAA surcharges.",
       canonical: "https://www.medicarefaq.com/blog/understanding-medicare-costs-debunking-the-free-myth/",
@@ -30,7 +31,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "9 min read",
     featured: false,
-    image: "/images/generated/understanding-medicare-costs-debunking-the-free-myth-6bad7fc51cdc.png",
+    image: "/images/generated/understanding-medicare-costs-debunking-the-free-myth-376230eeecf6.png",
     imageAlt: "Is Medicare Free? What You'll Pay in 2026",
     keyTakeaways: ["Most people do not pay a monthly premium for Part A if they or a spouse paid Medicare taxes for at least 10 years (40 quarters)", "Nearly everyone pays a monthly premium for Part B, which is $202.90 in 2026, plus a $283 annual deductible", "Part B coinsurance is typically 20% with no annual out-of-pocket cap under Original Medicare alone", "Higher-income beneficiaries pay an IRMAA surcharge based on income reported two years prior", "Medicare is not the same as Medicaid; Medicare costs are based on work history and income, not financial need"],
     tableOfContents: [
