@@ -640,6 +640,7 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
                 {(() => {
                   const elements: React.ReactNode[] = [];
                   let i = 0;
+                  let guideCtaInserted = false;
                   // Find the index of the second h2 heading (end of intro section)
                   let secondH2Index = -1;
                   let h2Count = 0;
@@ -662,7 +663,10 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
                   let renderedSectionCount = 0;
                   while (i < article.sections.length) {
                     const section = article.sections[i];
-                    if (i === (secondH2Index >= 0 ? secondH2Index : 1)) elements.push(<ArticleGuideCta key="tracked-guide-cta" path={`/blog/${article.slug}/`} />);
+                    if (!guideCtaInserted && i >= (secondH2Index >= 0 ? secondH2Index : Math.min(1, article.sections.length - 1))) {
+                      elements.push(<ArticleGuideCta key="tracked-guide-cta" path={`/blog/${article.slug}/`} />);
+                      guideCtaInserted = true;
+                    }
                     // Insert key takeaways before the second h2 (after intro paragraphs)
                     if (!keyTakeawaysInserted && i === secondH2Index && article.keyTakeaways && article.keyTakeaways.length > 0) {
                       elements.push(
@@ -742,6 +746,7 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
                     }
                     i++;
                   }
+                  if (!guideCtaInserted) elements.push(<ArticleGuideCta key="tracked-guide-cta" path={`/blog/${article.slug}/`} />);
                   return elements;
                 })()}
               </div>

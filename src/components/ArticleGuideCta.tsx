@@ -1,7 +1,8 @@
 "use client";
+import inventory from "../../docs/guide-cta-pages.json";
 import GuideCta from "./GuideCta";
 
-// Explicit rollout list: shared templates do not opt other articles in automatically.
+// Existing rollout overrides plus pages registered atomically by CMS publishing.
 export const ARTICLE_GUIDE_CTAS:Record<string,{variant:"part-d"|"advantage"|"medigap"|"medicare";description:string}>={
   "/faqs/medicare-grocery-allowance/":{variant:"advantage",description:"Comparing Medicare Advantage options? Enter your ZIP code to explore plans in your area. Benefits and eligibility vary by plan."},
   "/faqs/switch-medicare-advantage-to-medicare-supplement/":{variant:"medigap",description:"Considering a switch to Medicare Supplement coverage? Enter your ZIP code to explore your options. Enrollment and eligibility requirements apply."},
@@ -43,6 +44,7 @@ export const ARTICLE_GUIDE_CTAS:Record<string,{variant:"part-d"|"advantage"|"med
   "/faqs/medicare-and-retiree-insurance/":{"variant":"medicare","description":"Reviewing your Medicare and retiree coverage options? Enter your ZIP code to explore Medicare plans in your area."},
 };
 export default function ArticleGuideCta({path}:{path:string}){
-  const config=ARTICLE_GUIDE_CTAS[path];
+  const automatic = inventory.automatic as Record<string, {variant:"part-d"|"advantage"|"medigap"|"medicare";description:string}>;
+  const config=ARTICLE_GUIDE_CTAS[path] ?? automatic[path];
   return config?<div className="not-prose my-8"><GuideCta {...config}/></div>:null;
 }
