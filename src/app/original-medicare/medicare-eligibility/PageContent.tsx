@@ -109,9 +109,7 @@ export default function MedicareEligibility() {
         <article className="flex-1 min-w-0 prose prose-gray max-w-none">
           <section id="overview">
             <h2 className="text-2xl font-bold text-[#1B2A4A] mb-4">Who Qualifies for Medicare?</h2>
-            <p className="text-gray-700 mb-4">
-              Medicare is the federal health insurance program primarily for people age 65 and older. However, younger people with certain disabilities or medical conditions can also qualify. There are three main pathways to Medicare eligibility:
-            </p>
+            <p className="text-gray-700 mb-4">{"Medicare is the federal health insurance program primarily for people age 65 and older. However, younger people with certain disabilities or medical conditions can also qualify. There are three main pathways to Medicare eligibility: For End-Stage Renal Disease (ESRD), you can qualify for Medicare at any age if your kidneys no longer work and you need regular dialysis or have had a kidney transplant, provided you (or a spouse or parent, for a dependent child) have worked the required amount of time under Social Security, the Railroad Retirement Board, or as a government employee, or are already getting or eligible for Social Security or RRB benefits. Unlike Age-based enrollment, you must apply through the Social Security Administration rather than being automatically enrolled. If you're on dialysis, coverage usually starts the first day of the fourth month of continuous dialysis treatment (for example, dialysis starting July 1 means coverage begins October 1), though this waiting period may be shortened in certain situations such as home dialysis training. If you have a kidney transplant, coverage can start as early as the month you're admitted to a Medicare-approved hospital for the transplant or for medically necessary pre-transplant care, if the transplant occurs within a limited window afterward. "}<a href={"https://www.medicare.gov/basics/end-stage-renal-disease"}>{"Medicare.gov: End-Stage Renal Disease"}</a></p>
             <div className="grid md:grid-cols-3 gap-4 mb-6">
               {[
                 { icon: <Clock className="w-6 h-6 text-[#0D9488]" aria-hidden="true" />, title: "Age 65+", desc: "The most common pathway — available to U.S. citizens and qualifying permanent residents." },
@@ -188,7 +186,7 @@ export default function MedicareEligibility() {
                   </tr>
                   <tr>
                     <td className="p-3">Fewer than 30 quarters</td>
-                    <td className="p-3">$565/month</td>
+                    <td className="p-3"><a href={"https://www.federalregister.gov/documents/2025/11/19/2025-20250/medicare-program-cy-2026-part-a-premiums-for-the-uninsured-aged-and-for-certain-disabled-individuals"}>{"$565/month"}</a></td>
                   </tr>
                 </tbody>
               </table>
@@ -201,15 +199,13 @@ export default function MedicareEligibility() {
               Anyone who is eligible for <Link href="/original-medicare/medicare-parts/medicare-part-a" className="text-[#0D9488] hover:underline">Medicare Part A</Link> is also eligible for <Link href="/original-medicare/medicare-parts/medicare-part-b" className="text-[#0D9488] hover:underline">Part B</Link>. Unlike Part A, Part B always requires a monthly premium. The standard 2026 Part B premium is <strong>$202.90/month</strong>, though higher-income beneficiaries pay more through IRMAA surcharges.
             </p>
             <p className="text-gray-700">
-              If you are still working and have employer coverage, you may be able to <Link href="/medicare-enrollment/working-past-65" className="text-[#0D9488] hover:underline">delay Part B enrollment</Link> without penalty. Once your employer coverage ends, you have an 8-month Special Enrollment Period to sign up.
+              If you are still working and have employer coverage, you may be able to <Link href="/medicare-enrollment/working-past-65" className="text-[#0D9488] hover:underline">{"delay Part B enrollment while you have employer coverage based on current, active employment"}</Link> without penalty. Once your employer coverage ends, you have an 8-month Special Enrollment Period to sign up.
             </p>
           </section>
 
           <section id="income" className="mt-8">
             <h2 className="text-2xl font-bold text-[#1B2A4A] mb-4">What is the Maximum Income to Qualify for Medicare?</h2>
-            <p className="text-gray-700 mb-4">
-              There is <strong>no income limit</strong> to qualify for Medicare. Eligibility is based on age or disability status, not income or assets. However, your income does affect how much you pay for Medicare. Higher-income beneficiaries pay more for Parts B and D through <strong>Income-Related Monthly Adjustment Amounts (IRMAA)</strong>.
-            </p>
+            <p className="text-gray-700 mb-4">{"There is "}<strong>{"no income limit"}</strong>{" to qualify for Medicare. Eligibility is based on age or disability status, not income or assets. However, your income does affect how much you pay for Medicare. Higher-income beneficiaries pay more for Parts B and D through "}<strong>{"Income-Related Monthly Adjustment Amounts (IRMAA)"}</strong>{" — an income-based surcharge added on top of the standard premium."}</p>
             <p className="text-gray-700">
               If you have limited income and resources, you may qualify for programs that help pay Medicare costs, including <strong>Medicaid</strong>, the <strong>Medicare Savings Programs</strong>, and <strong>Extra Help</strong> (Low Income Subsidy) for Part D drug costs.
             </p>
@@ -217,7 +213,7 @@ export default function MedicareEligibility() {
 
           {/* FAQ Section */}
           <section id="faqs" className="mt-10">
-            <h2 className="text-2xl font-bold text-[#1B2A4A] mb-6">Frequently Asked Questions</h2>
+            <h2 className="text-2xl font-bold text-[#1B2A4A] mb-6">{"Frequently Asked Questions\n\n"}<strong>{"When does Medicare coverage start if I qualify due to End-Stage Renal Disease (ESRD)?"}</strong>{" Coverage timing depends on your treatment: coverage usually starts on the fourth month of dialysis when treatment occurs in a dialysis facility, or as early as the first month if you do self-dialysis training, and if you have a kidney transplant, coverage can begin the month of the transplant ("}<a href={"https://www.cms.gov/medicare/enrollment-renewal/original-part-a-b"}>{"cms.gov"}</a>{"). You must still apply for Medicare enrollment once you become eligible based on ESRD.\n\n"}<strong>{"Can I delay enrolling in Part B, and how does that work?"}</strong>{" If you (or your spouse) are still working and have group health plan coverage based on that current employment, you can generally delay enrolling in Part B until a Special Enrollment Period becomes available, rather than enrolling during your Initial Enrollment Period ("}<a href={"https://www.cms.gov/training-education/find-provider-type/employers-unions/top-five-medicare-enrollment"}>{"cms.gov"}</a>{"). Whether this option applies to you depends on factors like your employer's size and the type of coverage you have, so it's worth confirming your specific Special Enrollment Period eligibility and timing before your employment or group coverage ends."}</h2>
             <div className="space-y-3">
               {faqs.map((faq, i) => (
                 <div key={i} className="border border-gray-200 rounded-xl overflow-hidden">
