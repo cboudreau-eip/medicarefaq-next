@@ -96,6 +96,12 @@ export async function generateMetadata({
     alternates: {
       canonical: article.seo?.canonical || `${BASE_URL}/blog/${slug}/`,
     },
+    twitter: {
+      card: "summary_large_image",
+      title: article.seo?.title || article.title,
+      description: article.seo?.description || article.excerpt,
+      images: [article.seo?.ogImage || article.image || DEFAULT_IMAGE],
+    },
     openGraph: {
       title: article.seo?.title || article.title,
       description: article.seo?.description || article.excerpt,

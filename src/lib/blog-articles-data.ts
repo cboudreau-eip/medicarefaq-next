@@ -733,7 +733,7 @@ export const blogArticles: BlogArticleData[] = [
       title: "FEHB and Medicare Part B: A Retiree's Guide",
       description: "Should you combine FEHB and Medicare Part B? Compare costs, coordination of benefits, and incentives to decide what's best for federal retirees.",
       canonical: "https://www.medicarefaq.com/blog/should-federal-retirees-combine-fehb-with-medicare-part-b/",
-      ogImage: "/images/generated/should-federal-retirees-combine-fehb-with-medicare-part-b-17cd45b9c703.png",
+      ogImage: "/images/generated/should-federal-retirees-combine-fehb-with-medicare-part-b-58f09a77e25e.png",
     },
     title: "FEHB and Medicare Part B: A Retiree's Guide",
     excerpt: "Federal retirees can keep FEHB, add Medicare Part B, or suspend FEHB. This guide compares costs and coordination of benefits to help you decide.",
