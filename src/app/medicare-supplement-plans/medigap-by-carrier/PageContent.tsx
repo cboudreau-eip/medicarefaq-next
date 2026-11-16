@@ -75,6 +75,9 @@ export default function PageContent() {
           </div>
 
           {/* Top-rated carriers */}
+          <p className="text-slate-600 leading-relaxed mb-8">
+            Considering Aetna for Plan G? Our <Link href="/medicare-supplement-plans/medigap-by-carrier/aetna-medicare-supplement-plans/plan-g/" className="text-teal-700 underline font-semibold">dedicated Aetna Plan G guide</Link> explains coverage, pricing, discounts, and what to check before applying.
+          </p>
           <div className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
               Top-Rated Carriers

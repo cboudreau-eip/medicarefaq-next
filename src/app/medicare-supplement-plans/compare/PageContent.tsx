@@ -276,6 +276,9 @@ export default function PageContent() {
           </ul>
 
           {/* CTA */}
+          <p className="mt-8 text-slate-600 leading-relaxed">
+            Once you have chosen a plan letter, compare individual carriers. For an Aetna-specific example, see our <Link href="/medicare-supplement-plans/medigap-by-carrier/aetna-medicare-supplement-plans/plan-g/" className="text-teal-700 underline font-semibold">Aetna Medicare Supplement Plan G guide</Link> for benefits, costs, and enrollment considerations.
+          </p>
           <aside aria-label="Get help choosing a plan" className="mt-14 p-8 bg-gradient-to-br from-blue-900 to-slate-900 rounded-2xl text-white">
             <h3 className="text-2xl font-bold mb-3">Not Sure Which Plan is Right for You?</h3>
             <p className="text-slate-300 mb-6 max-w-2xl">
