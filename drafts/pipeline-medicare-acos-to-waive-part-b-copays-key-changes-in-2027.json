@@ -1,7 +1,22 @@
 {
   "title": "Medicare Part B Copay Elimination ACO: 2027 Changes",
+  "rawContent": "",
   "slug": "medicare-acos-to-waive-part-b-copays-key-changes-in-2027",
+  "excerpt": "Starting April 2027, some Medicare ACOs can waive the 20% Part B coinsurance for primary care visits, though premiums and deductibles still apply.",
   "category": "costs",
+  "author": "David Haass",
+  "reviewer": "Ashlee Zareczny",
+  "image": "/images/generated/medicare-acos-to-waive-part-b-copays-key-changes-in-2027-870c28a0ad92.png",
+  "imageAlt": "",
+  "keyTakeaways": [
+    "Beginning April 2027, CMS will let qualifying ACOs waive the 20% Part B coinsurance for primary care office visits.",
+    "The waiver only applies if your doctor's practice participates in an ACO that chooses to offer it; it is not automatic for all beneficiaries.",
+    "Your Part B premium ($202.90 in 2026) and deductible ($283 in 2026) still apply regardless of the coinsurance waiver.",
+    "ACOs operate within Original Medicare and differ from Medicare Advantage plans; you keep your same coverage, card, and any Medigap policy.",
+    "You cannot sign up for an ACO directly, but you can ask your doctor's office whether their practice participates."
+  ],
+  "seoTitle": "Medicare Part B Copay Elimination ACO: 2027 Changes",
+  "seoDescription": "Learn how Medicare Part B copay elimination ACO waivers work starting April 2027 and what it means for your primary care visit costs.",
   "sections": [
     {
       "type": "heading",
@@ -11,7 +26,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Starting in April 2027, the Centers for Medicare & Medicaid Services (CMS) will allow certain Medicare Accountable Care Organizations (ACOs) to waive the Part B coinsurance you normally pay for primary care office visits. That 20% coinsurance has long applied after you meet your Part B deductible, and this change would let qualifying ACOs reduce or eliminate it for covered primary care services."
+      "content": "Starting in April 2027, the Centers for Medicare & Medicaid Services (CMS) will allow certain Medicare Accountable Care Organizations (ACOs) to waive the [Part B coinsurance](/faqs/what-is-medicare-cost-sharing/) you normally pay for primary care office visits. That 20% coinsurance has long applied after you meet your [Part B deductible](/faqs/medicare-part-b-annual-deductible-explained-what-youll-pay/), and this change would let qualifying ACOs reduce or eliminate it for covered primary care services."
     },
     {
       "type": "paragraph",
@@ -20,7 +35,7 @@
     {
       "type": "callout",
       "calloutType": "info",
-      "calloutText": "The 2026 Part B deductible is $283 and the standard monthly premium is $202.90. Neither of these changes under the new ACO copay waiver; only the 20% coinsurance on qualifying primary care visits is affected.",
+      "calloutText": "The 2026 [Part B deductible](/faqs/medicare-part-b-annual-deductible-explained-what-youll-pay/) is $283 and the standard monthly premium is $202.90. Neither of these changes under the new ACO copay waiver; only the 20% coinsurance on qualifying primary care visits is affected.",
       "calloutTitle": "What stays the same"
     },
     {
@@ -35,7 +50,7 @@
     },
     {
       "type": "paragraph",
-      "content": "ACOs are often confused with Medicare Advantage plans, but the two are different. Medicare Advantage is a private plan that replaces your Original Medicare coverage, with its own network and cost structure. An ACO, by contrast, operates within Original Medicare. You can remain on Original Medicare, keep any Medigap policy you have, and still be connected to an ACO through your doctor's participation."
+      "content": "ACOs are often confused with [Medicare Advantage plans](/faqs/original-medicare-vs-medicare-advantage/), but the two are different. Medicare Advantage is a private plan that replaces your Original Medicare coverage, with its own network and cost structure. An ACO, by contrast, operates within Original Medicare. You can remain on Original Medicare, keep any [Medigap policy](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one/) you have, and still be connected to an ACO through your doctor's participation."
     },
     {
       "type": "paragraph",
@@ -72,7 +87,7 @@
     },
     {
       "type": "paragraph",
-      "content": "To see how this could affect your wallet, consider a hypothetical example. Say a primary care office visit is billed at $150 after you've met your Part B deductible. Under standard Part B cost-sharing, you'd typically owe 20% coinsurance, or $30, while Medicare covers the rest. Under a qualifying ACO's copay waiver, that $30 coinsurance could be eliminated entirely for that visit, leaving you with no out-of-pocket cost for the office visit itself."
+      "content": "To see how this could affect your wallet, consider a hypothetical example. Say a primary care office visit is billed at $150 after you've met your [Part B deductible](/faqs/medicare-part-b-annual-deductible-explained-what-youll-pay/). Under standard Part B cost-sharing, you'd typically owe 20% coinsurance, or $30, while Medicare covers the rest. Under a qualifying ACO's copay waiver, that $30 coinsurance could be eliminated entirely for that visit, leaving you with no out-of-pocket cost for the office visit itself."
     },
     {
       "type": "paragraph",
@@ -84,7 +99,7 @@
     },
     {
       "type": "eddie-pro-tip",
-      "content": "If you have frequent primary care visits and no Medigap plan covering your Part B coinsurance, this waiver is worth tracking closely as April 2027 approaches. I'd suggest confirming your doctor's ACO status now, so you're not caught guessing when the rule takes effect."
+      "content": "If you have frequent primary care visits and no Medigap plan covering your [Part B coinsurance](/faqs/what-is-medicare-cost-sharing/), this waiver is worth tracking closely as April 2027 approaches. I'd suggest confirming your doctor's ACO status now, so you're not caught guessing when the rule takes effect."
     },
     {
       "type": "heading",
@@ -108,7 +123,7 @@
     },
     {
       "type": "paragraph",
-      "content": "If you already have a Medigap plan that covers Part B coinsurance, such as Plan G or Plan N with certain conditions, you may see less direct financial benefit from this waiver, since your supplemental plan is already absorbing that cost. For everyone else, the waiver could reduce the temptation to delay or skip a needed checkup simply to avoid an out-of-pocket charge."
+      "content": "If you already have a Medigap plan that covers [Part B coinsurance](/faqs/what-is-medicare-cost-sharing/), such as Plan G or Plan N with certain conditions, you may see less direct financial benefit from this waiver, since your supplemental plan is already absorbing that cost. For everyone else, the waiver could reduce the temptation to delay or skip a needed checkup simply to avoid an out-of-pocket charge."
     },
     {
       "type": "heading",
@@ -166,7 +181,7 @@
     },
     {
       "type": "paragraph",
-      "content": "When you're ready, a licensed Medicare agent can review your specific situation, including checking whether your doctor participates in a qualifying ACO, without pushing you toward a plan change. Comparing your current Medicare coverage against this update can help clarify whether any adjustments actually make sense for your budget and your care needs, or whether your current setup already works well for you."
+      "content": "When you're ready, a [licensed Medicare agent](/faqs/how-to-choose-a-medicare-agent/) can review your specific situation, including checking whether your doctor participates in a qualifying ACO, without pushing you toward a plan change. Comparing your current Medicare coverage against this update can help clarify whether any adjustments actually make sense for your budget and your care needs, or whether your current setup already works well for you."
     },
     {
       "type": "heading",
@@ -210,21 +225,60 @@
       "content": "As CMS publishes final guidance closer to April 2027, it's worth revisiting your coverage to see how the details apply to your specific visits and costs. When you're ready, speaking with a licensed agent is a low-pressure way to understand how this change fits into your overall Medicare coverage, on your own schedule."
     }
   ],
-  "seoTitle": "Medicare Part B Copay Elimination ACO: 2027 Changes",
-  "seoDescription": "Learn how Medicare Part B copay elimination ACO waivers work starting April 2027 and what it means for your primary care visit costs.",
-  "excerpt": "Starting April 2027, some Medicare ACOs can waive the 20% Part B coinsurance for primary care visits, though premiums and deductibles still apply.",
-  "keyTakeaways": [
-    "Beginning April 2027, CMS will let qualifying ACOs waive the 20% Part B coinsurance for primary care office visits.",
-    "The waiver only applies if your doctor's practice participates in an ACO that chooses to offer it; it is not automatic for all beneficiaries.",
-    "Your Part B premium ($202.90 in 2026) and deductible ($283 in 2026) still apply regardless of the coinsurance waiver.",
-    "ACOs operate within Original Medicare and differ from Medicare Advantage plans; you keep your same coverage, card, and any Medigap policy.",
-    "You cannot sign up for an ACO directly, but you can ask your doctor's office whether their practice participates."
+  "relatedSlugs": [
+    "5-options-everyone-consider",
+    "2027-medicare-advantage-cuts-check-if-your-plan-survives",
+    "medicare-changes-2027",
+    "10-medicare-cost-saving-hacks"
   ],
-  "image": "/images/generated/medicare-acos-to-waive-part-b-copays-key-changes-in-2027-870c28a0ad92.png",
-  "relatedSlugs": [],
-  "sourceUrl": "https://babyboomer.org/news/boomer-headlines-2026-11-06/",
-  "pipelineId": "disc-adceac087d26a980088a435cb13cf741964298bcb403eaeb2b541a14f83a515f",
+  "linkSuggestions": [
+    {
+      "phrase": "chronic conditions",
+      "url": "/faqs/medicare-coverage-for-chronic-conditions/",
+      "title": "Medicare Coverage for Chronic Conditions",
+      "reason": "This link offers insights into how Medicare covers chronic conditions, which is relevant for beneficiaries who may benefit from the ACO copay waiver."
+    },
+    {
+      "phrase": "primary care visits",
+      "url": "/faqs/does-medicare-cover-primary-care-visits/",
+      "title": "Does Medicare Cover Primary Care Visits?",
+      "reason": "This link provides specific information about Medicare's coverage of primary care visits, which is central to the discussion of the ACO copay waiver."
+    },
+    {
+      "phrase": "Medicare Summary Notice",
+      "url": "/faqs/how-to-read-your-medicare-summary-notice/",
+      "title": "How to Read Your Medicare Summary Notice",
+      "reason": "This link provides guidance on understanding the Medicare Summary Notice, which is relevant for beneficiaries checking their ACO status."
+    }
+  ],
+  "acceptedLinks": [
+    {
+      "phrase": "Part B coinsurance",
+      "url": "/faqs/what-is-medicare-cost-sharing/",
+      "title": "What is Medicare Cost Sharing?"
+    },
+    {
+      "phrase": "Medigap policy",
+      "url": "/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one/",
+      "title": "What Is a Medicare Supplement Plan and Who Needs One?"
+    },
+    {
+      "phrase": "Medicare Advantage plans",
+      "url": "/faqs/original-medicare-vs-medicare-advantage/",
+      "title": "Original Medicare vs. Medicare Advantage"
+    },
+    {
+      "phrase": "licensed Medicare agent",
+      "url": "/faqs/how-to-choose-a-medicare-agent/",
+      "title": "How to Choose a Medicare Agent"
+    },
+    {
+      "phrase": "Part B deductible",
+      "url": "/faqs/medicare-part-b-annual-deductible-explained-what-youll-pay/",
+      "title": "Medicare Part B Annual Deductible Explained: What You'll Pay"
+    }
+  ],
   "id": "pipeline-medicare-acos-to-waive-part-b-copays-key-changes-in-2027",
-  "updatedAt": "2026-11-09T12:37:22.628Z",
-  "createdAt": "2026-11-09T12:37:22.628Z"
+  "updatedAt": "2026-11-16T12:51:58.180Z",
+  "createdAt": "2026-11-16T12:51:58.180Z"
 }
