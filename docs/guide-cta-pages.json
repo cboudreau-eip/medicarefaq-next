@@ -103,7 +103,13 @@
     "https://www.medicarefaq.com/",
     "https://www.medicarefaq.com/search/",
     "https://www.medicarefaq.com/tools/decision-kit/",
-    "https://www.medicarefaq.com/medicare-supplement-plans/texas/"
+    "https://www.medicarefaq.com/medicare-supplement-plans/texas/",
+    "https://www.medicarefaq.com/blog/medicare-acos-to-waive-part-b-copays-key-changes-in-2027/"
   ],
-  "automatic": {}
+  "automatic": {
+    "/blog/medicare-acos-to-waive-part-b-copays-key-changes-in-2027/": {
+      "variant": "medicare",
+      "description": "Exploring Medicare coverage options? Enter your ZIP code to compare plans in your area."
+    }
+  }
 }
