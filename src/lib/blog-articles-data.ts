@@ -729,6 +729,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "should-federal-retirees-combine-fehb-with-medicare-part-b",
     seo: {
+      focusKeyword: "",
       title: "FEHB and Medicare Part B: A Retiree's Guide",
       description: "Should you combine FEHB and Medicare Part B? Compare costs, coordination of benefits, and incentives to decide what's best for federal retirees.",
       canonical: "https://www.medicarefaq.com/blog/should-federal-retirees-combine-fehb-with-medicare-part-b/",
@@ -743,7 +744,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "7 min read",
     featured: false,
-    image: "/images/generated/should-federal-retirees-combine-fehb-with-medicare-part-b-17cd45b9c703.png",
+    image: "/images/generated/should-federal-retirees-combine-fehb-with-medicare-part-b-58f09a77e25e.png",
     imageAlt: "FEHB and Medicare Part B: A Retiree's Guide",
     keyTakeaways: ["FEHB coverage does not end at Medicare eligibility; you choose to keep it, add Part B, or suspend FEHB", "When combined, Medicare typically becomes primary payer and FEHB pays second, reducing out-of-pocket costs", "Some FEHB carriers offer incentives like waived deductibles or lower copays for members enrolled in Part B", "The standard 2026 Part B premium is $202.90 per month, rising to $689.90 for high earners due to IRMAA surcharges", "Retirees with frequent specialist visits or chronic conditions often benefit most from adding Part B"],
     tableOfContents: [
