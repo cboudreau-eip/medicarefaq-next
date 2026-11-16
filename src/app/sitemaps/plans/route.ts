@@ -15,6 +15,7 @@ export function GET() {
     { url: `${BASE_URL}/medicare-supplement-plans/medigap-by-carrier/aetna-medicare-supplement-plans/plan-g/`, priority: "0.7", changefreq: "monthly" },
     { url: `${BASE_URL}/medicare-supplement-plans/medigap-by-carrier/mutual-of-omaha-medigap-plans/plan-g/`, priority: "0.7", changefreq: "monthly" },
     { url: `${BASE_URL}/medicare-supplement-plans/medigap-by-carrier/united-healthcare-medigap-plans/plan-g/`, priority: "0.7", changefreq: "monthly" },
+    { url: `${BASE_URL}/medicare-supplement-plans/medigap-by-carrier/humana-medigap-plans/plan-g/`, priority: "0.7", changefreq: "monthly" },
     { url: `${BASE_URL}/medicare-supplement-plans/alabama/`, priority: "0.7", changefreq: "monthly" },
     { url: `${BASE_URL}/medicare-supplement-plans/alaska/`, priority: "0.7", changefreq: "monthly" },
     { url: `${BASE_URL}/medicare-supplement-plans/arizona/`, priority: "0.7", changefreq: "monthly" },
