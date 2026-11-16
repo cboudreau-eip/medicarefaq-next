@@ -16429,7 +16429,7 @@ imageAlt: "Older couple link arms drinking champagne at a party with bunting and
   },
   {
     "type": "paragraph",
-    "content": "That standardized coverage does not make every policy the same value. The premium you pay, the way the company sets and adjusts rates, available discounts, the legal underwriting entity, and the policy choices in your ZIP code can all differ. Our [Plan G guide](/medicare-supplement-plans/plan-g/) explains the covered benefits. This article focuses on the next question: how to compare the companies selling those benefits. If you are considering Aetna, our [Aetna Plan G guide](/medicare-supplement-plans/medigap-by-carrier/aetna-medicare-supplement-plans/plan-g/) walks through its coverage, a documented pricing example, discounts, and enrollment requirements."
+    "content": "That standardized coverage does not make every policy the same value. The premium you pay, the way the company sets and adjusts rates, available discounts, the legal underwriting entity, and the policy choices in your ZIP code can all differ. Our [Plan G guide](/medicare-supplement-plans/plan-g/) explains the covered benefits. This article focuses on the next question: how to compare the companies selling those benefits. If you are considering Aetna, our [Aetna Plan G guide](/medicare-supplement-plans/medigap-by-carrier/aetna-medicare-supplement-plans/plan-g/) walks through its coverage, a documented pricing example, discounts, and enrollment requirements. Our [Mutual of Omaha Plan G guide](/medicare-supplement-plans/medigap-by-carrier/mutual-of-omaha-medigap-plans/plan-g/) explains its coverage, household discount considerations, legal insurer, and how to compare a personalized quote."
   },
   {
     "type": "callout",
