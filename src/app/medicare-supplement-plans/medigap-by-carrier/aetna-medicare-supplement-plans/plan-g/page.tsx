@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Shield, ArrowRight, Info } from "lucide-react";
 import SiteLayout from "@/components/SiteLayout";
 import ZipFormModal from "@/components/ZipFormModal";
+import GuideCta from "@/components/GuideCta";
 
 const parent = "/medicare-supplement-plans/medigap-by-carrier/aetna-medicare-supplement-plans/";
 const path = `${parent}plan-g/`;
@@ -118,7 +119,7 @@ export default function AetnaPlanGPage() {
       <p>The Pennsylvania example uses a 7% household discount calculation. That does not establish a nationwide Aetna discount. Ask who must live with you, whether another policy is required, and what happens if you no longer qualify.</p>
       <p>Also ask whether the policy uses attained-age, issue-age, or community rating. A policy without age-based increases can still have other premium increases. <Source href={sources.costs}>Medicare explains the factors affecting Medigap costs</Source>.</p>
       <Tip><strong>Comparison tip:</strong> Write down the discounted monthly premium, first-year fees, discount conditions, and effective date for each quote. Compare the same Plan G type before deciding which price is better.</Tip>
-      <Quote id="aetna-plan-g-cost" />
+      <GuideCta variant="medigap" description="Considering Aetna Plan G? Enter your ZIP code to compare Medicare Supplement options in your area. Availability and enrollment requirements apply." />
     </Section>
 
     <Section id="compare" title="Plan G vs. Plan N vs. high-deductible Plan G" shaded>
