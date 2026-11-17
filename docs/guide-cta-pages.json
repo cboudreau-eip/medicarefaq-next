@@ -136,7 +136,12 @@
     "https://www.medicarefaq.com/faqs/turning-65-these-are-the-most-common-medicare-questions-answered/",
     "https://www.medicarefaq.com/original-medicare/medicare-parts/medicare-part-d/mutual-of-omaha/",
     "https://www.medicarefaq.com/blog/essential-step-for-seniors-after-medicare-advantage-cancel/",
-    "https://www.medicarefaq.com/blog/trump-senior-tax-deduction-2027/"
+    "https://www.medicarefaq.com/blog/trump-senior-tax-deduction-2027/",
+    "https://www.medicarefaq.com/faqs/does-medicare-cover-chemotherapy/",
+    "https://www.medicarefaq.com/faqs/medicare-coverage-for-mammograms/",
+    "https://www.medicarefaq.com/faqs/applying-for-medicare/",
+    "https://www.medicarefaq.com/faqs/medicare-extra-help-program/",
+    "https://www.medicarefaq.com/faqs/does-medicare-cover-medical-alert-systems/"
   ],
   "automatic": {
     "/blog/medicare-acos-to-waive-part-b-copays-key-changes-in-2027/": {
@@ -266,6 +271,26 @@
     "/blog/essential-step-for-seniors-after-medicare-advantage-cancel/": {
       "variant": "medicare",
       "description": "Is your Medicare Advantage plan ending? Enter your ZIP code to explore replacement coverage options in your area. Enrollment and eligibility requirements apply."
+    },
+    "/faqs/does-medicare-cover-chemotherapy/": {
+      "variant": "medicare",
+      "description": "Reviewing your Medicare coverage options? Enter your ZIP code to compare plans in your area. This form does not arrange treatment or confirm coverage for a specific service."
+    },
+    "/faqs/medicare-coverage-for-mammograms/": {
+      "variant": "medicare",
+      "description": "Exploring Medicare coverage options? Enter your ZIP code to compare plans in your area. This form does not schedule a mammogram or confirm coverage for a specific service."
+    },
+    "/faqs/applying-for-medicare/": {
+      "variant": "medicare",
+      "description": "Getting ready for Medicare? Enter your ZIP code to explore plan options in your area. This form does not submit an application for Original Medicare."
+    },
+    "/faqs/medicare-extra-help-program/": {
+      "variant": "part-d",
+      "description": "Comparing prescription drug coverage? Enter your ZIP code to explore Part D plans in your area. This form is for plan comparisons, not an Extra Help application."
+    },
+    "/faqs/does-medicare-cover-medical-alert-systems/": {
+      "variant": "medicare",
+      "description": "Reviewing Medicare coverage options? Enter your ZIP code to compare plans in your area. Benefits vary by plan; this form does not order a medical alert device."
     }
   }
 }
