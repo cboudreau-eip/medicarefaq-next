@@ -124,7 +124,12 @@
     "https://www.medicarefaq.com/faqs/how-tricare-works-with-medicare/",
     "https://www.medicarefaq.com/faqs/medicare-savings-programs/",
     "https://www.medicarefaq.com/faqs/medicare-gym-membership/",
-    "https://www.medicarefaq.com/faqs/medicare-reimbursement/"
+    "https://www.medicarefaq.com/faqs/medicare-reimbursement/",
+    "https://www.medicarefaq.com/faqs/medicare-maximum-out-of-pocket/",
+    "https://www.medicarefaq.com/faqs/medicare-advantage-vs-medicare-supplement/",
+    "https://www.medicarefaq.com/faqs/does-medicare-cover-mri-ct-scans/",
+    "https://www.medicarefaq.com/faqs/medicare-part-d-late-enrollment-penalty/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/medigap-by-carrier/bankers-fidelity-medigap-plans/"
   ],
   "automatic": {
     "/blog/medicare-acos-to-waive-part-b-copays-key-changes-in-2027/": {
@@ -210,6 +215,26 @@
     "/faqs/medicare-reimbursement/": {
       "variant": "medicare",
       "description": "Reviewing your Medicare coverage options? Enter your ZIP code to compare plans in your area. This form does not submit or check reimbursement claims."
+    },
+    "/faqs/medicare-maximum-out-of-pocket/": {
+      "variant": "medicare",
+      "description": "Comparing Medicare costs and coverage? Enter your ZIP code to explore plan options in your area. Costs and coverage limits vary by plan."
+    },
+    "/faqs/medicare-advantage-vs-medicare-supplement/": {
+      "variant": "medicare",
+      "description": "Comparing your Medicare coverage options? Enter your ZIP code to explore plans in your area. Enrollment and eligibility requirements apply."
+    },
+    "/faqs/does-medicare-cover-mri-ct-scans/": {
+      "variant": "medicare",
+      "description": "Reviewing your Medicare coverage options? Enter your ZIP code to compare plans in your area. This form does not schedule imaging or confirm coverage for a specific test."
+    },
+    "/faqs/medicare-part-d-late-enrollment-penalty/": {
+      "variant": "part-d",
+      "description": "Exploring prescription drug coverage? Enter your ZIP code to compare Part D plans in your area. This form does not appeal or waive a late-enrollment penalty."
+    },
+    "/medicare-supplement-plans/medigap-by-carrier/bankers-fidelity-medigap-plans/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement coverage? Enter your ZIP code to explore available options in your area. Carrier availability and eligibility requirements apply."
     }
   }
 }

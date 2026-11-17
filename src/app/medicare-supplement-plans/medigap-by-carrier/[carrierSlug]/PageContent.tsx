@@ -7,6 +7,7 @@
  */
 
 import Link from "next/link";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import {
   Shield, ChevronDown, Phone, ArrowRight, CheckCircle2, XCircle,
   Star, Building2, MapPin, Globe, AlertTriangle
@@ -98,6 +99,7 @@ export default function PageContent({ carrierSlug }: { carrierSlug: string }) {
               About {carrier.shortName}
             </h2>
             <p className="text-slate-600 leading-relaxed">{carrier.overview}</p>
+            <ArticleGuideCta path={`/medicare-supplement-plans/medigap-by-carrier/${carrierSlug}/`} />
             {carrierSlug === "united-american-medigap-plans" && (
               <Link href="/medicare-supplement-plans/medigap-by-carrier/united-american-medigap-plans/plan-g/" className="inline-flex items-center gap-2 mt-5 text-teal-700 font-semibold underline underline-offset-4">Explore United American Plan G coverage, costs, and enrollment</Link>
             )}
