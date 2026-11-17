@@ -98,6 +98,9 @@ export default function PageContent({ carrierSlug }: { carrierSlug: string }) {
               About {carrier.shortName}
             </h2>
             <p className="text-slate-600 leading-relaxed">{carrier.overview}</p>
+            {carrierSlug === "bankers-fidelity-medigap-plans" && (
+              <Link href="/medicare-supplement-plans/medigap-by-carrier/bankers-fidelity-medigap-plans/plan-g/" className="inline-flex items-center gap-2 mt-5 text-teal-700 font-semibold underline underline-offset-4">Explore Bankers Fidelity Plan G coverage, costs, and enrollment</Link>
+            )}
             {carrierSlug === "medico-medigap-plans" && (
               <Link href="/medicare-supplement-plans/medigap-by-carrier/medico-medigap-plans/plan-g/" className="inline-flex items-center gap-2 mt-5 text-teal-700 font-semibold underline underline-offset-4">Explore Wellabe Plan G coverage, costs, and enrollment</Link>
             )}
