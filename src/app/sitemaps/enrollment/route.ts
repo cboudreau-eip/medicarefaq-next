@@ -7,6 +7,7 @@ const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.medicarefaq.co
 
 export function GET() {
   const entries: SitemapEntry[] = [
+    { url: `${BASE_URL}/medicare-enrollment/help/tampa-fl/`, priority: "0.7", changefreq: "monthly" },
     { url: `${BASE_URL}/medicare-open-enrollment/`, priority: "0.7", changefreq: "monthly" },
     { url: `${BASE_URL}/medicare-enrollment/turning-65/`, priority: "0.8", changefreq: "monthly" },
     { url: `${BASE_URL}/medicare-enrollment/working-past-65/`, priority: "0.8", changefreq: "monthly" },

@@ -538,6 +538,8 @@ export default function HowToEnroll() {
                 </div>
               </section>
 
+              <p className="mb-8 text-slate-600">Live in Hillsborough County? See our <Link href="/medicare-enrollment/help/tampa-fl/" className="text-teal-700 underline">Tampa Medicare enrollment help guide</Link> for phone assistance, local coverage checks, and Florida financial-assistance resources.</p>
+
               {/* Related Pages */}
               <nav aria-label="Related pages">
                 <ul className="grid sm:grid-cols-4 gap-4 list-none">

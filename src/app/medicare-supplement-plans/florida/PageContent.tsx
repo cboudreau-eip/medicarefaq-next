@@ -856,6 +856,8 @@ export default function FloridaPageContent() {
         </div>
       </section>
 
+      <div className="container max-w-4xl py-6"><p className="text-slate-600">Live in Tampa or Hillsborough County? Our <Link href="/medicare-enrollment/help/tampa-fl/" className="text-teal-700 underline">Tampa Medicare enrollment help page</Link> covers phone assistance, Florida enrollment protections, and help paying Medicare costs.</p></div>
+
       {/* Bottom CTA */}
       <section className="py-12">
         <div className="container max-w-4xl">
