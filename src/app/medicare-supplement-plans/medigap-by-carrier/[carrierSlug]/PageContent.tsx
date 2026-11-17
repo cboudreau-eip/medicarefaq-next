@@ -100,6 +100,7 @@ export default function PageContent({ carrierSlug }: { carrierSlug: string }) {
             </h2>
             <p className="text-slate-600 leading-relaxed">{carrier.overview}</p>
             <ArticleGuideCta path={`/medicare-supplement-plans/medigap-by-carrier/${carrierSlug}/`} />
+            {carrierSlug === "blue-cross-blue-shield-medigap-plans" && (<Link href="/medicare-supplement-plans/medigap-by-carrier/anthem-medigap-plans/plan-g/" className="inline-flex items-center gap-2 mt-5 text-teal-700 font-semibold underline underline-offset-4">Explore Anthem Plan G coverage, costs, and SELECT options</Link>)}
             {carrierSlug === "united-american-medigap-plans" && (
               <Link href="/medicare-supplement-plans/medigap-by-carrier/united-american-medigap-plans/plan-g/" className="inline-flex items-center gap-2 mt-5 text-teal-700 font-semibold underline underline-offset-4">Explore United American Plan G coverage, costs, and enrollment</Link>
             )}
