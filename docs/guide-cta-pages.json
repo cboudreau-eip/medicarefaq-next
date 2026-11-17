@@ -109,7 +109,12 @@
     "https://www.medicarefaq.com/faqs/why-medicare-advantage-plans-are-bad/",
     "https://www.medicarefaq.com/faqs/medicare-supplement-plans-medigap-pricing-methods/",
     "https://www.medicarefaq.com/medicare-supplement-plans/plan-n/",
-    "https://www.medicarefaq.com/faqs/top-10-medicare-supplement-insurance-companies/"
+    "https://www.medicarefaq.com/faqs/top-10-medicare-supplement-insurance-companies/",
+    "https://www.medicarefaq.com/faqs/can-you-drop-medicare-part-b/",
+    "https://www.medicarefaq.com/faqs/medicare-and-va-benefits/",
+    "https://www.medicarefaq.com/faqs/medicare-for-green-card-holders/",
+    "https://www.medicarefaq.com/faqs/how-long-does-it-take-to-get-medicare-part-b/",
+    "https://www.medicarefaq.com/faqs/what-is-medicare-creditable-coverage/"
   ],
   "automatic": {
     "/blog/medicare-acos-to-waive-part-b-copays-key-changes-in-2027/": {
@@ -135,6 +140,26 @@
     "/faqs/top-10-medicare-supplement-insurance-companies/": {
       "variant": "medigap",
       "description": "Comparing Medicare Supplement coverage? Enter your ZIP code to explore options in your area. Enrollment and eligibility requirements apply."
+    },
+    "/faqs/can-you-drop-medicare-part-b/": {
+      "variant": "medicare",
+      "description": "Reviewing your Medicare coverage options? Enter your ZIP code to explore plans in your area. This form does not cancel Part B."
+    },
+    "/faqs/medicare-and-va-benefits/": {
+      "variant": "medicare",
+      "description": "Exploring Medicare coverage alongside your VA benefits? Enter your ZIP code to compare Medicare plan options. This form does not change your VA benefits."
+    },
+    "/faqs/medicare-for-green-card-holders/": {
+      "variant": "medicare",
+      "description": "Exploring Medicare plan options? Enter your ZIP code to compare coverage in your area. Medicare eligibility and enrollment requirements apply."
+    },
+    "/faqs/how-long-does-it-take-to-get-medicare-part-b/": {
+      "variant": "medicare",
+      "description": "Planning your Medicare coverage? Enter your ZIP code to explore plan options in your area. This form does not submit or check a Part B application."
+    },
+    "/faqs/what-is-medicare-creditable-coverage/": {
+      "variant": "medicare",
+      "description": "Reviewing your coverage options? Enter your ZIP code to explore Medicare plans in your area. This form does not verify whether your current coverage is creditable."
     }
   }
 }
