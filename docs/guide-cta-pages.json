@@ -156,7 +156,13 @@
     "https://www.medicarefaq.com/faqs/does-medicare-cover-dentures/",
     "https://www.medicarefaq.com/faqs/when-should-you-enroll-in-medicare-if-still-working/",
     "https://www.medicarefaq.com/medicare-supplement-plans/washington/",
-    "https://www.medicarefaq.com/faqs/manufacturers-coupons-and-medicare/"
+    "https://www.medicarefaq.com/faqs/manufacturers-coupons-and-medicare/",
+    "https://www.medicarefaq.com/faqs/medicare-annual-enrollment-period/",
+    "https://www.medicarefaq.com/faqs/what-is-the-best-medicare-supplement-plan/",
+    "https://www.medicarefaq.com/faqs/average-cost-of-medicare-supplement-plans/",
+    "https://www.medicarefaq.com/faqs/part-d-plans-what-you-need-to-know-to-minimize-costs/",
+    "https://www.medicarefaq.com/faqs/medicare-plan-g-reviews/",
+    "https://www.medicarefaq.com/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one/"
   ],
   "automatic": {
     "/blog/medicare-acos-to-waive-part-b-copays-key-changes-in-2027/": {
@@ -366,6 +372,30 @@
     "/faqs/manufacturers-coupons-and-medicare/": {
       "variant": "part-d",
       "description": "Reviewing your prescription coverage? Enter your ZIP code to compare Part D options in your area. This form compares plans; it does not provide manufacturer coupons or determine assistance eligibility."
+    },
+    "/faqs/medicare-annual-enrollment-period/": {
+      "variant": "medicare",
+      "description": "Reviewing your coverage during Annual Enrollment? Enter your ZIP code to explore Medicare plan options in your area. Enrollment and eligibility requirements apply."
+    },
+    "/faqs/what-is-the-best-medicare-supplement-plan/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement plans? Enter your ZIP code to explore options in your area. Enrollment and eligibility requirements apply."
+    },
+    "/faqs/average-cost-of-medicare-supplement-plans/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement premiums? Enter your ZIP code to explore options in your area. Your costs depend on the carrier, coverage, and eligibility."
+    },
+    "/faqs/part-d-plans-what-you-need-to-know-to-minimize-costs/": {
+      "variant": "part-d",
+      "description": "Reviewing prescription drug costs? Enter your ZIP code to explore Part D plans in your area. Drug coverage and pharmacy costs vary by plan."
+    },
+    "/faqs/medicare-plan-g-reviews/": {
+      "variant": "medigap",
+      "description": "Ready to compare Medicare Supplement options? Enter your ZIP code to explore coverage in your area. Carrier availability and eligibility requirements apply."
+    },
+    "/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one/": {
+      "variant": "medigap",
+      "description": "Exploring Medicare Supplement coverage? Enter your ZIP code to compare options in your area. Enrollment and eligibility requirements apply."
     }
   }
 }
