@@ -1,5 +1,7 @@
 "use client";
 
+import ArticleGuideCta from "@/components/ArticleGuideCta";
+
 /**
  * Washington Medicare Supplement Comparison Page
  * Route: /medicare-supplement-plans/washington/
@@ -430,6 +432,7 @@ export default function WashingtonPageContent() {
             compare rates and switch carriers any month, giving you ongoing flexibility that most
             states do not offer.
           </p>
+          <ArticleGuideCta path="/medicare-supplement-plans/washington/" />
         </div>
       </section>
 

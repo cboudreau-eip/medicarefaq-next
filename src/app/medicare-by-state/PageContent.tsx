@@ -1,5 +1,7 @@
 "use client";
 
+import ArticleGuideCta from "@/components/ArticleGuideCta";
+
 import Link from "next/link";
 import { ChevronDown, Calendar, Shield, ArrowRight } from "lucide-react";
 import InteractiveUSMap from "@/components/InteractiveUSMap";
@@ -65,6 +67,7 @@ export default function PageContent() {
               Not all states have a birthday rule. Currently, {birthdayRuleStates.length} states offer this protection. Use the interactive map below to check your state.
             </p>
           </div>
+          <ArticleGuideCta path="/medicare-by-state/" />
         </div>
       </section>
 

@@ -151,7 +151,12 @@
     "https://www.medicarefaq.com/faqs/medicare-special-enrollment-periods/",
     "https://www.medicarefaq.com/medicare-supplement-plans/high-deductible-plan-f/",
     "https://www.medicarefaq.com/faqs/medicare-secondary-insurance/",
-    "https://www.medicarefaq.com/faqs/deductible-copay-coinsurance-premium/"
+    "https://www.medicarefaq.com/faqs/deductible-copay-coinsurance-premium/",
+    "https://www.medicarefaq.com/medicare-by-state/",
+    "https://www.medicarefaq.com/faqs/does-medicare-cover-dentures/",
+    "https://www.medicarefaq.com/faqs/when-should-you-enroll-in-medicare-if-still-working/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/washington/",
+    "https://www.medicarefaq.com/faqs/manufacturers-coupons-and-medicare/"
   ],
   "automatic": {
     "/blog/medicare-acos-to-waive-part-b-copays-key-changes-in-2027/": {
@@ -341,6 +346,26 @@
     "/faqs/deductible-copay-coinsurance-premium/": {
       "variant": "medicare",
       "description": "Comparing Medicare costs and coverage? Enter your ZIP code to explore plan options in your area. Premiums and out-of-pocket costs vary by plan."
+    },
+    "/medicare-by-state/": {
+      "variant": "medigap",
+      "description": "Considering a Medicare Supplement plan change? Enter your ZIP code to compare Medigap options in your area. Switching rights and eligibility vary by state."
+    },
+    "/faqs/does-medicare-cover-dentures/": {
+      "variant": "medicare",
+      "description": "Exploring coverage options? Enter your ZIP code to compare Medicare plans in your area. Dental benefits and denture coverage vary by plan."
+    },
+    "/faqs/when-should-you-enroll-in-medicare-if-still-working/": {
+      "variant": "medicare",
+      "description": "Planning your transition from employer coverage? Enter your ZIP code to explore Medicare coverage options. This form compares plans; it does not enroll you in Original Medicare."
+    },
+    "/medicare-supplement-plans/washington/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement coverage in Washington? Enter your ZIP code to explore Medigap plan options and rates in your area."
+    },
+    "/faqs/manufacturers-coupons-and-medicare/": {
+      "variant": "part-d",
+      "description": "Reviewing your prescription coverage? Enter your ZIP code to compare Part D options in your area. This form compares plans; it does not provide manufacturer coupons or determine assistance eligibility."
     }
   }
 }
