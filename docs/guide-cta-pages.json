@@ -141,7 +141,12 @@
     "https://www.medicarefaq.com/faqs/medicare-coverage-for-mammograms/",
     "https://www.medicarefaq.com/faqs/applying-for-medicare/",
     "https://www.medicarefaq.com/faqs/medicare-extra-help-program/",
-    "https://www.medicarefaq.com/faqs/does-medicare-cover-medical-alert-systems/"
+    "https://www.medicarefaq.com/faqs/does-medicare-cover-medical-alert-systems/",
+    "https://www.medicarefaq.com/faqs/when-can-i-change-my-medicare-supplement-plan/",
+    "https://www.medicarefaq.com/faqs/medicare-late-enrollment-penalties/",
+    "https://www.medicarefaq.com/faqs/medicare-benefits/",
+    "https://www.medicarefaq.com/faqs/medicare-low-income-subsidy/",
+    "https://www.medicarefaq.com/faqs/does-medicare-cover-leqembi/"
   ],
   "automatic": {
     "/blog/medicare-acos-to-waive-part-b-copays-key-changes-in-2027/": {
@@ -291,6 +296,26 @@
     "/faqs/does-medicare-cover-medical-alert-systems/": {
       "variant": "medicare",
       "description": "Reviewing Medicare coverage options? Enter your ZIP code to compare plans in your area. Benefits vary by plan; this form does not order a medical alert device."
+    },
+    "/faqs/when-can-i-change-my-medicare-supplement-plan/": {
+      "variant": "medigap",
+      "description": "Considering a change to Medicare Supplement coverage? Enter your ZIP code to explore options in your area. Enrollment and eligibility requirements apply."
+    },
+    "/faqs/medicare-late-enrollment-penalties/": {
+      "variant": "medicare",
+      "description": "Reviewing your Medicare coverage options? Enter your ZIP code to compare plans in your area. This form does not appeal or waive enrollment penalties."
+    },
+    "/faqs/medicare-benefits/": {
+      "variant": "medicare",
+      "description": "Exploring your Medicare coverage options? Enter your ZIP code to compare plans in your area. Benefits and availability vary by plan."
+    },
+    "/faqs/medicare-low-income-subsidy/": {
+      "variant": "part-d",
+      "description": "Comparing prescription drug coverage? Enter your ZIP code to explore Part D plans in your area. This form is for plan comparisons, not a subsidy application."
+    },
+    "/faqs/does-medicare-cover-leqembi/": {
+      "variant": "medicare",
+      "description": "Reviewing your Medicare coverage options? Enter your ZIP code to compare plans in your area. This form does not arrange treatment or confirm coverage for a specific medication."
     }
   }
 }
