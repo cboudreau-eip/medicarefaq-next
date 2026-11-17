@@ -162,7 +162,12 @@
     "https://www.medicarefaq.com/faqs/average-cost-of-medicare-supplement-plans/",
     "https://www.medicarefaq.com/faqs/part-d-plans-what-you-need-to-know-to-minimize-costs/",
     "https://www.medicarefaq.com/faqs/medicare-plan-g-reviews/",
-    "https://www.medicarefaq.com/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one/"
+    "https://www.medicarefaq.com/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one/",
+    "https://www.medicarefaq.com/faqs/does-medicare-cover-pre-existing-conditions/",
+    "https://www.medicarefaq.com/faqs/delay-medicare/",
+    "https://www.medicarefaq.com/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-plans-2026/",
+    "https://www.medicarefaq.com/faqs/medicare-hmo-vs-ppo/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/medigap-by-carrier/united-american-medigap-plans/"
   ],
   "automatic": {
     "/blog/medicare-acos-to-waive-part-b-copays-key-changes-in-2027/": {
@@ -396,6 +401,26 @@
     "/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one/": {
       "variant": "medigap",
       "description": "Exploring Medicare Supplement coverage? Enter your ZIP code to compare options in your area. Enrollment and eligibility requirements apply."
+    },
+    "/faqs/does-medicare-cover-pre-existing-conditions/": {
+      "variant": "medicare",
+      "description": "Exploring Medicare coverage with a pre-existing condition? Enter your ZIP code to compare coverage options in your area. Eligibility and enrollment rules vary by coverage type."
+    },
+    "/faqs/delay-medicare/": {
+      "variant": "medicare",
+      "description": "Planning when to move to Medicare? Enter your ZIP code to explore coverage options in your area. This form compares plans; it does not determine whether you can safely delay enrollment."
+    },
+    "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-plans-2026/": {
+      "variant": "part-d",
+      "description": "Enter your ZIP code to get started comparing prescription drug coverage options in your area."
+    },
+    "/faqs/medicare-hmo-vs-ppo/": {
+      "variant": "advantage",
+      "description": "Comparing Medicare HMO and PPO options? Enter your ZIP code to explore Medicare Advantage plans in your area. Provider networks, benefits, and costs vary by plan."
+    },
+    "/medicare-supplement-plans/medigap-by-carrier/united-american-medigap-plans/": {
+      "variant": "medigap",
+      "description": "Reviewing Medicare Supplement coverage? Enter your ZIP code to compare Medigap options in your area. Available insurers and rates vary by location."
     }
   }
 }
