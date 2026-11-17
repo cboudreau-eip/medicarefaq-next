@@ -129,7 +129,12 @@
     "https://www.medicarefaq.com/faqs/medicare-advantage-vs-medicare-supplement/",
     "https://www.medicarefaq.com/faqs/does-medicare-cover-mri-ct-scans/",
     "https://www.medicarefaq.com/faqs/medicare-part-d-late-enrollment-penalty/",
-    "https://www.medicarefaq.com/medicare-supplement-plans/medigap-by-carrier/bankers-fidelity-medigap-plans/"
+    "https://www.medicarefaq.com/medicare-supplement-plans/medigap-by-carrier/bankers-fidelity-medigap-plans/",
+    "https://www.medicarefaq.com/faqs/medicare-prior-authorization/",
+    "https://www.medicarefaq.com/faqs/medicare-initial-enrollment-period/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/medigap-by-carrier/medico-medigap-plans/",
+    "https://www.medicarefaq.com/faqs/turning-65-these-are-the-most-common-medicare-questions-answered/",
+    "https://www.medicarefaq.com/original-medicare/medicare-parts/medicare-part-d/mutual-of-omaha/"
   ],
   "automatic": {
     "/blog/medicare-acos-to-waive-part-b-copays-key-changes-in-2027/": {
@@ -235,6 +240,26 @@
     "/medicare-supplement-plans/medigap-by-carrier/bankers-fidelity-medigap-plans/": {
       "variant": "medigap",
       "description": "Comparing Medicare Supplement coverage? Enter your ZIP code to explore available options in your area. Carrier availability and eligibility requirements apply."
+    },
+    "/faqs/medicare-prior-authorization/": {
+      "variant": "medicare",
+      "description": "Reviewing Medicare coverage options? Enter your ZIP code to compare plans in your area. This form does not request or check prior authorization."
+    },
+    "/faqs/medicare-initial-enrollment-period/": {
+      "variant": "medicare",
+      "description": "Getting ready for Medicare? Enter your ZIP code to explore coverage options in your area. Enrollment and eligibility requirements apply."
+    },
+    "/medicare-supplement-plans/medigap-by-carrier/medico-medigap-plans/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement coverage? Enter your ZIP code to explore options in your area. Carrier availability and eligibility requirements apply."
+    },
+    "/faqs/turning-65-these-are-the-most-common-medicare-questions-answered/": {
+      "variant": "medicare",
+      "description": "Preparing for Medicare at 65? Enter your ZIP code to explore coverage options in your area."
+    },
+    "/original-medicare/medicare-parts/medicare-part-d/mutual-of-omaha/": {
+      "variant": "part-d",
+      "description": "Comparing prescription drug coverage? Enter your ZIP code to explore available Part D plans in your area. Carrier and plan availability vary."
     }
   }
 }

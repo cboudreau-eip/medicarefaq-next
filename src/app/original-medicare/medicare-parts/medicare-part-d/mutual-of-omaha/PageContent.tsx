@@ -5,6 +5,7 @@
  */
 
 import Link from "next/link";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import { Pill, ArrowRight, CheckCircle2, Star, Phone, ChevronDown } from "lucide-react";
 import { useState } from "react";
 import { trackPhoneClick, trackCtaClick } from "@/lib/analytics";
@@ -82,6 +83,8 @@ export default function PageContent() {
               Mutual of Omaha Part D plans are designed to be straightforward and affordable, with a focus on covering the most commonly used medications. Their plans include access to a large pharmacy network and a mail-order option for maintenance medications.
             </p>
           </section>
+
+          <ArticleGuideCta path="/original-medicare/medicare-parts/medicare-part-d/mutual-of-omaha/" />
 
           {/* Plan Highlights */}
           <section className="mb-10">
