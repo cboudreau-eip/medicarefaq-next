@@ -236,6 +236,8 @@ export interface SimpleFAQArticleData {
 
 export interface BlogSectionContent {
   type: "paragraph" | "heading" | "table" | "callout" | "list" | "faq" | "image" | "warning" | "info" | "tip" | "success" | "note" | "error" | "eddie-pro-tip" | "steps" | "zip-cta" | "window-graphic";
+  // Opt into the shared orange CTA and its tracking for a manually placed block.
+  guideVariant?: "part-d" | "advantage" | "medigap" | "medicare";
   // For zip-cta
   headline?: string;
   subtext?: string;

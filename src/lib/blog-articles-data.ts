@@ -12,7 +12,9 @@ import { drugNegotiationArticle } from "./blog-article-drug-negotiation";
 import { priorAuthSNFDenialsArticle } from "./blog-article-prior-auth-snf-denials";
 import { preventiveServicesArticle } from "./blog-article-preventive-services";
 import { medicareScamsArticle } from "./blog-article-medicare-scams";
+import { seniorDeduction2027Article } from "./blog-article-senior-deduction-2027";
 export const blogArticles: BlogArticleData[] = [
+  seniorDeduction2027Article,
   {
     slug: "medicare-acos-to-waive-part-b-copays-key-changes-in-2027",
     seo: {

@@ -1,5 +1,6 @@
 "use client";
 import ArticleGuideCta from "@/components/ArticleGuideCta";
+import GuideCta from "@/components/GuideCta";
 import { renderInline } from "@/components/ArticleInline";
 import { repairInternalHref } from "@/lib/broken-link-repairs";
 
@@ -321,6 +322,9 @@ function renderSection(section: BlogSectionContent, idx: number) {
       );
     }
     case "zip-cta": {
+      if (section.guideVariant) {
+        return <div key={idx} className="not-prose my-10"><GuideCta variant={section.guideVariant} description={section.subtext} /></div>;
+      }
       const headline = section.headline || "Not Sure Which Plan Is Right for You?";
       const subtext = section.subtext || "Answer a few quick questions and get matched with plans in your area. Free, no obligation.";
       const btnLabel = section.buttonLabel || "Get Started Free";

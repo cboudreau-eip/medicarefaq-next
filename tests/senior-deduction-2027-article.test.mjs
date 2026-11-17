@@ -1,0 +1,52 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import fs from "node:fs";
+const source=fs.readFileSync("src/lib/blog-article-senior-deduction-2027.ts","utf8");
+const article=JSON.parse(source.slice(source.indexOf("= ")+2).trim().replace(/;$/,""));
+test("published article has matching navigation, valid related articles, and clear year scope",()=>{
+ const headings=article.sections.filter(s=>s.type==="heading"&&s.level===2);
+ assert.deepEqual(article.tableOfContents.map(t=>t.id),headings.map(h=>h.id));
+ assert.equal(new Set(headings.map(h=>h.id)).size,headings.length);
+ assert.equal(article.draft,undefined);
+ assert.equal(article.reviewer,"");
+ assert.match(source,/generally reported on a return filed in 2028/);
+ assert.doesNotMatch(source,/—/);
+ const data=fs.readFileSync("src/lib/blog-articles-data.ts","utf8");
+ for(const slug of article.relatedSlugs) assert.ok(data.includes(slug));
+ assert.ok((source.match(/\]\(\//g)||[]).length>=5);
+});
+test("phaseout examples and thresholds agree with enacted six-percent rule",()=>{
+ const allowed=(magi,joint,people)=>Math.max(0,6000-Math.max(0,magi-(joint?150000:75000))*0.06)*people;
+ assert.equal(allowed(100000,false,1),4500);
+ assert.equal(allowed(200000,true,1),3000);
+ assert.equal(allowed(200000,true,2),6000);
+ assert.equal(allowed(175000,false,1),0);
+ assert.equal(allowed(250000,true,2),0);
+ const limits=article.sections.find(s=>s.type==="table"&&s.title.includes("income limits"));
+ assert.deepEqual(limits.rows[2],["Married filing jointly, two qualifying spouses","$12,000","$150,000","$250,000"]);
+ assert.ok(source.includes("$4,500")&&source.includes("$990"));
+});
+test("orange tracked CTA appears after Medicare discussion and does not claim to offer tax help",()=>{
+ const ctas=article.sections.filter(s=>s.type==="zip-cta");
+ assert.equal(ctas.length,1);
+ assert.equal(ctas[0].guideVariant,"medicare");
+ assert.match(ctas[0].subtext,/not tax advice or a deduction application/);
+ const c=article.sections.indexOf(ctas[0]);
+ assert.ok(c>article.sections.findIndex(s=>s.id==="social-security-and-medicare"));
+ assert.ok(c<article.sections.findIndex(s=>s.id==="claim-the-deduction"));
+ const renderer=fs.readFileSync("src/app/blog/[slug]/BlogPostContent.tsx","utf8");
+ assert.match(renderer,/if \(section.guideVariant\)/);
+ assert.match(renderer,/<GuideCta variant=\{section.guideVariant\}/);
+ const guide=fs.readFileSync("src/components/GuideCta.tsx","utf8");
+ assert.match(guide,/trackingId="guide-cta"/);
+ const registry=JSON.parse(fs.readFileSync("docs/guide-cta-pages.json","utf8"));
+ assert.ok(registry.pages.includes(article.seo.canonical));
+ assert.ok(!registry.automatic["/blog/"+article.slug+"/"],"no duplicate automatic CTA");
+});
+test("FAQ and structured content are complete",()=>{
+ assert.equal(article.sections.filter(s=>s.type==="eddie-pro-tip").length,1);
+ const faq=article.sections.filter(s=>s.type==="faq");
+ assert.equal(faq.length,1);
+ assert.ok(faq[0].faqs.length>=8);
+ for(const f of faq[0].faqs) assert.ok(f.answer.split(/\s+/).length<=80);
+});
