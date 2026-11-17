@@ -119,7 +119,12 @@
     "https://www.medicarefaq.com/faqs/when-does-medicare-start/",
     "https://www.medicarefaq.com/faqs/what-dental-expenses-does-medicare-cover/",
     "https://www.medicarefaq.com/faqs/state-specific-medicare-rules/",
-    "https://www.medicarefaq.com/faqs/medigap-birthday-rule/"
+    "https://www.medicarefaq.com/faqs/medigap-birthday-rule/",
+    "https://www.medicarefaq.com/faqs/medicare-and-mail-order-prescriptions/",
+    "https://www.medicarefaq.com/faqs/how-tricare-works-with-medicare/",
+    "https://www.medicarefaq.com/faqs/medicare-savings-programs/",
+    "https://www.medicarefaq.com/faqs/medicare-gym-membership/",
+    "https://www.medicarefaq.com/faqs/medicare-reimbursement/"
   ],
   "automatic": {
     "/blog/medicare-acos-to-waive-part-b-copays-key-changes-in-2027/": {
@@ -185,6 +190,26 @@
     "/faqs/medigap-birthday-rule/": {
       "variant": "medigap",
       "description": "Considering a change to Medicare Supplement coverage? Enter your ZIP code to explore options in your area. State rules and eligibility requirements apply."
+    },
+    "/faqs/medicare-and-mail-order-prescriptions/": {
+      "variant": "part-d",
+      "description": "Comparing prescription drug coverage? Enter your ZIP code to explore Part D plans in your area. This form does not order or refill prescriptions."
+    },
+    "/faqs/how-tricare-works-with-medicare/": {
+      "variant": "medicare",
+      "description": "Reviewing your Medicare coverage options? Enter your ZIP code to explore plans in your area. This form does not enroll you in or change TRICARE coverage."
+    },
+    "/faqs/medicare-savings-programs/": {
+      "variant": "medicare",
+      "description": "Exploring Medicare coverage options? Enter your ZIP code to compare plans in your area. This form is for plan comparisons, not a Medicare Savings Program application."
+    },
+    "/faqs/medicare-gym-membership/": {
+      "variant": "medicare",
+      "description": "Exploring Medicare coverage options? Enter your ZIP code to compare plans in your area. Fitness benefits and participating gyms vary by plan."
+    },
+    "/faqs/medicare-reimbursement/": {
+      "variant": "medicare",
+      "description": "Reviewing your Medicare coverage options? Enter your ZIP code to compare plans in your area. This form does not submit or check reimbursement claims."
     }
   }
 }
