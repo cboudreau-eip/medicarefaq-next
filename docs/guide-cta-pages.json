@@ -114,7 +114,12 @@
     "https://www.medicarefaq.com/faqs/medicare-and-va-benefits/",
     "https://www.medicarefaq.com/faqs/medicare-for-green-card-holders/",
     "https://www.medicarefaq.com/faqs/how-long-does-it-take-to-get-medicare-part-b/",
-    "https://www.medicarefaq.com/faqs/what-is-medicare-creditable-coverage/"
+    "https://www.medicarefaq.com/faqs/what-is-medicare-creditable-coverage/",
+    "https://www.medicarefaq.com/faqs/dental-and-vision-insurance-for-seniors/",
+    "https://www.medicarefaq.com/faqs/when-does-medicare-start/",
+    "https://www.medicarefaq.com/faqs/what-dental-expenses-does-medicare-cover/",
+    "https://www.medicarefaq.com/faqs/state-specific-medicare-rules/",
+    "https://www.medicarefaq.com/faqs/medigap-birthday-rule/"
   ],
   "automatic": {
     "/blog/medicare-acos-to-waive-part-b-copays-key-changes-in-2027/": {
@@ -160,6 +165,26 @@
     "/faqs/what-is-medicare-creditable-coverage/": {
       "variant": "medicare",
       "description": "Reviewing your coverage options? Enter your ZIP code to explore Medicare plans in your area. This form does not verify whether your current coverage is creditable."
+    },
+    "/faqs/dental-and-vision-insurance-for-seniors/": {
+      "variant": "medicare",
+      "description": "Exploring Medicare coverage options? Enter your ZIP code to compare plans in your area. Dental and vision benefits vary by plan."
+    },
+    "/faqs/when-does-medicare-start/": {
+      "variant": "medicare",
+      "description": "Planning your Medicare coverage? Enter your ZIP code to explore plan options in your area. This form does not submit or check a Medicare application."
+    },
+    "/faqs/what-dental-expenses-does-medicare-cover/": {
+      "variant": "medicare",
+      "description": "Reviewing your Medicare coverage options? Enter your ZIP code to compare plans in your area. Dental benefits and coverage limits vary by plan."
+    },
+    "/faqs/state-specific-medicare-rules/": {
+      "variant": "medicare",
+      "description": "Exploring Medicare options where you live? Enter your ZIP code to compare coverage in your area. Plan availability and enrollment requirements vary."
+    },
+    "/faqs/medigap-birthday-rule/": {
+      "variant": "medigap",
+      "description": "Considering a change to Medicare Supplement coverage? Enter your ZIP code to explore options in your area. State rules and eligibility requirements apply."
     }
   }
 }
