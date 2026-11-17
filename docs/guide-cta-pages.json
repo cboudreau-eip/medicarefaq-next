@@ -172,7 +172,12 @@
     "https://www.medicarefaq.com/faqs/does-medicare-cover-dental-implants/",
     "https://www.medicarefaq.com/medicare-supplement-plans/florida/plan-g/",
     "https://www.medicarefaq.com/faqs/medicare-coverage-for-diabetic-shoes/",
-    "https://www.medicarefaq.com/medicare-part-c/medicare-advantage-plan-hmo-pos/"
+    "https://www.medicarefaq.com/medicare-part-c/medicare-advantage-plan-hmo-pos/",
+    "https://www.medicarefaq.com/faqs/does-medicare-cover-meals-on-wheels/",
+    "https://www.medicarefaq.com/faqs/25-medicare-qas-you-should-know/",
+    "https://www.medicarefaq.com/faqs/does-medicare-cover-sleep-apnea/",
+    "https://www.medicarefaq.com/faqs/does-medicare-cover-asthma-inhalers/",
+    "https://www.medicarefaq.com/faqs/does-medicare-cover-macular-degeneration/"
   ],
   "automatic": {
     "/blog/medicare-acos-to-waive-part-b-copays-key-changes-in-2027/": {
@@ -446,6 +451,26 @@
     "/medicare-part-c/medicare-advantage-plan-hmo-pos/": {
       "variant": "advantage",
       "description": "Enter your ZIP code to get started comparing Medicare Advantage plans in your area."
+    },
+    "/faqs/does-medicare-cover-meals-on-wheels/": {
+      "variant": "medicare",
+      "description": "Exploring Medicare coverage options? Enter your ZIP code to compare plans in your area. This form compares insurance plans; it does not arrange meal delivery or determine meal-benefit eligibility."
+    },
+    "/faqs/25-medicare-qas-you-should-know/": {
+      "variant": "medicare",
+      "description": "Ready to explore your Medicare coverage options? Enter your ZIP code to compare plans available in your area."
+    },
+    "/faqs/does-medicare-cover-sleep-apnea/": {
+      "variant": "medicare",
+      "description": "Reviewing coverage for sleep apnea care? Enter your ZIP code to explore Medicare plan options. Coverage requirements, providers, and equipment costs vary."
+    },
+    "/faqs/does-medicare-cover-asthma-inhalers/": {
+      "variant": "part-d",
+      "description": "Comparing prescription coverage for asthma inhalers? Enter your ZIP code to explore Part D options in your area. Covered medicines, pharmacy networks, and costs vary by plan."
+    },
+    "/faqs/does-medicare-cover-macular-degeneration/": {
+      "variant": "medicare",
+      "description": "Reviewing your Medicare coverage options? Enter your ZIP code to compare plans in your area. Check coverage for your eye-care providers and prescribed treatments before choosing a plan."
     }
   }
 }
