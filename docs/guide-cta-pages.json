@@ -167,7 +167,12 @@
     "https://www.medicarefaq.com/faqs/delay-medicare/",
     "https://www.medicarefaq.com/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-plans-2026/",
     "https://www.medicarefaq.com/faqs/medicare-hmo-vs-ppo/",
-    "https://www.medicarefaq.com/medicare-supplement-plans/medigap-by-carrier/united-american-medigap-plans/"
+    "https://www.medicarefaq.com/medicare-supplement-plans/medigap-by-carrier/united-american-medigap-plans/",
+    "https://www.medicarefaq.com/faqs/welcome-to-medicare-preventative-visit/",
+    "https://www.medicarefaq.com/faqs/does-medicare-cover-dental-implants/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/florida/plan-g/",
+    "https://www.medicarefaq.com/faqs/medicare-coverage-for-diabetic-shoes/",
+    "https://www.medicarefaq.com/medicare-part-c/medicare-advantage-plan-hmo-pos/"
   ],
   "automatic": {
     "/blog/medicare-acos-to-waive-part-b-copays-key-changes-in-2027/": {
@@ -421,6 +426,26 @@
     "/medicare-supplement-plans/medigap-by-carrier/united-american-medigap-plans/": {
       "variant": "medigap",
       "description": "Reviewing Medicare Supplement coverage? Enter your ZIP code to compare Medigap options in your area. Available insurers and rates vary by location."
+    },
+    "/faqs/welcome-to-medicare-preventative-visit/": {
+      "variant": "medicare",
+      "description": "Getting started with Medicare? Enter your ZIP code to explore coverage options in your area. This form compares plans; it does not schedule a preventive visit."
+    },
+    "/faqs/does-medicare-cover-dental-implants/": {
+      "variant": "medicare",
+      "description": "Exploring your Medicare coverage options? Enter your ZIP code to compare plans in your area. Dental benefits, exclusions, and implant coverage vary by plan."
+    },
+    "/medicare-supplement-plans/florida/plan-g/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement Plan G in Florida? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/faqs/medicare-coverage-for-diabetic-shoes/": {
+      "variant": "medicare",
+      "description": "Reviewing your Medicare coverage? Enter your ZIP code to explore plan options in your area. This form compares plans; it does not determine eligibility for diabetic shoes."
+    },
+    "/medicare-part-c/medicare-advantage-plan-hmo-pos/": {
+      "variant": "advantage",
+      "description": "Enter your ZIP code to get started comparing Medicare Advantage plans in your area."
     }
   }
 }

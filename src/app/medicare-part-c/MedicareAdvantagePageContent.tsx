@@ -121,7 +121,7 @@ export default function MedicareAdvantagePageContent({ page, slug }: { page: Med
                   dangerouslySetInnerHTML={{ __html: section.body }}
                 />
               </section>
-              {sectionIndex === 0 && ["medicare-advantage-eligibility","medicare-advantage-enrollment-periods","medicare-advantage-costs","medicare-advantage-vs-original-medicare"].includes(slug) && (
+              {sectionIndex === 0 && ["medicare-advantage-eligibility","medicare-advantage-enrollment-periods","medicare-advantage-costs","medicare-advantage-vs-original-medicare","medicare-advantage-plan-hmo-pos"].includes(slug) && (
                 <div className="mb-10"><GuideCta variant="advantage" /></div>
               )}
               </Fragment>
