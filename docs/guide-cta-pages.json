@@ -146,7 +146,12 @@
     "https://www.medicarefaq.com/faqs/medicare-late-enrollment-penalties/",
     "https://www.medicarefaq.com/faqs/medicare-benefits/",
     "https://www.medicarefaq.com/faqs/medicare-low-income-subsidy/",
-    "https://www.medicarefaq.com/faqs/does-medicare-cover-leqembi/"
+    "https://www.medicarefaq.com/faqs/does-medicare-cover-leqembi/",
+    "https://www.medicarefaq.com/faqs/medicare-part-b-late-enrollment-penalty/",
+    "https://www.medicarefaq.com/faqs/medicare-special-enrollment-periods/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/high-deductible-plan-f/",
+    "https://www.medicarefaq.com/faqs/medicare-secondary-insurance/",
+    "https://www.medicarefaq.com/faqs/deductible-copay-coinsurance-premium/"
   ],
   "automatic": {
     "/blog/medicare-acos-to-waive-part-b-copays-key-changes-in-2027/": {
@@ -316,6 +321,26 @@
     "/faqs/does-medicare-cover-leqembi/": {
       "variant": "medicare",
       "description": "Reviewing your Medicare coverage options? Enter your ZIP code to compare plans in your area. This form does not arrange treatment or confirm coverage for a specific medication."
+    },
+    "/faqs/medicare-part-b-late-enrollment-penalty/": {
+      "variant": "medicare",
+      "description": "Reviewing your Medicare coverage options? Enter your ZIP code to compare plans in your area. This form does not appeal or waive a Part B penalty."
+    },
+    "/faqs/medicare-special-enrollment-periods/": {
+      "variant": "medicare",
+      "description": "Exploring Medicare coverage options? Enter your ZIP code to compare plans in your area. Special Enrollment Period eligibility requirements apply."
+    },
+    "/medicare-supplement-plans/high-deductible-plan-f/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement coverage? Enter your ZIP code to explore options in your area. Plan F eligibility and enrollment requirements apply."
+    },
+    "/faqs/medicare-secondary-insurance/": {
+      "variant": "medicare",
+      "description": "Reviewing how your coverage works with Medicare? Enter your ZIP code to explore Medicare plan options in your area."
+    },
+    "/faqs/deductible-copay-coinsurance-premium/": {
+      "variant": "medicare",
+      "description": "Comparing Medicare costs and coverage? Enter your ZIP code to explore plan options in your area. Premiums and out-of-pocket costs vary by plan."
     }
   }
 }
