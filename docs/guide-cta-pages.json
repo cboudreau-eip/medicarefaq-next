@@ -208,7 +208,12 @@
     "https://www.medicarefaq.com/medicare-supplement-plans/new-jersey/",
     "https://www.medicarefaq.com/faqs/does-medicare-cover-glasses/",
     "https://www.medicarefaq.com/medicare-supplement-plans/texas/plan-g/",
-    "https://www.medicarefaq.com/faqs/part-d-formulary/"
+    "https://www.medicarefaq.com/faqs/part-d-formulary/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/california/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/iowa/",
+    "https://www.medicarefaq.com/faqs/medicare-coverage-for-stroke-victims/",
+    "https://www.medicarefaq.com/faqs/medicare-braces-devices/",
+    "https://www.medicarefaq.com/faqs/medicare-and-divorce/"
   ],
   "automatic": {
     "/blog/medicare-acos-to-waive-part-b-copays-key-changes-in-2027/": {
@@ -626,6 +631,26 @@
     "/faqs/part-d-formulary/": {
       "variant": "part-d",
       "description": "Comparing prescription drug coverage? Enter your ZIP code to explore Part D plans in your area. Check your medicines, pharmacy network, and costs before choosing a plan."
+    },
+    "/medicare-supplement-plans/california/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement coverage in California? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/iowa/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement coverage in Iowa? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/faqs/medicare-coverage-for-stroke-victims/": {
+      "variant": "medicare",
+      "description": "Reviewing Medicare coverage for stroke care and recovery? Enter your ZIP code to explore plan options. Check coverage for your providers, rehabilitation, and prescribed treatments before choosing a plan."
+    },
+    "/faqs/medicare-braces-devices/": {
+      "variant": "medicare",
+      "description": "Reviewing your Medicare coverage options? Enter your ZIP code to compare plans in your area. This form compares insurance plans; it does not order braces or determine whether a device is covered."
+    },
+    "/faqs/medicare-and-divorce/": {
+      "variant": "medicare",
+      "description": "Reviewing your Medicare options after divorce? Enter your ZIP code to explore coverage in your area. This form compares plans; it does not determine eligibility for Medicare or Social Security benefits."
     }
   }
 }

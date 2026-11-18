@@ -28,6 +28,7 @@ import {
   BarChart3,
   CalendarDays,
 } from "lucide-react";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import ZipFormModal from "@/components/ZipFormModal";
 import EddieProTip from "@/components/EddieProTip";
 import {
@@ -419,6 +420,7 @@ export default function CaliforniaPageContent() {
               </p>
             </div>
           </div>
+          <ArticleGuideCta path="/medicare-supplement-plans/california/" />
         </div>
       </section>
 

@@ -32,6 +32,7 @@ import {
   AlertTriangle,
   DollarSign,
 } from "lucide-react";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import ZipFormModal from "@/components/ZipFormModal";
 import EddieProTip from "@/components/EddieProTip";
 import {
@@ -383,6 +384,7 @@ export default function IowaPageContent() {
             and rural Iowa. Transamerica is the only carrier offering all 10 plan types with
             issue-age pricing, which locks your premium at your enrollment age.
           </p>
+          <ArticleGuideCta path="/medicare-supplement-plans/iowa/" />
         </div>
       </section>
 
