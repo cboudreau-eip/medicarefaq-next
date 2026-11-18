@@ -32,6 +32,7 @@ import {
   DollarSign,
   Layers,
 } from "lucide-react";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import ZipFormModal from "@/components/ZipFormModal";
 import EddieProTip from "@/components/EddieProTip";
 import {
@@ -377,6 +378,7 @@ export default function WisconsinPageContent() {
             states. WPS Health Insurance is the dominant local carrier with roughly 35% of the
             Wisconsin Medigap market.
           </p>
+          <ArticleGuideCta path="/medicare-supplement-plans/wisconsin/" />
         </div>
       </section>
 

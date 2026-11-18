@@ -198,7 +198,12 @@
     "https://www.medicarefaq.com/faqs/ssdi-to-medicare/",
     "https://www.medicarefaq.com/faqs/medicare-preventive-services/",
     "https://www.medicarefaq.com/faqs/medicare-advantage-extra-benefits-explained-whats-really-included/",
-    "https://www.medicarefaq.com/faqs/medicare-coverage-for-dermatology/"
+    "https://www.medicarefaq.com/faqs/medicare-coverage-for-dermatology/",
+    "https://www.medicarefaq.com/faqs/does-medicare-cover-hip-replacement/",
+    "https://www.medicarefaq.com/faqs/medicare-coverage-for-in-home-caregivers/",
+    "https://www.medicarefaq.com/faqs/choosing-a-medigap-policy/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/wisconsin/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/medigap-by-carrier/accendo-medicare-supplement-plans/"
   ],
   "automatic": {
     "/blog/medicare-acos-to-waive-part-b-copays-key-changes-in-2027/": {
@@ -576,6 +581,26 @@
     "/faqs/medicare-coverage-for-dermatology/": {
       "variant": "medicare",
       "description": "Reviewing coverage for dermatology care? Enter your ZIP code to compare Medicare plan options. Check provider networks and coverage requirements for your care before choosing a plan."
+    },
+    "/faqs/does-medicare-cover-hip-replacement/": {
+      "variant": "medicare",
+      "description": "Reviewing your Medicare coverage options? Enter your ZIP code to compare plans in your area. Check your surgeon, hospital, and rehabilitation coverage before choosing a plan."
+    },
+    "/faqs/medicare-coverage-for-in-home-caregivers/": {
+      "variant": "medicare",
+      "description": "Exploring Medicare coverage for a loved one? Enter their ZIP code to compare plan options. This form compares insurance plans; it does not arrange caregiving services or determine home-care eligibility."
+    },
+    "/faqs/choosing-a-medigap-policy/": {
+      "variant": "medigap",
+      "description": "Ready to compare Medicare Supplement options? Enter your ZIP code to explore Medigap plans and rates in your area. Enrollment and eligibility requirements apply."
+    },
+    "/medicare-supplement-plans/wisconsin/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement coverage in Wisconsin? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/medigap-by-carrier/accendo-medicare-supplement-plans/": {
+      "variant": "medigap",
+      "description": "Reviewing Medicare Supplement coverage? Enter your ZIP code to compare available Medigap options in your area. Insurer availability and rates vary by location."
     }
   }
 }
