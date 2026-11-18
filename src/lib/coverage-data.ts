@@ -2112,7 +2112,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     {
       question: "Does Medicare cover glasses after cataract surgery?",
-      answer: "Yes. Medicare Part B covers one pair of prescription eyeglasses (frames and lenses) or one set of contact lenses after cataract surgery that includes an intraocular lens (IOL) implant. Medicare pays 80% of the approved amount, and you pay 20% coinsurance plus the Part B deductible ($283 in 2026) if not already met. You must use a Medicare-enrolled supplier.",
+      answer: "Yes. Medicare Part B covers one pair of prescription eyeglasses (frames and lenses) or one set of contact lenses after cataract surgery that includes an intraocular lens (IOL) implant. Medicare pays 80% of the Medicare-approved amount, and you pay 20% coinsurance plus the Part B deductible if you have not already met it for the year. CMS set the 2026 Part B annual deductible at $283, up from $257 in 2025. You must use a Medicare-enrolled supplier.",
     },
     {
       question: "How much does Medicare pay for glasses after cataract surgery?",
@@ -2120,7 +2120,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     {
       question: "Do Medicare Advantage plans cover glasses?",
-      answer: "Many Medicare Advantage plans include vision benefits that cover glasses. Approximately 97% of MA plans offer some vision benefit, typically including one routine eye exam per year and an annual eyewear allowance ranging from $100 to $400. The allowance can be applied toward frames, lenses, or contacts from in-network providers. Coverage details vary significantly between plans.",
+      answer: "Many Medicare Advantage plans include vision benefits that cover glasses. According to CMS, 99% of Medicare Advantage plans offered a vision supplemental benefit in 2025, typically including one routine eye exam per year and an annual eyewear allowance ranging from $100 to $400. The allowance can be applied toward frames, lenses, or contacts from in-network providers. Note that this CMS figure measures whether a plan offers any vision benefit at all, not whether every plan includes a specific eyewear allowance amount or dollar cap, so coverage details still vary significantly between plans.",
     },
     {
       question: "Can I buy a standalone vision plan with Medicare?",
@@ -2144,7 +2144,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     {
       question: "How often does Medicare Advantage cover new glasses?",
-      answer: "Most Medicare Advantage plans with vision benefits provide a new eyewear allowance once per calendar year. The allowance resets on January 1 and does not roll over if unused. Some plans offer allowances every two years for frames but annually for lenses. Check your specific plan's Evidence of Coverage document for the exact frequency and allowance amount.",
+      answer: "Most Medicare Advantage plans with vision benefits provide a new eyewear allowance once per calendar year. The allowance resets on January 1 and does not roll over if unused. Some plans offer allowances every two years for frames but annually for lenses. Check your specific plan's Evidence of Coverage document for the exact frequency and allowance amount. You can find your plan's Evidence of Coverage either on your plan's website, in the member materials mailed to you each fall, or by calling your plan's member services number. To compare vision benefits, allowance amounts, and other extra benefits across different Medicare Advantage plans before enrolling, use the official Medicare Plan Finder tool at Medicare.gov/plan-compare.",
     },
   ],
   quickReference: [
