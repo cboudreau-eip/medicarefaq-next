@@ -1,4 +1,5 @@
 "use client";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 /**
  * Texas Plan G Rate Comparison Page
  * Route: /medicare-supplement-plans/texas/plan-g/
@@ -219,6 +220,7 @@ export default function TexasPlanGContent() {
             </div>
           </div>
 
+          <ArticleGuideCta path="/medicare-supplement-plans/texas/plan-g/" />
           {/* Callout */}
           <div className="mt-6 bg-teal-50 border border-teal-200 rounded-xl p-5 flex gap-3">
             <Info className="w-5 h-5 text-teal-600 shrink-0 mt-0.5" aria-hidden="true" />

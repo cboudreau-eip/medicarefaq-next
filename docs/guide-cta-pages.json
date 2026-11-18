@@ -203,7 +203,12 @@
     "https://www.medicarefaq.com/faqs/medicare-coverage-for-in-home-caregivers/",
     "https://www.medicarefaq.com/faqs/choosing-a-medigap-policy/",
     "https://www.medicarefaq.com/medicare-supplement-plans/wisconsin/",
-    "https://www.medicarefaq.com/medicare-supplement-plans/medigap-by-carrier/accendo-medicare-supplement-plans/"
+    "https://www.medicarefaq.com/medicare-supplement-plans/medigap-by-carrier/accendo-medicare-supplement-plans/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/south-dakota/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/new-jersey/",
+    "https://www.medicarefaq.com/faqs/does-medicare-cover-glasses/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/texas/plan-g/",
+    "https://www.medicarefaq.com/faqs/part-d-formulary/"
   ],
   "automatic": {
     "/blog/medicare-acos-to-waive-part-b-copays-key-changes-in-2027/": {
@@ -601,6 +606,26 @@
     "/medicare-supplement-plans/medigap-by-carrier/accendo-medicare-supplement-plans/": {
       "variant": "medigap",
       "description": "Reviewing Medicare Supplement coverage? Enter your ZIP code to compare available Medigap options in your area. Insurer availability and rates vary by location."
+    },
+    "/medicare-supplement-plans/south-dakota/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement coverage in South Dakota? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/new-jersey/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement coverage in New Jersey? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/faqs/does-medicare-cover-glasses/": {
+      "variant": "medicare",
+      "description": "Exploring Medicare coverage options? Enter your ZIP code to compare plans in your area. Vision benefits, eyewear allowances, and provider networks vary by plan."
+    },
+    "/medicare-supplement-plans/texas/plan-g/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement Plan G in Texas? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/faqs/part-d-formulary/": {
+      "variant": "part-d",
+      "description": "Comparing prescription drug coverage? Enter your ZIP code to explore Part D plans in your area. Check your medicines, pharmacy network, and costs before choosing a plan."
     }
   }
 }

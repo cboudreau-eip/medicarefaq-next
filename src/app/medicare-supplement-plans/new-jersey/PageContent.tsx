@@ -1,4 +1,5 @@
 "use client";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 
 
 
@@ -195,6 +196,7 @@ export default function NewJerseyPageContent() {
       </section>
 
       <section className="py-10"><div className="container max-w-4xl text-slate-700 leading-relaxed space-y-4"><p>Medigap helps pay some of the deductibles, coinsurance, and copayments left by Original Medicare. Choosing a policy means comparing both benefits and the rules that determine when an insurer must accept your application.</p><p>This guide walks through New Jersey’s enrollment protections and practical shopping steps, alongside the existing carrier comparisons. Medigap is different from Medicare Advantage and does not include prescription coverage in policies sold today.</p></div></section>
+      <div className="container max-w-4xl"><ArticleGuideCta path="/medicare-supplement-plans/new-jersey/" /></div>
       <EligibilityGuide />
 
       {/* Carrier Cards Section */}

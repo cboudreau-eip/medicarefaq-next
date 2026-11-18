@@ -1,4 +1,5 @@
 "use client";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 /**
  * South Dakota Medicare Supplement Comparison Page
  * Route: /medicare-supplement-plans/south-dakota/
@@ -370,6 +371,7 @@ export default function SouthDakotaPageContent() {
             (20%), customer satisfaction (15%), plan availability (10%), and pricing method (5%).
             Rates shown for a 65-year-old female nonsmoker in Sioux Falls, SD.
           </p>
+          <ArticleGuideCta path="/medicare-supplement-plans/south-dakota/" />
           <div className="grid gap-5">
             {CARRIERS.map((carrier, i) => (
               <CarrierCard key={carrier.name} carrier={carrier} rank={i + 1} />
