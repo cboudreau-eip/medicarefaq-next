@@ -1,4 +1,5 @@
 "use client";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import Link from "next/link";
 /**
  * MedigapByState - index page
@@ -151,6 +152,8 @@ export default function PageContent({ stateOverviews }: { stateOverviews: { name
 
       <section className="py-16">
         <div className="container">
+
+          <ArticleGuideCta path="/medicare-supplement-plans/medigap-by-state/" />
 
           {/* Legend */}
           <div className="mb-10 p-4 bg-slate-50 rounded-xl border border-slate-200">

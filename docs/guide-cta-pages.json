@@ -188,7 +188,12 @@
     "https://www.medicarefaq.com/faqs/medicare-annual-wellness-visit/",
     "https://www.medicarefaq.com/faqs/medicare-and-workers-comp/",
     "https://www.medicarefaq.com/faqs/medicare-coverage-erectile-dysfunction/",
-    "https://www.medicarefaq.com/blog/cms-cuts-2027-medicare-costs-for-imaging-and-drugs/"
+    "https://www.medicarefaq.com/blog/cms-cuts-2027-medicare-costs-for-imaging-and-drugs/",
+    "https://www.medicarefaq.com/faqs/medicare-coverage-for-pacemakers/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/medigap-by-carrier/cigna-medigap-plans/",
+    "https://www.medicarefaq.com/faqs/medicare-costs-in-2026-premiums-deductibles-and-key-changes/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/medigap-by-state/",
+    "https://www.medicarefaq.com/faqs/medicare-coverage-for-bathroom-safety-devices/"
   ],
   "automatic": {
     "/blog/medicare-acos-to-waive-part-b-copays-key-changes-in-2027/": {
@@ -526,6 +531,26 @@
     "/blog/cms-cuts-2027-medicare-costs-for-imaging-and-drugs/": {
       "variant": "medicare",
       "description": "Exploring Medicare coverage options? Enter your ZIP code to compare plans in your area."
+    },
+    "/faqs/medicare-coverage-for-pacemakers/": {
+      "variant": "medicare",
+      "description": "Reviewing Medicare coverage for your care? Enter your ZIP code to explore plan options in your area. Check provider networks and coverage requirements for your prescribed treatment before choosing a plan."
+    },
+    "/medicare-supplement-plans/medigap-by-carrier/cigna-medigap-plans/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement coverage? Enter your ZIP code to explore Medigap options in your area. Available insurers and rates vary by location."
+    },
+    "/faqs/medicare-costs-in-2026-premiums-deductibles-and-key-changes/": {
+      "variant": "medicare",
+      "description": "Reviewing your Medicare budget? Enter your ZIP code to compare coverage options in your area. Premiums and out-of-pocket costs vary by plan."
+    },
+    "/medicare-supplement-plans/medigap-by-state/": {
+      "variant": "medigap",
+      "description": "Exploring Medicare Supplement options in your state? Enter your ZIP code to compare Medigap coverage and rates in your area."
+    },
+    "/faqs/medicare-coverage-for-bathroom-safety-devices/": {
+      "variant": "medicare",
+      "description": "Reviewing your Medicare coverage options? Enter your ZIP code to compare plans in your area. This form compares insurance plans; it does not order safety equipment or determine whether a device is covered."
     }
   }
 }
