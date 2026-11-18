@@ -177,7 +177,12 @@
     "https://www.medicarefaq.com/faqs/25-medicare-qas-you-should-know/",
     "https://www.medicarefaq.com/faqs/does-medicare-cover-sleep-apnea/",
     "https://www.medicarefaq.com/faqs/does-medicare-cover-asthma-inhalers/",
-    "https://www.medicarefaq.com/faqs/does-medicare-cover-macular-degeneration/"
+    "https://www.medicarefaq.com/faqs/does-medicare-cover-macular-degeneration/",
+    "https://www.medicarefaq.com/faqs/reduce-medicare-premiums/",
+    "https://www.medicarefaq.com/faqs/medicare-general-enrollment-period/",
+    "https://www.medicarefaq.com/faqs/rheumatoid-arthritis-treatment-and-medicare-coverage/",
+    "https://www.medicarefaq.com/faqs/medicare-eligibility-for-spouses/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/massachusetts/"
   ],
   "automatic": {
     "/blog/medicare-acos-to-waive-part-b-copays-key-changes-in-2027/": {
@@ -471,6 +476,26 @@
     "/faqs/does-medicare-cover-macular-degeneration/": {
       "variant": "medicare",
       "description": "Reviewing your Medicare coverage options? Enter your ZIP code to compare plans in your area. Check coverage for your eye-care providers and prescribed treatments before choosing a plan."
+    },
+    "/faqs/reduce-medicare-premiums/": {
+      "variant": "medicare",
+      "description": "Reviewing your Medicare costs? Enter your ZIP code to compare coverage options in your area. This form compares plans; it does not apply for premium assistance or guarantee savings."
+    },
+    "/faqs/medicare-general-enrollment-period/": {
+      "variant": "medicare",
+      "description": "Planning your Medicare coverage? Enter your ZIP code to explore plan options in your area. This form compares plans; it does not enroll you in Original Medicare."
+    },
+    "/faqs/rheumatoid-arthritis-treatment-and-medicare-coverage/": {
+      "variant": "medicare",
+      "description": "Reviewing coverage for rheumatoid arthritis care? Enter your ZIP code to explore Medicare plan options. Check coverage for your providers and prescribed treatments before choosing a plan."
+    },
+    "/faqs/medicare-eligibility-for-spouses/": {
+      "variant": "medicare",
+      "description": "Planning Medicare coverage for you or your spouse? Enter your ZIP code to compare options in your area. This form compares plans; it does not determine Original Medicare eligibility."
+    },
+    "/medicare-supplement-plans/massachusetts/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement coverage in Massachusetts? Enter your ZIP code to explore Medigap options and rates in your area."
     }
   }
 }

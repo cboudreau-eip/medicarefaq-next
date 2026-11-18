@@ -35,6 +35,7 @@ import {
   CalendarCheck,
   Equal,
 } from "lucide-react";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import ZipFormModal from "@/components/ZipFormModal";
 import EddieProTip from "@/components/EddieProTip";
 import {
@@ -453,6 +454,7 @@ export default function MassachusettsPageContent() {
             Medicare-approved amount. Blue Cross Blue Shield of Massachusetts dominates
             the market with approximately 70.9% market share.
           </p>
+          <ArticleGuideCta path="/medicare-supplement-plans/massachusetts/" />
         </div>
       </section>
 
