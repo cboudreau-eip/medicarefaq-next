@@ -31,6 +31,7 @@ import {
   DollarSign,
   Home,
 } from "lucide-react";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import ZipFormModal from "@/components/ZipFormModal";
 import EddieProTip from "@/components/EddieProTip";
 import {
@@ -428,6 +429,7 @@ export default function IndianaPageContent() {
             rate. Unlike California, Missouri, or Virginia, Indiana has no birthday rule
             or anniversary rule. Your OEP is your primary guaranteed-issue window.
           </p>
+          <ArticleGuideCta path="/medicare-supplement-plans/indiana/" />
         </div>
       </section>
 

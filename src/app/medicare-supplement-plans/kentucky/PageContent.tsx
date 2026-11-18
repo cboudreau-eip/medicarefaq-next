@@ -32,6 +32,7 @@ import {
   Gift,
   DollarSign,
 } from "lucide-react";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import ZipFormModal from "@/components/ZipFormModal";
 import EddieProTip from "@/components/EddieProTip";
 import {
@@ -399,6 +400,7 @@ export default function KentuckyPageContent() {
             Lexington, and rural Kentucky. Transamerica is the only carrier offering all 10
             plan types with issue-age pricing, which locks your premium at your enrollment age.
           </p>
+          <ArticleGuideCta path="/medicare-supplement-plans/kentucky/" />
         </div>
       </section>
 

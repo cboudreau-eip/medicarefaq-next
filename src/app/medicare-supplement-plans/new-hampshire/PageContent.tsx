@@ -29,6 +29,7 @@ import {
   AlertTriangle,
   DollarSign,
 } from "lucide-react";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import ZipFormModal from "@/components/ZipFormModal";
 import EddieProTip from "@/components/EddieProTip";
 import {
@@ -370,6 +371,7 @@ export default function NewHampshirePageContent() {
             states for long-term Medigap cost stability. State Farm stands out with an A++ AM
             Best rating and a large local agent network across Manchester, Concord, and Nashua.
           </p>
+          <ArticleGuideCta path="/medicare-supplement-plans/new-hampshire/" />
         </div>
       </section>
 

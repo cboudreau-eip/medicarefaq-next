@@ -32,6 +32,7 @@ import {
   AlertTriangle,
   DollarSign,
 } from "lucide-react";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import ZipFormModal from "@/components/ZipFormModal";
 import EddieProTip from "@/components/EddieProTip";
 import {
@@ -384,6 +385,7 @@ export default function ArkansasPageContent() {
             carriers can use medical underwriting to deny your application or charge higher premiums.
             Compare carefully before you enroll.
           </p>
+          <ArticleGuideCta path="/medicare-supplement-plans/arkansas/" />
         </div>
       </section>
 

@@ -252,7 +252,17 @@
     "https://www.medicarefaq.com/medicare-supplement-plans/alabama/",
     "https://www.medicarefaq.com/medicare-supplement-plans/plan-b/",
     "https://www.medicarefaq.com/medicare-supplement-plans/rhode-island/",
-    "https://www.medicarefaq.com/medicare-supplement-plans/medigap-by-carrier/united-healthcare-medigap-plans/"
+    "https://www.medicarefaq.com/medicare-supplement-plans/medigap-by-carrier/united-healthcare-medigap-plans/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/mississippi/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/new-hampshire/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/maine/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/new-mexico/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/indiana/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/colorado/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/arkansas/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/virginia/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/kentucky/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/south-carolina/"
   ],
   "automatic": {
     "/blog/medicare-acos-to-waive-part-b-copays-key-changes-in-2027/": {
@@ -846,6 +856,46 @@
     "/medicare-supplement-plans/medigap-by-carrier/united-healthcare-medigap-plans/": {
       "variant": "medigap",
       "description": "Comparing Medicare Supplement coverage? Enter your ZIP code to explore available Medigap options in your area. Insurer availability and rates vary by location."
+    },
+    "/medicare-supplement-plans/mississippi/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement coverage in Mississippi? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/new-hampshire/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement coverage in New Hampshire? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/maine/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement coverage in Maine? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/new-mexico/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement coverage in New Mexico? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/indiana/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement coverage in Indiana? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/colorado/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement coverage in Colorado? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/arkansas/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement coverage in Arkansas? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/virginia/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement coverage in Virginia? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/kentucky/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement coverage in Kentucky? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/south-carolina/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement coverage in South Carolina? Enter your ZIP code to explore Medigap options and rates in your area."
     }
   }
 }

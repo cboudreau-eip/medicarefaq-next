@@ -29,6 +29,7 @@ import {
   AlertTriangle,
   DollarSign,
 } from "lucide-react";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import ZipFormModal from "@/components/ZipFormModal";
 import EddieProTip from "@/components/EddieProTip";
 import {
@@ -371,6 +372,7 @@ export default function NewMexicoPageContent() {
             picks for most New Mexico seniors. State Farm stands out with an A++ AM Best rating
             and a local agent network across Albuquerque, Santa Fe, and Las Cruces.
           </p>
+          <ArticleGuideCta path="/medicare-supplement-plans/new-mexico/" />
         </div>
       </section>
 

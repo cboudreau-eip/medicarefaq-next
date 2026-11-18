@@ -33,6 +33,7 @@ import {
   DollarSign,
   RefreshCw,
 } from "lucide-react";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import ZipFormModal from "@/components/ZipFormModal";
 import EddieProTip from "@/components/EddieProTip";
 import {
@@ -404,6 +405,7 @@ export default function MainePageContent() {
             only carrier offering community pricing in Maine, meaning your premium stays the
             same regardless of age.
           </p>
+          <ArticleGuideCta path="/medicare-supplement-plans/maine/" />
         </div>
       </section>
 

@@ -28,6 +28,7 @@ import {
   AlertTriangle,
   DollarSign,
 } from "lucide-react";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import ZipFormModal from "@/components/ZipFormModal";
 import EddieProTip from "@/components/EddieProTip";
 import {
@@ -354,6 +355,10 @@ export default function SouthCarolinaPageContent() {
           </div>
         </div>
       </section>
+
+      <div className="container max-w-5xl">
+        <ArticleGuideCta path="/medicare-supplement-plans/south-carolina/" />
+      </div>
 
       {/* Carrier Rankings */}
       <section className="py-12">

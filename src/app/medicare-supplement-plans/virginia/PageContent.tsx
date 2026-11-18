@@ -32,6 +32,7 @@ import {
   CalendarDays,
   DollarSign,
 } from "lucide-react";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import ZipFormModal from "@/components/ZipFormModal";
 import EddieProTip from "@/components/EddieProTip";
 import {
@@ -434,6 +435,7 @@ export default function VirginiaPageContent() {
             new enrollees in Virginia, covering nearly all Medicare out-of-pocket costs
             except the annual Part B deductible ($257 in 2026).
           </p>
+          <ArticleGuideCta path="/medicare-supplement-plans/virginia/" />
         </div>
       </section>
 

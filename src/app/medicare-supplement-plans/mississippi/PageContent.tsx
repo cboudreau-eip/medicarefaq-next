@@ -34,6 +34,7 @@ import {
   AlertCircle,
   DollarSign,
 } from "lucide-react";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import ZipFormModal from "@/components/ZipFormModal";
 import EddieProTip from "@/components/EddieProTip";
 import {
@@ -390,6 +391,7 @@ export default function MississippiPageContent() {
             rural Mississippi. Transamerica is the only carrier offering all 10 plan types
             with issue-age pricing.
           </p>
+          <ArticleGuideCta path="/medicare-supplement-plans/mississippi/" />
         </div>
       </section>
 
