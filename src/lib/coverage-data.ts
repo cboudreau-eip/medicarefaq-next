@@ -26925,7 +26925,7 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   readTime: "5 min read",
   quickAnswer: {
-    text: "In most cases, your doctor or provider files Medicare claims on your behalf. However, if a provider refuses to file or you paid out of pocket, you can complete Form CMS-1490S and mail it with your itemized bill to your regional Medicare contractor to request reimbursement within the required filing deadline.",
+    text: "In most cases, your doctor or provider files Medicare claims on your behalf. However, if a provider refuses to file or you paid out of pocket, you can complete Form CMS-1490S and mail it with your itemized bill to your regional Medicare contractor to request reimbursement within the required filing deadline. Claims generally must be filed within <a href=\"https://www.medicare.gov/providers-services/claims-appeals-complaints/claims\">12 months of the date of service, unless an exception applies</a> — for example, if you received notice of retroactive Medicare entitlement, CMS regulations may extend your filing window rather than simply starting a new 12-month clock. See the article's filing deadline and retroactive coverage sections below for how these rules interact.",
     badges: [
       {
         plan: "Part A",
@@ -27163,11 +27163,11 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     {
       question: "Can I Get Reimbursed if I Already Paid My Doctor?",
-      answer: "Yes. If you paid out of pocket because your provider refused to file a claim, submit Form CMS-1490S with your itemized bill. Medicare will reimburse you its share (80% of the approved amount after your deductible).",
+      answer: "Yes. If you paid out of pocket because your provider refused to file a claim, submit Form CMS-1490S with your itemized bill. Medicare will reimburse you its share (80% of the Medicare-approved amount after you've met your Part B deductible). The Part B deductible changes every year - for 2025 it was $257 (CMS, 2025 Medicare Parts A & B Premiums and Deductibles), and it rose to $283 for 2026. Check Medicare.gov's current costs page for the deductible that applies to the year of your claim, since reimbursement is calculated on Medicare-approved amounts, not the amount you were billed.",
     },
     {
       question: "What if My Claim is Denied?",
-      answer: "You have the right to appeal any Medicare claim denial. The first level is a redetermination request, which must be filed within 120 days of receiving your Medicare Summary Notice.",
+      answer: "If your claim seems delayed, first check its status: log into your secure Medicare account (claims are usually visible within about 24 hours after Medicare processes them) or review your mailed Medicare Summary Notice. If the claim still hasn't processed within a reasonable time, call 1-800-MEDICARE (1-800-633-4227) for help tracking it down. If your claim comes back denied, you have the right to appeal. The first level of appeal is a redetermination request, which must be filed within 120 days of the date you receive your Medicare Summary Notice showing the denial. Following this sequence - check status, call if delayed, appeal within 120 days if denied - gives you one clear next-steps path instead of needing to piece guidance together from separate parts of this page.",
     },
     {
       question: "Does Medicare Reimburse for Services Received Abroad?",
@@ -27179,7 +27179,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     {
       question: "What Documents Do I Need to Submit With My Medicare Reimbursement Claim?",
-      answer: "Along with the completed Form CMS-1490S, you should include an itemized bill from your provider that shows the services received, the dates of service, and the charges. You should also attach a letter",
+      answer: "Along with the completed Form CMS-1490S, you should include an itemized bill from your provider that shows the services received, the dates of service, and the charges. You should also attach a letter explaining why you're submitting the claim yourself - for example, that your provider or supplier refused to file the claim, was unable to file it, or isn't enrolled in Medicare (Medicare.gov).",
     },
   ],
   quickReference: [
