@@ -1,4 +1,5 @@
 "use client";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 /**
  * Illinois Plan G Rate Comparison Page
  * Route: /medicare-supplement-plans/illinois/plan-g/
@@ -218,6 +219,8 @@ export default function IllinoisPlanGContent() {
               ))}
             </div>
           </div>
+
+          <ArticleGuideCta path="/medicare-supplement-plans/illinois/plan-g/" />
 
           {/* Callout */}
           <div className="mt-6 bg-teal-50 border border-teal-200 rounded-xl p-5 flex gap-3">

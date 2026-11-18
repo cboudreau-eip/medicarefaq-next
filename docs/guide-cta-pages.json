@@ -213,7 +213,26 @@
     "https://www.medicarefaq.com/medicare-supplement-plans/iowa/",
     "https://www.medicarefaq.com/faqs/medicare-coverage-for-stroke-victims/",
     "https://www.medicarefaq.com/faqs/medicare-braces-devices/",
-    "https://www.medicarefaq.com/faqs/medicare-and-divorce/"
+    "https://www.medicarefaq.com/faqs/medicare-and-divorce/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/california/plan-g/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/illinois/plan-g/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/pennsylvania/plan-g/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/georgia/plan-g/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/new-york/plan-g/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/ohio/plan-g/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/north-carolina/plan-g/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/michigan/plan-g/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/pennsylvania/plan-n/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/florida/plan-n/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/texas/plan-n/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/new-york/plan-n/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/california/plan-n/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/illinois/plan-n/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/north-carolina/plan-n/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/georgia/plan-n/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/ohio/plan-n/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/michigan/plan-n/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/minnesota/plan-n/"
   ],
   "automatic": {
     "/blog/medicare-acos-to-waive-part-b-copays-key-changes-in-2027/": {
@@ -651,6 +670,82 @@
     "/faqs/medicare-and-divorce/": {
       "variant": "medicare",
       "description": "Reviewing your Medicare options after divorce? Enter your ZIP code to explore coverage in your area. This form compares plans; it does not determine eligibility for Medicare or Social Security benefits."
+    },
+    "/medicare-supplement-plans/california/plan-g/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement Plan G in California? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/illinois/plan-g/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement Plan G in Illinois? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/pennsylvania/plan-g/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement Plan G in Pennsylvania? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/georgia/plan-g/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement Plan G in Georgia? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/new-york/plan-g/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement Plan G in New York? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/ohio/plan-g/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement Plan G in Ohio? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/north-carolina/plan-g/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement Plan G in North Carolina? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/michigan/plan-g/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement Plan G in Michigan? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/pennsylvania/plan-n/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement Plan N in Pennsylvania? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/florida/plan-n/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement Plan N in Florida? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/texas/plan-n/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement Plan N in Texas? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/new-york/plan-n/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement Plan N in New York? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/california/plan-n/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement Plan N in California? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/illinois/plan-n/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement Plan N in Illinois? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/north-carolina/plan-n/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement Plan N in North Carolina? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/georgia/plan-n/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement Plan N in Georgia? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/ohio/plan-n/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement Plan N in Ohio? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/michigan/plan-n/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement Plan N in Michigan? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/minnesota/plan-n/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement coverage in Minnesota? Enter your ZIP code to explore Medigap options and rates in your area."
     }
   }
 }

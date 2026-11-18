@@ -1,4 +1,5 @@
 "use client";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 /**
  * Georgia Plan G Rate Comparison Page
  * Route: /medicare-supplement-plans/georgia/plan-g/
@@ -218,6 +219,8 @@ export default function GeorgiaPlanGContent() {
               ))}
             </div>
           </div>
+
+          <ArticleGuideCta path="/medicare-supplement-plans/georgia/plan-g/" />
 
           {/* Callout */}
           <div className="mt-6 bg-teal-50 border border-teal-200 rounded-xl p-5 flex gap-3">

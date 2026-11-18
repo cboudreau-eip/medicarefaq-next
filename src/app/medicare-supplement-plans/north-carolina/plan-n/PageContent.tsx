@@ -1,4 +1,5 @@
 "use client";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 /**
  * North Carolina Plan N Rate Comparison Page
  * Route: /medicare-supplement-plans/north-carolina/plan-n/
@@ -218,6 +219,8 @@ export default function NorthCarolinaPlanGContent() {
               ))}
             </div>
           </div>
+
+          <ArticleGuideCta path="/medicare-supplement-plans/north-carolina/plan-n/" />
 
           {/* Callout */}
           <div className="mt-6 bg-teal-50 border border-teal-200 rounded-xl p-5 flex gap-3">

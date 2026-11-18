@@ -1,4 +1,5 @@
 "use client";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 /**
  * Minnesota Plan N Rate Comparison Page
  * Route: /medicare-supplement-plans/minnesota/plan-n/
@@ -170,6 +171,8 @@ export default function MinnesotaPlanNContent() {
               ))}
             </div>
           </div>
+
+          <ArticleGuideCta path="/medicare-supplement-plans/minnesota/plan-n/" />
 
           {/* Callout */}
           <div className="mt-6 bg-teal-50 border border-teal-200 rounded-xl p-5 flex gap-3">
