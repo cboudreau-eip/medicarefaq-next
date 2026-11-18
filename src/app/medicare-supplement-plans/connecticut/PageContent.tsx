@@ -33,6 +33,7 @@ import {
   DollarSign,
   RefreshCw,
 } from "lucide-react";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import ZipFormModal from "@/components/ZipFormModal";
 import EddieProTip from "@/components/EddieProTip";
 import {
@@ -386,6 +387,7 @@ export default function ConnecticutPageContent() {
             from United American, and Omaha Insurance offers a High-Deductible Plan G at just
             $59.27/mo for healthy seniors who want to minimize monthly costs.
           </p>
+          <ArticleGuideCta path="/medicare-supplement-plans/connecticut/" />
         </div>
       </section>
 

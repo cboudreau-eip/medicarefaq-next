@@ -31,6 +31,7 @@ import {
   DollarSign,
   Zap,
 } from "lucide-react";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import ZipFormModal from "@/components/ZipFormModal";
 import EddieProTip from "@/components/EddieProTip";
 import {
@@ -445,6 +446,7 @@ export default function MichiganPageContent() {
             for enrollees who want lower monthly premiums in exchange for a higher
             deductible.
           </p>
+          <ArticleGuideCta path="/medicare-supplement-plans/michigan/" />
         </div>
       </section>
 

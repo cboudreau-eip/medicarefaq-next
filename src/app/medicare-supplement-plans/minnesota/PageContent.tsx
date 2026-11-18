@@ -23,6 +23,7 @@ import {
   Calendar,
   HelpCircle,
 } from "lucide-react";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import ZipFormModal from "@/components/ZipFormModal";
 import { CARRIERS } from "@/lib/minnesota-medigap-data";
 import { trackPhoneClick } from "@/lib/analytics";
@@ -159,6 +160,8 @@ export default function MinnesotaPageContent() {
               ))}
             </div>
           </div>
+
+          <ArticleGuideCta path="/medicare-supplement-plans/minnesota/" />
 
           {/* Callout */}
           <div className="mt-6 bg-teal-50 border border-teal-200 rounded-xl p-5 flex gap-3">

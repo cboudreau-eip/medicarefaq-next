@@ -31,6 +31,7 @@ import {
   AlertTriangle,
   DollarSign,
 } from "lucide-react";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import ZipFormModal from "@/components/ZipFormModal";
 import EddieProTip from "@/components/EddieProTip";
 import {
@@ -431,6 +432,7 @@ export default function GeorgiaPageContent() {
             rate. Unlike California or Missouri, Georgia has no birthday rule or
             anniversary rule - your OEP is your primary guaranteed-issue window.
           </p>
+          <ArticleGuideCta path="/medicare-supplement-plans/georgia/" />
         </div>
       </section>
 

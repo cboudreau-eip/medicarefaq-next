@@ -31,6 +31,7 @@ import {
   CalendarDays,
   DollarSign,
 } from "lucide-react";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import ZipFormModal from "@/components/ZipFormModal";
 import EddieProTip from "@/components/EddieProTip";
 import {
@@ -371,6 +372,7 @@ export default function OregonPageContent() {
             30-day window each birthday to compare carriers and switch if you find a lower premium
             on the same or a lesser plan letter.
           </p>
+          <ArticleGuideCta path="/medicare-supplement-plans/oregon/" />
         </div>
       </section>
       {/* Carrier Cards */}

@@ -32,6 +32,7 @@ import {
   DollarSign,
   PieChart,
 } from "lucide-react";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import ZipFormModal from "@/components/ZipFormModal";
 import EddieProTip from "@/components/EddieProTip";
 import {
@@ -461,6 +462,7 @@ export default function IllinoisPageContent() {
             enrolling during your Open Enrollment Period at 65 is the best
             strategy.
           </p>
+          <ArticleGuideCta path="/medicare-supplement-plans/illinois/" />
         </div>
       </section>
 

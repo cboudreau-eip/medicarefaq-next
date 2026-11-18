@@ -28,6 +28,7 @@ import {
   Clock,
   AlertTriangle,
 } from "lucide-react";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import ZipFormModal from "@/components/ZipFormModal";
 import EddieProTip from "@/components/EddieProTip";
 import {
@@ -410,6 +411,7 @@ export default function PennsylvaniaPageContent() {
             health conditions. Plan G is the most popular plan in Pennsylvania, held by
             37% of Medigap enrollees, and premiums start as low as $133 per month.
           </p>
+          <ArticleGuideCta path="/medicare-supplement-plans/pennsylvania/" />
         </div>
       </section>
 

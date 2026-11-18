@@ -27,6 +27,7 @@ import {
   HelpCircle,
   BarChart3,
 } from "lucide-react";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import ZipFormModal from "@/components/ZipFormModal";
 import EddieProTip from "@/components/EddieProTip";
 import {
@@ -391,6 +392,7 @@ export default function FloridaPageContent() {
 
           </div>
 
+          <ArticleGuideCta path="/medicare-supplement-plans/florida/" />
         </div>
       </section>
 

@@ -232,7 +232,17 @@
     "https://www.medicarefaq.com/medicare-supplement-plans/georgia/plan-n/",
     "https://www.medicarefaq.com/medicare-supplement-plans/ohio/plan-n/",
     "https://www.medicarefaq.com/medicare-supplement-plans/michigan/plan-n/",
-    "https://www.medicarefaq.com/medicare-supplement-plans/minnesota/plan-n/"
+    "https://www.medicarefaq.com/medicare-supplement-plans/minnesota/plan-n/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/florida/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/georgia/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/minnesota/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/oregon/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/connecticut/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/medigap-by-carrier/mutual-of-omaha-medigap-plans/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/pennsylvania/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/illinois/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/michigan/",
+    "https://www.medicarefaq.com/medicare-supplement-plans/tennessee/"
   ],
   "automatic": {
     "/blog/medicare-acos-to-waive-part-b-copays-key-changes-in-2027/": {
@@ -746,6 +756,46 @@
     "/medicare-supplement-plans/minnesota/plan-n/": {
       "variant": "medigap",
       "description": "Comparing Medicare Supplement coverage in Minnesota? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/florida/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement coverage in Florida? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/georgia/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement coverage in Georgia? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/minnesota/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement coverage in Minnesota? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/oregon/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement coverage in Oregon? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/connecticut/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement coverage in Connecticut? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/medigap-by-carrier/mutual-of-omaha-medigap-plans/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement coverage? Enter your ZIP code to explore available Medigap options in your area. Insurer availability and rates vary by location."
+    },
+    "/medicare-supplement-plans/pennsylvania/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement coverage in Pennsylvania? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/illinois/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement coverage in Illinois? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/michigan/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement coverage in Michigan? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/medicare-supplement-plans/tennessee/": {
+      "variant": "medigap",
+      "description": "Comparing Medicare Supplement coverage in Tennessee? Enter your ZIP code to explore Medigap options and rates in your area."
     }
   }
 }
