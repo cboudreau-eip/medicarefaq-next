@@ -193,7 +193,12 @@
     "https://www.medicarefaq.com/medicare-supplement-plans/medigap-by-carrier/cigna-medigap-plans/",
     "https://www.medicarefaq.com/faqs/medicare-costs-in-2026-premiums-deductibles-and-key-changes/",
     "https://www.medicarefaq.com/medicare-supplement-plans/medigap-by-state/",
-    "https://www.medicarefaq.com/faqs/medicare-coverage-for-bathroom-safety-devices/"
+    "https://www.medicarefaq.com/faqs/medicare-coverage-for-bathroom-safety-devices/",
+    "https://www.medicarefaq.com/faqs/mapd-vs-part-d/",
+    "https://www.medicarefaq.com/faqs/ssdi-to-medicare/",
+    "https://www.medicarefaq.com/faqs/medicare-preventive-services/",
+    "https://www.medicarefaq.com/faqs/medicare-advantage-extra-benefits-explained-whats-really-included/",
+    "https://www.medicarefaq.com/faqs/medicare-coverage-for-dermatology/"
   ],
   "automatic": {
     "/blog/medicare-acos-to-waive-part-b-copays-key-changes-in-2027/": {
@@ -551,6 +556,26 @@
     "/faqs/medicare-coverage-for-bathroom-safety-devices/": {
       "variant": "medicare",
       "description": "Reviewing your Medicare coverage options? Enter your ZIP code to compare plans in your area. This form compares insurance plans; it does not order safety equipment or determine whether a device is covered."
+    },
+    "/faqs/mapd-vs-part-d/": {
+      "variant": "medicare",
+      "description": "Comparing your Medicare prescription coverage options? Enter your ZIP code to explore plans in your area. Check covered medicines, pharmacy networks, and costs before choosing a plan."
+    },
+    "/faqs/ssdi-to-medicare/": {
+      "variant": "medicare",
+      "description": "Preparing for Medicare while receiving SSDI? Enter your ZIP code to explore coverage options in your area. This form compares plans; it does not apply for disability benefits or enroll you in Original Medicare."
+    },
+    "/faqs/medicare-preventive-services/": {
+      "variant": "medicare",
+      "description": "Reviewing your Medicare coverage? Enter your ZIP code to explore plan options in your area. This form compares plans; it does not schedule preventive care."
+    },
+    "/faqs/medicare-advantage-extra-benefits-explained-whats-really-included/": {
+      "variant": "advantage",
+      "description": "Comparing Medicare Advantage benefits? Enter your ZIP code to explore plans in your area. Extra benefits, eligibility requirements, and costs vary by plan."
+    },
+    "/faqs/medicare-coverage-for-dermatology/": {
+      "variant": "medicare",
+      "description": "Reviewing coverage for dermatology care? Enter your ZIP code to compare Medicare plan options. Check provider networks and coverage requirements for your care before choosing a plan."
     }
   }
 }
