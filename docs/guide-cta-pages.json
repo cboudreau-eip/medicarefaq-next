@@ -182,7 +182,12 @@
     "https://www.medicarefaq.com/faqs/medicare-general-enrollment-period/",
     "https://www.medicarefaq.com/faqs/rheumatoid-arthritis-treatment-and-medicare-coverage/",
     "https://www.medicarefaq.com/faqs/medicare-eligibility-for-spouses/",
-    "https://www.medicarefaq.com/medicare-supplement-plans/massachusetts/"
+    "https://www.medicarefaq.com/medicare-supplement-plans/massachusetts/",
+    "https://www.medicarefaq.com/faqs/does-medicare-cover-hearing-aids/",
+    "https://www.medicarefaq.com/faqs/fehb-and-medicare/",
+    "https://www.medicarefaq.com/faqs/medicare-annual-wellness-visit/",
+    "https://www.medicarefaq.com/faqs/medicare-and-workers-comp/",
+    "https://www.medicarefaq.com/faqs/medicare-coverage-erectile-dysfunction/"
   ],
   "automatic": {
     "/blog/medicare-acos-to-waive-part-b-copays-key-changes-in-2027/": {
@@ -496,6 +501,26 @@
     "/medicare-supplement-plans/massachusetts/": {
       "variant": "medigap",
       "description": "Comparing Medicare Supplement coverage in Massachusetts? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/faqs/does-medicare-cover-hearing-aids/": {
+      "variant": "medicare",
+      "description": "Comparing Medicare coverage options? Enter your ZIP code to explore plans in your area. Hearing benefits, provider networks, and costs vary by plan."
+    },
+    "/faqs/fehb-and-medicare/": {
+      "variant": "medicare",
+      "description": "Reviewing Medicare options alongside your federal benefits? Enter your ZIP code to explore coverage in your area. This form compares plans; it does not change your FEHB enrollment."
+    },
+    "/faqs/medicare-annual-wellness-visit/": {
+      "variant": "medicare",
+      "description": "Reviewing your Medicare coverage? Enter your ZIP code to explore plan options in your area. This form compares plans; it does not schedule an annual wellness visit."
+    },
+    "/faqs/medicare-and-workers-comp/": {
+      "variant": "medicare",
+      "description": "Exploring Medicare coverage options? Enter your ZIP code to compare plans in your area. This form compares plans; it does not process workers’ compensation claims or determine which coverage pays first."
+    },
+    "/faqs/medicare-coverage-erectile-dysfunction/": {
+      "variant": "medicare",
+      "description": "Reviewing your Medicare coverage options? Enter your ZIP code to compare plans in your area. Check coverage requirements and exclusions for your prescribed treatments before choosing a plan."
     }
   }
 }
