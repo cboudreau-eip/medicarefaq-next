@@ -134,7 +134,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Deadlines matter beyond just plan selection. [Late enrollment penalties for Part B](https://www.medicare.gov/basics/costs/medicare-costs/avoid-penalties) can permanently raise your monthly premium by a percentage based on how long you went without coverage, and the Part D penalty works similarly, calculated from the national base beneficiary premium and added to your premium for as long as you have Part D."
+      "content": "Deadlines matter beyond just plan selection. [Late enrollment penalties for Part B](https://www.medicare.gov/basics/costs/medicare-costs/avoid-penalties) can permanently raise your monthly premium by 10% for each full 12-month period you went without creditable coverage, and that increase is added to your premium for as long as you have Part B. The Part D penalty works similarly, calculated from the national base beneficiary premium and added to your premium for as long as you have Part D."
     },
     {
       "type": "paragraph",
@@ -161,6 +161,20 @@
     {
       "type": "heading",
       "level": 2,
+      "id": "mistake-7-overlooking-seps",
+      "text": "Mistake #7: Overlooking Special Enrollment Periods Outside the Usual Windows"
+    },
+    {
+      "type": "paragraph",
+      "content": "Open Enrollment and the Medicare Advantage Open Enrollment Period are not the only chances to change your coverage. Special Enrollment Periods (SEPs) are triggered by specific life events, such as moving outside your plan's service area, losing employer or union coverage, qualifying for both Medicare and Medicaid, or losing or gaining Extra Help with prescription drug costs. Each SEP comes with its own rules about how long you have to act and what changes you are allowed to make."
+    },
+    {
+      "type": "paragraph",
+      "content": "A common mistake is assuming that if you miss Open Enrollment, you have to wait until the following October to make any change at all. In reality, many people qualify for an SEP without realizing it, and missing that narrower window can mean losing the chance to fix a coverage gap until much later. If you have had a recent move, a change in employer coverage, or a change in Medicaid or Extra Help status, check whether it qualifies you for an SEP before assuming you are locked into your current plan."
+    },
+    {
+      "type": "heading",
+      "level": 2,
       "id": "faq",
       "text": "Frequently Asked Questions"
     },
@@ -182,6 +196,10 @@
         {
           "question": "What if I choose a plan and regret it later?",
           "answer": "If you enrolled in Medicare Advantage, the Medicare Advantage Open Enrollment Period from January 1 to March 31 lets you make one additional switch. Reviewing your coverage every year, not just once, is what keeps a small mistake from turning into a long-term problem."
+        },
+        {
+          "question": "What if I miss Open Enrollment entirely? Do I have any other options?",
+          "answer": "You may still qualify for a Special Enrollment Period if you have had a qualifying life event, such as moving, losing employer coverage, or a change in Medicaid or Extra Help eligibility. These SEPs have their own deadlines and rules, so check your eligibility with Medicare.gov or a licensed agent as soon as the event happens rather than waiting."
         }
       ]
     },
@@ -257,6 +275,6 @@
     }
   ],
   "id": "pipeline-4-crucial-medicare-enrollment-mistakes-to-avoid-in-2027",
-  "updatedAt": "2026-11-18T20:16:06.127Z",
-  "createdAt": "2026-11-18T20:16:06.127Z"
+  "updatedAt": "2026-11-18T20:30:18.889Z",
+  "createdAt": "2026-11-18T20:30:18.889Z"
 }
