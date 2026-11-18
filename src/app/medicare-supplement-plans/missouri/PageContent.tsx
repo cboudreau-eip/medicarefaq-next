@@ -29,6 +29,7 @@ import {
   CalendarDays,
   RefreshCw,
 } from "lucide-react";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import ZipFormModal from "@/components/ZipFormModal";
 import EddieProTip from "@/components/EddieProTip";
 import {
@@ -426,6 +427,7 @@ export default function MissouriPageContent() {
               </p>
             </div>
           </div>
+          <ArticleGuideCta path="/medicare-supplement-plans/missouri/" />
         </div>
       </section>
 

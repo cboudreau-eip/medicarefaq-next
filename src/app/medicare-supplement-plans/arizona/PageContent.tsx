@@ -32,6 +32,7 @@ import {
   DollarSign,
   Sun,
 } from "lucide-react";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import ZipFormModal from "@/components/ZipFormModal";
 import EddieProTip from "@/components/EddieProTip";
 import {
@@ -432,6 +433,7 @@ export default function ArizonaPageContent() {
             rate. Unlike California or Missouri, Arizona has no birthday rule or
             anniversary rule. Your OEP is your primary guaranteed-issue window.
           </p>
+          <ArticleGuideCta path="/medicare-supplement-plans/arizona/" />
         </div>
       </section>
 

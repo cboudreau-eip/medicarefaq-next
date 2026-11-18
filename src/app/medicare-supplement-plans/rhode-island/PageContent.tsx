@@ -29,6 +29,7 @@ import {
   AlertTriangle,
   DollarSign,
 } from "lucide-react";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import ZipFormModal from "@/components/ZipFormModal";
 import EddieProTip from "@/components/EddieProTip";
 import {
@@ -363,6 +364,7 @@ export default function RhodeIslandPageContent() {
             important enrollment window. Use it to compare carriers carefully and choose a plan
             you can keep long-term.
           </p>
+          <ArticleGuideCta path="/medicare-supplement-plans/rhode-island/" />
         </div>
       </section>
       {/* Carrier Cards */}

@@ -33,6 +33,7 @@ import {
   CalendarDays,
   DollarSign,
 } from "lucide-react";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import ZipFormModal from "@/components/ZipFormModal";
 import EddieProTip from "@/components/EddieProTip";
 import {
@@ -440,6 +441,7 @@ export default function MarylandPageContent() {
             twice a year, making it one of the most transparent Medigap markets in the
             country.
           </p>
+          <ArticleGuideCta path="/medicare-supplement-plans/maryland/" />
         </div>
       </section>
 

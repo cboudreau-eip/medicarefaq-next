@@ -29,6 +29,7 @@ import {
   AlertTriangle,
   DollarSign,
 } from "lucide-react";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import ZipFormModal from "@/components/ZipFormModal";
 import EddieProTip from "@/components/EddieProTip";
 import {
@@ -361,6 +362,7 @@ export default function NebraskaPageContent() {
             an A++ rating, but is only available to military members and veterans. For all 10 plan
             types with issue-age pricing, Transamerica at $183/mo is the top pick.
           </p>
+          <ArticleGuideCta path="/medicare-supplement-plans/nebraska/" />
         </div>
       </section>
 

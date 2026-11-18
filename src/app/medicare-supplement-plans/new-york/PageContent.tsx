@@ -28,6 +28,7 @@ import {
   Equal,
   CalendarCheck,
 } from "lucide-react";
+import ArticleGuideCta from "@/components/ArticleGuideCta";
 import ZipFormModal from "@/components/ZipFormModal";
 import EddieProTip from "@/components/EddieProTip";
 import {
@@ -437,6 +438,7 @@ export default function NewYorkPageContent() {
             in New York are significantly higher than most states - but you are never locked
             into a plan you cannot change.
           </p>
+          <ArticleGuideCta path="/medicare-supplement-plans/new-york/" />
         </div>
       </section>
 
