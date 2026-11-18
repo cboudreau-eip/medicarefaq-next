@@ -187,7 +187,8 @@
     "https://www.medicarefaq.com/faqs/fehb-and-medicare/",
     "https://www.medicarefaq.com/faqs/medicare-annual-wellness-visit/",
     "https://www.medicarefaq.com/faqs/medicare-and-workers-comp/",
-    "https://www.medicarefaq.com/faqs/medicare-coverage-erectile-dysfunction/"
+    "https://www.medicarefaq.com/faqs/medicare-coverage-erectile-dysfunction/",
+    "https://www.medicarefaq.com/blog/cms-cuts-2027-medicare-costs-for-imaging-and-drugs/"
   ],
   "automatic": {
     "/blog/medicare-acos-to-waive-part-b-copays-key-changes-in-2027/": {
@@ -521,6 +522,10 @@
     "/faqs/medicare-coverage-erectile-dysfunction/": {
       "variant": "medicare",
       "description": "Reviewing your Medicare coverage options? Enter your ZIP code to compare plans in your area. Check coverage requirements and exclusions for your prescribed treatments before choosing a plan."
+    },
+    "/blog/cms-cuts-2027-medicare-costs-for-imaging-and-drugs/": {
+      "variant": "medicare",
+      "description": "Exploring Medicare coverage options? Enter your ZIP code to compare plans in your area."
     }
   }
 }
