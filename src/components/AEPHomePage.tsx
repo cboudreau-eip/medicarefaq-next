@@ -18,10 +18,10 @@ export default function AEPHomePage({ stage }: { stage: AEPBannerStage }) {
 
       <main className="flex-1">
         <HeroSection headline="Medicare Annual Enrollment Is Open. Explore Your 2027 Options." aepPreview />
+        <JourneySection />
         <div className="container py-8">
           <GuideCta variant="medicare" />
         </div>
-        <JourneySection />
         <TopicSection />
         <ZipFinderSection />
         <ResourcesSection />

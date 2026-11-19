@@ -33,10 +33,10 @@ export default function OriginalHomePage({ header }: { header?: React.ReactNode 
       {/* Main Content */}
       <main className="flex-1">
         <HeroSection />
+        <JourneySection />
         <div className="container py-8">
           <GuideCta variant="medicare" />
         </div>
-        <JourneySection />
         <TopicSection />
         <ZipFinderSection />
         <ResourcesSection />
