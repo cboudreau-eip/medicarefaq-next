@@ -402,10 +402,11 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "essential-step-for-seniors-after-medicare-advantage-cancel",
     seo: {
+      focusKeyword: "",
       title: "UnitedHealthcare Humana Medicare Advantage Cancellations",
       description: "UnitedHealthcare and Humana Medicare Advantage cancellations affect 1M+ enrollees in 2026. Learn your next steps and key enrollment deadlines.",
       canonical: "https://www.medicarefaq.com/blog/essential-step-for-seniors-after-medicare-advantage-cancel/",
-      ogImage: "/images/generated/1-essential-step-for-seniors-after-medicare-advantage-cancel-44445f118b6c.png",
+      ogImage: "/images/generated/essential-step-for-seniors-after-medicare-advantage-cancel-9f6ea372f5da.png",
     },
     title: "UnitedHealthcare Humana Medicare Advantage Cancellations",
     excerpt: "UnitedHealthcare and Humana are cutting Medicare Advantage plans for 2026, affecting about one million enrollees. Learn the key dates and steps to avoid a coverage gap.",
@@ -416,7 +417,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "9 min read",
     featured: false,
-    image: "/images/generated/1-essential-step-for-seniors-after-medicare-advantage-cancel-44445f118b6c.png",
+    image: "/images/generated/essential-step-for-seniors-after-medicare-advantage-cancel-9f6ea372f5da.png",
     imageAlt: "UnitedHealthcare Humana Medicare Advantage Cancellations",
     keyTakeaways: ["UnitedHealthcare and Humana are discontinuing certain Medicare Advantage plans for 2026, impacting roughly one million enrollees nationwide", "Affected members receive a non-renewal or termination notice directly from their insurer detailing the plan's exact end date", "A plan cancellation triggers a Special Enrollment Period (SEP) separate from the standard Annual Enrollment Period (October 15 to December 7)", "Confirming your plan's end date and SEP window is critical to avoid coverage gaps affecting doctor visits and prescriptions", "If you do not actively choose a new plan, you may be automatically reassigned to a plan that does not fit your doctors or medications"],
     tableOfContents: [
