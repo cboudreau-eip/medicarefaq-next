@@ -2156,10 +2156,11 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "hmsa-plan-termination-may-raise-costs-for-hawaii-seniors",
     seo: {
+      focusKeyword: "",
       title: "HMSA Medicare Plan Changes: 2027 Guide for Seniors",
       description: "HMSA Medicare plan changes affect 16,000 Hawaii seniors. Learn what to do before 2027 to avoid a coverage gap and choose the right plan.",
       canonical: "https://www.medicarefaq.com/blog/hmsa-plan-termination-may-raise-costs-for-hawaii-seniors/",
-      ogImage: "/images/generated/hmsa-plan-termination-may-raise-costs-for-hawaii-seniors-in-8c2511cf4d65.png",
+      ogImage: "/images/generated/hmsa-plan-termination-may-raise-costs-for-hawaii-seniors-cf9e2b8a339a.png",
     },
     title: "HMSA Medicare Plan Changes: 2027 Guide for Seniors",
     excerpt: "HMSA is discontinuing its Medicare Advantage plan, affecting about 16,000 Hawaii members who must choose new coverage before 2027 to avoid a gap.",
@@ -2170,7 +2171,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "/images/generated/hmsa-plan-termination-may-raise-costs-for-hawaii-seniors-in-8c2511cf4d65.png",
+    image: "/images/generated/hmsa-plan-termination-may-raise-costs-for-hawaii-seniors-cf9e2b8a339a.png",
     imageAlt: "HMSA Medicare Plan Changes: 2027 Guide for Seniors",
     keyTakeaways: ["HMSA is discontinuing its Medicare Advantage plan, affecting roughly 16,000 members across Hawaii", "Coverage ends when the current plan year closes, with new coverage needed by January 1, 2027", "Affected members qualify for a Special Enrollment Period and will receive a formal non-renewal notice by mail", "Original Medicare, Medicare Advantage, and Medicare Supplement plans differ in coverage structure, costs, and provider networks", "Copays, deductibles, and out-of-pocket maximums may change significantly even with a similar replacement plan"],
     tableOfContents: [
