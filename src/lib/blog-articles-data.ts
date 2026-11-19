@@ -724,7 +724,7 @@ export const blogArticles: BlogArticleData[] = [
       title: "Hospitals Dropping Medicare Advantage Plans: What to Do Next",
       description: "Hospitals dropping Medicare Advantage plans in 2026? Learn how to check your network status and protect your care options now.",
       canonical: "https://www.medicarefaq.com/blog/is-your-hospital-leaving-medicare-advantage/",
-      ogImage: "/images/generated/is-your-hospital-leaving-medicare-advantage-121a8eccf868.png",
+      ogImage: "/images/generated/is-your-hospital-leaving-medicare-advantage-c9ce384773a8.png",
     },
     title: "Hospitals Are Dropping Medicare Advantage: What to Do Next",
     excerpt: "Hospitals across the country are dropping Medicare Advantage contracts over payment disputes, leaving members at risk of losing in-network access in 2026.",
@@ -735,7 +735,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "/images/generated/is-your-hospital-leaving-medicare-advantage-121a8eccf868.png",
+    image: "/images/generated/is-your-hospital-leaving-medicare-advantage-c9ce384773a8.png",
     imageAlt: "Hospitals Dropping Medicare Advantage: What to Do",
     keyTakeaways: ["Hospitals are ending Medicare Advantage contracts nationwide due to payment delays, low reimbursement, and claim denial disputes", "Provider directories may not reflect contract terminations in real time, so confirm network status directly with your hospital", "HMO members risk losing access entirely, while PPO members face higher out-of-network costs", "Compare other Medicare Advantage plans in your area or consider Original Medicare plus Medigap for more consistent hospital access", "Watch for official notices from your insurer or hospital system ahead of 2026 network changes"],
     tableOfContents: [
