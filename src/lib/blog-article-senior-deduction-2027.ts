@@ -7,7 +7,7 @@ export const seniorDeduction2027Article: BlogArticleData = {
     "title": "Trump’s $6,000 Senior Tax Deduction 2027: Who Qualifies?",
     "description": "See who qualifies for the 2027 senior tax deduction, how income limits affect savings, how to claim it, and why it does not lower Medicare IRMAA income.",
     "canonical": "https://www.medicarefaq.com/blog/trump-senior-tax-deduction-2027/",
-    "ogImage": "/images/hero-aep-couple.jpg"
+    "ogImage": "/images/generated/trump-senior-tax-deduction-2027-aeaa6c457838.png"
   },
   "title": "Trump’s $6,000 Senior Tax Deduction for 2027: Eligibility, Income Limits and Savings",
   "excerpt": "The senior deduction can reduce your taxable income, but it is not a government check. Compare eligibility, income phaseouts, savings examples, and the Medicare implications.",
@@ -19,7 +19,7 @@ export const seniorDeduction2027Article: BlogArticleData = {
   "reviewer": "",
   "readTime": "10 min read",
   "featured": false,
-  "image": "/images/hero-aep-couple.jpg",
+  "image": "/images/generated/trump-senior-tax-deduction-2027-aeaa6c457838.png",
   "imageAlt": "Older couple reviewing paperwork and a laptop at home",
   "answerBlock": "For tax year 2027, eligible adults age 65 and older can claim a federal deduction of up to $6,000 each, subject to income limits. It reduces taxable income, not tax dollar for dollar, and does not itself lower Medicare IRMAA income. Returns are generally filed in 2028.",
   "keyTakeaways": [
