@@ -60,6 +60,7 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   async redirects() {
     return [
+      { source: "/blog/2027-medicare-part-b-premium-estimate", destination: "/blog/medicare-part-b-premium-2027/", permanent: true },
       // Keep existing category-filter bookmarks working with the new directories.
       ...FAQ_CATEGORIES.map(({ label, slug }) => ({
         source: "/faqs",
