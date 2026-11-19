@@ -13076,7 +13076,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "Does Medicare Cover Urinary Catheters?",
-        answer: "Yes. Medicare Part B covers urinary catheters and related supplies when they are medically necessary and prescribed by a physician. This is different from incontinence pads and diapers, which are not covered.",
+        answer: "Yes. Medicare Part B covers [urinary catheters and related supplies](/blog/5-medicare-myths-about-incontinence-coverage/) when they are medically necessary and prescribed by a physician. This is different from incontinence pads and diapers, which are not covered.",
       },
       {
         question: "How Can I Save Money on Incontinence Supplies?",
@@ -36902,7 +36902,7 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   readTime: "8 min read",
   quickAnswer: {
-    text: "<strong>For most people turning 65, Part B starts on the first day of their birthday month if they sign up during the three months before it.</strong> Sign up during your birthday month or the next three months, and Part B starts the following month. General Enrollment Period coverage also starts the month after you sign up. Premium-free Part A and birthdays on the first follow different rules, explained below.<br /><br /><strong>Still working at 65?</strong> You may be able to delay Part B with coverage based on your or your spouse’s current employment. Before delaying, <a href=\"/medicare-enrollment/working-past-65/\" class=\"underline text-teal-700\">check the working-past-65 rules</a> and ask your benefits administrator how your coverage pays.",
+    text: "<strong>For most people turning 65, Part B starts on the first day of their birthday month if they sign up during the three months before it.</strong> [Sign up during your birthday month or the next three months](/blog/3-month-rule-medicare-clear/), and Part B starts the following month. General Enrollment Period coverage also starts the month after you sign up. Premium-free Part A and birthdays on the first follow different rules, explained below.<br /><br /><strong>Still working at 65?</strong> You may be able to delay Part B with coverage based on your or your spouse’s current employment. Before delaying, <a href=\"/medicare-enrollment/working-past-65/\" class=\"underline text-teal-700\">check the working-past-65 rules</a> and ask your benefits administrator how your coverage pays.",
     badges: [],
   },
   comparisonTable: [
