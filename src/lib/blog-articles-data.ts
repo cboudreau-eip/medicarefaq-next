@@ -477,10 +477,11 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "5-options-everyone-consider",
     seo: {
+      focusKeyword: "",
       title: "5 Options for 2027 Medicare Coverage You Need to Know",
       description: "Explore 5 key options for 2027 Medicare coverage, comparing costs, flexibility, and provider access to help you choose the right plan.",
       canonical: "https://www.medicarefaq.com/blog/5-options-everyone-consider/",
-      ogImage: "/images/generated/5-options-everyone-consider-a933c20049c7.png",
+      ogImage: "/images/generated/5-options-everyone-consider-352173990abc.png",
     },
     title: "5 Options Everyone Should Consider for 2027 Medicare Coverage",
     excerpt: "A look at five 2027 Medicare coverage paths, including Original Medicare, Medigap, and more, to help you compare costs, flexibility, and provider access before enrollment deadlines.",
@@ -491,7 +492,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "13 min read",
     featured: false,
-    image: "/images/generated/5-options-everyone-consider-a933c20049c7.png",
+    image: "/images/generated/5-options-everyone-consider-352173990abc.png",
     imageAlt: "5 Options Everyone Should Consider for 2027 Medicare Coverage",
     keyTakeaways: ["The Annual Enrollment Period runs October 15 through December 7, 2026, for coverage starting January 1, 2027.", "Medicare Advantage Open Enrollment Period runs January 1 through March 31, 2027, for those already enrolled in a Medicare Advantage plan.", "Original Medicare (Part A and Part B) offers nationwide provider access but leaves you responsible for deductibles and coinsurance with no out-of-pocket maximum.", "Medigap plans pair with Original Medicare to cover leftover costs, offering predictable expenses and nationwide provider access.", "There is no single best Medicare option; the right choice depends on your doctors, prescriptions, travel habits, and budget."],
     tableOfContents: [
