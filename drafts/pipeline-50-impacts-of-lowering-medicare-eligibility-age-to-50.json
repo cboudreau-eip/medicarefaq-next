@@ -1,7 +1,22 @@
 {
   "title": "Medicare Eligibility Age 50: Proposed Law Explained",
+  "rawContent": "",
   "slug": "50-impacts-of-lowering-medicare-eligibility-age-to-50",
+  "excerpt": "Lowering the Medicare eligibility age to 50 is only a proposed idea in Congress, not current law. The eligibility age remains 65 for now.",
   "category": "eligibility",
+  "author": "David Haass",
+  "reviewer": "Ashlee Zareczny",
+  "image": "/images/generated/50-impacts-of-lowering-medicare-eligibility-age-to-50-a43ce718a8df.png",
+  "imageAlt": "",
+  "keyTakeaways": [
+    "Medicare eligibility age 50 is a legislative proposal, not an enacted law; the standard eligibility age of 65 still applies as of November 2026",
+    "The proposal would create an optional early buy-in for adults age 50 to 64, not a mandatory enrollment requirement",
+    "Supporters cite high individual marketplace premiums and coverage gaps for those who retire early or lose employer insurance before age 65",
+    "Key details remain undecided, including premium structure, enrollment process, and which Medicare parts would be included",
+    "Adults with employer coverage would have the choice to switch to Medicare under the proposal, not an obligation to do so"
+  ],
+  "seoTitle": "Medicare Eligibility Age 50: Proposed Law Explained",
+  "seoDescription": "Learn what the proposed Medicare eligibility age 50 law could mean for your coverage, premiums, and enrollment options today.",
   "sections": [
     {
       "type": "heading",
@@ -11,7 +26,7 @@
     },
     {
       "type": "paragraph",
-      "content": "If you have seen headlines about lowering the Medicare eligibility age to 50, it helps to start with the facts as they stand today. This is a proposed idea being discussed in Congress, not a law that has passed. The standard Medicare eligibility age of 65 remains in effect right now, and nothing about your current coverage or enrollment timeline has changed."
+      "content": "If you have seen headlines about lowering the [Medicare eligibility age](/faqs/what-is-medicare/) to 50, it helps to start with the facts as they stand today. This is a proposed idea being discussed in Congress, not a law that has passed. The standard Medicare eligibility age of 65 remains in effect right now, and nothing about your current coverage or enrollment timeline has changed."
     },
     {
       "type": "paragraph",
@@ -20,7 +35,7 @@
     {
       "type": "callout",
       "calloutType": "info",
-      "calloutText": "As of November 2026, lowering the Medicare eligibility age to 50 is a legislative proposal only. No bill has been signed into law, and the current eligibility age of 65 still applies.",
+      "calloutText": "As of November 2026, lowering the [Medicare eligibility age](/faqs/what-is-medicare/) to 50 is a legislative proposal only. No bill has been signed into law, and the current eligibility age of 65 still applies.",
       "calloutTitle": "Current Status"
     },
     {
@@ -45,7 +60,7 @@
     },
     {
       "type": "paragraph",
-      "content": "One source of confusion with this proposal is terminology. An \"early buy-in\" option would likely function differently from how most people picture Medicare coverage today, which includes Part A for hospital care, Part B for medical services, Part C as the Medicare Advantage alternative, and Part D for prescription drugs. Depending on how the legislation is written, early enrollees might access a subset of these parts, a separate buy-in plan structure, or something that more closely resembles current Medicare, though none of this has been finalized."
+      "content": "One source of confusion with this proposal is terminology. An \"early buy-in\" option would likely function differently from how most people picture Medicare coverage today, which includes Part A for hospital care, Part B for medical services, Part C as the [Medicare Advantage](/faqs/medicare-advantage-vs-medicare-supplement/) alternative, and Part D for prescription drugs. Depending on how the legislation is written, early enrollees might access a subset of these parts, a separate buy-in plan structure, or something that more closely resembles current Medicare, though none of this has been finalized."
     },
     {
       "type": "paragraph",
@@ -58,7 +73,7 @@
         "Continuity of care with your current doctors, since not all providers accept Medicare patients",
         "Prescription drug formulary differences between your current plan and any Medicare drug coverage",
         "Provider network changes if you move from a marketplace plan's network to Medicare-participating providers",
-        "Potential coverage gaps during the transition period between plans if timing or paperwork does not align smoothly"
+        "Potential coverage gaps during the [transition period](/faqs/when-should-you-enroll-in-medicare-if-still-working/) between plans if timing or paperwork does not align smoothly"
       ]
     },
     {
@@ -171,21 +186,67 @@
       "content": "MedicareFAQ.com will continue tracking this legislation as it develops, so you can return for updates as details about eligibility, premiums, and enrollment become clearer. In the meantime, if you are nearing 65 or simply reviewing your current coverage, it can help to speak with a licensed Medicare agent about your existing options today. That conversation is worthwhile regardless of how this particular proposal turns out, since understanding your current choices puts you in a stronger position no matter what Congress decides."
     }
   ],
-  "seoTitle": "Medicare Eligibility Age 50: Proposed Law Explained",
-  "seoDescription": "Learn what the proposed Medicare eligibility age 50 law could mean for your coverage, premiums, and enrollment options today.",
-  "excerpt": "Lowering the Medicare eligibility age to 50 is only a proposed idea in Congress, not current law. The eligibility age remains 65 for now.",
-  "keyTakeaways": [
-    "Medicare eligibility age 50 is a legislative proposal, not an enacted law; the standard eligibility age of 65 still applies as of November 2026",
-    "The proposal would create an optional early buy-in for adults age 50 to 64, not a mandatory enrollment requirement",
-    "Supporters cite high individual marketplace premiums and coverage gaps for those who retire early or lose employer insurance before age 65",
-    "Key details remain undecided, including premium structure, enrollment process, and which Medicare parts would be included",
-    "Adults with employer coverage would have the choice to switch to Medicare under the proposal, not an obligation to do so"
+  "relatedSlugs": [
+    "enrolling-medicare-heres-consider",
+    "medicare-open-enrollment-2027-free-resources-for-seniors",
+    "5-options-everyone-consider",
+    "medicare-2027-key-changes-in-open-enrollment-you-need-to-know"
   ],
-  "image": "/images/generated/50-impacts-of-lowering-medicare-eligibility-age-to-50-a43ce718a8df.png",
-  "relatedSlugs": [],
-  "sourceUrl": "https://www.weau.com/2026/11/10/bill-introduced-lower-age-medicare-eligibility-50/",
-  "pipelineId": "disc-9c2a6ef250dac0c2b575b48f4cd38f44615a76e490671529abba3a554bd3e304",
+  "linkSuggestions": [
+    {
+      "phrase": "current coverage",
+      "url": "/faqs/medicare-and-employer-coverage/",
+      "title": "Understanding Employer Insurance and Medicare",
+      "reason": "Linking to this page helps clarify how current employer coverage interacts with Medicare, which is crucial for readers contemplating a switch to Medicare under the new proposal."
+    },
+    {
+      "phrase": "health insurance costs",
+      "url": "/faqs/medicare-costs-in-2026-premiums-deductibles-and-key-changes/",
+      "title": "Medicare Costs in 2026: Premiums, Deductibles, and Key Changes",
+      "reason": "Linking to this page offers readers detailed information about Medicare costs, which is essential for understanding the financial implications of the proposed eligibility changes."
+    },
+    {
+      "phrase": "coverage gaps",
+      "url": "/faqs/what-medicare-doesnt-cover-common-surprises/",
+      "title": "What Medicare Doesn't Cover: Common Surprises",
+      "reason": "This link helps readers understand potential coverage gaps that may arise during transitions, which is a concern highlighted in the article."
+    },
+    {
+      "phrase": "Medicare plan options",
+      "url": "/faqs/medicare-part-d-six-protected-classes/",
+      "title": "Medicare Part D Six Protected Drug Classes",
+      "reason": "Providing information on Medicare plan options, particularly regarding prescription coverage, is beneficial for readers considering their choices under the proposed changes."
+    },
+    {
+      "phrase": "current plan's renewal date",
+      "url": "/faqs/medicare-annual-enrollment-period/",
+      "title": "Medicare Annual Enrollment Period (AEP)",
+      "reason": "This link offers important information about enrollment periods, which is crucial for readers managing their current plans in light of the proposed changes."
+    }
+  ],
+  "acceptedLinks": [
+    {
+      "phrase": "Medicare eligibility age",
+      "url": "/faqs/what-is-medicare/",
+      "title": "What Is Medicare?"
+    },
+    {
+      "phrase": "Medicare Advantage",
+      "url": "/faqs/medicare-advantage-vs-medicare-supplement/",
+      "title": "Medicare Advantage vs. Medicare Supplement: Which Is Right for You?"
+    },
+    {
+      "phrase": "licensed Medicare agents",
+      "url": "/faqs/how-to-apply-and-sign-up-for-medicare/",
+      "title": "How to Apply and Sign up for Medicare"
+    },
+    {
+      "phrase": "transition period",
+      "url": "/faqs/when-should-you-enroll-in-medicare-if-still-working/",
+      "title": "When Should You Enroll in Medicare if Still Working?"
+    }
+  ],
   "id": "pipeline-50-impacts-of-lowering-medicare-eligibility-age-to-50",
-  "updatedAt": "2026-11-18T18:59:41.727Z",
-  "createdAt": "2026-11-18T18:59:41.727Z"
+  "updatedAt": "2026-11-19T12:32:18.391Z",
+  "createdAt": "2026-11-19T12:32:18.391Z"
 }
