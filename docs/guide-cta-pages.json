@@ -262,7 +262,8 @@
     "https://www.medicarefaq.com/medicare-supplement-plans/arkansas/",
     "https://www.medicarefaq.com/medicare-supplement-plans/virginia/",
     "https://www.medicarefaq.com/medicare-supplement-plans/kentucky/",
-    "https://www.medicarefaq.com/medicare-supplement-plans/south-carolina/"
+    "https://www.medicarefaq.com/medicare-supplement-plans/south-carolina/",
+    "https://www.medicarefaq.com/blog/crucial-medicare-enrollment-mistakes-to-avoid/"
   ],
   "automatic": {
     "/blog/medicare-acos-to-waive-part-b-copays-key-changes-in-2027/": {
@@ -896,6 +897,10 @@
     "/medicare-supplement-plans/south-carolina/": {
       "variant": "medigap",
       "description": "Comparing Medicare Supplement coverage in South Carolina? Enter your ZIP code to explore Medigap options and rates in your area."
+    },
+    "/blog/crucial-medicare-enrollment-mistakes-to-avoid/": {
+      "variant": "medicare",
+      "description": "Exploring Medicare coverage options? Enter your ZIP code to compare plans in your area."
     }
   }
 }
