@@ -7,19 +7,19 @@ export const medicareCosts2027Article: BlogArticleData = {
     "title": "Medicare Part D Costs: 2027 Premiums, Deductible and Cap",
     "description": "Understand Medicare Part D costs for 2027, including premiums, the deductible, drug spending cap, and IRMAA. Compare coverage and budget for your prescriptions.",
     "canonical": "https://www.medicarefaq.com/blog/medicare-part-d-costs/",
-    "ogImage": "/images/generated/understanding-medicare-costs-debunking-the-free-myth-6bad7fc51cdc.png"
+    "ogImage": "/images/generated/medicare-part-d-costs-8b22921346f6.png"
   },
   "title": "Medicare Part D Costs in 2027: Premiums, Deductible, and Drug Cap",
   "excerpt": "Review 2027 Part D drug costs, income-related surcharges, and financial assistance, with Part A and Part B costs for your overall Medicare budget.",
   "category": "Medicare Costs",
   "categoryColor": "#0369a1",
   "date": "November 24, 2026",
-  "dateUpdated": "November 24, 2026",
+  "dateUpdated": "2026-11-24",
   "author": "David Haass",
   "reviewer": "",
   "readTime": "14 min read",
   "featured": false,
-  "image": "/images/generated/understanding-medicare-costs-debunking-the-free-myth-6bad7fc51cdc.png",
+  "image": "/images/generated/medicare-part-d-costs-8b22921346f6.png",
   "imageAlt": "Older couple reviewing healthcare bills with a calculator and savings piggy bank",
   "answerBlock": "In 2027, Medicare Part D has a maximum $700 deductible and a $2,400 annual out-of-pocket threshold for covered drugs. Monthly plan premiums vary, and higher-income beneficiaries may pay IRMAA. Premiums and noncovered drugs do not count toward the drug spending threshold.",
   "keyTakeaways": [
