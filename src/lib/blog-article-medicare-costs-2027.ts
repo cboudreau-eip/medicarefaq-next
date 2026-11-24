@@ -1,16 +1,16 @@
 import type { BlogArticleData } from "./article-types";
 
 export const medicareCosts2027Article: BlogArticleData = {
-  "slug": "medicare-costs-2027",
+  "slug": "medicare-part-d-costs",
   "seo": {
-    "focusKeyword": "2027 Medicare costs",
-    "title": "2027 Medicare Costs: Premiums, Deductibles and Drug Cap",
-    "description": "Compare 2027 Medicare premiums, deductibles, Part D drug costs, and IRMAA. See what changed from 2026 and how to build a budget for your coverage and care.",
-    "canonical": "https://www.medicarefaq.com/blog/medicare-costs-2027/",
+    "focusKeyword": "Medicare Part D costs",
+    "title": "Medicare Part D Costs: 2027 Premiums, Deductible and Cap",
+    "description": "Understand Medicare Part D costs for 2027, including premiums, the deductible, drug spending cap, and IRMAA. Compare coverage and budget for your prescriptions.",
+    "canonical": "https://www.medicarefaq.com/blog/medicare-part-d-costs/",
     "ogImage": "/images/generated/understanding-medicare-costs-debunking-the-free-myth-6bad7fc51cdc.png"
   },
-  "title": "2027 Medicare Costs: Premiums, Deductibles, and Out-of-Pocket Limits",
-  "excerpt": "Compare the new Part A, Part B, and Part D amounts, understand which limits apply, and plan for your own coverage costs in 2027.",
+  "title": "Medicare Part D Costs in 2027: Premiums, Deductible, and Drug Cap",
+  "excerpt": "Review 2027 Part D drug costs, income-related surcharges, and financial assistance, with Part A and Part B costs for your overall Medicare budget.",
   "category": "Medicare Costs",
   "categoryColor": "#0369a1",
   "date": "November 24, 2026",
@@ -21,9 +21,9 @@ export const medicareCosts2027Article: BlogArticleData = {
   "featured": false,
   "image": "/images/generated/understanding-medicare-costs-debunking-the-free-myth-6bad7fc51cdc.png",
   "imageAlt": "Older couple reviewing healthcare bills with a calculator and savings piggy bank",
-  "answerBlock": "In 2027, the standard Part B premium is $209.40 monthly and its deductible is $292. The Part A hospital deductible is $1,776 per benefit period. Part D has a maximum $700 deductible and a $2,400 annual out-of-pocket threshold for covered drugs.",
+  "answerBlock": "In 2027, Medicare Part D has a maximum $700 deductible and a $2,400 annual out-of-pocket threshold for covered drugs. Monthly plan premiums vary, and higher-income beneficiaries may pay IRMAA. Premiums and noncovered drugs do not count toward the drug spending threshold.",
   "keyTakeaways": [
-    "The standard Part B premium increases by $78 over a full year; your actual bill depends on income, penalties, and assistance.",
+    "Part D has a maximum $700 deductible and a $2,400 annual out-of-pocket threshold for covered drugs in 2027; eligible deductible payments count toward that threshold.",
     "The Part A deductible can apply more than once a year, while the Part D threshold covers eligible drug costs only.",
     "Compare premiums, prescriptions, doctors, and costs when you use care before choosing 2027 coverage."
   ],
@@ -64,7 +64,7 @@ export const medicareCosts2027Article: BlogArticleData = {
   "sections": [
     {
       "type": "paragraph",
-      "content": "Starting January 2027, Medicare beneficiaries will see measurable cost increases across nearly every part of their coverage. The standard Part B premium climbs to **$209.40 per month**, a $6.50 increase from 2026, and hospital deductibles, prescription thresholds, and income-related surcharges all shift alongside it."
+      "content": "Starting January 2027, **Medicare Part D costs** include a maximum **$700 annual deductible** and a **$2,400 out-of-pocket threshold** for covered drugs. Your monthly premium and prescription costs depend on your plan, medications, pharmacy, and eligibility for assistance. Higher-income beneficiaries may also pay a Part D income-related surcharge."
     },
     {
       "type": "paragraph",
@@ -72,7 +72,7 @@ export const medicareCosts2027Article: BlogArticleData = {
     },
     {
       "type": "paragraph",
-      "content": "This article breaks down **2027 Medicare costs**, including Part A, Part B, Part D, and income-related adjustments. Use the figures alongside your own plan documents to build a budget based on your prescriptions, doctors, and expected care."
+      "content": "This article explains **2027 Medicare Part D costs**, including the drug spending cap, IRMAA, and ways to get help paying for prescriptions. It also covers Part A and Part B expenses so you can put your drug coverage costs into the context of your overall Medicare budget."
     },
     {
       "type": "heading",
