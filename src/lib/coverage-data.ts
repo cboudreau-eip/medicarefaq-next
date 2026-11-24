@@ -5885,7 +5885,7 @@ export const coverageArticles: CoverageArticleData[] = [
       coverageType: "not-covered",
       paragraphs: [
       "Since Medicare does not cover Life Alert, you will pay the full cost out of pocket. Life Alert pricing typically includes an activation fee, monthly monitoring fees, and potential equipment costs depending on which package you choose. According to industry pricing reports and Life Alert’s own published information, these costs can vary based on features and service level.",
-      "Typical Medical Alert System Costs (2026): Life Alert's basic plan starts around $49.95 per month with a one-time activation fee of approximately $95–$198. Medical Guardian offers plans from $29.95–$49.95 per month with setup fees ranging from $0–$149. Bay Alarm Medical starts at $24.95 per month with free activation. Features vary by provider and plan level, including fall detection, GPS tracking, and 24/7 monitoring.",
+      "Typical [Medical Alert System Costs](/faqs/does-medicare-cover-medical-alert-systems/) (2026): Life Alert's basic plan starts around $49.95 per month with a one-time activation fee of approximately $95–$198. Medical Guardian offers plans from $29.95–$49.95 per month with setup fees ranging from $0–$149. Bay Alarm Medical starts at $24.95 per month with free activation. Features vary by provider and plan level, including fall detection, GPS tracking, and 24/7 monitoring.",
     ],
     },
   ],
@@ -6871,7 +6871,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Not Covered",
         coverageType: "not-covered",
         paragraphs: [
-          "Medicare does not cover the costs of fitness programs and gym memberships. Thus, [Original Medicare](/faqs/original-medicare-vs-medicare-advantage) does not cover the cost of SilverSneakers.",
+          "[Medicare does not cover the costs of fitness programs and gym memberships](/faqs/medicare-gym-membership/). Thus, [Original Medicare](/faqs/original-medicare-vs-medicare-advantage) does not cover the cost of SilverSneakers.",
           "[Medicare Advantage plans can offer additional benefits](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) unavailable through Original Medicare. Often, these plans include some type of gym membership or wellness program.",
           "[Medicare Supplement (Medigap) policies](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) do not include coverage for gym memberships. However, some carriers offer these benefits to their enrollees. The availability of these plans also varies by state, so speaking with a licensed agent is the best way to find out if you can enroll in a Medigap policy that includes coverage for a gym membership."],
       },
