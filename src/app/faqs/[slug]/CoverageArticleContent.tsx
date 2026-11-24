@@ -1,4 +1,5 @@
 "use client";
+import ArticleContentAdditions from "@/components/ArticleContentAdditions";
 import ArticleGuideCta from "@/components/ArticleGuideCta";
 import { renderInline } from "@/components/ArticleInline";
 
@@ -855,6 +856,7 @@ export default function CoverageArticleContent({ article, sidebarLinks }: { arti
               {article.showInlineCta && (
                 <InlineCardCTA pageSection={`faq_coverage_${article.slug}`} />
               )}
+              <ArticleContentAdditions items={article.contentAdditions} after="before-faqs" />
               {/* FAQs */}
               <div id="faqs" className="mb-10 mt-10">
                 <h2 className="text-2xl font-bold text-[#1B2A4A] mb-6">

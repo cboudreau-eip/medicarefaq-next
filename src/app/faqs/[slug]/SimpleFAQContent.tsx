@@ -1,4 +1,5 @@
 "use client";
+import ArticleContentAdditions from "@/components/ArticleContentAdditions";
 import ArticleGuideCta from "@/components/ArticleGuideCta";
 import { renderInline } from "@/components/ArticleInline";
 
@@ -507,12 +508,14 @@ export default function SimpleFAQContent({ article, blogSlugs }: { article: Simp
                           ))}
                         </ul>
                       )}
+                      <ArticleContentAdditions items={article.contentAdditions} after={`section-${i}`} />
                     </div>
                   ))
                 )}
               </div>
 
 
+              {useRich && <ArticleContentAdditions items={article.contentAdditions} />}
               {/* ─── Inline Card CTA (for legacy sections only) ─── */}
               {!useRich && article.showInlineCta && (
                 <InlineCardCTA pageSection={`faq_simple_${article.slug}`} />

@@ -1,4 +1,5 @@
 "use client";
+import ArticleContentAdditions from "@/components/ArticleContentAdditions";
 import { renderInline } from "@/components/ArticleInline";
 
 
@@ -230,6 +231,7 @@ export default function PageContent({ page }: { page: PartDSubPage }) {
                   </div>
                 )}
               </section>
+              <ArticleContentAdditions items={page.contentAdditions} after={section.id} />
               </Fragment>
             ))}
 

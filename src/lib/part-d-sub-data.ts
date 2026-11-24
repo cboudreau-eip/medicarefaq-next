@@ -1,3 +1,4 @@
+import type {ArticleContentAddition} from './article-content-additions';
 import { MEDICARE_COSTS } from "@/lib/medicare-costs";
 
 /**
@@ -7,6 +8,7 @@ import { MEDICARE_COSTS } from "@/lib/medicare-costs";
  */
 
 export interface PartDSubPage {
+  contentAdditions?: ArticleContentAddition[];
   slug: string;
   title: string;
   metaTitle: string;

@@ -1,3 +1,4 @@
+import type {ArticleContentAddition} from './article-content-additions';
 /**
  * Shared data types for data-driven article templates.
  * Both Coverage Q&A and Blog articles use these schemas.
@@ -99,6 +100,7 @@ export interface ArticleSEO {
 }
 
 export interface CoverageArticleData {
+  contentAdditions?: ArticleContentAddition[];
   slug: string;
   seo?: ArticleSEO;
   title: string;
@@ -209,6 +211,7 @@ export interface SimpleFAQSection {
 }
 
 export interface SimpleFAQArticleData {
+  contentAdditions?: ArticleContentAddition[];
   slug: string;
   seo: ArticleSEO;
   title: string;
