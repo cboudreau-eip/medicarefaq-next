@@ -169,7 +169,7 @@ export default function MedicareAdvantage() {
       {/* Main Content */}
       <section className="py-16">
         <div className="container">
-          <div className="flex flex-row-reverse gap-12">
+          <div className="mx-auto flex max-w-[1072px] flex-row-reverse gap-12">
             {/* Sidebar */}
             <aside className="hidden lg:block w-64 shrink-0">
               <div className="sticky top-28">
@@ -199,7 +199,7 @@ export default function MedicareAdvantage() {
             </aside>
 
             {/* Content */}
-            <div className="flex-1 min-w-0 max-w-3xl">
+            <div className="flex-1 min-w-0">
 
               {/* Key Takeaways */}
               <aside aria-label="Key Takeaways" className="mb-12 bg-teal-50 border border-teal-200 rounded-xl p-6">
