@@ -161,7 +161,7 @@ export default function MedicareSupplement() {
       {/* Main Content */}
       <section className="py-16">
         <div className="container">
-          <div className="flex flex-row-reverse gap-12">
+          <div className="mx-auto flex max-w-[1072px] flex-row-reverse gap-12">
             {/* Sidebar */}
             <aside className="hidden lg:block w-64 shrink-0">
               <div className="sticky top-28">
@@ -191,7 +191,7 @@ export default function MedicareSupplement() {
             </aside>
 
             {/* Content */}
-            <div className="flex-1 min-w-0 max-w-3xl">
+            <div className="flex-1 min-w-0">
               {/* Overview */}
               <section id="overview" className="mb-16">
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
