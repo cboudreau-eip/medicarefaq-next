@@ -5792,7 +5792,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
   slug: "does-medicare-cover-life-alert",
   seo: {
-    title: "Page not Found",
+    title: "Does Medicare Cover Life Alert? Costs and Coverage",
     description: "Get clear, unbiased answers to your Medicare questions.",
     canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-life-alert/",
     ogImage: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg",
@@ -6271,7 +6271,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "new-medicare-changes",
     seo: {
-      title: "Medicare FAQ",
+      title: "New Medicare Changes for 2026",
       description: "Get clear, unbiased answers to your Medicare questions.",
       canonical: "https://www.medicarefaq.com/faqs/new-medicare-changes/",
       ogImage: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg",
@@ -6794,7 +6794,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-silversneakers-program",
     seo: {
-      title: "Medicare FAQ",
+      title: "SilverSneakers Medicare Gym Membership Program",
       description: "Get clear, unbiased answers to your Medicare questions.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-silversneakers-program/",
       ogImage: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg",
@@ -7079,7 +7079,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-give-back-benefit",
     seo: {
-      title: "Medicare FAQ",
+      title: "Medicare Give Back Benefit: How It Works",
       description: "Get clear, unbiased answers to your Medicare questions.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-give-back-benefit/",
       ogImage: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg",
@@ -7651,7 +7651,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-special-enrollment-period",
     seo: {
-      title: "Medicare FAQ",
+      title: "Medicare Special Enrollment Period: Rules and Eligibility",
       description: "Get clear, unbiased answers to your Medicare questions.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-special-enrollment-period/",
       ogImage: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg",
@@ -8147,7 +8147,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-creditable-coverage",
     seo: {
-      title: "Medicare FAQ",
+      title: "What Is Medicare Creditable Coverage?",
       description: "Get clear, unbiased answers to your Medicare questions.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-creditable-coverage/",
       ogImage: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg",
@@ -8316,7 +8316,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-part-d-penalty",
     seo: {
-      title: "Medicare FAQ",
+      title: "Medicare Part D Late Enrollment Penalty",
       description: "Get clear, unbiased answers to your Medicare questions.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-part-d-penalty/",
       ogImage: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg",
@@ -8489,7 +8489,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-cost-sharing-plans",
     seo: {
-      title: "Medicare FAQ",
+      title: "Medicare Cost-Sharing Plans: How They Work",
       description: "Get clear, unbiased answers to your Medicare questions.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-cost-sharing-plans/",
       ogImage: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg",
