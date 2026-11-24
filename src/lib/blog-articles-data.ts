@@ -6366,6 +6366,7 @@ export const blogArticles: BlogArticleData[] = [
     ],
   },
 {
+    dateUpdated: "2026-11-24",
     seo: {
     title: "How to Compare Medicare Advantage Plans: Step-by-Step (2026)",
     description: "Compare Medicare Advantage plans with our 7-dimension framework covering networks, costs, drug coverage, extra benefits, star ratings, and prior authorization rules.",
@@ -6469,7 +6470,7 @@ export const blogArticles: BlogArticleData[] = [
       { question: "Are all Medicare Advantage plans the same?", answer: "No. Medicare Advantage plans vary significantly across every dimension: network size, out-of-pocket costs, drug formularies, extra benefits, star ratings, and prior authorization requirements. Two $0-premium plans in the same zip code can differ by $5,000+ in maximum out-of-pocket exposure and cover completely different medications. The only thing all MA plans must have in common is covering everything Original Medicare (Parts A and B) covers." },
       { question: "What does the star rating mean for Medicare Advantage plans?", answer: "CMS star ratings (1 to 5 stars) measure a plan's quality of care, customer service, member complaints, and health outcomes based on audited data. Plans with 4+ stars receive bonus payments from CMS, which they typically reinvest into richer benefits and lower costs for members. A 5-star plan also allows you to enroll at any time during the year through a Special Enrollment Period. Avoid plans rated below 3 stars unless you have a compelling reason." },
       { question: "How many Medicare Advantage plans can I compare at once?", answer: "On Medicare.gov Plan Finder, you can compare up to 3 plans side by side at a time. However, you can run multiple comparisons to evaluate more options. We recommend narrowing your choices to 3-5 plans based on initial criteria (your doctors in-network, acceptable MOOP, drugs covered) and then doing a detailed side-by-side comparison of the top 3." },
-      { question: "Should I choose a $0 premium Medicare Advantage plan?", answer: "A $0 premium does not mean free healthcare. Plans with $0 premiums often have higher copays, larger deductibles, higher maximum out-of-pocket limits, narrower networks, and more prior authorization requirements. In some cases, paying $30-$50/month for a plan with a lower MOOP and broader network saves you thousands in a year when you actually need care. Always compare total estimated annual cost, not just the premium." },
+      { question: "Should I choose a $0 premium Medicare Advantage plan?", answer: "[A $0 premium does not mean free healthcare](/blog/90-essential-facts-about-the-90-medicare-part-b-rebate/). Plans with $0 premiums often have higher copays, larger deductibles, higher maximum out-of-pocket limits, narrower networks, and more prior authorization requirements. In some cases, paying $30-$50/month for a plan with a lower MOOP and broader network saves you thousands in a year when you actually need care. Always compare total estimated annual cost, not just the premium." },
       { question: "When is the best time to compare Medicare Advantage plans?", answer: "The Annual Enrollment Period (October 15 to December 7) is the primary window to compare and switch plans, with changes taking effect January 1. Plan details for the upcoming year are released on October 1, giving you two weeks to research before AEP opens. If you already have an MA plan, you can also make one change during the Medicare Advantage Open Enrollment Period (January 1 to March 31)." },
       { question: "Can I compare Medicare Advantage plans to Medigap?", answer: "Yes, and you should if you are newly eligible for Medicare. Medicare Advantage and Medigap (Medicare Supplement) are fundamentally different approaches. MA plans bundle everything into one plan with networks and prior authorization but often lower premiums. Medigap pairs with Original Medicare for unrestricted provider access and predictable costs but requires separate Part D and has higher premiums. Our guide to Medicare Supplement vs. Medicare Advantage explains the trade-offs in detail." },
       { question: "What tools can I use to compare Medicare Advantage plans?", answer: "The best free tool is Medicare.gov Plan Finder (medicare.gov/plan-compare), which lets you enter your zip code, doctors, and medications to get personalized cost estimates. You can also call 1-800-MEDICARE (1-800-633-4227), use your State Health Insurance Assistance Program (SHIP) for free counseling, or work with a licensed independent Medicare agent who can compare plans across multiple carriers at no cost to you." }
@@ -8360,6 +8361,7 @@ export const blogArticles: BlogArticleData[] = [
       relatedSlugs: ["what-happens-to-your-medicare-when-you-move-states", "moving-to-another-state-with-medicare", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan"],
     },
 {
+    dateUpdated: "2026-11-24",
       slug: "does-medicare-offer-a-grocery-allowance",
       seo: {
         title: "Does Medicare Offer a Grocery Allowance?",
@@ -8414,7 +8416,7 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "Major national insurers like Humana, UnitedHealthcare, Cigna, and Aetna have begun rolling out grocery benefits in select markets. However, not every plan from these carriers includes the benefit, and availability differs from state to state and even within counties. A plan available in one zip code might not offer a grocery allowance in a neighboring area. This means your access to this benefit depends largely on where you live and which plans operate in your service area during enrollment.",
+          content: "Major national insurers like Humana, UnitedHealthcare, Cigna, and Aetna have begun rolling out [grocery benefits in select markets](/faqs/medicare-grocery-allowance/). However, not every plan from these carriers includes the benefit, and availability differs from state to state and even within counties. A plan available in one zip code might not offer a grocery allowance in a neighboring area. This means your access to this benefit depends largely on where you live and which plans operate in your service area during enrollment.",
         },
         {
           type: "callout",
@@ -15740,6 +15742,7 @@ imageAlt: "Older couple link arms drinking champagne at a party with bunting and
     ],
   },
   {
+    dateUpdated: "2026-11-24",
     slug: "how-to-combine-the-parts-of-medicare",
     draft: false,
     seo: {
@@ -15876,7 +15879,7 @@ imageAlt: "Older couple link arms drinking champagne at a party with bunting and
       { type: "heading", level: 2, text: "Medicare and Medicaid Together: Dual Eligibility", id: "dual-eligible" },
       { type: "paragraph", content: "If you qualify for both Medicare and Medicaid, you are considered dual eligible. About 12 million Americans fall into this category, and they have access to a coverage option that most Medicare beneficiaries do not: the Dual Eligible Special Needs Plan, or D-SNP." },
       { type: "image", src: "/images/generated/dual-eligible-medicare-medicaid-dsnp.png", alt: "Venn diagram showing how Medicare and Medicaid overlap for dual-eligible beneficiaries through D-SNP plans", caption: "Dual-eligible beneficiaries can access D-SNPs, which combine Medicare and Medicaid benefits into a single coordinated plan." },
-      { type: "paragraph", content: "[D-SNPs](/blog/dual-eligible-special-needs-plans-dsnp-explained) are a type of Medicare Advantage plan specifically designed for people with both Medicare and Medicaid. They coordinate benefits across both programs, which means you typically have very low or zero out-of-pocket costs for most services. Many D-SNPs also include enhanced dental, vision, hearing, transportation, and food assistance benefits." },
+      { type: "paragraph", content: "[D-SNPs](/blog/dual-eligible-special-needs-plans-dsnp-explained) are a type of Medicare Advantage plan specifically designed for people with both Medicare and Medicaid. They coordinate benefits across both programs, which means you typically have very low or zero out-of-pocket costs for most services. Many D-SNPs also include [enhanced dental, vision, hearing, transportation, and food assistance benefits](/faqs/medical-rides/)." },
       { type: "paragraph", content: "If you are dual eligible and not enrolled in a D-SNP, it is worth comparing your current coverage against what a D-SNP in your area would provide. The coordination of benefits alone can save you significant money each year." },
 
       { type: "heading", level: 2, text: "Full Combination Comparison Table", id: "combination-comparison-table" },
