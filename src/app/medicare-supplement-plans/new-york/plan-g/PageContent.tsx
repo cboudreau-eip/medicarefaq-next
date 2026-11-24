@@ -150,7 +150,7 @@ export default function NewYorkPlanGContent() {
           </p>
 
           {/* Stats Row */}
-          <div className="grid grid-cols-3 gap-4 mb-10 max-w-2xl">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10 max-w-2xl">
             <div className="bg-white/10 backdrop-blur rounded-xl p-4 text-center">
               <p className="text-sm text-blue-200">Lowest Rate</p>
               <p className="text-2xl md:text-3xl font-bold text-teal-400">{NEW_YORK_STATS.lowestPlanGPremium}</p>

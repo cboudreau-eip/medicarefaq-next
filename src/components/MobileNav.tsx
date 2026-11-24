@@ -72,7 +72,7 @@ export default function MobileNav() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -10 }}
               transition={{ duration: 0.2 }}
-              className="absolute top-full left-0 right-0 bg-white z-50 shadow-xl max-h-[80vh] overflow-y-auto"
+              className="absolute top-full left-0 right-0 bg-white z-50 shadow-xl max-h-[calc(100dvh-var(--site-header-height,56px))] overflow-y-auto overscroll-contain"
             >
               {/* Search */}
               <form onSubmit={handleSearch} className="p-4 border-b border-[#E5E7EB]">
