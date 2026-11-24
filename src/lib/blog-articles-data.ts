@@ -1,3 +1,4 @@
+import { medicareCosts2027Article } from "./blog-article-medicare-costs-2027";
 import { partB2027Article } from "./blog-article-part-b-2027";
 /**
  * Blog Articles Data
@@ -15,6 +16,7 @@ import { preventiveServicesArticle } from "./blog-article-preventive-services";
 import { medicareScamsArticle } from "./blog-article-medicare-scams";
 import { seniorDeduction2027Article } from "./blog-article-senior-deduction-2027";
 export const blogArticles: BlogArticleData[] = [
+  medicareCosts2027Article,
   {
     dateUpdated: "2026-11-24",
     slug: "cms-prolongs-2026-moratorium-on-medicare-home-health-enrollm",
