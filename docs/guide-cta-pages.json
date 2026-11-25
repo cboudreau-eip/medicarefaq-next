@@ -267,7 +267,8 @@
     "https://www.medicarefaq.com/blog/crucial-medicare-enrollment-mistakes-to-avoid/",
     "https://www.medicarefaq.com/blog/medicare-part-b-premium-2027/",
     "https://www.medicarefaq.com/blog/50-impacts-of-lowering-medicare-eligibility-age-to-50/",
-    "https://www.medicarefaq.com/blog/cms-prolongs-2026-moratorium-on-medicare-home-health-enrollm/"
+    "https://www.medicarefaq.com/blog/cms-prolongs-2026-moratorium-on-medicare-home-health-enrollm/",
+    "https://www.medicarefaq.com/blog/documentation-needed-apply-medicare/"
   ],
   "automatic": {
     "/blog/medicare-acos-to-waive-part-b-copays-key-changes-in-2027/": {
@@ -911,6 +912,10 @@
       "description": "Exploring Medicare coverage options? Enter your ZIP code to compare plans in your area."
     },
     "/blog/cms-prolongs-2026-moratorium-on-medicare-home-health-enrollm/": {
+      "variant": "medicare",
+      "description": "Exploring Medicare coverage options? Enter your ZIP code to compare plans in your area."
+    },
+    "/blog/documentation-needed-apply-medicare/": {
       "variant": "medicare",
       "description": "Exploring Medicare coverage options? Enter your ZIP code to compare plans in your area."
     }
