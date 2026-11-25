@@ -1202,7 +1202,7 @@ export default function Eligibility() {
                 className="block rounded-xl overflow-hidden hover:shadow-lg transition-shadow"
               >
                 <img
-                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/medicare-cta-banner-find-plan-short-4CSv5jcpyyMJCXLKrN3fpo.png"
+                  src="/images/cta-banner-find-plan.jpg"
                   alt="Find the Right Medicare Plan for You - Answer a few quick questions and get matched with plans in your area"
                   className="w-full h-auto"
                 />

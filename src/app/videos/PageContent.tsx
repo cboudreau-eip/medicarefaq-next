@@ -171,7 +171,7 @@ export default function Videos() {  useEffect(() => {
             </div>
           </div>
           <a
-            href="https://www.youtube.com/@MedicareFAQ"
+            href="https://www.youtube.com/channel/UCS23UfWJ0XqyCCCYIwFM41g"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white text-sm font-semibold px-5 py-2.5 rounded-lg transition-colors"
@@ -238,7 +238,7 @@ export default function Videos() {  useEffect(() => {
                 {videos.map((vid, i) => (
                   <a
                     key={i}
-                    href={vid.youtubeId ? `https://www.youtube.com/watch?v=${vid.youtubeId}` : "https://www.youtube.com/@MedicareFAQ"}
+                    href={vid.youtubeId ? `https://www.youtube.com/watch?v=${vid.youtubeId}` : "https://www.youtube.com/channel/UCS23UfWJ0XqyCCCYIwFM41g"}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="group bg-white border border-slate-200 rounded-xl overflow-hidden hover:border-indigo-200 hover:shadow-md transition-all"
@@ -283,7 +283,7 @@ export default function Videos() {  useEffect(() => {
 
               <div className="mt-8 text-center">
                 <a
-                  href="https://www.youtube.com/@MedicareFAQ"
+                  href="https://www.youtube.com/channel/UCS23UfWJ0XqyCCCYIwFM41g"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-red-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-red-700 transition-colors"
@@ -314,7 +314,7 @@ export default function Videos() {  useEffect(() => {
                   <p className="text-xs font-bold text-red-900 uppercase tracking-wider mb-2">Subscribe</p>
                   <p className="text-xs text-red-700/80 mb-3">Get notified when we publish new Medicare videos.</p>
                   <a
-                    href="https://www.youtube.com/@MedicareFAQ?sub_confirmation=1"
+                    href="https://www.youtube.com/channel/UCS23UfWJ0XqyCCCYIwFM41g?sub_confirmation=1"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center gap-2 bg-red-600 text-white text-sm font-semibold px-4 py-2.5 rounded-lg hover:bg-red-700 transition-colors w-full"

@@ -512,7 +512,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
       { type: "heading", level: 2, text: "Sources and Further Reading", id: "sources" },
       { type: "list", ordered: false, items: [
         "[CMS Medigap Consumer Guide](https://www.medicare.gov/supplements-other-insurance/whats-medicare-supplement-insurance-medigap) - Official Medicare.gov overview of Medigap plans and how they work",
-        "[NAIC Medigap Consumer Guide](https://content.naic.org/consumer/medigap-medicare-supplement-insurance.htm) - National Association of Insurance Commissioners guide to Medigap pricing and standardization",
+        "[NAIC Medigap Consumer Guide](https://content.naic.org/sites/default/files/publication-med-lp-consumer-medigap.pdf) - National Association of Insurance Commissioners guide to Medigap pricing and standardization",
         "[SHIP National Technical Assistance Center](https://www.shiphelp.org/) - Free, unbiased Medicare counseling available in every state",
         "[KFF Medigap Enrollment and Premium Data](https://www.kff.org/medicare/key-facts-about-medigap-enrollment-and-premiums-for-medicare-beneficiaries/) - KFF analysis of Medigap enrollment and premiums"
       ]},

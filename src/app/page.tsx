@@ -34,7 +34,7 @@ export default function HomePage() {
     foundingDate: "2014",
     sameAs: [
       "https://www.facebook.com/MedicareFAQ",
-      "https://www.youtube.com/@MedicareFAQ",
+      "https://www.youtube.com/channel/UCS23UfWJ0XqyCCCYIwFM41g",
       "https://www.linkedin.com/company/medicarefaq",
     ],
     contactPoint: {

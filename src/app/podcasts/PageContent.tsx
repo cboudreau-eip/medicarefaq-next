@@ -130,7 +130,7 @@ const categories = [
 
 const platforms = [
   { name: "Apple Podcasts", href: "https://podcasts.apple.com/us/podcast/medicarefaq/id1512418818" },
-  { name: "Spotify", href: "https://open.spotify.com/show/medicarefaq" },
+  { name: "Spotify", href: "https://open.spotify.com/show/1A5YS0fgibUnOMSW6DCxnw" },
   { name: "Buzzsprout", href: "https://medicarefaq.buzzsprout.com/" },
 ];
 

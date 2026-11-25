@@ -127,7 +127,7 @@ const ORGANIZATION = {
   },
   sameAs: [
     "https://www.facebook.com/MedicareFAQ",
-    "https://www.youtube.com/@MedicareFAQ",
+    "https://www.youtube.com/channel/UCS23UfWJ0XqyCCCYIwFM41g",
     "https://www.linkedin.com/company/medicarefaq",
   ],
 };
