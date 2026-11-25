@@ -12856,7 +12856,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     {
       question: "Does Medicare Cover Dentures?",
-      answer: "Original Medicare does not cover dentures. Some Medicare Advantage plans with comprehensive dental benefits include denture coverage, and stand-alone dental plans may also cover them after a waiting period. Check your specific plan's Summary of Benefits for details.",
+      answer: "[Original Medicare does not cover dentures](/faqs/does-medicare-cover-dentures/). Some Medicare Advantage plans with comprehensive dental benefits include denture coverage, and stand-alone dental plans may also cover them after a waiting period. Check your specific plan's Summary of Benefits for details.",
     },
     {
       question: "Does Medicare Cover Dental Implants?",
