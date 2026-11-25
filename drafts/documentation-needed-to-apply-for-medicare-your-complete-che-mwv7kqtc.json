@@ -612,7 +612,13 @@
       "type": "callout",
       "calloutType": "info",
       "calloutTitle": "Key Takeaways",
-      "calloutText": "Most applicants need [proof of identity](/faqs/what-is-medicare-supplement-plan-and-who-needs-one/), age, citizenship or legal residency, and a Social Security number before starting a Medicare application.\nIf you're [delaying Part B](/faqs/medicare-part-b-late-enrollment-penalty/) because of employer coverage, you'll need the [CMS-L564 form](/faqs/medicare-and-employer-coverage/) completed by your employer, and that coverage must not have ended more than 8 months before you apply.\nMissing a document doesn't have to stall your timeline if you start requesting replacements early.\nUse the checklist later in this article to confirm you have everything ready before you apply online, by phone, by mail, or in person."
+      "calloutText": "Most applicants need [proof of identity](/faqs/what-is-medicare-supplement-plan-and-who-needs-one/), age, citizenship or legal residency, and a Social Security number before starting a Medicare application.\nIf you're [delaying Part B](/faqs/medicare-part-b-late-enrollment-penalty/) because of employer coverage, you'll need the [CMS-L564 form](/faqs/medicare-and-employer-coverage/) completed by your employer, and that coverage must not have ended more than 8 months before you apply.\nIf you're qualifying through disability, you generally must receive Social Security Disability Insurance (SSDI) for 24 months before Medicare eligibility begins, though this waiting period is waived for ALS and ESRD.\nMissing a document doesn't have to stall your timeline if you start requesting replacements early.\nUse the checklist later in this article to confirm you have everything ready before you apply online, by phone, by mail, or in person."
+    },
+    {
+      "type": "callout",
+      "calloutType": "info",
+      "calloutTitle": "SSDI Waiting Period and SEP Timing at a Glance",
+      "calloutText": "SSDI waiting period for Medicare: generally 24 months of receiving Social Security Disability Insurance benefits before Medicare eligibility begins.\nWaived waiting period: ALS and ESRD qualify for Medicare on a different timeline, without the standard 24-month wait.\nPart B Special Enrollment Period timing: your group health plan coverage must not have ended more than 8 months before you apply, per current CMS-L564 instructions.\nFor exact current figures and rules, confirm directly through ssa.gov or cms.gov."
     },
     {
       "type": "heading",
@@ -669,7 +675,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Social Security generally prefers to see original documents or specific accepted copies rather than ordinary photocopies. Because requirements can vary slightly by document type and by local office, it's worth confirming exactly what will be accepted before you mail anything irreplaceable."
+      "content": "Social Security generally prefers to see original documents or specific accepted copies rather than ordinary photocopies. Because requirements can vary slightly by document type and by local office, it's worth confirming exactly what will be accepted before you mail anything irreplaceable. The Social Security Administration's Program Operations Manual System (POMS) outlines accepted evidence types in more detail, and you can review current guidance through [secure.ssa.gov/poms.nsf](https://secure.ssa.gov/poms.nsf/home!readform) if you want to confirm a specific document type before you apply."
     },
     {
       "type": "heading",
@@ -722,6 +728,10 @@
       "content": "If you're qualifying for Medicare through disability rather than age, you'll generally go through Social Security's disability determination process first, which involves more documentation than a standard age-based application. Social Security needs enough medical and work history information to evaluate your claim."
     },
     {
+      "type": "paragraph",
+      "content": "In most cases, you must receive Social Security Disability Insurance (SSDI) benefits for 24 months before Medicare coverage begins. This waiting period is waived if you have amyotrophic lateral sclerosis (ALS) or end-stage renal disease (ESRD), both of which qualify you for Medicare on a different timeline."
+    },
+    {
       "type": "list",
       "ordered": false,
       "items": [
@@ -733,6 +743,10 @@
     {
       "type": "paragraph",
       "content": "Because disability-based applications tend to be more involved than age-based enrollment, it's worth confirming the exact paperwork Social Security needs for your specific situation directly with the agency rather than relying solely on a general checklist."
+    },
+    {
+      "type": "paragraph",
+      "content": "If you have limited income and resources, you may also qualify for a Medicare Savings Program to help with premiums and cost-sharing, or for Extra Help with Part D prescription drug costs. These programs typically require documentation of your income, resources, and household size, so it's worth gathering recent pay stubs, bank statements, and benefit award letters if you plan to apply. Your state Medicaid office or the Social Security Administration can confirm exactly which documents are needed for these programs."
     },
     {
       "type": "heading",
@@ -756,7 +770,7 @@
     },
     {
       "type": "paragraph",
-      "content": "This timing detail matters because it's the rule CMS uses to confirm you're within your Special Enrollment Period window rather than outside it, which affects whether a late enrollment penalty applies. You can review the exact wording on the form itself through the [CMS-L564 instructions](https://www.cms.gov/medicare/cms-forms/cms-forms/downloads/cms-l564e.pdf#page=1)."
+      "content": "This timing detail matters because it's the rule CMS uses to confirm you're within your Part B Special Enrollment Period window rather than outside it. Part B Special Enrollment Period eligibility is governed by its own set of rules separate from the Part D late enrollment penalty framework, so coverage that satisfies the Part B SEP timing requirement does not automatically determine whether a Part D late enrollment penalty applies. You can review the exact wording on the form itself through the [CMS-L564 instructions](https://www.cms.gov/medicare/cms-forms/cms-forms/downloads/cms-l564e.pdf#page=1). Medicare.gov's enrollment checklist also outlines the documentation generally expected for Special Enrollment Periods, and is worth reviewing alongside the form instructions."
     },
     {
       "type": "paragraph",
@@ -807,7 +821,7 @@
     },
     {
       "type": "paragraph",
-      "content": "The same CMS-L564 requirement from Step 4 applies here, including the rule that your coverage must not have ended more than 8 months before you apply. This timing limit is specifically what determines whether you avoid the Part D or Part B late enrollment penalty, so it's worth double-checking your coverage end date against this window before you submit anything."
+      "content": "The same CMS-L564 requirement from Step 4 applies here, including the rule that your coverage must not have ended more than 8 months before you apply. This timing limit is specifically what determines whether you qualify for the Part B Special Enrollment Period and avoid the Part B late enrollment penalty. The Part D late enrollment penalty follows its own separate set of rules based on creditable prescription drug coverage, so it's worth confirming both your Part B coverage end date and your Part D creditable coverage status before you submit anything."
     },
     {
       "type": "paragraph",
@@ -827,7 +841,7 @@
       "type": "list",
       "ordered": false,
       "items": [
-        "Online at ssa.gov: you enter your information electronically, and Social Security may follow up separately if additional verification is needed",
+        "Online at ssa.gov: you enter your information electronically, and Social Security may follow up separately if additional verification is needed. If you don't already have one, you'll need to create a mySocialSecurity.gov account to start and track your application",
         "By phone: a representative walks you through the required information and lets you know what, if anything, needs to be mailed or brought in afterward",
         "By mail: you'll need to carefully package original documents or the specific copies Social Security accepts, since mailed items can take time to process and return",
         "In person at a Social Security office: you can often show original documents on the spot, which some people prefer if they're uneasy about mailing irreplaceable paperwork"
@@ -877,8 +891,9 @@
       "items": [
         "Identity and citizenship: birth certificate or acceptable substitute, U.S. passport, driver's license or state ID, Social Security card or number, naturalization certificate or permanent resident card if applicable",
         "Employment and coverage: CMS-L564 completed by your employer, or alternative evidence such as tax returns, W-2s, pay stubs, insurance cards, or explanations of benefits",
-        "Disability-specific: medical records and treating doctor contact information, work history summary, workers' compensation or other disability benefit details",
-        "Military: DD-214 discharge papers, if your service dates affect eligibility timing or benefits coordination"
+        "Disability-specific: medical records and treating doctor contact information, work history summary, workers' compensation or other disability benefit details, and confirmation of your 24-month SSDI waiting period status (waived for ALS and ESRD)",
+        "Military: DD-214 discharge papers, if your service dates affect eligibility timing or benefits coordination",
+        "Low-income assistance: income, resource, and household documentation if you're applying for a Medicare Savings Program or Extra Help with prescription drug costs"
       ]
     },
     {
@@ -1059,6 +1074,6 @@
     }
   ],
   "id": "documentation-needed-to-apply-for-medicare-your-complete-che-mwv7kqtc",
-  "updatedAt": "2026-11-25T13:34:25.603Z",
-  "createdAt": "2026-11-25T13:34:25.603Z"
+  "updatedAt": "2026-11-25T14:21:36.809Z",
+  "createdAt": "2026-11-25T14:21:36.809Z"
 }
