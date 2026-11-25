@@ -119,7 +119,7 @@ export default function Footer() {
           {/* Centered logo & contact row */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
             <img
-              src={LOGO_URL}
+              src={LOGO_URL} width={1280} height={233}
               alt="MedicareFAQ.com"
               className="h-10 w-auto brightness-0 invert opacity-70"
             />

@@ -11,7 +11,7 @@ export default function MenuTestThreeHeader() {
     <div className="border-b border-[#E5E7EB] bg-white">
       <div className="container flex h-[83.2px] items-center justify-between gap-[12.8px]">
         <Link href="/" className="min-w-0 w-[192px] xl:w-[304px] shrink">
-          <img src="/images/medicarefaq-logo.png" alt="MedicareFAQ.com - Powered by Elite Insurance Partners" className="h-auto w-full" />
+          <img src="/images/medicarefaq-logo.png" width={1280} height={233} alt="MedicareFAQ.com - Powered by Elite Insurance Partners" className="h-auto w-full" />
         </Link>
         <div className="flex shrink-0 items-center gap-[9.6px] xl:gap-[12.8px]">
           <nav aria-label="About and resources" className="flex items-center divide-x divide-slate-300">

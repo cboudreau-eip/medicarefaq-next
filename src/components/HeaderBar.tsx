@@ -114,7 +114,7 @@ export default function HeaderBar({ centeredLogo = false }: { centeredLogo?: boo
         {/* Logo */}
         <Link href="/" className={centeredLogo ? "col-start-2 row-start-1 justify-self-center min-w-0 w-3/5 max-w-[234px]" : "shrink-0"}>
           <img
-            src={LOGO_URL}
+            src={LOGO_URL} width={1280} height={233}
             alt="MedicareFAQ.com - Powered by Elite Insurance Partners"
             className={centeredLogo ? "w-full h-auto" : "h-12 w-auto"}
           />

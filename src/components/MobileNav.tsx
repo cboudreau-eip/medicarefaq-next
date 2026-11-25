@@ -32,7 +32,7 @@ export default function MobileNav() {
       {/* Top bar */}
       <div className="relative z-50 flex items-center justify-between h-14 px-4 bg-white">
         <Link href="/" className="shrink-0" onClick={() => setIsOpen(false)}>
-          <img src={LOGO_URL} alt="MedicareFAQ" className="h-7 w-auto" />
+          <img src={LOGO_URL} width={1280} height={233} alt="MedicareFAQ" className="h-7 w-auto" />
         </Link>
         <div className="flex items-center gap-3">
           <ZipFormModal

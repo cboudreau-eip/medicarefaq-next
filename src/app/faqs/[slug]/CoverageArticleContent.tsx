@@ -1,4 +1,6 @@
 "use client";
+import { getContentImageDimensions } from "@/lib/content-image-dimensions";
+
 import ArticleContentAdditions from "@/components/ArticleContentAdditions";
 import ArticleGuideCta from "@/components/ArticleGuideCta";
 import { renderInline } from "@/components/ArticleInline";
@@ -577,6 +579,7 @@ export default function CoverageArticleContent({ article, sidebarLinks }: { arti
                           <Link href={article.midCtaImage.link || "https://demographics.medicarecompared.com/ms/"}>
                             <img
                               src={article.midCtaImage.src}
+                              {...getContentImageDimensions(article.midCtaImage.src)}
                               alt={article.midCtaImage.alt || "Find the Right Medicare Plan for You"}
                               className="w-full rounded-xl shadow-md border border-[#E5E7EB] hover:shadow-lg transition-shadow cursor-pointer"
                               loading="lazy"
@@ -839,6 +842,7 @@ export default function CoverageArticleContent({ article, sidebarLinks }: { arti
                   <figure className="rounded-xl overflow-hidden border border-[#E5E7EB] shadow-sm">
                     <img
                       src={article.infographic.src}
+                      {...getContentImageDimensions(article.infographic.src)}
                       alt={article.infographic.alt}
                       className="w-full h-auto"
                       loading="lazy"

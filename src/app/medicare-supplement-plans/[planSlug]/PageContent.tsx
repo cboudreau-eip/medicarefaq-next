@@ -156,7 +156,7 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
                 <figure className="my-8">
                   <Link href="https://demographics.medicarecompared.com/ms/">
                     <img
-                      src="/images/cta-banner-find-plan.jpg"
+                      src="/images/cta-banner-find-plan.jpg" width={1584} height={672}
                       alt="Find the Right Medicare Plan for You"
                       className="w-full rounded-xl shadow-md border border-slate-200 hover:shadow-lg transition-shadow cursor-pointer"
                       loading="lazy"

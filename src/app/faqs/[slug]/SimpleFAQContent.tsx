@@ -1,4 +1,6 @@
 "use client";
+import { getContentImageDimensions } from "@/lib/content-image-dimensions";
+
 import ArticleContentAdditions from "@/components/ArticleContentAdditions";
 import ArticleGuideCta from "@/components/ArticleGuideCta";
 import { renderInline } from "@/components/ArticleInline";
@@ -224,6 +226,7 @@ function renderRichSection(section: BlogSectionContent, idx: number) {
       const imgElement = (
         <img
           src={section.src}
+          {...getContentImageDimensions(section.src)}
           alt={section.alt || ""}
           className={`w-full rounded-xl shadow-md border border-[#E5E7EB]${section.link ? " hover:shadow-lg transition-shadow cursor-pointer" : ""}`}
           loading="lazy"

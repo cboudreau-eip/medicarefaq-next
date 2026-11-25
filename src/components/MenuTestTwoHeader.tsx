@@ -10,7 +10,7 @@ export default function MenuTestTwoHeader() {
     <div className="border-b border-[#E5E7EB] bg-white">
       <div className="container flex h-[72px] items-center justify-between gap-6">
         <Link href="/" className="w-[234px] shrink-0">
-          <img src="/images/medicarefaq-logo.png" alt="MedicareFAQ.com - Powered by Elite Insurance Partners" className="h-auto w-full" />
+          <img src="/images/medicarefaq-logo.png" width={1280} height={233} alt="MedicareFAQ.com - Powered by Elite Insurance Partners" className="h-auto w-full" />
         </Link>
         <div className="flex items-center gap-6 xl:gap-10">
           <nav aria-label="About and resources" className="flex items-center gap-4 xl:gap-5">

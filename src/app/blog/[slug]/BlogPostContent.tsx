@@ -1,4 +1,6 @@
 "use client";
+import { getContentImageDimensions } from "@/lib/content-image-dimensions";
+
 import ArticleGuideCta from "@/components/ArticleGuideCta";
 import GuideCta from "@/components/GuideCta";
 import { renderInline } from "@/components/ArticleInline";
@@ -237,6 +239,7 @@ function renderSection(section: BlogSectionContent, idx: number) {
               trigger={
                 <img
                   src={section.src}
+                  {...getContentImageDimensions(section.src)}
                   alt={section.alt || ""}
                   className="w-full rounded-xl shadow-md border border-[#E5E7EB] hover:shadow-lg transition-shadow cursor-pointer"
                   loading="lazy"
@@ -260,6 +263,7 @@ function renderSection(section: BlogSectionContent, idx: number) {
               <Link href={section.link}>
                 <img
                   src={section.src}
+                  {...getContentImageDimensions(section.src)}
                   alt={section.alt || ""}
                   className="w-full rounded-xl shadow-md border border-[#E5E7EB] hover:shadow-lg transition-shadow cursor-pointer"
                   loading="lazy"
@@ -269,6 +273,7 @@ function renderSection(section: BlogSectionContent, idx: number) {
               <a href={section.link} target="_blank" rel="noopener noreferrer">
                 <img
                   src={section.src}
+                  {...getContentImageDimensions(section.src)}
                   alt={section.alt || ""}
                   className="w-full rounded-xl shadow-md border border-[#E5E7EB] hover:shadow-lg transition-shadow cursor-pointer"
                   loading="lazy"
@@ -287,6 +292,7 @@ function renderSection(section: BlogSectionContent, idx: number) {
         <figure key={idx} className="my-8">
           <img
             src={section.src}
+            {...getContentImageDimensions(section.src)}
             alt={section.alt || ""}
             className="w-full rounded-xl shadow-md border border-[#E5E7EB]"
             loading="lazy"
