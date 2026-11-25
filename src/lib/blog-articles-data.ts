@@ -804,6 +804,7 @@ export const blogArticles: BlogArticleData[] = [
   },
 
   {
+    dateUpdated: "2026-11-25",
     slug: "how-to-navigate-medicare-advantage-s-supplemental-benefits",
     seo: {
       title: "Medicare Advantage Supplemental Benefits Comparison 2027",
@@ -855,7 +856,7 @@ export const blogArticles: BlogArticleData[] = [
       { type: "heading", level: 2, text: "Step 3: Use a Side-by-Side Checklist for Each Benefit Category", id: "step-3-side-by-side-checklist" },
       { type: "paragraph", content: "Once you have the **Evidence of Coverage** for each plan you're considering, compare the same categories across plans rather than reading each document in isolation. For dental, check the annual maximum, whether major services like crowns or dentures are covered and at what percentage, and whether you must use an in-network dentist to get the full benefit." },
       { type: "paragraph", content: "For vision and hearing, note the allowance amount for glasses, contacts, or hearing aids, and how often you can use that allowance, such as once every one or two years. For fitness and wellness programs, confirm which specific programs are included and whether your preferred gym actually participates, since not all locations under a national brand are automatically in-network." },
-      { type: "paragraph", content: "Transportation, meal delivery, and over-the-counter allowances each come with their own limits worth checking closely. Look for the number of trips allowed per year for transportation benefits, the number of meals covered after a qualifying hospital stay, and whether an over-the-counter card balance expires monthly, quarterly, or carries over. Unused balances that don't roll over can mean losing value you assumed you had." },
+      { type: "paragraph", content: "Transportation, meal delivery, and over-the-counter allowances each come with their own limits worth checking closely. Look for the number of trips allowed per year for transportation benefits, [the number of meals covered after a qualifying hospital stay](/faqs/does-medicare-cover-meals-on-wheels/), and whether an over-the-counter card balance expires monthly, quarterly, or carries over. Unused balances that don't roll over can mean losing value you assumed you had." },
       { type: "list", ordered: false, items: ["Dental: annual maximum, coverage percentage for major services like crowns or dentures, in-network dentist requirement", "Vision and hearing: allowance amount for glasses, contacts, or hearing aids, and how often the allowance renews", "Fitness and wellness: which specific programs are included and whether your preferred gym location participates", "Transportation: number of trips allowed per year", "Meal delivery: number of meals covered after a qualifying hospital stay", "OTC allowance: whether the balance expires monthly, quarterly, or carries over"] },
       { type: "heading", level: 3, text: "Sample Comparison Checklist You Can Use Today", id: "sample-comparison-checklist" },
       { type: "table", title: "Supplemental Benefit Comparison Checklist", headers: ["Benefit", "Dollar Limit", "Network Requirement", "Renewal Date"], rows: [["Dental (major services)", "", "", ""], ["Vision allowance", "", "", ""], ["Hearing aid allowance", "", "", ""], ["Fitness program", "", "", ""], ["Transportation", "", "", ""], ["OTC allowance", "", "", ""]], footnote: "Fill in this table for each plan you're considering, using its Evidence of Coverage document, before you enroll." },
@@ -4290,6 +4291,7 @@ export const blogArticles: BlogArticleData[] = [
   },
 
   {
+    dateUpdated: "2026-11-25",
     slug: "medicare-reverification-rule",
     seo: {
       focusKeyword: "",
@@ -4346,7 +4348,7 @@ export const blogArticles: BlogArticleData[] = [
       { type: "paragraph", content: "For example, a retiree named Carol who has stayed on the same Medicare Advantage plan for four years might discover during reverification that her plan's network has shifted and her cardiologist is no longer covered. Catching this during reverification, rather than after a claim is denied, gives her time to compare alternatives calmly." },
       { type: "eddie-pro-tip", content: "I always tell people that reverification season is actually a good excuse to do the plan review you have been putting off. You are already gathering your documents and checking your details, so take that extra ten minutes to confirm your doctors and prescriptions are still covered. It is a lot easier to make a small adjustment now than to deal with a denied claim later." },
       { type: "heading", level: 2, text: "Understanding Costs, Copays, and Out-of-Pocket Expenses After Reverification", id: "understanding-costs-after-reverification" },
-      { type: "paragraph", content: "Reverification itself does not raise your premiums, but it can reveal whether your income bracket or eligibility status has shifted enough to change what you pay. According to CMS.gov, the standard Part B premium for 2026 is $202.90 per month, and beneficiaries with higher reported income may pay more under IRMAA surcharges that can add several hundred dollars more per month for Part B alone. These IRMAA determinations rely on income data verified by the Social Security Administration. Check CMS.gov for the current IRMAA surcharge amounts based on your income bracket." },
+      { type: "paragraph", content: "Reverification itself does not raise your premiums, but it can reveal whether your income bracket or eligibility status has shifted enough to change what you pay. According to CMS.gov, [the standard Part B premium for 2026 is $202.90 per month](/blog/90-essential-facts-about-the-90-medicare-part-b-rebate/), and beneficiaries with higher reported income may pay more under IRMAA surcharges that can add several hundred dollars more per month for Part B alone. These IRMAA determinations rely on income data verified by the Social Security Administration. Check CMS.gov for the current IRMAA surcharge amounts based on your income bracket." },
       { type: "paragraph", content: "Part D costs deserve close attention too. According to CMS.gov, the 2026 average premium is $34.50, with a maximum deductible of $615 and a catastrophic phase threshold of $2,100. If your income has changed, IRMAA-related Part D surcharges can also apply, so confirming accurate income data with the Social Security Administration during reverification matters more than it might seem. Visit CMS.gov for the current Part D IRMAA surcharge amounts." },
       { type: "paragraph", content: "A few habits help avoid surprises. Review your Annual Notice of Change each fall, compare your current formulary against your prescriptions, and ask about total yearly cost estimates rather than just the monthly premium." },
       { type: "table", title: "2026 Medicare Costs to Review During Reverification", headers: ["Cost Type", "2026 Amount"], rows: [["Part B Standard Premium", "$202.90/month"], ["Part B Deductible", "$283"], ["Part D Average Premium", "$34.50/month"], ["Part D Maximum Deductible", "$615"], ["Part D Catastrophic Threshold", "$2,100.00"], ["IRMAA Tiers (Part B and Part D Surcharges)", "Apply based on modified adjusted gross income; check CMS.gov for current bracket amounts"], ["Medicare Advantage Max Out-of-Pocket (MOOP)", "$9,250"]], footnote: "Figures reflect 2026 Medicare costs according to CMS.gov. Actual amounts vary by plan and income level." },
@@ -9983,7 +9985,7 @@ export const blogArticles: BlogArticleData[] = [
     category: 'Medicare Basics',
     categoryColor: '#2563EB',
     date: 'August 8, 2025',
-    dateUpdated: 'August 10, 2026',
+    dateUpdated: "2026-11-25",
     author: 'David Haass',
     reviewer: 'Ashlee Zareczny',
     readTime: '12 min read',
@@ -10001,7 +10003,7 @@ export const blogArticles: BlogArticleData[] = [
     ],
     showInlineCta: true,
     keyTakeaways: [
-      "Medicare is an individual program, spouses cannot share a plan or be added as dependents, but a spouse\'s work record can help you qualify for premium-free Part A.",
+      "Medicare is an individual program, [spouses cannot share a plan or be added as dependents](/faqs/medicare-coverage-for-my-children/), but a spouse's work record can help you qualify for premium-free Part A.",
       "Joint tax filing can trigger IRMAA surcharges on Part B and Part D premiums if your combined modified adjusted gross income exceeds $218,000 in 2026.",
       "Divorce, widowhood, and loss of a spouse\'s employer coverage each create Special Enrollment Periods and, in some cases, Medigap Guaranteed Issue Rights that protect you from medical underwriting."
     ],
@@ -12892,6 +12894,7 @@ export const blogArticles: BlogArticleData[] = [
     relatedSlugs: ["the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters", "switching-from-medicare-advantage-to-original-medicare-what-you-need-to-know", "how-can-seniors-save-on-prescription-drug-costs", "medicare-easy-pay", "medicare-beneficiary-identifiers"],
   },
   {
+    dateUpdated: "2026-11-25",
     slug: "how-can-seniors-save-on-prescription-drug-costs",
     seo: {
       title: "How Can Seniors Save on Prescription Drug Costs?",
@@ -12913,7 +12916,7 @@ export const blogArticles: BlogArticleData[] = [
     keyTakeaways: [
       "The Part D $2,000 out-of-pocket cap (effective 2025) provides major protection against catastrophic drug costs",
       "Extra Help (Low Income Subsidy) can reduce Part D premiums and copays to near zero",
-      "Prescription discount cards like GoodRx can sometimes beat Medicare Part D prices"
+      "[Prescription discount cards like GoodRx can sometimes beat Medicare Part D prices](/faqs/manufacturers-coupons-and-medicare/)"
     ],
     tableOfContents: [
       { id: "part-d", title: "How Medicare Part D Can Help" },
